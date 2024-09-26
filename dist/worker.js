@@ -48,16 +48,64 @@ async function cacheFirstWithRefresh(request) {
 async function downloadCourse(path, client) {
   console.log("The Worker is Downloading a Course", path);
   const resp = await fetch(path);
-  console.log(resp);
+  console.log(1)
   const zipBlob = await resp.blob();
-  console.log(zipBlob);
+  console.log(2)
   const zip = await new JSZip.loadAsync(zipBlob);
-  console.log(zip);
-  // can use "string" here. Not sure which we'll need yet
-  const indexFile = await zip.file("index.html").async("string");
-  console.log(indexFile);
+  console.log(3)
   const cache = await caches.open("CourseCacheV1");
-  // const keys = await cache.keys();
-  const x = await cache.put('/courses/course-1/index.html', new Response(indexFile, { headers: { 'Content-Type': 'text/html' } }));
-  console.log(x);
+  console.log(4)
+
+  const paths = [];
+  zip.forEach((path, fileData) => {
+    if (!fileData.dir) {
+      paths.push(path);
+    }
+  })
+
+  for (const path of paths) {
+    const mime = mimeFromExtension(path);
+    const fileData = await zip.file(path).async("blob");
+    await cache.put(`/courses/course-1/${path}`, new Response(fileData, { headers: { 'Content-Type': mime } }));
+  }
+}
+
+
+
+function mimeFromExtension(path) {
+  const extension = path.split('.').pop();
+  switch (extension) {
+    case 'html':
+      return 'text/html';
+    case 'css':
+      return 'text/css';
+    case 'js':
+      return 'application/javascript';
+    case 'json':
+      return 'application/json';
+    case 'jpg':
+    case 'jpeg':
+      return 'image/jpeg';
+    case 'png':
+      return 'image/png';
+    case 'gif':
+      return 'image/gif';
+    case 'svg':
+      return 'image/svg+xml';
+    case 'woff':
+      return 'font/woff';
+    case 'woff2':
+      return 'font/woff2';
+    case 'ttf':
+      return 'font/ttf';
+    case 'xml':
+      return 'application/xml';
+    case 'pdf':
+      return 'application/pdf';
+    case 'ico':
+      return 'image/x-icon';
+    default:
+      console.log(`Unknown extension: ${extension}`);
+      return 'text/plain';
+  }
 }
