@@ -22,7 +22,7 @@ addEventListener('message', event => {
   console.log("The Worker Received a Message", event);
   if (typeof event.data === 'object' && !Array.isArray(event.data) && event.data !== null) {
     if (event.data.type === 'downloadCourse') {
-      downloadCourse(event.data.path, event.source);
+      downloadCourse(event.data.path, event.data.courseId, event.source);
     }
   }
   // event.source.postMessage("Hello from the worker!");
@@ -45,7 +45,7 @@ async function cacheFirstWithRefresh(request) {
   return (await caches.match(request)) || (await fetchResponsePromise);
 }
 
-async function downloadCourse(path, client) {
+async function downloadCourse(path, courseId, client) {
   console.log("The Worker is Downloading a Course", path);
   const resp = await fetch(path);
   console.log(1)
@@ -53,7 +53,7 @@ async function downloadCourse(path, client) {
   console.log(2)
   const zip = await new JSZip.loadAsync(zipBlob);
   console.log(3)
-  const cache = await caches.open("CourseCacheV1");
+  const cache = await caches.open(`course-${courseId}`);
   console.log(4)
 
   const paths = [];
@@ -69,8 +69,6 @@ async function downloadCourse(path, client) {
     await cache.put(`/courses/course-1/${path}`, new Response(fileData, { headers: { 'Content-Type': mime } }));
   }
 }
-
-
 
 function mimeFromExtension(path) {
   const extension = path.split('.').pop();

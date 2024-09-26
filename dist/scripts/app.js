@@ -24,8 +24,7 @@ function activateCourseButtons(worker) {
   console.log(buttons)
   buttons.forEach(button => {
     button.addEventListener("click", () => {
-      console.log("The Button Was Clicked", button.dataset,worker);
-      worker.postMessage({ type: "downloadCourse", path: button.dataset.coursePath });
+      worker.postMessage({ type: "downloadCourse", path: button.dataset.coursePath, courseId: button.dataset.courseId });
     });
   });
 }
