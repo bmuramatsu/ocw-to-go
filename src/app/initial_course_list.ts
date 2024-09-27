@@ -15,20 +15,21 @@ const ALL_COURSES: Course[] = [
     status: "",
     ready: false
   },
-  {
-    id: "course-3",
-    name: "Introduction to Computer Science and Programming in Python",
-    file: "/downloads/6.0001-fall-2016.zip",
-    status: "",
-    ready: false
-  },
-  {
-    id: "course-4",
-    name: "Linear Algebra",
-    file: "/downloads/18.06sc-fall-2011.zip",
-    status: "",
-    ready: false
-  },
+  // These files are too big for cloudflare pages
+  // {
+  //   id: "course-3",
+  //   name: "Introduction to Computer Science and Programming in Python",
+  //   file: "/downloads/6.0001-fall-2016.zip",
+  //   status: "",
+  //   ready: false
+  // },
+  // {
+  //   id: "course-4",
+  //   name: "Linear Algebra",
+  //   file: "/downloads/18.06sc-fall-2011.zip",
+  //   status: "",
+  //   ready: false
+  // },
   {
     id: "course-5",
     name: "Kanji Learning Any Time, Any Place for Japanese VI",
