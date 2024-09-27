@@ -23700,7 +23700,7 @@
       return () => navigator.serviceWorker.removeEventListener("message", onMessage);
     }, []);
     if (course === null) {
-      return /* @__PURE__ */ import_react3.default.createElement("div", null, /* @__PURE__ */ import_react3.default.createElement("h1", null, "Courses"), /* @__PURE__ */ import_react3.default.createElement("ul", null, courses.map((course2) => /* @__PURE__ */ import_react3.default.createElement("li", { key: course2.id }, /* @__PURE__ */ import_react3.default.createElement(
+      return /* @__PURE__ */ import_react3.default.createElement("div", null, /* @__PURE__ */ import_react3.default.createElement("h1", null, /* @__PURE__ */ import_react3.default.createElement("img", { src: "/icons/android/android-launchericon-192-192.png" }), "Courses"), /* @__PURE__ */ import_react3.default.createElement("ul", null, courses.map((course2) => /* @__PURE__ */ import_react3.default.createElement("li", { key: course2.id }, /* @__PURE__ */ import_react3.default.createElement(
         CourseListItem,
         {
           course: course2,

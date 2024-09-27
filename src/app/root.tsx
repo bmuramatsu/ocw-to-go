@@ -34,7 +34,7 @@ export default function Root(props: Props) {
   if (course === null) {
     return (
       <div>
-        <h1>Courses</h1>
+        <h1><img src="/icons/android/android-launchericon-192-192.png" />Courses</h1>
         <ul>
           {courses.map(course => (
             <li key={course.id}>

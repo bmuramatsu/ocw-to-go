@@ -18,15 +18,4 @@ function activateWorker() {
   });
 }
 
-function activateCourseButtons(worker) {
-  const buttons = document.querySelectorAll(".course-download");
-  buttons.forEach(button => {
-    if (!(button instanceof HTMLButtonElement)) return;
-
-    button.addEventListener("click", () => {
-      worker.postMessage({ type: "downloadCourse", path: button.dataset.coursePath, courseId: button.dataset.courseId });
-    });
-  });
-}
-
 init();
