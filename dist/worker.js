@@ -1,21 +1,39 @@
-console.log("The Worker Ran");
+console.log("The Worker Ran!");
 importScripts("/scripts/jszip.min.js");
+
+const ASSETS_TO_CACHE = [
+  '/',
+  '/index.html',
+  '/favicon.ico',
+  '/styles/pico.min.css',
+  '/scripts/app.js',
+  '/manifest.json',
+  '/icons/android/android-launchericon-192-192.png',
+  '/icons/android/android-launchericon-512-512.png',
+];
 
 self.addEventListener('install', event => {
   console.log("The Worker Installed", event);
-  event.waitUntil(self.skipWaiting()); // Activate worker immediately
+  event.waitUntil((async () => {
+    const cache = await caches.open("pwa-assets");
+    await cache.addAll(ASSETS_TO_CACHE);
+  })()); 
+  // Activate worker immediately
+  self.skipWaiting()
 });
 
 self.addEventListener('activate', event => {
   console.log("The Worker Activated", event);
-  event.waitUntil(self.clients.claim()); // Become available to all pages
+  
+  // Become available to all pages
+  event.waitUntil(self.clients.claim());
 });
 
 addEventListener('fetch', event => {
   console.log("The Worker Fetched", event);
-  // if (isCacheable(event.request)) {
-  event.respondWith(cacheFirstWithRefresh(event.request));
-  // }
+  if (isCacheable(event.request)) {
+    event.respondWith(cacheFirst(event.request));
+  }
 });
 
 addEventListener('message', event => {
@@ -28,10 +46,13 @@ addEventListener('message', event => {
   // event.source.postMessage("Hello from the worker!");
 });
 
-// function isCacheable(request) {
-//   const url = new URL(request.url);
-//   return !url.pathname.endsWith(".json");
-// }
+function isCacheable(request) {
+  return true;
+}
+
+async function cacheFirst(request) {
+  return (await caches.match(request)) || await fetch(request);
+}
 
 async function cacheFirstWithRefresh(request) {
   const fetchResponsePromise = fetch(request).then(async (networkResponse) => {
