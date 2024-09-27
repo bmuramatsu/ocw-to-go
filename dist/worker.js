@@ -2406,7 +2406,6 @@
     "/index.html",
     "/favicon.ico",
     "/styles/pico.min.css",
-    "/styles/app.css",
     "/app.js",
     "/manifest.json",
     "/icons/android/android-launchericon-192-192.png",
