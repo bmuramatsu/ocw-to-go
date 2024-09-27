@@ -2400,7 +2400,7 @@
 
   // src/worker.ts
   var import_jszip = __toESM(require_jszip_min());
-  console.log("The Worker Ran;");
+  console.log("The Worker Ran");
   var ASSETS_TO_CACHE = [
     "/",
     "/index.html",
@@ -2439,15 +2439,12 @@
     return await caches.match(request) || await fetch(request);
   }
   async function downloadCourse(path, courseId, client) {
-    console.log("The Worker is Downloading a Course", path);
+    client.postMessage({ type: "statusUpdate", courseId, status: "Downloading" });
     const resp = await fetch(path);
-    console.log(1);
+    client.postMessage({ type: "statusUpdate", courseId, status: "Saving" });
     const zipBlob = await resp.blob();
-    console.log(2);
     const zip = await new import_jszip.default().loadAsync(zipBlob);
-    console.log(3);
     const cache = await caches.open(`course-${courseId}`);
-    console.log(4);
     const paths = [];
     zip.forEach((path2, fileData) => {
       if (!fileData.dir) {
@@ -2459,6 +2456,7 @@
       const fileData = await zip.file(path2).async("blob");
       await cache.put(`/courses/${courseId}/${path2}`, new Response(fileData, { headers: { "Content-Type": mime } }));
     }
+    client.postMessage({ type: "statusUpdate", courseId, status: "Ready" });
   }
   function mimeFromExtension(path) {
     const extension = path.split(".").pop();

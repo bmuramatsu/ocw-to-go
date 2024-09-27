@@ -3,7 +3,7 @@ import JSZip from 'jszip';
 export type {};
 declare const self: ServiceWorkerGlobalScope;
 
-console.log("The Worker Ran;");
+console.log("The Worker Ran");
 
 const ASSETS_TO_CACHE = [
   '/',
@@ -53,15 +53,12 @@ async function cacheFirst(request: Request) {
 }
 
 async function downloadCourse(path: string, courseId: string, client: MessageEventSource) {
-  console.log("The Worker is Downloading a Course", path);
+  client.postMessage({ type: 'statusUpdate', courseId, status: 'Downloading' });
   const resp = await fetch(path);
-  console.log(1)
+  client.postMessage({ type: 'statusUpdate', courseId, status: 'Saving' });
   const zipBlob = await resp.blob();
-  console.log(2)
   const zip = await new JSZip().loadAsync(zipBlob);
-  console.log(3)
   const cache = await caches.open(`course-${courseId}`);
-  console.log(4)
 
   const paths: string[] = [];
   zip.forEach((path, fileData) => {
@@ -75,6 +72,7 @@ async function downloadCourse(path: string, courseId: string, client: MessageEve
     const fileData = await zip.file(path)!.async("blob");
     await cache.put(`/courses/${courseId}/${path}`, new Response(fileData, { headers: { 'Content-Type': mime } }));
   }
+  client.postMessage({ type: 'statusUpdate', courseId, status: 'Ready' });
 }
 
 function mimeFromExtension(path: string) {
