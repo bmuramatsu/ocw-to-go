@@ -6,7 +6,7 @@ const ALL_COURSES: Course[] = [
   {
     id: "course-10",
     name: "Introduction to CS and Programming using Python",
-    file: ASSET_HOST+"/intro-to-cs-1.zip",
+    file: ASSET_HOST+"/intro-to-cs-01.zip",
     status: "",
     ready: false
   },

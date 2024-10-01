@@ -23608,7 +23608,7 @@
     {
       id: "course-10",
       name: "Introduction to CS and Programming using Python",
-      file: ASSET_HOST + "/intro-to-cs-1.zip",
+      file: ASSET_HOST + "/intro-to-cs-01.zip",
       status: "",
       ready: false
     },
@@ -23688,7 +23688,7 @@
       const onMessage = (event) => {
         if (typeof event.data === "object" && !Array.isArray(event.data) && event.data !== null) {
           if (event.data.type === "statusUpdate") {
-            setCourses(courses.map((course2) => {
+            setCourses((courses2) => courses2.map((course2) => {
               if (course2.id === event.data.courseId) {
                 return __spreadProps(__spreadValues({}, course2), { status: event.data.status, ready: event.data.status === "Ready" });
               }

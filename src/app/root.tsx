@@ -17,7 +17,7 @@ export default function Root(props: Props) {
     const onMessage = (event: MessageEvent) => {
       if (typeof event.data === 'object' && !Array.isArray(event.data) && event.data !== null) {
         if (event.data.type === 'statusUpdate') {
-          setCourses(courses.map(course => {
+          setCourses(courses => courses.map(course => {
             if (course.id === event.data.courseId) {
               return { ...course, status: event.data.status, ready: event.data.status === 'Ready' };
             }
