@@ -23603,47 +23603,47 @@
   var import_client = __toESM(require_client());
 
   // src/app/initial_course_list.ts
+  var ASSET_HOST = "https://mit-ocw-courses.atomicjoltdevapps.com";
   var ALL_COURSES = [
     {
-      id: "course-1",
-      name: "Genre Fiction Workshop: Fantasy",
-      file: "/downloads/21w.758-fall-2016.zip",
+      id: "course-10",
+      name: "Introduction to CS and Programming using Python",
+      file: ASSET_HOST + "/intro-to-cs-1.zip",
       status: "",
       ready: false
     },
     {
-      id: "course-2",
-      name: "Creole Languages and Caribbean Identities",
-      file: "/downloads/24.908-spring-2017-2.zip",
-      status: "",
-      ready: false
-    },
-    // These files are too big for cloudflare pages
-    // {
-    //   id: "course-3",
-    //   name: "Introduction to Computer Science and Programming in Python",
-    //   file: "/downloads/6.0001-fall-2016.zip",
-    //   status: "",
-    //   ready: false
-    // },
-    // {
-    //   id: "course-4",
-    //   name: "Linear Algebra",
-    //   file: "/downloads/18.06sc-fall-2011.zip",
-    //   status: "",
-    //   ready: false
-    // },
-    {
-      id: "course-5",
-      name: "Kanji Learning Any Time, Any Place for Japanese VI",
-      file: "/downloads/res.21g-506-spring-2021.zip",
-      status: "",
-      ready: false
-    },
-    {
-      id: "course-6",
+      id: "course-11",
       name: "Kanji Learning Any Time, Any Place for Japanese V",
-      file: "/downloads/res-21g-505-spring-2022.zip",
+      file: ASSET_HOST + "/japanese-v.zip",
+      status: "",
+      ready: false
+    },
+    {
+      id: "course-12",
+      name: "Kanji Learning Any Time, Any Place for Japanese VI",
+      file: ASSET_HOST + "/japanese-vi.zip",
+      status: "",
+      ready: false
+    },
+    {
+      id: "course-13",
+      name: "Linear Algebra",
+      file: ASSET_HOST + "/linear-algebra.zip",
+      status: "",
+      ready: false
+    },
+    {
+      id: "course-14",
+      name: "Introduction to Computer Science and Programming in Python",
+      file: ASSET_HOST + "/intro-to-cs-2.zip",
+      status: "",
+      ready: false
+    },
+    {
+      id: "course-15",
+      name: "Creole Languages and Caribbean Identities",
+      file: ASSET_HOST + "/creole.zip",
       status: "",
       ready: false
     }
