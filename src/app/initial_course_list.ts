@@ -13,14 +13,14 @@ const ALL_COURSES: Course[] = [
   {
     id: "course-11",
     name: "Kanji Learning Any Time, Any Place for Japanese V",
-    file: ASSET_HOST+"/japanese-v.zip",
+    file: ASSET_HOST+"/japanese-5.zip",
     status: "",
     ready: false
   },
   {
     id: "course-12",
     name: "Kanji Learning Any Time, Any Place for Japanese VI",
-    file: ASSET_HOST+"/japanese-vi.zip",
+    file: ASSET_HOST+"/japanese-6.zip",
     status: "",
     ready: false
   },
