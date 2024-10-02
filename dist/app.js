@@ -23605,6 +23605,13 @@
   // src/app/initial_course_list.ts
   var ASSET_HOST = "https://mit-ocw-courses.atomicjoltdevapps.com";
   var ALL_COURSES = [
+    // {
+    //   id: "local-1",
+    //   name: "Local Course 1",
+    //   file: "/downloads/cs2.zip",
+    //   status: "",
+    //   ready: false
+    // },
     {
       id: "course-10",
       name: "Introduction to CS and Programming using Python",
@@ -23676,7 +23683,32 @@
   // src/app/course_view.tsx
   var import_react2 = __toESM(require_react());
   function CourseView({ course, goBack }) {
-    return /* @__PURE__ */ import_react2.default.createElement(import_react2.default.Fragment, null, /* @__PURE__ */ import_react2.default.createElement("button", { onClick: goBack }, "Back"), /* @__PURE__ */ import_react2.default.createElement("iframe", { src: `/courses/${course.id}/index.html`, style: { width: "100%", height: "100vh", border: "none" } }));
+    const ref = import_react2.default.useRef(null);
+    import_react2.default.useEffect(() => {
+      if (ref.current) {
+        ref.current.addEventListener("load", (e) => {
+          var _a;
+          const childWindow = (_a = ref.current) == null ? void 0 : _a.contentWindow;
+          if (childWindow) {
+            console.log("navigated", childWindow.location.href);
+            childWindow.document.querySelectorAll("[href='https://ocw.mit.edu/']").forEach((el) => {
+              el.addEventListener("click", (e2) => {
+                e2.preventDefault();
+                goBack();
+              });
+            });
+          }
+        });
+      }
+    }, [ref]);
+    return /* @__PURE__ */ import_react2.default.createElement(import_react2.default.Fragment, null, /* @__PURE__ */ import_react2.default.createElement(
+      "iframe",
+      {
+        src: `/courses/${course.id}/index.html`,
+        style: { width: "100%", height: "100vh", border: "none" },
+        ref
+      }
+    ));
   }
 
   // src/app/root.tsx
