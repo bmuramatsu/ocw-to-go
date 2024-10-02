@@ -2,6 +2,7 @@ import React from 'react';
 import CourseListItem from './course_list_item';
 import { Course } from '../types';
 import CourseView from './course_view';
+// import DownloadTest from './download_test';
 
 interface Props {
   courses: Course[];
@@ -34,6 +35,7 @@ export default function Root(props: Props) {
   if (course === null) {
     return (
       <div>
+        {/* <DownloadTest /> */}
         <h1><img src="/icons/android/android-launchericon-192-192.png" />Courses</h1>
         <ul>
           {courses.map(course => (
