@@ -34,7 +34,7 @@ self.addEventListener('activate', event => {
 });
 
 addEventListener('fetch', (event: FetchEvent) => {
-  console.log("The Worker Fetched", event);
+  console.log("The Worker Fetched", event.request.url);
   event.respondWith(cacheFirst(event.request));
 });
 
@@ -50,6 +50,17 @@ addEventListener('message', event => {
 
 async function cacheFirst(request: Request) {
   return (await caches.match(request)) || await fetch(request);
+  // return (await fileFromCache(request)) || await fetch(request);
+}
+
+// Disabled because this currently applies to all PDFs, but it does work
+async function fileFromCache(request: Request): Promise<Response | undefined> {
+  const response = await caches.match(request);
+  if (response && request.url.endsWith('.pdf')) {
+    response.headers.set('Content-Disposition', 'attachment; filename="test2.pdf');
+  }
+
+  return Promise.resolve(response);
 }
 
 async function downloadCourse(path: string, courseId: string, client: MessageEventSource) {
