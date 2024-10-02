@@ -3,6 +3,7 @@ import CourseListItem from './course_list_item';
 import { Course } from '../types';
 import CourseView from './course_view';
 // import DownloadTest from './download_test';
+// import VideoTest from './video_test';
 
 interface Props {
   courses: Course[];
@@ -36,6 +37,7 @@ export default function Root(props: Props) {
     return (
       <div>
         {/* <DownloadTest /> */}
+        {/* <VideoTest /> */}
         <h1><img src="/icons/android/android-launchericon-192-192.png" />Courses</h1>
         <ul>
           {courses.map(course => (

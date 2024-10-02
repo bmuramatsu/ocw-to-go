@@ -14,6 +14,7 @@ const ASSETS_TO_CACHE = [
   '/manifest.json',
   '/icons/android/android-launchericon-192-192.png',
   '/icons/android/android-launchericon-512-512.png',
+  // '/downloads/video.mp4'
 ];
 
 self.addEventListener('install', event => {
