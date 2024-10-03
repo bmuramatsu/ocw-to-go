@@ -4,13 +4,15 @@ import { Course } from '../types';
 interface Props {
   course: Course
   viewCourse: () => void
+  downloadCourse: () => void
 }
 
-export default function CourseListItem({ course, viewCourse }: Props) {
+export default function CourseListItem({ course, viewCourse, downloadCourse }: Props) {
   function beginDownload() {
-    navigator.serviceWorker.ready.then(registration => {
-      registration.active!.postMessage({ type: "downloadCourse", path: course.file, courseId: course.id });
-    });
+    // navigator.serviceWorker.ready.then(registration => {
+    //   registration.active!.postMessage({ type: "downloadCourse", path: course.file, courseId: course.id });
+    // });
+    downloadCourse();
   }
 
   return (

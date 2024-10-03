@@ -4,6 +4,13 @@ const ASSET_HOST = "https://mit-ocw-courses.atomicjoltdevapps.com";
 
 const ALL_COURSES: Course[] = [
   {
+    id: "local-10",
+    name: "Local course",
+    file: "/downloads/cs2.zip",
+    status: "",
+    ready: false
+  },
+  {
     id: "course-10",
     name: "Introduction to CS and Programming using Python",
     file: ASSET_HOST+"/intro-to-cs-01.zip",
