@@ -8,6 +8,7 @@
     "/favicon.ico",
     "/styles/pico.min.css",
     "/app.js",
+    "/course.js",
     "/manifest.json",
     "/icons/android/android-launchericon-192-192.png",
     "/icons/android/android-launchericon-512-512.png"
@@ -35,10 +36,17 @@
     return await fileFromCache(request) || await fetch(request);
   }
   async function fileFromCache(request) {
-    const response = await caches.match(request);
-    if (response && request.url.endsWith(".pdf")) {
-      response.headers.set("Content-Disposition", 'attachment; filename="test2.pdf"');
+    const url = URL.parse(request.url);
+    if (url && url.search.includes("forcedownload=true")) {
+      url.search = "";
+      const response2 = await caches.match(url);
+      if (response2) {
+        const fileName = url.pathname.split("/").pop();
+        response2.headers.set("Content-Disposition", `attachment; filename="${fileName}"`);
+      }
+      return Promise.resolve(response2);
     }
+    const response = await caches.match(request);
     return Promise.resolve(response);
   }
 })();

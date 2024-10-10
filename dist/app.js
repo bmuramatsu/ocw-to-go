@@ -26048,22 +26048,37 @@
   function CourseView({ course, goBack }) {
     const ref = import_react2.default.useRef(null);
     import_react2.default.useEffect(() => {
-      if (ref.current) {
-        ref.current.addEventListener("load", (e) => {
-          var _a;
-          const childWindow = (_a = ref.current) == null ? void 0 : _a.contentWindow;
-          if (childWindow) {
-            console.log("navigated", childWindow.location.href);
-            childWindow.document.querySelectorAll("[href='https://ocw.mit.edu/']").forEach((el) => {
-              el.addEventListener("click", (e2) => {
-                e2.preventDefault();
-                goBack();
-              });
-            });
-          }
-        });
+      function onLoad(e) {
+        var _a;
+        const childWindow = (_a = ref.current) == null ? void 0 : _a.contentWindow;
+        if (childWindow) {
+          const script = childWindow.document.createElement("script");
+          script.src = "/course.js";
+          childWindow.document.body.appendChild(script);
+        }
       }
+      if (ref.current) {
+        ref.current.addEventListener("load", onLoad);
+      }
+      return () => {
+        if (ref.current) {
+          ref.current.removeEventListener("load", onLoad);
+        }
+      };
     }, [ref]);
+    import_react2.default.useEffect(() => {
+      function onMessage(e) {
+        var _a;
+        console.log("post message", e);
+        if (e.source !== ((_a = ref.current) == null ? void 0 : _a.contentWindow)) return;
+        if (typeof e.data !== "object" || Array.isArray(e.data) || e.data === null) return;
+        if (e.data.type === "goBack") {
+          goBack();
+        }
+      }
+      window.addEventListener("message", onMessage);
+      () => window.removeEventListener("message", onMessage);
+    });
     return /* @__PURE__ */ import_react2.default.createElement(import_react2.default.Fragment, null, /* @__PURE__ */ import_react2.default.createElement(
       "iframe",
       {
@@ -26127,10 +26142,9 @@
       try {
         updateCourseStatus("Downloading");
         const resp = await fetch(path);
-        updateCourseStatus("blobbing");
         const zipBlob = await resp.blob();
-        updateCourseStatus("blobbed");
         const zip = await new import_jszip.default().loadAsync(zipBlob);
+        updateCourseStatus("Saving");
         const cache = await caches.open(`course-${courseId}`);
         const paths = [];
         zip.forEach((path2, fileData) => {
@@ -26139,10 +26153,8 @@
           }
         });
         for (const path2 of paths) {
-          updateCourseStatus("Unpacking " + path2);
           const mime = mimeFromExtension(path2);
           const fileData = await zip.file(path2).async("blob");
-          updateCourseStatus("Storing " + path2);
           await cache.put(`/courses/${courseId}/${path2}`, new Response(fileData, { headers: { "Content-Type": mime } }));
         }
         updateCourseStatus("Ready");

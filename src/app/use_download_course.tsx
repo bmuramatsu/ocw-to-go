@@ -54,10 +54,9 @@ export default function useDownloadCourse(setCourses: React.Dispatch<React.SetSt
   try {
     updateCourseStatus('Downloading');
     const resp = await fetch(path);
-    updateCourseStatus('blobbing');
     const zipBlob = await resp.blob();
-    updateCourseStatus('blobbed');
     const zip = await new JSZip().loadAsync(zipBlob);
+    updateCourseStatus('Saving');
     const cache = await caches.open(`course-${courseId}`);
 
     const paths: string[] = [];
@@ -68,10 +67,8 @@ export default function useDownloadCourse(setCourses: React.Dispatch<React.SetSt
     })
 
     for (const path of paths) {
-      updateCourseStatus("Unpacking " + path);
       const mime = mimeFromExtension(path);
       const fileData = await zip.file(path)!.async("blob");
-      updateCourseStatus("Storing " + path);
       await cache.put(`/courses/${courseId}/${path}`, new Response(fileData, { headers: { 'Content-Type': mime } }));
     }
     updateCourseStatus("Ready");
