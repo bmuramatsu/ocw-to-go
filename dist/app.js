@@ -2407,9 +2407,9 @@
           if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
             __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
           }
-          var React5 = require_react();
+          var React6 = require_react();
           var Scheduler = require_scheduler();
-          var ReactSharedInternals = React5.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+          var ReactSharedInternals = React6.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
           var suppressWarning = false;
           function setSuppressWarning(newSuppressWarning) {
             {
@@ -4016,7 +4016,7 @@
             {
               if (props.value == null) {
                 if (typeof props.children === "object" && props.children !== null) {
-                  React5.Children.forEach(props.children, function(child) {
+                  React6.Children.forEach(props.children, function(child) {
                     if (child == null) {
                       return;
                     }
@@ -26036,11 +26036,10 @@
   }
 
   // src/app.tsx
-  var import_react4 = __toESM(require_react());
+  var import_react5 = __toESM(require_react());
 
   // src/app/root.tsx
-  var import_react3 = __toESM(require_react());
-  var import_jszip = __toESM(require_jszip_min());
+  var import_react4 = __toESM(require_react());
 
   // src/app/course_list_item.tsx
   var import_react = __toESM(require_react());
@@ -26082,7 +26081,9 @@
     ));
   }
 
-  // src/app/root.tsx
+  // src/app/use_download_course.tsx
+  var import_react3 = __toESM(require_react());
+  var import_jszip = __toESM(require_jszip_min());
   function mimeFromExtension(path) {
     const extension = path.split(".").pop();
     switch (extension) {
@@ -26120,16 +26121,14 @@
         return "text/plain";
     }
   }
-  function Root(props) {
-    const [courses, setCourses] = import_react3.default.useState(props.courses);
-    const [course, setCourse] = import_react3.default.useState(null);
-    const downloadCourse = import_react3.default.useCallback(async (courseId, path) => {
+  function useDownloadCourse(setCourses) {
+    return import_react3.default.useCallback(async (courseId, path) => {
       const updateCourseStatus = (status) => {
-        setCourses((courses2) => courses2.map((course2) => {
-          if (course2.id === courseId) {
-            return __spreadProps(__spreadValues({}, course2), { status, ready: status === "Ready" });
+        setCourses((courses) => courses.map((course) => {
+          if (course.id === courseId) {
+            return __spreadProps(__spreadValues({}, course), { status, ready: status === "Ready" });
           }
-          return course2;
+          return course;
         }));
       };
       try {
@@ -26158,25 +26157,15 @@
         updateCourseStatus("Error: " + e.message);
       }
     }, []);
-    import_react3.default.useEffect(() => {
-      console.log("adding event listener");
-      const onMessage = (event) => {
-        if (typeof event.data === "object" && !Array.isArray(event.data) && event.data !== null) {
-          if (event.data.type === "statusUpdate") {
-            setCourses((courses2) => courses2.map((course2) => {
-              if (course2.id === event.data.courseId) {
-                return __spreadProps(__spreadValues({}, course2), { status: event.data.status, ready: event.data.status === "Ready" });
-              }
-              return course2;
-            }));
-          }
-        }
-      };
-      navigator.serviceWorker.addEventListener("message", onMessage);
-      return () => navigator.serviceWorker.removeEventListener("message", onMessage);
-    }, []);
+  }
+
+  // src/app/root.tsx
+  function Root(props) {
+    const [courses, setCourses] = import_react4.default.useState(props.courses);
+    const [course, setCourse] = import_react4.default.useState(null);
+    const downloadCourse = useDownloadCourse(setCourses);
     if (course === null) {
-      return /* @__PURE__ */ import_react3.default.createElement("div", null, /* @__PURE__ */ import_react3.default.createElement("h1", null, /* @__PURE__ */ import_react3.default.createElement("img", { src: "/icons/android/android-launchericon-192-192.png" }), "Courses"), /* @__PURE__ */ import_react3.default.createElement("ul", null, courses.map((course2) => /* @__PURE__ */ import_react3.default.createElement("li", { key: course2.id }, /* @__PURE__ */ import_react3.default.createElement(
+      return /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement("h1", null, /* @__PURE__ */ import_react4.default.createElement("img", { src: "/icons/android/android-launchericon-192-192.png" }), "Courses"), /* @__PURE__ */ import_react4.default.createElement("ul", null, courses.map((course2) => /* @__PURE__ */ import_react4.default.createElement("li", { key: course2.id }, /* @__PURE__ */ import_react4.default.createElement(
         CourseListItem,
         {
           course: course2,
@@ -26185,14 +26174,14 @@
         }
       )))));
     }
-    return /* @__PURE__ */ import_react3.default.createElement(CourseView, { course, goBack: () => setCourse(null) });
+    return /* @__PURE__ */ import_react4.default.createElement(CourseView, { course, goBack: () => setCourse(null) });
   }
 
   // src/app.tsx
   async function init() {
     await activateWorker();
     const courses = await getInitialCourseList();
-    (0, import_client.createRoot)(document.getElementById("react-app")).render(/* @__PURE__ */ import_react4.default.createElement(Root, { courses }));
+    (0, import_client.createRoot)(document.getElementById("react-app")).render(/* @__PURE__ */ import_react5.default.createElement(Root, { courses }));
   }
   function activateWorker() {
     return new Promise((resolve) => {
