@@ -25,23 +25,26 @@ async function injectOfflineVideos() {
   console.log(await caches.keys());
   const downloadButton = document.querySelector('.video-player-wrapper [aria-label="Download video"]');
   if (!downloadButton) return;
+  const wrapper = document.querySelector<HTMLElement>('.video-player-wrapper')!;
+
   const href = downloadButton.getAttribute('href');
   if (!href) return;
 
   const video = document.createElement('video');
-  video.width = 300;
-  video.height = 300;
+  video.style.width = '100%';
   video.controls = true;
+  video.style.display = 'none';
   const source = document.createElement('source');
   source.type = 'video/mp4';
   source.src = href;
   video.appendChild(source);
 
-  // video.addEventListener('canplay', () => {
-  //   console.log('video can play');
-  // })
+  video.addEventListener('canplay', () => {
+    video.style.display = 'block';
+    wrapper.style.display = 'none';
+  })
 
-  document.querySelector('.video-player-wrapper')!.appendChild(video);
+  document.querySelector('.video-player-wrapper')!.after(video);
 }
 
 function init() {
