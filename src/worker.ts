@@ -52,7 +52,7 @@ async function cacheFirst(request: Request) {
 }
 
 async function fileFromCache(request: Request): Promise<Response | undefined> {
-  const url = URL.parse(request.url);
+  const url = new URL(request.url);
   if (url && url.search.includes('forcedownload=true')) {
     url.search = '';
     const response = await caches.match(url);

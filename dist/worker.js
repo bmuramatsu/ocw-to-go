@@ -36,7 +36,7 @@
     return await fileFromCache(request) || await fetch(request);
   }
   async function fileFromCache(request) {
-    const url = URL.parse(request.url);
+    const url = new URL(request.url);
     if (url && url.search.includes("forcedownload=true")) {
       url.search = "";
       const response2 = await caches.match(url);
