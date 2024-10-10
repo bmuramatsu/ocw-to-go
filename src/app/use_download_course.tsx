@@ -34,6 +34,8 @@ function mimeFromExtension(path: string) {
       return 'application/pdf';
     case 'ico':
       return 'image/x-icon';
+    case 'mp4':
+      return 'video/mp4';
     default:
       console.log(`Unknown extension: ${extension}`);
       return 'text/plain';

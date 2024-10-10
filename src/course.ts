@@ -21,9 +21,33 @@ function overridePdfDownload() {
   }
 }
 
+async function injectOfflineVideos() {
+  console.log(await caches.keys());
+  const downloadButton = document.querySelector('.video-player-wrapper [aria-label="Download video"]');
+  if (!downloadButton) return;
+  const href = downloadButton.getAttribute('href');
+  if (!href) return;
+
+  const video = document.createElement('video');
+  video.width = 300;
+  video.height = 300;
+  video.controls = true;
+  const source = document.createElement('source');
+  source.type = 'video/mp4';
+  source.src = href;
+  video.appendChild(source);
+
+  // video.addEventListener('canplay', () => {
+  //   console.log('video can play');
+  // })
+
+  document.querySelector('.video-player-wrapper')!.appendChild(video);
+}
+
 function init() {
   overrideHomeButton()
   overridePdfDownload()
+  injectOfflineVideos()
 }
 
 init();

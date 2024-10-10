@@ -1,3 +1,5 @@
+import { createPartialResponse } from 'workbox-range-requests';
+
 export type {};
 declare const self: ServiceWorkerGlobalScope;
 
@@ -52,6 +54,7 @@ async function cacheFirst(request: Request) {
 }
 
 async function fileFromCache(request: Request): Promise<Response | undefined> {
+  // handle special file downloads
   const url = new URL(request.url);
   if (url && url.search.includes('forcedownload=true')) {
     url.search = '';
@@ -61,6 +64,14 @@ async function fileFromCache(request: Request): Promise<Response | undefined> {
       response.headers.set('Content-Disposition', `attachment; filename="${fileName}"`);
     }
     return Promise.resolve(response);
+  }
+
+  // handle streaming video. Without this the video loads but you can't seek or fast forward
+  if (request.headers.has('range')) {
+    const fullResp = await caches.match(request.url);
+    if (fullResp) {
+      return Promise.resolve(createPartialResponse(request, fullResp));
+    }
   }
 
   const response = await caches.match(request);

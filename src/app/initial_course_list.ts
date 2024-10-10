@@ -11,6 +11,13 @@ const ALL_COURSES: Course[] = [
     ready: false
   },
   {
+    id: "video-course-10",
+    name: "Introduction to CS and Programming using Python - with Video",
+    file: ASSET_HOST+"/intro-to-cs-with-video-1.zip",
+    status: "",
+    ready: false
+  },
+  {
     id: "course-11",
     name: "Kanji Learning Any Time, Any Place for Japanese V",
     file: ASSET_HOST+"/japanese-5.zip",

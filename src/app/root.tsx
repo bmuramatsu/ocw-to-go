@@ -3,6 +3,8 @@ import CourseListItem from './course_list_item';
 import { Course } from '../types';
 import CourseView from './course_view';
 import useDownloadCourse from './use_download_course';
+// import DownloadTest from './download_test';
+// import VideoTest from './video_test';
 
 interface Props {
   courses: Course[];
