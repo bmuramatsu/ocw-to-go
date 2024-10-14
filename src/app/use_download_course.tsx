@@ -74,7 +74,7 @@ export default function useDownloadCourse(setCourses: React.Dispatch<React.SetSt
       await cache.put(`/courses/${courseId}/${path}`, new Response(fileData, { headers: { 'Content-Type': mime } }));
     }
     updateCourseStatus("Ready");
-  } catch (e) {
+  } catch (e: any) {
     updateCourseStatus("Error: " + e.message);
   }
 

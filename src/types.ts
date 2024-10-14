@@ -5,4 +5,5 @@ export type Course = {
   ready: boolean;
   status: string;
   videos: string[];
+  videosDownloaded: number;
 }

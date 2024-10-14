@@ -36,7 +36,7 @@ self.addEventListener('activate', event => {
   event.waitUntil(self.clients.claim());
 });
 
-addEventListener('fetch', (event: FetchEvent) => {
+self.addEventListener('fetch', (event: FetchEvent) => {
   console.log("The Worker Fetched", event.request.url);
   event.respondWith(cacheFirst(event.request));
 });

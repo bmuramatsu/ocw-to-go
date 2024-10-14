@@ -26010,7 +26010,8 @@
         ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-3-multi_360p_16_9.mp4",
         ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-18-multi-version-2_360p_16_9.mp4",
         ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-21-version-2_360p_16_9.mp4"
-      ]
+      ],
+      videosDownloaded: 0
     },
     {
       id: "course-11",
@@ -26018,7 +26019,8 @@
       file: ASSET_HOST + "/japanese-5.zip",
       status: "",
       ready: false,
-      videos: []
+      videos: [],
+      videosDownloaded: 0
     },
     {
       id: "course-12",
@@ -26026,7 +26028,8 @@
       file: ASSET_HOST + "/japanese-6.zip",
       status: "",
       ready: false,
-      videos: []
+      videos: [],
+      videosDownloaded: 0
     },
     {
       id: "course-13",
@@ -26034,7 +26037,8 @@
       file: ASSET_HOST + "/linear-algebra.zip",
       status: "",
       ready: false,
-      videos: []
+      videos: [],
+      videosDownloaded: 0
     },
     {
       id: "course-14",
@@ -26042,7 +26046,8 @@
       file: ASSET_HOST + "/intro-to-cs-2.zip",
       status: "",
       ready: false,
-      videos: []
+      videos: [],
+      videosDownloaded: 0
     },
     {
       id: "course-15",
@@ -26050,7 +26055,8 @@
       file: ASSET_HOST + "/creole.zip",
       status: "",
       ready: false,
-      videos: []
+      videos: [],
+      videosDownloaded: 0
     }
   ];
   async function getInitialCourseList() {

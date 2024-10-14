@@ -1163,7 +1163,7 @@
     console.log("The Worker Activated", event);
     event.waitUntil(self.clients.claim());
   });
-  addEventListener("fetch", (event) => {
+  self.addEventListener("fetch", (event) => {
     console.log("The Worker Fetched", event.request.url);
     event.respondWith(cacheFirst(event.request));
   });
