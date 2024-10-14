@@ -3,18 +3,21 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node esbuild.mjs"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@types/async": "^3.2.24",
     "@types/jszip": "^3.4.0",
     "@types/react": "^18.3.10",
     "@types/react-dom": "^18.3.0",
     "esbuild": "^0.24.0"
   },
   "dependencies": {
+    "async": "^3.2.6",
     "jszip": "^3.10.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

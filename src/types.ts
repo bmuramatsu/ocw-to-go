@@ -4,4 +4,5 @@ export type Course = {
   name: string;
   ready: boolean;
   status: string;
+  videos: string[];
 }

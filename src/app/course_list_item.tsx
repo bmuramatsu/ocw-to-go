@@ -15,6 +15,12 @@ export default function CourseListItem({ course, viewCourse, downloadCourse }: P
     downloadCourse();
   }
 
+  function downloadVideos() {
+    navigator.serviceWorker.ready.then(registration => {
+      registration.active!.postMessage({ type: "downloadVideos", course: course});
+    });
+  }
+
   return (
     <>
       <p>
@@ -27,6 +33,9 @@ export default function CourseListItem({ course, viewCourse, downloadCourse }: P
           <button onClick={viewCourse}>View Course</button>
         )
       }
+      {course.videos.length > 0 && (
+        <button onClick={downloadVideos}>Download Videos</button>
+      )}
     </>
   );
 };

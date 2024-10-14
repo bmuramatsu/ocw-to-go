@@ -1,4 +1,6 @@
 import { createPartialResponse } from 'workbox-range-requests';
+import { Course } from './types';
+import { eachOfLimit } from 'async';
 
 export type {};
 declare const self: ServiceWorkerGlobalScope;
@@ -41,11 +43,11 @@ addEventListener('fetch', (event: FetchEvent) => {
 
 addEventListener('message', event => {
   console.log("The Worker Received a Message", event);
-  // if (typeof event.data === 'object' && !Array.isArray(event.data) && event.data !== null) {
-  //   if (event.data.type === 'downloadCourse') {
-  //     downloadCourse(event.data.path, event.data.courseId, event.source!);
-  //   }
-  // }
+  if (typeof event.data === 'object' && !Array.isArray(event.data) && event.data !== null) {
+    if (event.data.type === 'downloadVideos') {
+      downloadVideos(event.data.course, event.source!);
+    }
+  }
 });
 
 async function cacheFirst(request: Request) {
@@ -76,4 +78,17 @@ async function fileFromCache(request: Request): Promise<Response | undefined> {
 
   const response = await caches.match(request);
   return Promise.resolve(response);
+}
+
+async function downloadVideos(course: Course, client: MessageEventSource) {
+  console.log("Downloading Videos", course);
+  const cache = await caches.open(`course-videos-${course.id}`);
+  eachOfLimit(course.videos, 3, async(videoUrl) => {
+    const response = await fetch(videoUrl);
+    const videoBlob = await response.blob();
+    const videoName = videoUrl.split('/').pop();
+    await cache.put(`/courses/${course.id}/static_resources/${videoName}`, new Response(videoBlob, {headers: {'Content-Type': 'video/mp4'}}));
+    // client.postMessage({type: "videoDownloaded", index});
+    console.log("Downloaded Video", videoName);
+  });
 }

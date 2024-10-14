@@ -8,6 +8,7 @@ const ctx = await esbuild.context({
   target: 'es2017',
   outdir: 'dist',
   format: 'iife',
+  logLevel: 'info',
 })
 
 await ctx.watch();
