@@ -10,6 +10,7 @@
   var __getProtoOf = Object.getPrototypeOf;
   var __hasOwnProp = Object.prototype.hasOwnProperty;
   var __propIsEnum = Object.prototype.propertyIsEnumerable;
+  var __knownSymbol = (name, symbol) => (symbol = Symbol[name]) ? symbol : Symbol.for("Symbol." + name);
   var __defNormalProp = (obj, key, value) => key in obj ? __defProp(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
   var __spreadValues = (a, b) => {
     for (var prop in b || (b = {}))
@@ -48,6 +49,7 @@
     isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
     mod
   ));
+  var __forAwait = (obj, it, method) => (it = obj[__knownSymbol("asyncIterator")]) ? it.call(obj) : (obj = obj[__knownSymbol("iterator")](), it = {}, method = (key, fn) => (fn = obj[key]) && (it[key] = (arg) => new Promise((yes, no, done) => (arg = fn.call(obj, arg), done = arg.done, Promise.resolve(arg.value).then((value) => yes({ value, done }), no)))), method("next"), method("return"), it);
 
   // node_modules/react/cjs/react.development.js
   var require_react_development = __commonJS({
@@ -2407,9 +2409,9 @@
           if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
             __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
           }
-          var React6 = require_react();
+          var React7 = require_react();
           var Scheduler = require_scheduler();
-          var ReactSharedInternals = React6.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+          var ReactSharedInternals = React7.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
           var suppressWarning = false;
           function setSuppressWarning(newSuppressWarning) {
             {
@@ -4016,7 +4018,7 @@
             {
               if (props.value == null) {
                 if (typeof props.children === "object" && props.children !== null) {
-                  React6.Children.forEach(props.children, function(child) {
+                  React7.Children.forEach(props.children, function(child) {
                     if (child == null) {
                       return;
                     }
@@ -26060,18 +26062,39 @@
     }
   ];
   async function getInitialCourseList() {
-    const caches2 = await window.caches.keys();
-    return ALL_COURSES.map((course) => {
-      const ready = caches2.includes(`course-${course.id}`);
-      return __spreadProps(__spreadValues({}, course), { ready });
-    });
+    const cacheKeys = await window.caches.keys();
+    const courses = [];
+    try {
+      for (var iter = __forAwait(ALL_COURSES), more, temp, error; more = !(temp = await iter.next()).done; more = false) {
+        const course = temp.value;
+        const ready = cacheKeys.includes(`course-${course.id}`);
+        course.ready = ready;
+        const videosExist = cacheKeys.includes(`course-videos-${course.id}`);
+        if (videosExist) {
+          const videoCache = await caches.open(`course-videos-${course.id}`);
+          const videoCacheKeys = await videoCache.keys();
+          course.videosDownloaded = videoCacheKeys.length;
+        }
+        courses.push(course);
+      }
+    } catch (temp) {
+      error = [temp];
+    } finally {
+      try {
+        more && (temp = iter.return) && await temp.call(iter);
+      } finally {
+        if (error)
+          throw error[0];
+      }
+    }
+    return courses;
   }
 
   // src/app.tsx
-  var import_react5 = __toESM(require_react());
+  var import_react6 = __toESM(require_react());
 
   // src/app/root.tsx
-  var import_react4 = __toESM(require_react());
+  var import_react5 = __toESM(require_react());
 
   // src/app/course_list_item.tsx
   var import_react = __toESM(require_react());
@@ -26084,7 +26107,7 @@
         registration.active.postMessage({ type: "downloadVideos", course });
       });
     }
-    return /* @__PURE__ */ import_react.default.createElement(import_react.default.Fragment, null, /* @__PURE__ */ import_react.default.createElement("p", null, course.name, course.status && ` - ${course.status}`), !course.ready ? /* @__PURE__ */ import_react.default.createElement("button", { onClick: beginDownload }, "Add Course") : /* @__PURE__ */ import_react.default.createElement("button", { onClick: viewCourse }, "View Course"), course.videos.length > 0 && /* @__PURE__ */ import_react.default.createElement("button", { onClick: downloadVideos }, "Download Videos"));
+    return /* @__PURE__ */ import_react.default.createElement(import_react.default.Fragment, null, /* @__PURE__ */ import_react.default.createElement("p", null, course.name), /* @__PURE__ */ import_react.default.createElement("p", null, !course.ready ? /* @__PURE__ */ import_react.default.createElement("button", { onClick: beginDownload }, "Add Course") : /* @__PURE__ */ import_react.default.createElement("button", { onClick: viewCourse }, "View Course"), course.status && ` - ${course.status}`), course.videos.length > 0 && /* @__PURE__ */ import_react.default.createElement("p", null, /* @__PURE__ */ import_react.default.createElement("button", { onClick: downloadVideos }, "Download Videos"), course.videosDownloaded, "/", course.videos.length, " videos downloaded"));
   }
 
   // src/app/course_view.tsx
@@ -26210,13 +26233,37 @@
     }, []);
   }
 
+  // src/app/use_worker_subscription.ts
+  var import_react4 = __toESM(require_react());
+  function useWorkerSubscription(setCourses) {
+    return import_react4.default.useEffect(() => {
+      function onMessage(event) {
+        console.log("The Worker Sent a Message", event);
+        if (typeof event.data === "object" && !Array.isArray(event.data) && event.data !== null) {
+          if (event.data.type === "videoDownloaded") {
+            setCourses((courses) => courses.map((course) => {
+              if (course.id === event.data.courseId) {
+                return __spreadProps(__spreadValues({}, course), { videosDownloaded: course.videosDownloaded + 1 });
+              }
+              return course;
+            }));
+          }
+        }
+      }
+      console.log("Subscribing to Worker Messages", navigator.serviceWorker);
+      navigator.serviceWorker.addEventListener("message", onMessage);
+      return () => navigator.serviceWorker.removeEventListener("message", onMessage);
+    }, [setCourses]);
+  }
+
   // src/app/root.tsx
   function Root(props) {
-    const [courses, setCourses] = import_react4.default.useState(props.courses);
-    const [course, setCourse] = import_react4.default.useState(null);
+    const [courses, setCourses] = import_react5.default.useState(props.courses);
+    const [course, setCourse] = import_react5.default.useState(null);
     const downloadCourse = useDownloadCourse(setCourses);
+    useWorkerSubscription(setCourses);
     if (course === null) {
-      return /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement("h1", null, /* @__PURE__ */ import_react4.default.createElement("img", { src: "/icons/android/android-launchericon-192-192.png" }), "Courses"), /* @__PURE__ */ import_react4.default.createElement("ul", null, courses.map((course2) => /* @__PURE__ */ import_react4.default.createElement("li", { key: course2.id }, /* @__PURE__ */ import_react4.default.createElement(
+      return /* @__PURE__ */ import_react5.default.createElement("div", null, /* @__PURE__ */ import_react5.default.createElement("h1", null, /* @__PURE__ */ import_react5.default.createElement("img", { src: "/icons/android/android-launchericon-192-192.png" }), "Courses"), /* @__PURE__ */ import_react5.default.createElement("ul", null, courses.map((course2) => /* @__PURE__ */ import_react5.default.createElement("li", { key: course2.id }, /* @__PURE__ */ import_react5.default.createElement(
         CourseListItem,
         {
           course: course2,
@@ -26225,14 +26272,14 @@
         }
       )))));
     }
-    return /* @__PURE__ */ import_react4.default.createElement(CourseView, { course, goBack: () => setCourse(null) });
+    return /* @__PURE__ */ import_react5.default.createElement(CourseView, { course, goBack: () => setCourse(null) });
   }
 
   // src/app.tsx
   async function init() {
     await activateWorker();
     const courses = await getInitialCourseList();
-    (0, import_client.createRoot)(document.getElementById("react-app")).render(/* @__PURE__ */ import_react5.default.createElement(Root, { courses }));
+    (0, import_client.createRoot)(document.getElementById("react-app")).render(/* @__PURE__ */ import_react6.default.createElement(Root, { courses }));
   }
   function activateWorker() {
     return new Promise((resolve) => {

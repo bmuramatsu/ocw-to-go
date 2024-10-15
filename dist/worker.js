@@ -1198,16 +1198,19 @@
     const response = await caches.match(request);
     return Promise.resolve(response);
   }
-  async function downloadVideos(course, client) {
-    console.log("Downloading Videos", course);
+  async function downloadVideos(course) {
     const cache = await caches.open(`course-videos-${course.id}`);
-    eachOfLimit$1(course.videos, 3, async (videoUrl) => {
-      const response = await fetch(videoUrl);
+    eachOfLimit$1(course.videos, 3, async (url) => {
+      const response = await fetch(url);
       const videoBlob = await response.blob();
-      const videoName = videoUrl.split("/").pop();
+      const videoName = url.split("/").pop();
       await cache.put(`/courses/${course.id}/static_resources/${videoName}`, new Response(videoBlob, { headers: { "Content-Type": "video/mp4" } }));
-      console.log("Downloaded Video", videoName);
+      postToClients({ type: "videoDownloaded", courseId: course.id, url });
     });
+  }
+  async function postToClients(message) {
+    const clients = await self.clients.matchAll();
+    clients.forEach((client) => client.postMessage(message));
   }
 })();
 //# sourceMappingURL=worker.js.map

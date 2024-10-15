@@ -25,16 +25,21 @@ export default function CourseListItem({ course, viewCourse, downloadCourse }: P
     <>
       <p>
         {course.name}
+      </p>
+      <p>
+        {!course.ready 
+          ? (<button onClick={beginDownload}>Add Course</button>)
+          : (
+            <button onClick={viewCourse}>View Course</button>
+          )
+        }
         {course.status && ` - ${course.status}`}
       </p>
-      {!course.ready 
-        ? (<button onClick={beginDownload}>Add Course</button>)
-        : (
-          <button onClick={viewCourse}>View Course</button>
-        )
-      }
       {course.videos.length > 0 && (
-        <button onClick={downloadVideos}>Download Videos</button>
+        <p>
+          <button onClick={downloadVideos}>Download Videos</button>
+          {course.videosDownloaded}/{course.videos.length} videos downloaded
+        </p>
       )}
     </>
   );

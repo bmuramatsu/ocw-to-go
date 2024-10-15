@@ -80,15 +80,18 @@ async function fileFromCache(request: Request): Promise<Response | undefined> {
   return Promise.resolve(response);
 }
 
-async function downloadVideos(course: Course, client: MessageEventSource) {
-  console.log("Downloading Videos", course);
+async function downloadVideos(course: Course) {
   const cache = await caches.open(`course-videos-${course.id}`);
-  eachOfLimit(course.videos, 3, async(videoUrl) => {
-    const response = await fetch(videoUrl);
+  eachOfLimit(course.videos, 3, async(url) => {
+    const response = await fetch(url);
     const videoBlob = await response.blob();
-    const videoName = videoUrl.split('/').pop();
+    const videoName = url.split('/').pop();
     await cache.put(`/courses/${course.id}/static_resources/${videoName}`, new Response(videoBlob, {headers: {'Content-Type': 'video/mp4'}}));
-    // client.postMessage({type: "videoDownloaded", index});
-    console.log("Downloaded Video", videoName);
+    postToClients({type: "videoDownloaded", courseId: course.id, url});
   });
+}
+
+async function postToClients(message: any) {
+  const clients = await self.clients.matchAll();
+  clients.forEach(client => client.postMessage(message));
 }

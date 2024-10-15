@@ -3,6 +3,7 @@ import CourseListItem from './course_list_item';
 import { Course } from '../types';
 import CourseView from './course_view';
 import useDownloadCourse from './use_download_course';
+import useWorkerSubscription from './use_worker_subscription';
 // import DownloadTest from './download_test';
 // import VideoTest from './video_test';
 
@@ -15,6 +16,7 @@ export default function Root(props: Props) {
   const [course, setCourse] = React.useState<Course | null>(null);
 
   const downloadCourse = useDownloadCourse(setCourses);
+  useWorkerSubscription(setCourses);
 
   if (course === null) {
     return (

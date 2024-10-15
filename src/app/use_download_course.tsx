@@ -44,39 +44,38 @@ function mimeFromExtension(path: string) {
 
 export default function useDownloadCourse(setCourses: React.Dispatch<React.SetStateAction<Course[]>>) {
   return React.useCallback(async (courseId: string, path: string) => {
-  const updateCourseStatus = (status: string) => {
-    setCourses(courses => courses.map(course => {
-      if (course.id === courseId) {
-        return { ...course, status: status, ready: status === 'Ready' };
+    const updateCourseStatus = (status: string) => {
+      setCourses(courses => courses.map(course => {
+        if (course.id === courseId) {
+          return { ...course, status: status, ready: status === 'Ready' };
+        }
+        return course;
+      }))
+    };
+
+    try {
+      updateCourseStatus('Downloading');
+      const resp = await fetch(path);
+      const zipBlob = await resp.blob();
+      const zip = await new JSZip().loadAsync(zipBlob);
+      updateCourseStatus('Saving');
+      const cache = await caches.open(`course-${courseId}`);
+
+      const paths: string[] = [];
+      zip.forEach((path, fileData) => {
+        if (!fileData.dir) {
+          paths.push(path);
+        }
+      })
+
+      for (const path of paths) {
+        const mime = mimeFromExtension(path);
+        const fileData = await zip.file(path)!.async("blob");
+        await cache.put(`/courses/${courseId}/${path}`, new Response(fileData, { headers: { 'Content-Type': mime } }));
       }
-      return course;
-    }))
-  };
-
-  try {
-    updateCourseStatus('Downloading');
-    const resp = await fetch(path);
-    const zipBlob = await resp.blob();
-    const zip = await new JSZip().loadAsync(zipBlob);
-    updateCourseStatus('Saving');
-    const cache = await caches.open(`course-${courseId}`);
-
-    const paths: string[] = [];
-    zip.forEach((path, fileData) => {
-      if (!fileData.dir) {
-        paths.push(path);
-      }
-    })
-
-    for (const path of paths) {
-      const mime = mimeFromExtension(path);
-      const fileData = await zip.file(path)!.async("blob");
-      await cache.put(`/courses/${courseId}/${path}`, new Response(fileData, { headers: { 'Content-Type': mime } }));
+      updateCourseStatus("Ready");
+    } catch (e: any) {
+      updateCourseStatus("Error: " + e.message);
     }
-    updateCourseStatus("Ready");
-  } catch (e: any) {
-    updateCourseStatus("Error: " + e.message);
-  }
-
   }, []);
 }

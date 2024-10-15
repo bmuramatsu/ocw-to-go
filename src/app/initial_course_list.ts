@@ -87,10 +87,23 @@ const ALL_COURSES: Course[] = [
 ]
 
 export default async function getInitialCourseList(): Promise<Course[]> {
-  const caches = await window.caches.keys();
+  const cacheKeys = await window.caches.keys();
 
-  return ALL_COURSES.map((course) => {
-    const ready = caches.includes(`course-${course.id}`);
-    return {...course, ready};
-  });
+  const courses: Course[] = [];
+
+  for await (const course of ALL_COURSES) {
+    const ready = cacheKeys.includes(`course-${course.id}`);
+    course.ready = ready;
+
+    const videosExist = cacheKeys.includes(`course-videos-${course.id}`);
+    if (videosExist) {
+      const videoCache = await caches.open(`course-videos-${course.id}`);
+      const videoCacheKeys = await videoCache.keys();
+      course.videosDownloaded = videoCacheKeys.length;
+    }
+
+    courses.push(course);
+  }
+
+  return courses;
 }
