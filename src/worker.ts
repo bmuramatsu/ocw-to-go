@@ -45,7 +45,7 @@ addEventListener('message', event => {
   console.log("The Worker Received a Message", event);
   if (typeof event.data === 'object' && !Array.isArray(event.data) && event.data !== null) {
     if (event.data.type === 'downloadVideos') {
-      downloadVideos(event.data.course, event.source!);
+      downloadVideos(event.data.course);
     }
   }
 });

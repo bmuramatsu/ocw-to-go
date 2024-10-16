@@ -58,7 +58,7 @@ export default function useDownloadCourse(setCourses: React.Dispatch<React.SetSt
       const resp = await fetch(path);
       const zipBlob = await resp.blob();
       const zip = await new JSZip().loadAsync(zipBlob);
-      updateCourseStatus('Saving');
+      updateCourseStatus('Preparing');
       const cache = await caches.open(`course-${courseId}`);
 
       const paths: string[] = [];

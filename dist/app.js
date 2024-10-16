@@ -26213,7 +26213,7 @@
         const resp = await fetch(path);
         const zipBlob = await resp.blob();
         const zip = await new import_jszip.default().loadAsync(zipBlob);
-        updateCourseStatus("Saving");
+        updateCourseStatus("Preparing");
         const cache = await caches.open(`course-${courseId}`);
         const paths = [];
         zip.forEach((path2, fileData) => {
