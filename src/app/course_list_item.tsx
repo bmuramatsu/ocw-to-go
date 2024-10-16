@@ -27,13 +27,9 @@ export default function CourseListItem({ course, downloadCourse }: Props) {
         {course.name}
       </p>
       <p>
-        {!course.ready 
-          ? (<button onClick={beginDownload}>Add Course</button>)
-          : (
-            <Link href={`/courses/${course.id}`}>View Course</Link>
-          )
-        }
-        {course.status && ` - ${course.status}`}
+        {!course.ready && course.status == "" && <button onClick={beginDownload}>Add Course</button>}
+        {!course.ready && course.status != "" && `${course.status}`}
+        {course.ready && <Link href={`/courses/${course.id}`}>View Course</Link>}
       </p>
       {course.videos.length > 0 && (
         <p>

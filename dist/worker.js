@@ -1164,7 +1164,6 @@
     event.waitUntil(self.clients.claim());
   });
   self.addEventListener("fetch", (event) => {
-    console.log("The Worker Fetched", event.request.url);
     event.respondWith(cacheFirst(event.request));
   });
   addEventListener("message", (event) => {

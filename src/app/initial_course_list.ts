@@ -2,6 +2,8 @@ import { Course } from "../types";
 
 const ASSET_HOST = "https://mit-ocw-courses.atomicjoltdevapps.com";
 
+// video_galleries/vecture-videos/data.json
+// resources/[video-name]/data.json
 const ALL_COURSES: Course[] = [
   {
     id: "course-10",

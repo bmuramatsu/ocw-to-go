@@ -37,7 +37,7 @@ self.addEventListener('activate', event => {
 });
 
 self.addEventListener('fetch', (event: FetchEvent) => {
-  console.log("The Worker Fetched", event.request.url);
+  // console.log("The Worker Fetched", event.request.url);
   event.respondWith(cacheFirst(event.request));
 });
 

@@ -26548,7 +26548,7 @@
         registration.active.postMessage({ type: "downloadVideos", course });
       });
     }
-    return /* @__PURE__ */ import_react2.default.createElement(import_react2.default.Fragment, null, /* @__PURE__ */ import_react2.default.createElement("p", null, course.name), /* @__PURE__ */ import_react2.default.createElement("p", null, !course.ready ? /* @__PURE__ */ import_react2.default.createElement("button", { onClick: beginDownload }, "Add Course") : /* @__PURE__ */ import_react2.default.createElement(Link, { href: `/courses/${course.id}` }, "View Course"), course.status && ` - ${course.status}`), course.videos.length > 0 && /* @__PURE__ */ import_react2.default.createElement("p", null, /* @__PURE__ */ import_react2.default.createElement("button", { onClick: downloadVideos }, "Download Videos"), course.videosDownloaded, "/", course.videos.length, " videos downloaded"));
+    return /* @__PURE__ */ import_react2.default.createElement(import_react2.default.Fragment, null, /* @__PURE__ */ import_react2.default.createElement("p", null, course.name), /* @__PURE__ */ import_react2.default.createElement("p", null, !course.ready && course.status == "" && /* @__PURE__ */ import_react2.default.createElement("button", { onClick: beginDownload }, "Add Course"), !course.ready && course.status != "" && `${course.status}`, course.ready && /* @__PURE__ */ import_react2.default.createElement(Link, { href: `/courses/${course.id}` }, "View Course")), course.videos.length > 0 && /* @__PURE__ */ import_react2.default.createElement("p", null, /* @__PURE__ */ import_react2.default.createElement("button", { onClick: downloadVideos }, "Download Videos"), course.videosDownloaded, "/", course.videos.length, " videos downloaded"));
   }
 
   // src/app/course_list.tsx
@@ -26568,7 +26568,7 @@
     const [_location, navigate3] = useLocation();
     const ref = import_react4.default.useRef(null);
     import_react4.default.useEffect(() => {
-      function onLoad(e) {
+      function onLoad() {
         var _a;
         const childWindow = (_a = ref.current) == null ? void 0 : _a.contentWindow;
         if (childWindow) {
@@ -26598,7 +26598,7 @@
       }
       window.addEventListener("message", onMessage);
       () => window.removeEventListener("message", onMessage);
-    });
+    }, [ref, navigate3]);
     return /* @__PURE__ */ import_react4.default.createElement(import_react4.default.Fragment, null, /* @__PURE__ */ import_react4.default.createElement(
       "iframe",
       {
