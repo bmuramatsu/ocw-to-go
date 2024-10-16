@@ -1,12 +1,13 @@
 import React from 'react';
+import { useLocation } from 'wouter';
 import { Course } from '../types';
 
 interface Props {
   course: Course;
-  goBack: () => void;
 }
 
-export default function CourseView({course, goBack}: Props) {
+export default function CourseView({course}: Props) {
+  const [_location, navigate] = useLocation();
   const ref = React.useRef<HTMLIFrameElement>(null);
 
   React.useEffect(() => {
@@ -37,7 +38,7 @@ export default function CourseView({course, goBack}: Props) {
       if (typeof e.data !== 'object' || Array.isArray(e.data) || e.data === null) return;
 
       if (e.data.type === 'goBack') {
-        goBack();
+        navigate('/');
       }
     }
 

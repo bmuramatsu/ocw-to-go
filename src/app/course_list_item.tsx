@@ -1,13 +1,13 @@
 import React from 'react';
+import { Link } from 'wouter';
 import { Course } from '../types';
 
 interface Props {
   course: Course
-  viewCourse: () => void
   downloadCourse: () => void
 }
 
-export default function CourseListItem({ course, viewCourse, downloadCourse }: Props) {
+export default function CourseListItem({ course, downloadCourse }: Props) {
   function beginDownload() {
     // navigator.serviceWorker.ready.then(registration => {
     //   registration.active!.postMessage({ type: "downloadCourse", path: course.file, courseId: course.id });
@@ -30,7 +30,7 @@ export default function CourseListItem({ course, viewCourse, downloadCourse }: P
         {!course.ready 
           ? (<button onClick={beginDownload}>Add Course</button>)
           : (
-            <button onClick={viewCourse}>View Course</button>
+            <Link href={`/courses/${course.id}`}>View Course</Link>
           )
         }
         {course.status && ` - ${course.status}`}

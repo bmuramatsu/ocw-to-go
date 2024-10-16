@@ -30,6 +30,18 @@
     if (typeof require !== "undefined") return require.apply(this, arguments);
     throw Error('Dynamic require of "' + x + '" is not supported');
   });
+  var __objRest = (source, exclude) => {
+    var target = {};
+    for (var prop in source)
+      if (__hasOwnProp.call(source, prop) && exclude.indexOf(prop) < 0)
+        target[prop] = source[prop];
+    if (source != null && __getOwnPropSymbols)
+      for (var prop of __getOwnPropSymbols(source)) {
+        if (exclude.indexOf(prop) < 0 && __propIsEnum.call(source, prop))
+          target[prop] = source[prop];
+      }
+    return target;
+  };
   var __commonJS = (cb, mod) => function __require2() {
     return mod || (0, cb[__getOwnPropNames(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports;
   };
@@ -536,7 +548,7 @@
             }
             return element;
           };
-          function createElement(type, config, children) {
+          function createElement2(type, config, children) {
             var propName;
             var props = {};
             var key = null;
@@ -604,7 +616,7 @@
             var newElement = ReactElement(oldElement.type, newKey, oldElement.ref, oldElement._self, oldElement._source, oldElement._owner, oldElement.props);
             return newElement;
           }
-          function cloneElement(element, config, children) {
+          function cloneElement2(element, config, children) {
             if (element === null || element === void 0) {
               throw new Error("React.cloneElement(...): The argument must be a React element, but you passed " + element + ".");
             }
@@ -652,7 +664,7 @@
             }
             return ReactElement(element.type, key, ref, self2, source, owner, props);
           }
-          function isValidElement(object) {
+          function isValidElement2(object) {
             return typeof object === "object" && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
           }
           var SEPARATOR = ".";
@@ -717,7 +729,7 @@
                   return c;
                 });
               } else if (mappedChild != null) {
-                if (isValidElement(mappedChild)) {
+                if (isValidElement2(mappedChild)) {
                   {
                     if (mappedChild.key && (!_child || _child.key !== mappedChild.key)) {
                       checkKeyStringCoercion(mappedChild.key);
@@ -805,12 +817,12 @@
             }) || [];
           }
           function onlyChild(children) {
-            if (!isValidElement(children)) {
+            if (!isValidElement2(children)) {
               throw new Error("React.Children.only expected to receive a single React element child.");
             }
             return children;
           }
-          function createContext(defaultValue) {
+          function createContext2(defaultValue) {
             var context = {
               $$typeof: REACT_CONTEXT_TYPE,
               // As a workaround to support multiple concurrent renderers, we categorize
@@ -997,7 +1009,7 @@
             }
             return lazyType;
           }
-          function forwardRef(render) {
+          function forwardRef2(render) {
             {
               if (render != null && render.$$typeof === REACT_MEMO_TYPE) {
                 error("forwardRef requires a render function but received a `memo` component. Instead of forwardRef(memo(...)), use memo(forwardRef(...)).");
@@ -1096,7 +1108,7 @@
             }
             return dispatcher;
           }
-          function useContext(Context) {
+          function useContext2(Context) {
             var dispatcher = resolveDispatcher();
             {
               if (Context._context !== void 0) {
@@ -1110,7 +1122,7 @@
             }
             return dispatcher.useContext(Context);
           }
-          function useState(initialState) {
+          function useState2(initialState) {
             var dispatcher = resolveDispatcher();
             return dispatcher.useState(initialState);
           }
@@ -1118,19 +1130,19 @@
             var dispatcher = resolveDispatcher();
             return dispatcher.useReducer(reducer, initialArg, init2);
           }
-          function useRef(initialValue) {
+          function useRef3(initialValue) {
             var dispatcher = resolveDispatcher();
             return dispatcher.useRef(initialValue);
           }
-          function useEffect(create, deps) {
+          function useEffect2(create, deps) {
             var dispatcher = resolveDispatcher();
             return dispatcher.useEffect(create, deps);
           }
-          function useInsertionEffect(create, deps) {
+          function useInsertionEffect3(create, deps) {
             var dispatcher = resolveDispatcher();
             return dispatcher.useInsertionEffect(create, deps);
           }
-          function useLayoutEffect(create, deps) {
+          function useLayoutEffect2(create, deps) {
             var dispatcher = resolveDispatcher();
             return dispatcher.useLayoutEffect(create, deps);
           }
@@ -1164,7 +1176,7 @@
             var dispatcher = resolveDispatcher();
             return dispatcher.useId();
           }
-          function useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot) {
+          function useSyncExternalStore2(subscribe, getSnapshot, getServerSnapshot) {
             var dispatcher = resolveDispatcher();
             return dispatcher.useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
           }
@@ -1429,7 +1441,7 @@
               }
             }
           }
-          function checkPropTypes(typeSpecs, values, location, componentName, element) {
+          function checkPropTypes(typeSpecs, values, location2, componentName, element) {
             {
               var has = Function.call.bind(hasOwnProperty);
               for (var typeSpecName in typeSpecs) {
@@ -1437,23 +1449,23 @@
                   var error$1 = void 0;
                   try {
                     if (typeof typeSpecs[typeSpecName] !== "function") {
-                      var err = Error((componentName || "React class") + ": " + location + " type `" + typeSpecName + "` is invalid; it must be a function, usually from the `prop-types` package, but received `" + typeof typeSpecs[typeSpecName] + "`.This often happens because of typos such as `PropTypes.function` instead of `PropTypes.func`.");
+                      var err = Error((componentName || "React class") + ": " + location2 + " type `" + typeSpecName + "` is invalid; it must be a function, usually from the `prop-types` package, but received `" + typeof typeSpecs[typeSpecName] + "`.This often happens because of typos such as `PropTypes.function` instead of `PropTypes.func`.");
                       err.name = "Invariant Violation";
                       throw err;
                     }
-                    error$1 = typeSpecs[typeSpecName](values, typeSpecName, componentName, location, null, "SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED");
+                    error$1 = typeSpecs[typeSpecName](values, typeSpecName, componentName, location2, null, "SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED");
                   } catch (ex) {
                     error$1 = ex;
                   }
                   if (error$1 && !(error$1 instanceof Error)) {
                     setCurrentlyValidatingElement(element);
-                    error("%s: type specification of %s `%s` is invalid; the type checker function must return `null` or an `Error` but returned a %s. You may have forgotten to pass an argument to the type checker creator (arrayOf, instanceOf, objectOf, oneOf, oneOfType, and shape all require an argument).", componentName || "React class", location, typeSpecName, typeof error$1);
+                    error("%s: type specification of %s `%s` is invalid; the type checker function must return `null` or an `Error` but returned a %s. You may have forgotten to pass an argument to the type checker creator (arrayOf, instanceOf, objectOf, oneOf, oneOfType, and shape all require an argument).", componentName || "React class", location2, typeSpecName, typeof error$1);
                     setCurrentlyValidatingElement(null);
                   }
                   if (error$1 instanceof Error && !(error$1.message in loggedTypeFailures)) {
                     loggedTypeFailures[error$1.message] = true;
                     setCurrentlyValidatingElement(element);
-                    error("Failed %s type: %s", location, error$1.message);
+                    error("Failed %s type: %s", location2, error$1.message);
                     setCurrentlyValidatingElement(null);
                   }
                 }
@@ -1536,11 +1548,11 @@
             if (isArray(node)) {
               for (var i = 0; i < node.length; i++) {
                 var child = node[i];
-                if (isValidElement(child)) {
+                if (isValidElement2(child)) {
                   validateExplicitKey(child, parentType);
                 }
               }
-            } else if (isValidElement(node)) {
+            } else if (isValidElement2(node)) {
               if (node._store) {
                 node._store.validated = true;
               }
@@ -1551,7 +1563,7 @@
                   var iterator = iteratorFn.call(node);
                   var step;
                   while (!(step = iterator.next()).done) {
-                    if (isValidElement(step.value)) {
+                    if (isValidElement2(step.value)) {
                       validateExplicitKey(step.value, parentType);
                     }
                   }
@@ -1635,7 +1647,7 @@
                 error("React.createElement: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s", typeString, info);
               }
             }
-            var element = createElement.apply(this, arguments);
+            var element = createElement2.apply(this, arguments);
             if (element == null) {
               return element;
             }
@@ -1674,7 +1686,7 @@
             return validatedFactory;
           }
           function cloneElementWithValidation(element, props, children) {
-            var newElement = cloneElement.apply(this, arguments);
+            var newElement = cloneElement2.apply(this, arguments);
             for (var i = 2; i < arguments.length; i++) {
               validateChildKeys(arguments[i], newElement.type);
             }
@@ -1891,30 +1903,30 @@
           exports.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED = ReactSharedInternals;
           exports.act = act;
           exports.cloneElement = cloneElement$1;
-          exports.createContext = createContext;
+          exports.createContext = createContext2;
           exports.createElement = createElement$1;
           exports.createFactory = createFactory;
           exports.createRef = createRef;
-          exports.forwardRef = forwardRef;
-          exports.isValidElement = isValidElement;
+          exports.forwardRef = forwardRef2;
+          exports.isValidElement = isValidElement2;
           exports.lazy = lazy;
           exports.memo = memo;
           exports.startTransition = startTransition;
           exports.unstable_act = act;
           exports.useCallback = useCallback;
-          exports.useContext = useContext;
+          exports.useContext = useContext2;
           exports.useDebugValue = useDebugValue;
           exports.useDeferredValue = useDeferredValue;
-          exports.useEffect = useEffect;
+          exports.useEffect = useEffect2;
           exports.useId = useId;
           exports.useImperativeHandle = useImperativeHandle;
-          exports.useInsertionEffect = useInsertionEffect;
-          exports.useLayoutEffect = useLayoutEffect;
+          exports.useInsertionEffect = useInsertionEffect3;
+          exports.useLayoutEffect = useLayoutEffect2;
           exports.useMemo = useMemo;
           exports.useReducer = useReducer;
-          exports.useRef = useRef;
-          exports.useState = useState;
-          exports.useSyncExternalStore = useSyncExternalStore;
+          exports.useRef = useRef3;
+          exports.useState = useState2;
+          exports.useSyncExternalStore = useSyncExternalStore2;
           exports.useTransition = useTransition;
           exports.version = ReactVersion;
           if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") {
@@ -2409,9 +2421,9 @@
           if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
             __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
           }
-          var React7 = require_react();
+          var React9 = require_react();
           var Scheduler = require_scheduler();
-          var ReactSharedInternals = React7.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+          var ReactSharedInternals = React9.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
           var suppressWarning = false;
           function setSuppressWarning(newSuppressWarning) {
             {
@@ -2460,7 +2472,7 @@
           var HostPortal = 4;
           var HostComponent = 5;
           var HostText = 6;
-          var Fragment = 7;
+          var Fragment2 = 7;
           var Mode = 8;
           var ContextConsumer = 9;
           var ContextProvider = 10;
@@ -2514,7 +2526,7 @@
               allNativeEvents.add(dependencies[i]);
             }
           }
-          var canUseDOM = !!(typeof window !== "undefined" && typeof window.document !== "undefined" && typeof window.document.createElement !== "undefined");
+          var canUseDOM2 = !!(typeof window !== "undefined" && typeof window.document !== "undefined" && typeof window.document.createElement !== "undefined");
           var hasOwnProperty = Object.prototype.hasOwnProperty;
           function typeName(value) {
             {
@@ -3617,7 +3629,7 @@
                 return "DehydratedFragment";
               case ForwardRef:
                 return getWrappedName$1(type, type.render, "ForwardRef");
-              case Fragment:
+              case Fragment2:
                 return "Fragment";
               case HostComponent:
                 return type;
@@ -4018,7 +4030,7 @@
             {
               if (props.value == null) {
                 if (typeof props.children === "object" && props.children !== null) {
-                  React7.Children.forEach(props.children, function(child) {
+                  React9.Children.forEach(props.children, function(child) {
                     if (child == null) {
                       return;
                     }
@@ -5564,7 +5576,7 @@
             return listener;
           }
           var passiveBrowserEventsSupported = false;
-          if (canUseDOM) {
+          if (canUseDOM2) {
             try {
               var options = {};
               Object.defineProperty(options, "passive", {
@@ -7373,7 +7385,7 @@
                 break;
               case DefaultEventPriority:
               default:
-                listenerWrapper = dispatchEvent;
+                listenerWrapper = dispatchEvent2;
                 break;
             }
             return listenerWrapper.bind(null, domEventName, eventSystemFlags, targetContainer);
@@ -7384,7 +7396,7 @@
             ReactCurrentBatchConfig.transition = null;
             try {
               setCurrentUpdatePriority(DiscreteEventPriority);
-              dispatchEvent(domEventName, eventSystemFlags, container, nativeEvent);
+              dispatchEvent2(domEventName, eventSystemFlags, container, nativeEvent);
             } finally {
               setCurrentUpdatePriority(previousPriority);
               ReactCurrentBatchConfig.transition = prevTransition;
@@ -7396,13 +7408,13 @@
             ReactCurrentBatchConfig.transition = null;
             try {
               setCurrentUpdatePriority(ContinuousEventPriority);
-              dispatchEvent(domEventName, eventSystemFlags, container, nativeEvent);
+              dispatchEvent2(domEventName, eventSystemFlags, container, nativeEvent);
             } finally {
               setCurrentUpdatePriority(previousPriority);
               ReactCurrentBatchConfig.transition = prevTransition;
             }
           }
-          function dispatchEvent(domEventName, eventSystemFlags, targetContainer, nativeEvent) {
+          function dispatchEvent2(domEventName, eventSystemFlags, targetContainer, nativeEvent) {
             if (!_enabled) {
               return;
             }
@@ -8004,13 +8016,13 @@
           var SyntheticWheelEvent = createSyntheticEvent(WheelEventInterface);
           var END_KEYCODES = [9, 13, 27, 32];
           var START_KEYCODE = 229;
-          var canUseCompositionEvent = canUseDOM && "CompositionEvent" in window;
+          var canUseCompositionEvent = canUseDOM2 && "CompositionEvent" in window;
           var documentMode = null;
-          if (canUseDOM && "documentMode" in document) {
+          if (canUseDOM2 && "documentMode" in document) {
             documentMode = document.documentMode;
           }
-          var canUseTextInputEvent = canUseDOM && "TextEvent" in window && !documentMode;
-          var useFallbackCompositionData = canUseDOM && (!canUseCompositionEvent || documentMode && documentMode > 8 && documentMode <= 11);
+          var canUseTextInputEvent = canUseDOM2 && "TextEvent" in window && !documentMode;
+          var useFallbackCompositionData = canUseDOM2 && (!canUseCompositionEvent || documentMode && documentMode > 8 && documentMode <= 11);
           var SPACEBAR_CODE = 32;
           var SPACEBAR_CHAR = String.fromCharCode(SPACEBAR_CODE);
           function registerEvents() {
@@ -8086,12 +8098,12 @@
                 }
               }
             }
-            var listeners = accumulateTwoPhaseListeners(targetInst, eventType);
-            if (listeners.length > 0) {
+            var listeners2 = accumulateTwoPhaseListeners(targetInst, eventType);
+            if (listeners2.length > 0) {
               var event = new SyntheticCompositionEvent(eventType, domEventName, null, nativeEvent, nativeEventTarget);
               dispatchQueue.push({
                 event,
-                listeners
+                listeners: listeners2
               });
               if (fallbackData) {
                 event.data = fallbackData;
@@ -8162,12 +8174,12 @@
             if (!chars) {
               return null;
             }
-            var listeners = accumulateTwoPhaseListeners(targetInst, "onBeforeInput");
-            if (listeners.length > 0) {
+            var listeners2 = accumulateTwoPhaseListeners(targetInst, "onBeforeInput");
+            if (listeners2.length > 0) {
               var event = new SyntheticInputEvent("onBeforeInput", "beforeinput", null, nativeEvent, nativeEventTarget);
               dispatchQueue.push({
                 event,
-                listeners
+                listeners: listeners2
               });
               event.data = chars;
             }
@@ -8204,7 +8216,7 @@
             return false;
           }
           function isEventSupported(eventNameSuffix) {
-            if (!canUseDOM) {
+            if (!canUseDOM2) {
               return false;
             }
             var eventName = "on" + eventNameSuffix;
@@ -8221,12 +8233,12 @@
           }
           function createAndAccumulateChangeEvent(dispatchQueue, inst, nativeEvent, target) {
             enqueueStateRestore(target);
-            var listeners = accumulateTwoPhaseListeners(inst, "onChange");
-            if (listeners.length > 0) {
+            var listeners2 = accumulateTwoPhaseListeners(inst, "onChange");
+            if (listeners2.length > 0) {
               var event = new SyntheticEvent("onChange", "change", null, nativeEvent, target);
               dispatchQueue.push({
                 event,
-                listeners
+                listeners: listeners2
               });
             }
           }
@@ -8256,7 +8268,7 @@
             }
           }
           var isInputEventSupported = false;
-          if (canUseDOM) {
+          if (canUseDOM2) {
             isInputEventSupported = isEventSupported("input") && (!document.documentMode || document.documentMode > 9);
           }
           function startWatchingForValueChange(target, targetInst) {
@@ -8688,7 +8700,7 @@
               setOffsets(input, offsets);
             }
           }
-          var skipSelectionChangeEvent = canUseDOM && "documentMode" in document && document.documentMode <= 11;
+          var skipSelectionChangeEvent = canUseDOM2 && "documentMode" in document && document.documentMode <= 11;
           function registerEvents$3() {
             registerTwoPhaseEvent("onSelect", ["focusout", "contextmenu", "dragend", "focusin", "keydown", "keyup", "mousedown", "mouseup", "selectionchange"]);
           }
@@ -8724,12 +8736,12 @@
             var currentSelection = getSelection$1(activeElement$1);
             if (!lastSelection || !shallowEqual(lastSelection, currentSelection)) {
               lastSelection = currentSelection;
-              var listeners = accumulateTwoPhaseListeners(activeElementInst$1, "onSelect");
-              if (listeners.length > 0) {
+              var listeners2 = accumulateTwoPhaseListeners(activeElementInst$1, "onSelect");
+              if (listeners2.length > 0) {
                 var event = new SyntheticEvent("onSelect", "select", null, nativeEvent, nativeEventTarget);
                 dispatchQueue.push({
                   event,
-                  listeners
+                  listeners: listeners2
                 });
                 event.target = activeElement$1;
               }
@@ -8796,7 +8808,7 @@
           };
           var prefixedEventNames = {};
           var style = {};
-          if (canUseDOM) {
+          if (canUseDOM2) {
             style = document.createElement("div").style;
             if (!("AnimationEvent" in window)) {
               delete vendorPrefixes.animationend.animation;
@@ -9003,8 +9015,8 @@
           function processDispatchQueue(dispatchQueue, eventSystemFlags) {
             var inCapturePhase = (eventSystemFlags & IS_CAPTURE_PHASE) !== 0;
             for (var i = 0; i < dispatchQueue.length; i++) {
-              var _dispatchQueue$i = dispatchQueue[i], event = _dispatchQueue$i.event, listeners = _dispatchQueue$i.listeners;
-              processDispatchQueueItemsInOrder(event, listeners, inCapturePhase);
+              var _dispatchQueue$i = dispatchQueue[i], event = _dispatchQueue$i.event, listeners2 = _dispatchQueue$i.listeners;
+              processDispatchQueueItemsInOrder(event, listeners2, inCapturePhase);
             }
             rethrowCaughtError();
           }
@@ -9148,7 +9160,7 @@
           function accumulateSinglePhaseListeners(targetFiber, reactName, nativeEventType, inCapturePhase, accumulateTargetOnly, nativeEvent) {
             var captureName = reactName !== null ? reactName + "Capture" : null;
             var reactEventName = inCapturePhase ? captureName : reactName;
-            var listeners = [];
+            var listeners2 = [];
             var instance = targetFiber;
             var lastHostComponent = null;
             while (instance !== null) {
@@ -9158,7 +9170,7 @@
                 if (reactEventName !== null) {
                   var listener = getListener(instance, reactEventName);
                   if (listener != null) {
-                    listeners.push(createDispatchListener(instance, listener, lastHostComponent));
+                    listeners2.push(createDispatchListener(instance, listener, lastHostComponent));
                   }
                 }
               }
@@ -9167,11 +9179,11 @@
               }
               instance = instance.return;
             }
-            return listeners;
+            return listeners2;
           }
           function accumulateTwoPhaseListeners(targetFiber, reactName) {
             var captureName = reactName + "Capture";
-            var listeners = [];
+            var listeners2 = [];
             var instance = targetFiber;
             while (instance !== null) {
               var _instance3 = instance, stateNode = _instance3.stateNode, tag = _instance3.tag;
@@ -9179,16 +9191,16 @@
                 var currentTarget = stateNode;
                 var captureListener = getListener(instance, captureName);
                 if (captureListener != null) {
-                  listeners.unshift(createDispatchListener(instance, captureListener, currentTarget));
+                  listeners2.unshift(createDispatchListener(instance, captureListener, currentTarget));
                 }
                 var bubbleListener = getListener(instance, reactName);
                 if (bubbleListener != null) {
-                  listeners.push(createDispatchListener(instance, bubbleListener, currentTarget));
+                  listeners2.push(createDispatchListener(instance, bubbleListener, currentTarget));
                 }
               }
               instance = instance.return;
             }
-            return listeners;
+            return listeners2;
           }
           function getParent(inst) {
             if (inst === null) {
@@ -9233,7 +9245,7 @@
           }
           function accumulateEnterLeaveListenersForEvent(dispatchQueue, event, target, common, inCapturePhase) {
             var registrationName = event._reactName;
-            var listeners = [];
+            var listeners2 = [];
             var instance = target;
             while (instance !== null) {
               if (instance === common) {
@@ -9248,21 +9260,21 @@
                 if (inCapturePhase) {
                   var captureListener = getListener(instance, registrationName);
                   if (captureListener != null) {
-                    listeners.unshift(createDispatchListener(instance, captureListener, currentTarget));
+                    listeners2.unshift(createDispatchListener(instance, captureListener, currentTarget));
                   }
                 } else if (!inCapturePhase) {
                   var bubbleListener = getListener(instance, registrationName);
                   if (bubbleListener != null) {
-                    listeners.push(createDispatchListener(instance, bubbleListener, currentTarget));
+                    listeners2.push(createDispatchListener(instance, bubbleListener, currentTarget));
                   }
                 }
               }
               instance = instance.return;
             }
-            if (listeners.length !== 0) {
+            if (listeners2.length !== 0) {
               dispatchQueue.push({
                 event,
-                listeners
+                listeners: listeners2
               });
             }
           }
@@ -9312,7 +9324,7 @@
                 possibleRegistrationNames
               });
             };
-            canDiffStyleForHydrationWarning = canUseDOM && !document.documentMode;
+            canDiffStyleForHydrationWarning = canUseDOM2 && !document.documentMode;
             warnForPropDifference = function(propName, serverValue, clientValue) {
               if (didWarnInvalidHydration) {
                 return;
@@ -9442,7 +9454,7 @@
               }
             }
           }
-          function createElement(type, props, rootContainerElement, parentNamespace) {
+          function createElement2(type, props, rootContainerElement, parentNamespace) {
             var isCustomComponentTag;
             var ownerDocument = getOwnerDocumentFromRootContainer(rootContainerElement);
             var domElement;
@@ -10312,7 +10324,7 @@
               }
               parentNamespace = hostContextDev.namespace;
             }
-            var domElement = createElement(type, props, rootContainerInstance, parentNamespace);
+            var domElement = createElement2(type, props, rootContainerInstance, parentNamespace);
             precacheFiberNode(internalInstanceHandle, domElement);
             updateFiberProps(domElement, props);
             return domElement;
@@ -10831,7 +10843,7 @@
               }
             }
           }
-          function checkPropTypes(typeSpecs, values, location, componentName, element) {
+          function checkPropTypes(typeSpecs, values, location2, componentName, element) {
             {
               var has2 = Function.call.bind(hasOwnProperty);
               for (var typeSpecName in typeSpecs) {
@@ -10839,23 +10851,23 @@
                   var error$1 = void 0;
                   try {
                     if (typeof typeSpecs[typeSpecName] !== "function") {
-                      var err = Error((componentName || "React class") + ": " + location + " type `" + typeSpecName + "` is invalid; it must be a function, usually from the `prop-types` package, but received `" + typeof typeSpecs[typeSpecName] + "`.This often happens because of typos such as `PropTypes.function` instead of `PropTypes.func`.");
+                      var err = Error((componentName || "React class") + ": " + location2 + " type `" + typeSpecName + "` is invalid; it must be a function, usually from the `prop-types` package, but received `" + typeof typeSpecs[typeSpecName] + "`.This often happens because of typos such as `PropTypes.function` instead of `PropTypes.func`.");
                       err.name = "Invariant Violation";
                       throw err;
                     }
-                    error$1 = typeSpecs[typeSpecName](values, typeSpecName, componentName, location, null, "SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED");
+                    error$1 = typeSpecs[typeSpecName](values, typeSpecName, componentName, location2, null, "SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED");
                   } catch (ex) {
                     error$1 = ex;
                   }
                   if (error$1 && !(error$1 instanceof Error)) {
                     setCurrentlyValidatingElement(element);
-                    error("%s: type specification of %s `%s` is invalid; the type checker function must return `null` or an `Error` but returned a %s. You may have forgotten to pass an argument to the type checker creator (arrayOf, instanceOf, objectOf, oneOf, oneOfType, and shape all require an argument).", componentName || "React class", location, typeSpecName, typeof error$1);
+                    error("%s: type specification of %s `%s` is invalid; the type checker function must return `null` or an `Error` but returned a %s. You may have forgotten to pass an argument to the type checker creator (arrayOf, instanceOf, objectOf, oneOf, oneOfType, and shape all require an argument).", componentName || "React class", location2, typeSpecName, typeof error$1);
                     setCurrentlyValidatingElement(null);
                   }
                   if (error$1 instanceof Error && !(error$1.message in loggedTypeFailures)) {
                     loggedTypeFailures[error$1.message] = true;
                     setCurrentlyValidatingElement(element);
-                    error("Failed %s type: %s", location, error$1.message);
+                    error("Failed %s type: %s", location2, error$1.message);
                     setCurrentlyValidatingElement(null);
                   }
                 }
@@ -12046,7 +12058,7 @@
               }
             }
             function updateFragment2(returnFiber, current2, fragment, lanes, key) {
-              if (current2 === null || current2.tag !== Fragment) {
+              if (current2 === null || current2.tag !== Fragment2) {
                 var created = createFiberFromFragment(fragment, returnFiber.mode, lanes, key);
                 created.return = returnFiber;
                 return created;
@@ -12449,7 +12461,7 @@
                 if (child.key === key) {
                   var elementType = element.type;
                   if (elementType === REACT_FRAGMENT_TYPE) {
-                    if (child.tag === Fragment) {
+                    if (child.tag === Fragment2) {
                       deleteRemainingChildren(returnFiber, child.sibling);
                       var existing = useFiber(child, element.props.children);
                       existing.return = returnFiber;
@@ -17925,7 +17937,7 @@
                 var _resolvedProps2 = workInProgress2.elementType === type ? _unresolvedProps2 : resolveDefaultProps(type, _unresolvedProps2);
                 return updateForwardRef(current2, workInProgress2, type, _resolvedProps2, renderLanes2);
               }
-              case Fragment:
+              case Fragment2:
                 return updateFragment(current2, workInProgress2, renderLanes2);
               case Mode:
                 return updateMode(current2, workInProgress2, renderLanes2);
@@ -18197,7 +18209,7 @@
               case SimpleMemoComponent:
               case FunctionComponent:
               case ForwardRef:
-              case Fragment:
+              case Fragment2:
               case Mode:
               case Profiler:
               case ContextConsumer:
@@ -22458,7 +22470,7 @@
             return fiber;
           }
           function createFiberFromFragment(elements, mode, lanes, key) {
-            var fiber = createFiber(Fragment, elements, key, mode);
+            var fiber = createFiber(Fragment2, elements, key, mode);
             fiber.lanes = lanes;
             return fiber;
           }
@@ -23534,7 +23546,7 @@
             rendererPackageName: "react-dom"
           });
           {
-            if (!foundDevTools && canUseDOM && window.top === window.self) {
+            if (!foundDevTools && canUseDOM2 && window.top === window.self) {
               if (navigator.userAgent.indexOf("Chrome") > -1 && navigator.userAgent.indexOf("Edge") === -1 || navigator.userAgent.indexOf("Firefox") > -1) {
                 var protocol = window.location.protocol;
                 if (/^(https?|file):$/.test(protocol)) {
@@ -23604,6 +23616,140 @@
         };
       }
       var i;
+    }
+  });
+
+  // node_modules/use-sync-external-store/cjs/use-sync-external-store-shim.development.js
+  var require_use_sync_external_store_shim_development = __commonJS({
+    "node_modules/use-sync-external-store/cjs/use-sync-external-store-shim.development.js"(exports) {
+      "use strict";
+      if (true) {
+        (function() {
+          "use strict";
+          if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
+            __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
+          }
+          var React9 = require_react();
+          var ReactSharedInternals = React9.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+          function error(format) {
+            {
+              {
+                for (var _len2 = arguments.length, args = new Array(_len2 > 1 ? _len2 - 1 : 0), _key2 = 1; _key2 < _len2; _key2++) {
+                  args[_key2 - 1] = arguments[_key2];
+                }
+                printWarning("error", format, args);
+              }
+            }
+          }
+          function printWarning(level, format, args) {
+            {
+              var ReactDebugCurrentFrame = ReactSharedInternals.ReactDebugCurrentFrame;
+              var stack = ReactDebugCurrentFrame.getStackAddendum();
+              if (stack !== "") {
+                format += "%s";
+                args = args.concat([stack]);
+              }
+              var argsWithFormat = args.map(function(item) {
+                return String(item);
+              });
+              argsWithFormat.unshift("Warning: " + format);
+              Function.prototype.apply.call(console[level], console, argsWithFormat);
+            }
+          }
+          function is(x, y) {
+            return x === y && (x !== 0 || 1 / x === 1 / y) || x !== x && y !== y;
+          }
+          var objectIs = typeof Object.is === "function" ? Object.is : is;
+          var useState2 = React9.useState, useEffect2 = React9.useEffect, useLayoutEffect2 = React9.useLayoutEffect, useDebugValue = React9.useDebugValue;
+          var didWarnOld18Alpha = false;
+          var didWarnUncachedGetSnapshot = false;
+          function useSyncExternalStore2(subscribe, getSnapshot, getServerSnapshot) {
+            {
+              if (!didWarnOld18Alpha) {
+                if (React9.startTransition !== void 0) {
+                  didWarnOld18Alpha = true;
+                  error("You are using an outdated, pre-release alpha of React 18 that does not support useSyncExternalStore. The use-sync-external-store shim will not work correctly. Upgrade to a newer pre-release.");
+                }
+              }
+            }
+            var value = getSnapshot();
+            {
+              if (!didWarnUncachedGetSnapshot) {
+                var cachedValue = getSnapshot();
+                if (!objectIs(value, cachedValue)) {
+                  error("The result of getSnapshot should be cached to avoid an infinite loop");
+                  didWarnUncachedGetSnapshot = true;
+                }
+              }
+            }
+            var _useState = useState2({
+              inst: {
+                value,
+                getSnapshot
+              }
+            }), inst = _useState[0].inst, forceUpdate = _useState[1];
+            useLayoutEffect2(function() {
+              inst.value = value;
+              inst.getSnapshot = getSnapshot;
+              if (checkIfSnapshotChanged(inst)) {
+                forceUpdate({
+                  inst
+                });
+              }
+            }, [subscribe, value, getSnapshot]);
+            useEffect2(function() {
+              if (checkIfSnapshotChanged(inst)) {
+                forceUpdate({
+                  inst
+                });
+              }
+              var handleStoreChange = function() {
+                if (checkIfSnapshotChanged(inst)) {
+                  forceUpdate({
+                    inst
+                  });
+                }
+              };
+              return subscribe(handleStoreChange);
+            }, [subscribe]);
+            useDebugValue(value);
+            return value;
+          }
+          function checkIfSnapshotChanged(inst) {
+            var latestGetSnapshot = inst.getSnapshot;
+            var prevValue = inst.value;
+            try {
+              var nextValue = latestGetSnapshot();
+              return !objectIs(prevValue, nextValue);
+            } catch (error2) {
+              return true;
+            }
+          }
+          function useSyncExternalStore$1(subscribe, getSnapshot, getServerSnapshot) {
+            return getSnapshot();
+          }
+          var canUseDOM2 = !!(typeof window !== "undefined" && typeof window.document !== "undefined" && typeof window.document.createElement !== "undefined");
+          var isServerEnvironment = !canUseDOM2;
+          var shim = isServerEnvironment ? useSyncExternalStore$1 : useSyncExternalStore2;
+          var useSyncExternalStore$2 = React9.useSyncExternalStore !== void 0 ? React9.useSyncExternalStore : shim;
+          exports.useSyncExternalStore = useSyncExternalStore$2;
+          if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") {
+            __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
+          }
+        })();
+      }
+    }
+  });
+
+  // node_modules/use-sync-external-store/shim/index.js
+  var require_shim = __commonJS({
+    "node_modules/use-sync-external-store/shim/index.js"(exports, module) {
+      "use strict";
+      if (false) {
+        module.exports = null;
+      } else {
+        module.exports = require_use_sync_external_store_shim_development();
+      }
     }
   });
 
@@ -26091,14 +26237,309 @@
   }
 
   // src/app.tsx
-  var import_react6 = __toESM(require_react());
+  var import_react8 = __toESM(require_react());
 
   // src/app/root.tsx
-  var import_react5 = __toESM(require_react());
+  var import_react7 = __toESM(require_react());
+
+  // node_modules/regexparam/dist/index.mjs
+  function parse(input, loose) {
+    if (input instanceof RegExp) return { keys: false, pattern: input };
+    var c, o, tmp, ext, keys = [], pattern = "", arr = input.split("/");
+    arr[0] || arr.shift();
+    while (tmp = arr.shift()) {
+      c = tmp[0];
+      if (c === "*") {
+        keys.push(c);
+        pattern += tmp[1] === "?" ? "(?:/(.*))?" : "/(.*)";
+      } else if (c === ":") {
+        o = tmp.indexOf("?", 1);
+        ext = tmp.indexOf(".", 1);
+        keys.push(tmp.substring(1, !!~o ? o : !!~ext ? ext : tmp.length));
+        pattern += !!~o && !~ext ? "(?:/([^/]+?))?" : "/([^/]+?)";
+        if (!!~ext) pattern += (!!~o ? "?" : "") + "\\" + tmp.substring(ext);
+      } else {
+        pattern += "/" + tmp;
+      }
+    }
+    return {
+      keys,
+      pattern: new RegExp("^" + pattern + (loose ? "(?=$|/)" : "/?$"), "i")
+    };
+  }
+
+  // node_modules/wouter/esm/react-deps.js
+  var React = __toESM(require_react(), 1);
+  var import_react = __toESM(require_react(), 1);
+  var import_shim = __toESM(require_shim(), 1);
+  var useBuiltinInsertionEffect = React["useInsertionEffect"];
+  var canUseDOM = !!(typeof window !== "undefined" && typeof window.document !== "undefined" && typeof window.document.createElement !== "undefined");
+  var useIsomorphicLayoutEffect = canUseDOM ? React.useLayoutEffect : React.useEffect;
+  var useInsertionEffect2 = useBuiltinInsertionEffect || useIsomorphicLayoutEffect;
+  var useEvent = (fn) => {
+    const ref = React.useRef([fn, (...args) => ref[0](...args)]).current;
+    useInsertionEffect2(() => {
+      ref[0] = fn;
+    });
+    return ref[1];
+  };
+
+  // node_modules/wouter/esm/use-browser-location.js
+  var eventPopstate = "popstate";
+  var eventPushState = "pushState";
+  var eventReplaceState = "replaceState";
+  var eventHashchange = "hashchange";
+  var events = [
+    eventPopstate,
+    eventPushState,
+    eventReplaceState,
+    eventHashchange
+  ];
+  var subscribeToLocationUpdates = (callback) => {
+    for (const event of events) {
+      addEventListener(event, callback);
+    }
+    return () => {
+      for (const event of events) {
+        removeEventListener(event, callback);
+      }
+    };
+  };
+  var useLocationProperty = (fn, ssrFn) => (0, import_shim.useSyncExternalStore)(subscribeToLocationUpdates, fn, ssrFn);
+  var currentSearch = () => location.search;
+  var useSearch = ({ ssrSearch = "" } = {}) => useLocationProperty(currentSearch, () => ssrSearch);
+  var currentPathname = () => location.pathname;
+  var usePathname = ({ ssrPath } = {}) => useLocationProperty(
+    currentPathname,
+    ssrPath ? () => ssrPath : currentPathname
+  );
+  var navigate = (to, { replace = false, state = null } = {}) => history[replace ? eventReplaceState : eventPushState](state, "", to);
+  var useBrowserLocation = (opts = {}) => [usePathname(opts), navigate];
+  var patchKey = Symbol.for("wouter_v3");
+  if (typeof history !== "undefined" && typeof window[patchKey] === "undefined") {
+    for (const type of [eventPushState, eventReplaceState]) {
+      const original = history[type];
+      history[type] = function() {
+        const result = original.apply(this, arguments);
+        const event = new Event(type);
+        event.arguments = arguments;
+        dispatchEvent(event);
+        return result;
+      };
+    }
+    Object.defineProperty(window, patchKey, { value: true });
+  }
+
+  // node_modules/wouter/esm/index.js
+  var _relativePath = (base, path) => !path.toLowerCase().indexOf(base.toLowerCase()) ? path.slice(base.length) || "/" : "~" + path;
+  var baseDefaults = (base = "") => base === "/" ? "" : base;
+  var absolutePath = (to, base) => to[0] === "~" ? to.slice(1) : baseDefaults(base) + to;
+  var relativePath = (base = "", path) => _relativePath(unescape(baseDefaults(base)), unescape(path));
+  var unescape = (str) => {
+    try {
+      return decodeURI(str);
+    } catch (_e) {
+      return str;
+    }
+  };
+  var defaultRouter = {
+    hook: useBrowserLocation,
+    searchHook: useSearch,
+    parser: parse,
+    base: "",
+    // this option is used to override the current location during SSR
+    ssrPath: void 0,
+    ssrSearch: void 0,
+    // customizes how `href` props are transformed for <Link />
+    hrefs: (x) => x
+  };
+  var RouterCtx = (0, import_react.createContext)(defaultRouter);
+  var useRouter = () => (0, import_react.useContext)(RouterCtx);
+  var Params0 = {};
+  var ParamsCtx = (0, import_react.createContext)(Params0);
+  var useParams = () => (0, import_react.useContext)(ParamsCtx);
+  var useLocationFromRouter = (router) => {
+    const [location2, navigate3] = router.hook(router);
+    return [
+      relativePath(router.base, location2),
+      useEvent((to, navOpts) => navigate3(absolutePath(to, router.base), navOpts))
+    ];
+  };
+  var useLocation = () => useLocationFromRouter(useRouter());
+  var matchRoute = (parser, route, path, loose) => {
+    const { pattern, keys } = route instanceof RegExp ? { keys: false, pattern: route } : parser(route || "*", loose);
+    const result = pattern.exec(path) || [];
+    const [$base, ...matches] = result;
+    return $base !== void 0 ? [
+      true,
+      (() => {
+        const groups = keys !== false ? Object.fromEntries(keys.map((key, i) => [key, matches[i]])) : result.groups;
+        let obj = __spreadValues({}, matches);
+        groups && Object.assign(obj, groups);
+        return obj;
+      })(),
+      // the third value if only present when parser is in "loose" mode,
+      // so that we can extract the base path for nested routes
+      ...loose ? [$base] : []
+    ] : [false, null];
+  };
+  var Router = (_a) => {
+    var _b = _a, { children } = _b, props = __objRest(_b, ["children"]);
+    var _a2, _b2, _c, _d;
+    const parent_ = useRouter();
+    const parent = props.hook ? defaultRouter : parent_;
+    let value = parent;
+    const [path, search] = (_b2 = (_a2 = props.ssrPath) == null ? void 0 : _a2.split("?")) != null ? _b2 : [];
+    if (search) props.ssrSearch = search, props.ssrPath = path;
+    props.hrefs = (_d = props.hrefs) != null ? _d : (_c = props.hook) == null ? void 0 : _c.hrefs;
+    let ref = (0, import_react.useRef)({}), prev = ref.current, next = prev;
+    for (let k in parent) {
+      const option = k === "base" ? (
+        /* base is special case, it is appended to the parent's base */
+        parent[k] + (props[k] || "")
+      ) : props[k] || parent[k];
+      if (prev === next && option !== next[k]) {
+        ref.current = next = __spreadValues({}, next);
+      }
+      next[k] = option;
+      if (option !== parent[k]) value = next;
+    }
+    return (0, import_react.createElement)(RouterCtx.Provider, { value, children });
+  };
+  var h_route = ({ children, component }, params) => {
+    if (component) return (0, import_react.createElement)(component, { params });
+    return typeof children === "function" ? children(params) : children;
+  };
+  var useCachedParams = (value) => {
+    let prev = (0, import_react.useRef)(Params0), curr = prev.current;
+    for (const k in value) if (value[k] !== curr[k]) curr = value;
+    if (Object.keys(value).length === 0) curr = value;
+    return prev.current = curr;
+  };
+  var Route = (_a) => {
+    var _b = _a, { path, nest, match } = _b, renderProps = __objRest(_b, ["path", "nest", "match"]);
+    const router = useRouter();
+    const [location2] = useLocationFromRouter(router);
+    const [matches, routeParams, base] = (
+      // `match` is a special prop to give up control to the parent,
+      // it is used by the `Switch` to avoid double matching
+      match != null ? match : matchRoute(router.parser, path, location2, nest)
+    );
+    const params = useCachedParams(__spreadValues(__spreadValues({}, useParams()), routeParams));
+    if (!matches) return null;
+    const children = base ? (0, import_react.createElement)(Router, { base }, h_route(renderProps, params)) : h_route(renderProps, params);
+    return (0, import_react.createElement)(ParamsCtx.Provider, { value: params, children });
+  };
+  var Link = (0, import_react.forwardRef)((props, ref) => {
+    const router = useRouter();
+    const [currentPath, navigate3] = useLocationFromRouter(router);
+    const _a = props, {
+      to = "",
+      href: targetPath = to,
+      onClick: _onClick,
+      asChild,
+      children,
+      className: cls,
+      replace: replace,
+      state
+    } = _a, restProps = __objRest(_a, [
+      "to",
+      "href",
+      "onClick",
+      "asChild",
+      "children",
+      "className",
+      /* eslint-disable no-unused-vars */
+      "replace",
+      "state"
+    ]);
+    const onClick = useEvent((event) => {
+      if (event.ctrlKey || event.metaKey || event.altKey || event.shiftKey || event.button !== 0)
+        return;
+      _onClick == null ? void 0 : _onClick(event);
+      if (!event.defaultPrevented) {
+        event.preventDefault();
+        navigate3(targetPath, props);
+      }
+    });
+    const href = router.hrefs(
+      targetPath[0] === "~" ? targetPath.slice(1) : router.base + targetPath,
+      router
+      // pass router as a second argument for convinience
+    );
+    return asChild && (0, import_react.isValidElement)(children) ? (0, import_react.cloneElement)(children, { onClick, href }) : (0, import_react.createElement)("a", __spreadProps(__spreadValues({}, restProps), {
+      onClick,
+      href,
+      // `className` can be a function to apply the class if this link is active
+      className: (cls == null ? void 0 : cls.call) ? cls(currentPath === targetPath) : cls,
+      children,
+      ref
+    }));
+  });
+  var flattenChildren = (children) => Array.isArray(children) ? children.flatMap(
+    (c) => flattenChildren(c && c.type === import_react.Fragment ? c.props.children : c)
+  ) : [children];
+  var Switch = ({ children, location: location2 }) => {
+    const router = useRouter();
+    const [originalLocation] = useLocationFromRouter(router);
+    for (const element of flattenChildren(children)) {
+      let match = 0;
+      if ((0, import_react.isValidElement)(element) && // we don't require an element to be of type Route,
+      // but we do require it to contain a truthy `path` prop.
+      // this allows to use different components that wrap Route
+      // inside of a switch, for example <AnimatedRoute />.
+      (match = matchRoute(
+        router.parser,
+        element.props.path,
+        location2 || originalLocation,
+        element.props.nest
+      ))[0])
+        return (0, import_react.cloneElement)(element, { match });
+    }
+    return null;
+  };
+
+  // node_modules/wouter/esm/use-hash-location.js
+  var listeners = {
+    v: []
+  };
+  var onHashChange = () => listeners.v.forEach((cb) => cb());
+  var subscribeToHashUpdates = (callback) => {
+    if (listeners.v.push(callback) === 1)
+      addEventListener("hashchange", onHashChange);
+    return () => {
+      listeners.v = listeners.v.filter((i) => i !== callback);
+      if (!listeners.v.length) removeEventListener("hashchange", onHashChange);
+    };
+  };
+  var currentHashLocation = () => "/" + location.hash.replace(/^#?\/?/, "");
+  var navigate2 = (to, { state = null } = {}) => {
+    const [hash, search] = to.replace(/^#?\/?/, "").split("?");
+    history.replaceState(
+      state,
+      "",
+      // keep the current pathname, but replace query string and hash
+      location.pathname + (search ? `?${search}` : location.search) + // update location hash, this will cause `hashchange` event to fire
+      // normalise the value before updating, so it's always preceeded with "#/"
+      (location.hash = `#/${hash}`)
+    );
+  };
+  var useHashLocation = ({ ssrPath = "/" } = {}) => [
+    (0, import_shim.useSyncExternalStore)(
+      subscribeToHashUpdates,
+      currentHashLocation,
+      () => ssrPath
+    ),
+    navigate2
+  ];
+  useHashLocation.hrefs = (href) => "#" + href;
+
+  // src/app/course_list.tsx
+  var import_react3 = __toESM(require_react());
 
   // src/app/course_list_item.tsx
-  var import_react = __toESM(require_react());
-  function CourseListItem({ course, viewCourse, downloadCourse }) {
+  var import_react2 = __toESM(require_react());
+  function CourseListItem({ course, downloadCourse }) {
     function beginDownload() {
       downloadCourse();
     }
@@ -26107,14 +26548,26 @@
         registration.active.postMessage({ type: "downloadVideos", course });
       });
     }
-    return /* @__PURE__ */ import_react.default.createElement(import_react.default.Fragment, null, /* @__PURE__ */ import_react.default.createElement("p", null, course.name), /* @__PURE__ */ import_react.default.createElement("p", null, !course.ready ? /* @__PURE__ */ import_react.default.createElement("button", { onClick: beginDownload }, "Add Course") : /* @__PURE__ */ import_react.default.createElement("button", { onClick: viewCourse }, "View Course"), course.status && ` - ${course.status}`), course.videos.length > 0 && /* @__PURE__ */ import_react.default.createElement("p", null, /* @__PURE__ */ import_react.default.createElement("button", { onClick: downloadVideos }, "Download Videos"), course.videosDownloaded, "/", course.videos.length, " videos downloaded"));
+    return /* @__PURE__ */ import_react2.default.createElement(import_react2.default.Fragment, null, /* @__PURE__ */ import_react2.default.createElement("p", null, course.name), /* @__PURE__ */ import_react2.default.createElement("p", null, !course.ready ? /* @__PURE__ */ import_react2.default.createElement("button", { onClick: beginDownload }, "Add Course") : /* @__PURE__ */ import_react2.default.createElement(Link, { href: `/courses/${course.id}` }, "View Course"), course.status && ` - ${course.status}`), course.videos.length > 0 && /* @__PURE__ */ import_react2.default.createElement("p", null, /* @__PURE__ */ import_react2.default.createElement("button", { onClick: downloadVideos }, "Download Videos"), course.videosDownloaded, "/", course.videos.length, " videos downloaded"));
+  }
+
+  // src/app/course_list.tsx
+  function CourseList({ courses, downloadCourse }) {
+    return /* @__PURE__ */ import_react3.default.createElement("div", null, /* @__PURE__ */ import_react3.default.createElement("h1", null, /* @__PURE__ */ import_react3.default.createElement("img", { src: "/icons/android/android-launchericon-192-192.png" }), "Courses"), /* @__PURE__ */ import_react3.default.createElement("ul", null, courses.map((course) => /* @__PURE__ */ import_react3.default.createElement("li", { key: course.id }, /* @__PURE__ */ import_react3.default.createElement(
+      CourseListItem,
+      {
+        course,
+        downloadCourse: () => downloadCourse(course.id, course.file)
+      }
+    )))));
   }
 
   // src/app/course_view.tsx
-  var import_react2 = __toESM(require_react());
-  function CourseView({ course, goBack }) {
-    const ref = import_react2.default.useRef(null);
-    import_react2.default.useEffect(() => {
+  var import_react4 = __toESM(require_react());
+  function CourseView({ course }) {
+    const [_location, navigate3] = useLocation();
+    const ref = import_react4.default.useRef(null);
+    import_react4.default.useEffect(() => {
       function onLoad(e) {
         var _a;
         const childWindow = (_a = ref.current) == null ? void 0 : _a.contentWindow;
@@ -26133,20 +26586,20 @@
         }
       };
     }, [ref]);
-    import_react2.default.useEffect(() => {
+    import_react4.default.useEffect(() => {
       function onMessage(e) {
         var _a;
         console.log("post message", e);
         if (e.source !== ((_a = ref.current) == null ? void 0 : _a.contentWindow)) return;
         if (typeof e.data !== "object" || Array.isArray(e.data) || e.data === null) return;
         if (e.data.type === "goBack") {
-          goBack();
+          navigate3("/");
         }
       }
       window.addEventListener("message", onMessage);
       () => window.removeEventListener("message", onMessage);
     });
-    return /* @__PURE__ */ import_react2.default.createElement(import_react2.default.Fragment, null, /* @__PURE__ */ import_react2.default.createElement(
+    return /* @__PURE__ */ import_react4.default.createElement(import_react4.default.Fragment, null, /* @__PURE__ */ import_react4.default.createElement(
       "iframe",
       {
         src: `/courses/${course.id}/index.html`,
@@ -26157,7 +26610,7 @@
   }
 
   // src/app/use_download_course.tsx
-  var import_react3 = __toESM(require_react());
+  var import_react5 = __toESM(require_react());
   var import_jszip = __toESM(require_jszip_min());
   function mimeFromExtension(path) {
     const extension = path.split(".").pop();
@@ -26199,7 +26652,7 @@
     }
   }
   function useDownloadCourse(setCourses) {
-    return import_react3.default.useCallback(async (courseId, path) => {
+    return import_react5.default.useCallback(async (courseId, path) => {
       const updateCourseStatus = (status) => {
         setCourses((courses) => courses.map((course) => {
           if (course.id === courseId) {
@@ -26234,9 +26687,9 @@
   }
 
   // src/app/use_worker_subscription.ts
-  var import_react4 = __toESM(require_react());
+  var import_react6 = __toESM(require_react());
   function useWorkerSubscription(setCourses) {
-    return import_react4.default.useEffect(() => {
+    return import_react6.default.useEffect(() => {
       function onMessage(event) {
         console.log("The Worker Sent a Message", event);
         if (typeof event.data === "object" && !Array.isArray(event.data) && event.data !== null) {
@@ -26258,28 +26711,18 @@
 
   // src/app/root.tsx
   function Root(props) {
-    const [courses, setCourses] = import_react5.default.useState(props.courses);
-    const [course, setCourse] = import_react5.default.useState(null);
+    const [courses, setCourses] = import_react7.default.useState(props.courses);
     const downloadCourse = useDownloadCourse(setCourses);
     useWorkerSubscription(setCourses);
-    if (course === null) {
-      return /* @__PURE__ */ import_react5.default.createElement("div", null, /* @__PURE__ */ import_react5.default.createElement("h1", null, /* @__PURE__ */ import_react5.default.createElement("img", { src: "/icons/android/android-launchericon-192-192.png" }), "Courses"), /* @__PURE__ */ import_react5.default.createElement("ul", null, courses.map((course2) => /* @__PURE__ */ import_react5.default.createElement("li", { key: course2.id }, /* @__PURE__ */ import_react5.default.createElement(
-        CourseListItem,
-        {
-          course: course2,
-          viewCourse: () => setCourse(course2),
-          downloadCourse: () => downloadCourse(course2.id, course2.file)
-        }
-      )))));
-    }
-    return /* @__PURE__ */ import_react5.default.createElement(CourseView, { course, goBack: () => setCourse(null) });
+    const getCourse = (courseId) => courses.find((course) => course.id === courseId);
+    return /* @__PURE__ */ import_react7.default.createElement(Router, { hook: useHashLocation }, /* @__PURE__ */ import_react7.default.createElement(Switch, null, /* @__PURE__ */ import_react7.default.createElement(Route, { path: "/courses/:courseId" }, ({ courseId }) => /* @__PURE__ */ import_react7.default.createElement(CourseView, { course: getCourse(courseId) })), /* @__PURE__ */ import_react7.default.createElement(Route, { path: "/" }, /* @__PURE__ */ import_react7.default.createElement(CourseList, { courses, downloadCourse }))));
   }
 
   // src/app.tsx
   async function init() {
     await activateWorker();
     const courses = await getInitialCourseList();
-    (0, import_client.createRoot)(document.getElementById("react-app")).render(/* @__PURE__ */ import_react6.default.createElement(Root, { courses }));
+    (0, import_client.createRoot)(document.getElementById("react-app")).render(/* @__PURE__ */ import_react8.default.createElement(Root, { courses }));
   }
   function activateWorker() {
     return new Promise((resolve) => {
@@ -26337,6 +26780,17 @@ react-dom/cjs/react-dom.development.js:
    * @return {boolean} True if the event is supported.
    * @internal
    * @license Modernizr 3.0.0pre (Custom Build) | MIT
+   *)
+
+use-sync-external-store/cjs/use-sync-external-store-shim.development.js:
+  (**
+   * @license React
+   * use-sync-external-store-shim.development.js
+   *
+   * Copyright (c) Facebook, Inc. and its affiliates.
+   *
+   * This source code is licensed under the MIT license found in the
+   * LICENSE file in the root directory of this source tree.
    *)
 
 jszip/dist/jszip.min.js:

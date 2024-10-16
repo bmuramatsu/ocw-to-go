@@ -1,11 +1,11 @@
 import React from 'react';
-import CourseListItem from './course_list_item';
+import { Router, Route, Switch } from 'wouter';
+import { useHashLocation } from "wouter/use-hash-location" 
 import { Course } from '../types';
+import CourseList from './course_list';
 import CourseView from './course_view';
 import useDownloadCourse from './use_download_course';
 import useWorkerSubscription from './use_worker_subscription';
-// import DownloadTest from './download_test';
-// import VideoTest from './video_test';
 
 interface Props {
   courses: Course[];
@@ -13,31 +13,19 @@ interface Props {
 
 export default function Root(props: Props) {
   const [courses, setCourses] = React.useState(props.courses);
-  const [course, setCourse] = React.useState<Course | null>(null);
 
   const downloadCourse = useDownloadCourse(setCourses);
   useWorkerSubscription(setCourses);
 
-  if (course === null) {
-    return (
-      <div>
-        {/* <DownloadTest /> */}
-        {/* <VideoTest /> */}
-        <h1><img src="/icons/android/android-launchericon-192-192.png" />Courses</h1>
-        <ul>
-          {courses.map(course => (
-            <li key={course.id}>
-              <CourseListItem
-                course={course}
-                viewCourse={() => setCourse(course)}
-                downloadCourse={() => downloadCourse(course.id, course.file)}
-              />
-            </li>
-          ))}
-        </ul>
-      </div>
-    );
-  }
-
-  return <CourseView course={course} goBack={() => setCourse(null)} />;
+  const getCourse = (courseId: string) => courses.find(course => course.id === courseId)!;
+  
+  return (
+    <Router hook={useHashLocation}>
+      <Switch>
+        <Route path="/courses/:courseId">{({courseId}) => <CourseView course={getCourse(courseId)}/>}</Route>
+        <Route path="/"><CourseList courses={courses} downloadCourse={downloadCourse}/></Route>
+      </Switch>
+    </Router>  
+  );
+  // return <CourseView course={course} goBack={() => setCourse(null)} />;
 }
