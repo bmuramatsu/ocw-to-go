@@ -5,9 +5,10 @@ import { Course } from '../types';
 interface Props {
   course: Course
   downloadCourse: () => void
+  removeCourse: (courseId: string) => void
 }
 
-export default function CourseListItem({ course, downloadCourse }: Props) {
+export default function CourseListItem({ course, downloadCourse, removeCourse }: Props) {
   function beginDownload() {
     // navigator.serviceWorker.ready.then(registration => {
     //   registration.active!.postMessage({ type: "downloadCourse", path: course.file, courseId: course.id });
@@ -29,7 +30,12 @@ export default function CourseListItem({ course, downloadCourse }: Props) {
       <p>
         {!course.ready && course.status == "" && <button onClick={beginDownload}>Add Course</button>}
         {!course.ready && course.status != "" && `${course.status}`}
-        {course.ready && <Link href={`/courses/${course.id}`}>View Course</Link>}
+        {course.ready && (
+          <>
+            <Link href={`/courses/${course.id}`}>View Course</Link>
+            <button onClick={() => removeCourse(course.id)}>Remove Course</button>
+          </>
+        )}
       </p>
       {course.videos.length > 0 && (
         <p>

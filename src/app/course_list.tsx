@@ -5,9 +5,10 @@ import { Course } from '../types';
 interface Props {
   courses: Course[];
   downloadCourse: (courseId: string, path: string) => void;
+  removeCourse: (courseId: string) => void;
 }
 
-export default function CourseList({ courses, downloadCourse }: Props) {
+export default function CourseList({ courses, downloadCourse, removeCourse }: Props) {
   return (
     <div>
       {/* <DownloadTest /> */}
@@ -18,6 +19,7 @@ export default function CourseList({ courses, downloadCourse }: Props) {
           <li key={course.id}>
             <CourseListItem
               course={course}
+              removeCourse={removeCourse}
               downloadCourse={() => downloadCourse(course.id, course.file)}
             />
           </li>

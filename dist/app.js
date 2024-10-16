@@ -2421,9 +2421,9 @@
           if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
             __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
           }
-          var React9 = require_react();
+          var React10 = require_react();
           var Scheduler = require_scheduler();
-          var ReactSharedInternals = React9.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+          var ReactSharedInternals = React10.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
           var suppressWarning = false;
           function setSuppressWarning(newSuppressWarning) {
             {
@@ -4030,7 +4030,7 @@
             {
               if (props.value == null) {
                 if (typeof props.children === "object" && props.children !== null) {
-                  React9.Children.forEach(props.children, function(child) {
+                  React10.Children.forEach(props.children, function(child) {
                     if (child == null) {
                       return;
                     }
@@ -23629,8 +23629,8 @@
           if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
             __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
           }
-          var React9 = require_react();
-          var ReactSharedInternals = React9.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+          var React10 = require_react();
+          var ReactSharedInternals = React10.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
           function error(format) {
             {
               {
@@ -23660,13 +23660,13 @@
             return x === y && (x !== 0 || 1 / x === 1 / y) || x !== x && y !== y;
           }
           var objectIs = typeof Object.is === "function" ? Object.is : is;
-          var useState2 = React9.useState, useEffect2 = React9.useEffect, useLayoutEffect2 = React9.useLayoutEffect, useDebugValue = React9.useDebugValue;
+          var useState2 = React10.useState, useEffect2 = React10.useEffect, useLayoutEffect2 = React10.useLayoutEffect, useDebugValue = React10.useDebugValue;
           var didWarnOld18Alpha = false;
           var didWarnUncachedGetSnapshot = false;
           function useSyncExternalStore2(subscribe, getSnapshot, getServerSnapshot) {
             {
               if (!didWarnOld18Alpha) {
-                if (React9.startTransition !== void 0) {
+                if (React10.startTransition !== void 0) {
                   didWarnOld18Alpha = true;
                   error("You are using an outdated, pre-release alpha of React 18 that does not support useSyncExternalStore. The use-sync-external-store shim will not work correctly. Upgrade to a newer pre-release.");
                 }
@@ -23731,7 +23731,7 @@
           var canUseDOM2 = !!(typeof window !== "undefined" && typeof window.document !== "undefined" && typeof window.document.createElement !== "undefined");
           var isServerEnvironment = !canUseDOM2;
           var shim = isServerEnvironment ? useSyncExternalStore$1 : useSyncExternalStore2;
-          var useSyncExternalStore$2 = React9.useSyncExternalStore !== void 0 ? React9.useSyncExternalStore : shim;
+          var useSyncExternalStore$2 = React10.useSyncExternalStore !== void 0 ? React10.useSyncExternalStore : shim;
           exports.useSyncExternalStore = useSyncExternalStore$2;
           if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") {
             __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
@@ -26237,10 +26237,10 @@
   }
 
   // src/app.tsx
-  var import_react8 = __toESM(require_react());
+  var import_react9 = __toESM(require_react());
 
   // src/app/root.tsx
-  var import_react7 = __toESM(require_react());
+  var import_react8 = __toESM(require_react());
 
   // node_modules/regexparam/dist/index.mjs
   function parse(input, loose) {
@@ -26539,7 +26539,7 @@
 
   // src/app/course_list_item.tsx
   var import_react2 = __toESM(require_react());
-  function CourseListItem({ course, downloadCourse }) {
+  function CourseListItem({ course, downloadCourse, removeCourse }) {
     function beginDownload() {
       downloadCourse();
     }
@@ -26548,15 +26548,16 @@
         registration.active.postMessage({ type: "downloadVideos", course });
       });
     }
-    return /* @__PURE__ */ import_react2.default.createElement(import_react2.default.Fragment, null, /* @__PURE__ */ import_react2.default.createElement("p", null, course.name), /* @__PURE__ */ import_react2.default.createElement("p", null, !course.ready && course.status == "" && /* @__PURE__ */ import_react2.default.createElement("button", { onClick: beginDownload }, "Add Course"), !course.ready && course.status != "" && `${course.status}`, course.ready && /* @__PURE__ */ import_react2.default.createElement(Link, { href: `/courses/${course.id}` }, "View Course")), course.videos.length > 0 && /* @__PURE__ */ import_react2.default.createElement("p", null, /* @__PURE__ */ import_react2.default.createElement("button", { onClick: downloadVideos }, "Download Videos"), course.videosDownloaded, "/", course.videos.length, " videos downloaded"));
+    return /* @__PURE__ */ import_react2.default.createElement(import_react2.default.Fragment, null, /* @__PURE__ */ import_react2.default.createElement("p", null, course.name), /* @__PURE__ */ import_react2.default.createElement("p", null, !course.ready && course.status == "" && /* @__PURE__ */ import_react2.default.createElement("button", { onClick: beginDownload }, "Add Course"), !course.ready && course.status != "" && `${course.status}`, course.ready && /* @__PURE__ */ import_react2.default.createElement(import_react2.default.Fragment, null, /* @__PURE__ */ import_react2.default.createElement(Link, { href: `/courses/${course.id}` }, "View Course"), /* @__PURE__ */ import_react2.default.createElement("button", { onClick: () => removeCourse(course.id) }, "Remove Course"))), course.videos.length > 0 && /* @__PURE__ */ import_react2.default.createElement("p", null, /* @__PURE__ */ import_react2.default.createElement("button", { onClick: downloadVideos }, "Download Videos"), course.videosDownloaded, "/", course.videos.length, " videos downloaded"));
   }
 
   // src/app/course_list.tsx
-  function CourseList({ courses, downloadCourse }) {
+  function CourseList({ courses, downloadCourse, removeCourse }) {
     return /* @__PURE__ */ import_react3.default.createElement("div", null, /* @__PURE__ */ import_react3.default.createElement("h1", null, /* @__PURE__ */ import_react3.default.createElement("img", { src: "/icons/android/android-launchericon-192-192.png" }), "Courses"), /* @__PURE__ */ import_react3.default.createElement("ul", null, courses.map((course) => /* @__PURE__ */ import_react3.default.createElement("li", { key: course.id }, /* @__PURE__ */ import_react3.default.createElement(
       CourseListItem,
       {
         course,
+        removeCourse,
         downloadCourse: () => downloadCourse(course.id, course.file)
       }
     )))));
@@ -26686,10 +26687,24 @@
     }, []);
   }
 
-  // src/app/use_worker_subscription.ts
+  // src/app/use_remove_course.ts
   var import_react6 = __toESM(require_react());
+  function useRemoveCourse(setCourses) {
+    return import_react6.default.useCallback(async (courseId) => {
+      await caches.delete("course-" + courseId);
+      setCourses((courses) => courses.map((course) => {
+        if (course.id === courseId) {
+          return __spreadProps(__spreadValues({}, course), { status: "", ready: false });
+        }
+        return course;
+      }));
+    }, [setCourses]);
+  }
+
+  // src/app/use_worker_subscription.ts
+  var import_react7 = __toESM(require_react());
   function useWorkerSubscription(setCourses) {
-    return import_react6.default.useEffect(() => {
+    return import_react7.default.useEffect(() => {
       function onMessage(event) {
         console.log("The Worker Sent a Message", event);
         if (typeof event.data === "object" && !Array.isArray(event.data) && event.data !== null) {
@@ -26711,18 +26726,19 @@
 
   // src/app/root.tsx
   function Root(props) {
-    const [courses, setCourses] = import_react7.default.useState(props.courses);
+    const [courses, setCourses] = import_react8.default.useState(props.courses);
     const downloadCourse = useDownloadCourse(setCourses);
+    const removeCourse = useRemoveCourse(setCourses);
     useWorkerSubscription(setCourses);
     const getCourse = (courseId) => courses.find((course) => course.id === courseId);
-    return /* @__PURE__ */ import_react7.default.createElement(Router, { hook: useHashLocation }, /* @__PURE__ */ import_react7.default.createElement(Switch, null, /* @__PURE__ */ import_react7.default.createElement(Route, { path: "/courses/:courseId" }, ({ courseId }) => /* @__PURE__ */ import_react7.default.createElement(CourseView, { course: getCourse(courseId) })), /* @__PURE__ */ import_react7.default.createElement(Route, { path: "/" }, /* @__PURE__ */ import_react7.default.createElement(CourseList, { courses, downloadCourse }))));
+    return /* @__PURE__ */ import_react8.default.createElement(Router, { hook: useHashLocation }, /* @__PURE__ */ import_react8.default.createElement(Switch, null, /* @__PURE__ */ import_react8.default.createElement(Route, { path: "/courses/:courseId" }, ({ courseId }) => /* @__PURE__ */ import_react8.default.createElement(CourseView, { course: getCourse(courseId) })), /* @__PURE__ */ import_react8.default.createElement(Route, { path: "/" }, /* @__PURE__ */ import_react8.default.createElement(CourseList, { courses, downloadCourse, removeCourse }))));
   }
 
   // src/app.tsx
   async function init() {
     await activateWorker();
     const courses = await getInitialCourseList();
-    (0, import_client.createRoot)(document.getElementById("react-app")).render(/* @__PURE__ */ import_react8.default.createElement(Root, { courses }));
+    (0, import_client.createRoot)(document.getElementById("react-app")).render(/* @__PURE__ */ import_react9.default.createElement(Root, { courses }));
   }
   function activateWorker() {
     return new Promise((resolve) => {
