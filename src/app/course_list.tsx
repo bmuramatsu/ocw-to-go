@@ -92,7 +92,7 @@ export default function CourseList({ courses, downloadCourse }: Props) {
       </main>
       <div className="footer-container">
         <footer>
-          <div className="flex space-between align-center">
+          <div className="flex gap-24 wrap space-between align-center">
             <img className="footer-logo" src="images/mit-logo-sm.svg" alt="mit open learning logo" />
             <ul className="inline-list gap-12">
               <li>
@@ -106,7 +106,7 @@ export default function CourseList({ courses, downloadCourse }: Props) {
               </li>
             </ul>
           </div>
-          <div className="flex space-between align-center u-mt-24">
+          <div className="flex gap-24 wrap space-between align-center u-mt-24">
             <p>MIT OpenCourseWare is an online publication of materials from over 2,500 MIT courses, freely sharing knowledge with learners and educators around the world. <a href="https://ocw.mit.edu/about/">Learn more</a></p>
             <p className="u-all-caps flex align-center">
               <b>proud member of:&nbsp;</b>
@@ -115,7 +115,7 @@ export default function CourseList({ courses, downloadCourse }: Props) {
               </a>
             </p>
           </div>
-          <div className="flex space-between align-center u-mt-24">
+          <div className="flex gap-24 wrap space-between align-center u-mt-24">
             <p>© 2001-2024 Massachusetts Institute of Technology</p>
             <ul className="inline-list gap-24">
               <li>

@@ -25,6 +25,9 @@ a:hover {
 .flex {
   display: flex;
 }
+.wrap {
+  flex-wrap: wrap;
+}
 .space-between {
   justify-content: space-between;
 }
@@ -58,6 +61,7 @@ a:hover {
   list-style-type: none;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .page-grid {

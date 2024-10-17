@@ -24,7 +24,7 @@ export default function CourseListItem({ course, downloadCourse }: Props) {
   return (
     <>
       <a className="course-card__img" href="" aria-hidden tabIndex={-1}>
-        <img src="images/creole.jpg" alt="alt text" />
+        <img loading="lazy" src="images/creole.jp" alt="alt text" />
       </a>
       <div className="course-card__content">
         <p className="u-all-caps">6.100L | Undergraduate</p>
