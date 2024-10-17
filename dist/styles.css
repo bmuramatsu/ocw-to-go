@@ -1,0 +1,279 @@
+html {
+  height: 100%;
+  font-size: 62.5%;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+a,
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.flex {
+  display: flex;
+}
+.space-between {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+.gap-12 {
+  gap: 1.2rem;
+}
+.gap-24 {
+  gap: 2.4rem;
+}
+
+.u-all-caps {
+  text-transform: uppercase;
+}
+
+.u-mt-8 {
+  margin-block-start: 0.8rem !important;
+}
+.u-mt-12 {
+  margin-block-start: 1.2rem !important;
+}
+.u-mt-24 {
+  margin-block-start: 2.4rem !important;
+}
+
+.inline-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.page-grid {
+  height: 100%;
+  display: grid;
+  grid-template-columns:
+    [full-start]
+    minmax(1.2rem, 1fr)
+    [content-start]
+    min(125rem, 100% - 1.2rem * 2)
+    [content-end]
+    minmax(1.2rem, 1fr)
+    [full-end];
+  grid-template-rows: auto 1fr auto;
+  gap: 4.8rem 0;
+}
+
+.header-container {
+  grid-column: full;
+  background-color: black;
+}
+
+header {
+  width: min(125rem, 100% - 1.2rem * 2);
+  margin-inline: auto;
+  min-height: 9.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header h1 {
+  margin: 0;
+}
+header svg {
+  display: block;
+  width: 100%;
+  max-width: 26rem;
+}
+header svg .st0 {
+  fill: white;
+}
+
+main {
+  grid-column: content;
+}
+main > h2 {
+  font-size: 2.4rem;
+  margin-block: 0 2.4rem;
+}
+
+.course-grid {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.6rem;
+}
+
+.course-card {
+  border: 1px solid #9c9d9e;
+  border-radius: 1rem;
+  background-color: white;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  overflow: hidden;
+}
+.course-card:hover {
+  box-shadow: 3px 4px 12px 0 #0000005c;
+}
+
+.course-card__img {
+  display: block;
+  background-color: #eaeaea;
+  height: 18.5rem;
+  overflow: hidden;
+}
+.course-card__img img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.course-card__content {
+  padding: 0.8rem 1.2rem 0;
+}
+.course-card__content h3 {
+  font-size: 1.8rem;
+  margin-block: 0.6rem 0;
+  text-wrap: pretty;
+}
+.course-card__content p {
+  font-size: 1.2rem;
+  margin-block: 0;
+}
+.course-card__content span {
+  color: #555;
+}
+
+.course-card__actions {
+  padding: 1.6rem 1.2rem 0.8rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+@keyframes rotate {
+  100% {
+    rotate: 360deg;
+  }
+}
+
+.btn--has-icon {
+  border: none;
+  background-color: #a31f34;
+  border-radius: 0.5rem;
+  min-height: 3.6rem;
+  padding-inline: 0.6rem 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #fff;
+  transition: background-color 100ms ease;
+}
+.btn--has-icon.is-success {
+  background-color: #0c8d15;
+}
+.btn--has-icon.is-downloading svg {
+  animation: rotate 1s linear infinite;
+}
+.btn--has-icon svg {
+  width: 1.8rem;
+  height: 1.8rem;
+  fill: #fff;
+}
+.btn--has-icon:disabled {
+  pointer-events: none;
+  cursor: initial !important;
+}
+.btn--has-icon:hover {
+  cursor: pointer;
+  background-color: #8c162a;
+}
+.btn--has-icon:active {
+  translate: 0 1px;
+}
+.btn--has-icon:focus-visible {
+  outline-offset: 3px;
+}
+
+.icon-btn {
+  border: none;
+  background-color: #a31f34;
+  border-radius: 0.5rem;
+  height: 3.6rem;
+  width: 3.6rem;
+  display: grid;
+  place-content: center;
+  transition: background-color 100ms ease;
+}
+.icon-btn svg {
+  width: 2.4rem;
+  fill: #fff;
+}
+.icon-btn:hover {
+  cursor: pointer;
+  background-color: #8c162a;
+}
+.icon-btn:active {
+  translate: 0 1px;
+}
+.icon-btn:focus-visible {
+  outline-offset: 3px;
+}
+
+.footer-container {
+  grid-column: full;
+  background-color: #f6f7f9;
+  border-block-start: 1px solid #d2d2d2;
+  margin-block-start: 7.2rem;
+}
+
+footer {
+  width: min(125rem, 100% - 1.2rem * 2);
+  margin-inline: auto;
+  padding: 3.2rem;
+}
+footer p,
+footer li {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  max-width: 68ch;
+  margin-block: 0;
+}
+footer a {
+  text-decoration: underline;
+}
+footer a:hover {
+  color: #555;
+}
+.footer-logo {
+  display: block;
+  width: 100%;
+  max-width: 12.8rem;
+}
+.oeg-logo {
+  display: block;
+  width: 100%;
+  max-width: 10rem;
+}
+.footer-social-icon {
+  display: block;
+  width: auto;
+  height: 2.4rem;
+}

@@ -1144,7 +1144,7 @@
     "/",
     "/index.html",
     "/favicon.ico",
-    "/styles/pico.min.css",
+    "/styles.css",
     "/app.js",
     "/course.js",
     "/manifest.json",
