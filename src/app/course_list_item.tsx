@@ -1,14 +1,16 @@
 import React from 'react';
 import { Link } from 'wouter';
-import { Course } from '../types';
+import { Course, VideoStatus } from '../types';
 
 interface Props {
   course: Course
   downloadCourse: () => void
   removeCourse: (courseId: string) => void
+  downloadCourseVideos: () => void
+  videoStatus: VideoStatus | null;
 }
 
-export default function CourseListItem({ course, downloadCourse, removeCourse }: Props) {
+export default function CourseListItem({ course, downloadCourse, removeCourse, downloadCourseVideos, videoStatus }: Props) {
   function beginDownload() {
     // navigator.serviceWorker.ready.then(registration => {
     //   registration.active!.postMessage({ type: "downloadCourse", path: course.file, courseId: course.id });
@@ -17,9 +19,10 @@ export default function CourseListItem({ course, downloadCourse, removeCourse }:
   }
 
   function downloadVideos() {
-    navigator.serviceWorker.ready.then(registration => {
-      registration.active!.postMessage({ type: "downloadVideos", course: course});
-    });
+    // navigator.serviceWorker.ready.then(registration => {
+    //   registration.active!.postMessage({ type: "downloadVideos", course: course});
+    // });
+    downloadCourseVideos();
   }
 
   return (
@@ -37,10 +40,12 @@ export default function CourseListItem({ course, downloadCourse, removeCourse }:
           </>
         )}
       </p>
-      {course.videos.length > 0 && (
+      {videoStatus && !!videoStatus.total && (
         <p>
-          <button onClick={downloadVideos}>Download Videos</button>
-          {course.videosDownloaded}/{course.videos.length} videos downloaded
+          {videoStatus.status === "unstarted"
+            ? <button onClick={downloadVideos}>Download Videos</button>
+            : <>{videoStatus.finished}/{videoStatus.total} videos downloaded</>
+          }
         </p>
       )}
     </>

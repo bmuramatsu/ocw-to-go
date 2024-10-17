@@ -1,14 +1,16 @@
 import React from 'react';
 import CourseListItem from './course_list_item';
-import { Course } from '../types';
+import { Course, VideoStatusMap } from '../types';
 
 interface Props {
   courses: Course[];
+  videoStatus: VideoStatusMap;
   downloadCourse: (courseId: string, path: string) => void;
   removeCourse: (courseId: string) => void;
+  downloadCourseVideos: (course: Course) => void;
 }
 
-export default function CourseList({ courses, downloadCourse, removeCourse }: Props) {
+export default function CourseList({ courses, videoStatus, downloadCourse, removeCourse, downloadCourseVideos }: Props) {
   return (
     <div>
       {/* <DownloadTest /> */}
@@ -19,8 +21,10 @@ export default function CourseList({ courses, downloadCourse, removeCourse }: Pr
           <li key={course.id}>
             <CourseListItem
               course={course}
+              videoStatus={videoStatus[course.id]}
               removeCourse={removeCourse}
               downloadCourse={() => downloadCourse(course.id, course.file)}
+              downloadCourseVideos={() => downloadCourseVideos(course)}
             />
           </li>
         ))}

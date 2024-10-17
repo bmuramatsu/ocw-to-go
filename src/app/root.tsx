@@ -7,6 +7,7 @@ import CourseView from './course_view';
 import useDownloadCourse from './use_download_course';
 import useRemoveCourse from './use_remove_course';
 import useWorkerSubscription from './use_worker_subscription';
+import useVideoDownload from './use_video_download';
 
 interface Props {
   courses: Course[];
@@ -18,6 +19,8 @@ export default function Root(props: Props) {
   const downloadCourse = useDownloadCourse(setCourses);
   const removeCourse = useRemoveCourse(setCourses);
   useWorkerSubscription(setCourses);
+  const [videoStatus, downloadCourseVideos] = useVideoDownload(courses);
+  console.log(videoStatus);
 
   const getCourse = (courseId: string) => courses.find(course => course.id === courseId)!;
   
@@ -26,7 +29,13 @@ export default function Root(props: Props) {
       <Switch>
         <Route path="/courses/:courseId">{({courseId}) => <CourseView course={getCourse(courseId)}/>}</Route>
         <Route path="/">
-          <CourseList courses={courses} downloadCourse={downloadCourse} removeCourse={removeCourse}/>
+          <CourseList
+            courses={courses}
+            videoStatus={videoStatus}
+            downloadCourse={downloadCourse}
+            removeCourse={removeCourse}
+            downloadCourseVideos={downloadCourseVideos}
+          />
         </Route>
       </Switch>
     </Router>  
