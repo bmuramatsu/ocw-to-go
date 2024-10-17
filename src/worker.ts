@@ -44,9 +44,9 @@ self.addEventListener('fetch', (event: FetchEvent) => {
 addEventListener('message', event => {
   console.log("The Worker Received a Message", event);
   if (typeof event.data === 'object' && !Array.isArray(event.data) && event.data !== null) {
-    if (event.data.type === 'downloadVideos') {
-      downloadVideos(event.data.course);
-    }
+    // if (event.data.type === 'downloadVideos') {
+    //   downloadVideos(event.data.course);
+    // }
   }
 });
 
@@ -80,16 +80,16 @@ async function fileFromCache(request: Request): Promise<Response | undefined> {
   return Promise.resolve(response);
 }
 
-async function downloadVideos(course: Course) {
-  const cache = await caches.open(`course-videos-${course.id}`);
-  eachOfLimit(course.videos, 3, async(url) => {
-    const response = await fetch(url);
-    const videoBlob = await response.blob();
-    const videoName = url.split('/').pop();
-    await cache.put(`/courses/${course.id}/static_resources/${videoName}`, new Response(videoBlob, {headers: {'Content-Type': 'video/mp4'}}));
-    postToClients({type: "videoDownloaded", courseId: course.id, url});
-  });
-}
+// async function downloadVideos(course: Course) {
+//   const cache = await caches.open(`course-videos-${course.id}`);
+//   eachOfLimit(course.videos, 3, async(url) => {
+//     const response = await fetch(url);
+//     const videoBlob = await response.blob();
+//     const videoName = url.split('/').pop();
+//     await cache.put(`/courses/${course.id}/static_resources/${videoName}`, new Response(videoBlob, {headers: {'Content-Type': 'video/mp4'}}));
+//     postToClients({type: "videoDownloaded", courseId: course.id, url});
+//   });
+// }
 
 async function postToClients(message: any) {
   const clients = await self.clients.matchAll();

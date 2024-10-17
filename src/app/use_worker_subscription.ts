@@ -1,7 +1,7 @@
 import React from 'react';
-import { Course } from '../types';
+import { Course, CourseStatusMap } from '../types';
 
-export default function useWorkerSubscription(setCourses: React.Dispatch<React.SetStateAction<Course[]>>) {
+export default function useWorkerSubscription(setCourses: React.Dispatch<React.SetStateAction<CourseStatusMap>>) {
   return React.useEffect(() => {
     function onMessage(event: MessageEvent) {
       console.log("The Worker Sent a Message", event);

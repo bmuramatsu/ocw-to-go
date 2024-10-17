@@ -1,16 +1,18 @@
 import React from 'react';
 import { Link } from 'wouter';
-import { Course, VideoStatus } from '../types';
+import { CourseStatus, VideoStatus } from '../types';
+import { COURSE_MAP } from './initial_course_list';
 
 interface Props {
-  course: Course
+  courseStatus: CourseStatus
   downloadCourse: () => void
   removeCourse: (courseId: string) => void
   downloadCourseVideos: () => void
   videoStatus: VideoStatus | null;
 }
 
-export default function CourseListItem({ course, downloadCourse, removeCourse, downloadCourseVideos, videoStatus }: Props) {
+export default function CourseListItem({ courseStatus, downloadCourse, removeCourse, downloadCourseVideos, videoStatus }: Props) {
+  const course = COURSE_MAP[courseStatus.id];
   function beginDownload() {
     // navigator.serviceWorker.ready.then(registration => {
     //   registration.active!.postMessage({ type: "downloadCourse", path: course.file, courseId: course.id });
@@ -31,9 +33,9 @@ export default function CourseListItem({ course, downloadCourse, removeCourse, d
         {course.name}
       </p>
       <p>
-        {!course.ready && course.status == "" && <button onClick={beginDownload}>Add Course</button>}
-        {!course.ready && course.status != "" && `${course.status}`}
-        {course.ready && (
+        {!courseStatus.ready && courseStatus.status == "" && <button onClick={beginDownload}>Add Course</button>}
+        {!courseStatus.ready && courseStatus.status != "" && `${courseStatus.status}`}
+        {courseStatus.ready && (
           <>
             <Link href={`/courses/${course.id}`}>View Course</Link>
             <button onClick={() => removeCourse(course.id)}>Remove Course</button>

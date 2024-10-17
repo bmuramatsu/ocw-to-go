@@ -2,9 +2,17 @@ export type Course = {
   id: string;
   file: string;
   name: string;
+}
+
+export type CourseStatus = {
+  id: string;
   ready: boolean;
   status: string;
-  videos: string[];
+  // videos: string[];
+}
+
+export type CourseStatusMap = {
+  [courseId: string]: CourseStatus;
 }
 
 export type Video = {
