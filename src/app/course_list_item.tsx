@@ -42,10 +42,8 @@ export default function CourseListItem({ course, downloadCourse, removeCourse, d
       </p>
       {videoStatus && !!videoStatus.total && (
         <p>
-          {videoStatus.status === "unstarted"
-            ? <button onClick={downloadVideos}>Download Videos</button>
-            : <>{videoStatus.finished}/{videoStatus.total} videos downloaded</>
-          }
+          {videoStatus.status === "unstarted" && <button onClick={downloadVideos}>Download Videos</button>}
+          {videoStatus.finished}/{videoStatus.total} videos downloaded
         </p>
       )}
     </>

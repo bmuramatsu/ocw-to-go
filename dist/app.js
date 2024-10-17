@@ -26535,7 +26535,7 @@
     function downloadVideos() {
       downloadCourseVideos();
     }
-    return /* @__PURE__ */ import_react2.default.createElement(import_react2.default.Fragment, null, /* @__PURE__ */ import_react2.default.createElement("p", null, course.name), /* @__PURE__ */ import_react2.default.createElement("p", null, !course.ready && course.status == "" && /* @__PURE__ */ import_react2.default.createElement("button", { onClick: beginDownload }, "Add Course"), !course.ready && course.status != "" && `${course.status}`, course.ready && /* @__PURE__ */ import_react2.default.createElement(import_react2.default.Fragment, null, /* @__PURE__ */ import_react2.default.createElement(Link, { href: `/courses/${course.id}` }, "View Course"), /* @__PURE__ */ import_react2.default.createElement("button", { onClick: () => removeCourse(course.id) }, "Remove Course"))), videoStatus && !!videoStatus.total && /* @__PURE__ */ import_react2.default.createElement("p", null, videoStatus.status === "unstarted" ? /* @__PURE__ */ import_react2.default.createElement("button", { onClick: downloadVideos }, "Download Videos") : /* @__PURE__ */ import_react2.default.createElement(import_react2.default.Fragment, null, videoStatus.finished, "/", videoStatus.total, " videos downloaded")));
+    return /* @__PURE__ */ import_react2.default.createElement(import_react2.default.Fragment, null, /* @__PURE__ */ import_react2.default.createElement("p", null, course.name), /* @__PURE__ */ import_react2.default.createElement("p", null, !course.ready && course.status == "" && /* @__PURE__ */ import_react2.default.createElement("button", { onClick: beginDownload }, "Add Course"), !course.ready && course.status != "" && `${course.status}`, course.ready && /* @__PURE__ */ import_react2.default.createElement(import_react2.default.Fragment, null, /* @__PURE__ */ import_react2.default.createElement(Link, { href: `/courses/${course.id}` }, "View Course"), /* @__PURE__ */ import_react2.default.createElement("button", { onClick: () => removeCourse(course.id) }, "Remove Course"))), videoStatus && !!videoStatus.total && /* @__PURE__ */ import_react2.default.createElement("p", null, videoStatus.status === "unstarted" && /* @__PURE__ */ import_react2.default.createElement("button", { onClick: downloadVideos }, "Download Videos"), videoStatus.finished, "/", videoStatus.total, " videos downloaded"));
   }
 
   // src/app/course_list.tsx
@@ -26697,14 +26697,6 @@
       function onMessage(event) {
         console.log("The Worker Sent a Message", event);
         if (typeof event.data === "object" && !Array.isArray(event.data) && event.data !== null) {
-          if (event.data.type === "videoDownloaded") {
-            setCourses((courses) => courses.map((course) => {
-              if (course.id === event.data.courseId) {
-                return __spreadProps(__spreadValues({}, course), { videosDownloaded: course.videosDownloaded + 1 });
-              }
-              return course;
-            }));
-          }
         }
       }
       console.log("Subscribing to Worker Messages", navigator.serviceWorker);
@@ -26715,61 +26707,21 @@
 
   // src/app/use_video_download.ts
   var import_react8 = __toESM(require_react());
-  function useVideoDownload(courses) {
+  function useVideoDownload() {
     const [status, setStatus] = import_react8.default.useState({});
-    const [downloader] = import_react8.default.useState(() => new VideoDownloader(courses, setStatus));
+    const [downloader] = import_react8.default.useState(() => new VideoDownloader(setStatus));
     const downloadCourse = import_react8.default.useCallback((course) => {
       downloader.addCourseToQueue(course);
     }, [downloader]);
     return [status, downloadCourse];
   }
   var VideoDownloader = class {
-    constructor(initialCourses, setStatus) {
+    constructor(setStatus) {
       __publicField(this, "queue", []);
       __publicField(this, "setStatus");
       __publicField(this, "running", false);
-      this.buildInitialQueue(initialCourses);
       this.setStatus = setStatus;
-    }
-    async buildInitialQueue(initialCourses) {
-      const cacheKeys = await caches.keys();
-      try {
-        for (var iter2 = __forAwait(initialCourses), more2, temp2, error2; more2 = !(temp2 = await iter2.next()).done; more2 = false) {
-          const course = temp2.value;
-          if (cacheKeys.includes(`course-videos-${course.id}`)) {
-            const videoCache = await caches.open(`course-videos-${course.id}`);
-            try {
-              for (var iter = __forAwait(course.videos), more, temp, error; more = !(temp = await iter.next()).done; more = false) {
-                const video = temp.value;
-                const exists = await videoCache.match(`/courses/${course.id}/static_resources/${this.videoName(video)}`);
-                if (!exists) {
-                  this.queue.push({ url: video, courseId: course.id });
-                }
-              }
-            } catch (temp) {
-              error = [temp];
-            } finally {
-              try {
-                more && (temp = iter.return) && await temp.call(iter);
-              } finally {
-                if (error)
-                  throw error[0];
-              }
-            }
-          }
-        }
-      } catch (temp2) {
-        error2 = [temp2];
-      } finally {
-        try {
-          more2 && (temp2 = iter2.return) && await temp2.call(iter2);
-        } finally {
-          if (error2)
-            throw error2[0];
-        }
-      }
       this.updateStatus();
-      this.startDownload();
     }
     async addCourseToQueue(course) {
       await caches.open(`course-videos-${course.id}`);
@@ -26799,8 +26751,7 @@
     async startDownload() {
       this.running = true;
       while (this.queue.length) {
-        const video = this.queue.shift();
-        console.log("Downloading", video);
+        const video = this.queue[0];
         try {
           const response = await fetch(video.url);
           if (!response.ok) {
@@ -26809,6 +26760,7 @@
           const videoBlob = await response.blob();
           const cache = await caches.open(`course-videos-${video.courseId}`);
           await cache.put(`/courses/${video.courseId}/static_resources/${this.videoName(video.url)}`, new Response(videoBlob, { headers: { "Content-Type": "video/mp4" } }));
+          this.queue.shift();
           await this.updateStatus();
         } catch (e) {
           console.error("Failed to download", video, e);
@@ -26817,7 +26769,7 @@
       this.running = false;
     }
     async updateStatus() {
-      const status = {};
+      const statuses = {};
       const cacheKeys = await window.caches.keys();
       try {
         for (var iter = __forAwait(ALL_COURSES), more, temp, error; more = !(temp = await iter.next()).done; more = false) {
@@ -26827,13 +26779,19 @@
             const cache = await caches.open(`course-videos-${course.id}`);
             const keys = await cache.keys();
             const finished = keys.length;
-            status[course.id] = {
-              status: total === finished ? "complete" : "downloading",
+            let status = "unstarted";
+            if (total === finished) {
+              status = "complete";
+            } else if (this.queue.find((video) => video.courseId === course.id)) {
+              status = "downloading";
+            }
+            statuses[course.id] = {
+              status,
               total,
               finished
             };
           } else {
-            status[course.id] = { status: "unstarted", total: course.videos.length, finished: 0 };
+            statuses[course.id] = { status: "unstarted", total: course.videos.length, finished: 0 };
           }
         }
       } catch (temp) {
@@ -26846,7 +26804,7 @@
             throw error[0];
         }
       }
-      this.setStatus(status);
+      this.setStatus(statuses);
     }
     videoName(url) {
       return url.split("/").pop();
@@ -26859,7 +26817,7 @@
     const downloadCourse = useDownloadCourse(setCourses);
     const removeCourse = useRemoveCourse(setCourses);
     useWorkerSubscription(setCourses);
-    const [videoStatus, downloadCourseVideos] = useVideoDownload(courses);
+    const [videoStatus, downloadCourseVideos] = useVideoDownload();
     console.log(videoStatus);
     const getCourse = (courseId) => courses.find((course) => course.id === courseId);
     return /* @__PURE__ */ import_react9.default.createElement(Router, { hook: useHashLocation }, /* @__PURE__ */ import_react9.default.createElement(Switch, null, /* @__PURE__ */ import_react9.default.createElement(Route, { path: "/courses/:courseId" }, ({ courseId }) => /* @__PURE__ */ import_react9.default.createElement(CourseView, { course: getCourse(courseId) })), /* @__PURE__ */ import_react9.default.createElement(Route, { path: "/" }, /* @__PURE__ */ import_react9.default.createElement(

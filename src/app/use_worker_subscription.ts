@@ -6,14 +6,7 @@ export default function useWorkerSubscription(setCourses: React.Dispatch<React.S
     function onMessage(event: MessageEvent) {
       console.log("The Worker Sent a Message", event);
       if (typeof event.data === 'object' && !Array.isArray(event.data) && event.data !== null) {
-        if (event.data.type === 'videoDownloaded') {
-          setCourses(courses => courses.map(course => {
-            if (course.id === event.data.courseId) {
-              return { ...course, videosDownloaded: course.videosDownloaded + 1 };
-            }
-            return course;
-          }));
-        }
+        // currently we don't have any events to listen to
       }
     }
 

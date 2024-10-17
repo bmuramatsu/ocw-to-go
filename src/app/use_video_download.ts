@@ -1,10 +1,10 @@
 import React from 'react';
-import { Course, Video, VideoStatusMap } from '../types';
+import { Course, Video, VideoStatusMap, VideoTextStatus } from '../types';
 import { ALL_COURSES } from './initial_course_list';
 
-export default function useVideoDownload(courses: Course[]): [VideoStatusMap, (course: Course) => void] {
+export default function useVideoDownload(): [VideoStatusMap, (course: Course) => void] {
   const [status, setStatus] = React.useState<VideoStatusMap>({});
-  const [downloader] = React.useState<VideoDownloader>(() => new VideoDownloader(courses, setStatus));
+  const [downloader] = React.useState<VideoDownloader>(() => new VideoDownloader(setStatus));
   const downloadCourse = React.useCallback((course: Course) => {
     downloader.addCourseToQueue(course);
   }, [downloader]);
@@ -17,28 +17,9 @@ class VideoDownloader {
   setStatus: React.Dispatch<React.SetStateAction<VideoStatusMap>>;
   running = false;
 
-  constructor(initialCourses: Course[], setStatus: React.Dispatch<React.SetStateAction<VideoStatusMap>>) {
-    this.buildInitialQueue(initialCourses);
+  constructor(setStatus: React.Dispatch<React.SetStateAction<VideoStatusMap>>) {
     this.setStatus = setStatus;
-  }
-
-  async buildInitialQueue(initialCourses: Course[]) {
-    const cacheKeys = await caches.keys();
-
-    for await (const course of initialCourses) {
-      if (cacheKeys.includes(`course-videos-${course.id}`)) {
-        const videoCache = await caches.open(`course-videos-${course.id}`);
-        for await (const video of course.videos) {
-          const exists = await videoCache.match(`/courses/${course.id}/static_resources/${this.videoName(video)}`);
-          if (!exists) {
-            this.queue.push({url: video, courseId: course.id});
-          }
-        }
-      }
-    }
-
     this.updateStatus();
-    this.startDownload();
   }
 
   async addCourseToQueue(course: Course) {
@@ -59,8 +40,7 @@ class VideoDownloader {
   async startDownload() {
     this.running = true;
     while (this.queue.length) {
-      const video = this.queue.shift()!;
-      console.log('Downloading', video);
+      const video = this.queue[0];
       try {
         const response = await fetch(video.url);
         if (!response.ok) {
@@ -70,6 +50,7 @@ class VideoDownloader {
         const cache = await caches.open(`course-videos-${video.courseId}`);
         await cache.put(`/courses/${video.courseId}/static_resources/${this.videoName(video.url)}`, new Response(videoBlob, {headers: {'Content-Type': 'video/mp4'}}));
 
+        this.queue.shift();
         await this.updateStatus();
       } catch (e) {
         console.error('Failed to download', video, e);
@@ -79,7 +60,7 @@ class VideoDownloader {
   }
 
   async updateStatus() {
-    const status: VideoStatusMap = {};
+    const statuses: VideoStatusMap = {};
     const cacheKeys = await window.caches.keys();
 
     for await (const course of ALL_COURSES) {
@@ -89,16 +70,22 @@ class VideoDownloader {
         const keys = await cache.keys();
         const finished = keys.length;
 
-        status[course.id] = {
-          status: total === finished ? "complete" : "downloading",
+        let status: VideoTextStatus = "unstarted";
+        if (total === finished) {
+          status = "complete";
+        } else if (this.queue.find(video => video.courseId === course.id)) {
+          status = "downloading";
+        }
+        statuses[course.id] = {
+          status,
           total,
           finished
         };
       } else {
-        status[course.id] = {status: "unstarted", total: course.videos.length, finished: 0};
+        statuses[course.id] = {status: "unstarted", total: course.videos.length, finished: 0};
       }
     }
-    this.setStatus(status);
+    this.setStatus(statuses);
   }
 
   videoName(url: string) {

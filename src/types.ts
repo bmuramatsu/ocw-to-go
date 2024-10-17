@@ -12,8 +12,10 @@ export type Video = {
   courseId: string;
 }
 
+export type VideoTextStatus = "unstarted" | "downloading" | "complete";
+
 export type VideoStatus = {
-  status: "unstarted" | "downloading" | "complete";
+  status: VideoTextStatus
   total: number;
   finished: number;
 }

@@ -19,7 +19,7 @@ export default function Root(props: Props) {
   const downloadCourse = useDownloadCourse(setCourses);
   const removeCourse = useRemoveCourse(setCourses);
   useWorkerSubscription(setCourses);
-  const [videoStatus, downloadCourseVideos] = useVideoDownload(courses);
+  const [videoStatus, downloadCourseVideos] = useVideoDownload();
   console.log(videoStatus);
 
   const getCourse = (courseId: string) => courses.find(course => course.id === courseId)!;
