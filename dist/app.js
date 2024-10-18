@@ -61,6 +61,7 @@
     isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
     mod
   ));
+  var __publicField = (obj, key, value) => __defNormalProp(obj, typeof key !== "symbol" ? key + "" : key, value);
   var __forAwait = (obj, it, method) => (it = obj[__knownSymbol("asyncIterator")]) ? it.call(obj) : (obj = obj[__knownSymbol("iterator")](), it = {}, method = (key, fn) => (fn = obj[key]) && (it[key] = (arg) => new Promise((yes, no, done) => (arg = fn.call(obj, arg), done = arg.done, Promise.resolve(arg.value).then((value) => yes({ value, done }), no)))), method("next"), method("return"), it);
 
   // node_modules/react/cjs/react.development.js
@@ -2421,9 +2422,9 @@
           if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
             __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
           }
-          var React10 = require_react();
+          var React12 = require_react();
           var Scheduler = require_scheduler();
-          var ReactSharedInternals = React10.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+          var ReactSharedInternals = React12.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
           var suppressWarning = false;
           function setSuppressWarning(newSuppressWarning) {
             {
@@ -4030,7 +4031,7 @@
             {
               if (props.value == null) {
                 if (typeof props.children === "object" && props.children !== null) {
-                  React10.Children.forEach(props.children, function(child) {
+                  React12.Children.forEach(props.children, function(child) {
                     if (child == null) {
                       return;
                     }
@@ -23629,8 +23630,8 @@
           if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
             __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
           }
-          var React10 = require_react();
-          var ReactSharedInternals = React10.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+          var React12 = require_react();
+          var ReactSharedInternals = React12.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
           function error(format) {
             {
               {
@@ -23660,13 +23661,13 @@
             return x === y && (x !== 0 || 1 / x === 1 / y) || x !== x && y !== y;
           }
           var objectIs = typeof Object.is === "function" ? Object.is : is;
-          var useState2 = React10.useState, useEffect2 = React10.useEffect, useLayoutEffect2 = React10.useLayoutEffect, useDebugValue = React10.useDebugValue;
+          var useState2 = React12.useState, useEffect2 = React12.useEffect, useLayoutEffect2 = React12.useLayoutEffect, useDebugValue = React12.useDebugValue;
           var didWarnOld18Alpha = false;
           var didWarnUncachedGetSnapshot = false;
           function useSyncExternalStore2(subscribe, getSnapshot, getServerSnapshot) {
             {
               if (!didWarnOld18Alpha) {
-                if (React10.startTransition !== void 0) {
+                if (React12.startTransition !== void 0) {
                   didWarnOld18Alpha = true;
                   error("You are using an outdated, pre-release alpha of React 18 that does not support useSyncExternalStore. The use-sync-external-store shim will not work correctly. Upgrade to a newer pre-release.");
                 }
@@ -23731,7 +23732,7 @@
           var canUseDOM2 = !!(typeof window !== "undefined" && typeof window.document !== "undefined" && typeof window.document.createElement !== "undefined");
           var isServerEnvironment = !canUseDOM2;
           var shim = isServerEnvironment ? useSyncExternalStore$1 : useSyncExternalStore2;
-          var useSyncExternalStore$2 = React10.useSyncExternalStore !== void 0 ? React10.useSyncExternalStore : shim;
+          var useSyncExternalStore$2 = React12.useSyncExternalStore !== void 0 ? React12.useSyncExternalStore : shim;
           exports.useSyncExternalStore = useSyncExternalStore$2;
           if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") {
             __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
@@ -26132,34 +26133,33 @@
       status: "",
       ready: false,
       videos: [
-        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-6-multi-version-3_360p_16_9.mp4",
-        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-26-multi_360p_16_9.mp4",
-        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-23-version-2_360p_16_9.mp4",
-        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-25-multi_360p_16_9.mp4",
-        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-2-multi-version-4_1_360p_16_9.mp4",
-        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-20-version-2_360p_16_9.mp4",
-        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-11-version-2_360p_16_9.mp4",
-        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-10-version-3_1_360p_16_9.mp4",
-        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-15-version-2_360p_16_9.mp4",
-        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-24-version-2_360p_16_9.mp4",
-        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-8-version-2_360p_16_9.mp4",
-        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-13-version-2_360p_16_9.mp4",
-        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-22-version-2_360p_16_9.mp4",
         ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-1-version-2_360p_16_9.mp4",
-        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-19-multi-version-2_360p_16_9.mp4",
-        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-12-multi-version-4_360p_16_9.mp4",
-        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-17-version-2_360p_16_9.mp4",
-        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-16-multi-version-2_360p_16_9.mp4",
-        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-9-version-2_360p_16_9.mp4",
-        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-14-multi_360p_16_9.mp4",
-        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-7-multi_360p_16_9.mp4",
+        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-2-multi-version-4_1_360p_16_9.mp4",
+        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-3-multi_360p_16_9.mp4",
         ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-4-multi_360p_16_9.mp4",
         ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-5-multi_360p_16_9.mp4",
-        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-3-multi_360p_16_9.mp4",
+        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-6-multi-version-3_360p_16_9.mp4",
+        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-7-multi_360p_16_9.mp4",
+        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-8-version-2_360p_16_9.mp4",
+        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-9-version-2_360p_16_9.mp4",
+        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-10-version-3_1_360p_16_9.mp4",
+        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-11-version-2_360p_16_9.mp4",
+        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-12-multi-version-4_360p_16_9.mp4",
+        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-13-version-2_360p_16_9.mp4",
+        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-14-multi_360p_16_9.mp4",
+        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-15-version-2_360p_16_9.mp4",
+        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-16-multi-version-2_360p_16_9.mp4",
+        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-17-version-2_360p_16_9.mp4",
         ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-18-multi-version-2_360p_16_9.mp4",
-        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-21-version-2_360p_16_9.mp4"
-      ],
-      videosDownloaded: 0
+        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-19-multi-version-2_360p_16_9.mp4",
+        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-20-version-2_360p_16_9.mp4",
+        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-21-version-2_360p_16_9.mp4",
+        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-22-version-2_360p_16_9.mp4",
+        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-23-version-2_360p_16_9.mp4",
+        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-24-version-2_360p_16_9.mp4",
+        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-25-multi_360p_16_9.mp4",
+        ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-26-multi_360p_16_9.mp4"
+      ]
     },
     {
       id: "course-11",
@@ -26167,8 +26167,7 @@
       file: ASSET_HOST + "/japanese-5.zip",
       status: "",
       ready: false,
-      videos: [],
-      videosDownloaded: 0
+      videos: []
     },
     {
       id: "course-12",
@@ -26176,8 +26175,7 @@
       file: ASSET_HOST + "/japanese-6.zip",
       status: "",
       ready: false,
-      videos: [],
-      videosDownloaded: 0
+      videos: []
     },
     {
       id: "course-13",
@@ -26185,8 +26183,7 @@
       file: ASSET_HOST + "/linear-algebra.zip",
       status: "",
       ready: false,
-      videos: [],
-      videosDownloaded: 0
+      videos: []
     },
     {
       id: "course-14",
@@ -26194,8 +26191,7 @@
       file: ASSET_HOST + "/intro-to-cs-2.zip",
       status: "",
       ready: false,
-      videos: [],
-      videosDownloaded: 0
+      videos: []
     },
     {
       id: "course-15",
@@ -26203,8 +26199,7 @@
       file: ASSET_HOST + "/creole.zip",
       status: "",
       ready: false,
-      videos: [],
-      videosDownloaded: 0
+      videos: []
     }
   ];
   async function getInitialCourseList() {
@@ -26215,12 +26210,6 @@
         const course = temp.value;
         const ready = cacheKeys.includes(`course-${course.id}`);
         course.ready = ready;
-        const videosExist = cacheKeys.includes(`course-videos-${course.id}`);
-        if (videosExist) {
-          const videoCache = await caches.open(`course-videos-${course.id}`);
-          const videoCacheKeys = await videoCache.keys();
-          course.videosDownloaded = videoCacheKeys.length;
-        }
         courses.push(course);
       }
     } catch (temp) {
@@ -26237,10 +26226,10 @@
   }
 
   // src/app.tsx
-  var import_react9 = __toESM(require_react());
+  var import_react11 = __toESM(require_react());
 
   // src/app/root.tsx
-  var import_react8 = __toESM(require_react());
+  var import_react10 = __toESM(require_react());
 
   // node_modules/regexparam/dist/index.mjs
   function parse(input, loose) {
@@ -26557,25 +26546,20 @@
   var Checkmark = () => /* @__PURE__ */ import_react2.default.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", height: "24", viewBox: "0 0 24 24", width: "24" }, /* @__PURE__ */ import_react2.default.createElement("path", { d: "M0 0h24v24H0V0z", fill: "none" }), /* @__PURE__ */ import_react2.default.createElement("path", { d: "M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" }));
 
   // src/app/course_list_item.tsx
-  function CourseListItem({ course, downloadCourse }) {
-    function beginDownload() {
-      downloadCourse();
-    }
-    function downloadVideos() {
-      navigator.serviceWorker.ready.then((registration) => {
-        registration.active.postMessage({ type: "downloadVideos", course });
-      });
-    }
-    return /* @__PURE__ */ import_react3.default.createElement(import_react3.default.Fragment, null, /* @__PURE__ */ import_react3.default.createElement("a", { className: "course-card__img", href: "", "aria-hidden": true, tabIndex: -1 }, /* @__PURE__ */ import_react3.default.createElement("img", { loading: "lazy", src: "images/creole.jpg", alt: "alt text" })), /* @__PURE__ */ import_react3.default.createElement("div", { className: "course-card__content" }, /* @__PURE__ */ import_react3.default.createElement("p", { className: "u-all-caps" }, "6.100L | Undergraduate"), /* @__PURE__ */ import_react3.default.createElement("h3", null, /* @__PURE__ */ import_react3.default.createElement("a", { href: "" }, course.name)), /* @__PURE__ */ import_react3.default.createElement("p", { className: "u-mt-12" }, /* @__PURE__ */ import_react3.default.createElement("span", null, "Instructor:"), " Dr. Ana Bell"), /* @__PURE__ */ import_react3.default.createElement("p", { className: "u-mt-8" }, /* @__PURE__ */ import_react3.default.createElement("span", null, "Topics:"), " Engineering, Computer Science, Programming Languages")), /* @__PURE__ */ import_react3.default.createElement("div", { className: "course-card__actions" }, !course.ready ? /* @__PURE__ */ import_react3.default.createElement("button", { onClick: beginDownload, className: "btn--has-icon" }, /* @__PURE__ */ import_react3.default.createElement(Download, null), "Course") : /* @__PURE__ */ import_react3.default.createElement(Link, { href: `/courses/${course.id}` }, "View Course"), course.status && ` - ${course.status}`, course.videos.length > 0 && /* @__PURE__ */ import_react3.default.createElement("button", { onClick: downloadVideos, className: "btn--has-icon" }, /* @__PURE__ */ import_react3.default.createElement(Download, null), course.videos.length, " Videos"), /* @__PURE__ */ import_react3.default.createElement("button", { className: "btn--has-icon is-downloading", disabled: true }, /* @__PURE__ */ import_react3.default.createElement(Loader, null), course.videosDownloaded, "/", course.videos.length, " Videos"), /* @__PURE__ */ import_react3.default.createElement("button", { className: "btn--has-icon is-success", disabled: true }, /* @__PURE__ */ import_react3.default.createElement(Checkmark, null), course.videos.length, " Videos"), /* @__PURE__ */ import_react3.default.createElement("button", { onClick: downloadVideos, className: "icon-btn" }, /* @__PURE__ */ import_react3.default.createElement(Trash, null))));
+  function CourseListItem({ course, downloadCourse, removeCourse, downloadCourseVideos, videoStatus }) {
+    return /* @__PURE__ */ import_react3.default.createElement(import_react3.default.Fragment, null, /* @__PURE__ */ import_react3.default.createElement("a", { className: "course-card__img", href: "", "aria-hidden": true, tabIndex: -1 }, /* @__PURE__ */ import_react3.default.createElement("img", { loading: "lazy", src: "images/creole.jpg", alt: "alt text" })), /* @__PURE__ */ import_react3.default.createElement("div", { className: "course-card__content" }, /* @__PURE__ */ import_react3.default.createElement("p", { className: "u-all-caps" }, "6.100L | Undergraduate"), /* @__PURE__ */ import_react3.default.createElement("h3", null, /* @__PURE__ */ import_react3.default.createElement("a", { href: "" }, course.name)), /* @__PURE__ */ import_react3.default.createElement("p", { className: "u-mt-12" }, /* @__PURE__ */ import_react3.default.createElement("span", null, "Instructor:"), " Dr. Ana Bell"), /* @__PURE__ */ import_react3.default.createElement("p", { className: "u-mt-8" }, /* @__PURE__ */ import_react3.default.createElement("span", null, "Topics:"), " Engineering, Computer Science, Programming Languages")), /* @__PURE__ */ import_react3.default.createElement("div", { className: "course-card__actions" }, !course.ready && course.status == "" && /* @__PURE__ */ import_react3.default.createElement("button", { onClick: downloadCourse, className: "btn--has-icon" }, /* @__PURE__ */ import_react3.default.createElement(Download, null), "Course"), !course.ready && course.status != "" && /* @__PURE__ */ import_react3.default.createElement("button", { className: "btn--has-icon is-downloading", disabled: true }, /* @__PURE__ */ import_react3.default.createElement(Loader, null), "Course"), course.ready && /* @__PURE__ */ import_react3.default.createElement(Link, { href: `/courses/${course.id}` }, "View Course"), videoStatus && !!videoStatus.total && /* @__PURE__ */ import_react3.default.createElement(import_react3.default.Fragment, null, videoStatus.status === "unstarted" && /* @__PURE__ */ import_react3.default.createElement("button", { onClick: downloadCourseVideos, className: "btn--has-icon" }, /* @__PURE__ */ import_react3.default.createElement(Download, null), videoStatus.total, " Videos"), videoStatus.status === "downloading" && /* @__PURE__ */ import_react3.default.createElement("button", { className: "btn--has-icon is-downloading", disabled: true }, /* @__PURE__ */ import_react3.default.createElement(Loader, null), videoStatus.finished, "/", videoStatus.total, " Videos"), videoStatus.status === "complete" && /* @__PURE__ */ import_react3.default.createElement("button", { className: "btn--has-icon is-success", disabled: true }, /* @__PURE__ */ import_react3.default.createElement(Checkmark, null), course.videos.length, " Videos")), /* @__PURE__ */ import_react3.default.createElement("button", { onClick: removeCourse, className: "icon-btn" }, /* @__PURE__ */ import_react3.default.createElement(Trash, null))));
   }
 
   // src/app/course_list.tsx
-  function CourseList({ courses, downloadCourse }) {
+  function CourseList({ courses, videoStatus, downloadCourse, removeCourse, downloadCourseVideos }) {
     return /* @__PURE__ */ import_react4.default.createElement("div", { className: "page-grid" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "header-container" }, /* @__PURE__ */ import_react4.default.createElement("header", null, /* @__PURE__ */ import_react4.default.createElement("h1", null, /* @__PURE__ */ import_react4.default.createElement(Logo, null)))), /* @__PURE__ */ import_react4.default.createElement("main", null, /* @__PURE__ */ import_react4.default.createElement("h2", null, "Courses"), /* @__PURE__ */ import_react4.default.createElement("ul", { className: "course-grid" }, courses.map((course) => /* @__PURE__ */ import_react4.default.createElement("li", { key: course.id, className: "course-card" }, /* @__PURE__ */ import_react4.default.createElement(
       CourseListItem,
       {
         course,
-        downloadCourse: () => downloadCourse(course.id, course.file)
+        videoStatus: videoStatus[course.id],
+        removeCourse: () => removeCourse(course.id),
+        downloadCourse: () => downloadCourse(course.id, course.file),
+        downloadCourseVideos: () => downloadCourseVideos(course)
       }
     ))))), /* @__PURE__ */ import_react4.default.createElement("div", { className: "footer-container" }, /* @__PURE__ */ import_react4.default.createElement("footer", null, /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex gap-24 wrap space-between align-center" }, /* @__PURE__ */ import_react4.default.createElement("img", { className: "footer-logo", src: "images/mit-logo-sm.svg", alt: "mit open learning logo" }), /* @__PURE__ */ import_react4.default.createElement("ul", { className: "inline-list gap-12" }, /* @__PURE__ */ import_react4.default.createElement("li", null, /* @__PURE__ */ import_react4.default.createElement("b", null, /* @__PURE__ */ import_react4.default.createElement("a", { href: "https://accessibility.mit.edu" }, "Accessibility"))), /* @__PURE__ */ import_react4.default.createElement("li", null, /* @__PURE__ */ import_react4.default.createElement("b", null, /* @__PURE__ */ import_react4.default.createElement("a", { href: "https://creativecommons.org/licenses/by-nc-sa/4.0/" }, "Creative Commons License"))), /* @__PURE__ */ import_react4.default.createElement("li", null, /* @__PURE__ */ import_react4.default.createElement("b", null, /* @__PURE__ */ import_react4.default.createElement("a", { href: "https://ocw.mit.edu/pages/privacy-and-terms-of-use/" }, "Terms and Conditions"))))), /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex gap-24 wrap space-between align-center u-mt-24" }, /* @__PURE__ */ import_react4.default.createElement("p", null, "MIT OpenCourseWare is an online publication of materials from over 2,500 MIT courses, freely sharing knowledge with learners and educators around the world. ", /* @__PURE__ */ import_react4.default.createElement("a", { href: "https://ocw.mit.edu/about/" }, "Learn more")), /* @__PURE__ */ import_react4.default.createElement("p", { className: "u-all-caps flex align-center" }, /* @__PURE__ */ import_react4.default.createElement("b", null, "proud member of:\xA0"), /* @__PURE__ */ import_react4.default.createElement("a", { href: "https://www.oeglobal.org/", target: "_blank" }, /* @__PURE__ */ import_react4.default.createElement("img", { className: "oeg-logo", src: "images/oeglobal.png", alt: "Open Education Global" })))), /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex gap-24 wrap space-between align-center u-mt-24" }, /* @__PURE__ */ import_react4.default.createElement("p", null, "\xA9 2001-2024 Massachusetts Institute of Technology"), /* @__PURE__ */ import_react4.default.createElement("ul", { className: "inline-list gap-24" }, /* @__PURE__ */ import_react4.default.createElement("li", null, /* @__PURE__ */ import_react4.default.createElement("a", { href: "https://www.facebook.com/MITOCW", target: "_blank" }, /* @__PURE__ */ import_react4.default.createElement("img", { className: "footer-social-icon", src: "images/facebook-icon.png", alt: "facebook" }))), /* @__PURE__ */ import_react4.default.createElement("li", null, /* @__PURE__ */ import_react4.default.createElement("a", { href: "https://www.instagram.com/mitocw", target: "_blank" }, /* @__PURE__ */ import_react4.default.createElement("img", { className: "footer-social-icon", src: "images/instagram-icon.png", alt: "instagram" }))), /* @__PURE__ */ import_react4.default.createElement("li", null, /* @__PURE__ */ import_react4.default.createElement("a", { href: "https://twitter.com/MITOCW", target: "_blank" }, /* @__PURE__ */ import_react4.default.createElement("img", { className: "footer-social-icon", src: "images/x-icon.png", alt: "x (formerly twitter)" }))), /* @__PURE__ */ import_react4.default.createElement("li", null, /* @__PURE__ */ import_react4.default.createElement("a", { href: "https://www.youtube.com/mitocw", target: "_blank" }, /* @__PURE__ */ import_react4.default.createElement("img", { className: "footer-social-icon", src: "images/youtube-icon.png", alt: "youtube" }))), /* @__PURE__ */ import_react4.default.createElement("li", null, /* @__PURE__ */ import_react4.default.createElement("a", { href: "https://www.linkedin.com/company/mit-opencourseware/", target: "_blank" }, /* @__PURE__ */ import_react4.default.createElement("img", { className: "footer-social-icon", src: "images/linkedin-icon.png", alt: "linkedin" }))))))));
   }
@@ -26586,7 +26570,7 @@
     const [_location, navigate3] = useLocation();
     const ref = import_react5.default.useRef(null);
     import_react5.default.useEffect(() => {
-      function onLoad(e) {
+      function onLoad() {
         var _a;
         const childWindow = (_a = ref.current) == null ? void 0 : _a.contentWindow;
         if (childWindow) {
@@ -26616,7 +26600,7 @@
       }
       window.addEventListener("message", onMessage);
       () => window.removeEventListener("message", onMessage);
-    });
+    }, [ref, navigate3]);
     return /* @__PURE__ */ import_react5.default.createElement(import_react5.default.Fragment, null, /* @__PURE__ */ import_react5.default.createElement(
       "iframe",
       {
@@ -26704,21 +26688,27 @@
     }, []);
   }
 
-  // src/app/use_worker_subscription.ts
+  // src/app/use_remove_course.ts
   var import_react7 = __toESM(require_react());
+  function useRemoveCourse(setCourses) {
+    return import_react7.default.useCallback(async (courseId) => {
+      await caches.delete("course-" + courseId);
+      setCourses((courses) => courses.map((course) => {
+        if (course.id === courseId) {
+          return __spreadProps(__spreadValues({}, course), { status: "", ready: false });
+        }
+        return course;
+      }));
+    }, [setCourses]);
+  }
+
+  // src/app/use_worker_subscription.ts
+  var import_react8 = __toESM(require_react());
   function useWorkerSubscription(setCourses) {
-    return import_react7.default.useEffect(() => {
+    return import_react8.default.useEffect(() => {
       function onMessage(event) {
         console.log("The Worker Sent a Message", event);
         if (typeof event.data === "object" && !Array.isArray(event.data) && event.data !== null) {
-          if (event.data.type === "videoDownloaded") {
-            setCourses((courses) => courses.map((course) => {
-              if (course.id === event.data.courseId) {
-                return __spreadProps(__spreadValues({}, course), { videosDownloaded: course.videosDownloaded + 1 });
-              }
-              return course;
-            }));
-          }
         }
       }
       console.log("Subscribing to Worker Messages", navigator.serviceWorker);
@@ -26727,20 +26717,138 @@
     }, [setCourses]);
   }
 
+  // src/app/use_video_download.ts
+  var import_react9 = __toESM(require_react());
+  function useVideoDownload() {
+    const [status, setStatus] = import_react9.default.useState({});
+    const [downloader] = import_react9.default.useState(() => new VideoDownloader(setStatus));
+    const downloadCourse = import_react9.default.useCallback((course) => {
+      downloader.addCourseToQueue(course);
+    }, [downloader]);
+    return [status, downloadCourse];
+  }
+  var VideoDownloader = class {
+    constructor(setStatus) {
+      __publicField(this, "queue", []);
+      __publicField(this, "setStatus");
+      __publicField(this, "running", false);
+      this.setStatus = setStatus;
+      this.updateStatus();
+    }
+    async addCourseToQueue(course) {
+      await caches.open(`course-videos-${course.id}`);
+      this.updateStatus();
+      try {
+        for (var iter = __forAwait(course.videos), more, temp, error; more = !(temp = await iter.next()).done; more = false) {
+          const video = temp.value;
+          const exists = await caches.match(`/courses/${course.id}/static_resources/${this.videoName(video)}`);
+          if (!exists) {
+            this.queue.push({ url: video, courseId: course.id });
+          }
+        }
+      } catch (temp) {
+        error = [temp];
+      } finally {
+        try {
+          more && (temp = iter.return) && await temp.call(iter);
+        } finally {
+          if (error)
+            throw error[0];
+        }
+      }
+      if (!this.running) {
+        this.startDownload();
+      }
+    }
+    async startDownload() {
+      this.running = true;
+      while (this.queue.length) {
+        const video = this.queue[0];
+        try {
+          const response = await fetch(video.url);
+          if (!response.ok) {
+            throw new Error(`Failed to download video: ${response.statusText}`);
+          }
+          const videoBlob = await response.blob();
+          const cache = await caches.open(`course-videos-${video.courseId}`);
+          await cache.put(`/courses/${video.courseId}/static_resources/${this.videoName(video.url)}`, new Response(videoBlob, { headers: { "Content-Type": "video/mp4" } }));
+          this.queue.shift();
+          await this.updateStatus();
+        } catch (e) {
+          console.error("Failed to download", video, e);
+        }
+      }
+      this.running = false;
+    }
+    async updateStatus() {
+      const statuses = {};
+      const cacheKeys = await window.caches.keys();
+      try {
+        for (var iter = __forAwait(ALL_COURSES), more, temp, error; more = !(temp = await iter.next()).done; more = false) {
+          const course = temp.value;
+          if (cacheKeys.includes(`course-videos-${course.id}`)) {
+            const total = course.videos.length;
+            const cache = await caches.open(`course-videos-${course.id}`);
+            const keys = await cache.keys();
+            const finished = keys.length;
+            let status = "unstarted";
+            if (total === finished) {
+              status = "complete";
+            } else if (this.queue.find((video) => video.courseId === course.id)) {
+              status = "downloading";
+            }
+            statuses[course.id] = {
+              status,
+              total,
+              finished
+            };
+          } else {
+            statuses[course.id] = { status: "unstarted", total: course.videos.length, finished: 0 };
+          }
+        }
+      } catch (temp) {
+        error = [temp];
+      } finally {
+        try {
+          more && (temp = iter.return) && await temp.call(iter);
+        } finally {
+          if (error)
+            throw error[0];
+        }
+      }
+      this.setStatus(statuses);
+    }
+    videoName(url) {
+      return url.split("/").pop();
+    }
+  };
+
   // src/app/root.tsx
   function Root(props) {
-    const [courses, setCourses] = import_react8.default.useState(props.courses);
+    const [courses, setCourses] = import_react10.default.useState(props.courses);
     const downloadCourse = useDownloadCourse(setCourses);
+    const removeCourse = useRemoveCourse(setCourses);
     useWorkerSubscription(setCourses);
+    const [videoStatus, downloadCourseVideos] = useVideoDownload();
+    console.log(videoStatus);
     const getCourse = (courseId) => courses.find((course) => course.id === courseId);
-    return /* @__PURE__ */ import_react8.default.createElement(Router, { hook: useHashLocation }, /* @__PURE__ */ import_react8.default.createElement(Switch, null, /* @__PURE__ */ import_react8.default.createElement(Route, { path: "/courses/:courseId" }, ({ courseId }) => /* @__PURE__ */ import_react8.default.createElement(CourseView, { course: getCourse(courseId) })), /* @__PURE__ */ import_react8.default.createElement(Route, { path: "/" }, /* @__PURE__ */ import_react8.default.createElement(CourseList, { courses, downloadCourse }))));
+    return /* @__PURE__ */ import_react10.default.createElement(Router, { hook: useHashLocation }, /* @__PURE__ */ import_react10.default.createElement(Switch, null, /* @__PURE__ */ import_react10.default.createElement(Route, { path: "/courses/:courseId" }, ({ courseId }) => /* @__PURE__ */ import_react10.default.createElement(CourseView, { course: getCourse(courseId) })), /* @__PURE__ */ import_react10.default.createElement(Route, { path: "/" }, /* @__PURE__ */ import_react10.default.createElement(
+      CourseList,
+      {
+        courses,
+        videoStatus,
+        downloadCourse,
+        removeCourse,
+        downloadCourseVideos
+      }
+    ))));
   }
 
   // src/app.tsx
   async function init() {
     await activateWorker();
     const courses = await getInitialCourseList();
-    (0, import_client.createRoot)(document.getElementById("react-app")).render(/* @__PURE__ */ import_react9.default.createElement(Root, { courses }));
+    (0, import_client.createRoot)(document.getElementById("react-app")).render(/* @__PURE__ */ import_react11.default.createElement(Root, { courses }));
   }
   function activateWorker() {
     return new Promise((resolve) => {

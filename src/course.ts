@@ -13,12 +13,26 @@ function overridePdfDownload() {
   const button = document.querySelector('.download-button-container .button-wrapper .download-file')
   if (!button) return;
 
-  let href = button.getAttribute('href');
-  if (href && href.startsWith('./static_resources')) {
+  let href = button.getAttribute('href')!
+  if (href.startsWith('./static_resources')) {
     href = href.replace(/^\.\//, '../../');
+  }
+
+  href = href + '?forcedownload=true';
+  button.setAttribute('href', href);
+}
+
+function overridePdfThumbnailDownload() {
+  const buttons = document.querySelectorAll(".resource-thumbnail[href$='.pdf']");
+  buttons.forEach(button => {
+    let href = button.getAttribute('href')!;
+    if (href.startsWith('./static_resources')) {
+      href = href.replace(/^\.\//, '../../');
+    }
     href = href + '?forcedownload=true';
     button.setAttribute('href', href);
-  }
+    button.removeAttribute('download');
+  });
 }
 
 async function injectOfflineVideos() {
@@ -29,20 +43,22 @@ async function injectOfflineVideos() {
 
   const href = downloadButton.getAttribute('href');
   if (!href) return;
+  const exists = await caches.match(href)
+  if (!exists) return
+  wrapper.style.display = 'none';
 
   const video = document.createElement('video');
   video.style.width = '100%';
   video.controls = true;
-  video.style.display = 'none';
+  // video.style.display = 'none';
   const source = document.createElement('source');
   source.type = 'video/mp4';
   source.src = href;
   video.appendChild(source);
 
-  video.addEventListener('canplay', () => {
-    video.style.display = 'block';
-    wrapper.style.display = 'none';
-  })
+  // video.addEventListener('canplay', () => {
+  // video.style.display = 'block';
+  // })
 
   document.querySelector('.video-player-wrapper')!.after(video);
 }
@@ -50,6 +66,7 @@ async function injectOfflineVideos() {
 function init() {
   overrideHomeButton()
   overridePdfDownload()
+  overridePdfThumbnailDownload()
   injectOfflineVideos()
 }
 

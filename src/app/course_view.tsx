@@ -11,7 +11,7 @@ export default function CourseView({course}: Props) {
   const ref = React.useRef<HTMLIFrameElement>(null);
 
   React.useEffect(() => {
-    function onLoad(e: Event) {
+    function onLoad() {
       const childWindow = ref.current?.contentWindow;
       if (childWindow) {
         const script = childWindow.document.createElement('script');
@@ -45,7 +45,7 @@ export default function CourseView({course}: Props) {
     window.addEventListener('message', onMessage);
 
     () => window.removeEventListener('message', onMessage);
-  });
+  }, [ref, navigate]);
 
   return (
     <>

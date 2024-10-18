@@ -5,5 +5,21 @@ export type Course = {
   ready: boolean;
   status: string;
   videos: string[];
-  videosDownloaded: number;
+}
+
+export type Video = {
+  url: string;
+  courseId: string;
+}
+
+export type VideoTextStatus = "unstarted" | "downloading" | "complete";
+
+export type VideoStatus = {
+  status: VideoTextStatus
+  total: number;
+  finished: number;
+}
+
+export type VideoStatusMap = {
+  [courseId: string]: VideoStatus | null;
 }
