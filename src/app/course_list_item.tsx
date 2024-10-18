@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'wouter';
 import { Course, VideoStatus } from '../types';
 import { Checkmark, Download, Loader, Trash } from './svgs';
+import CourseLink from './course_link';
 
 interface Props {
   course: Course
@@ -14,13 +15,13 @@ interface Props {
 export default function CourseListItem({ course, downloadCourse, removeCourse, downloadCourseVideos, videoStatus }: Props) {
   return (
     <>
-      <a className="course-card__img" href="" aria-hidden tabIndex={-1}>
+      <CourseLink course={course} className="course-card__img" href="" aria-hidden tabIndex={-1}>
         <img loading="lazy" src={course.cardImg} alt="alt text" />
-      </a>
+      </CourseLink>
       <div className="course-card__content">
         <p className="u-all-caps">{course.courseLevel}</p>
         <h3>
-          <a href="">{course.name}</a>
+          <CourseLink course={course}>{course.name}</CourseLink>
         </h3>
         <p className="u-mt-12"><span>Instructor:</span> {course.instructors.join(", ")}</p>
         <p className="u-mt-8"><span>Topics:</span> {course.topics.join(", ")}</p>
@@ -36,7 +37,7 @@ export default function CourseListItem({ course, downloadCourse, removeCourse, d
             <Loader />Course
           </button>
         )}
-        {course.ready && (<Link href={`/courses/${course.id}`}>View Course</Link>)}
+        {course.ready && (<Link href={`/courses/${course.id}`} className="btn--is-link">View Course</Link>)}
 
         {videoStatus && !!videoStatus.total && (
           <>
