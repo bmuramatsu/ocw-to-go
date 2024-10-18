@@ -43,7 +43,7 @@ export default function CourseListItem({ course, downloadCourse, removeCourse, d
           <>
             {videoStatus.status === "unstarted" && (
               <button onClick={downloadCourseVideos} className="btn--has-icon">
-                <Download />{videoStatus.total} Videos
+                <Download />{videoStatus.finished > 0 && <>{videoStatus.finished}/</>}{videoStatus.total} Videos
               </button>
             )}
             {videoStatus.status === "downloading" && (

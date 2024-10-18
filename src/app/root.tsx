@@ -8,6 +8,7 @@ import useDownloadCourse from './use_download_course';
 import useRemoveCourse from './use_remove_course';
 import useWorkerSubscription from './use_worker_subscription';
 import useVideoDownload from './use_video_download';
+import useVideoStatus from './use_video_status';
 
 interface Props {
   courses: Course[];
@@ -17,10 +18,10 @@ export default function Root(props: Props) {
   const [courses, setCourses] = React.useState(props.courses);
 
   const downloadCourse = useDownloadCourse(setCourses);
-  const removeCourse = useRemoveCourse(setCourses);
   useWorkerSubscription(setCourses);
-  const [videoStatus, downloadCourseVideos] = useVideoDownload();
-  console.log(videoStatus);
+  const [videoQueue, downloadCourseVideos] = useVideoDownload();
+  const [videoStatus, rebuildStatus] = useVideoStatus(videoQueue);
+  const removeCourse = useRemoveCourse(setCourses, rebuildStatus);
 
   const getCourse = (courseId: string) => courses.find(course => course.id === courseId)!;
   
@@ -40,5 +41,4 @@ export default function Root(props: Props) {
       </Switch>
     </Router>  
   );
-  // return <CourseView course={course} goBack={() => setCourse(null)} />;
 }

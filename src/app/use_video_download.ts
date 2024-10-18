@@ -1,30 +1,31 @@
 import React from 'react';
-import { Course, Video, VideoStatusMap, VideoTextStatus } from '../types';
-import { ALL_COURSES } from './initial_course_list';
+import { Course, Video } from '../types';
 
-export default function useVideoDownload(): [VideoStatusMap, (course: Course) => void] {
-  const [status, setStatus] = React.useState<VideoStatusMap>({});
-  const [downloader] = React.useState<VideoDownloader>(() => new VideoDownloader(setStatus));
+export default function useVideoDownload(): [Video[], (course: Course) => void] {
+  const [queue, setQueue] = React.useState<Video[]>([]);
+  const [downloader] = React.useState<VideoDownloader>(() => new VideoDownloader(setQueue));
   const downloadCourse = React.useCallback((course: Course) => {
     downloader.addCourseToQueue(course);
   }, [downloader]);
 
-  return [status, downloadCourse];
+  return [queue, downloadCourse];
 }
 
 class VideoDownloader {
   queue: Video[] = [];
-  setStatus: React.Dispatch<React.SetStateAction<VideoStatusMap>>;
+  setQueue: React.Dispatch<React.SetStateAction<Video[]>>;
   running = false;
 
-  constructor(setStatus: React.Dispatch<React.SetStateAction<VideoStatusMap>>) {
-    this.setStatus = setStatus;
-    this.updateStatus();
+  constructor(setQueue: React.Dispatch<React.SetStateAction<Video[]>>) {
+    this.setQueue = setQueue;
+  }
+
+  postQueue() {
+    this.setQueue([...this.queue]);
   }
 
   async addCourseToQueue(course: Course) {
     await caches.open(`course-videos-${course.id}`);
-    this.updateStatus();
 
     for await (const video of course.videos) {
       const exists = await caches.match(`/courses/${course.id}/static_resources/${this.videoName(video)}`);
@@ -35,6 +36,7 @@ class VideoDownloader {
     if (!this.running) {
       this.startDownload();
     }
+    this.postQueue();
   }
 
   async startDownload() {
@@ -51,41 +53,12 @@ class VideoDownloader {
         await cache.put(`/courses/${video.courseId}/static_resources/${this.videoName(video.url)}`, new Response(videoBlob, {headers: {'Content-Type': 'video/mp4'}}));
 
         this.queue.shift();
-        await this.updateStatus();
+        this.postQueue();
       } catch (e) {
         console.error('Failed to download', video, e);
       }
     }
     this.running = false;
-  }
-
-  async updateStatus() {
-    const statuses: VideoStatusMap = {};
-    const cacheKeys = await window.caches.keys();
-
-    for await (const course of ALL_COURSES) {
-      if (cacheKeys.includes(`course-videos-${course.id}`)) {
-        const total = course.videos.length;
-        const cache = await caches.open(`course-videos-${course.id}`);
-        const keys = await cache.keys();
-        const finished = keys.length;
-
-        let status: VideoTextStatus = "unstarted";
-        if (total === finished) {
-          status = "complete";
-        } else if (this.queue.find(video => video.courseId === course.id)) {
-          status = "downloading";
-        }
-        statuses[course.id] = {
-          status,
-          total,
-          finished
-        };
-      } else {
-        statuses[course.id] = {status: "unstarted", total: course.videos.length, finished: 0};
-      }
-    }
-    this.setStatus(statuses);
   }
 
   videoName(url: string) {
