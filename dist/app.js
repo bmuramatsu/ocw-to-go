@@ -26882,7 +26882,7 @@
 
   // src/app.tsx
   async function init() {
-    await activateWorker();
+    activateWorker();
     const courses = await getInitialCourseList();
     (0, import_client.createRoot)(document.getElementById("react-app")).render(/* @__PURE__ */ import_react12.default.createElement(Root, { courses }));
   }

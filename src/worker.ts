@@ -1,23 +1,12 @@
 import { createPartialResponse } from 'workbox-range-requests';
 import { Course } from './types';
 import { eachOfLimit } from 'async';
+import ASSETS_TO_CACHE from './worker/assets';
 
 export type {};
 declare const self: ServiceWorkerGlobalScope;
 
 console.log("The Worker Ran");
-
-const ASSETS_TO_CACHE = [
-  '/',
-  '/index.html',
-  '/favicon.ico',
-  '/styles.css',
-  '/app.js',
-  '/course.js',
-  '/manifest.json',
-  '/icons/android/android-launchericon-192-192.png',
-  '/icons/android/android-launchericon-512-512.png',
-];
 
 self.addEventListener('install', event => {
   console.log("The Worker Installed", event);

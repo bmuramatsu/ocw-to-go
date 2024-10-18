@@ -4,7 +4,7 @@ import React from "react";
 import Root from './app/root';
 
 async function init() {
-  await activateWorker();
+  activateWorker();
   const courses = await getInitialCourseList();
   createRoot(document.getElementById("react-app")!).render(<Root courses={courses}/>)
 }
