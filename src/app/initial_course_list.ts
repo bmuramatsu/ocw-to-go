@@ -39,6 +39,10 @@ export const ALL_COURSES: Course[] = [
       ASSET_HOST+"/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-25-multi_360p_16_9.mp4",
       ASSET_HOST+"/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-26-multi_360p_16_9.mp4",
     ],
+    cardImg: "/images/intro-to-cs.jpg",
+    courseLevel: "6.100L | Undergraduate",
+    instructors: ["Dr. Ana Bell"],
+    topics: ["Engineering", "Computer Science", "Programming Languages"]
   },
   {
     id: "course-11",
@@ -47,6 +51,10 @@ export const ALL_COURSES: Course[] = [
     status: "",
     ready: false,
     videos: [],
+    cardImg: "/images/kanji-v.jpg",
+    courseLevel: "RES.21G-505 | Undergraduate",
+    instructors: ["Dr. Takako Aikawa", "Dr. Meghan Perdue"],
+    topics: ["Humanities", "Language", "Japanese"]
   },
   {
     id: "course-12",
@@ -55,6 +63,10 @@ export const ALL_COURSES: Course[] = [
     status: "",
     ready: false,
     videos: [],
+    cardImg: "/images/kanji-vi.jpg",
+    courseLevel: "RES.21G-506 | Undergraduate",
+    instructors: ["Dr. Takako Aikawa", "Dr. Meghan Perdue"],
+    topics: ["Humanities", "Language", "Japanese"]
   },
   {
     id: "course-13",
@@ -63,6 +75,10 @@ export const ALL_COURSES: Course[] = [
     status: "",
     ready: false,
     videos: [],
+    cardImg: "/images/linear-algebra.jpg",
+    courseLevel: "18.06SC | Undergraduate",
+    instructors: ["Prof. Gilbert Strang"],
+    topics: ["Mathematics", "Linear Algebra"]
   },
   {
     id: "course-14",
@@ -71,6 +87,10 @@ export const ALL_COURSES: Course[] = [
     status: "",
     ready: false,
     videos: [],
+    cardImg: "/images/intro-to-cs2.jpg",
+    courseLevel: "6.0001 | Undergraduate",
+    instructors: ["Dr. Ana Bell", "Prof. Eric Grimson", "Prof. John Guttag"],
+    topics: ["Engineering", "Computer Science", "Programming Languages"],
   },
   {
     id: "course-15",
@@ -79,6 +99,10 @@ export const ALL_COURSES: Course[] = [
     status: "",
     ready: false,
     videos: [],
+    cardImg: "/images/creole.jpg",
+    courseLevel: "24.908 | Undergraduate",
+    instructors: ["Prof. Michel DeGraff"],
+    topics: ["Humanities", "Linguistics", "Society"]
   },
 ]
 

@@ -26159,7 +26159,11 @@
         ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-24-version-2_360p_16_9.mp4",
         ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-25-multi_360p_16_9.mp4",
         ASSET_HOST + "/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-26-multi_360p_16_9.mp4"
-      ]
+      ],
+      cardImg: "/images/intro-to-cs.jpg",
+      courseLevel: "6.100L | Undergraduate",
+      instructors: ["Dr. Ana Bell"],
+      topics: ["Engineering", "Computer Science", "Programming Languages"]
     },
     {
       id: "course-11",
@@ -26167,7 +26171,11 @@
       file: ASSET_HOST + "/japanese-5.zip",
       status: "",
       ready: false,
-      videos: []
+      videos: [],
+      cardImg: "/images/kanji-v.jpg",
+      courseLevel: "RES.21G-505 | Undergraduate",
+      instructors: ["Dr. Takako Aikawa", "Dr. Meghan Perdue"],
+      topics: ["Humanities", "Language", "Japanese"]
     },
     {
       id: "course-12",
@@ -26175,7 +26183,11 @@
       file: ASSET_HOST + "/japanese-6.zip",
       status: "",
       ready: false,
-      videos: []
+      videos: [],
+      cardImg: "/images/kanji-vi.jpg",
+      courseLevel: "RES.21G-506 | Undergraduate",
+      instructors: ["Dr. Takako Aikawa", "Dr. Meghan Perdue"],
+      topics: ["Humanities", "Language", "Japanese"]
     },
     {
       id: "course-13",
@@ -26183,7 +26195,11 @@
       file: ASSET_HOST + "/linear-algebra.zip",
       status: "",
       ready: false,
-      videos: []
+      videos: [],
+      cardImg: "/images/linear-algebra.jpg",
+      courseLevel: "18.06SC | Undergraduate",
+      instructors: ["Prof. Gilbert Strang"],
+      topics: ["Mathematics", "Linear Algebra"]
     },
     {
       id: "course-14",
@@ -26191,7 +26207,11 @@
       file: ASSET_HOST + "/intro-to-cs-2.zip",
       status: "",
       ready: false,
-      videos: []
+      videos: [],
+      cardImg: "/images/intro-to-cs2.jpg",
+      courseLevel: "6.0001 | Undergraduate",
+      instructors: ["Dr. Ana Bell", "Prof. Eric Grimson", "Prof. John Guttag"],
+      topics: ["Engineering", "Computer Science", "Programming Languages"]
     },
     {
       id: "course-15",
@@ -26199,7 +26219,11 @@
       file: ASSET_HOST + "/creole.zip",
       status: "",
       ready: false,
-      videos: []
+      videos: [],
+      cardImg: "/images/creole.jpg",
+      courseLevel: "24.908 | Undergraduate",
+      instructors: ["Prof. Michel DeGraff"],
+      topics: ["Humanities", "Linguistics", "Society"]
     }
   ];
   async function getInitialCourseList() {
@@ -26547,7 +26571,7 @@
 
   // src/app/course_list_item.tsx
   function CourseListItem({ course, downloadCourse, removeCourse, downloadCourseVideos, videoStatus }) {
-    return /* @__PURE__ */ import_react3.default.createElement(import_react3.default.Fragment, null, /* @__PURE__ */ import_react3.default.createElement("a", { className: "course-card__img", href: "", "aria-hidden": true, tabIndex: -1 }, /* @__PURE__ */ import_react3.default.createElement("img", { loading: "lazy", src: "images/creole.jpg", alt: "alt text" })), /* @__PURE__ */ import_react3.default.createElement("div", { className: "course-card__content" }, /* @__PURE__ */ import_react3.default.createElement("p", { className: "u-all-caps" }, "6.100L | Undergraduate"), /* @__PURE__ */ import_react3.default.createElement("h3", null, /* @__PURE__ */ import_react3.default.createElement("a", { href: "" }, course.name)), /* @__PURE__ */ import_react3.default.createElement("p", { className: "u-mt-12" }, /* @__PURE__ */ import_react3.default.createElement("span", null, "Instructor:"), " Dr. Ana Bell"), /* @__PURE__ */ import_react3.default.createElement("p", { className: "u-mt-8" }, /* @__PURE__ */ import_react3.default.createElement("span", null, "Topics:"), " Engineering, Computer Science, Programming Languages")), /* @__PURE__ */ import_react3.default.createElement("div", { className: "course-card__actions" }, !course.ready && course.status == "" && /* @__PURE__ */ import_react3.default.createElement("button", { onClick: downloadCourse, className: "btn--has-icon" }, /* @__PURE__ */ import_react3.default.createElement(Download, null), "Course"), !course.ready && course.status != "" && /* @__PURE__ */ import_react3.default.createElement("button", { className: "btn--has-icon is-downloading", disabled: true }, /* @__PURE__ */ import_react3.default.createElement(Loader, null), "Course"), course.ready && /* @__PURE__ */ import_react3.default.createElement(Link, { href: `/courses/${course.id}` }, "View Course"), videoStatus && !!videoStatus.total && /* @__PURE__ */ import_react3.default.createElement(import_react3.default.Fragment, null, videoStatus.status === "unstarted" && /* @__PURE__ */ import_react3.default.createElement("button", { onClick: downloadCourseVideos, className: "btn--has-icon" }, /* @__PURE__ */ import_react3.default.createElement(Download, null), videoStatus.total, " Videos"), videoStatus.status === "downloading" && /* @__PURE__ */ import_react3.default.createElement("button", { className: "btn--has-icon is-downloading", disabled: true }, /* @__PURE__ */ import_react3.default.createElement(Loader, null), videoStatus.finished, "/", videoStatus.total, " Videos"), videoStatus.status === "complete" && /* @__PURE__ */ import_react3.default.createElement("button", { className: "btn--has-icon is-success", disabled: true }, /* @__PURE__ */ import_react3.default.createElement(Checkmark, null), course.videos.length, " Videos")), /* @__PURE__ */ import_react3.default.createElement("button", { onClick: removeCourse, className: "icon-btn" }, /* @__PURE__ */ import_react3.default.createElement(Trash, null))));
+    return /* @__PURE__ */ import_react3.default.createElement(import_react3.default.Fragment, null, /* @__PURE__ */ import_react3.default.createElement("a", { className: "course-card__img", href: "", "aria-hidden": true, tabIndex: -1 }, /* @__PURE__ */ import_react3.default.createElement("img", { loading: "lazy", src: course.cardImg, alt: "alt text" })), /* @__PURE__ */ import_react3.default.createElement("div", { className: "course-card__content" }, /* @__PURE__ */ import_react3.default.createElement("p", { className: "u-all-caps" }, course.courseLevel), /* @__PURE__ */ import_react3.default.createElement("h3", null, /* @__PURE__ */ import_react3.default.createElement("a", { href: "" }, course.name)), /* @__PURE__ */ import_react3.default.createElement("p", { className: "u-mt-12" }, /* @__PURE__ */ import_react3.default.createElement("span", null, "Instructor:"), " ", course.instructors.join(", ")), /* @__PURE__ */ import_react3.default.createElement("p", { className: "u-mt-8" }, /* @__PURE__ */ import_react3.default.createElement("span", null, "Topics:"), " ", course.topics.join(", "))), /* @__PURE__ */ import_react3.default.createElement("div", { className: "course-card__actions" }, !course.ready && course.status == "" && /* @__PURE__ */ import_react3.default.createElement("button", { onClick: downloadCourse, className: "btn--has-icon" }, /* @__PURE__ */ import_react3.default.createElement(Download, null), "Course"), !course.ready && course.status != "" && /* @__PURE__ */ import_react3.default.createElement("button", { className: "btn--has-icon is-downloading", disabled: true }, /* @__PURE__ */ import_react3.default.createElement(Loader, null), "Course"), course.ready && /* @__PURE__ */ import_react3.default.createElement(Link, { href: `/courses/${course.id}` }, "View Course"), videoStatus && !!videoStatus.total && /* @__PURE__ */ import_react3.default.createElement(import_react3.default.Fragment, null, videoStatus.status === "unstarted" && /* @__PURE__ */ import_react3.default.createElement("button", { onClick: downloadCourseVideos, className: "btn--has-icon" }, /* @__PURE__ */ import_react3.default.createElement(Download, null), videoStatus.total, " Videos"), videoStatus.status === "downloading" && /* @__PURE__ */ import_react3.default.createElement("button", { className: "btn--has-icon is-downloading", disabled: true }, /* @__PURE__ */ import_react3.default.createElement(Loader, null), videoStatus.finished, "/", videoStatus.total, " Videos"), videoStatus.status === "complete" && /* @__PURE__ */ import_react3.default.createElement("button", { className: "btn--has-icon is-success", disabled: true }, /* @__PURE__ */ import_react3.default.createElement(Checkmark, null), course.videos.length, " Videos")), /* @__PURE__ */ import_react3.default.createElement("button", { onClick: removeCourse, className: "icon-btn" }, /* @__PURE__ */ import_react3.default.createElement(Trash, null))));
   }
 
   // src/app/course_list.tsx

@@ -5,6 +5,10 @@ export type Course = {
   ready: boolean;
   status: string;
   videos: string[];
+  cardImg: string;
+  courseLevel: string;
+  instructors: string[];
+  topics: string[];
 }
 
 export type Video = {

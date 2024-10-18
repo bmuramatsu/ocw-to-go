@@ -15,15 +15,15 @@ export default function CourseListItem({ course, downloadCourse, removeCourse, d
   return (
     <>
       <a className="course-card__img" href="" aria-hidden tabIndex={-1}>
-        <img loading="lazy" src="images/creole.jpg" alt="alt text" />
+        <img loading="lazy" src={course.cardImg} alt="alt text" />
       </a>
       <div className="course-card__content">
-        <p className="u-all-caps">6.100L | Undergraduate</p>
+        <p className="u-all-caps">{course.courseLevel}</p>
         <h3>
           <a href="">{course.name}</a>
         </h3>
-        <p className="u-mt-12"><span>Instructor:</span> Dr. Ana Bell</p>
-        <p className="u-mt-8"><span>Topics:</span> Engineering, Computer Science, Programming Languages</p>
+        <p className="u-mt-12"><span>Instructor:</span> {course.instructors.join(", ")}</p>
+        <p className="u-mt-8"><span>Topics:</span> {course.topics.join(", ")}</p>
       </div>
       <div className="course-card__actions">
         {!course.ready && course.status == "" && (
