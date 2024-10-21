@@ -3,12 +3,12 @@
   "start_url": "/",
   "icons": [
     {
-      "src": "icons/android/android-launchericon-192-192.png",
+      "src": "icons/android/launchericon-192-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "icons/android/android-launchericon-512-512.png",
+      "src": "icons/android/launchericon-512-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }

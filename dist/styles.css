@@ -9,6 +9,10 @@ body {
   margin: 0;
 }
 
+body > div#react-app {
+  height: 100%;
+}
+
 a,
 a:visited {
   color: black;
@@ -90,7 +94,7 @@ header {
   min-height: 9.6rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 header h1 {
   margin: 0;
