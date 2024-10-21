@@ -2,6 +2,7 @@ import React from 'react';
 
 type UsageData = {
   usedPercent: number;
+  usedSpace: string;
   totalSpace: string;
 }
 
@@ -21,7 +22,7 @@ export default function StorageUsage() {
   if (!usage) return null;
 
   return (
-    <span>{usage.usedPercent}% of {usage.totalSpace} used</span>
+    <span>Storage: {usage.usedPercent}% used ({usage.usedSpace} of {usage.totalSpace})</span>
   );
 }
 
@@ -34,7 +35,7 @@ async function calculateUsage(): Promise<UsageData|null> {
 
   let usedPercent = (usage / quota) * 100;
   usedPercent = Math.round(usedPercent);
-  return {usedPercent, totalSpace: formatBytes(quota)};
+  return {usedPercent, usedSpace: formatBytes(usage), totalSpace: formatBytes(quota)};
 }
 
 // Co-pilot wrote this :P

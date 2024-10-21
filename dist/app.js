@@ -26596,7 +26596,7 @@
       return () => clearInterval(interval);
     }, [setUsage]);
     if (!usage) return null;
-    return /* @__PURE__ */ import_react5.default.createElement("span", null, usage.usedPercent, "% of ", usage.totalSpace, " used");
+    return /* @__PURE__ */ import_react5.default.createElement("span", null, "Storage: ", usage.usedPercent, "% used (", usage.usedSpace, " of ", usage.totalSpace, ")");
   }
   async function calculateUsage() {
     const data = await navigator.storage.estimate();
@@ -26606,7 +26606,7 @@
     }
     let usedPercent = usage / quota * 100;
     usedPercent = Math.round(usedPercent);
-    return { usedPercent, totalSpace: formatBytes(quota) };
+    return { usedPercent, usedSpace: formatBytes(usage), totalSpace: formatBytes(quota) };
   }
   function formatBytes(bytes) {
     if (bytes === 0) return "0 Bytes";
