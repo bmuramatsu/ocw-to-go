@@ -2422,9 +2422,9 @@
           if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
             __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
           }
-          var React14 = require_react();
+          var React16 = require_react();
           var Scheduler = require_scheduler();
-          var ReactSharedInternals = React14.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+          var ReactSharedInternals = React16.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
           var suppressWarning = false;
           function setSuppressWarning(newSuppressWarning) {
             {
@@ -4031,7 +4031,7 @@
             {
               if (props.value == null) {
                 if (typeof props.children === "object" && props.children !== null) {
-                  React14.Children.forEach(props.children, function(child) {
+                  React16.Children.forEach(props.children, function(child) {
                     if (child == null) {
                       return;
                     }
@@ -23630,8 +23630,8 @@
           if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
             __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
           }
-          var React14 = require_react();
-          var ReactSharedInternals = React14.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+          var React16 = require_react();
+          var ReactSharedInternals = React16.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
           function error(format) {
             {
               {
@@ -23661,13 +23661,13 @@
             return x === y && (x !== 0 || 1 / x === 1 / y) || x !== x && y !== y;
           }
           var objectIs = typeof Object.is === "function" ? Object.is : is;
-          var useState2 = React14.useState, useEffect2 = React14.useEffect, useLayoutEffect2 = React14.useLayoutEffect, useDebugValue = React14.useDebugValue;
+          var useState2 = React16.useState, useEffect2 = React16.useEffect, useLayoutEffect2 = React16.useLayoutEffect, useDebugValue = React16.useDebugValue;
           var didWarnOld18Alpha = false;
           var didWarnUncachedGetSnapshot = false;
           function useSyncExternalStore2(subscribe, getSnapshot, getServerSnapshot) {
             {
               if (!didWarnOld18Alpha) {
-                if (React14.startTransition !== void 0) {
+                if (React16.startTransition !== void 0) {
                   didWarnOld18Alpha = true;
                   error("You are using an outdated, pre-release alpha of React 18 that does not support useSyncExternalStore. The use-sync-external-store shim will not work correctly. Upgrade to a newer pre-release.");
                 }
@@ -23732,7 +23732,7 @@
           var canUseDOM2 = !!(typeof window !== "undefined" && typeof window.document !== "undefined" && typeof window.document.createElement !== "undefined");
           var isServerEnvironment = !canUseDOM2;
           var shim = isServerEnvironment ? useSyncExternalStore$1 : useSyncExternalStore2;
-          var useSyncExternalStore$2 = React14.useSyncExternalStore !== void 0 ? React14.useSyncExternalStore : shim;
+          var useSyncExternalStore$2 = React16.useSyncExternalStore !== void 0 ? React16.useSyncExternalStore : shim;
           exports.useSyncExternalStore = useSyncExternalStore$2;
           if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") {
             __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
@@ -26251,10 +26251,10 @@
   }
 
   // src/app.tsx
-  var import_react13 = __toESM(require_react());
+  var import_react15 = __toESM(require_react());
 
   // src/app/root.tsx
-  var import_react12 = __toESM(require_react());
+  var import_react14 = __toESM(require_react());
 
   // node_modules/regexparam/dist/index.mjs
   function parse(input, loose) {
@@ -26549,7 +26549,7 @@
   useHashLocation.hrefs = (href) => "#" + href;
 
   // src/app/course_list.tsx
-  var import_react5 = __toESM(require_react());
+  var import_react7 = __toESM(require_react());
 
   // src/app/course_list_item.tsx
   var import_react4 = __toESM(require_react());
@@ -26581,9 +26581,49 @@
     return /* @__PURE__ */ import_react4.default.createElement(import_react4.default.Fragment, null, /* @__PURE__ */ import_react4.default.createElement(CourseLink, { course, className: "course-card__img", href: "", "aria-hidden": true, tabIndex: -1 }, /* @__PURE__ */ import_react4.default.createElement("img", { loading: "lazy", src: course.cardImg, alt: "alt text" })), /* @__PURE__ */ import_react4.default.createElement("div", { className: "course-card__content" }, /* @__PURE__ */ import_react4.default.createElement("p", { className: "u-all-caps" }, course.courseLevel), /* @__PURE__ */ import_react4.default.createElement("h3", null, /* @__PURE__ */ import_react4.default.createElement(CourseLink, { course }, course.name)), /* @__PURE__ */ import_react4.default.createElement("p", { className: "u-mt-12" }, /* @__PURE__ */ import_react4.default.createElement("span", null, "Instructor:"), " ", course.instructors.join(", ")), /* @__PURE__ */ import_react4.default.createElement("p", { className: "u-mt-8" }, /* @__PURE__ */ import_react4.default.createElement("span", null, "Topics:"), " ", course.topics.join(", "))), /* @__PURE__ */ import_react4.default.createElement("div", { className: "course-card__actions" }, !course.ready && course.status == "" && /* @__PURE__ */ import_react4.default.createElement("button", { onClick: downloadCourse, className: "btn--has-icon" }, /* @__PURE__ */ import_react4.default.createElement(Download, null), "Course"), !course.ready && course.status != "" && /* @__PURE__ */ import_react4.default.createElement("button", { className: "btn--has-icon is-downloading", disabled: true }, /* @__PURE__ */ import_react4.default.createElement(Loader, null), "Course"), course.ready && /* @__PURE__ */ import_react4.default.createElement(Link, { href: `/courses/${course.id}`, className: "btn--is-link" }, "View Course"), videoStatus && !!videoStatus.total && /* @__PURE__ */ import_react4.default.createElement(import_react4.default.Fragment, null, videoStatus.status === "unstarted" && /* @__PURE__ */ import_react4.default.createElement("button", { onClick: downloadCourseVideos, className: "btn--has-icon" }, /* @__PURE__ */ import_react4.default.createElement(Download, null), videoStatus.finished > 0 && /* @__PURE__ */ import_react4.default.createElement(import_react4.default.Fragment, null, videoStatus.finished, "/"), videoStatus.total, " Videos"), videoStatus.status === "downloading" && /* @__PURE__ */ import_react4.default.createElement("button", { className: "btn--has-icon is-downloading", disabled: true }, /* @__PURE__ */ import_react4.default.createElement(Loader, null), videoStatus.finished, "/", videoStatus.total, " Videos"), videoStatus.status === "complete" && /* @__PURE__ */ import_react4.default.createElement("button", { className: "btn--has-icon is-success", disabled: true }, /* @__PURE__ */ import_react4.default.createElement(Checkmark, null), course.videos.length, " Videos")), /* @__PURE__ */ import_react4.default.createElement("button", { onClick: removeCourse, className: "icon-btn" }, /* @__PURE__ */ import_react4.default.createElement(Trash, null))));
   }
 
+  // src/app/footer.tsx
+  var import_react6 = __toESM(require_react());
+
+  // src/app/storage_usage.tsx
+  var import_react5 = __toESM(require_react());
+  function StorageUsage() {
+    const [usage, setUsage] = import_react5.default.useState(null);
+    import_react5.default.useEffect(() => {
+      const interval = setInterval(() => {
+        calculateUsage().then(setUsage);
+      }, 5e3);
+      calculateUsage().then(setUsage);
+      return () => clearInterval(interval);
+    }, [setUsage]);
+    if (!usage) return null;
+    return /* @__PURE__ */ import_react5.default.createElement("span", null, usage.usedPercent, "% of ", usage.totalSpace, " used");
+  }
+  async function calculateUsage() {
+    const data = await navigator.storage.estimate();
+    const { usage, quota } = data;
+    if (usage === void 0 || quota === void 0) {
+      return null;
+    }
+    let usedPercent = usage / quota * 100;
+    usedPercent = Math.round(usedPercent);
+    return { usedPercent, totalSpace: formatBytes(quota) };
+  }
+  function formatBytes(bytes) {
+    if (bytes === 0) return "0 Bytes";
+    const k = 1024;
+    const sizes = ["Bytes", "KB", "MB", "GB", "TB"];
+    const i = Math.floor(Math.log(bytes) / Math.log(k));
+    return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + " " + sizes[i];
+  }
+
+  // src/app/footer.tsx
+  function Footer() {
+    return /* @__PURE__ */ import_react6.default.createElement("div", { className: "footer-container" }, /* @__PURE__ */ import_react6.default.createElement("footer", null, /* @__PURE__ */ import_react6.default.createElement("div", { className: "flex gap-24 wrap space-between align-center" }, /* @__PURE__ */ import_react6.default.createElement("img", { className: "footer-logo", src: "images/mit-logo-sm.svg", alt: "mit open learning logo" }), /* @__PURE__ */ import_react6.default.createElement("ul", { className: "inline-list gap-12" }, /* @__PURE__ */ import_react6.default.createElement("li", null, /* @__PURE__ */ import_react6.default.createElement("b", null, /* @__PURE__ */ import_react6.default.createElement("a", { href: "https://accessibility.mit.edu" }, "Accessibility"))), /* @__PURE__ */ import_react6.default.createElement("li", null, /* @__PURE__ */ import_react6.default.createElement("b", null, /* @__PURE__ */ import_react6.default.createElement("a", { href: "https://creativecommons.org/licenses/by-nc-sa/4.0/" }, "Creative Commons License"))), /* @__PURE__ */ import_react6.default.createElement("li", null, /* @__PURE__ */ import_react6.default.createElement("b", null, /* @__PURE__ */ import_react6.default.createElement("a", { href: "https://ocw.mit.edu/pages/privacy-and-terms-of-use/" }, "Terms and Conditions"))))), /* @__PURE__ */ import_react6.default.createElement("div", { className: "flex gap-24 wrap space-between align-center u-mt-24" }, /* @__PURE__ */ import_react6.default.createElement("p", null, "MIT OpenCourseWare is an online publication of materials from over 2,500 MIT courses, freely sharing knowledge with learners and educators around the world. ", /* @__PURE__ */ import_react6.default.createElement("a", { href: "https://ocw.mit.edu/about/" }, "Learn more")), /* @__PURE__ */ import_react6.default.createElement("p", { className: "u-all-caps flex align-center" }, /* @__PURE__ */ import_react6.default.createElement("b", null, "proud member of:\xA0"), /* @__PURE__ */ import_react6.default.createElement("a", { href: "https://www.oeglobal.org/", target: "_blank" }, /* @__PURE__ */ import_react6.default.createElement("img", { className: "oeg-logo", src: "images/oeglobal.png", alt: "Open Education Global" })))), /* @__PURE__ */ import_react6.default.createElement("div", { className: "flex gap-24 wrap space-between align-center u-mt-24" }, /* @__PURE__ */ import_react6.default.createElement("p", null, "\xA9 2001-2024 Massachusetts Institute of Technology", /* @__PURE__ */ import_react6.default.createElement("br", null), /* @__PURE__ */ import_react6.default.createElement(StorageUsage, null)), /* @__PURE__ */ import_react6.default.createElement("ul", { className: "inline-list gap-24" }, /* @__PURE__ */ import_react6.default.createElement("li", null, /* @__PURE__ */ import_react6.default.createElement("a", { href: "https://www.facebook.com/MITOCW", target: "_blank" }, /* @__PURE__ */ import_react6.default.createElement("img", { className: "footer-social-icon", src: "images/facebook-icon.png", alt: "facebook" }))), /* @__PURE__ */ import_react6.default.createElement("li", null, /* @__PURE__ */ import_react6.default.createElement("a", { href: "https://www.instagram.com/mitocw", target: "_blank" }, /* @__PURE__ */ import_react6.default.createElement("img", { className: "footer-social-icon", src: "images/instagram-icon.png", alt: "instagram" }))), /* @__PURE__ */ import_react6.default.createElement("li", null, /* @__PURE__ */ import_react6.default.createElement("a", { href: "https://twitter.com/MITOCW", target: "_blank" }, /* @__PURE__ */ import_react6.default.createElement("img", { className: "footer-social-icon", src: "images/x-icon.png", alt: "x (formerly twitter)" }))), /* @__PURE__ */ import_react6.default.createElement("li", null, /* @__PURE__ */ import_react6.default.createElement("a", { href: "https://www.youtube.com/mitocw", target: "_blank" }, /* @__PURE__ */ import_react6.default.createElement("img", { className: "footer-social-icon", src: "images/youtube-icon.png", alt: "youtube" }))), /* @__PURE__ */ import_react6.default.createElement("li", null, /* @__PURE__ */ import_react6.default.createElement("a", { href: "https://www.linkedin.com/company/mit-opencourseware/", target: "_blank" }, /* @__PURE__ */ import_react6.default.createElement("img", { className: "footer-social-icon", src: "images/linkedin-icon.png", alt: "linkedin" })))))));
+  }
+
   // src/app/course_list.tsx
   function CourseList({ courses, videoStatus, downloadCourse, removeCourse, downloadCourseVideos }) {
-    return /* @__PURE__ */ import_react5.default.createElement("div", { className: "page-grid" }, /* @__PURE__ */ import_react5.default.createElement("div", { className: "header-container" }, /* @__PURE__ */ import_react5.default.createElement("header", null, /* @__PURE__ */ import_react5.default.createElement("h1", null, /* @__PURE__ */ import_react5.default.createElement(Logo, null)))), /* @__PURE__ */ import_react5.default.createElement("main", null, /* @__PURE__ */ import_react5.default.createElement("h2", null, "Courses"), /* @__PURE__ */ import_react5.default.createElement("ul", { className: "course-grid" }, courses.map((course) => /* @__PURE__ */ import_react5.default.createElement("li", { key: course.id, className: "course-card" }, /* @__PURE__ */ import_react5.default.createElement(
+    return /* @__PURE__ */ import_react7.default.createElement("div", { className: "page-grid" }, /* @__PURE__ */ import_react7.default.createElement("div", { className: "header-container" }, /* @__PURE__ */ import_react7.default.createElement("header", null, /* @__PURE__ */ import_react7.default.createElement("h1", null, /* @__PURE__ */ import_react7.default.createElement(Logo, null)))), /* @__PURE__ */ import_react7.default.createElement("main", null, /* @__PURE__ */ import_react7.default.createElement("h2", null, "Courses"), /* @__PURE__ */ import_react7.default.createElement("ul", { className: "course-grid" }, courses.map((course) => /* @__PURE__ */ import_react7.default.createElement("li", { key: course.id, className: "course-card" }, /* @__PURE__ */ import_react7.default.createElement(
       CourseListItem,
       {
         course,
@@ -26592,15 +26632,15 @@
         downloadCourse: () => downloadCourse(course.id, course.file),
         downloadCourseVideos: () => downloadCourseVideos(course)
       }
-    ))))), /* @__PURE__ */ import_react5.default.createElement("div", { className: "footer-container" }, /* @__PURE__ */ import_react5.default.createElement("footer", null, /* @__PURE__ */ import_react5.default.createElement("div", { className: "flex gap-24 wrap space-between align-center" }, /* @__PURE__ */ import_react5.default.createElement("img", { className: "footer-logo", src: "images/mit-logo-sm.svg", alt: "mit open learning logo" }), /* @__PURE__ */ import_react5.default.createElement("ul", { className: "inline-list gap-12" }, /* @__PURE__ */ import_react5.default.createElement("li", null, /* @__PURE__ */ import_react5.default.createElement("b", null, /* @__PURE__ */ import_react5.default.createElement("a", { href: "https://accessibility.mit.edu" }, "Accessibility"))), /* @__PURE__ */ import_react5.default.createElement("li", null, /* @__PURE__ */ import_react5.default.createElement("b", null, /* @__PURE__ */ import_react5.default.createElement("a", { href: "https://creativecommons.org/licenses/by-nc-sa/4.0/" }, "Creative Commons License"))), /* @__PURE__ */ import_react5.default.createElement("li", null, /* @__PURE__ */ import_react5.default.createElement("b", null, /* @__PURE__ */ import_react5.default.createElement("a", { href: "https://ocw.mit.edu/pages/privacy-and-terms-of-use/" }, "Terms and Conditions"))))), /* @__PURE__ */ import_react5.default.createElement("div", { className: "flex gap-24 wrap space-between align-center u-mt-24" }, /* @__PURE__ */ import_react5.default.createElement("p", null, "MIT OpenCourseWare is an online publication of materials from over 2,500 MIT courses, freely sharing knowledge with learners and educators around the world. ", /* @__PURE__ */ import_react5.default.createElement("a", { href: "https://ocw.mit.edu/about/" }, "Learn more")), /* @__PURE__ */ import_react5.default.createElement("p", { className: "u-all-caps flex align-center" }, /* @__PURE__ */ import_react5.default.createElement("b", null, "proud member of:\xA0"), /* @__PURE__ */ import_react5.default.createElement("a", { href: "https://www.oeglobal.org/", target: "_blank" }, /* @__PURE__ */ import_react5.default.createElement("img", { className: "oeg-logo", src: "images/oeglobal.png", alt: "Open Education Global" })))), /* @__PURE__ */ import_react5.default.createElement("div", { className: "flex gap-24 wrap space-between align-center u-mt-24" }, /* @__PURE__ */ import_react5.default.createElement("p", null, "\xA9 2001-2024 Massachusetts Institute of Technology"), /* @__PURE__ */ import_react5.default.createElement("ul", { className: "inline-list gap-24" }, /* @__PURE__ */ import_react5.default.createElement("li", null, /* @__PURE__ */ import_react5.default.createElement("a", { href: "https://www.facebook.com/MITOCW", target: "_blank" }, /* @__PURE__ */ import_react5.default.createElement("img", { className: "footer-social-icon", src: "images/facebook-icon.png", alt: "facebook" }))), /* @__PURE__ */ import_react5.default.createElement("li", null, /* @__PURE__ */ import_react5.default.createElement("a", { href: "https://www.instagram.com/mitocw", target: "_blank" }, /* @__PURE__ */ import_react5.default.createElement("img", { className: "footer-social-icon", src: "images/instagram-icon.png", alt: "instagram" }))), /* @__PURE__ */ import_react5.default.createElement("li", null, /* @__PURE__ */ import_react5.default.createElement("a", { href: "https://twitter.com/MITOCW", target: "_blank" }, /* @__PURE__ */ import_react5.default.createElement("img", { className: "footer-social-icon", src: "images/x-icon.png", alt: "x (formerly twitter)" }))), /* @__PURE__ */ import_react5.default.createElement("li", null, /* @__PURE__ */ import_react5.default.createElement("a", { href: "https://www.youtube.com/mitocw", target: "_blank" }, /* @__PURE__ */ import_react5.default.createElement("img", { className: "footer-social-icon", src: "images/youtube-icon.png", alt: "youtube" }))), /* @__PURE__ */ import_react5.default.createElement("li", null, /* @__PURE__ */ import_react5.default.createElement("a", { href: "https://www.linkedin.com/company/mit-opencourseware/", target: "_blank" }, /* @__PURE__ */ import_react5.default.createElement("img", { className: "footer-social-icon", src: "images/linkedin-icon.png", alt: "linkedin" }))))))));
+    ))))), /* @__PURE__ */ import_react7.default.createElement(Footer, null));
   }
 
   // src/app/course_view.tsx
-  var import_react6 = __toESM(require_react());
+  var import_react8 = __toESM(require_react());
   function CourseView({ course }) {
     const [_location, navigate3] = useLocation();
-    const ref = import_react6.default.useRef(null);
-    import_react6.default.useEffect(() => {
+    const ref = import_react8.default.useRef(null);
+    import_react8.default.useEffect(() => {
       function onLoad() {
         var _a;
         const childWindow = (_a = ref.current) == null ? void 0 : _a.contentWindow;
@@ -26619,7 +26659,7 @@
         }
       };
     }, [ref]);
-    import_react6.default.useEffect(() => {
+    import_react8.default.useEffect(() => {
       function onMessage(e) {
         var _a;
         console.log("post message", e);
@@ -26632,7 +26672,7 @@
       window.addEventListener("message", onMessage);
       () => window.removeEventListener("message", onMessage);
     }, [ref, navigate3]);
-    return /* @__PURE__ */ import_react6.default.createElement(import_react6.default.Fragment, null, /* @__PURE__ */ import_react6.default.createElement(
+    return /* @__PURE__ */ import_react8.default.createElement(import_react8.default.Fragment, null, /* @__PURE__ */ import_react8.default.createElement(
       "iframe",
       {
         src: `/courses/${course.id}/index.html`,
@@ -26643,7 +26683,7 @@
   }
 
   // src/app/use_download_course.tsx
-  var import_react7 = __toESM(require_react());
+  var import_react9 = __toESM(require_react());
   var import_jszip = __toESM(require_jszip_min());
   function mimeFromExtension(path) {
     const extension = path.split(".").pop();
@@ -26685,7 +26725,7 @@
     }
   }
   function useDownloadCourse(setCourses) {
-    return import_react7.default.useCallback(async (courseId, path) => {
+    return import_react9.default.useCallback(async (courseId, path) => {
       const updateCourseStatus = (status) => {
         setCourses((courses) => courses.map((course) => {
           if (course.id === courseId) {
@@ -26720,9 +26760,9 @@
   }
 
   // src/app/use_remove_course.ts
-  var import_react8 = __toESM(require_react());
+  var import_react10 = __toESM(require_react());
   function useRemoveCourse(setCourses, rebuildVideoStatus) {
-    return import_react8.default.useCallback(async (courseId) => {
+    return import_react10.default.useCallback(async (courseId) => {
       await caches.delete("course-" + courseId);
       await caches.delete("course-videos-" + courseId);
       setCourses((courses) => courses.map((course) => {
@@ -26736,9 +26776,9 @@
   }
 
   // src/app/use_worker_subscription.ts
-  var import_react9 = __toESM(require_react());
+  var import_react11 = __toESM(require_react());
   function useWorkerSubscription(setCourses) {
-    return import_react9.default.useEffect(() => {
+    return import_react11.default.useEffect(() => {
       function onMessage(event) {
         console.log("The Worker Sent a Message", event);
         if (typeof event.data === "object" && !Array.isArray(event.data) && event.data !== null) {
@@ -26751,11 +26791,11 @@
   }
 
   // src/app/use_video_download.ts
-  var import_react10 = __toESM(require_react());
+  var import_react12 = __toESM(require_react());
   function useVideoDownload() {
-    const [queue, setQueue] = import_react10.default.useState([]);
-    const [downloader] = import_react10.default.useState(() => new VideoDownloader(setQueue));
-    const downloadCourse = import_react10.default.useCallback((course) => {
+    const [queue, setQueue] = import_react12.default.useState([]);
+    const [downloader] = import_react12.default.useState(() => new VideoDownloader(setQueue));
+    const downloadCourse = import_react12.default.useCallback((course) => {
       downloader.addCourseToQueue(course);
     }, [downloader]);
     return [queue, downloadCourse];
@@ -26821,10 +26861,10 @@
   };
 
   // src/app/use_video_status.ts
-  var import_react11 = __toESM(require_react());
+  var import_react13 = __toESM(require_react());
   function useVideoStatus(queue) {
-    const [status, setStatus] = import_react11.default.useState({});
-    const rebuildStatus = import_react11.default.useCallback(async () => {
+    const [status, setStatus] = import_react13.default.useState({});
+    const rebuildStatus = import_react13.default.useCallback(async () => {
       const statuses = {};
       const cacheKeys = await window.caches.keys();
       try {
@@ -26862,8 +26902,8 @@
       }
       setStatus(statuses);
     }, [queue]);
-    const prevQueue = import_react11.default.useRef([]);
-    import_react11.default.useEffect(() => {
+    const prevQueue = import_react13.default.useRef([]);
+    import_react13.default.useEffect(() => {
       if (prevQueue.current !== queue) {
         rebuildStatus();
       } else {
@@ -26875,14 +26915,14 @@
 
   // src/app/root.tsx
   function Root(props) {
-    const [courses, setCourses] = import_react12.default.useState(props.courses);
+    const [courses, setCourses] = import_react14.default.useState(props.courses);
     const downloadCourse = useDownloadCourse(setCourses);
     useWorkerSubscription(setCourses);
     const [videoQueue, downloadCourseVideos] = useVideoDownload();
     const [videoStatus, rebuildStatus] = useVideoStatus(videoQueue);
     const removeCourse = useRemoveCourse(setCourses, rebuildStatus);
     const getCourse = (courseId) => courses.find((course) => course.id === courseId);
-    return /* @__PURE__ */ import_react12.default.createElement(Router, { hook: useHashLocation }, /* @__PURE__ */ import_react12.default.createElement(Switch, null, /* @__PURE__ */ import_react12.default.createElement(Route, { path: "/courses/:courseId" }, ({ courseId }) => /* @__PURE__ */ import_react12.default.createElement(CourseView, { course: getCourse(courseId) })), /* @__PURE__ */ import_react12.default.createElement(Route, { path: "/" }, /* @__PURE__ */ import_react12.default.createElement(
+    return /* @__PURE__ */ import_react14.default.createElement(Router, { hook: useHashLocation }, /* @__PURE__ */ import_react14.default.createElement(Switch, null, /* @__PURE__ */ import_react14.default.createElement(Route, { path: "/courses/:courseId" }, ({ courseId }) => /* @__PURE__ */ import_react14.default.createElement(CourseView, { course: getCourse(courseId) })), /* @__PURE__ */ import_react14.default.createElement(Route, { path: "/" }, /* @__PURE__ */ import_react14.default.createElement(
       CourseList,
       {
         courses,
@@ -26898,7 +26938,7 @@
   async function init() {
     activateWorker();
     const courses = await getInitialCourseList();
-    (0, import_client.createRoot)(document.getElementById("react-app")).render(/* @__PURE__ */ import_react13.default.createElement(Root, { courses }));
+    (0, import_client.createRoot)(document.getElementById("react-app")).render(/* @__PURE__ */ import_react15.default.createElement(Root, { courses }));
   }
   function activateWorker() {
     return new Promise((resolve) => {
