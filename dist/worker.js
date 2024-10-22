@@ -1267,6 +1267,8 @@
 
   // src/worker.ts
   console.log("The Worker Ran");
+  var VERSION = "v1";
+  console.log("VERSION " + VERSION);
   self.addEventListener("install", (event) => {
     console.log("The Worker Installed", event);
     event.waitUntil((async () => {

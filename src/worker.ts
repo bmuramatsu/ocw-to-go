@@ -7,6 +7,8 @@ export type {};
 declare const self: ServiceWorkerGlobalScope;
 
 console.log("The Worker Ran");
+const VERSION = "v1";
+console.log("VERSION " + VERSION);
 
 self.addEventListener('install', event => {
   console.log("The Worker Installed", event);
