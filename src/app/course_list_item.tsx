@@ -15,7 +15,7 @@ interface Props {
 export default function CourseListItem({ course, downloadCourse, removeCourse, downloadCourseVideos, videoStatus }: Props) {
   return (
     <>
-      <CourseLink course={course} className="course-card__img" href="" aria-hidden tabIndex={-1}>
+      <CourseLink course={course} className="course-card__img" aria-hidden tabIndex={-1}>
         <img loading="lazy" src={course.cardImg} alt="alt text" />
       </CourseLink>
       <div className="course-card__content">
