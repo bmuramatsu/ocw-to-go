@@ -17,6 +17,7 @@ const ASSETS_TO_CACHE = [
   '/images/mit-logo-sm.svg',
   '/images/oeglobal.png',
   '/images/linkedin-icon.png',
+  '/images/mit-logo.svg',
   ...ALL_COURSES.map(course => course.cardImg),
 ];
 

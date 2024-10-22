@@ -1,5 +1,6 @@
 import React from 'react';
 
+// this is currently unused
 export function Logo() {
   return (
     <svg role="img" id="Artwork" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 4785.8 846">

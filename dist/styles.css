@@ -99,7 +99,7 @@ header {
 header h1 {
   margin: 0;
 }
-header svg {
+header img {
   display: block;
   width: 100%;
   max-width: 26rem;

@@ -18,7 +18,7 @@ export default function CourseList({ courses, videoStatus, downloadCourse, remov
       <div className="header-container">
         <header>
           <h1>
-            <Logo />
+            <img src="/images/mit-logo.svg" alt="MIT Logo" />
           </h1>
         </header>
       </div>
