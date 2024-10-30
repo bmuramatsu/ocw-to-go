@@ -2,7 +2,9 @@ import React from "react";
 import { Video, VideoStatusMap, VideoTextStatus } from "../types";
 import { ALL_COURSES } from "./initial_course_list";
 
-export default function useVideoStatus(queue: Video[]): [VideoStatusMap, () => void] {
+export default function useVideoStatus(
+  queue: Video[],
+): [VideoStatusMap, () => void] {
   const [status, setStatus] = React.useState<VideoStatusMap>({});
 
   const rebuildStatus = React.useCallback(async () => {
@@ -19,16 +21,20 @@ export default function useVideoStatus(queue: Video[]): [VideoStatusMap, () => v
         let status: VideoTextStatus = "unstarted";
         if (total === finished) {
           status = "complete";
-        } else if (queue.find(video => video.courseId === course.id)) {
+        } else if (queue.find((video) => video.courseId === course.id)) {
           status = "downloading";
         }
         statuses[course.id] = {
           status,
           total,
-          finished
+          finished,
         };
       } else {
-        statuses[course.id] = {status: "unstarted", total: course.videos.length, finished: 0};
+        statuses[course.id] = {
+          status: "unstarted",
+          total: course.videos.length,
+          finished: 0,
+        };
       }
     }
     setStatus(statuses);

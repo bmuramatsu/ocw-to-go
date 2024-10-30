@@ -9,21 +9,21 @@ export type Course = {
   courseLevel: string;
   instructors: string[];
   topics: string[];
-}
+};
 
 export type Video = {
   url: string;
   courseId: string;
-}
+};
 
 export type VideoTextStatus = "unstarted" | "downloading" | "complete";
 
 export type VideoStatus = {
-  status: VideoTextStatus
+  status: VideoTextStatus;
   total: number;
   finished: number;
-}
+};
 
 export type VideoStatusMap = {
   [courseId: string]: VideoStatus | null;
-}
+};

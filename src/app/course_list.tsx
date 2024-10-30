@@ -1,8 +1,8 @@
-import React from 'react';
-import CourseListItem from './course_list_item';
-import { Course, VideoStatusMap } from '../types';
-import { Logo } from './svgs';
-import Footer from './footer';
+import React from "react";
+import CourseListItem from "./course_list_item";
+import { Course, VideoStatusMap } from "../types";
+import { Logo } from "./svgs";
+import Footer from "./footer";
 
 interface Props {
   courses: Course[];
@@ -12,7 +12,13 @@ interface Props {
   downloadCourseVideos: (course: Course) => void;
 }
 
-export default function CourseList({ courses, videoStatus, downloadCourse, removeCourse, downloadCourseVideos }: Props) {
+export default function CourseList({
+  courses,
+  videoStatus,
+  downloadCourse,
+  removeCourse,
+  downloadCourseVideos,
+}: Props) {
   return (
     <div className="page-grid">
       <div className="header-container">
@@ -25,7 +31,7 @@ export default function CourseList({ courses, videoStatus, downloadCourse, remov
       <main>
         <h2>Courses</h2>
         <ul className="course-grid">
-          {courses.map(course => (
+          {courses.map((course) => (
             <li key={course.id} className="course-card">
               <CourseListItem
                 course={course}

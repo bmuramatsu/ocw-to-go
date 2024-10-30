@@ -15,7 +15,8 @@
     "@types/jszip": "^3.4.0",
     "@types/react": "^18.3.10",
     "@types/react-dom": "^18.3.0",
-    "esbuild": "^0.24.0"
+    "esbuild": "^0.24.0",
+    "prettier": "3.3.3"
   },
   "dependencies": {
     "async": "^3.2.6",

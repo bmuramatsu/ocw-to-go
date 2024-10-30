@@ -1,12 +1,20 @@
-import React from 'react';
-import { Course, Video } from '../types';
+import React from "react";
+import { Course, Video } from "../types";
 
-export default function useVideoDownload(): [Video[], (course: Course) => void] {
+export default function useVideoDownload(): [
+  Video[],
+  (course: Course) => void,
+] {
   const [queue, setQueue] = React.useState<Video[]>([]);
-  const [downloader] = React.useState<VideoDownloader>(() => new VideoDownloader(setQueue));
-  const downloadCourse = React.useCallback((course: Course) => {
-    downloader.addCourseToQueue(course);
-  }, [downloader]);
+  const [downloader] = React.useState<VideoDownloader>(
+    () => new VideoDownloader(setQueue),
+  );
+  const downloadCourse = React.useCallback(
+    (course: Course) => {
+      downloader.addCourseToQueue(course);
+    },
+    [downloader],
+  );
 
   return [queue, downloadCourse];
 }
@@ -28,9 +36,11 @@ class VideoDownloader {
     await caches.open(`course-videos-${course.id}`);
 
     for await (const video of course.videos) {
-      const exists = await caches.match(`/courses/${course.id}/static_resources/${this.videoName(video)}`);
+      const exists = await caches.match(
+        `/courses/${course.id}/static_resources/${this.videoName(video)}`,
+      );
       if (!exists) {
-        this.queue.push({url: video, courseId: course.id});
+        this.queue.push({ url: video, courseId: course.id });
       }
     }
     if (!this.running) {
@@ -50,18 +60,21 @@ class VideoDownloader {
         }
         const videoBlob = await response.blob();
         const cache = await caches.open(`course-videos-${video.courseId}`);
-        await cache.put(`/courses/${video.courseId}/static_resources/${this.videoName(video.url)}`, new Response(videoBlob, {headers: {'Content-Type': 'video/mp4'}}));
+        await cache.put(
+          `/courses/${video.courseId}/static_resources/${this.videoName(video.url)}`,
+          new Response(videoBlob, { headers: { "Content-Type": "video/mp4" } }),
+        );
 
         this.queue.shift();
         this.postQueue();
       } catch (e) {
-        console.error('Failed to download', video, e);
+        console.error("Failed to download", video, e);
       }
     }
     this.running = false;
   }
 
   videoName(url: string) {
-    return url.split('/').pop();
+    return url.split("/").pop();
   }
 }
