@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node esbuild.mjs"
+    "start": "node esbuild.mjs",
+    "dev": "node esbuild.mjs dev"
   },
   "author": "",
   "license": "ISC",
