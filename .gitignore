@@ -1,3 +1,10 @@
 /node_modules
 .DS_Store
 /.scratch
+/dist/app.js
+/dist/app.js.map
+/dist/course.js
+/dist/course.js.map
+/dist/worker.js
+/dist/worker.js.map
+
