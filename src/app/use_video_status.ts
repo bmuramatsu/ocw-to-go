@@ -1,9 +1,9 @@
 import React from "react";
-import { Video, VideoStatusMap, VideoTextStatus } from "../types";
-import { ALL_COURSES } from "./initial_course_list";
+import { UserCourses, Video, VideoStatusMap, VideoTextStatus } from "../types";
 
 export default function useVideoStatus(
   queue: Video[],
+  userCourses: UserCourses,
 ): [VideoStatusMap, () => void] {
   const [status, setStatus] = React.useState<VideoStatusMap>({});
 
@@ -11,8 +11,9 @@ export default function useVideoStatus(
     const statuses: VideoStatusMap = {};
     const cacheKeys = await window.caches.keys();
 
-    for await (const course of ALL_COURSES) {
-      if (cacheKeys.includes(`course-videos-${course.id}`)) {
+    for await (const courseId of Object.keys(userCourses)) {
+      const course = userCourses[courseId]!;
+      if (cacheKeys.includes(`course-videos-${courseId}`)) {
         const total = course.videos.length;
         const cache = await caches.open(`course-videos-${course.id}`);
         const keys = await cache.keys();

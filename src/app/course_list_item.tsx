@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "wouter";
-import { CourseData, UserCourse, VideoStatus } from "../types";
+import { CourseData, newUserCourse, UserCourse, VideoStatus } from "../types";
 import { Checkmark, Download, Loader, Trash } from "./svgs";
 import CourseLink from "./course_link";
 
@@ -9,7 +9,7 @@ interface Props {
   userCourse: UserCourse | null;
   downloadCourse: () => void;
   removeCourse: () => void;
-  downloadCourseVideos: () => void;
+  downloadCourseVideos: (userCourse: UserCourse) => void;
   videoStatus: VideoStatus | null;
 }
 
@@ -21,11 +21,7 @@ export default function CourseListItem({
   downloadCourseVideos,
   videoStatus,
 }: Props) {
-  const userCourse = maybeUserCourse || {
-    id: courseData.id,
-    ready: false,
-    status: "",
-  };
+  const userCourse = maybeUserCourse || newUserCourse(courseData.id);
 
   return (
     <>
@@ -71,7 +67,10 @@ export default function CourseListItem({
         {videoStatus && !!videoStatus.total && (
           <>
             {videoStatus.status === "unstarted" && (
-              <button onClick={downloadCourseVideos} className="btn--has-icon">
+              <button
+                onClick={() => downloadCourseVideos(userCourse)}
+                className="btn--has-icon"
+              >
                 <Download />
                 {videoStatus.finished > 0 && <>{videoStatus.finished}/</>}
                 {videoStatus.total} Videos
@@ -86,7 +85,7 @@ export default function CourseListItem({
             {videoStatus.status === "complete" && (
               <button className="btn--has-icon is-success" disabled>
                 <Checkmark />
-                {courseData.videos.length} Videos
+                {userCourse.videos.length} Videos
               </button>
             )}
           </>

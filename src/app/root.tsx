@@ -20,7 +20,7 @@ export default function Root(props: Props) {
   const downloadCourse = useDownloadCourse(setUserCourses);
   useWorkerSubscription(setUserCourses);
   const [videoQueue, downloadCourseVideos] = useVideoDownload();
-  const [videoStatus, rebuildStatus] = useVideoStatus(videoQueue);
+  const [videoStatus, rebuildStatus] = useVideoStatus(videoQueue, userCourses);
   const removeCourse = useRemoveCourse(setUserCourses, rebuildStatus);
 
   return (
