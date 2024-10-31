@@ -1,10 +1,10 @@
 import { CourseData, newUserCourse, UserCourses } from "../types";
+import buildVideoList from "./build_video_list";
 
 const ASSET_HOST = "https://mit-ocw-courses.atomicjoltdevapps.com";
 
 // video_galleries/vecture-videos/data.json
 // resources/[video-name]/data.json
-const VIDEO_HOST = "https://ocw.mit.edu/courses";
 export const ALL_COURSES: CourseData[] = [
   {
     id: "course-10",
@@ -78,7 +78,8 @@ export default async function getInitialUserCourses(): Promise<UserCourses> {
   for await (const course of ALL_COURSES) {
     const ready = cacheKeys.includes(`course-${course.id}`);
     if (ready) {
-      courses[course.id] = newUserCourse(course.id, { ready: true });
+      const videos = await buildVideoList(course.id);
+      courses[course.id] = newUserCourse(course.id, { ready: true, videos });
     }
   }
 
