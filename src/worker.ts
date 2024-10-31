@@ -1,6 +1,4 @@
 import { createPartialResponse } from "workbox-range-requests";
-import { Course } from "./types";
-import { eachOfLimit } from "async";
 import ASSETS_TO_CACHE from "./worker/assets";
 
 export type {};
@@ -41,9 +39,9 @@ addEventListener("message", (event) => {
     !Array.isArray(event.data) &&
     event.data !== null
   ) {
-    if (event.data.type === "downloadVideos") {
-      downloadVideos(event.data.course);
-    }
+    //if (event.data.type === "downloadVideos") {
+    //  downloadVideos(event.data.course);
+    //}
   }
 });
 
@@ -78,20 +76,6 @@ async function fileFromCache(request: Request): Promise<Response | undefined> {
 
   const response = await caches.match(request);
   return Promise.resolve(response);
-}
-
-async function downloadVideos(course: Course) {
-  const cache = await caches.open(`course-videos-${course.id}`);
-  eachOfLimit(course.videos, 3, async (url) => {
-    const response = await fetch(url);
-    const videoBlob = await response.blob();
-    const videoName = url.split("/").pop();
-    await cache.put(
-      `/courses/${course.id}/static_resources/${videoName}`,
-      new Response(videoBlob, { headers: { "Content-Type": "video/mp4" } }),
-    );
-    postToClients({ type: "videoDownloaded", courseId: course.id, url });
-  });
 }
 
 async function postToClients(message: any) {

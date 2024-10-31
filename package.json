@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node esbuild.mjs dev",
-    "build": "node esbuild.mjs"
+    "build": "node esbuild.mjs",
+    "typecheck": "tsc -noemit"
   },
   "author": "",
   "license": "ISC",

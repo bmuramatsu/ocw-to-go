@@ -1,8 +1,8 @@
 import React from "react";
-import { Course } from "../types";
+import { UserCourses } from "../types";
 
 export default function useWorkerSubscription(
-  setCourses: React.Dispatch<React.SetStateAction<Course[]>>,
+  setCourses: React.Dispatch<React.SetStateAction<UserCourses>>,
 ) {
   return React.useEffect(() => {
     function onMessage(event: MessageEvent) {

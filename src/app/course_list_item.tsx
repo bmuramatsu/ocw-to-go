@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "wouter";
-import { Course, VideoStatus } from "../types";
+import { CourseData, UserCourse, VideoStatus } from "../types";
 import { Checkmark, Download, Loader, Trash } from "./svgs";
 import CourseLink from "./course_link";
 
 interface Props {
-  course: Course;
+  courseData: CourseData;
+  userCourse: UserCourse | null;
   downloadCourse: () => void;
   removeCourse: () => void;
   downloadCourseVideos: () => void;
@@ -13,49 +14,56 @@ interface Props {
 }
 
 export default function CourseListItem({
-  course,
+  courseData,
+  userCourse: maybeUserCourse,
   downloadCourse,
   removeCourse,
   downloadCourseVideos,
   videoStatus,
 }: Props) {
+  const userCourse = maybeUserCourse || {
+    id: courseData.id,
+    ready: false,
+    status: "",
+  };
+
   return (
     <>
       <CourseLink
-        course={course}
+        userCourse={userCourse}
         className="course-card__img"
         aria-hidden
         tabIndex={-1}
       >
-        <img loading="lazy" src={course.cardImg} alt="alt text" />
+        <img loading="lazy" src={courseData.cardImg} alt="alt text" />
       </CourseLink>
       <div className="course-card__content">
-        <p className="u-all-caps">{course.courseLevel}</p>
+        <p className="u-all-caps">{courseData.courseLevel}</p>
         <h3>
-          <CourseLink course={course}>{course.name}</CourseLink>
+          <CourseLink userCourse={userCourse}>{courseData.name}</CourseLink>
         </h3>
         <p className="u-mt-12">
-          <span>Instructor:</span> {course.instructors.join(", ")}
+          <span>Instructor:</span> {courseData.instructors.join(", ")}
         </p>
         <p className="u-mt-8">
-          <span>Topics:</span> {course.topics.join(", ")}
+          <span>Topics:</span> {courseData.topics.join(", ")}
         </p>
       </div>
       <div className="course-card__actions">
-        {!course.ready && course.status == "" && (
+        {!userCourse.ready && userCourse.status == "" && (
           <button onClick={downloadCourse} className="btn--has-icon">
             <Download />
             Course
           </button>
         )}
-        {!course.ready && course.status != "" && (
+        {!userCourse.ready && userCourse.status != "" && (
           <button className="btn--has-icon is-downloading" disabled>
             <Loader />
             Course
           </button>
         )}
-        {course.ready && (
-          <Link href={`/courses/${course.id}`} className="btn--is-link">
+        {userCourse.ready && (
+          <Link href={`/courses/${courseData.id}`} className="btn--is-link">
             View Course
           </Link>
         )}
@@ -78,7 +86,7 @@ export default function CourseListItem({
             {videoStatus.status === "complete" && (
               <button className="btn--has-icon is-success" disabled>
                 <Checkmark />
-                {course.videos.length} Videos
+                {courseData.videos.length} Videos
               </button>
             )}
           </>

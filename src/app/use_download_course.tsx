@@ -1,6 +1,6 @@
 import React from "react";
 import JSZip from "jszip";
-import { Course } from "../types";
+import { UserCourses } from "../types";
 
 function mimeFromExtension(path: string) {
   const extension = path.split(".").pop();
@@ -43,18 +43,14 @@ function mimeFromExtension(path: string) {
 }
 
 export default function useDownloadCourse(
-  setCourses: React.Dispatch<React.SetStateAction<Course[]>>,
+  setCourses: React.Dispatch<React.SetStateAction<UserCourses>>,
 ) {
   return React.useCallback(async (courseId: string, path: string) => {
     const updateCourseStatus = (status: string) => {
-      setCourses((courses) =>
-        courses.map((course) => {
-          if (course.id === courseId) {
-            return { ...course, status: status, ready: status === "Ready" };
-          }
-          return course;
-        }),
-      );
+      setCourses((courses) => ({
+        ...courses,
+        [courseId]: { id: courseId, status, ready: status === "Ready" },
+      }));
     };
 
     try {

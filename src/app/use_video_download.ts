@@ -1,17 +1,18 @@
 import React from "react";
-import { Course, Video } from "../types";
+import { Video } from "../types";
+import { COURSES_BY_ID } from "./initial_course_list";
 
 export default function useVideoDownload(): [
   Video[],
-  (course: Course) => void,
+  (courseId: string) => void,
 ] {
   const [queue, setQueue] = React.useState<Video[]>([]);
   const [downloader] = React.useState<VideoDownloader>(
     () => new VideoDownloader(setQueue),
   );
   const downloadCourse = React.useCallback(
-    (course: Course) => {
-      downloader.addCourseToQueue(course);
+    (courseId: string) => {
+      downloader.addCourseToQueue(courseId);
     },
     [downloader],
   );
@@ -32,15 +33,16 @@ class VideoDownloader {
     this.setQueue([...this.queue]);
   }
 
-  async addCourseToQueue(course: Course) {
-    await caches.open(`course-videos-${course.id}`);
+  async addCourseToQueue(courseId: string) {
+    const course = COURSES_BY_ID[courseId];
+    await caches.open(`course-videos-${courseId}`);
 
     for await (const video of course.videos) {
       const exists = await caches.match(
-        `/courses/${course.id}/static_resources/${this.videoName(video)}`,
+        `/courses/${courseId}/static_resources/${this.videoName(video)}`,
       );
       if (!exists) {
-        this.queue.push({ url: video, courseId: course.id });
+        this.queue.push({ url: video, courseId: courseId });
       }
     }
     if (!this.running) {

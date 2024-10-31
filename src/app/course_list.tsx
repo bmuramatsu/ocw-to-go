@@ -1,19 +1,19 @@
 import React from "react";
 import CourseListItem from "./course_list_item";
-import { Course, VideoStatusMap } from "../types";
-import { Logo } from "./svgs";
+import { UserCourses, VideoStatusMap } from "../types";
 import Footer from "./footer";
+import { ALL_COURSES } from "./initial_course_list";
 
 interface Props {
-  courses: Course[];
+  userCourses: UserCourses;
   videoStatus: VideoStatusMap;
   downloadCourse: (courseId: string, path: string) => void;
   removeCourse: (courseId: string) => void;
-  downloadCourseVideos: (course: Course) => void;
+  downloadCourseVideos: (courseId: string) => void;
 }
 
 export default function CourseList({
-  courses,
+  userCourses,
   videoStatus,
   downloadCourse,
   removeCourse,
@@ -31,14 +31,15 @@ export default function CourseList({
       <main>
         <h2>Courses</h2>
         <ul className="course-grid">
-          {courses.map((course) => (
+          {ALL_COURSES.map((course) => (
             <li key={course.id} className="course-card">
               <CourseListItem
-                course={course}
+                courseData={course}
+                userCourse={userCourses[course.id]}
                 videoStatus={videoStatus[course.id]}
                 removeCourse={() => removeCourse(course.id)}
                 downloadCourse={() => downloadCourse(course.id, course.file)}
-                downloadCourseVideos={() => downloadCourseVideos(course)}
+                downloadCourseVideos={() => downloadCourseVideos(course.id)}
               />
             </li>
           ))}

@@ -1,15 +1,21 @@
-export type Course = {
+export type CourseData = {
   id: string;
   file: string;
   name: string;
-  ready: boolean;
-  status: string;
   videos: string[];
   cardImg: string;
   courseLevel: string;
   instructors: string[];
   topics: string[];
 };
+
+export type UserCourse = {
+  id: string;
+  ready: boolean;
+  status: string;
+};
+
+export type UserCourses = Record<string, UserCourse | null>;
 
 export type Video = {
   url: string;

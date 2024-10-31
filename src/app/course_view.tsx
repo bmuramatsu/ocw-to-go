@@ -1,12 +1,11 @@
 import React from "react";
 import { useLocation } from "wouter";
-import { Course } from "../types";
 
 interface Props {
-  course: Course;
+  courseId: string;
 }
 
-export default function CourseView({ course }: Props) {
+export default function CourseView({ courseId }: Props) {
   const [_location, navigate] = useLocation();
   const ref = React.useRef<HTMLIFrameElement>(null);
 
@@ -54,9 +53,8 @@ export default function CourseView({ course }: Props) {
 
   return (
     <>
-      {/* <button onClick={goBack}>Back</button> */}
       <iframe
-        src={`/courses/${course.id}/index.html`}
+        src={`/courses/${courseId}/index.html`}
         style={{ width: "100%", height: "100vh", border: "none" }}
         ref={ref}
       />
