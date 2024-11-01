@@ -13,6 +13,10 @@ export default function CourseView({ courseId }: Props) {
     function onLoad() {
       const childWindow = ref.current?.contentWindow;
       if (childWindow) {
+        const envScript = childWindow.document.createElement("script");
+        envScript.textContent = `window.PWA = {courseId: "${courseId}"};`;
+        childWindow.document.body.appendChild(envScript);
+
         const script = childWindow.document.createElement("script");
         script.src = "/course.js";
         childWindow.document.body.appendChild(script);
@@ -32,7 +36,6 @@ export default function CourseView({ courseId }: Props) {
 
   React.useEffect(() => {
     function onMessage(e: MessageEvent) {
-      console.log("post message", e);
       if (e.source !== ref.current?.contentWindow) return;
       if (
         typeof e.data !== "object" ||

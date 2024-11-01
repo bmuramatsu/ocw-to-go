@@ -66,7 +66,7 @@ class VideoDownloader {
         const videoBlob = await response.blob();
         const cache = await caches.open(`course-videos-${video.courseId}`);
         await cache.put(
-          `/courses/${video.courseId}/static_resources/${this.videoName(video.url)}`,
+          `/course-videos/${video.courseId}/${video.youtubeKey}.mp4`,
           new Response(videoBlob, { headers: { "Content-Type": "video/mp4" } }),
         );
 

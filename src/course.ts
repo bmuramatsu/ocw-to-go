@@ -1,5 +1,12 @@
 console.log("navigated", document.location.href);
 
+type ENV = {
+  courseId: string;
+};
+
+// @ts-ignore - this is injected by course_view.tsx before this script
+const env = window.PWA as ENV;
+
 function overrideHomeButton() {
   document.querySelectorAll("[href='https://ocw.mit.edu/']").forEach((el) => {
     el.addEventListener("click", (e) => {
@@ -40,33 +47,36 @@ function overridePdfThumbnailDownload() {
 }
 
 async function injectOfflineVideos() {
-  console.log(await caches.keys());
-  const downloadButton = document.querySelector(
-    '.video-player-wrapper [aria-label="Download video"]',
+  const videoPlayer = document.querySelector<HTMLElement>(
+    ".video-player-wrapper [data-setup*='youtube.com']",
   );
-  if (!downloadButton) return;
-  const wrapper = document.querySelector<HTMLElement>(".video-player-wrapper")!;
+  if (!videoPlayer) return;
 
-  const href = downloadButton.getAttribute("href");
-  if (!href) return;
+  const match = videoPlayer.dataset.setup!.match(
+    /youtube.com\/embed\/([a-zA-Z0-9_-]+)/,
+  );
+  if (!match || !match[1]) return;
+  const code = match[1];
+
+  const href = `/course-videos/${env.courseId}/${code}.mp4`;
   const exists = await caches.match(href);
   if (!exists) return;
+
+  // We know we have a local copy at this point, so swap the iframe out for a video element
+  const wrapper = document.querySelector<HTMLElement>(".video-player-wrapper")!;
   wrapper.style.display = "none";
 
   const video = document.createElement("video");
+
   video.style.width = "100%";
   video.controls = true;
-  // video.style.display = 'none';
+
   const source = document.createElement("source");
   source.type = "video/mp4";
   source.src = href;
   video.appendChild(source);
 
-  // video.addEventListener('canplay', () => {
-  // video.style.display = 'block';
-  // })
-
-  document.querySelector(".video-player-wrapper")!.after(video);
+  wrapper.after(video);
 }
 
 function init() {
