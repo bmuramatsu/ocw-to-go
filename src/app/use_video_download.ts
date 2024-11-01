@@ -42,7 +42,7 @@ class VideoDownloader {
 
     for await (const video of videoStatus.videos) {
       const exists = await caches.match(
-        `/courses/${videoStatus.courseId}/static_resources/${this.videoName(video.url)}`,
+        `/course-videos/${videoStatus.courseId}/${video.youtubeKey}.mp4`,
       );
       if (!exists) {
         this.queue.push(video);
@@ -81,9 +81,5 @@ class VideoDownloader {
       }
     }
     this.running = false;
-  }
-
-  videoName(url: string) {
-    return url.split("/").pop();
   }
 }
