@@ -38,11 +38,8 @@ export type Video = {
   youtubeKey: string;
 };
 
-export type VideoTextStatus = "unstarted" | "downloading" | "complete";
-
 export type VideoStatus = {
   courseId: string;
-  status: VideoTextStatus;
   total: number;
   finished: number;
   videos: Video[];

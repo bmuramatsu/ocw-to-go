@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  RawVideo,
-  UserCourses,
-  VideoStatus,
-  VideoStatusMap,
-  VideoTextStatus,
-} from "../types";
+import { RawVideo, UserCourses, VideoStatus, VideoStatusMap } from "../types";
 
 const VIDEO_HOST = "https://ocw.mit.edu";
 
@@ -18,7 +12,6 @@ export type UpdateVideoStatus = React.Dispatch<VideoStatusAction>;
 
 const defaultVideo = (courseId: string): VideoStatus => ({
   courseId,
-  status: "unstarted",
   total: 0,
   finished: 0,
   videos: [],
@@ -37,7 +30,7 @@ function reducer(acc: VideoStatusMap, action: VideoStatusAction) {
       }
       return {
         ...acc,
-        [action.courseId]: { ...course, total: course.total + 1 },
+        [action.courseId]: { ...course, finished: course.finished + 1 },
       };
     }
     case "delete_courses": {
@@ -77,23 +70,17 @@ export default function useVideoStatus(
       if (!cacheKeys.includes(`course-videos-${courseId}`)) {
         return {
           courseId,
-          status: "unstarted",
+          videos,
           total: videos.length,
           finished: 0,
-          videos: [],
         };
       }
 
       const cache = await caches.open(`course-videos-${courseId}`);
       const keys = await cache.keys();
-      let status: VideoTextStatus = "unstarted";
 
-      if (videos.length === keys.length) {
-        status = "complete";
-      }
       return {
         courseId,
-        status,
         videos,
         total: videos.length,
         finished: keys.length,

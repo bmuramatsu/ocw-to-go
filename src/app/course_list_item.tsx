@@ -11,6 +11,7 @@ interface Props {
   removeCourse: () => void;
   downloadCourseVideos: (videoStatus: VideoStatus) => void;
   videoStatus: VideoStatus | null;
+  inQueue: boolean;
 }
 
 export default function CourseListItem({
@@ -20,6 +21,7 @@ export default function CourseListItem({
   removeCourse,
   downloadCourseVideos,
   videoStatus,
+  inQueue,
 }: Props) {
   const userCourse = maybeUserCourse || newUserCourse(courseData.id);
 
@@ -66,7 +68,12 @@ export default function CourseListItem({
 
         {videoStatus && !!videoStatus.total && (
           <>
-            {videoStatus.status === "unstarted" && (
+            {inQueue ? (
+              <button className="btn--has-icon is-downloading" disabled>
+                <Loader />
+                {videoStatus.finished}/{videoStatus.total} Videos
+              </button>
+            ) : videoStatus.total !== videoStatus.finished ? (
               <button
                 onClick={() => downloadCourseVideos(videoStatus)}
                 className="btn--has-icon"
@@ -75,14 +82,7 @@ export default function CourseListItem({
                 {videoStatus.finished > 0 && <>{videoStatus.finished}/</>}
                 {videoStatus.total} Videos
               </button>
-            )}
-            {videoStatus.status === "downloading" && (
-              <button className="btn--has-icon is-downloading" disabled>
-                <Loader />
-                {videoStatus.finished}/{videoStatus.total} Videos
-              </button>
-            )}
-            {videoStatus.status === "complete" && (
+            ) : (
               <button className="btn--has-icon is-success" disabled>
                 <Checkmark />
                 {videoStatus.videos.length} Videos

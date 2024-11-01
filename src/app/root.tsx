@@ -24,6 +24,12 @@ export default function Root(props: Props) {
     useVideoDownload(updateVideoStatus);
   const removeCourse = useRemoveCourse(setUserCourses);
 
+  const coursesInQueue = React.useMemo(() => {
+    const courses = new Set<string>();
+    videoQueue.forEach((q) => courses.add(q.courseId));
+    return courses;
+  }, [videoQueue]);
+
   return (
     <Router hook={useHashLocation}>
       <Switch>
@@ -37,6 +43,7 @@ export default function Root(props: Props) {
             downloadCourse={downloadCourse}
             removeCourse={removeCourse}
             downloadCourseVideos={downloadCourseVideos}
+            coursesInQueue={coursesInQueue}
           />
         </Route>
       </Switch>

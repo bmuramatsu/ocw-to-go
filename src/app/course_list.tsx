@@ -10,6 +10,7 @@ interface Props {
   downloadCourse: (courseId: string, path: string) => void;
   removeCourse: (courseId: string) => void;
   downloadCourseVideos: (videoStatus: VideoStatus) => void;
+  coursesInQueue: Set<string>;
 }
 
 export default function CourseList({
@@ -18,6 +19,7 @@ export default function CourseList({
   downloadCourse,
   removeCourse,
   downloadCourseVideos,
+  coursesInQueue,
 }: Props) {
   return (
     <div className="page-grid">
@@ -40,6 +42,7 @@ export default function CourseList({
                 removeCourse={() => removeCourse(course.id)}
                 downloadCourse={() => downloadCourse(course.id, course.file)}
                 downloadCourseVideos={downloadCourseVideos}
+                inQueue={coursesInQueue.has(course.id)}
               />
             </li>
           ))}
