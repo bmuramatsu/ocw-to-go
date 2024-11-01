@@ -69,7 +69,8 @@ async function fileFromCache(request: Request): Promise<Response | undefined> {
   // handle streaming video. Without this the video loads but you can't seek or fast forward
   if (request.headers.has("range")) {
     const fullResp = await caches.match(request.url);
-    if (fullResp) {
+    // a 0 status indicates an opaque response. Range requests will not work with opaque responses.
+    if (fullResp && fullResp.status !== 0) {
       return Promise.resolve(createPartialResponse(request, fullResp));
     }
   }

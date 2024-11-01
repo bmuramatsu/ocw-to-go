@@ -28,7 +28,8 @@ export type UserCourses = Record<string, UserCourse | null>;
 
 export type RawVideo = {
   resource_type: "Video";
-  file: string;
+  file?: string;
+  archive_url?: string;
   youtube_key: string;
 };
 

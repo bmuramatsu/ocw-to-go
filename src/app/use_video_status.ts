@@ -1,7 +1,7 @@
 import React from "react";
 import { RawVideo, UserCourses, VideoStatus, VideoStatusMap } from "../types";
 
-const VIDEO_HOST = "https://ocw.mit.edu";
+export const VIDEO_HOST = "https://ocw.mit.edu";
 
 type VideoStatusAction =
   | { type: "delete_courses"; courseIds: string[] }
@@ -61,11 +61,13 @@ export default function useVideoStatus(
       }
 
       const rawData: RawVideo[] = await videoFile.json();
-      const videos = rawData.map((data) => ({
-        courseId,
-        url: VIDEO_HOST + data.file,
-        youtubeKey: data.youtube_key,
-      }));
+      const videos = rawData.map((data) => {
+        return {
+          courseId,
+          url: data.file ? VIDEO_HOST + data.file : data.archive_url!,
+          youtubeKey: data.youtube_key,
+        };
+      });
 
       if (!cacheKeys.includes(`course-videos-${courseId}`)) {
         return {

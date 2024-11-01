@@ -44,7 +44,8 @@ export default function useDownloadCourse(
             typeof json === "object" &&
             !Array.isArray(json) &&
             json !== null &&
-            json.resource_type === "Video"
+            json.resource_type === "Video" &&
+            (json.file || json.archive_url)
           ) {
             rawVideos.push(json);
           }

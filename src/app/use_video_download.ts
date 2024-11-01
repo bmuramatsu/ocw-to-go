@@ -1,6 +1,6 @@
 import React from "react";
 import { Video, VideoStatus } from "../types";
-import { UpdateVideoStatus } from "./use_video_status";
+import { UpdateVideoStatus, VIDEO_HOST } from "./use_video_status";
 
 export default function useVideoDownload(
   updateCourseStatus: UpdateVideoStatus,
@@ -59,15 +59,21 @@ class VideoDownloader {
     while (this.queue.length) {
       const video = this.queue[0];
       try {
-        const response = await fetch(video.url);
-        if (!response.ok) {
+        const doOpaqueRequest = !video.url.startsWith(VIDEO_HOST);
+
+        const response = await fetch(video.url, {
+          mode: doOpaqueRequest ? "no-cors" : "cors",
+        });
+
+        // opaque request is never 'ok', we just accept whatever the response is
+        if (!response.ok && !doOpaqueRequest) {
           throw new Error(`Failed to download video: ${response.statusText}`);
         }
-        const videoBlob = await response.blob();
+        //const videoBlob = await response.blob();
         const cache = await caches.open(`course-videos-${video.courseId}`);
         await cache.put(
           `/course-videos/${video.courseId}/${video.youtubeKey}.mp4`,
-          new Response(videoBlob, { headers: { "Content-Type": "video/mp4" } }),
+          response,
         );
 
         this.queue.shift();
@@ -78,6 +84,8 @@ class VideoDownloader {
         });
       } catch (e) {
         console.error("Failed to download", video, e);
+        this.queue.shift();
+        this.postQueue();
       }
     }
     this.running = false;
