@@ -1,27 +1,24 @@
 import React from "react";
 import JSZip from "jszip";
-import { newUserCourse, RawVideo, UserCourse, UserCourses } from "../types";
+import { CourseData, RawVideo, UserCourse } from "../types";
+import { updateCourse } from "./store/user_store";
+import { useAppDispatch } from "./store/store";
 
-export default function useDownloadCourse(
-  setCourses: React.Dispatch<React.SetStateAction<UserCourses>>,
-) {
-  return React.useCallback(async (courseId: string, path: string) => {
-    const updateCourse = (updates: Partial<UserCourse>) => {
-      setCourses((courses) => {
-        const course = courses[courseId] || newUserCourse(courseId);
-        return {
-          ...courses,
-          [courseId]: { ...course, ...updates },
-        };
-      });
+export default function useDownloadCourse(courseData: CourseData) {
+  const dispatch = useAppDispatch();
+
+  return React.useCallback(async () => {
+    const { id: courseId, file: path } = courseData;
+    const update = (updates: Partial<UserCourse>) => {
+      dispatch(updateCourse({ courseId, updates }));
     };
 
     try {
-      updateCourse({ status: "Downloading" });
+      update({ status: "Downloading" });
       const resp = await fetch(path);
       const zipBlob = await resp.blob();
       const zip = await new JSZip().loadAsync(zipBlob);
-      updateCourse({ status: "Preparing" });
+      update({ status: "Preparing" });
       const cache = await caches.open(`course-${courseId}`);
 
       const paths: string[] = [];
@@ -62,11 +59,15 @@ export default function useDownloadCourse(
         new Response(JSON.stringify(rawVideos)),
       );
 
-      updateCourse({ status: "Ready", ready: true });
-    } catch (e: any) {
-      updateCourse({ status: "Error: " + e.message });
+      update({ status: "Ready", ready: true });
+    } catch (e: unknown) {
+      let msg = "";
+      if (e instanceof Error) {
+        msg = e.message;
+      }
+      update({ status: "Error: " + msg });
     }
-  }, []);
+  }, [dispatch, courseData]);
 }
 
 function mimeFromExtension(path: string) {

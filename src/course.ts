@@ -4,7 +4,7 @@ type ENV = {
   courseId: string;
 };
 
-// @ts-ignore - this is injected by course_view.tsx before this script
+// @ts-expect-error - This is injected by the parent window
 const env = window.PWA as ENV;
 
 function overrideHomeButton() {

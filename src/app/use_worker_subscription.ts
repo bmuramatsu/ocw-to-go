@@ -1,6 +1,7 @@
 import React from "react";
 import { UserCourses } from "../types";
 
+// currently unused
 export default function useWorkerSubscription(
   setCourses: React.Dispatch<React.SetStateAction<UserCourses>>,
 ) {

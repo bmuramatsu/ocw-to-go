@@ -1,9 +1,7 @@
-import { CourseData, newUserCourse, UserCourses, Video } from "../types";
+import { CourseData, newUserCourse, UserCourses } from "../types";
 
 const ASSET_HOST = "https://mit-ocw-courses.atomicjoltdevapps.com";
 
-// video_galleries/vecture-videos/data.json
-// resources/[video-name]/data.json
 export const ALL_COURSES: CourseData[] = [
   {
     id: "course-10",

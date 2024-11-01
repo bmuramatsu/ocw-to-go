@@ -1,20 +1,13 @@
 import React from "react";
-import { UserCourses } from "../types";
+import { useAppDispatch } from "./store/store";
+import { deleteCourse } from "./store/user_store";
 
-export default function useRemoveCourse(
-  setCourses: React.Dispatch<React.SetStateAction<UserCourses>>,
-) {
-  return React.useCallback(
-    async (courseId: string) => {
-      await caches.delete("course-" + courseId);
-      await caches.delete("course-videos-" + courseId);
+export default function useRemoveCourse(courseId: string) {
+  const dispatch = useAppDispatch();
 
-      setCourses((courses) => {
-        const withoutCourse = { ...courses };
-        delete withoutCourse[courseId];
-        return withoutCourse;
-      });
-    },
-    [setCourses],
-  );
+  return React.useCallback(async () => {
+    await caches.delete("course-" + courseId);
+    await caches.delete("course-videos-" + courseId);
+    dispatch(deleteCourse({ courseId }));
+  }, [dispatch, courseId]);
 }

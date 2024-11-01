@@ -1,33 +1,16 @@
-import React from "react";
 import { Video, VideoStatus } from "../types";
-import { UpdateVideoStatus, VIDEO_HOST } from "./use_video_status";
+import { VIDEO_HOST } from "./dataloaders/use_video_status";
 
-export default function useVideoDownload(
-  updateCourseStatus: UpdateVideoStatus,
-): [Video[], (videoStatus: VideoStatus) => void] {
-  const [queue, setQueue] = React.useState<Video[]>([]);
-  const [downloader] = React.useState<VideoDownloader>(
-    () => new VideoDownloader(setQueue, updateCourseStatus),
-  );
-  const downloadCourse = React.useCallback(
-    (videoStatus: VideoStatus) => {
-      downloader.addCourseToQueue(videoStatus);
-    },
-    [downloader],
-  );
-
-  return [queue, downloadCourse];
-}
-
-class VideoDownloader {
+// Putting this into a class instead of trying to deal the useEffect potentially starting multiple downloads
+export default class VideoDownloader {
   queue: Video[] = [];
-  setQueue: React.Dispatch<React.SetStateAction<Video[]>>;
   running = false;
-  updateCourseStatus: UpdateVideoStatus;
+  setQueue: (queue: Video[]) => void;
+  updateCourseStatus: (courseId: string) => void;
 
   constructor(
-    setQueue: React.Dispatch<React.SetStateAction<Video[]>>,
-    updateCourseStatus: UpdateVideoStatus,
+    setQueue: (queue: Video[]) => void,
+    updateCourseStatus: (courseId: string) => void,
   ) {
     this.setQueue = setQueue;
     this.updateCourseStatus = updateCourseStatus;
@@ -78,10 +61,7 @@ class VideoDownloader {
 
         this.queue.shift();
         this.postQueue();
-        this.updateCourseStatus({
-          type: "increment_count",
-          courseId: video.courseId,
-        });
+        this.updateCourseStatus(video.courseId);
       } catch (e) {
         console.error("Failed to download", video, e);
         this.queue.shift();

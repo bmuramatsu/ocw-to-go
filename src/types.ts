@@ -46,4 +46,11 @@ export type VideoStatus = {
   videos: Video[];
 };
 
+export const defaultVideos = (courseId: string): VideoStatus => ({
+  courseId,
+  total: 0,
+  finished: 0,
+  videos: [],
+});
+
 export type VideoStatusMap = Record<string, VideoStatus | null>;

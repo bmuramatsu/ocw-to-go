@@ -1,52 +1,29 @@
 import React from "react";
 import { Router, Route, Switch } from "wouter";
 import { useHashLocation } from "wouter/use-hash-location";
-import { UserCourses } from "../types";
 import CourseList from "./course_list";
 import CourseView from "./course_view";
-import useDownloadCourse from "./use_download_course";
-import useRemoveCourse from "./use_remove_course";
-import useWorkerSubscription from "./use_worker_subscription";
-import useVideoDownload from "./use_video_download";
-import useVideoStatus from "./use_video_status";
+import DataLoader from "./dataloader";
+import VideoDownloaderContext from "./video_downloader_context";
+import { Provider as ReduxProvider } from "react-redux";
+import { store } from "./store/store";
 
-interface Props {
-  courses: UserCourses;
-}
-
-export default function Root(props: Props) {
-  const [userCourses, setUserCourses] = React.useState(props.courses);
-
-  const downloadCourse = useDownloadCourse(setUserCourses);
-  useWorkerSubscription(setUserCourses);
-  const [videoStatus, updateVideoStatus] = useVideoStatus(userCourses);
-  const [videoQueue, downloadCourseVideos] =
-    useVideoDownload(updateVideoStatus);
-  const removeCourse = useRemoveCourse(setUserCourses);
-
-  const coursesInQueue = React.useMemo(() => {
-    const courses = new Set<string>();
-    videoQueue.forEach((q) => courses.add(q.courseId));
-    return courses;
-  }, [videoQueue]);
-
+export default function Root() {
   return (
-    <Router hook={useHashLocation}>
-      <Switch>
-        <Route path="/courses/:courseId">
-          {({ courseId }) => <CourseView courseId={courseId} />}
-        </Route>
-        <Route path="/">
-          <CourseList
-            userCourses={userCourses}
-            videoStatus={videoStatus}
-            downloadCourse={downloadCourse}
-            removeCourse={removeCourse}
-            downloadCourseVideos={downloadCourseVideos}
-            coursesInQueue={coursesInQueue}
-          />
-        </Route>
-      </Switch>
-    </Router>
+    <ReduxProvider store={store}>
+      <DataLoader />
+      <VideoDownloaderContext>
+        <Router hook={useHashLocation}>
+          <Switch>
+            <Route path="/courses/:courseId">
+              {({ courseId }) => <CourseView courseId={courseId} />}
+            </Route>
+            <Route path="/">
+              <CourseList />
+            </Route>
+          </Switch>
+        </Router>
+      </VideoDownloaderContext>
+    </ReduxProvider>
   );
 }

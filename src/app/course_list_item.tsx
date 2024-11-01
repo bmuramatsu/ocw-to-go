@@ -1,29 +1,33 @@
 import React from "react";
 import { Link } from "wouter";
-import { CourseData, newUserCourse, UserCourse, VideoStatus } from "../types";
+import { CourseData, newUserCourse } from "../types";
 import { Checkmark, Download, Loader, Trash } from "./svgs";
 import CourseLink from "./course_link";
+import useDownloadCourse from "./use_download_course";
+import { useDownloadVideos } from "./video_downloader_context";
+import useRemoveCourse from "./use_remove_course";
+import { useAppSelector } from "./store/store";
 
 interface Props {
   courseData: CourseData;
-  userCourse: UserCourse | null;
-  downloadCourse: () => void;
-  removeCourse: () => void;
-  downloadCourseVideos: (videoStatus: VideoStatus) => void;
-  videoStatus: VideoStatus | null;
-  inQueue: boolean;
 }
 
-export default function CourseListItem({
-  courseData,
-  userCourse: maybeUserCourse,
-  downloadCourse,
-  removeCourse,
-  downloadCourseVideos,
-  videoStatus,
-  inQueue,
-}: Props) {
-  const userCourse = maybeUserCourse || newUserCourse(courseData.id);
+export default function CourseListItem({ courseData }: Props) {
+  const userCourse = useAppSelector(
+    ({ user }) =>
+      user.userCourses[courseData.id] || newUserCourse(courseData.id),
+  );
+  const videoStatus = useAppSelector(
+    ({ user }) => user.courseVideos[courseData.id],
+  );
+  const inQueue = useAppSelector(
+    ({ user }) =>
+      !!user.videoQueue.find(({ courseId }) => courseId === courseData.id),
+  );
+
+  const downloadCourse = useDownloadCourse(courseData);
+  const removeCourse = useRemoveCourse(courseData.id);
+  const downloadCourseVideos = useDownloadVideos();
 
   return (
     <>

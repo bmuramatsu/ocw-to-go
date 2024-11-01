@@ -6,7 +6,7 @@ interface Props {
 }
 
 export default function CourseView({ courseId }: Props) {
-  const [_location, navigate] = useLocation();
+  const [, navigate] = useLocation();
   const ref = React.useRef<HTMLIFrameElement>(null);
 
   React.useEffect(() => {
@@ -23,16 +23,17 @@ export default function CourseView({ courseId }: Props) {
       }
     }
 
-    if (ref.current) {
-      ref.current.addEventListener("load", onLoad);
+    const iframe = ref.current;
+    if (iframe) {
+      iframe.addEventListener("load", onLoad);
     }
 
     return () => {
-      if (ref.current) {
-        ref.current.removeEventListener("load", onLoad);
+      if (iframe) {
+        iframe.removeEventListener("load", onLoad);
       }
     };
-  }, [ref]);
+  }, [ref, courseId]);
 
   React.useEffect(() => {
     function onMessage(e: MessageEvent) {
@@ -51,7 +52,9 @@ export default function CourseView({ courseId }: Props) {
 
     window.addEventListener("message", onMessage);
 
-    () => window.removeEventListener("message", onMessage);
+    return () => {
+      window.removeEventListener("message", onMessage);
+    };
   }, [ref, navigate]);
 
   return (

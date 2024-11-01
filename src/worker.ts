@@ -80,7 +80,7 @@ async function fileFromCache(request: Request): Promise<Response | undefined> {
   return Promise.resolve(response);
 }
 
-async function postToClients(message: any) {
-  const clients = await self.clients.matchAll();
-  clients.forEach((client) => client.postMessage(message));
-}
+//async function postToClients(message: any) {
+//  const clients = await self.clients.matchAll();
+//  clients.forEach((client) => client.postMessage(message));
+//}
