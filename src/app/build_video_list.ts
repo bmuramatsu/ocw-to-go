@@ -1,6 +1,15 @@
+// TODO I think this can be deleted
 import { Video } from "../types";
 
 type Manifest = { videos?: [{ file: string }] };
+
+// Not using all of these yet but they could be useful in the future
+type VideoData = {
+  youtube_key: string;
+  captions_file: string;
+  transcript_file: string;
+  thumbnail_file: string;
+};
 
 const VIDEO_HOST = "https://ocw.mit.edu";
 
@@ -25,7 +34,18 @@ export default async function buildVideoList(
     if (!manifest.videos) continue;
     for await (const videoData of manifest.videos) {
       const url = VIDEO_HOST + videoData.file;
-      videos.push({ url, courseId });
+      let name = videoData.file.split("/").pop();
+      if (!name) continue;
+      name = name.replaceAll(".", "_");
+      const videoDataFile = await cache.match(
+        `/courses/${courseId}/resources/${name}/data.json`,
+      );
+      console.log(videoDataFile);
+      if (!videoDataFile) continue;
+
+      const videoJson: VideoData = await videoDataFile.json();
+
+      videos.push({ url, courseId, youtubeKey: videoJson.youtube_key });
     }
   }
 

@@ -9,7 +9,7 @@ interface Props {
   userCourse: UserCourse | null;
   downloadCourse: () => void;
   removeCourse: () => void;
-  downloadCourseVideos: (userCourse: UserCourse) => void;
+  downloadCourseVideos: (videoStatus: VideoStatus) => void;
   videoStatus: VideoStatus | null;
 }
 
@@ -68,7 +68,7 @@ export default function CourseListItem({
           <>
             {videoStatus.status === "unstarted" && (
               <button
-                onClick={() => downloadCourseVideos(userCourse)}
+                onClick={() => downloadCourseVideos(videoStatus)}
                 className="btn--has-icon"
               >
                 <Download />
@@ -85,7 +85,7 @@ export default function CourseListItem({
             {videoStatus.status === "complete" && (
               <button className="btn--has-icon is-success" disabled>
                 <Checkmark />
-                {userCourse.videos.length} Videos
+                {videoStatus.videos.length} Videos
               </button>
             )}
           </>

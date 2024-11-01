@@ -1,6 +1,6 @@
 import React from "react";
 import CourseListItem from "./course_list_item";
-import { UserCourse, UserCourses, VideoStatusMap } from "../types";
+import { UserCourses, VideoStatus, VideoStatusMap } from "../types";
 import Footer from "./footer";
 import { ALL_COURSES } from "./initial_course_list";
 
@@ -9,7 +9,7 @@ interface Props {
   videoStatus: VideoStatusMap;
   downloadCourse: (courseId: string, path: string) => void;
   removeCourse: (courseId: string) => void;
-  downloadCourseVideos: (userCourse: UserCourse) => void;
+  downloadCourseVideos: (videoStatus: VideoStatus) => void;
 }
 
 export default function CourseList({

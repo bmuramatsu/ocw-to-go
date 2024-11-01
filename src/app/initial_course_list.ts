@@ -1,5 +1,4 @@
-import { CourseData, newUserCourse, UserCourses } from "../types";
-import buildVideoList from "./build_video_list";
+import { CourseData, newUserCourse, UserCourses, Video } from "../types";
 
 const ASSET_HOST = "https://mit-ocw-courses.atomicjoltdevapps.com";
 
@@ -78,8 +77,7 @@ export default async function getInitialUserCourses(): Promise<UserCourses> {
   for await (const course of ALL_COURSES) {
     const ready = cacheKeys.includes(`course-${course.id}`);
     if (ready) {
-      const videos = await buildVideoList(course.id);
-      courses[course.id] = newUserCourse(course.id, { ready: true, videos });
+      courses[course.id] = newUserCourse(course.id, { ready: true });
     }
   }
 

@@ -19,9 +19,10 @@ export default function Root(props: Props) {
 
   const downloadCourse = useDownloadCourse(setUserCourses);
   useWorkerSubscription(setUserCourses);
-  const [videoQueue, downloadCourseVideos] = useVideoDownload();
-  const [videoStatus, rebuildStatus] = useVideoStatus(videoQueue, userCourses);
-  const removeCourse = useRemoveCourse(setUserCourses, rebuildStatus);
+  const [videoStatus, updateVideoStatus] = useVideoStatus(userCourses);
+  const [videoQueue, downloadCourseVideos] =
+    useVideoDownload(updateVideoStatus);
+  const removeCourse = useRemoveCourse(setUserCourses);
 
   return (
     <Router hook={useHashLocation}>

@@ -12,7 +12,6 @@ export type UserCourse = {
   id: string;
   ready: boolean;
   status: string;
-  videos: Video[];
 };
 
 export const newUserCourse = (
@@ -22,25 +21,31 @@ export const newUserCourse = (
   id: courseId,
   ready: false,
   status: "",
-  videos: [],
   ...params,
 });
 
 export type UserCourses = Record<string, UserCourse | null>;
 
+export type RawVideo = {
+  resource_type: "Video";
+  file: string;
+  youtube_key: string;
+};
+
 export type Video = {
-  url: string;
   courseId: string;
+  url: string;
+  youtubeKey: string;
 };
 
 export type VideoTextStatus = "unstarted" | "downloading" | "complete";
 
 export type VideoStatus = {
+  courseId: string;
   status: VideoTextStatus;
   total: number;
   finished: number;
+  videos: Video[];
 };
 
-export type VideoStatusMap = {
-  [courseId: string]: VideoStatus | null;
-};
+export type VideoStatusMap = Record<string, VideoStatus | null>;
