@@ -26,6 +26,7 @@ export const newUserCourse = (
 
 export type UserCourses = Record<string, UserCourse | null>;
 
+// represents the video data as found in the zip file
 export type RawVideo = {
   resource_type: "Video";
   file?: string;
@@ -39,18 +40,18 @@ export type Video = {
   youtubeKey: string;
 };
 
-export type VideoStatus = {
+export type CourseVideos = {
   courseId: string;
   total: number;
   finished: number;
   videos: Video[];
 };
 
-export const defaultVideos = (courseId: string): VideoStatus => ({
+export const defaultVideos = (courseId: string): CourseVideos => ({
   courseId,
   total: 0,
   finished: 0,
   videos: [],
 });
 
-export type VideoStatusMap = Record<string, VideoStatus | null>;
+export type AllCourseVideos = Record<string, CourseVideos | null>;

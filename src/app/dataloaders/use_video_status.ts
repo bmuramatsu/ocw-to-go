@@ -1,10 +1,11 @@
 import React from "react";
-import { RawVideo, VideoStatus, defaultVideos } from "../../types";
+import { RawVideo, CourseVideos, defaultVideos } from "../../types";
 import { useAppDispatch, useAppSelector } from "../store/store";
 import { updateVideos } from "../store/user_store";
 
 export const VIDEO_HOST = "https://ocw.mit.edu";
 
+// When a new course is 'ready', this will build the video status
 export default function useVideoStatus() {
   const userCourses = useAppSelector(({ user }) => user.userCourses);
   const courseVideos = useAppSelector(({ user }) => user.courseVideos);
@@ -28,7 +29,7 @@ export default function useVideoStatus() {
   return [courseVideos, dispatch];
 }
 
-async function buildCourseStatus(courseId: string): Promise<VideoStatus> {
+async function buildCourseStatus(courseId: string): Promise<CourseVideos> {
   const cacheKeys = await window.caches.keys();
   const courseCache = await caches.open(`course-${courseId}`);
   const videoFile = await courseCache.match(

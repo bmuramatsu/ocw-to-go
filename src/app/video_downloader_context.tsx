@@ -2,16 +2,17 @@ import React from "react";
 import VideoDownloader from "./video_downloader";
 import { useAppDispatch } from "./store/store";
 import { updateVideoQueue, incrementCount } from "./store/user_store";
-import { Video, VideoStatus } from "../types";
+import { Video, CourseVideos } from "../types";
 
 interface Props {
   children: React.ReactNode;
 }
 
-type DownloadCourse = (videoStatus: VideoStatus) => void;
+type DownloadCourse = (videoStatus: CourseVideos) => void;
 
-// It's important that ALL of the hooks in this file are completely stable
-export default function VideoDownloaderContext({ children }: Props) {
+// It's important that ALL of the hooks in this file are completely stable because they are
+// passed into the VideoDownloader constructor
+export default function LoadedVideoDownloaderContext({ children }: Props) {
   const dispatch = useAppDispatch();
   const setQueue = React.useCallback(
     (queue: Video[]) => {
@@ -32,7 +33,7 @@ export default function VideoDownloaderContext({ children }: Props) {
   );
 
   const downloadCourse = React.useCallback(
-    (videoStatus: VideoStatus) => {
+    (videoStatus: CourseVideos) => {
       downloader.addCourseToQueue(videoStatus);
     },
     [downloader],

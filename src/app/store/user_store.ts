@@ -4,13 +4,13 @@ import {
   UserCourse,
   UserCourses,
   Video,
-  VideoStatus,
-  VideoStatusMap,
+  CourseVideos,
+  AllCourseVideos,
   defaultVideos,
 } from "../../types";
 
 interface UserStore {
-  courseVideos: VideoStatusMap;
+  courseVideos: AllCourseVideos;
   userCourses: UserCourses;
   videoQueue: Video[];
 }
@@ -44,7 +44,7 @@ const userStore = createSlice({
       state,
       action: PayloadAction<{
         courseId: string;
-        updates: Partial<VideoStatus>;
+        updates: Partial<CourseVideos>;
       }>,
     ) => {
       const { courseId, updates } = action.payload;

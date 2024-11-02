@@ -1,4 +1,4 @@
-import { Video, VideoStatus } from "../types";
+import { Video, CourseVideos } from "../types";
 import { VIDEO_HOST } from "./dataloaders/use_video_status";
 
 // Putting this into a class instead of trying to deal the useEffect potentially starting multiple downloads
@@ -20,7 +20,7 @@ export default class VideoDownloader {
     this.setQueue([...this.queue]);
   }
 
-  async addCourseToQueue(videoStatus: VideoStatus) {
+  async addCourseToQueue(videoStatus: CourseVideos) {
     await caches.open(`course-videos-${videoStatus.courseId}`);
 
     for await (const video of videoStatus.videos) {
