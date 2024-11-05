@@ -13,6 +13,13 @@ export default function CourseView({ courseId }: Props) {
     function onLoad() {
       const childWindow = ref.current?.contentWindow;
       if (childWindow) {
+        const pdfJsScript = childWindow.document.createElement("script");
+        // Using an older version because newer versions require JS modules
+        pdfJsScript.src =
+          "https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.min.js";
+        pdfJsScript.id = "pdfjs";
+        childWindow.document.body.appendChild(pdfJsScript);
+
         const envScript = childWindow.document.createElement("script");
         envScript.textContent = `window.PWA = {courseId: "${courseId}"};`;
         childWindow.document.body.appendChild(envScript);

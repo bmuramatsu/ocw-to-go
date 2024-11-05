@@ -18,6 +18,8 @@ const ASSETS_TO_CACHE = [
   "/images/oeglobal.png",
   "/images/linkedin-icon.png",
   "/images/mit-logo.svg",
+  "https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.min.js",
+  "https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.worker.min.js",
   ...ALL_COURSES.map((course) => course.cardImg),
 ];
 
