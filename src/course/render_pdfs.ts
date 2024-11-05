@@ -1,4 +1,4 @@
-// very basic type stube for pdfjs
+// very basic type stubs for pdfjs
 type PdfJs = {
   getDocument: (path: string) => { promise: Promise<PdfJsDoc> };
 };
@@ -37,6 +37,8 @@ export default async function renderPdfs() {
 
   const anchor = wrapper.querySelector("a.download-link");
   if (!anchor) return;
+
+  wrapper.classList.add("pdfjs-wrapper");
 
   wrapper.innerHTML = "";
 

@@ -5,6 +5,7 @@ const ASSETS_TO_CACHE = [
   "/index.html",
   "/favicon.ico",
   "/styles.css",
+  "/course-styles.css",
   "/app.js",
   "/course.js",
   "/manifest.json",

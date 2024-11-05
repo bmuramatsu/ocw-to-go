@@ -3,7 +3,7 @@ import React from "react";
 import Root from "./app/root";
 
 async function init() {
-  activateWorker();
+  await activateWorker();
   createRoot(document.getElementById("react-app")!).render(<Root />);
 }
 

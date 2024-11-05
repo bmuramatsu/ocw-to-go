@@ -27,6 +27,11 @@ export default function CourseView({ courseId }: Props) {
         const script = childWindow.document.createElement("script");
         script.src = "/course.js";
         childWindow.document.body.appendChild(script);
+
+        const link = childWindow.document.createElement("link");
+        link.rel = "stylesheet";
+        link.href = "/course-styles.css";
+        childWindow.document.head.appendChild(link);
       }
     }
 
