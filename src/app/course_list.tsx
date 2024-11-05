@@ -9,7 +9,7 @@ export default function CourseList() {
       <div className="header-container">
         <header>
           <h1>
-            <img src="/images/to-go-logo.svg" alt="MIT Logo" />
+            <img src="/images/to-go-logo.svg" alt="MIT OpenCourseWare To Go" />
           </h1>
         </header>
       </div>
