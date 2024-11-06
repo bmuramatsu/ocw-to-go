@@ -26,7 +26,7 @@ export default function CourseListItem({ courseData }: Props) {
 
   const downloadCourse = useDownloadCourse(courseData);
   const removeCourse = useRemoveCourse(courseData.id);
-  const downloadCourseVideos = useDownloadVideos();
+  const videoDownloader = useDownloadVideos();
 
   return (
     <>
@@ -85,7 +85,7 @@ export default function CourseListItem({ courseData }: Props) {
               </button>
             ) : videoStatus.total !== videoStatus.finished ? (
               <button
-                onClick={() => downloadCourseVideos(videoStatus)}
+                onClick={() => videoDownloader.addCourseToQueue(videoStatus)}
                 className="btn--has-icon"
               >
                 <Download />

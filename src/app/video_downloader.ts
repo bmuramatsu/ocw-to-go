@@ -1,23 +1,23 @@
 import { Video, CourseVideos } from "../types";
 import { VIDEO_HOST } from "./dataloaders/use_video_status";
 
-// Putting this into a class instead of trying to deal the useEffect potentially starting multiple downloads
+// Putting this into a class instead of trying to deal with useEffect potentially starting multiple downloads
 export default class VideoDownloader {
-  queue: Video[] = [];
-  running = false;
-  setQueue: (queue: Video[]) => void;
-  updateCourseStatus: (courseId: string) => void;
+  #queue: Video[] = [];
+  #running = false;
+  #setQueue: (queue: Video[]) => void;
+  #updateCourseStatus: (courseId: string) => void;
 
   constructor(
     setQueue: (queue: Video[]) => void,
     updateCourseStatus: (courseId: string) => void,
   ) {
-    this.setQueue = setQueue;
-    this.updateCourseStatus = updateCourseStatus;
+    this.#setQueue = setQueue;
+    this.#updateCourseStatus = updateCourseStatus;
   }
 
-  postQueue() {
-    this.setQueue([...this.queue]);
+  #postQueue() {
+    this.#setQueue([...this.#queue]);
   }
 
   async addCourseToQueue(videoStatus: CourseVideos) {
@@ -28,19 +28,24 @@ export default class VideoDownloader {
         `/course-videos/${videoStatus.courseId}/${video.youtubeKey}.mp4`,
       );
       if (!exists) {
-        this.queue.push(video);
+        this.#queue.push(video);
       }
     }
-    if (!this.running) {
-      this.startDownload();
+    if (!this.#running) {
+      this.#startDownload();
     }
-    this.postQueue();
+    this.#postQueue();
   }
 
-  async startDownload() {
-    this.running = true;
-    while (this.queue.length) {
-      const video = this.queue[0];
+  async cancelDownload(courseId: string) {
+    this.#queue = this.#queue.filter((video) => video.courseId !== courseId);
+    this.#postQueue();
+  }
+
+  async #startDownload() {
+    this.#running = true;
+    while (this.#queue.length) {
+      const video = this.#queue[0];
       try {
         const doOpaqueRequest = !video.url.startsWith(VIDEO_HOST);
 
@@ -59,15 +64,15 @@ export default class VideoDownloader {
           response,
         );
 
-        this.queue.shift();
-        this.postQueue();
-        this.updateCourseStatus(video.courseId);
+        this.#queue.shift();
+        this.#postQueue();
+        this.#updateCourseStatus(video.courseId);
       } catch (e) {
         console.error("Failed to download", video, e);
-        this.queue.shift();
-        this.postQueue();
+        this.#queue.shift();
+        this.#postQueue();
       }
     }
-    this.running = false;
+    this.#running = false;
   }
 }
