@@ -79,10 +79,17 @@ export default function CourseListItem({ courseData }: Props) {
         {videoStatus && !!videoStatus.total && (
           <>
             {inQueue ? (
-              <button className="btn--has-icon is-downloading" disabled>
-                <Loader />
-                {videoStatus.finished}/{videoStatus.total} Videos
-              </button>
+              <>
+                <button className="btn--has-icon is-downloading" disabled>
+                  <Loader />
+                  {videoStatus.finished}/{videoStatus.total} Videos
+                </button>
+                <button
+                  onClick={() => videoDownloader.cancelDownload(userCourse.id)}
+                >
+                  Cancel
+                </button>
+              </>
             ) : videoStatus.total !== videoStatus.finished ? (
               <button
                 onClick={() => videoDownloader.addCourseToQueue(videoStatus)}
