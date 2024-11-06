@@ -63,6 +63,17 @@ a:hover {
   margin-block-start: 2.4rem !important;
 }
 
+.inline-icon {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.inline-icon svg {
+  height: 1.6rem;
+  width: 1.6rem;
+}
+
 .inline-list {
   margin: 0;
   padding: 0;
@@ -328,6 +339,20 @@ a.btn--has-icon:focus-visible {
 }
 .icon-btn:focus-visible {
   outline-offset: 3px;
+}
+
+.combo-btn {
+  display: flex;
+  align-items: center;
+}
+
+.combo-btn .icon-btn {
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.combo-btn .btn--has-icon {
+  border-radius: 0.5rem 0 0 0.5rem;
+  border-inline-end: none;
 }
 
 .footer-container {

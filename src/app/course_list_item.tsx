@@ -1,7 +1,6 @@
 import React from "react";
-import { Link } from "wouter";
 import { CourseData, newUserCourse } from "../types";
-import { Checkmark, Download, Loader, Trash } from "./svgs";
+import { Cancel, Checkmark, Download, Loader, Trash } from "./svgs";
 import CourseLink from "./course_link";
 import useDownloadCourse from "./use_download_course";
 import { useDownloadVideos } from "./video_downloader_context";
@@ -53,6 +52,19 @@ export default function CourseListItem({ courseData }: Props) {
         <p className="u-mt-8">
           <span>Topics:</span> {courseData.topics.join(", ")}
         </p>
+
+        {userCourse.ready && (
+          <p className="u-mt-12 inline-icon">
+            <Checkmark />
+            Course downloaded
+          </p>
+        )}
+        {videoStatus && !!videoStatus.total && (
+          <p className="u-mt-8 inline-icon">
+            {videoStatus.finished === videoStatus.total && <Checkmark />}
+            {videoStatus.finished}/{videoStatus.total} videos downloaded
+          </p>
+        )}
       </div>
       <div className="course-card__actions">
         {!userCourse.ready && userCourse.status == "" && (
@@ -67,49 +79,37 @@ export default function CourseListItem({ courseData }: Props) {
             Downloading Course
           </button>
         )}
-        {userCourse.ready && (
-          <Link
-            href={`/courses/${courseData.id}`}
-            className="btn--has-icon is-success"
-          >
-            View Course
-          </Link>
-        )}
 
         {videoStatus && !!videoStatus.total && (
           <>
             {inQueue ? (
-              <>
+              <div className="combo-btn">
                 <button className="btn--has-icon is-downloading" disabled>
                   <Loader />
-                  {videoStatus.finished}/{videoStatus.total} Videos
+                  Downloading Videos
                 </button>
                 <button
+                  className="icon-btn"
                   onClick={() => videoDownloader.cancelDownload(userCourse.id)}
                 >
-                  Cancel
+                  <Cancel />
                 </button>
-              </>
+              </div>
             ) : videoStatus.total !== videoStatus.finished ? (
               <button
                 onClick={() => videoDownloader.addCourseToQueue(videoStatus)}
                 className="btn--has-icon"
               >
                 <Download />
-                {videoStatus.finished > 0 && <>{videoStatus.finished}/</>}
-                {videoStatus.total} Videos
+                Download Videos
               </button>
-            ) : (
-              <button className="btn--has-icon" disabled>
-                <Checkmark />
-                {videoStatus.videos.length} Videos
-              </button>
-            )}
+            ) : null}
           </>
         )}
         {userCourse.ready && (
-          <button onClick={removeCourse} className="icon-btn">
+          <button onClick={removeCourse} className="btn--has-icon">
             <Trash />
+            Delete
           </button>
         )}
       </div>
