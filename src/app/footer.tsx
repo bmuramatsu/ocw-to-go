@@ -20,16 +20,12 @@ export default function Footer() {
             </li>
             <li>
               <b>
-                <Link href="/creative_commons">
-                  Creative Commons License
-                </Link>
+                <Link href="/creative_commons">Creative Commons License</Link>
               </b>
             </li>
             <li>
               <b>
-                <Link href="/terms_and_conditions">
-                  Terms and Conditions
-                </Link>
+                <Link href="/terms_and_conditions">Terms and Conditions</Link>
               </b>
             </li>
           </ul>
@@ -54,7 +50,9 @@ export default function Footer() {
         </div>
         <div className="flex gap-24 wrap space-between align-center u-mt-24">
           <p>
-            MIT OpenCourseWare To Go Beta is an experiment in offering selected materials optimized for offline use in Google Chrome on Android AND iOS.
+            MIT OpenCourseWare To Go Beta is an experiment in offering selected
+            materials optimized for offline use in Google Chrome on Android AND
+            iOS.
           </p>
         </div>
         <div className="flex gap-24 wrap space-between align-center u-mt-24">

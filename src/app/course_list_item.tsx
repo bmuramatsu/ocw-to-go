@@ -37,7 +37,11 @@ export default function CourseListItem({ courseData }: Props) {
         aria-hidden
         tabIndex={-1}
       >
-        <img loading="lazy" src={courseData.cardImg} alt={courseData.imgAltText} />
+        <img
+          loading="lazy"
+          src={courseData.cardImg}
+          alt={courseData.imgAltText}
+        />
       </CourseLink>
       <div className="course-card__content">
         <p className="u-all-caps">{courseData.courseLevel}</p>
@@ -65,7 +69,10 @@ export default function CourseListItem({ courseData }: Props) {
           </button>
         )}
         {userCourse.ready && (
-          <Link href={`/courses/${courseData.id}`} className="btn--has-icon is-success">
+          <Link
+            href={`/courses/${courseData.id}`}
+            className="btn--has-icon is-success"
+          >
             View Course
           </Link>
         )}
