@@ -13,10 +13,9 @@ interface Props {
 }
 
 export default function CourseListItem({ courseData }: Props) {
-  const userCourse = useAppSelector(
-    ({ user }) =>
-      user.userCourses[courseData.id] || newUserCourse(courseData.id),
-  );
+  const userCourse =
+    useAppSelector(({ user }) => user.userCourses[courseData.id]) ||
+    newUserCourse(courseData.id);
   const videoStatus = useAppSelector(
     ({ user }) => user.courseVideos[courseData.id],
   );
