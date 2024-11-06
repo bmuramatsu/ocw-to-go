@@ -28,11 +28,19 @@ export const newUserCourse = (
 export type UserCourses = Record<string, UserCourse | null>;
 
 // represents the video data as found in the zip file
+// not all attributes are used, but they may be useful in the future
 export type RawVideo = {
   resource_type: "Video";
   file?: string;
   archive_url?: string;
   youtube_key: string;
+  captions_file?: string;
+  description?: string;
+  file_type?: "video/mp4";
+  learning_resource_types?: string[];
+  thumbnail_file?: string;
+  title?: string;
+  transcript_file?: string;
 };
 
 export type Video = {
