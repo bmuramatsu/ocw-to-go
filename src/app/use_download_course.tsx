@@ -104,6 +104,9 @@ function mimeFromExtension(path: string) {
       return "image/x-icon";
     case "mp4":
       return "video/mp4";
+    case "vtt":
+    case "webvtt":
+      return "text/vtt";
     default:
       console.log(`Unknown extension: ${extension}`);
       return "text/plain";
