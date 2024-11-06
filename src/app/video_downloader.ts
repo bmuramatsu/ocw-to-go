@@ -59,9 +59,12 @@ export default class VideoDownloader {
       this.#postQueue();
 
       try {
-        const doOpaqueRequest = !this.#currentVideo.url.startsWith(VIDEO_HOST);
+        let url = this.#currentVideo.url;
+        const doOpaqueRequest = !url.startsWith(VIDEO_HOST);
+        // some of the archive.org links are http, but seem to work fine over https
+        url = url.replace(/^http:/, "https:");
 
-        const response = await fetch(this.#currentVideo.url, {
+        const response = await fetch(url, {
           mode: doOpaqueRequest ? "no-cors" : "cors",
           signal: this.#canceller.signal,
         });
