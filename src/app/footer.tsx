@@ -1,5 +1,6 @@
 import React from "react";
 import StorageUsage from "./storage_usage";
+import { Link } from "wouter";
 
 export default function Footer() {
   return (
@@ -14,21 +15,17 @@ export default function Footer() {
           <ul className="inline-list gap-12">
             <li>
               <b>
-                <a href="https://accessibility.mit.edu">Accessibility</a>
+                <Link href="/accessibility">Accessibility</Link>
               </b>
             </li>
             <li>
               <b>
-                <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-                  Creative Commons License
-                </a>
+                <Link href="/creative_commons">Creative Commons License</Link>
               </b>
             </li>
             <li>
               <b>
-                <a href="https://ocw.mit.edu/pages/privacy-and-terms-of-use/">
-                  Terms and Conditions
-                </a>
+                <Link href="/terms_and_conditions">Terms and Conditions</Link>
               </b>
             </li>
           </ul>
@@ -49,6 +46,13 @@ export default function Footer() {
                 alt="Open Education Global"
               />
             </a>
+          </p>
+        </div>
+        <div className="flex gap-24 wrap space-between align-center u-mt-24">
+          <p>
+            MIT OpenCourseWare To Go Beta is an experiment in offering selected
+            materials optimized for offline use in Google Chrome on Android AND
+            iOS.
           </p>
         </div>
         <div className="flex gap-24 wrap space-between align-center u-mt-24">

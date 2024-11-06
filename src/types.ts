@@ -3,6 +3,7 @@ export type CourseData = {
   file: string;
   name: string;
   cardImg: string;
+  imgAltText: string;
   courseLevel: string;
   instructors: string[];
   topics: string[];

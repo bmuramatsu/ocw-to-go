@@ -2,6 +2,9 @@ import React from "react";
 import { Router, Route, Switch } from "wouter";
 import { useHashLocation } from "wouter/use-hash-location";
 import CourseList from "./course_list";
+import Accessibility from "./accessibility";
+import CreativeCommons from "./creative_commons";
+import TermsAndConditions from "./terms_and_conditions";
 import CourseView from "./course_view";
 import DataLoader from "./dataloader";
 import VideoDownloaderContext from "./video_downloader_context";
@@ -17,6 +20,15 @@ export default function Root() {
           <Switch>
             <Route path="/courses/:courseId">
               {({ courseId }) => <CourseView courseId={courseId} />}
+            </Route>
+            <Route path="/accessibility">
+              <Accessibility />
+            </Route>
+            <Route path="/creative_commons">
+              <CreativeCommons />
+            </Route>
+            <Route path="/terms_and_conditions">
+              <TermsAndConditions />
             </Route>
             <Route path="/">
               <CourseList />

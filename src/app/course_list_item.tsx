@@ -37,7 +37,11 @@ export default function CourseListItem({ courseData }: Props) {
         aria-hidden
         tabIndex={-1}
       >
-        <img loading="lazy" src={courseData.cardImg} alt="alt text" />
+        <img
+          loading="lazy"
+          src={courseData.cardImg}
+          alt={courseData.imgAltText}
+        />
       </CourseLink>
       <div className="course-card__content">
         <p className="u-all-caps">{courseData.courseLevel}</p>
@@ -53,19 +57,22 @@ export default function CourseListItem({ courseData }: Props) {
       </div>
       <div className="course-card__actions">
         {!userCourse.ready && userCourse.status == "" && (
-          <button onClick={downloadCourse} className="btn--has-icon">
+          <button onClick={downloadCourse} className="btn--has-icon is-primary">
             <Download />
-            Course
+            Download Course
           </button>
         )}
         {!userCourse.ready && userCourse.status != "" && (
-          <button className="btn--has-icon is-downloading" disabled>
+          <button className="btn--has-icon is-primary is-downloading" disabled>
             <Loader />
-            Course
+            Downloading Course
           </button>
         )}
         {userCourse.ready && (
-          <Link href={`/courses/${courseData.id}`} className="btn--is-link">
+          <Link
+            href={`/courses/${courseData.id}`}
+            className="btn--has-icon is-success"
+          >
             View Course
           </Link>
         )}
@@ -87,16 +94,18 @@ export default function CourseListItem({ courseData }: Props) {
                 {videoStatus.total} Videos
               </button>
             ) : (
-              <button className="btn--has-icon is-success" disabled>
+              <button className="btn--has-icon" disabled>
                 <Checkmark />
                 {videoStatus.videos.length} Videos
               </button>
             )}
           </>
         )}
-        <button onClick={removeCourse} className="icon-btn">
-          <Trash />
-        </button>
+        {userCourse.ready && (
+          <button onClick={removeCourse} className="icon-btn">
+            <Trash />
+          </button>
+        )}
       </div>
     </>
   );
