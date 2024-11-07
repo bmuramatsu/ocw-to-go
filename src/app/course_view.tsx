@@ -1,12 +1,10 @@
 import React from "react";
-import { useLocation } from "wouter";
 
 interface Props {
   courseId: string;
 }
 
 export default function CourseView({ courseId }: Props) {
-  const [, navigate] = useLocation();
   const ref = React.useRef<HTMLIFrameElement>(null);
 
   React.useEffect(() => {
@@ -57,9 +55,7 @@ export default function CourseView({ courseId }: Props) {
       )
         return;
 
-      if (e.data.type === "goBack") {
-        navigate("/");
-      }
+      // We don't currently have any events to handle
     }
 
     window.addEventListener("message", onMessage);
@@ -67,7 +63,7 @@ export default function CourseView({ courseId }: Props) {
     return () => {
       window.removeEventListener("message", onMessage);
     };
-  }, [ref, navigate]);
+  }, [ref]);
 
   return (
     <>
