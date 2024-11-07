@@ -27,6 +27,16 @@ export default function CourseListItem({ courseData }: Props) {
   const removeCourse = useRemoveCourse(courseData.id);
   const videoDownloader = useDownloadVideos();
 
+  function confirmRemove() {
+    if (
+      window.confirm(
+        "This will delete the course and all downloaded videos, are you sure you want to proceed?",
+      )
+    ) {
+      removeCourse();
+    }
+  }
+
   return (
     <>
       <CourseLink
@@ -107,7 +117,7 @@ export default function CourseListItem({ courseData }: Props) {
           </>
         )}
         {userCourse.ready && (
-          <button onClick={removeCourse} className="btn--has-icon">
+          <button onClick={confirmRemove} className="btn--has-icon">
             <Trash />
             Delete
           </button>
