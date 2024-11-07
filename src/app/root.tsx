@@ -7,6 +7,7 @@ import CreativeCommons from "./creative_commons";
 import TermsAndConditions from "./terms_and_conditions";
 import CourseView from "./course_view";
 import DataLoader from "./dataloader";
+import ScrollToTop from "./scroll_to_top";
 import VideoDownloaderContext from "./video_downloader_context";
 import { Provider as ReduxProvider } from "react-redux";
 import { store } from "./store/store";
@@ -17,6 +18,7 @@ export default function Root() {
       <DataLoader />
       <VideoDownloaderContext>
         <Router hook={useHashLocation}>
+          <ScrollToTop />
           <Switch>
             <Route path="/courses/:courseId">
               {({ courseId }) => <CourseView courseId={courseId} />}
