@@ -11,6 +11,7 @@ import ScrollToTop from "./scroll_to_top";
 import VideoDownloaderContext from "./video_downloader_context";
 import { Provider as ReduxProvider } from "react-redux";
 import { store } from "./store/store";
+import Layout from "./layout";
 
 export default function Root() {
   return (
@@ -24,16 +25,24 @@ export default function Root() {
               {({ courseId }) => <CourseView courseId={courseId} />}
             </Route>
             <Route path="/accessibility">
-              <Accessibility />
+              <Layout>
+                <Accessibility />
+              </Layout>
             </Route>
             <Route path="/creative_commons">
-              <CreativeCommons />
+              <Layout>
+                <CreativeCommons />
+              </Layout>
             </Route>
             <Route path="/terms_and_conditions">
-              <TermsAndConditions />
+              <Layout>
+                <TermsAndConditions />
+              </Layout>
             </Route>
             <Route path="/">
-              <CourseList />
+              <Layout>
+                <CourseList />
+              </Layout>
             </Route>
           </Switch>
         </Router>
