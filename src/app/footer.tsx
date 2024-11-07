@@ -1,6 +1,7 @@
 import React from "react";
 import StorageUsage from "./storage_usage";
 import { Link } from "wouter";
+import { VERSION } from "../version";
 
 export default function Footer() {
   return (
@@ -58,6 +59,8 @@ export default function Footer() {
         <div className="flex gap-24 wrap space-between align-center u-mt-24">
           <p>
             © 2001-2024 Massachusetts Institute of Technology
+            <br />
+            MIT OpenCourseWare To Go v{VERSION}
             <br />
             <StorageUsage />
           </p>
