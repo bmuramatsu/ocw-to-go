@@ -3,7 +3,8 @@ import React from "react";
 export default function Accessibility() {
   return (
     <main className="text-block">
-      <h1>Our Commitment</h1>
+      <h1>Accessibility</h1>
+      <h2>Our Commitment</h2>
       <p>
         MIT is committed to providing an environment that is accessible to
         individuals with disabilities. We invite all to learn about captioning
