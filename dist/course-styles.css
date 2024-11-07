@@ -1,0 +1,6 @@
+.pdfjs-wrapper canvas {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  box-shadow: 2px 2px 2px 2px gray;
+}
