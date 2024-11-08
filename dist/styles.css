@@ -133,6 +133,9 @@ header {
 header h1 {
   margin: 0;
 }
+header a {
+  display: block;
+}
 header img {
   display: block;
   width: 100%;
