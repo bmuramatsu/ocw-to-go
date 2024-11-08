@@ -135,6 +135,9 @@ header h1 {
 }
 header a {
   display: block;
+}
+header img {
+  display: block;
   width: 100%;
   max-width: 21.7rem;
 }
