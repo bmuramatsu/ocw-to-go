@@ -45,6 +45,12 @@ To rebuild the site when changes are made automatically, run `npm run watch`.
 For convenience, the command `npm run dev` will run both `serve` and `watch`
 together.
 
+### Code formatting
+
+We use Prettier to format source code. This provides a consistent style and
+saves time manually formatting code. You can run prettier using provided
+scripts, call it manually, or integrate it with your editor.
+
 ### Browsers
 
 Google Chrome is recommended for development. It seems to have the best support
@@ -65,6 +71,8 @@ The following scripts are available. They can be run with `npm run <script>`.
 
 - `build`: Build the site with production settings.
 - `dev`: Combination of `serve` and `watch` for convenience.
+- `formatcheck`: Checks code formatting with prettier.
+- `formatfix`: Runs the formatter on all files in src. Be careful with it!
 - `lint`: Run ESLint on the project.
 - `serve`: Serve the site on port 8088.
 - `test`: Run the test suite.

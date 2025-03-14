@@ -5,6 +5,8 @@
   "scripts": {
     "build": "node esbuild.mjs",
     "dev": "npm run watch & npm run serve",
+    "formatcheck": "prettier -c src",
+    "formatfix": "prettier -c src --write",
     "lint": "eslint src",
     "serve": "npx serve -l 8088 dist",
     "test": "echo \"Error: no test specified\" && exit 1",
