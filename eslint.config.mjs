@@ -12,6 +12,7 @@ export default [
   ...tseslint.configs.recommended,
   pluginReact.configs.flat.recommended,
   {
+    settings: { react: { version: "18.3.1" } },
     plugins: { "react-hooks": hooksPlugin },
     rules: hooksPlugin.configs.recommended.rules,
   },

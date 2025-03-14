@@ -40,7 +40,7 @@ export default function Footer() {
           </p>
           <p className="u-all-caps flex align-center">
             <b>proud member of:&nbsp;</b>
-            <a href="https://www.oeglobal.org/" target="_blank">
+            <a href="https://www.oeglobal.org/" target="_blank" rel="noreferrer">
               <img
                 className="oeg-logo"
                 src="images/oeglobal.png"
@@ -66,7 +66,7 @@ export default function Footer() {
           </p>
           <ul className="inline-list gap-24">
             <li>
-              <a href="https://www.facebook.com/MITOCW" target="_blank">
+              <a href="https://www.facebook.com/MITOCW" target="_blank" rel="noreferrer">
                 <img
                   className="footer-social-icon"
                   src="images/facebook-icon.png"
@@ -75,7 +75,7 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/mitocw" target="_blank">
+              <a href="https://www.instagram.com/mitocw" target="_blank" rel="noreferrer">
                 <img
                   className="footer-social-icon"
                   src="images/instagram-icon.png"
@@ -84,7 +84,7 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="https://twitter.com/MITOCW" target="_blank">
+              <a href="https://twitter.com/MITOCW" target="_blank" rel="noreferrer">
                 <img
                   className="footer-social-icon"
                   src="images/x-icon.png"
@@ -93,7 +93,7 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="https://www.youtube.com/mitocw" target="_blank">
+              <a href="https://www.youtube.com/mitocw" target="_blank" rel="noreferrer">
                 <img
                   className="footer-social-icon"
                   src="images/youtube-icon.png"
@@ -105,6 +105,7 @@ export default function Footer() {
               <a
                 href="https://www.linkedin.com/company/mit-opencourseware/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <img
                   className="footer-social-icon"
