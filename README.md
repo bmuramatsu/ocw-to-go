@@ -45,6 +45,20 @@ To rebuild the site when changes are made automatically, run `npm run watch`.
 For convenience, the command `npm run dev` will run both `serve` and `watch`
 together.
 
+### Browsers
+
+Google Chrome is recommended for development. It seems to have the best support
+for PWAs. In the developer console, in the Application tab, you can easily stop
+the service worker, clear all storage, or force the app to reset every page
+load. Without that setting, you will see an old cached version of both the app
+and worker scripts.
+
+With a tunneling service like cloudflare tunnels, you can also test from mobile
+devices, or with iOS simulator and Android Studio, you can test with various
+emulated mobile devices. With a bit of configuration, you can attach a desktop
+browser to these devices to open a developer console and debug. The specific
+steps will vary depending on the host and target operating systems and browsers.
+
 ## Scripts
 
 The following scripts are available. They can be run with `npm run <script>`.
@@ -73,3 +87,23 @@ Course zip files are stored in a cloudflare R2 bucket (similar to AWS S3).
 This is currently done manually. After uploaded, the course can be added to the
 file `src/app/initial_course_list.ts`. This process is likely to change in the
 near future.
+
+## Architecture
+
+OCW To Go is a progressive web app that is intended to work offline. Upon first
+load, the application assets are stored in a cache. A service worker script
+intercepts incoming requests and serves them from the cache instead of the
+network. When courses are downloaded, a ZIP file is unpacked, and each asset
+is cached, unmodified. When the user loads the course, we load the root
+index.html file in an iframe and inject some items into it to enhance the
+experience. Because all paths in the zip are relative, they will pull from the
+cache, so navigation and asset loading will work seamlessly.
+
+These are the major components in the app:
+
+- src/app.tsx: This is a small React application that renders the main UI and
+    handles navigation and state management
+- src/worker.ts: This is the service worker script. It caches the app assets and
+    intercepts web requests so the app can function offline.
+- src/course.ts: The script that is injected into the course iframe. It handles
+    DOM modifications like rendering PDFs, and playing local videos.
