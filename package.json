@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node esbuild.mjs dev",
     "build": "node esbuild.mjs",
+    "dev": "npm run watch & npm run serve",
+    "lint": "eslint src",
+    "serve": "npx serve -l 8088 dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "typecheck": "tsc -noemit",
-    "lint": "eslint src"
+    "watch": "node esbuild.mjs dev"
   },
   "author": "",
   "license": "ISC",
