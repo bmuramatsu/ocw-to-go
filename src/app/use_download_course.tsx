@@ -1,3 +1,5 @@
+// Hook that downloads a course, unzips it, and caches the files.
+// This all happens asynchronously.
 import React from "react";
 import JSZip from "jszip";
 import { CourseData, RawVideo, UserCourse } from "../types";
@@ -70,6 +72,8 @@ export default function useDownloadCourse(courseData: CourseData) {
   }, [dispatch, courseData]);
 }
 
+// Files need to have a mime for the browser to serve them correctly.
+// This list may not be exhastive
 function mimeFromExtension(path: string) {
   const extension = path.split(".").pop();
   switch (extension) {

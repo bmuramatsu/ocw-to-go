@@ -1,3 +1,5 @@
+// Global app state is stored in redux. It can be accessed
+// with types using the useApp* hooks below.
 import { configureStore } from "@reduxjs/toolkit";
 import { useDispatch, useSelector, useStore } from "react-redux";
 import user from "./user_store";

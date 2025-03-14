@@ -1,3 +1,4 @@
+// Hook that tracks the status of videos within a course.
 import React from "react";
 import { RawVideo, CourseVideos, defaultVideos } from "../../types";
 import { useAppDispatch, useAppSelector } from "../store/store";

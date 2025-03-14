@@ -1,3 +1,5 @@
+// Shared types for the app are defined here
+
 export type CourseData = {
   id: string;
   file: string;

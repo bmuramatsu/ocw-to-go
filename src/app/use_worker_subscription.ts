@@ -1,7 +1,7 @@
 import React from "react";
 import { UserCourses } from "../types";
 
-// currently unused
+// subscribes to events from the service worker script, currently unused
 export default function useWorkerSubscription(
   setCourses: React.Dispatch<React.SetStateAction<UserCourses>>,
 ) {

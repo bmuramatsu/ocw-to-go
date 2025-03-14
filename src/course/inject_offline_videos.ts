@@ -1,3 +1,5 @@
+// If the user has downloaded the video, this injects a video
+// elements into the page and hides the youtube player.
 import { RawVideo } from "../types";
 import env from "./env";
 

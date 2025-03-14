@@ -1,3 +1,5 @@
+// This lists application assets that need to be cached
+// in order to make the app work offline.
 import { ALL_COURSES } from "../app/initial_course_list";
 
 const ASSETS_TO_CACHE = [

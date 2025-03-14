@@ -1,3 +1,7 @@
+// This is the service worker script. It is primarily responsible for
+// intercepting network requests and serving cached assets.
+// It serves application assets, and unpacked course assets.
+
 import { createPartialResponse } from "workbox-range-requests";
 import ASSETS_TO_CACHE from "./worker/assets";
 import { VERSION } from "./version";
