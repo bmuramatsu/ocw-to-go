@@ -11,7 +11,7 @@
     "courseLevel": "18.06SC | Undergraduate",
     "cardImg": "/images/course_cards/23d385b4-4328-4fb0-b398-f5ca46ecae9a.jpg",
     "imgAltText": "Multi-colored cubes arranged to create the illusion of hexagons.",
-    "file": "[upload to R2 bucket and put path here]",
+    "file": "https://mit-ocw-courses.atomicjoltdevapps.com/linear-algebra.zip",
     "videos": [
         {
             "title": "An Interview with Gilbert Strang on Teaching Linear Algebra",

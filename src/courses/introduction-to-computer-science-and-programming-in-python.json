@@ -19,7 +19,7 @@
     "courseLevel": "6.0001 | Undergraduate",
     "cardImg": "/images/course_cards/71ad7cf6-d1bb-4cee-aa16-c5a86a3393c8.jpg",
     "imgAltText": "A black backlit keyboard.",
-    "file": "[upload to R2 bucket and put path here]",
+    "file": "https://mit-ocw-courses.atomicjoltdevapps.com/intro-to-cs2.zip",
     "videos": [
         {
             "title": "Bindings",

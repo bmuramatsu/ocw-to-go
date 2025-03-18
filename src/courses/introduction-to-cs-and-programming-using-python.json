@@ -12,7 +12,7 @@
     "courseLevel": "6.100L | Undergraduate",
     "cardImg": "/images/course_cards/0d7cf6b1-07d3-4577-9858-19e9881653f8.jpg",
     "imgAltText": "Closeup of sunflower petals and seeds. ",
-    "file": "[upload to R2 bucket and put path here]",
+    "file": "https://mit-ocw-courses.atomicjoltdevapps.com/intro-to-cs-01.zip",
     "videos": [
         {
             "title": "Lecture 1: Introduction to CS and Programming Using Python",
