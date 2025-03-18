@@ -6,21 +6,20 @@ import {
   newUserCourse,
   UserCourse,
   UserCourses,
-  Video,
-  CourseVideos,
-  AllCourseVideos,
-  defaultVideos,
+  UserVideos,
+  UserVideo,
+  Queue,
 } from "../../types";
 
 interface UserStore {
-  courseVideos: AllCourseVideos;
   userCourses: UserCourses;
-  videoQueue: Video[];
+  userVideos: UserVideos;
+  videoQueue: Queue;
 }
 
 const initialState: UserStore = {
-  courseVideos: {},
   userCourses: {},
+  userVideos: {},
   videoQueue: [],
 };
 
@@ -30,6 +29,9 @@ const userStore = createSlice({
   reducers: {
     setInitialCourses: (state, action: PayloadAction<UserCourses>) => {
       state.userCourses = action.payload;
+    },
+    setInitialVideos: (state, action: PayloadAction<UserVideos>) => {
+      state.userVideos = action.payload;
     },
     updateCourse: (
       state,
@@ -41,37 +43,27 @@ const userStore = createSlice({
     },
     deleteCourse: (state, action: PayloadAction<{ courseId: string }>) => {
       delete state.userCourses[action.payload.courseId];
-      delete state.courseVideos[action.payload.courseId];
+      delete state.userVideos[action.payload.courseId];
     },
-    updateVideos: (
-      state,
-      action: PayloadAction<{
-        courseId: string;
-        updates: Partial<CourseVideos>;
-      }>,
-    ) => {
-      const { courseId, updates } = action.payload;
-      const videos = state.courseVideos[courseId] || defaultVideos(courseId);
-      state.courseVideos[courseId] = { ...videos, ...updates };
-    },
-    incrementCount: (state, action: PayloadAction<string>) => {
-      const videos = state.courseVideos[action.payload];
-      if (videos) {
-        videos.finished++;
-      }
-    },
-    updateVideoQueue: (state, action: PayloadAction<Video[]>) => {
+    updateVideoQueue: (state, action: PayloadAction<Queue>) => {
       state.videoQueue = action.payload;
     },
+    updateUserVideo: (state, action: PayloadAction<{ courseId: string; videoId: string; updates: Partial<UserVideo> }>) => {
+      const { courseId, videoId, updates } = action.payload;
+      if (!state.userVideos[courseId]) {
+        state.userVideos[courseId] = {};
+      }
+      state.userVideos[courseId][videoId] = { ready: false, ...updates };
+    }
   },
 });
 
 export default userStore.reducer;
 export const {
   setInitialCourses,
+  setInitialVideos,
   updateCourse,
   deleteCourse,
-  updateVideos,
-  incrementCount,
   updateVideoQueue,
+  updateUserVideo,
 } = userStore.actions;

@@ -1,5 +1,6 @@
-import { Video, CourseVideos } from "../types";
-import { VIDEO_HOST } from "./dataloaders/use_video_status";
+import { CourseData, Queue, QueueItem, UserVideo } from "../types";
+
+const VIDEO_HOST = "https://ocw.mit.edu";
 
 // This maintains a queue of videos to download and downloads them one at a time.
 // It is initialized from the react app, and public functions may be called from the app.
@@ -9,18 +10,18 @@ import { VIDEO_HOST } from "./dataloaders/use_video_status";
 // It was put into a class instead of done in react directly because of the complexity of
 // managing the queue. React hooks are not well suited to this kind of state management.
 export default class VideoDownloader {
-  #queue: Video[] = [];
-  #currentVideo: Video | undefined = undefined;
-  #setQueue: (queue: Video[]) => void;
-  #incrementCourseCount: (courseId: string) => void;
+  #queue: Queue = [];
+  #currentVideo: QueueItem | undefined = undefined;
+  #setQueue: (queue: Queue) => void;
+  #updateVideo: (courseId: string, videoId: string, updates: Partial<UserVideo>) => void;
   #canceller: AbortController;
 
   constructor(
-    setQueue: (queue: Video[]) => void,
-    incrementCourseCount: (courseId: string) => void,
+    setQueue: (queue: Queue) => void,
+    updateVideo: (courseId: string, videoId: string, updates: Partial<UserVideo>) => void,
   ) {
     this.#setQueue = setQueue;
-    this.#incrementCourseCount = incrementCourseCount;
+    this.#updateVideo = updateVideo;
     this.#canceller = new AbortController();
   }
 
@@ -32,15 +33,15 @@ export default class VideoDownloader {
     this.#setQueue(copy);
   }
 
-  async addCourseToQueue(videoStatus: CourseVideos) {
-    await caches.open(`course-videos-${videoStatus.courseId}`);
+  async addCourseToQueue(course: CourseData) {
+    await caches.open(`course-videos-${course.id}`);
 
-    for await (const video of videoStatus.videos) {
+    for await (const video of course.videos) {
       const exists = await caches.match(
-        `/course-videos/${videoStatus.courseId}/${video.youtubeKey}.mp4`,
+        `/course-videos/${course.id}/${video.youtubeKey}.mp4`,
       );
       if (!exists) {
-        this.#queue.push(video);
+        this.#queue.push({course, video});
       }
     }
     if (!this.#currentVideo) {
@@ -51,7 +52,7 @@ export default class VideoDownloader {
   }
 
   async cancelDownload(courseId: string) {
-    this.#queue = this.#queue.filter((video) => video.courseId !== courseId);
+    this.#queue = this.#queue.filter((item) => item.course.id !== courseId);
     const oldCanceller = this.#canceller;
     // once it has been aborted, all future requests will be aborted, so we need to create a new one.
     // I assign it before creating so that future iterations of the loop will use the new one
@@ -65,7 +66,7 @@ export default class VideoDownloader {
       this.#postQueue();
 
       try {
-        let url = this.#currentVideo.url;
+        let url = this.#currentVideo.video.videoUrl;
         const doOpaqueRequest = !url.startsWith(VIDEO_HOST);
         // some of the archive.org links are http, but seem to work fine over https
         url = url.replace(/^http:/, "https:");
@@ -81,14 +82,14 @@ export default class VideoDownloader {
         }
 
         const cache = await caches.open(
-          `course-videos-${this.#currentVideo.courseId}`,
+          `course-videos-${this.#currentVideo.course.id}`,
         );
         await cache.put(
-          `/course-videos/${this.#currentVideo.courseId}/${this.#currentVideo.youtubeKey}.mp4`,
+          `/course-videos/${this.#currentVideo.course.id}/${this.#currentVideo.video.youtubeKey}.mp4`,
           response,
         );
 
-        this.#incrementCourseCount(this.#currentVideo.courseId);
+        this.#updateVideo(this.#currentVideo.course.id, this.#currentVideo.video.youtubeKey, {ready: true});
       } catch (e: unknown) {
         console.error("Failed to download", this.#currentVideo, e);
       }

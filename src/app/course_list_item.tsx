@@ -18,11 +18,16 @@ export default function CourseListItem({ courseData }: Props) {
     useAppSelector(({ user }) => user.userCourses[courseData.id]) ||
     newUserCourse(courseData.id);
   const videoStatus = useAppSelector(
-    ({ user }) => user.courseVideos[courseData.id],
+    ({ user }) => user.userVideos[courseData.id] || {},
   );
+  const totalVideos = courseData.videos.length;
+  let finishedVideos = 0;
+
+  Object.values(videoStatus).forEach((video) => {if (video?.ready) finishedVideos++});
+
   const inQueue = useAppSelector(
     ({ user }) =>
-      !!user.videoQueue.find(({ courseId }) => courseId === courseData.id),
+      !!user.videoQueue.find(({ course: { id } }) => id === courseData.id),
   );
 
   const downloadCourse = useDownloadCourse(courseData);
@@ -71,10 +76,10 @@ export default function CourseListItem({ courseData }: Props) {
             Course downloaded
           </p>
         )}
-        {videoStatus && !!videoStatus.total && (
+        {videoStatus && !!totalVideos && (
           <p className="u-mt-8 inline-icon">
-            {videoStatus.finished === videoStatus.total && <Checkmark />}
-            {videoStatus.finished}/{videoStatus.total} videos downloaded
+            {finishedVideos === totalVideos && <Checkmark />}
+            {finishedVideos}/{totalVideos} videos downloaded
           </p>
         )}
       </div>
@@ -92,7 +97,7 @@ export default function CourseListItem({ courseData }: Props) {
           </button>
         )}
 
-        {videoStatus && !!videoStatus.total && (
+        {videoStatus && !!totalVideos && (
           <>
             {inQueue ? (
               <div className="combo-btn">
@@ -107,9 +112,9 @@ export default function CourseListItem({ courseData }: Props) {
                   <Cancel />
                 </button>
               </div>
-            ) : videoStatus.total !== videoStatus.finished ? (
+            ) : totalVideos !== finishedVideos ? (
               <button
-                onClick={() => videoDownloader.addCourseToQueue(videoStatus)}
+                onClick={() => videoDownloader.addCourseToQueue(courseData)}
                 className="btn--has-icon"
               >
                 <Download />

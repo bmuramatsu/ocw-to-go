@@ -2,7 +2,7 @@
 // This all happens asynchronously.
 import React from "react";
 import JSZip from "jszip";
-import { CourseData, RawVideo, UserCourse } from "../types";
+import { CourseData, UserCourse } from "../types";
 import { updateCourse } from "./store/user_store";
 import { useAppDispatch } from "./store/store";
 
@@ -29,37 +29,16 @@ export default function useDownloadCourse(courseData: CourseData) {
           paths.push(path);
         }
       });
-      const rawVideos: RawVideo[] = [];
 
       for (const path of paths) {
         const mime = mimeFromExtension(path);
         const fileData = await zip.file(path)!.async("blob");
-
-        const fileName = path.split("/").pop();
-        if (fileName === "data.json") {
-          const json = JSON.parse(await fileData.text());
-
-          if (
-            typeof json === "object" &&
-            !Array.isArray(json) &&
-            json !== null &&
-            json.resource_type === "Video" &&
-            (json.file || json.archive_url)
-          ) {
-            rawVideos.push(json);
-          }
-        }
 
         await cache.put(
           `/courses/${courseId}/${path}`,
           new Response(fileData, { headers: { "Content-Type": mime } }),
         );
       }
-
-      await cache.put(
-        `/courses/${courseId}/_pwa_videos.json`,
-        new Response(JSON.stringify(rawVideos)),
-      );
 
       update({ status: "Ready", ready: true });
     } catch (e: unknown) {

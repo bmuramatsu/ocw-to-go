@@ -1,8 +1,8 @@
 import React from "react";
 import VideoDownloader from "./video_downloader";
 import { useAppDispatch } from "./store/store";
-import { updateVideoQueue, incrementCount } from "./store/user_store";
-import { Video } from "../types";
+import { updateVideoQueue, updateUserVideo } from "./store/user_store";
+import { Queue, UserVideo } from "../types";
 
 interface Props {
   children: React.ReactNode;
@@ -16,21 +16,21 @@ interface Props {
 export default function LoadedVideoDownloaderContext({ children }: Props) {
   const dispatch = useAppDispatch();
   const setQueue = React.useCallback(
-    (queue: Video[]) => {
+    (queue: Queue) => {
       dispatch(updateVideoQueue(queue));
     },
     [dispatch],
   );
 
-  const increment = React.useCallback(
-    (courseId: string) => {
-      dispatch(incrementCount(courseId));
+  const updateVideo = React.useCallback(
+    (courseId: string, videoId: string, updates: Partial<UserVideo>) => {
+      dispatch(updateUserVideo({courseId, videoId, updates}));
     },
     [dispatch],
   );
 
   const [downloader] = React.useState<VideoDownloader>(
-    () => new VideoDownloader(setQueue, increment),
+    () => new VideoDownloader(setQueue, updateVideo),
   );
 
   return (

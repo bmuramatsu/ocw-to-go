@@ -1,6 +1,5 @@
 // If the user has downloaded the video, this injects a video
 // elements into the page and hides the youtube player.
-import { RawVideo } from "../types";
 import env from "./env";
 
 export default async function injectOfflineVideos() {
@@ -15,7 +14,7 @@ export default async function injectOfflineVideos() {
   if (!match || !match[1]) return;
   const code = match[1];
 
-  const href = `/course-videos/${env.courseId}/${code}.mp4`;
+  const href = `/course-videos/${env.course.id}/${code}.mp4`;
   const exists = await caches.match(href);
   if (!exists) return;
 
@@ -39,17 +38,11 @@ export default async function injectOfflineVideos() {
 }
 
 async function addCaptions(video: HTMLVideoElement, youtubeKey: string) {
-  const dataFile = await caches.match(
-    `/courses/${env.courseId}/_pwa_videos.json`,
-  );
-  if (!dataFile) return;
+  const videoData = env.course.videos.find((v) => v.youtubeKey === youtubeKey);
+  if (!videoData || !videoData.captionsFile) return;
 
-  const allVideos: RawVideo[] = await dataFile.json();
-  const videoData = allVideos.find((v) => v.youtube_key === youtubeKey);
-  if (!videoData || !videoData.captions_file) return;
-
-  const fileName = videoData.captions_file.split("/").pop();
-  const captionPath = `/courses/${env.courseId}/static_resources/${fileName}`;
+  const fileName = videoData.captionsFile.split("/").pop();
+  const captionPath = `/courses/${env.course.id}/static_resources/${fileName}`;
 
   const track = document.createElement("track");
   track.kind = "captions";

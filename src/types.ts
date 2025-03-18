@@ -9,11 +9,23 @@ export type CourseData = {
   courseLevel: string;
   instructors: string[];
   topics: string[];
+  videos: VideoData[];
+};
+
+export type VideoData = {
+  title: string;
+  videoUrl: string;
+  youtubeKey: string;
+  contentLength: number;
+  categories: string[];
+  captionsFile: string | null;
 };
 
 export type UserCourse = {
+  // can this go?
   id: string;
   ready: boolean;
+  // can this go or be consolidated
   status: string;
 };
 
@@ -29,40 +41,31 @@ export const newUserCourse = (
 
 export type UserCourses = Record<string, UserCourse | null>;
 
-// represents the video data as found in the zip file
-// not all attributes are used, but they may be useful in the future
-export type RawVideo = {
-  resource_type: "Video";
-  file?: string;
-  archive_url?: string;
-  youtube_key: string;
-  captions_file?: string;
-  description?: string;
-  file_type?: "video/mp4";
-  learning_resource_types?: string[];
-  thumbnail_file?: string;
-  title?: string;
-  transcript_file?: string;
+export type UserVideo = {
+  ready: boolean;
+}
+
+// TODO rename
+export type NewCourseVideos = Record<string, UserVideo | null>
+export type UserVideos = Record<string, NewCourseVideos | null>;
+
+export type QueueItem = {
+  course: CourseData;
+  video: VideoData;
 };
 
-export type Video = {
-  courseId: string;
-  url: string;
-  youtubeKey: string;
-};
+export type Queue = QueueItem[];
 
-export type CourseVideos = {
-  courseId: string;
-  total: number;
-  finished: number;
-  videos: Video[];
-};
+//export type CourseVideos = {
+//  courseId: string;
+//  //total: number;
+//  finished: number;
+//};
 
-export const defaultVideos = (courseId: string): CourseVideos => ({
-  courseId,
-  total: 0,
-  finished: 0,
-  videos: [],
-});
-
-export type AllCourseVideos = Record<string, CourseVideos | null>;
+//export const defaultVideos = (courseId: string): CourseVideos => ({
+//  courseId,
+//  //total: 0,
+//  finished: 0,
+//});
+//
+//export type AllCourseVideos = Record<string, CourseVideos | null>;

@@ -76,6 +76,7 @@ for (const dataPath of dataPaths) {
       contentLength: length,
       // these seem to be applied very inconsistently
       categories: dataJSON["learning_resource_types"],
+      captionsFile: dataJSON["captions_file"],
     });
   }
 }

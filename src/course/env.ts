@@ -1,7 +1,9 @@
 // The parent window injects this state into the Iframe.
+import { CourseData } from "../types";
+
 // This module is just a way to access the typed state.
 type ENV = {
-  courseId: string;
+  course: CourseData;
 };
 
 // @ts-expect-error - This is injected by the parent window

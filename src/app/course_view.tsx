@@ -1,12 +1,14 @@
 // This renders the course in an iframe. The course HTML and related assets
 // are stored in the cache, and will be served by the service worker
 import React from "react";
+import { COURSES_BY_ID } from "./initial_course_list";
 
 interface Props {
   courseId: string;
 }
 
 export default function CourseView({ courseId }: Props) {
+  const course = COURSES_BY_ID[courseId];
   const ref = React.useRef<HTMLIFrameElement>(null);
 
   // this effect injects various items into the iframe to
@@ -25,7 +27,7 @@ export default function CourseView({ courseId }: Props) {
 
         // Inject some configuration into the iframe
         const envScript = childWindow.document.createElement("script");
-        envScript.textContent = `window.PWA = {courseId: "${courseId}"};`;
+        envScript.textContent = `window.PWA = {course: ${JSON.stringify(course)}};`;
         childWindow.document.body.appendChild(envScript);
 
         // Inject the course script to adjust the DOM or listen to events
@@ -51,7 +53,7 @@ export default function CourseView({ courseId }: Props) {
         iframe.removeEventListener("load", onLoad);
       }
     };
-  }, [ref, courseId]);
+  }, [ref, course]);
 
   // Listen to events from the iframe. Currently unused
   React.useEffect(() => {
@@ -77,7 +79,7 @@ export default function CourseView({ courseId }: Props) {
   return (
     <>
       <iframe
-        src={`/courses/${courseId}/index.html`}
+        src={`/courses/${course.id}/index.html`}
         style={{ width: "100%", height: "100vh", border: "none" }}
         ref={ref}
       />

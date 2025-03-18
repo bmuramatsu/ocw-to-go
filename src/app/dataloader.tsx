@@ -1,10 +1,10 @@
 import useInitialCourses from "./dataloaders/use_initial_courses";
-import useVideoStatus from "./dataloaders/use_video_status";
+import useInitialVideos from "./dataloaders/use_initial_videos";
 
 // This component is only present to trigger data-loading side effects based on state changes.
 export default function DataLoader() {
   useInitialCourses();
-  useVideoStatus();
+  useInitialVideos();
 
   return null;
 }
