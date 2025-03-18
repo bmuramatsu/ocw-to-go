@@ -1,4 +1,4 @@
-import { CourseData, Queue, QueueItem, UserVideo } from "../types";
+import { CourseData, VideoQueue, VideoQueueItem, UserVideo } from "../types";
 
 const VIDEO_HOST = "https://ocw.mit.edu";
 
@@ -10,14 +10,14 @@ const VIDEO_HOST = "https://ocw.mit.edu";
 // It was put into a class instead of done in react directly because of the complexity of
 // managing the queue. React hooks are not well suited to this kind of state management.
 export default class VideoDownloader {
-  #queue: Queue = [];
-  #currentVideo: QueueItem | undefined = undefined;
-  #setQueue: (queue: Queue) => void;
+  #queue: VideoQueue = [];
+  #currentVideo: VideoQueueItem | undefined = undefined;
+  #setQueue: (queue: VideoQueue) => void;
   #updateVideo: (courseId: string, videoId: string, updates: Partial<UserVideo>) => void;
   #canceller: AbortController;
 
   constructor(
-    setQueue: (queue: Queue) => void,
+    setQueue: (queue: VideoQueue) => void,
     updateVideo: (courseId: string, videoId: string, updates: Partial<UserVideo>) => void,
   ) {
     this.#setQueue = setQueue;

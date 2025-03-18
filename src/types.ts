@@ -45,27 +45,12 @@ export type UserVideo = {
   ready: boolean;
 }
 
-// TODO rename
-export type NewCourseVideos = Record<string, UserVideo | null>
-export type UserVideos = Record<string, NewCourseVideos | null>;
+export type CourseVideos = Record<string, UserVideo | null>
+export type UserVideos = Record<string, CourseVideos | null>;
 
-export type QueueItem = {
+export type VideoQueueItem = {
   course: CourseData;
   video: VideoData;
 };
 
-export type Queue = QueueItem[];
-
-//export type CourseVideos = {
-//  courseId: string;
-//  //total: number;
-//  finished: number;
-//};
-
-//export const defaultVideos = (courseId: string): CourseVideos => ({
-//  courseId,
-//  //total: 0,
-//  finished: 0,
-//});
-//
-//export type AllCourseVideos = Record<string, CourseVideos | null>;
+export type VideoQueue = VideoQueueItem[];

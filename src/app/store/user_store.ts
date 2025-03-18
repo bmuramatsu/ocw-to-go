@@ -8,13 +8,13 @@ import {
   UserCourses,
   UserVideos,
   UserVideo,
-  Queue,
+  VideoQueue,
 } from "../../types";
 
 interface UserStore {
   userCourses: UserCourses;
   userVideos: UserVideos;
-  videoQueue: Queue;
+  videoQueue: VideoQueue;
 }
 
 const initialState: UserStore = {
@@ -45,7 +45,7 @@ const userStore = createSlice({
       delete state.userCourses[action.payload.courseId];
       delete state.userVideos[action.payload.courseId];
     },
-    updateVideoQueue: (state, action: PayloadAction<Queue>) => {
+    updateVideoQueue: (state, action: PayloadAction<VideoQueue>) => {
       state.videoQueue = action.payload;
     },
     updateUserVideo: (state, action: PayloadAction<{ courseId: string; videoId: string; updates: Partial<UserVideo> }>) => {

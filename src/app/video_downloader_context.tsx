@@ -2,7 +2,7 @@ import React from "react";
 import VideoDownloader from "./video_downloader";
 import { useAppDispatch } from "./store/store";
 import { updateVideoQueue, updateUserVideo } from "./store/user_store";
-import { Queue, UserVideo } from "../types";
+import { VideoQueue, UserVideo } from "../types";
 
 interface Props {
   children: React.ReactNode;
@@ -16,7 +16,7 @@ interface Props {
 export default function LoadedVideoDownloaderContext({ children }: Props) {
   const dispatch = useAppDispatch();
   const setQueue = React.useCallback(
-    (queue: Queue) => {
+    (queue: VideoQueue) => {
       dispatch(updateVideoQueue(queue));
     },
     [dispatch],
