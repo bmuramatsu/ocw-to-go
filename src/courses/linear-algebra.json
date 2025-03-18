@@ -1,0 +1,1289 @@
+{
+    "id": "23d385b4-4328-4fb0-b398-f5ca46ecae9a",
+    "name": "Linear Algebra",
+    "topics": [
+        "Mathematics",
+        "Linear Algebra"
+    ],
+    "instructors": [
+        "Prof. Gilbert Strang"
+    ],
+    "courseLevel": "18.06SC | Undergraduate",
+    "cardImg": "/images/course_cards/23d385b4-4328-4fb0-b398-f5ca46ecae9a.jpg",
+    "imgAltText": "Multi-colored cubes arranged to create the illusion of hexagons.",
+    "file": "[upload to R2 bucket and put path here]",
+    "videos": [
+        {
+            "title": "An Interview with Gilbert Strang on Teaching Linear Algebra",
+            "videoUrl": "https://archive.org/download/MIT18.06SCF11/MIT18_06SCF11_Educator_Video_300k.mp4",
+            "youtubeKey": "7UJ4CFRGd-U",
+            "contentLength": 17608303,
+            "categories": [
+                "Other Video"
+            ]
+        },
+        {
+            "title": "An Overview of Key Ideas",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110711_M3_300k.mp4",
+            "youtubeKey": "OZxzHcW663g",
+            "contentLength": 18072063,
+            "categories": []
+        },
+        {
+            "title": "An Overview of Key Ideas",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110711_M3_300k.mp4",
+            "youtubeKey": "OZxzHcW663g",
+            "contentLength": 18072063,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "An Overview of Linear Algebra",
+            "videoUrl": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-rec01_300k.mp4",
+            "youtubeKey": "0oBJN8F616U",
+            "contentLength": 112781231,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "An Overview of Linear Algebra",
+            "videoUrl": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-rec01_300k.mp4",
+            "youtubeKey": "0oBJN8F616U",
+            "contentLength": 112781231,
+            "categories": []
+        },
+        {
+            "title": "Basis and Dimension",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110526_A2_300k.mp4",
+            "youtubeKey": "MMWqGD4Urso",
+            "contentLength": 19135907,
+            "categories": []
+        },
+        {
+            "title": "Basis and Dimension",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110526_A2_300k.mp4",
+            "youtubeKey": "MMWqGD4Urso",
+            "contentLength": 19135907,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "Column Space and Nullspace",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/06.mp4",
+            "youtubeKey": "8o5Cmfpeo6g",
+            "contentLength": 109278726,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Column Space and Nullspace",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/06.mp4",
+            "youtubeKey": "8o5Cmfpeo6g",
+            "contentLength": 109278726,
+            "categories": []
+        },
+        {
+            "title": "Computing the Four Fundamental Subspaces",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110526_B2_300k.mp4",
+            "youtubeKey": "D8u1LV9CnCk",
+            "contentLength": 24941472,
+            "categories": []
+        },
+        {
+            "title": "Computing the Four Fundamental Subspaces",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110526_B2_300k.mp4",
+            "youtubeKey": "D8u1LV9CnCk",
+            "contentLength": 24941472,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "Exam 1 Problem Solving",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110714_N1_300k.mp4",
+            "youtubeKey": "AMLekTJR5_U",
+            "contentLength": 34570333,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "Exam 1 Problem Solving",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110714_N1_300k.mp4",
+            "youtubeKey": "AMLekTJR5_U",
+            "contentLength": 34570333,
+            "categories": []
+        },
+        {
+            "title": "Exam 1 Review",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/13.mp4",
+            "youtubeKey": "l88D4r74gtM",
+            "contentLength": 107672964,
+            "categories": [
+                "Exam Materials"
+            ]
+        },
+        {
+            "title": "Exam 1 Review",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/13.mp4",
+            "youtubeKey": "l88D4r74gtM",
+            "contentLength": 107672964,
+            "categories": []
+        },
+        {
+            "title": "Exam 2 Problem Solving",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110607_L1_300k.mp4",
+            "youtubeKey": "pz3zyUO2gpM",
+            "contentLength": 41619842,
+            "categories": []
+        },
+        {
+            "title": "Exam 2 Problem Solving",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110607_L1_300k.mp4",
+            "youtubeKey": "pz3zyUO2gpM",
+            "contentLength": 41619842,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "Exam 2 Review",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/24b.mp4",
+            "youtubeKey": "QuZL5IKpO_U",
+            "contentLength": 112916220,
+            "categories": []
+        },
+        {
+            "title": "Exam 2 Review",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/24b.mp4",
+            "youtubeKey": "QuZL5IKpO_U",
+            "contentLength": 112916220,
+            "categories": [
+                "Exam Materials"
+            ]
+        },
+        {
+            "title": "Exam 3 Problem Solving",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110714_D2_300k.mp4",
+            "youtubeKey": "OsHY7ycgbaE",
+            "contentLength": 30028370,
+            "categories": []
+        },
+        {
+            "title": "Exam 3 Problem Solving",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110714_D2_300k.mp4",
+            "youtubeKey": "OsHY7ycgbaE",
+            "contentLength": 30028370,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "Exam 3 Review",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/32.mp4",
+            "youtubeKey": "HgC1l_6ySkc",
+            "contentLength": 107029665,
+            "categories": []
+        },
+        {
+            "title": "Exam 3 Review",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/32.mp4",
+            "youtubeKey": "HgC1l_6ySkc",
+            "contentLength": 107029665,
+            "categories": [
+                "Exam Materials"
+            ]
+        },
+        {
+            "title": "Factorization into A = LU",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/04.mp4",
+            "youtubeKey": "MsIvs_6vC38",
+            "contentLength": 112447812,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Factorization into A = LU",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/04.mp4",
+            "youtubeKey": "MsIvs_6vC38",
+            "contentLength": 112447812,
+            "categories": []
+        },
+        {
+            "title": "Final Course Review",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/34.mp4",
+            "youtubeKey": "RWvi4Vx4CDc",
+            "contentLength": 98777983,
+            "categories": []
+        },
+        {
+            "title": "Final Course Review",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/34.mp4",
+            "youtubeKey": "RWvi4Vx4CDc",
+            "contentLength": 98777983,
+            "categories": [
+                "Exam Materials"
+            ]
+        },
+        {
+            "title": "Final Exam Problem Solving",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110607_A2_300k.mp4",
+            "youtubeKey": "4PnArrxCZLE",
+            "contentLength": 28613083,
+            "categories": []
+        },
+        {
+            "title": "Final Exam Problem Solving",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110607_A2_300k.mp4",
+            "youtubeKey": "4PnArrxCZLE",
+            "contentLength": 28613083,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "Geometry of Linear Algebra",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110609_L2_300k.mp4",
+            "youtubeKey": "My5w4MXWBew",
+            "contentLength": 38618265,
+            "categories": []
+        },
+        {
+            "title": "Geometry of Linear Algebra",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110609_L2_300k.mp4",
+            "youtubeKey": "My5w4MXWBew",
+            "contentLength": 38618265,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "Gil Strang's Final 18.06 Linear Algebra Lecture",
+            "videoUrl": "https://archive.org/download/youtube-lUUte2o2Sn8/lUUte2o2Sn8.mp4",
+            "youtubeKey": "lUUte2o2Sn8",
+            "contentLength": 383796477,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Graphs and Networks",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110711_N1_300k.mp4",
+            "youtubeKey": "h0m2tsmSPTI",
+            "contentLength": 29175810,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "Graphs and Networks",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110711_N1_300k.mp4",
+            "youtubeKey": "h0m2tsmSPTI",
+            "contentLength": 29175810,
+            "categories": []
+        },
+        {
+            "title": "Graphs, Networks, Incidence Matrices",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/12.mp4",
+            "youtubeKey": "6-wh6yvk6uc",
+            "contentLength": 108671533,
+            "categories": []
+        },
+        {
+            "title": "Graphs, Networks, Incidence Matrices",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/12.mp4",
+            "youtubeKey": "6-wh6yvk6uc",
+            "contentLength": 108671533,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Independence, Basis and Dimension",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/09.mp4",
+            "youtubeKey": "yjBerM5jWsc",
+            "contentLength": 114739484,
+            "categories": []
+        },
+        {
+            "title": "Independence, Basis and Dimension",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/09.mp4",
+            "youtubeKey": "yjBerM5jWsc",
+            "contentLength": 114739484,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Inverse Matrices",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110526_A1_300k.mp4",
+            "youtubeKey": "zWxhmBCdvFs",
+            "contentLength": 19629239,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "Inverse Matrices",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110526_A1_300k.mp4",
+            "youtubeKey": "zWxhmBCdvFs",
+            "contentLength": 19629239,
+            "categories": []
+        },
+        {
+            "title": "Lecture 15: Projections onto Subspaces",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/15.mp4",
+            "youtubeKey": "Y_Ac6KiQ1t0",
+            "contentLength": 109646680,
+            "categories": []
+        },
+        {
+            "title": "Lecture 15: Projections onto Subspaces",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/15.mp4",
+            "youtubeKey": "Y_Ac6KiQ1t0",
+            "contentLength": 109646680,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 16: Projection Matrices and Least Squares",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/16.mp4",
+            "youtubeKey": "osh80YCg_GM",
+            "contentLength": 109456489,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 16: Projection Matrices and Least Squares",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/16.mp4",
+            "youtubeKey": "osh80YCg_GM",
+            "contentLength": 109456489,
+            "categories": []
+        },
+        {
+            "title": "Lecture 17: Orthogonal Matrices and Gram-Schmidt",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/17.mp4",
+            "youtubeKey": "0MtwqhIwdrI",
+            "contentLength": 115024152,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 17: Orthogonal Matrices and Gram-Schmidt",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/17.mp4",
+            "youtubeKey": "0MtwqhIwdrI",
+            "contentLength": 115024152,
+            "categories": []
+        },
+        {
+            "title": "Lecture 18: Properties of Determinants",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/18.mp4",
+            "youtubeKey": "srxexLishgY",
+            "contentLength": 110698833,
+            "categories": []
+        },
+        {
+            "title": "Lecture 18: Properties of Determinants",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/18.mp4",
+            "youtubeKey": "srxexLishgY",
+            "contentLength": 110698833,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 19: Determinant Formulas and Cofactors",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/19.mp4",
+            "youtubeKey": "23LLB9mNJvc",
+            "contentLength": 120709015,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 19: Determinant Formulas and Cofactors",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/19.mp4",
+            "youtubeKey": "23LLB9mNJvc",
+            "contentLength": 120709015,
+            "categories": []
+        },
+        {
+            "title": "Lecture 20: Cramer's Rule, Inverse Matrix and Volume",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/20.mp4",
+            "youtubeKey": "QNpj-gOXW9M",
+            "contentLength": 117083205,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 20: Cramer's Rule, Inverse Matrix and Volume",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/20.mp4",
+            "youtubeKey": "QNpj-gOXW9M",
+            "contentLength": 117083205,
+            "categories": []
+        },
+        {
+            "title": "Lecture 21: Eigenvalues and Eigenvectors",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/21.mp4",
+            "youtubeKey": "cdZnhQjJu4I",
+            "contentLength": 119896123,
+            "categories": []
+        },
+        {
+            "title": "Lecture 21: Eigenvalues and Eigenvectors",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/21.mp4",
+            "youtubeKey": "cdZnhQjJu4I",
+            "contentLength": 119896123,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 22: Diagonalization and Powers of A",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/22.mp4",
+            "youtubeKey": "13r9QY6cmjc",
+            "contentLength": 117149002,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 22: Diagonalization and Powers of A",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/22.mp4",
+            "youtubeKey": "13r9QY6cmjc",
+            "contentLength": 117149002,
+            "categories": []
+        },
+        {
+            "title": "Lecture 23: Differential Equations and exp(At)",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/23.mp4",
+            "youtubeKey": "IZqwi0wJovM",
+            "contentLength": 121129627,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 23: Differential Equations and exp(At)",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/23.mp4",
+            "youtubeKey": "IZqwi0wJovM",
+            "contentLength": 121129627,
+            "categories": []
+        },
+        {
+            "title": "Lecture 24: Markov Matrices; Fourier Series",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/24.mp4",
+            "youtubeKey": "lGGDIGizcQ0",
+            "contentLength": 119460500,
+            "categories": []
+        },
+        {
+            "title": "Lecture 24: Markov Matrices; Fourier Series",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/24.mp4",
+            "youtubeKey": "lGGDIGizcQ0",
+            "contentLength": 119460500,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 25: Symmetric Matrices and Positive Definiteness",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/25.mp4",
+            "youtubeKey": "UCc9q_cAhho",
+            "contentLength": 102375409,
+            "categories": []
+        },
+        {
+            "title": "Lecture 25: Symmetric Matrices and Positive Definiteness",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/25.mp4",
+            "youtubeKey": "UCc9q_cAhho",
+            "contentLength": 102375409,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 26: Complex Matrices; Fast Fourier Transform (FFT)",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/26.mp4",
+            "youtubeKey": "M0Sa8fLOajA",
+            "contentLength": 108639956,
+            "categories": []
+        },
+        {
+            "title": "Lecture 26: Complex Matrices; Fast Fourier Transform (FFT)",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/26.mp4",
+            "youtubeKey": "M0Sa8fLOajA",
+            "contentLength": 108639956,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 27: Positive Definite Matrices and Minima",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/27.mp4",
+            "youtubeKey": "vF7eyJ2g3kU",
+            "contentLength": 115156838,
+            "categories": []
+        },
+        {
+            "title": "Lecture 27: Positive Definite Matrices and Minima",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/27.mp4",
+            "youtubeKey": "vF7eyJ2g3kU",
+            "contentLength": 115156838,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 28: Similar Matrices and Jordan Form",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/28.mp4",
+            "youtubeKey": "TSdXJw83kyA",
+            "contentLength": 106837103,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 28: Similar Matrices and Jordan Form",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/28.mp4",
+            "youtubeKey": "TSdXJw83kyA",
+            "contentLength": 106837103,
+            "categories": []
+        },
+        {
+            "title": "Lecture 29: Singular Value Decomposition",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/29.mp4",
+            "youtubeKey": "TX_vooSnhm8",
+            "contentLength": 93818080,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 29: Singular Value Decomposition",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/29.mp4",
+            "youtubeKey": "TX_vooSnhm8",
+            "contentLength": 93818080,
+            "categories": []
+        },
+        {
+            "title": "Lecture 30: Linear Transformations and their Matrices",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/30.mp4",
+            "youtubeKey": "Ts3o2I8_Mxc",
+            "contentLength": 112366254,
+            "categories": []
+        },
+        {
+            "title": "Lecture 30: Linear Transformations and their Matrices",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/30.mp4",
+            "youtubeKey": "Ts3o2I8_Mxc",
+            "contentLength": 112366254,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 31: Change of Basis; Image Compression",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/31.mp4",
+            "youtubeKey": "0h43aV4aH7I",
+            "contentLength": 117291876,
+            "categories": []
+        },
+        {
+            "title": "Lecture 31: Change of Basis; Image Compression",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/31.mp4",
+            "youtubeKey": "0h43aV4aH7I",
+            "contentLength": 117291876,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 33: Left and Right Inverses; Pseudoinverse",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/33.mp4",
+            "youtubeKey": "Go2aLo7ZOlU",
+            "contentLength": 95770123,
+            "categories": []
+        },
+        {
+            "title": "Lecture 33: Left and Right Inverses; Pseudoinverse",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/33.mp4",
+            "youtubeKey": "Go2aLo7ZOlU",
+            "contentLength": 95770123,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture: Elimination with Matrices",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/02.mp4",
+            "youtubeKey": "QVKj3LADCnA",
+            "contentLength": 108128339,
+            "categories": []
+        },
+        {
+            "title": "Lecture: Elimination with Matrices",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/02.mp4",
+            "youtubeKey": "QVKj3LADCnA",
+            "contentLength": 108128339,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Linear Algebra Course Introduction",
+            "videoUrl": "https://archive.org/download/MIT18.06SCF11/MIT18_06SC_intro_300k.mp4",
+            "youtubeKey": "YeyrH-Oc2p4",
+            "contentLength": 17073913,
+            "categories": [
+                "Course Introduction"
+            ]
+        },
+        {
+            "title": "LU Decomposition",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110706_B1_300k.mp4",
+            "youtubeKey": "-eA2D_rIcNA",
+            "contentLength": 22347644,
+            "categories": []
+        },
+        {
+            "title": "LU Decomposition",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110706_B1_300k.mp4",
+            "youtubeKey": "-eA2D_rIcNA",
+            "contentLength": 22347644,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "Matrix Spaces",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110607_A1_300k.mp4",
+            "youtubeKey": "BaBoztM9Q1w",
+            "contentLength": 20843018,
+            "categories": []
+        },
+        {
+            "title": "Matrix Spaces",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110607_A1_300k.mp4",
+            "youtubeKey": "BaBoztM9Q1w",
+            "contentLength": 20843018,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "Matrix Spaces; Rank 1; Small World Graphs",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/11.mp4",
+            "youtubeKey": "2IdtqGM6KWU",
+            "contentLength": 109023514,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Matrix Spaces; Rank 1; Small World Graphs",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/11.mp4",
+            "youtubeKey": "2IdtqGM6KWU",
+            "contentLength": 109023514,
+            "categories": []
+        },
+        {
+            "title": "Multiplication and Inverse Matrices",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/03.mp4",
+            "youtubeKey": "FX4C-JpTFgY",
+            "contentLength": 111305176,
+            "categories": []
+        },
+        {
+            "title": "Multiplication and Inverse Matrices",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/03.mp4",
+            "youtubeKey": "FX4C-JpTFgY",
+            "contentLength": 111305176,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Orthogonal Vectors and Subspaces",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/14.mp4",
+            "youtubeKey": "YzZUIYRCE38",
+            "contentLength": 112211308,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Orthogonal Vectors and Subspaces",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/14.mp4",
+            "youtubeKey": "YzZUIYRCE38",
+            "contentLength": 112211308,
+            "categories": []
+        },
+        {
+            "title": "Problem Solving: Change of Basis",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110714_M1_300k.mp4",
+            "youtubeKey": "rMv2rDiOTsI",
+            "contentLength": 29050853,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "Problem Solving: Change of Basis",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110714_M1_300k.mp4",
+            "youtubeKey": "rMv2rDiOTsI",
+            "contentLength": 29050853,
+            "categories": []
+        },
+        {
+            "title": "Problem Solving: Complex Matrices",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110711_D2_300k.mp4",
+            "youtubeKey": "VYS9EYZ3gCo",
+            "contentLength": 30472514,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "Problem Solving: Complex Matrices",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110711_D2_300k.mp4",
+            "youtubeKey": "VYS9EYZ3gCo",
+            "contentLength": 30472514,
+            "categories": []
+        },
+        {
+            "title": "Problem Solving: Computing the Singular Value Decomposition",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110607_B2_300k.mp4",
+            "youtubeKey": "pSbafxDHdgE",
+            "contentLength": 27112402,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "Problem Solving: Determinants",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110526_L1_300k.mp4",
+            "youtubeKey": "B17h10EF59g",
+            "contentLength": 29952863,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "Problem Solving: Determinants",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110526_L1_300k.mp4",
+            "youtubeKey": "B17h10EF59g",
+            "contentLength": 29952863,
+            "categories": []
+        },
+        {
+            "title": "Problem Solving: Determinants and Volume",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110609_L4_300k.mp4",
+            "youtubeKey": "qEBi0K5wfOs",
+            "contentLength": 32246895,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "Problem Solving: Determinants and Volume",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110609_L4_300k.mp4",
+            "youtubeKey": "qEBi0K5wfOs",
+            "contentLength": 32246895,
+            "categories": []
+        },
+        {
+            "title": "Problem Solving: Determinants and VolumeComputing the Singular Value Decomposition",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110607_B2_300k.mp4",
+            "youtubeKey": "pSbafxDHdgE",
+            "contentLength": 27112402,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "Problem Solving: Determinants and VolumeDifferential Equations and exp(At)",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110531_L1_300k.mp4",
+            "youtubeKey": "FzncDO1eSNI",
+            "contentLength": 43571167,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "Problem Solving: Differential Equations and exp(At)",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110531_L1_300k.mp4",
+            "youtubeKey": "FzncDO1eSNI",
+            "contentLength": 43571167,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "Problem Solving: Eigenvalues and Eigenvectors",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110706_N2_300k.mp4",
+            "youtubeKey": "mVeuZzJdd1w",
+            "contentLength": 21980196,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "Problem Solving: Eigenvalues and Eigenvectors",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110706_N2_300k.mp4",
+            "youtubeKey": "mVeuZzJdd1w",
+            "contentLength": 21980196,
+            "categories": []
+        },
+        {
+            "title": "Problem Solving: Gram-Schmidt Orthogonalization",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110609_A1_300k.mp4",
+            "youtubeKey": "HEQuN0QELSQ",
+            "contentLength": 23329408,
+            "categories": []
+        },
+        {
+            "title": "Problem Solving: Gram-Schmidt Orthogonalization",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110609_A1_300k.mp4",
+            "youtubeKey": "HEQuN0QELSQ",
+            "contentLength": 23329408,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "Problem Solving: Least Squares Approximation",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110531_B1_300k.mp4",
+            "youtubeKey": "AmQcoopBUTk",
+            "contentLength": 18861189,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "Problem Solving: Least Squares Approximation",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110531_B1_300k.mp4",
+            "youtubeKey": "AmQcoopBUTk",
+            "contentLength": 18861189,
+            "categories": []
+        },
+        {
+            "title": "Problem Solving: Linear Transformations",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110714_N2_300k.mp4",
+            "youtubeKey": "2uDvRUowBzg",
+            "contentLength": 25116905,
+            "categories": []
+        },
+        {
+            "title": "Problem Solving: Linear Transformations",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110714_N2_300k.mp4",
+            "youtubeKey": "2uDvRUowBzg",
+            "contentLength": 25116905,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "Problem Solving: Markov Matrices",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110706_D2_300k.mp4",
+            "youtubeKey": "wuyAeWE3iIM",
+            "contentLength": 27599171,
+            "categories": []
+        },
+        {
+            "title": "Problem Solving: Markov Matrices",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110706_D2_300k.mp4",
+            "youtubeKey": "wuyAeWE3iIM",
+            "contentLength": 27599171,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "Problem Solving: Orthogonal Vectors and Subspaces",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110706_D1_300k.mp4",
+            "youtubeKey": "h9aDgvW59TU",
+            "contentLength": 24306785,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "Problem Solving: Orthogonal Vectors and Subspaces",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110706_D1_300k.mp4",
+            "youtubeKey": "h9aDgvW59TU",
+            "contentLength": 24306785,
+            "categories": []
+        },
+        {
+            "title": "Problem Solving: Positive Definite Matrices and Minima",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110714_M2_300k.mp4",
+            "youtubeKey": "cfn2ZUuWPd0",
+            "contentLength": 30000632,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "Problem Solving: Positive Definite Matrices and Minima",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110714_M2_300k.mp4",
+            "youtubeKey": "cfn2ZUuWPd0",
+            "contentLength": 30000632,
+            "categories": []
+        },
+        {
+            "title": "Problem Solving: Powers of a Matrix",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110531_B2_300k.mp4",
+            "youtubeKey": "5IGTFgPqlkw",
+            "contentLength": 21269398,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "Problem Solving: Powers of a Matrix",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110531_B2_300k.mp4",
+            "youtubeKey": "5IGTFgPqlkw",
+            "contentLength": 21269398,
+            "categories": []
+        },
+        {
+            "title": "Problem Solving: Projection onto Subspaces",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110706_N1_300k.mp4",
+            "youtubeKey": "t-n4a18AW08",
+            "contentLength": 22871315,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "Problem Solving: Properties of Determinants",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110531_A2_300k.mp4",
+            "youtubeKey": "55AoWKZZtww",
+            "contentLength": 23119356,
+            "categories": []
+        },
+        {
+            "title": "Problem Solving: Properties of Determinants",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110531_A2_300k.mp4",
+            "youtubeKey": "55AoWKZZtww",
+            "contentLength": 23119356,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "Problem Solving: Pseudoinverses",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110714_D1_300k.mp4",
+            "youtubeKey": "hSRcHTafkjE",
+            "contentLength": 34233573,
+            "categories": []
+        },
+        {
+            "title": "Problem Solving: Pseudoinverses",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110714_D1_300k.mp4",
+            "youtubeKey": "hSRcHTafkjE",
+            "contentLength": 34233573,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "Problem Solving: Similar Matrices",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110607_B1_300k.mp4",
+            "youtubeKey": "KUuxdk_V7To",
+            "contentLength": 19140643,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "Problem Solving: Similar Matrices",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110607_B1_300k.mp4",
+            "youtubeKey": "KUuxdk_V7To",
+            "contentLength": 19140643,
+            "categories": []
+        },
+        {
+            "title": "Problem Solving: Symmetric Matrices and Positive Definiteness",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110711_D1_300k.mp4",
+            "youtubeKey": "lpnY5QVjU5w",
+            "contentLength": 29578720,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "Problem Solving: Symmetric Matrices and Positive Definiteness",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110711_D1_300k.mp4",
+            "youtubeKey": "lpnY5QVjU5w",
+            "contentLength": 29578720,
+            "categories": []
+        },
+        {
+            "title": "Recitation: Elimination with Matrices",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110711_M1_300k.mp4",
+            "youtubeKey": "GLFg2UBMAxc",
+            "contentLength": 24067815,
+            "categories": []
+        },
+        {
+            "title": "Recitation: Elimination with Matrices",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110711_M1_300k.mp4",
+            "youtubeKey": "GLFg2UBMAxc",
+            "contentLength": 24067815,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "Solving Ax = 0: Pivot Variables, Special Solutions",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/07.mp4",
+            "youtubeKey": "VqP2tREMvt0",
+            "contentLength": 99033441,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Solving Ax = 0: Pivot Variables, Special Solutions",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/07.mp4",
+            "youtubeKey": "VqP2tREMvt0",
+            "contentLength": 99033441,
+            "categories": []
+        },
+        {
+            "title": "Solving Ax = b: Row Reduced Form R",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/08.mp4",
+            "youtubeKey": "9Q1q7s1jTzU",
+            "contentLength": 107645832,
+            "categories": []
+        },
+        {
+            "title": "Solving Ax = b: Row Reduced Form R",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/08.mp4",
+            "youtubeKey": "9Q1q7s1jTzU",
+            "contentLength": 107645832,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Solving Ax=0",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110711_M2_300k.mp4",
+            "youtubeKey": "3cMyj8EKFGo",
+            "contentLength": 23524491,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "Solving Ax=0",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110711_M2_300k.mp4",
+            "youtubeKey": "3cMyj8EKFGo",
+            "contentLength": 23524491,
+            "categories": []
+        },
+        {
+            "title": "Solving Ax=b",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110714_M3_300k.mp4",
+            "youtubeKey": "fjsPjh0B2tU",
+            "contentLength": 21160270,
+            "categories": []
+        },
+        {
+            "title": "Solving Ax=b",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110714_M3_300k.mp4",
+            "youtubeKey": "fjsPjh0B2tU",
+            "contentLength": 21160270,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "Subspaces of Three Dimensional Space",
+            "videoUrl": "https://archive.org/download/MIT18.06SCF11/MIT18_06SC_110607_L2_300k.mp4",
+            "youtubeKey": "QQpvGlF_1Qo",
+            "contentLength": 34402609,
+            "categories": []
+        },
+        {
+            "title": "Subspaces of Three Dimensional Space",
+            "videoUrl": "https://archive.org/download/MIT18.06SCF11/MIT18_06SC_110607_L2_300k.mp4",
+            "youtubeKey": "QQpvGlF_1Qo",
+            "contentLength": 34402609,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "The Four Fundamental Subspaces",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/10.mp4",
+            "youtubeKey": "nHlE7EgJFds",
+            "contentLength": 112762733,
+            "categories": []
+        },
+        {
+            "title": "The Four Fundamental Subspaces",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/10.mp4",
+            "youtubeKey": "nHlE7EgJFds",
+            "contentLength": 112762733,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "The Geometry of Linear Equations",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/01.mp4",
+            "youtubeKey": "J7DzL2_Na80",
+            "contentLength": 92409278,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "The Geometry of Linear Equations",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/01.mp4",
+            "youtubeKey": "J7DzL2_Na80",
+            "contentLength": 92409278,
+            "categories": []
+        },
+        {
+            "title": "Transposes, Permutations, Vector Spaces",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/05.mp4",
+            "youtubeKey": "JibVXBElKL0",
+            "contentLength": 108271626,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Transposes, Permutations, Vector Spaces",
+            "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/05.mp4",
+            "youtubeKey": "JibVXBElKL0",
+            "contentLength": 108271626,
+            "categories": []
+        },
+        {
+            "title": "Vector Subspaces",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110711_N2_300k.mp4",
+            "youtubeKey": "S8DQZjE4V8U",
+            "contentLength": 20453875,
+            "categories": []
+        },
+        {
+            "title": "Vector Subspaces",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110711_N2_300k.mp4",
+            "youtubeKey": "S8DQZjE4V8U",
+            "contentLength": 20453875,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "三维空间的子空间",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11-zh/MIT18_06SC_110607_L3_zh-hans-cmn_300k.mp4",
+            "youtubeKey": "VyPIQ_8QqEk",
+            "contentLength": 30493414,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "三维空间的子空间",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11-zh/MIT18_06SC_110607_L3_zh-hans-cmn_300k.mp4",
+            "youtubeKey": "VyPIQ_8QqEk",
+            "contentLength": 30493414,
+            "categories": []
+        },
+        {
+            "title": "微分方程指数矩阵(At)",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11-zh/MIT18_06SC_110531_L2_zh-hans-cmn_300k.mp4",
+            "youtubeKey": "fiSp3Ss-Yo8",
+            "contentLength": 34413874,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "微分方程指数矩阵(At)",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11-zh/MIT18_06SC_110531_L2_zh-hans-cmn_300k.mp4",
+            "youtubeKey": "fiSp3Ss-Yo8",
+            "contentLength": 34413874,
+            "categories": []
+        },
+        {
+            "title": "第二次考试例题",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11-zh/MIT18_06SC_110609_L1_zh-hans-cmn_300k.mp4",
+            "youtubeKey": "ThxvK9t7DNo",
+            "contentLength": 43128366,
+            "categories": []
+        },
+        {
+            "title": "第二次考试例题",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11-zh/MIT18_06SC_110609_L1_zh-hans-cmn_300k.mp4",
+            "youtubeKey": "ThxvK9t7DNo",
+            "contentLength": 43128366,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "线性代数的几何表示",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11-zh/MIT18_06SC_110609_L3_zh-hans-cmn_300k.mp4",
+            "youtubeKey": "mgbjhzDndOY",
+            "contentLength": 36058760,
+            "categories": []
+        },
+        {
+            "title": "线性代数的几何表示",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11-zh/MIT18_06SC_110609_L3_zh-hans-cmn_300k.mp4",
+            "youtubeKey": "mgbjhzDndOY",
+            "contentLength": 36058760,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "行列式",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11-zh/MIT18_06SC_110526_L2_zh-hans-cmn_300k.mp4",
+            "youtubeKey": "ZyYGJc9jNno",
+            "contentLength": 28200957,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "行列式",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11-zh/MIT18_06SC_110526_L2_zh-hans-cmn_300k.mp4",
+            "youtubeKey": "ZyYGJc9jNno",
+            "contentLength": 28200957,
+            "categories": []
+        },
+        {
+            "title": "行列式和体积",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11-zh/MIT18_06SC_110531_L4_zh-hans-cmn_300k.mp4",
+            "youtubeKey": "ZuWAwCEMeWE",
+            "contentLength": 26846119,
+            "categories": [
+                "Recitation Videos"
+            ]
+        },
+        {
+            "title": "行列式和体积",
+            "videoUrl": "http://www.archive.org/download/MIT18.06SCF11-zh/MIT18_06SC_110531_L4_zh-hans-cmn_300k.mp4",
+            "youtubeKey": "ZuWAwCEMeWE",
+            "contentLength": 26846119,
+            "categories": []
+        }
+    ]
+}

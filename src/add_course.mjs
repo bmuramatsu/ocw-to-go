@@ -74,13 +74,18 @@ for (const dataPath of dataPaths) {
       videoUrl,
       youtubeKey: dataJSON["youtube_key"],
       contentLength: length,
+      // these seem to be applied very inconsistently
       categories: dataJSON["learning_resource_types"],
     });
   }
 }
 
+cardData.videos.sort((a, b) =>
+  a.title.localeCompare(b.title, undefined, { numeric: true }),
+);
+
 const safeName = cardData.name
-  .toLowerCase() // Lowercase everything
+  .toLowerCase()
   .replace(/[^a-z0-9]/g, "-") // Replace non-alphanumeric with hyphens
   .replace(/-+/g, "-") // Collapse multiple hyphens
   .replace(/^-+|-+$/g, ""); // Trim leading/trailing hyphens
@@ -90,4 +95,7 @@ fs.writeFileSync(
   `src/courses/${safeName}.json`,
   JSON.stringify(cardData, null, 4),
 );
-console.log(`wrote src/courses/${safeName}.json`);
+
+console.log(
+  `wrote src/courses/${safeName}.json, please review and import into src/app/initial_course_list.ts`,
+);

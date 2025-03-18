@@ -1,0 +1,252 @@
+{
+    "id": "0d7cf6b1-07d3-4577-9858-19e9881653f8",
+    "name": "Introduction to CS and Programming using Python",
+    "topics": [
+        "Engineering",
+        "Computer Science",
+        "Programming Languages"
+    ],
+    "instructors": [
+        "Dr. Ana Bell"
+    ],
+    "courseLevel": "6.100L | Undergraduate",
+    "cardImg": "/images/course_cards/0d7cf6b1-07d3-4577-9858-19e9881653f8.jpg",
+    "imgAltText": "Closeup of sunflower petals and seeds. ",
+    "file": "[upload to R2 bucket and put path here]",
+    "videos": [
+        {
+            "title": "Lecture 1: Introduction to CS and Programming Using Python",
+            "videoUrl": "https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-1-version-2_360p_16_9.mp4",
+            "youtubeKey": "xAcTmDO6NTI",
+            "contentLength": 98848218,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 2: Strings, Input/Output, and Branching",
+            "videoUrl": "https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-2-multi-version-4_1_360p_16_9.mp4",
+            "youtubeKey": "UdEX0E9lIQM",
+            "contentLength": 143650441,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 3: Iteration",
+            "videoUrl": "https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-3-multi_360p_16_9.mp4",
+            "youtubeKey": "lzYrMcI92kw",
+            "contentLength": 74221676,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 4: Loops over Strings, Guess-and-Check, and Binary",
+            "videoUrl": "https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-4-multi_360p_16_9.mp4",
+            "youtubeKey": "fWNZAw5Bmco",
+            "contentLength": 136866992,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 5: Floats and Approximation Methods",
+            "videoUrl": "https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-5-multi_360p_16_9.mp4",
+            "youtubeKey": "OF2sr5e7PrY",
+            "contentLength": 78738256,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 6: Bisection Search (FIXED)",
+            "videoUrl": "https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-6-multi-version-3_360p_16_9.mp4",
+            "youtubeKey": "PJ_5VNvJGtA",
+            "contentLength": 138327969,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 7: Decomposition, Abstraction, and Functions",
+            "videoUrl": "https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-7-multi_360p_16_9.mp4",
+            "youtubeKey": "Qf6OVR8MLnU",
+            "contentLength": 73171448,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 8: Functions as Objects",
+            "videoUrl": "https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-8-version-2_360p_16_9.mp4",
+            "youtubeKey": "0fEJFRKJN4U",
+            "contentLength": 132528943,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 9: Lambda Functions, Tuples, and Lists",
+            "videoUrl": "https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-9-version-2_360p_16_9.mp4",
+            "youtubeKey": "h5abkZ_Ch6c",
+            "contentLength": 75436756,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 10: Lists and Mutability (FIXED)",
+            "videoUrl": "https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-10-version-3_1_360p_16_9.mp4",
+            "youtubeKey": "Z4bm7xzYpKM",
+            "contentLength": 113788561,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 11: Aliasing and Cloning",
+            "videoUrl": "https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-11-version-2_360p_16_9.mp4",
+            "youtubeKey": "hpsp-LQurco",
+            "contentLength": 71333365,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 12: List Comprehension, Functions as Objects, Testing, and Debugging (FIXED)",
+            "videoUrl": "https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-12-multi-version-4_360p_16_9.mp4",
+            "youtubeKey": "AZBxs3OvFrY",
+            "contentLength": 131704846,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 13: Exceptions and Assertions",
+            "videoUrl": "https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-13-version-2_360p_16_9.mp4",
+            "youtubeKey": "qT3_7FMuv-U",
+            "contentLength": 76853469,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 14: Dictionaries",
+            "videoUrl": "https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-14-multi_360p_16_9.mp4",
+            "youtubeKey": "lTgLOuaQsvk",
+            "contentLength": 126365892,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 15: Recursion",
+            "videoUrl": "https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-15-version-2_360p_16_9.mp4",
+            "youtubeKey": "Bbyp4VRbmyY",
+            "contentLength": 77457829,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 16: Recursion on Non-numerics",
+            "videoUrl": "https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-16-multi-version-2_360p_16_9.mp4",
+            "youtubeKey": "2XxGplWqXVQ",
+            "contentLength": 121795322,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 17: Python Classes",
+            "videoUrl": "https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-17-version-2_360p_16_9.mp4",
+            "youtubeKey": "tsMrUdynbQQ",
+            "contentLength": 70597602,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 18: More Python Class Methods",
+            "videoUrl": "https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-18-multi-version-2_360p_16_9.mp4",
+            "youtubeKey": "gLnCmUkgUQk",
+            "contentLength": 134105925,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 19: Inheritance",
+            "videoUrl": "https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-19-multi-version-2_360p_16_9.mp4",
+            "youtubeKey": "rgM7Z9BNm1s",
+            "contentLength": 125254604,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 20: Fitness Tracker Object-Oriented Programming Example",
+            "videoUrl": "https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-20-version-2_360p_16_9.mp4",
+            "youtubeKey": "-wyc5FwzkcM",
+            "contentLength": 140992558,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 21: Timing Programs and Counting Operations",
+            "videoUrl": "https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-21-version-2_360p_16_9.mp4",
+            "youtubeKey": "lvp4NfED6K4",
+            "contentLength": 59466379,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 22: Big Oh and Theta",
+            "videoUrl": "https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-22-version-2_360p_16_9.mp4",
+            "youtubeKey": "RJhoT5PEf_0",
+            "contentLength": 140908119,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 23: Complexity Classes Examples",
+            "videoUrl": "https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-23-version-2_360p_16_9.mp4",
+            "youtubeKey": "loX34ct0hxs",
+            "contentLength": 127219520,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 24: Sorting Algorithms",
+            "videoUrl": "https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-24-version-2_360p_16_9.mp4",
+            "youtubeKey": "R8Rw9mIa7JQ",
+            "contentLength": 83164265,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 25: Plotting",
+            "videoUrl": "https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-25-multi_360p_16_9.mp4",
+            "youtubeKey": "Jov7G7IpuLo",
+            "contentLength": 127104976,
+            "categories": [
+                "Lecture Videos"
+            ]
+        },
+        {
+            "title": "Lecture 26: List Access, Hashing, Simulations, and Wrap-Up",
+            "videoUrl": "https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-26-multi_360p_16_9.mp4",
+            "youtubeKey": "4H0GXzQ41t0",
+            "contentLength": 105799465,
+            "categories": [
+                "Lecture Videos"
+            ]
+        }
+    ]
+}
