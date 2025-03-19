@@ -1,100 +1,90 @@
-import { CourseData, VideoQueue, VideoQueueItem, UserVideo } from "../types";
+import { VideoData, VideoQueue, VideoQueueItem } from "../types";
+import { COURSES_BY_ID } from "./initial_course_list";
+import { AppMiddlewareAPI } from "./store/store";
+import { userActions } from "./store/user_store";
 
 const VIDEO_HOST = "https://ocw.mit.edu";
 
-// This maintains a queue of videos to download and downloads them one at a time.
-// It is initialized from the react app, and public functions may be called from the app.
-// In order to inform the app of changes to the queue, it accepts callback functions.
-// This way it doesn't have to be aware of react/redux.
-
-// It was put into a class instead of done in react directly because of the complexity of
-// managing the queue. React hooks are not well suited to this kind of state management.
 export default class VideoDownloader {
-  #queue: VideoQueue = [];
-  #currentVideo: VideoQueueItem | undefined = undefined;
-  #setQueue: (queue: VideoQueue) => void;
-  #updateVideo: (courseId: string, videoId: string, updates: Partial<UserVideo>) => void;
-  #canceller: AbortController;
+  store: AppMiddlewareAPI;
+  canceller: AbortController;
+  running: VideoQueueItem | null;
 
-  constructor(
-    setQueue: (queue: VideoQueue) => void,
-    updateVideo: (courseId: string, videoId: string, updates: Partial<UserVideo>) => void,
-  ) {
-    this.#setQueue = setQueue;
-    this.#updateVideo = updateVideo;
-    this.#canceller = new AbortController();
+  constructor(store: AppMiddlewareAPI) {
+    this.store = store;
+    this.canceller = new AbortController();
+    this.running = null;
   }
 
-  #postQueue() {
-    const copy = [...this.#queue];
-    if (this.#currentVideo) {
-      copy.unshift(this.#currentVideo);
+  get queue(): VideoQueue {
+    return this.store.getState().user.videoQueue;
+  }
+
+  bump() {
+    const next = this.queue[0];
+    if (!this.running && next) {
+      this.running = next;
+      this.downloadItem();
     }
-    this.#setQueue(copy);
   }
 
-  async addCourseToQueue(course: CourseData) {
-    await caches.open(`course-videos-${course.id}`);
+  abortCourseDownload(courseId: string) {
+    if (this.running?.courseId == courseId) {
+      this.canceller.abort();
+      this.canceller = new AbortController();
+      this.running = null;
+    }
+  }
 
-    for await (const video of course.videos) {
-      const exists = await caches.match(
-        `/course-videos/${course.id}/${video.youtubeKey}.mp4`,
+  async downloadItem() {
+    const item = this.running!;
+
+    let url = this.video(item.courseId, item.videoId).videoUrl;
+    const doOpaqueRequest = !url.startsWith(VIDEO_HOST);
+    // some of the archive.org links are http, but seem to work fine over https
+    url = url.replace(/^http:/, "https:");
+
+    try {
+      const response = await fetch(url, {
+        mode: doOpaqueRequest ? "no-cors" : "cors",
+        signal: this.canceller.signal,
+      });
+
+      console.log("response", response);
+      // opaque request is never 'ok', we just accept whatever the response is
+      if (!response.ok && !doOpaqueRequest) {
+        throw new Error(`Failed to download video: ${response.statusText}`);
+      }
+
+      const cache = await caches.open(`course-videos-${item.courseId}`);
+      await cache.put(
+        `/course-videos/${item.courseId}/${item.videoId}.mp4`,
+        response,
       );
-      if (!exists) {
-        this.#queue.push({course, video});
-      }
-    }
-    if (!this.#currentVideo) {
-      this.#startDownload();
-    } else {
-      this.#postQueue();
-    }
-  }
+      this.finishDownload(true);
+    } catch (e) {
+      console.error("Failed to download", item, e);
 
-  async cancelDownload(courseId: string) {
-    this.#queue = this.#queue.filter((item) => item.course.id !== courseId);
-    const oldCanceller = this.#canceller;
-    // once it has been aborted, all future requests will be aborted, so we need to create a new one.
-    // I assign it before creating so that future iterations of the loop will use the new one
-    this.#canceller = new AbortController();
-    oldCanceller.abort();
-    this.#postQueue();
-  }
-
-  async #startDownload() {
-    while ((this.#currentVideo = this.#queue.shift())) {
-      this.#postQueue();
-
-      try {
-        let url = this.#currentVideo.video.videoUrl;
-        const doOpaqueRequest = !url.startsWith(VIDEO_HOST);
-        // some of the archive.org links are http, but seem to work fine over https
-        url = url.replace(/^http:/, "https:");
-
-        const response = await fetch(url, {
-          mode: doOpaqueRequest ? "no-cors" : "cors",
-          signal: this.#canceller.signal,
-        });
-
-        // opaque request is never 'ok', we just accept whatever the response is
-        if (!response.ok && !doOpaqueRequest) {
-          throw new Error(`Failed to download video: ${response.statusText}`);
-        }
-
-        const cache = await caches.open(
-          `course-videos-${this.#currentVideo.course.id}`,
-        );
-        await cache.put(
-          `/course-videos/${this.#currentVideo.course.id}/${this.#currentVideo.video.youtubeKey}.mp4`,
-          response,
-        );
-
-        this.#updateVideo(this.#currentVideo.course.id, this.#currentVideo.video.youtubeKey, {ready: true});
-      } catch (e: unknown) {
-        console.error("Failed to download", this.#currentVideo, e);
+      // If the download was aborted, allow the middleware to clean up the queue
+      // and bump the downloader
+      const wasAborted = e instanceof DOMException && e.name === "AbortError";
+      console.error("was aborted", wasAborted);
+      if (!wasAborted) {
+        this.finishDownload(false);
       }
     }
 
-    this.#postQueue();
+  }
+
+  video(courseId: string, videoId: string): VideoData {
+    return COURSES_BY_ID[courseId].videos.find(
+      (video) => video.youtubeKey === videoId,
+    )!;
+  }
+
+  finishDownload(success: boolean) {
+    this.running = null;
+    this.store.dispatch(userActions.finishVideoDownload({ success }));
+    this.bump();
   }
 }

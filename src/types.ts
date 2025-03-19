@@ -39,18 +39,19 @@ export const newUserCourse = (
   ...params,
 });
 
+// TODO make this partial
 export type UserCourses = Record<string, UserCourse | null>;
 
 export type UserVideo = {
   ready: boolean;
 }
 
-export type CourseVideos = Record<string, UserVideo | null>
-export type UserVideos = Record<string, CourseVideos | null>;
+export type CourseVideos = Partial<Record<string, UserVideo>>;
+export type UserVideos = Partial<Record<string, CourseVideos>>;
 
 export type VideoQueueItem = {
-  course: CourseData;
-  video: VideoData;
+  courseId: string;
+  videoId: string;
 };
 
 export type VideoQueue = VideoQueueItem[];

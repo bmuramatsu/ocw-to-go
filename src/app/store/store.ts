@@ -1,17 +1,31 @@
 // Global app state is stored in redux. It can be accessed
 // with types using the useApp* hooks below.
-import { configureStore } from "@reduxjs/toolkit";
+import {
+  combineReducers,
+  configureStore,
+  MiddlewareAPI,
+  Middleware,
+} from "@reduxjs/toolkit";
 import { useDispatch, useSelector, useStore } from "react-redux";
 import user from "./user_store";
+import videoDownloadMiddleware from "./video_download_middleware";
+
+const rootReducer = combineReducers({ user });
 
 export const store = configureStore({
-  reducer: { user },
+  reducer: rootReducer,
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware().concat(videoDownloadMiddleware),
 });
 
+export type RootState = ReturnType<typeof rootReducer>;
 export type AppStore = typeof store;
-export type RootState = ReturnType<typeof store.getState>;
 export type AppDispatch = typeof store.dispatch;
 
 export const useAppDispatch = useDispatch.withTypes<AppDispatch>();
 export const useAppSelector = useSelector.withTypes<RootState>();
 export const useAppStore = useStore.withTypes<AppStore>();
+
+export type AppMiddleware = Middleware<{}, RootState>;
+export type AppMiddlewareAPI = MiddlewareAPI<AppDispatch, RootState>;
+

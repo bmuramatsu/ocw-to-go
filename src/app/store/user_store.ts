@@ -11,7 +11,7 @@ import {
   VideoQueue,
 } from "../../types";
 
-interface UserStore {
+export interface UserStore {
   userCourses: UserCourses;
   userVideos: UserVideos;
   videoQueue: VideoQueue;
@@ -45,16 +45,36 @@ const userStore = createSlice({
       delete state.userCourses[action.payload.courseId];
       delete state.userVideos[action.payload.courseId];
     },
+    addToVideoQueue(state, action: PayloadAction<VideoQueue>) {
+      state.videoQueue.push(...action.payload);
+    },
     updateVideoQueue: (state, action: PayloadAction<VideoQueue>) => {
       state.videoQueue = action.payload;
     },
-    updateUserVideo: (state, action: PayloadAction<{ courseId: string; videoId: string; updates: Partial<UserVideo> }>) => {
+    updateUserVideo: (
+      state,
+      action: PayloadAction<{
+        courseId: string;
+        videoId: string;
+        updates: Partial<UserVideo>;
+      }>,
+    ) => {
       const { courseId, videoId, updates } = action.payload;
       if (!state.userVideos[courseId]) {
         state.userVideos[courseId] = {};
       }
       state.userVideos[courseId][videoId] = { ready: false, ...updates };
-    }
+    },
+    finishVideoDownload: (state, action: PayloadAction<{ success: boolean }>) => {
+      const item = state.videoQueue.shift()!;
+
+      state.userVideos[item.courseId] ||= {};
+      const video = state.userVideos[item.courseId]![item.videoId] ||= { ready: false };
+      state.userVideos[item.courseId]![item.videoId] = {...video, ready: action.payload.success};
+    },
+    removeCourseVideosFromQueue: (state, action: PayloadAction<string>) => {
+      state.videoQueue = state.videoQueue.filter((item) => item.courseId !== action.payload);
+    },
   },
 });
 
@@ -67,3 +87,5 @@ export const {
   updateVideoQueue,
   updateUserVideo,
 } = userStore.actions;
+
+export const userActions = userStore.actions;

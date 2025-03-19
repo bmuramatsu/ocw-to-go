@@ -5,9 +5,13 @@ import { CourseData, CourseVideos, newUserCourse } from "../types";
 import { Cancel, Checkmark, Download, Loader, Trash } from "./svgs";
 import CourseLink from "./course_link";
 import useDownloadCourse from "./use_download_course";
-import { useDownloadVideos } from "./video_downloader_context";
 import useRemoveCourse from "./use_remove_course";
 import { useAppSelector } from "./store/store";
+import { useDispatch } from "react-redux";
+import {
+  downloadCourseVideos,
+  cancelCourseDownload,
+} from "./store/custom_actions";
 
 interface Props {
   courseData: CourseData;
@@ -30,12 +34,12 @@ export default function CourseListItem({ courseData }: Props) {
 
   const inQueue = useAppSelector(
     ({ user }) =>
-      !!user.videoQueue.find(({ course: { id } }) => id === courseData.id),
+      !!user.videoQueue.find(({ courseId }) => courseId === courseData.id),
   );
 
   const downloadCourse = useDownloadCourse(courseData);
   const removeCourse = useRemoveCourse(courseData.id);
-  const videoDownloader = useDownloadVideos();
+  const dispatch = useDispatch();
 
   function confirmRemove() {
     if (
@@ -110,14 +114,14 @@ export default function CourseListItem({ courseData }: Props) {
                 </button>
                 <button
                   className="icon-btn"
-                  onClick={() => videoDownloader.cancelDownload(userCourse.id)}
+                  onClick={() => dispatch(cancelCourseDownload(courseData.id))}
                 >
                   <Cancel />
                 </button>
               </div>
             ) : totalVideos !== finishedVideos ? (
               <button
-                onClick={() => videoDownloader.addCourseToQueue(courseData)}
+                onClick={() => dispatch(downloadCourseVideos(courseData))}
                 className="btn--has-icon"
               >
                 <Download />
