@@ -59,7 +59,8 @@ for (const dataPath of dataPaths) {
 
   if (
     dataJSON["resource_type"] === "Video" &&
-    (dataJSON["file"] || dataJSON["archive_url"])
+    (dataJSON["file"] || dataJSON["archive_url"]) &&
+    !cardData.videos.some((v) => v.youtubeKey === dataJSON.youtube_key)
   ) {
     console.log(`getting length for ${dataJSON.title}`);
     const videoUrl = dataJSON["file"]
