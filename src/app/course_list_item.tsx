@@ -1,7 +1,7 @@
 // This is a course card, which displays metadata about the course,
 // and status information about the state of the course download.
 import React from "react";
-import { CourseData, newUserCourse } from "../types";
+import { CourseData, CourseVideos, newUserCourse } from "../types";
 import { Cancel, Checkmark, Download, Loader, Trash } from "./svgs";
 import CourseLink from "./course_link";
 import useDownloadCourse from "./use_download_course";
@@ -17,13 +17,16 @@ export default function CourseListItem({ courseData }: Props) {
   const userCourse =
     useAppSelector(({ user }) => user.userCourses[courseData.id]) ||
     newUserCourse(courseData.id);
-  const videoStatus = useAppSelector(
-    ({ user }) => user.userVideos[courseData.id] || {},
-  );
+
+  const videoStatus: CourseVideos =
+    useAppSelector(({ user }) => user.userVideos[courseData.id]) || {};
+
   const totalVideos = courseData.videos.length;
   let finishedVideos = 0;
 
-  Object.values(videoStatus).forEach((video) => {if (video?.ready) finishedVideos++});
+  Object.values(videoStatus).forEach((video) => {
+    if (video?.ready) finishedVideos++;
+  });
 
   const inQueue = useAppSelector(
     ({ user }) =>
