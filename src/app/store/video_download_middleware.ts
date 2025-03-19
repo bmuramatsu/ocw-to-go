@@ -1,6 +1,6 @@
 import { CourseData, VideoQueue } from "../../types";
 import VideoDownloader from "../video_downloader";
-import { cancelCourseDownload, downloadCourseVideos } from "./custom_actions";
+import * as customActions from "./custom_actions";
 import { AppMiddleware } from "./store";
 import { userActions, UserStore } from "./user_store";
 
@@ -9,18 +9,22 @@ const videoDownloadMiddleware: AppMiddleware = (store) => {
 
   return (next) => (action) => {
     console.log(action, store.getState().user);
+    function cancelCourseDownload(courseId: string) {
+      store.dispatch(userActions.removeCourseVideosFromQueue(courseId))
+      downloader.abortCourseDownload(courseId);
+      // bump in case there are other courses queued;
+      downloader.bump();
+      }
 
-    if (downloadCourseVideos.match(action)) {
+    if (customActions.downloadCourseVideos.match(action)) {
       const newItems = missingCourseVideos(action.payload, store.getState().user);
       store.dispatch(userActions.addToVideoQueue(newItems));
       downloader.bump();
-    }
-
-    if (cancelCourseDownload.match(action)) {
-      store.dispatch(userActions.removeCourseVideosFromQueue(action.payload))
-      downloader.abortCourseDownload(action.payload);
-      // bump in case there are other courses queued;
-      downloader.bump();
+    } else if (customActions.cancelCourseDownload.match(action)) {
+      cancelCourseDownload(action.payload.courseId);
+    } else if (userActions.deleteCourse.match(action)) {
+      // cancel just in case downloads are currently running
+      cancelCourseDownload(action.payload.courseId);
     }
 
     return next(action);

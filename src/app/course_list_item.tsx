@@ -83,7 +83,7 @@ export default function CourseListItem({ courseData }: Props) {
             Course downloaded
           </p>
         )}
-        {videoStatus && !!totalVideos && (
+        {userCourse.ready && !!totalVideos && (
           <p className="u-mt-8 inline-icon">
             {finishedVideos === totalVideos && <Checkmark />}
             {finishedVideos}/{totalVideos} videos downloaded
@@ -104,7 +104,7 @@ export default function CourseListItem({ courseData }: Props) {
           </button>
         )}
 
-        {videoStatus && !!totalVideos && (
+        {userCourse.ready && !!totalVideos && (
           <>
             {inQueue ? (
               <div className="combo-btn">
@@ -114,7 +114,9 @@ export default function CourseListItem({ courseData }: Props) {
                 </button>
                 <button
                   className="icon-btn"
-                  onClick={() => dispatch(cancelCourseDownload(courseData.id))}
+                  onClick={() =>
+                    dispatch(cancelCourseDownload({ courseId: courseData.id }))
+                  }
                 >
                   <Cancel />
                 </button>
