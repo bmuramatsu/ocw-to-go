@@ -23,24 +23,21 @@ export type VideoData = {
 
 export type UserCourse = {
   // can this go?
-  id: string;
+  //id: string;
   ready: boolean;
   // can this go or be consolidated
   status: string;
 };
 
 export const newUserCourse = (
-  courseId: string,
   params: Partial<UserCourse> = {},
 ): UserCourse => ({
-  id: courseId,
   ready: false,
   status: "",
   ...params,
 });
 
-// TODO make this partial
-export type UserCourses = Record<string, UserCourse | null>;
+export type UserCourses = Partial<Record<string, UserCourse>>;
 
 export type UserVideo = {
   ready: boolean;

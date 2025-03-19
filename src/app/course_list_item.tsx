@@ -20,7 +20,7 @@ interface Props {
 export default function CourseListItem({ courseData }: Props) {
   const userCourse =
     useAppSelector(({ user }) => user.userCourses[courseData.id]) ||
-    newUserCourse(courseData.id);
+    newUserCourse();
 
   const videoStatus: CourseVideos =
     useAppSelector(({ user }) => user.userVideos[courseData.id]) || {};
@@ -54,7 +54,8 @@ export default function CourseListItem({ courseData }: Props) {
   return (
     <>
       <CourseLink
-        userCourse={userCourse}
+        ready={userCourse.ready}
+        courseId={courseData.id}
         className="course-card__img"
         aria-hidden
         tabIndex={-1}
@@ -68,7 +69,7 @@ export default function CourseListItem({ courseData }: Props) {
       <div className="course-card__content">
         <p className="u-all-caps">{courseData.courseLevel}</p>
         <h3>
-          <CourseLink userCourse={userCourse}>{courseData.name}</CourseLink>
+          <CourseLink ready={userCourse.ready} courseId={courseData.id}>{courseData.name}</CourseLink>
         </h3>
         <p className="u-mt-12">
           <span>Instructor:</span> {courseData.instructors.join(", ")}

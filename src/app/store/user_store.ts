@@ -39,7 +39,7 @@ const userStore = createSlice({
       action: PayloadAction<{ courseId: string; updates: Partial<UserCourse> }>,
     ) => {
       const { courseId, updates } = action.payload;
-      const course = state.userCourses[courseId] || newUserCourse(courseId);
+      const course = state.userCourses[courseId] || newUserCourse();
       state.userCourses[courseId] = { ...course, ...updates };
     },
     deleteCourse: (state, action: PayloadAction<{ courseId: string }>) => {
