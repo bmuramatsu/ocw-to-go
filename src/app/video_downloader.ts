@@ -23,8 +23,7 @@ export default class VideoDownloader {
   bump() {
     const next = this.queue[0];
     if (!this.running && next) {
-      this.running = next;
-      this.downloadItem();
+      this.downloadItem(next);
     }
   }
 
@@ -36,8 +35,8 @@ export default class VideoDownloader {
     }
   }
 
-  async downloadItem() {
-    const item = this.running!;
+  async downloadItem(item: VideoQueueItem) {
+    this.running = item;
 
     let url = this.video(item.courseId, item.videoId).videoUrl;
     const doOpaqueRequest = !url.startsWith(VIDEO_HOST);
@@ -61,7 +60,7 @@ export default class VideoDownloader {
         `/course-videos/${item.courseId}/${item.videoId}.mp4`,
         response,
       );
-      this.finishDownload(true);
+      this.finishDownload(true, item);
     } catch (e) {
       console.error("Failed to download", item, e);
 
@@ -70,7 +69,7 @@ export default class VideoDownloader {
       const wasAborted = e instanceof DOMException && e.name === "AbortError";
       console.error("was aborted", wasAborted);
       if (!wasAborted) {
-        this.finishDownload(false);
+        this.finishDownload(false, item);
       }
     }
 
@@ -82,9 +81,9 @@ export default class VideoDownloader {
     )!;
   }
 
-  finishDownload(success: boolean) {
+  finishDownload(success: boolean, item: VideoQueueItem) {
     this.running = null;
-    this.store.dispatch(userActions.finishVideoDownload({ success }));
+    this.store.dispatch(userActions.finishVideoDownload({ success, item }));
     this.bump();
   }
 }

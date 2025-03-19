@@ -9,6 +9,7 @@ import {
   UserVideos,
   UserVideo,
   VideoQueue,
+  VideoQueueItem,
 } from "../../types";
 
 export interface UserStore {
@@ -65,12 +66,19 @@ const userStore = createSlice({
       }
       state.userVideos[courseId][videoId] = { ready: false, ...updates };
     },
-    finishVideoDownload: (state, action: PayloadAction<{ success: boolean }>) => {
-      const item = state.videoQueue.shift()!;
+    finishVideoDownload: (state, action: PayloadAction<{ success: boolean, item: VideoQueueItem }>) => {
+      // the item should be the first in the list, but just in case some other
+      // modification has happened to the queue, we do it safely
+      const { item, success } = action.payload;
+      const index = state.videoQueue.findIndex((item) => item.courseId === action.payload.item.courseId && item.videoId === action.payload.item.videoId);
+
+      if (index !== -1) {
+        state.videoQueue.splice(index, 1);
+      }
 
       state.userVideos[item.courseId] ||= {};
       const video = state.userVideos[item.courseId]![item.videoId] ||= { ready: false };
-      state.userVideos[item.courseId]![item.videoId] = {...video, ready: action.payload.success};
+      state.userVideos[item.courseId]![item.videoId] = {...video, ready: success};
     },
     removeCourseVideosFromQueue: (state, action: PayloadAction<string>) => {
       state.videoQueue = state.videoQueue.filter((item) => item.courseId !== action.payload);
