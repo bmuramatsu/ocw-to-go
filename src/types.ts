@@ -21,19 +21,16 @@ export type VideoData = {
   captionsFile: string | null;
 };
 
+export type CourseStatus = "none" | "downloading" | "preparing" | "ready" | "error";
+
 export type UserCourse = {
-  // can this go?
-  //id: string;
-  ready: boolean;
-  // can this go or be consolidated
-  status: string;
+  status: CourseStatus;
 };
 
 export const newUserCourse = (
   params: Partial<UserCourse> = {},
 ): UserCourse => ({
-  ready: false,
-  status: "",
+  status: "none",
   ...params,
 });
 

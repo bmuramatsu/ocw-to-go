@@ -24,7 +24,7 @@ async function getInitialUserCourses(): Promise<UserCourses> {
   for await (const course of ALL_COURSES) {
     const ready = cacheKeys.includes(`course-${course.id}`);
     if (ready) {
-      courses[course.id] = newUserCourse({ ready: true });
+      courses[course.id] = newUserCourse({ status: "ready" });
     }
   }
 

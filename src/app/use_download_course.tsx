@@ -16,11 +16,11 @@ export default function useDownloadCourse(courseData: CourseData) {
     };
 
     try {
-      update({ status: "Downloading" });
+      update({ status: "downloading" });
       const resp = await fetch(path);
       const zipBlob = await resp.blob();
       const zip = await new JSZip().loadAsync(zipBlob);
-      update({ status: "Preparing" });
+      update({ status: "preparing" });
       const cache = await caches.open(`course-${courseId}`);
 
       const paths: string[] = [];
@@ -40,13 +40,10 @@ export default function useDownloadCourse(courseData: CourseData) {
         );
       }
 
-      update({ status: "Ready", ready: true });
+      update({ status: "ready" });
     } catch (e: unknown) {
-      let msg = "";
-      if (e instanceof Error) {
-        msg = e.message;
-      }
-      update({ status: "Error: " + msg });
+      console.error("Error downloading course", e);
+      update({ status: "error" });
     }
   }, [dispatch, courseData]);
 }

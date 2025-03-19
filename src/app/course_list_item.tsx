@@ -1,7 +1,12 @@
 // This is a course card, which displays metadata about the course,
 // and status information about the state of the course download.
 import React from "react";
-import { CourseData, CourseVideos, newUserCourse } from "../types";
+import {
+  CourseData,
+  CourseStatus,
+  CourseVideos,
+  newUserCourse,
+} from "../types";
 import { Cancel, Checkmark, Download, Loader, Trash } from "./svgs";
 import CourseLink from "./course_link";
 import useDownloadCourse from "./use_download_course";
@@ -12,6 +17,19 @@ import {
   downloadCourseVideos,
   cancelCourseDownload,
 } from "./store/custom_actions";
+
+function downloadState(state: CourseStatus) {
+  switch (state) {
+    case "none":
+    case "error":
+      return "download";
+    case "downloading":
+    case "preparing":
+      return "downloading";
+    case "ready":
+      return "ready";
+  }
+}
 
 interface Props {
   courseData: CourseData;
@@ -51,10 +69,12 @@ export default function CourseListItem({ courseData }: Props) {
     }
   }
 
+  const state = downloadState(userCourse.status);
+
   return (
     <>
       <CourseLink
-        ready={userCourse.ready}
+        ready={state === "ready"}
         courseId={courseData.id}
         className="course-card__img"
         aria-hidden
@@ -69,7 +89,9 @@ export default function CourseListItem({ courseData }: Props) {
       <div className="course-card__content">
         <p className="u-all-caps">{courseData.courseLevel}</p>
         <h3>
-          <CourseLink ready={userCourse.ready} courseId={courseData.id}>{courseData.name}</CourseLink>
+          <CourseLink ready={state === "ready"} courseId={courseData.id}>
+            {courseData.name}
+          </CourseLink>
         </h3>
         <p className="u-mt-12">
           <span>Instructor:</span> {courseData.instructors.join(", ")}
@@ -78,13 +100,13 @@ export default function CourseListItem({ courseData }: Props) {
           <span>Topics:</span> {courseData.topics.join(", ")}
         </p>
 
-        {userCourse.ready && (
+        {state === "ready" && (
           <p className="u-mt-12 inline-icon">
             <Checkmark />
             Course downloaded
           </p>
         )}
-        {userCourse.ready && !!totalVideos && (
+        {state === "ready" && !!totalVideos && (
           <p className="u-mt-8 inline-icon">
             {finishedVideos === totalVideos && <Checkmark />}
             {finishedVideos}/{totalVideos} videos downloaded
@@ -92,20 +114,20 @@ export default function CourseListItem({ courseData }: Props) {
         )}
       </div>
       <div className="course-card__actions">
-        {!userCourse.ready && userCourse.status == "" && (
+        {state === "download" && (
           <button onClick={downloadCourse} className="btn--has-icon is-primary">
             <Download />
             Download Course
           </button>
         )}
-        {!userCourse.ready && userCourse.status != "" && (
+        {state === "downloading" && (
           <button className="btn--has-icon is-primary is-downloading" disabled>
             <Loader />
             Downloading Course
           </button>
         )}
 
-        {userCourse.ready && !!totalVideos && (
+        {state === "ready" && !!totalVideos && (
           <>
             {inQueue ? (
               <div className="combo-btn">
@@ -133,7 +155,7 @@ export default function CourseListItem({ courseData }: Props) {
             ) : null}
           </>
         )}
-        {userCourse.ready && (
+        {state === "ready" && (
           <button onClick={confirmRemove} className="btn--has-icon">
             <Trash />
             Delete
