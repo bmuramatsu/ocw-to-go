@@ -12,39 +12,43 @@ import ScrollToTop from "./scroll_to_top";
 import { Provider as ReduxProvider } from "react-redux";
 import { store } from "./store/store";
 import Layout from "./layout";
+import ManageCourseVideos from "./manage_course_videos/manage_course_videos";
 
 export default function Root() {
   return (
     <ReduxProvider store={store}>
       <DataLoader />
-        <Router hook={useHashLocation}>
-          <ScrollToTop />
-          <Switch>
-            <Route path="/courses/:courseId">
-              {({ courseId }) => <CourseView courseId={courseId} />}
-            </Route>
-            <Route path="/accessibility">
-              <Layout>
-                <Accessibility />
-              </Layout>
-            </Route>
-            <Route path="/creative_commons">
-              <Layout>
-                <CreativeCommons />
-              </Layout>
-            </Route>
-            <Route path="/terms_and_conditions">
-              <Layout>
-                <TermsAndConditions />
-              </Layout>
-            </Route>
-            <Route path="/">
-              <Layout>
-                <CourseList />
-              </Layout>
-            </Route>
-          </Switch>
-        </Router>
+      <Router hook={useHashLocation}>
+        <ScrollToTop />
+        <Switch>
+          <Route path="/courses/:courseId">
+            {({ courseId }) => <CourseView courseId={courseId} />}
+          </Route>
+          <Route path="/manage_videos/:courseId">
+            {({ courseId }) => <ManageCourseVideos courseId={courseId} />}
+          </Route>
+          <Route path="/accessibility">
+            <Layout>
+              <Accessibility />
+            </Layout>
+          </Route>
+          <Route path="/creative_commons">
+            <Layout>
+              <CreativeCommons />
+            </Layout>
+          </Route>
+          <Route path="/terms_and_conditions">
+            <Layout>
+              <TermsAndConditions />
+            </Layout>
+          </Route>
+          <Route path="/">
+            <Layout>
+              <CourseList />
+            </Layout>
+          </Route>
+        </Switch>
+      </Router>
     </ReduxProvider>
   );
 }

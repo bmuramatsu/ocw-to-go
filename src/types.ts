@@ -34,14 +34,15 @@ export const newUserCourse = (
   ...params,
 });
 
-export type UserCourses = Partial<Record<string, UserCourse>>;
+export type UserCourses = Partial<{[courseId: string]: UserCourse}>;
 
+// This may have a download percentage in the future
 export type UserVideo = {
   ready: boolean;
 }
 
-export type CourseVideos = Partial<Record<string, UserVideo>>;
-export type UserVideos = Partial<Record<string, CourseVideos>>;
+export type CourseVideos = Partial<{[videoId: string]: UserVideo}>;
+export type UserVideos = Partial<{[courseId: string]: CourseVideos}>;
 
 export type VideoQueueItem = {
   courseId: string;
