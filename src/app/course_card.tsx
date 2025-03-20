@@ -35,7 +35,7 @@ interface Props {
   courseData: CourseData;
 }
 
-export default function CourseListItem({ courseData }: Props) {
+export default function CourseCard({ courseData }: Props) {
   const userCourse =
     useAppSelector(({ user }) => user.userCourses[courseData.id]) ||
     newUserCourse();
