@@ -1,6 +1,6 @@
 // TODO explanation here
 import React from "react";
-import { setInitialVideos } from "../store/user_store";
+import { userActions } from "../store/user_store";
 import { useAppDispatch } from "../store/store";
 import { UserVideos } from "../../types";
 import { ALL_COURSES } from "../initial_course_list";
@@ -8,7 +8,9 @@ import { ALL_COURSES } from "../initial_course_list";
 export default function useInitialCourses() {
   const dispatch = useAppDispatch();
   React.useEffect(() => {
-    getInitialVideos().then((videos) => dispatch(setInitialVideos(videos)));
+    getInitialVideos().then((videos) =>
+      dispatch(userActions.setInitialVideos(videos)),
+    );
   }, [dispatch]);
 }
 

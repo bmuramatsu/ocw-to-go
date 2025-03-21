@@ -3,7 +3,7 @@
 import React from "react";
 import JSZip from "jszip";
 import { CourseData, UserCourse } from "../types";
-import { updateCourse } from "./store/user_store";
+import { userActions } from "./store/user_store";
 import { useAppDispatch } from "./store/store";
 
 export default function useDownloadCourse(courseData: CourseData) {
@@ -12,7 +12,7 @@ export default function useDownloadCourse(courseData: CourseData) {
   return React.useCallback(async () => {
     const { id: courseId, file: path } = courseData;
     const update = (updates: Partial<UserCourse>) => {
-      dispatch(updateCourse({ courseId, updates }));
+      dispatch(userActions.updateCourse({ courseId, updates }));
     };
 
     try {

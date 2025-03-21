@@ -110,11 +110,5 @@ function courseVideoIds(courseId: string): string[] {
 }
 
 export default userStore.reducer;
-export const {
-  setInitialCourses,
-  setInitialVideos,
-  updateCourse,
-  deleteCourse,
-} = userStore.actions;
 
 export const userActions = userStore.actions;

@@ -2,8 +2,8 @@ import React from "react";
 import { VideoData } from "../../types";
 import { useAppDispatch, useAppSelector } from "../store/store";
 import * as customActions from "../store/custom_actions";
+import * as asyncActions from "../use_remove_course";
 import { selectVideoStatus, FullUserVideo } from "../video_selectors";
-import { useDeleteVideo } from "../use_remove_course";
 import { formatBytes } from "../utils/format_bytes";
 
 interface Props {
@@ -42,7 +42,7 @@ function DownloadButton({
   videoStatus,
 }: DownloadButtonProps) {
   const dispatch = useAppDispatch();
-  const deleteVideo = useDeleteVideo(courseId, videoId);
+  const deleteVideo = () => dispatch(asyncActions.deleteVideo(courseId, videoId));
 
   switch (videoStatus.status) {
     case "ready":

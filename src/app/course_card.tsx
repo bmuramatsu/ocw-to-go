@@ -1,16 +1,12 @@
 // This is a course card, which displays metadata about the course,
 // and status information about the state of the course download.
 import React from "react";
-import {
-  CourseData,
-  CourseStatus,
-  newUserCourse,
-} from "../types";
+import { CourseData, CourseStatus, newUserCourse } from "../types";
 import { Checkmark, Download, Loader, Trash } from "./svgs";
 import CourseLink from "./course_link";
 import useDownloadCourse from "./use_download_course";
-import useRemoveCourse from "./use_remove_course";
-import { useAppSelector } from "./store/store";
+import * as asyncActions from "./use_remove_course";
+import { useAppDispatch, useAppSelector } from "./store/store";
 import { Link } from "wouter";
 import { selectCourseVideoStatus } from "./video_selectors";
 
@@ -36,7 +32,9 @@ export default function CourseCard({ courseData }: Props) {
     useAppSelector(({ user }) => user.userCourses[courseData.id]) ||
     newUserCourse();
 
-  const videoStatus = useAppSelector(s => selectCourseVideoStatus(s, courseData.id));
+  const videoStatus = useAppSelector((s) =>
+    selectCourseVideoStatus(s, courseData.id),
+  );
 
   const totalVideos = courseData.videos.length;
   let finishedVideos = 0;
@@ -46,7 +44,8 @@ export default function CourseCard({ courseData }: Props) {
   });
 
   const downloadCourse = useDownloadCourse(courseData);
-  const removeCourse = useRemoveCourse(courseData.id);
+  const dispatch = useAppDispatch();
+  const removeCourse = () => dispatch(asyncActions.removeCourse(courseData.id));
 
   function confirmRemove() {
     if (

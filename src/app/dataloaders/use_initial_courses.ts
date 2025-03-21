@@ -1,7 +1,7 @@
 // hook that builds the list of courses along with their current download
 // status. That information is put into redux
 import React from "react";
-import { setInitialCourses } from "../store/user_store";
+import { userActions } from "../store/user_store";
 import { useAppDispatch } from "../store/store";
 import { newUserCourse, UserCourses } from "../../types";
 import { ALL_COURSES } from "../initial_course_list";
@@ -11,7 +11,7 @@ export default function useInitialCourses() {
   const dispatch = useAppDispatch();
   React.useEffect(() => {
     getInitialUserCourses().then((courses) =>
-      dispatch(setInitialCourses(courses)),
+      dispatch(userActions.setInitialCourses(courses)),
     );
   }, [dispatch]);
 }

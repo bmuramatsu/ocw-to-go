@@ -1,10 +1,10 @@
 import React from "react";
 import * as customActions from "../store/custom_actions";
+import * as asyncActions from "../use_remove_course";
 import { useAppDispatch } from "../store/store";
 import { useAppSelector } from "../store/store";
 import { selectCourseVideoStatus } from "../video_selectors";
 import { COURSES_BY_ID } from "../initial_course_list";
-import { useRemoveCourseVideos } from "../use_remove_course";
 
 interface Props {
   courseId: string;
@@ -12,7 +12,8 @@ interface Props {
 
 export default function DownloadAllVideos({ courseId }: Props) {
   const dispatch = useAppDispatch();
-  const removeCourseVideos = useRemoveCourseVideos(courseId);
+  const removeCourseVideos = () =>
+    dispatch(asyncActions.removeCourseVideos(courseId));
   const courseData = COURSES_BY_ID[courseId];
   const courseVideos = useAppSelector((state) =>
     selectCourseVideoStatus(state, courseId),
