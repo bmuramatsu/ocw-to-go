@@ -2,7 +2,7 @@ import React from "react";
 import * as customActions from "../store/custom_actions";
 import { useAppDispatch } from "../store/store";
 import { useAppSelector } from "../store/store";
-import { selectCourseVideoStatus } from "../use_video_status";
+import { selectCourseVideoStatus } from "../video_selectors";
 import { COURSES_BY_ID } from "../initial_course_list";
 import { useRemoveCourseVideos } from "../use_remove_course";
 

@@ -12,7 +12,7 @@ import useDownloadCourse from "./use_download_course";
 import useRemoveCourse from "./use_remove_course";
 import { useAppSelector } from "./store/store";
 import { Link } from "wouter";
-import { selectCourseVideoStatus } from "./use_video_status";
+import { selectCourseVideoStatus } from "./video_selectors";
 
 function downloadState(state: CourseStatus) {
   switch (state) {

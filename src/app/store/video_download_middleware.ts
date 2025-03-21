@@ -1,5 +1,5 @@
 import { CourseData, VideoQueue } from "../../types";
-import { selectCourseVideoStatus } from "../use_video_status";
+import { selectCourseVideoStatus } from "../video_selectors";
 import VideoDownloader from "../video_downloader";
 import * as customActions from "./custom_actions";
 import { AppMiddleware, RootState } from "./store";

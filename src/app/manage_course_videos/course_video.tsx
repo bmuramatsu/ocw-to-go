@@ -2,7 +2,7 @@ import React from "react";
 import { VideoData } from "../../types";
 import { useAppDispatch, useAppSelector } from "../store/store";
 import * as customActions from "../store/custom_actions";
-import { selectVideoStatus, FullUserVideo } from "../use_video_status";
+import { selectVideoStatus, FullUserVideo } from "../video_selectors";
 import { useDeleteVideo } from "../use_remove_course";
 
 interface Props {
