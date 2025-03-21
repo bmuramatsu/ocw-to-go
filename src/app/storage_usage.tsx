@@ -1,5 +1,6 @@
 // Displays the storage usage at the bottom of the page
 import React from "react";
+import { formatBytes } from "./utils/format_bytes";
 
 type UsageData = {
   usedPercent: number;
@@ -44,13 +45,4 @@ async function calculateUsage(): Promise<UsageData | null> {
     usedSpace: formatBytes(usage),
     totalSpace: formatBytes(quota),
   };
-}
-
-// Co-pilot wrote this :P
-function formatBytes(bytes: number): string {
-  if (bytes === 0) return "0 Bytes";
-  const k = 1024;
-  const sizes = ["Bytes", "KB", "MB", "GB", "TB"];
-  const i = Math.floor(Math.log(bytes) / Math.log(k));
-  return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + " " + sizes[i];
 }

@@ -25,7 +25,11 @@ export default function Root() {
             {({ courseId }) => <CourseView courseId={courseId} />}
           </Route>
           <Route path="/manage_videos/:courseId">
-            {({ courseId }) => <ManageCourseVideos courseId={courseId} />}
+            {({ courseId }) => (
+              <Layout>
+                <ManageCourseVideos courseId={courseId} />
+              </Layout>
+            )}
           </Route>
           <Route path="/accessibility">
             <Layout>

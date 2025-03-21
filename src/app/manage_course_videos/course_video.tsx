@@ -4,6 +4,7 @@ import { useAppDispatch, useAppSelector } from "../store/store";
 import * as customActions from "../store/custom_actions";
 import { selectVideoStatus, FullUserVideo } from "../video_selectors";
 import { useDeleteVideo } from "../use_remove_course";
+import { formatBytes } from "../utils/format_bytes";
 
 interface Props {
   courseId: string;
@@ -17,7 +18,10 @@ export default function CourseVideo({ courseId, video }: Props) {
 
   return (
     <div key={video.youtubeKey}>
-      {video.title}
+      <hr />
+      <StatusIcon videoStatus={videoStatus} />
+      <h2>{video.title}</h2>
+      <p>{formatBytes(video.contentLength)}</p>
       <DownloadButton
         courseId={courseId}
         videoId={video.youtubeKey}
@@ -47,7 +51,11 @@ function DownloadButton({
     case "waiting":
       return (
         <>
-          <p>{videoStatus.status === "downloading" ? "Downloading" : "Waiting..."}</p>
+          <p>
+            {videoStatus.status === "downloading"
+              ? "Downloading"
+              : "Waiting..."}
+          </p>
           <button
             onClick={() =>
               dispatch(customActions.cancelVideoDownload({ courseId, videoId }))
@@ -70,4 +78,18 @@ function DownloadButton({
   }
 }
 
-//function StatusIcon() {}
+interface StatusIconProps {
+  videoStatus: FullUserVideo;
+}
+function StatusIcon({ videoStatus }: StatusIconProps) {
+  switch (videoStatus.status) {
+    case "ready":
+      return <span>✅</span>;
+    case "downloading":
+      return <span>🔄</span>;
+    case "waiting":
+      return <span>⏳</span>;
+    default:
+      return <span>❌</span>;
+  }
+}
