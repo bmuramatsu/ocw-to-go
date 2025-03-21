@@ -1,15 +1,12 @@
 // Hook that downloads a course, unzips it, and caches the files.
 // This all happens asynchronously.
-import React from "react";
 import JSZip from "jszip";
 import { CourseData, UserCourse } from "../types";
 import { userActions } from "./store/user_store";
-import { useAppDispatch } from "./store/store";
+import { AppDispatch } from "./store/store";
 
-export default function useDownloadCourse(courseData: CourseData) {
-  const dispatch = useAppDispatch();
-
-  return React.useCallback(async () => {
+export default function downloadCourseAction(courseData: CourseData) {
+  return async function downloadCourseThunk(dispatch: AppDispatch) {
     const { id: courseId, file: path } = courseData;
     const update = (updates: Partial<UserCourse>) => {
       dispatch(userActions.updateCourse({ courseId, updates }));
@@ -45,7 +42,7 @@ export default function useDownloadCourse(courseData: CourseData) {
       console.error("Error downloading course", e);
       update({ status: "error" });
     }
-  }, [dispatch, courseData]);
+  }
 }
 
 // Files need to have a mime for the browser to serve them correctly.

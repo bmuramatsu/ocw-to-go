@@ -4,7 +4,7 @@ import React from "react";
 import { CourseData, CourseStatus, newUserCourse } from "../types";
 import { Checkmark, Download, Loader, Trash } from "./svgs";
 import CourseLink from "./course_link";
-import useDownloadCourse from "./use_download_course";
+import downloadCourseAction from "./download_course_action";
 import * as asyncActions from "./async_actions";
 import { useAppDispatch, useAppSelector } from "./store/store";
 import { Link } from "wouter";
@@ -43,9 +43,9 @@ export default function CourseCard({ courseData }: Props) {
     if (video?.status == "ready") finishedVideos++;
   });
 
-  const downloadCourse = useDownloadCourse(courseData);
   const dispatch = useAppDispatch();
   const removeCourse = () => dispatch(asyncActions.removeCourse(courseData.id));
+  const downloadCourse = () => dispatch(downloadCourseAction(courseData));
 
   function confirmRemove() {
     if (
