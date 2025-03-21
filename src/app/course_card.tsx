@@ -6,7 +6,7 @@ import {
   CourseStatus,
   newUserCourse,
 } from "../types";
-import { Checkmark, Download, Loader, Trash } from "./svgs";
+import { Checkmark, Download, Loader, Trash, Videos } from "./svgs";
 import CourseLink from "./course_link";
 import useDownloadCourse from "./use_download_course";
 import useRemoveCourse from "./use_remove_course";
@@ -92,13 +92,13 @@ export default function CourseCard({ courseData }: Props) {
         {state === "ready" && (
           <p className="u-mt-12 inline-icon">
             <Checkmark />
-            Course downloaded
+            Course downloaded (250.56 MB)
           </p>
         )}
         {state === "ready" && !!totalVideos && (
           <p className="u-mt-8 inline-icon">
             {finishedVideos === totalVideos && <Checkmark />}
-            {finishedVideos}/{totalVideos} videos downloaded
+            {finishedVideos}/{totalVideos} videos downloaded (0 MB)
           </p>
         )}
       </div>
@@ -118,7 +118,10 @@ export default function CourseCard({ courseData }: Props) {
 
         {state === "ready" && (
           <>
-            <Link href={`/manage_videos/${courseData.id}`}>Manage Videos</Link>
+            <Link className="btn--has-icon" href={`/manage_videos/${courseData.id}`}>
+              <Videos />
+              Manage Videos
+            </Link>
             <button onClick={confirmRemove} className="btn--has-icon">
               <Trash />
               Delete

@@ -1,4 +1,5 @@
 import React from "react";
+import { Download, Loader, Checkmark, Cancel, Trash} from "../svgs";
 import { VideoData } from "../../types";
 import { useAppDispatch, useAppSelector } from "../store/store";
 import * as customActions from "../store/custom_actions";
@@ -17,11 +18,12 @@ export default function CourseVideo({ courseId, video }: Props) {
   );
 
   return (
-    <div key={video.youtubeKey}>
-      <hr />
+    <div key={video.youtubeKey} className="video-list__item">
       <StatusIcon videoStatus={videoStatus} />
-      <h2>{video.title}</h2>
-      <p>{formatBytes(video.contentLength)}</p>
+      <div className="video-list__item__content">
+        <h3>{video.title}</h3>
+        <p>{formatBytes(video.contentLength)}</p>
+      </div>
       <DownloadButton
         courseId={courseId}
         videoId={video.youtubeKey}
@@ -46,32 +48,36 @@ function DownloadButton({
 
   switch (videoStatus.status) {
     case "ready":
-      return <button onClick={() => deleteVideo()}>Delete</button>;
+      return <button className="btn--has-icon" onClick={() => deleteVideo()}><Trash />Delete</button>;
     case "downloading":
     case "waiting":
       return (
-        <>
-          <p>
+        <div className="combo-btn">
+          <div className="btn--has-icon is-downloading">
+            <Loader />
             {videoStatus.status === "downloading"
               ? "Downloading"
               : "Waiting..."}
-          </p>
+          </div>
           <button
+            className="icon-btn"
             onClick={() =>
               dispatch(customActions.cancelVideoDownload({ courseId, videoId }))
             }
           >
-            Cancel
+            <Cancel />
           </button>
-        </>
+        </div>
       );
     default:
       return (
         <button
+          className="btn--has-icon"
           onClick={() =>
             dispatch(customActions.downloadVideo({ courseId, videoId }))
           }
         >
+          <Download />
           Download
         </button>
       );
@@ -84,12 +90,12 @@ interface StatusIconProps {
 function StatusIcon({ videoStatus }: StatusIconProps) {
   switch (videoStatus.status) {
     case "ready":
-      return <span>✅</span>;
+      return <div className="video-list__graphic is-green"><div>VIDEO</div><span><Checkmark /></span></div>;
     case "downloading":
-      return <span>🔄</span>;
+      return <div className="video-list__graphic is-loading"><div>VIDEO</div><span><Loader /></span></div>;
     case "waiting":
-      return <span>⏳</span>;
+      return <div className="video-list__graphic is-loading"><div>VIDEO</div><span><Loader /></span></div>;
     default:
-      return <span>❌</span>;
+      return <div className="video-list__graphic is-red"><div>VIDEO</div><span><Download /></span></div>;
   }
 }

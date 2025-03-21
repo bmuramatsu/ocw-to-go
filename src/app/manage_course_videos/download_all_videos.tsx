@@ -2,6 +2,7 @@ import React from "react";
 import * as customActions from "../store/custom_actions";
 import { useAppDispatch } from "../store/store";
 import { useAppSelector } from "../store/store";
+import { Cancel, Download, Loader, Trash} from "../svgs";
 import { selectCourseVideoStatus } from "../video_selectors";
 import { COURSES_BY_ID } from "../initial_course_list";
 import { useRemoveCourseVideos } from "../use_remove_course";
@@ -24,7 +25,7 @@ export default function DownloadAllVideos({ courseId }: Props) {
   ).length;
 
   if (total === finished) {
-    return <button onClick={removeCourseVideos}>Delete all videos</button>;
+    return <button className="btn--has-icon" onClick={removeCourseVideos}><Trash />Delete All</button>;
   }
 
   const inQueue = Object.values(courseVideos).every(
@@ -33,24 +34,30 @@ export default function DownloadAllVideos({ courseId }: Props) {
 
   if (inQueue) {
     return (
-      <>
-        <div>Downloading...</div>
+      <div className="combo-btn">
+        <div className="btn--has-icon is-downloading">
+          <Loader />
+          Downloading...
+        </div>
         <button
+          className="icon-btn"
           onClick={() =>
             dispatch(customActions.cancelCourseDownload({ courseId }))
           }
         >
-          Cancel
+          <Cancel />
         </button>
-      </>
+      </div>
     );
   }
 
   return (
     <button
+      className="btn--has-icon"
       onClick={() => dispatch(customActions.downloadCourseVideos(courseData))}
     >
-      Download All
+      <Download />
+      Download All (23.45 GB)
     </button>
   );
 }
