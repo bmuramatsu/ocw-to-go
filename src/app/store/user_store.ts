@@ -46,6 +46,22 @@ const userStore = createSlice({
       delete state.userCourses[action.payload.courseId];
       delete state.userVideos[action.payload.courseId];
     },
+    deleteCourseVideos: (
+      state,
+      action: PayloadAction<{ courseId: string }>,
+    ) => {
+      delete state.userVideos[action.payload.courseId];
+    },
+    deleteVideo: (
+      state,
+      action: PayloadAction<{ courseId: string; videoId: string }>,
+    ) => {
+      if (state.userVideos[action.payload.courseId]) {
+        delete state.userVideos[action.payload.courseId]![
+          action.payload.videoId
+        ];
+      }
+    },
     addToVideoQueue(state, action: PayloadAction<VideoQueue>) {
       state.videoQueue.push(...action.payload);
     },
@@ -66,22 +82,45 @@ const userStore = createSlice({
       }
       state.userVideos[courseId][videoId] = { ready: false, ...updates };
     },
-    finishVideoDownload: (state, action: PayloadAction<{ success: boolean, item: VideoQueueItem }>) => {
+    finishVideoDownload: (
+      state,
+      action: PayloadAction<{ success: boolean; item: VideoQueueItem }>,
+    ) => {
       // the item should be the first in the list, but just in case some other
       // modification has happened to the queue, we do it safely
       const { item, success } = action.payload;
-      const index = state.videoQueue.findIndex((item) => item.courseId === action.payload.item.courseId && item.videoId === action.payload.item.videoId);
+      const index = state.videoQueue.findIndex(
+        (item) =>
+          item.courseId === action.payload.item.courseId &&
+          item.videoId === action.payload.item.videoId,
+      );
 
       if (index !== -1) {
         state.videoQueue.splice(index, 1);
       }
 
       state.userVideos[item.courseId] ||= {};
-      const video = state.userVideos[item.courseId]![item.videoId] ||= { ready: false };
-      state.userVideos[item.courseId]![item.videoId] = {...video, ready: success};
+      const video = (state.userVideos[item.courseId]![item.videoId] ||= {
+        ready: false,
+      });
+      state.userVideos[item.courseId]![item.videoId] = {
+        ...video,
+        ready: success,
+      };
     },
     removeCourseVideosFromQueue: (state, action: PayloadAction<string>) => {
-      state.videoQueue = state.videoQueue.filter((item) => item.courseId !== action.payload);
+      state.videoQueue = state.videoQueue.filter(
+        (item) => item.courseId !== action.payload,
+      );
+    },
+    removeVideoFromQueue: (state, action: PayloadAction<VideoQueueItem>) => {
+      state.videoQueue = state.videoQueue.filter(
+        (item) =>
+          !(
+            item.courseId === action.payload.courseId &&
+            item.videoId === action.payload.videoId
+          ),
+      );
     },
   },
 });

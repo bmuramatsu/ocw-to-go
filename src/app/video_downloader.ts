@@ -29,10 +29,25 @@ export default class VideoDownloader {
 
   abortCourseDownload(courseId: string) {
     if (this.running?.courseId == courseId) {
-      this.canceller.abort();
-      this.canceller = new AbortController();
-      this.running = null;
+      this.abortCurrentDownload();
     }
+  }
+
+  abortVideoDownload(courseId: string, videoId: string) {
+    if (
+      this.running?.courseId == courseId &&
+      this.running?.videoId == videoId
+    ) {
+      this.abortCurrentDownload();
+    }
+  }
+
+  abortCurrentDownload() {
+    this.canceller.abort();
+    this.canceller = new AbortController();
+    this.running = null;
+    // bump in case there are other courses queued;
+    this.bump();
   }
 
   async downloadItem(item: VideoQueueItem) {
@@ -72,7 +87,6 @@ export default class VideoDownloader {
         this.finishDownload(false, item);
       }
     }
-
   }
 
   video(courseId: string, videoId: string): VideoData {

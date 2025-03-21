@@ -4,19 +4,15 @@ import React from "react";
 import {
   CourseData,
   CourseStatus,
-  CourseVideos,
   newUserCourse,
 } from "../types";
-import { Cancel, Checkmark, Download, Loader, Trash } from "./svgs";
+import { Checkmark, Download, Loader, Trash } from "./svgs";
 import CourseLink from "./course_link";
 import useDownloadCourse from "./use_download_course";
 import useRemoveCourse from "./use_remove_course";
 import { useAppSelector } from "./store/store";
-import { useDispatch } from "react-redux";
-import {
-  downloadCourseVideos,
-  cancelCourseDownload,
-} from "./store/custom_actions";
+import { Link } from "wouter";
+import { selectCourseVideoStatus } from "./use_video_status";
 
 function downloadState(state: CourseStatus) {
   switch (state) {
@@ -40,24 +36,17 @@ export default function CourseCard({ courseData }: Props) {
     useAppSelector(({ user }) => user.userCourses[courseData.id]) ||
     newUserCourse();
 
-  const videoStatus: CourseVideos =
-    useAppSelector(({ user }) => user.userVideos[courseData.id]) || {};
+  const videoStatus = useAppSelector(s => selectCourseVideoStatus(s, courseData.id));
 
   const totalVideos = courseData.videos.length;
   let finishedVideos = 0;
 
   Object.values(videoStatus).forEach((video) => {
-    if (video?.ready) finishedVideos++;
+    if (video?.status == "ready") finishedVideos++;
   });
-
-  const inQueue = useAppSelector(
-    ({ user }) =>
-      !!user.videoQueue.find(({ courseId }) => courseId === courseData.id),
-  );
 
   const downloadCourse = useDownloadCourse(courseData);
   const removeCourse = useRemoveCourse(courseData.id);
-  const dispatch = useDispatch();
 
   function confirmRemove() {
     if (
@@ -127,39 +116,14 @@ export default function CourseCard({ courseData }: Props) {
           </button>
         )}
 
-        {state === "ready" && !!totalVideos && (
-          <>
-            {inQueue ? (
-              <div className="combo-btn">
-                <button className="btn--has-icon is-downloading" disabled>
-                  <Loader />
-                  Downloading Videos
-                </button>
-                <button
-                  className="icon-btn"
-                  onClick={() =>
-                    dispatch(cancelCourseDownload({ courseId: courseData.id }))
-                  }
-                >
-                  <Cancel />
-                </button>
-              </div>
-            ) : totalVideos !== finishedVideos ? (
-              <button
-                onClick={() => dispatch(downloadCourseVideos(courseData))}
-                className="btn--has-icon"
-              >
-                <Download />
-                Download Videos
-              </button>
-            ) : null}
-          </>
-        )}
         {state === "ready" && (
-          <button onClick={confirmRemove} className="btn--has-icon">
-            <Trash />
-            Delete
-          </button>
+          <>
+            <Link href={`/manage_videos/${courseData.id}`}>Manage Videos</Link>
+            <button onClick={confirmRemove} className="btn--has-icon">
+              <Trash />
+              Delete
+            </button>
+          </>
         )}
       </div>
     </>
