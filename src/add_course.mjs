@@ -3,6 +3,8 @@ import JSZip from "jszip";
 
 export const VIDEO_HOST = "https://ocw.mit.edu";
 
+// eslint assumes this is running in the browser
+// eslint-disable-next-line no-undef
 const path = process.argv[2];
 
 const file = fs.readFileSync(path);

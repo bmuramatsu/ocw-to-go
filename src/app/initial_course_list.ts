@@ -6,8 +6,6 @@ import linearAlg from '../courses/linear-algebra.json';
 import creole from '../courses/creole-languages-and-caribbean-identities.json';
 import introCS2 from '../courses/introduction-to-computer-science-and-programming-in-python.json';
 
-const ASSET_HOST = "https://mit-ocw-courses.atomicjoltdevapps.com";
-
 export const ALL_COURSES: CourseData[] = [
   introCS,
   linearAlg,
