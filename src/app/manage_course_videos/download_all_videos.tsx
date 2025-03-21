@@ -1,6 +1,6 @@
 import React from "react";
 import * as customActions from "../store/custom_actions";
-import * as asyncActions from "../use_remove_course";
+import * as asyncActions from "../async_actions";
 import { useAppDispatch } from "../store/store";
 import { useAppSelector } from "../store/store";
 import { selectCourseVideoStatus } from "../video_selectors";

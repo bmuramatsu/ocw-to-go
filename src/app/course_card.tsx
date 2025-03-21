@@ -5,7 +5,7 @@ import { CourseData, CourseStatus, newUserCourse } from "../types";
 import { Checkmark, Download, Loader, Trash } from "./svgs";
 import CourseLink from "./course_link";
 import useDownloadCourse from "./use_download_course";
-import * as asyncActions from "./use_remove_course";
+import * as asyncActions from "./async_actions";
 import { useAppDispatch, useAppSelector } from "./store/store";
 import { Link } from "wouter";
 import { selectCourseVideoStatus } from "./video_selectors";
