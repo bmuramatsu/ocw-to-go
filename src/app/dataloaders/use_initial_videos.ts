@@ -22,13 +22,12 @@ async function getInitialVideos(): Promise<UserVideos> {
     if (ready) {
       const cache = await caches.open(`course-videos-${course.id}`);
 
-      userVideos[course.id] = {};
       for (const video of course.videos) {
         const videoPath = `/course-videos/${course.id}/${video.youtubeKey}.mp4`;
         const exists = await cache.match(videoPath);
 
         if (exists) {
-          userVideos[course.id]![video.youtubeKey] = { ready: true };
+          userVideos[video.youtubeKey] = { ready: true };
         }
       }
     }

@@ -7,10 +7,10 @@ import {
   UserCourse,
   UserCourses,
   UserVideos,
-  UserVideo,
   VideoQueue,
   VideoQueueItem,
 } from "../../types";
+import { COURSES_BY_ID } from "../initial_course_list";
 
 export interface UserStore {
   userCourses: UserCourses;
@@ -44,43 +44,26 @@ const userStore = createSlice({
     },
     deleteCourse: (state, action: PayloadAction<{ courseId: string }>) => {
       delete state.userCourses[action.payload.courseId];
-      delete state.userVideos[action.payload.courseId];
+      courseVideoIds(action.payload.courseId).forEach((videoId) => {
+        delete state.userVideos[videoId];
+      });
     },
     deleteCourseVideos: (
       state,
       action: PayloadAction<{ courseId: string }>,
     ) => {
-      delete state.userVideos[action.payload.courseId];
+      courseVideoIds(action.payload.courseId).forEach((videoId) => {
+        delete state.userVideos[videoId];
+      });
     },
     deleteVideo: (
       state,
       action: PayloadAction<{ courseId: string; videoId: string }>,
     ) => {
-      if (state.userVideos[action.payload.courseId]) {
-        delete state.userVideos[action.payload.courseId]![
-          action.payload.videoId
-        ];
-      }
+      delete state.userVideos[action.payload.videoId];
     },
     addToVideoQueue(state, action: PayloadAction<VideoQueue>) {
       state.videoQueue.push(...action.payload);
-    },
-    updateVideoQueue: (state, action: PayloadAction<VideoQueue>) => {
-      state.videoQueue = action.payload;
-    },
-    updateUserVideo: (
-      state,
-      action: PayloadAction<{
-        courseId: string;
-        videoId: string;
-        updates: Partial<UserVideo>;
-      }>,
-    ) => {
-      const { courseId, videoId, updates } = action.payload;
-      if (!state.userVideos[courseId]) {
-        state.userVideos[courseId] = {};
-      }
-      state.userVideos[courseId][videoId] = { ready: false, ...updates };
     },
     finishVideoDownload: (
       state,
@@ -99,12 +82,9 @@ const userStore = createSlice({
         state.videoQueue.splice(index, 1);
       }
 
-      state.userVideos[item.courseId] ||= {};
-      const video = (state.userVideos[item.courseId]![item.videoId] ||= {
-        ready: false,
-      });
-      state.userVideos[item.courseId]![item.videoId] = {
-        ...video,
+      const current = state.userVideos[item.videoId] || { ready: false };
+      state.userVideos[item.videoId] = {
+        ...current,
         ready: success,
       };
     },
@@ -125,14 +105,16 @@ const userStore = createSlice({
   },
 });
 
+function courseVideoIds(courseId: string): string[] {
+  return COURSES_BY_ID[courseId].videos.map((video) => video.youtubeKey);
+}
+
 export default userStore.reducer;
 export const {
   setInitialCourses,
   setInitialVideos,
   updateCourse,
   deleteCourse,
-  updateVideoQueue,
-  updateUserVideo,
 } = userStore.actions;
 
 export const userActions = userStore.actions;

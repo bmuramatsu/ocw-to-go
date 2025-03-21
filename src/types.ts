@@ -41,8 +41,7 @@ export type UserVideo = {
   ready: boolean;
 }
 
-export type CourseVideos = Partial<{[videoId: string]: UserVideo}>;
-export type UserVideos = Partial<{[courseId: string]: CourseVideos}>;
+export type UserVideos = Partial<{[videoId: string]: UserVideo}>;
 
 export type VideoQueueItem = {
   courseId: string;

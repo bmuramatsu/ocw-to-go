@@ -1,8 +1,9 @@
 import { CourseData, VideoQueue } from "../../types";
+import { selectCourseVideoStatus } from "../use_video_status";
 import VideoDownloader from "../video_downloader";
 import * as customActions from "./custom_actions";
-import { AppMiddleware } from "./store";
-import { userActions, UserStore } from "./user_store";
+import { AppMiddleware, RootState } from "./store";
+import { userActions } from "./user_store";
 
 const videoDownloadMiddleware: AppMiddleware = (store) => {
   const downloader = new VideoDownloader(store);
@@ -11,10 +12,7 @@ const videoDownloadMiddleware: AppMiddleware = (store) => {
     console.log(action, store.getState().user);
 
     if (customActions.downloadCourseVideos.match(action)) {
-      const newItems = missingCourseVideos(
-        action.payload,
-        store.getState().user,
-      );
+      const newItems = missingCourseVideos(action.payload, store.getState());
       store.dispatch(userActions.addToVideoQueue(newItems));
       downloader.bump();
     } else if (customActions.downloadVideo.match(action)) {
@@ -44,30 +42,15 @@ const videoDownloadMiddleware: AppMiddleware = (store) => {
 
 export default videoDownloadMiddleware;
 
-function missingCourseVideos(
-  course: CourseData,
-  userStore: UserStore,
-): VideoQueue {
-  const { videoQueue, userVideos } = userStore;
-  const allVideos = course.videos.map((video) => video.youtubeKey);
-  const existingVideos: string[] = [];
+function missingCourseVideos(course: CourseData, store: RootState): VideoQueue {
+  const courseVideos = selectCourseVideoStatus(store, course.id);
+  const newQueueItems: VideoQueue = [];
 
-  for (const [youtubeKey, videoStatus] of Object.entries(
-    userVideos[course.id] || {},
-  )) {
-    if (videoStatus?.ready) {
-      existingVideos.push(youtubeKey);
+  for (const video of course.videos) {
+    if (courseVideos[video.youtubeKey]?.status === "none") {
+      newQueueItems.push({ courseId: course.id, videoId: video.youtubeKey });
     }
   }
 
-  videoQueue.forEach(({ videoId, courseId }) => {
-    if (course.id === courseId) {
-      existingVideos.push(videoId);
-    }
-  });
-
-  const missingVideos = allVideos.filter(
-    (youtubeKey) => !existingVideos.includes(youtubeKey),
-  );
-  return missingVideos.map((videoId) => ({ courseId: course.id, videoId }));
+  return newQueueItems;
 }

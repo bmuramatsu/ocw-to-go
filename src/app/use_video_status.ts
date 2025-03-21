@@ -1,7 +1,7 @@
 import { createSelector } from "@reduxjs/toolkit";
 import { RootState } from "./store/store";
 import { ALL_COURSES } from "./initial_course_list";
-import { CourseVideos, VideoQueue } from "../types";
+import { UserVideos, VideoQueue } from "../types";
 
 type VideoStatus = "none" | "downloading" | "waiting" | "ready" | "error";
 export type FullUserVideo = {
@@ -23,11 +23,9 @@ export const selectAllVideoStatus = createSelector(
 
     ALL_COURSES.forEach((course) => {
       allVideoStatus[course.id] = {};
-      const courseVideos = userVideos[course.id] || {};
-
       course.videos.forEach((video) => {
         allVideoStatus[course.id]![video.youtubeKey] = makeFullVideoStatus(
-          courseVideos,
+          userVideos,
           queue,
           course.id,
           video.youtubeKey,
@@ -54,7 +52,7 @@ export const selectVideoStatus = createSelector(
 );
 
 function makeFullVideoStatus(
-  courseVideos: CourseVideos,
+  userVideos: UserVideos,
   queue: VideoQueue,
   courseId: string,
   videoId: string,
@@ -69,7 +67,7 @@ function makeFullVideoStatus(
     return { status: "waiting" };
   }
 
-  const userVideo = courseVideos[videoId];
+  const userVideo = userVideos[videoId];
   if (userVideo?.ready) {
     return { status: "ready" };
   }
