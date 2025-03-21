@@ -1,9 +1,9 @@
 // Hook that downloads a course, unzips it, and caches the files.
 // This all happens asynchronously.
 import JSZip from "jszip";
-import { CourseData, UserCourse } from "../types";
-import { userActions } from "./store/user_store";
-import { AppDispatch } from "./store/store";
+import { CourseData, UserCourse } from "../../types";
+import { userActions } from "./user_store";
+import { AppDispatch } from "./store";
 
 export default function downloadCourseAction(courseData: CourseData) {
   return async function downloadCourseThunk(dispatch: AppDispatch) {
@@ -46,7 +46,7 @@ export default function downloadCourseAction(courseData: CourseData) {
 }
 
 // Files need to have a mime for the browser to serve them correctly.
-// This list may not be exhastive
+// This list may not be exhaustive
 function mimeFromExtension(path: string) {
   const extension = path.split(".").pop();
   switch (extension) {

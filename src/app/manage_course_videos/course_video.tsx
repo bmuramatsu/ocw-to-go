@@ -2,8 +2,8 @@ import React from "react";
 import { VideoData } from "../../types";
 import { useAppDispatch, useAppSelector } from "../store/store";
 import * as customActions from "../store/custom_actions";
-import * as asyncActions from "../async_actions";
-import { selectVideoStatus, FullUserVideo } from "../video_selectors";
+import * as asyncActions from "../store/async_actions";
+import { selectVideoStatus, FullUserVideo } from "../store/video_selectors";
 import { formatBytes } from "../utils/format_bytes";
 
 interface Props {

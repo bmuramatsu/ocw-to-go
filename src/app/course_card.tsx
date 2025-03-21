@@ -4,11 +4,11 @@ import React from "react";
 import { CourseData, CourseStatus, newUserCourse } from "../types";
 import { Checkmark, Download, Loader, Trash } from "./svgs";
 import CourseLink from "./course_link";
-import downloadCourseAction from "./download_course_action";
-import * as asyncActions from "./async_actions";
+import downloadCourseAction from "./store/download_course_action";
+import * as asyncActions from "./store/async_actions";
 import { useAppDispatch, useAppSelector } from "./store/store";
 import { Link } from "wouter";
-import { selectCourseVideoStatus } from "./video_selectors";
+import { selectCourseVideoStatus } from "./store/video_selectors";
 
 function downloadState(state: CourseStatus) {
   switch (state) {

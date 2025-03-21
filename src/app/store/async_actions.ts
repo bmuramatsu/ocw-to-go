@@ -1,6 +1,6 @@
 // Hook to remove a course and cached data
-import { AppDispatch } from "./store/store";
-import { userActions } from "./store/user_store";
+import { AppDispatch } from "./store";
+import { userActions } from "./user_store";
 
 export function removeCourse(courseId: string) {
   return async function removeCourseThunk(dispatch: AppDispatch) {

@@ -1,7 +1,7 @@
 import { createSelector } from "@reduxjs/toolkit";
-import { RootState } from "./store/store";
-import { ALL_COURSES } from "./initial_course_list";
-import { UserVideos, VideoQueue } from "../types";
+import { RootState } from "./store";
+import { ALL_COURSES } from "../initial_course_list";
+import { UserVideos, VideoQueue } from "../../types";
 
 type VideoStatus = "none" | "downloading" | "waiting" | "ready" | "error";
 export type FullUserVideo = {
