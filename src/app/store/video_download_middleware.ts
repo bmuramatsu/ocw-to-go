@@ -5,6 +5,14 @@ import * as customActions from "./custom_actions";
 import { AppMiddleware, RootState } from "./store";
 import { userActions } from "./user_store";
 
+// This middleware contains the video downloader instance, and handles all
+// communication with it.  It's implemented as a middleware because interactions
+// with the video downloader are side-effects that don't belong in react
+// components.  The downside of middleware is that it isn't always obvious to
+// the developer which actions are being handled by the middleware.  To combat
+// that, most of the actions are 'custom' actions that don't interact with the
+// store directly. Instead they are handled here, and the middleware typically
+// dispatches other actions that the store handles.
 const videoDownloadMiddleware: AppMiddleware = (store) => {
   const downloader = new VideoDownloader(store);
 

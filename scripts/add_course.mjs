@@ -1,3 +1,7 @@
+// This script takes a path to a zip file as an argument, extracts the course
+// data from it, and generates a JSON file for the course.  It also adds the
+// course card image to the project, and determines the size of each video in
+// the course.
 import fs from "fs";
 import JSZip from "jszip";
 

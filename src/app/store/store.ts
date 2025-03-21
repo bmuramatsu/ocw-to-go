@@ -10,6 +10,8 @@ import { useDispatch, useSelector, useStore } from "react-redux";
 import user from "./user_store";
 import videoDownloadMiddleware from "./video_download_middleware";
 
+// root reducer is declared separately so the type can be used when defining
+// middleware
 const rootReducer = combineReducers({ user });
 
 export const store = configureStore({

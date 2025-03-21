@@ -7,6 +7,7 @@ interface Props {
   courseId: string;
 }
 
+// This is the main layout page for video downloads
 export default function ManageCourseVideos({ courseId }: Props) {
   const courseData = COURSES_BY_ID[courseId];
 

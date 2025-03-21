@@ -2,6 +2,10 @@
 import { AppDispatch } from "./store";
 import { userActions } from "./user_store";
 
+// These actions use redux 'thunk' functionality to perform asynchronous
+// operations. They perform async operations, then dispatch one of more actions
+// to redux
+
 export function removeCourse(courseId: string) {
   return async function removeCourseThunk(dispatch: AppDispatch) {
     await caches.delete("course-" + courseId);

@@ -1,4 +1,5 @@
-// TODO explanation here
+// This hook determines the current state of video downloads by checking the
+// cache against the videos listed in each course
 import React from "react";
 import { userActions } from "../store/user_store";
 import { useAppDispatch } from "../store/store";

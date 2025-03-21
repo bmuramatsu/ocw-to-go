@@ -1,7 +1,10 @@
 import { createAction } from "@reduxjs/toolkit";
 import { CourseData } from "../../types";
 
-// video middleware handles these actions
+// These actions aren't handled by a reducer. Instead, the video middleware
+// handles them. Typically they trigger side-effects, then dispatch other
+// actions
+
 export const downloadCourseVideos = createAction<CourseData>(
   "downloads/courseVideos",
 );

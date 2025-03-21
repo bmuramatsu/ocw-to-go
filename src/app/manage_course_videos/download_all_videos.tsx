@@ -10,6 +10,7 @@ interface Props {
   courseId: string;
 }
 
+// This is the button to manage all videos for a course
 export default function DownloadAllVideos({ courseId }: Props) {
   const dispatch = useAppDispatch();
   const removeCourseVideos = () =>

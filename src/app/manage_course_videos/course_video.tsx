@@ -11,6 +11,7 @@ interface Props {
   video: VideoData;
 }
 
+// this component is a single video on the downloads page
 export default function CourseVideo({ courseId, video }: Props) {
   const videoStatus = useAppSelector((s) =>
     selectVideoStatus(s, courseId, video.youtubeKey),

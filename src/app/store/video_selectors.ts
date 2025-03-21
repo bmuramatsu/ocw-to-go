@@ -13,6 +13,13 @@ type AllVideoStatus = Partial<{
   }>;
 }>;
 
+// The purpose of these redux selectors is to make it easier to access video
+// state information. Both the UserVideo and VideoQueue store information
+// about video status. These selectors combine that information to create a
+// simpler and comprehensive view that can easily be viewed at course or individual
+// video levels. Performing this combination in a selector also causes the data
+// to only be recomputed when the relevant pieces of state change.
+
 const selectQueue = (state: RootState) => state.user.videoQueue;
 const selectUserVideos = (state: RootState) => state.user.userVideos;
 
@@ -37,6 +44,8 @@ export const selectAllVideoStatus = createSelector(
   },
 );
 
+// These functions let you drill further down into video status by course and
+// video ids
 export const selectCourseVideoStatus = createSelector(
   [selectAllVideoStatus, (_: RootState, courseId: string) => courseId],
   (allVideoStatus, courseId) => {

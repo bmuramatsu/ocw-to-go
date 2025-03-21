@@ -1,4 +1,4 @@
-// Hook that downloads a course, unzips it, and caches the files.
+// Redux thunk that downloads a course, unzips it, and caches the files.
 // This all happens asynchronously.
 import JSZip from "jszip";
 import { CourseData, UserCourse } from "../../types";
