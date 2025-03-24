@@ -11,6 +11,7 @@
     "allowJs": true,
     "checkJs": false,
     "outDir": "tmp/ts",
+    "resolveJsonModule": true,
     "lib": [
       "ESNext",
       "dom",
