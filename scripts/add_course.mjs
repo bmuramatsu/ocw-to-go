@@ -9,11 +9,18 @@ export const VIDEO_HOST = "https://ocw.mit.edu";
 
 // eslint assumes this is running in the browser
 // eslint-disable-next-line no-undef
-const path = process.argv[2];
+const url = process.argv[2];
+const resp = await fetch(url);
+if (!resp.ok) {
+  throw new Error(`Failed to fetch ${url}: ${resp.status} ${resp.statusText}`);
+}
 
-const file = fs.readFileSync(path);
+const zipFile = await resp.arrayBuffer();
+const downloadSize = resp.headers.get("content-length");
 
-const zip = await new JSZip().loadAsync(file);
+//const file = fs.readFileSync(path);
+
+const zip = await new JSZip().loadAsync(zipFile);
 
 // COURSE INFO
 const dataText = await zip.file("data.json").async("text");
@@ -36,6 +43,20 @@ const cardImg = await zip.file(cardSrcPath).async("nodebuffer");
 
 fs.writeFileSync(cardDestPath, cardImg);
 
+const dataPaths = [];
+let diskSize = 0;
+
+zip.forEach((path, fileData) => {
+  if (fileData.dir) return;
+  const size = fileData._data.uncompressedSize;
+  if (size) diskSize += size;
+
+  const fileName = path.split("/").pop();
+  if (fileName === "data.json") {
+    dataPaths.push(path);
+  }
+});
+
 const cardData = {
   id: courseId,
   name: dataJSON.course_title,
@@ -44,20 +65,12 @@ const cardData = {
   courseLevel: `${dataJSON.primary_course_number} | ${level}`,
   cardImg: `/images/course_cards/${courseId}.jpg`,
   imgAltText: dataJSON.course_image_metadata.image_metadata["image-alt"],
-  file: "[upload to R2 bucket and put path here]",
+  file: url,
   videos: [],
+  downloadSize: parseInt(downloadSize),
+  diskSize,
 };
 
-const dataPaths = [];
-
-zip.forEach((path, fileData) => {
-  if (fileData.dir) return;
-
-  const fileName = path.split("/").pop();
-  if (fileName === "data.json") {
-    dataPaths.push(path);
-  }
-});
 
 for (const dataPath of dataPaths) {
   const data = await zip.file(dataPath).async("text");

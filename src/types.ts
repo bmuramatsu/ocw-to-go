@@ -10,6 +10,8 @@ export type CourseData = {
   instructors: string[];
   topics: string[];
   videos: VideoData[];
+  downloadSize: number;
+  diskSize: number;
 };
 
 export type VideoData = {
