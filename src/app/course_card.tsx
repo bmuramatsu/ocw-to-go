@@ -2,7 +2,7 @@
 // and status information about the state of the course download.
 import React from "react";
 import { CourseData, CourseStatus, newUserCourse } from "../types";
-import { Checkmark, Download, Loader, Trash } from "./svgs";
+import { Checkmark, Download, Loader, Trash, Videos } from "./svgs";
 import CourseLink from "./course_link";
 import downloadCourseAction from "./store/download_course_action";
 import * as asyncActions from "./store/async_actions";
@@ -87,17 +87,20 @@ export default function CourseCard({ courseData }: Props) {
         <p className="u-mt-8">
           <span>Topics:</span> {courseData.topics.join(", ")}
         </p>
+        <p className="u-mt-8">
+          <span>Course size:</span> 250.56 MB
+        </p>
 
         {state === "ready" && (
           <p className="u-mt-12 inline-icon">
             <Checkmark />
-            Course downloaded
+            Course downloaded (250.56 MB)
           </p>
         )}
         {state === "ready" && !!totalVideos && (
           <p className="u-mt-8 inline-icon">
             {finishedVideos === totalVideos && <Checkmark />}
-            {finishedVideos}/{totalVideos} videos downloaded
+            {finishedVideos}/{totalVideos} videos downloaded (0 MB)
           </p>
         )}
       </div>
@@ -117,7 +120,13 @@ export default function CourseCard({ courseData }: Props) {
 
         {state === "ready" && (
           <>
-            <Link href={`/manage_videos/${courseData.id}`}>Manage Videos</Link>
+            <Link
+              className="btn--has-icon"
+              href={`/manage_videos/${courseData.id}`}
+            >
+              <Videos />
+              Manage Videos
+            </Link>
             <button onClick={confirmRemove} className="btn--has-icon">
               <Trash />
               Delete
