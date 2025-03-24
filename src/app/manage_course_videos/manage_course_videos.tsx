@@ -12,10 +12,11 @@ export default function ManageCourseVideos({ courseId }: Props) {
 
   return (
     <main>
-      <div className="flex wrap space-between align-center">
+      <div className="flex wrap flex-end align-center">
         <h1 className="flex-1 u-min-300">{courseData.name}: Videos</h1>
         <DownloadAllVideos courseId={courseId} />
       </div>
+      <h2 className="video-header">Lecture Videos</h2>
       <div className="video-list u-mt-12">
         {courseData.videos.map((video) => (
           <CourseVideo

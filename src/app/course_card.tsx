@@ -88,6 +88,9 @@ export default function CourseCard({ courseData }: Props) {
         <p className="u-mt-8">
           <span>Topics:</span> {courseData.topics.join(", ")}
         </p>
+        <p className="u-mt-8">
+          <span>Course size:</span> 250.56 MB
+        </p>
 
         {state === "ready" && (
           <p className="u-mt-12 inline-icon">

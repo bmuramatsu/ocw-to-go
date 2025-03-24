@@ -39,6 +39,9 @@ a:hover {
 .space-between {
   justify-content: space-between;
 }
+.flex-end {
+  justify-content: flex-end;
+}
 .align-center {
   align-items: center;
 }
@@ -243,6 +246,11 @@ main > h2 {
   align-items: center;
   flex-wrap: wrap;
   gap: 0.4rem;
+}
+
+.video-header {
+  font-size: 1.4rem;
+  margin-block: 1.75em 0;
 }
 
 .video-list {
