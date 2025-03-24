@@ -1,3 +1,5 @@
+// This renders the course in an iframe. The course HTML and related assets
+// are stored in the cache, and will be served by the service worker
 import React from "react";
 
 interface Props {
@@ -7,10 +9,13 @@ interface Props {
 export default function CourseView({ courseId }: Props) {
   const ref = React.useRef<HTMLIFrameElement>(null);
 
+  // this effect injects various items into the iframe to
+  // enhance the course experience
   React.useEffect(() => {
     function onLoad() {
       const childWindow = ref.current?.contentWindow;
       if (childWindow) {
+        // Inject PDF.js into the iframe to render PDFs inline
         const pdfJsScript = childWindow.document.createElement("script");
         // Using an older version because newer versions require JS modules
         pdfJsScript.src =
@@ -18,14 +23,17 @@ export default function CourseView({ courseId }: Props) {
         pdfJsScript.id = "pdfjs";
         childWindow.document.body.appendChild(pdfJsScript);
 
+        // Inject some configuration into the iframe
         const envScript = childWindow.document.createElement("script");
         envScript.textContent = `window.PWA = {courseId: "${courseId}"};`;
         childWindow.document.body.appendChild(envScript);
 
+        // Inject the course script to adjust the DOM or listen to events
         const script = childWindow.document.createElement("script");
         script.src = "/course.js";
         childWindow.document.body.appendChild(script);
 
+        // Inject some styles into the iframe to override built-in styles
         const link = childWindow.document.createElement("link");
         link.rel = "stylesheet";
         link.href = "/course-styles.css";
@@ -45,6 +53,7 @@ export default function CourseView({ courseId }: Props) {
     };
   }, [ref, courseId]);
 
+  // Listen to events from the iframe. Currently unused
   React.useEffect(() => {
     function onMessage(e: MessageEvent) {
       if (e.source !== ref.current?.contentWindow) return;

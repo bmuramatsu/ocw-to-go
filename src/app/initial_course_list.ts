@@ -1,3 +1,5 @@
+// This provides the list of available courses, and functions
+// to get information about course download status
 import { CourseData, newUserCourse, UserCourses } from "../types";
 
 const ASSET_HOST = "https://mit-ocw-courses.atomicjoltdevapps.com";

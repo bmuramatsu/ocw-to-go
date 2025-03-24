@@ -1,3 +1,6 @@
+// Currently all app state is stored in this one slice. It's primarily
+// tracking course and video download state. It's populated on page
+// load by examining the local file cache.
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import {
   newUserCourse,

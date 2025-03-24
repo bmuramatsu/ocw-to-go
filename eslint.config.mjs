@@ -11,8 +11,8 @@ export default [
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
   pluginReact.configs.flat.recommended,
+  hooksPlugin.configs['recommended-latest'],
   {
-    plugins: { "react-hooks": hooksPlugin },
-    rules: hooksPlugin.configs.recommended.rules,
+    settings: { react: { version: "18.3.1" } },
   },
 ];

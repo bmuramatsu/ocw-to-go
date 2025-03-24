@@ -1,7 +1,13 @@
 import { Video, CourseVideos } from "../types";
 import { VIDEO_HOST } from "./dataloaders/use_video_status";
 
-// Putting this into a class instead of trying to deal with useEffect potentially starting multiple downloads
+// This maintains a queue of videos to download and downloads them one at a time.
+// It is initialized from the react app, and public functions may be called from the app.
+// In order to inform the app of changes to the queue, it accepts callback functions.
+// This way it doesn't have to be aware of react/redux.
+
+// It was put into a class instead of done in react directly because of the complexity of
+// managing the queue. React hooks are not well suited to this kind of state management.
 export default class VideoDownloader {
   #queue: Video[] = [];
   #currentVideo: Video | undefined = undefined;

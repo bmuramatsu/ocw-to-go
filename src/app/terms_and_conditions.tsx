@@ -43,21 +43,21 @@ export default function TermsAndConditions() {
         <li>
           <p>
             We use the Google Analytics web analytics service, which collects
-            certain data about this website's traffic via a DoubleClick cookie
-            and the standard Google Analytics implementation. The specific
-            Google Analytics feature we use is Google Analytics Demographics and
-            Interest Reporting. Google Analytics Demographics and Interest
-            Reporting enables OCW to use information such as user age, gender
-            and interests from Google's Interest-based advertising or 3rd-party
-            audience data to improve services on the OCW website and to help us
-            understand the aggregate demographics of our users. We cannot and do
-            not obtain personally-identifiable information from Google
-            Analytics. OCW does not and will not merge any
-            personally-identifiable information with non-personally identifiable
-            information unless you have been given notice of and have given
-            prior affirmative (i.e. opt-in) consent to that merger. Google's
-            ability to use and share information collected by Google Analytics
-            about your visits to OCW is restricted by the{" "}
+            certain data about this website&apos;s traffic via a DoubleClick
+            cookie and the standard Google Analytics implementation. The
+            specific Google Analytics feature we use is Google Analytics
+            Demographics and Interest Reporting. Google Analytics Demographics
+            and Interest Reporting enables OCW to use information such as user
+            age, gender and interests from Google&apos;s Interest-based
+            advertising or 3rd-party audience data to improve services on the
+            OCW website and to help us understand the aggregate demographics of
+            our users. We cannot and do not obtain personally-identifiable
+            information from Google Analytics. OCW does not and will not merge
+            any personally-identifiable information with non-personally
+            identifiable information unless you have been given notice of and
+            have given prior affirmative (i.e. opt-in) consent to that merger.
+            Google&apos;s ability to use and share information collected by
+            Google Analytics about your visits to OCW is restricted by the{" "}
             <a href="http://www.google.com/policies/privacy/">
               Google Privacy Policy
             </a>
@@ -93,8 +93,8 @@ export default function TermsAndConditions() {
         When we report information about OCW access, use, and impact, we report
         aggregate, non-personally identifiable data. Occasionally, we report
         quoted feedback from users. We do not attribute feedback to specific
-        individuals unless we obtain permission to use that person's name along
-        with the feedback.
+        individuals unless we obtain permission to use that person&apos;s name
+        along with the feedback.
       </p>
       <p>Last Updated: 03/24/2022</p>
       <h2>Creative Commons License</h2>
@@ -179,12 +179,12 @@ export default function TermsAndConditions() {
         “MIT”, “Massachusetts Institute of Technology”, and its logos and seal
         are trademarks of the Massachusetts Institute of Technology. Except for
         purposes of attribution as required by our Creative Commons License, you
-        may not use MIT's names or logos, or any variations thereof, without
-        prior written consent of MIT. You may not use the MIT name in any of its
-        forms nor MIT seals or logos for promotional purposes, or in any way
-        that deliberately or inadvertently claims, suggests, or in MIT's sole
-        judgment gives the appearance or impression of a relationship with or
-        endorsement by MIT.
+        may not use MIT&apos;s names or logos, or any variations thereof,
+        without prior written consent of MIT. You may not use the MIT name in
+        any of its forms nor MIT seals or logos for promotional purposes, or in
+        any way that deliberately or inadvertently claims, suggests, or in
+        MIT&apos;s sole judgment gives the appearance or impression of a
+        relationship with or endorsement by MIT.
       </p>
       <h2>MIT Interpretation of “Non-commercial”</h2>
       <p>
@@ -258,7 +258,7 @@ export default function TermsAndConditions() {
         material and obtain the appropriate licenses to make the material
         available on OCW. OCW will promptly remove any material that is
         determined to be infringing on the rights of others. If you believe that
-        a portion of OCW Material infringes another's copyright,{" "}
+        a portion of OCW Material infringes another&apos;s copyright,{" "}
         <a href="https://ocw.mit.edu/contact">contact us via email</a> or write
         to us at:
       </p>

@@ -1,3 +1,4 @@
+// This is the home page
 import React from "react";
 import CourseListItem from "./course_list_item";
 import { ALL_COURSES } from "./initial_course_list";

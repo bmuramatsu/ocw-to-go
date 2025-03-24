@@ -8,6 +8,9 @@ interface Props {
   children: React.ReactNode;
 }
 
+// This initializes the VideoDownloader class and facilitates communication between the
+// downloader and the rest of the app. The class is provided through react context so
+// child components can call it's public methods.
 // It's important that ALL of the hooks in this file are completely stable because they are
 // passed into the VideoDownloader constructor
 export default function LoadedVideoDownloaderContext({ children }: Props) {

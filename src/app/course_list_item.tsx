@@ -1,3 +1,5 @@
+// This is a course card, which displays metadata about the course,
+// and status information about the state of the course download.
 import React from "react";
 import { CourseData, newUserCourse } from "../types";
 import { Cancel, Checkmark, Download, Loader, Trash } from "./svgs";

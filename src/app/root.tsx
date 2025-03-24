@@ -1,3 +1,4 @@
+// Application root component. Loads dependencies and sets up routing.
 import React from "react";
 import { Router, Route, Switch } from "wouter";
 import { useHashLocation } from "wouter/use-hash-location";

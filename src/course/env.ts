@@ -1,3 +1,5 @@
+// The parent window injects this state into the Iframe.
+// This module is just a way to access the typed state.
 type ENV = {
   courseId: string;
 };

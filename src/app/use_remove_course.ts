@@ -1,3 +1,4 @@
+// Hook to remove a course and cached data
 import React from "react";
 import { useAppDispatch } from "./store/store";
 import { deleteCourse } from "./store/user_store";

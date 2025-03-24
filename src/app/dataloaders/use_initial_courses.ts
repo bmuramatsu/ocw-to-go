@@ -1,3 +1,5 @@
+// hook that builds the list of courses along with their current download
+// status. That information is put into redux
 import React from "react";
 import getInitialUserCourses from "../initial_course_list";
 import { setInitialCourses } from "../store/user_store";
