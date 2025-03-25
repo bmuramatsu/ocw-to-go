@@ -20,6 +20,8 @@
     "cardImg": "/images/course_cards/71ad7cf6-d1bb-4cee-aa16-c5a86a3393c8.jpg",
     "imgAltText": "A black backlit keyboard.",
     "file": "https://mit-ocw-courses.atomicjoltdevapps.com/intro-to-cs-2.zip",
+    "downloadSize": 33524595,
+    "diskSize": 73403978,
     "videos": [
         {
             "title": "Bindings",
@@ -349,7 +351,5 @@
             "categories": [],
             "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/14474466362c520aa6a69016800e7bd9_P-0w8xWcnDQ.vtt"
         }
-    ],
-    "downloadSize": 33524595,
-    "diskSize": 73403978
+    ]
 }

@@ -18,8 +18,6 @@ if (!resp.ok) {
 const zipFile = await resp.arrayBuffer();
 const downloadSize = resp.headers.get("content-length");
 
-//const file = fs.readFileSync(path);
-
 const zip = await new JSZip().loadAsync(zipFile);
 
 // COURSE INFO
@@ -66,11 +64,10 @@ const cardData = {
   cardImg: `/images/course_cards/${courseId}.jpg`,
   imgAltText: dataJSON.course_image_metadata.image_metadata["image-alt"],
   file: url,
-  videos: [],
   downloadSize: parseInt(downloadSize),
   diskSize,
+  videos: [],
 };
-
 
 for (const dataPath of dataPaths) {
   const data = await zip.file(dataPath).async("text");

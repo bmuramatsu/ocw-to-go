@@ -13,6 +13,8 @@
     "cardImg": "/images/course_cards/0d7cf6b1-07d3-4577-9858-19e9881653f8.jpg",
     "imgAltText": "Closeup of sunflower petals and seeds. ",
     "file": "https://mit-ocw-courses.atomicjoltdevapps.com/intro-to-cs-01.zip",
+    "downloadSize": 70470702,
+    "diskSize": 106024595,
     "videos": [
         {
             "title": "Lecture 1: Introduction to CS and Programming Using Python",
@@ -274,7 +276,5 @@
             ],
             "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1Jf1_GNVjvRScJqmNBDRrxyK6igxPavZg_transcript.webvtt"
         }
-    ],
-    "downloadSize": 70470702,
-    "diskSize": 106024595
+    ]
 }
