@@ -23,7 +23,12 @@ export type VideoData = {
   captionsFile: string | null;
 };
 
-export type CourseStatus = "none" | "downloading" | "preparing" | "ready" | "error";
+export type CourseStatus =
+  | "none"
+  | "downloading"
+  | "preparing"
+  | "ready"
+  | "error";
 
 export type UserCourse = {
   status: CourseStatus;
@@ -36,14 +41,14 @@ export const newUserCourse = (
   ...params,
 });
 
-export type UserCourses = Partial<{[courseId: string]: UserCourse}>;
+export type UserCourses = Partial<{ [courseId: string]: UserCourse }>;
 
 // This may have a download percentage in the future
 export type UserVideo = {
   ready: boolean;
-}
+};
 
-export type UserVideos = Partial<{[videoId: string]: UserVideo}>;
+export type UserVideos = Partial<{ [videoId: string]: UserVideo }>;
 
 export type VideoQueueItem = {
   courseId: string;

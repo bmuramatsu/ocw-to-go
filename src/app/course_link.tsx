@@ -3,11 +3,16 @@ import React from "react";
 import { Link } from "wouter";
 
 interface Props extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
-  courseId: string
+  courseId: string;
   ready: boolean;
 }
 
-export default function CourseLink({ courseId, ready, children, ...rest }: Props) {
+export default function CourseLink({
+  courseId,
+  ready,
+  children,
+  ...rest
+}: Props) {
   function onClick(e: React.MouseEvent<HTMLAnchorElement>) {
     if (!ready) {
       e.preventDefault();

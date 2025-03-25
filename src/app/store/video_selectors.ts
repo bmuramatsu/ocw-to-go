@@ -54,7 +54,10 @@ export const selectCourseVideoStatus = createSelector(
 );
 
 export const selectVideoStatus = createSelector(
-  [selectCourseVideoStatus, (_: RootState, _courseId: string, videoId: string) => videoId],
+  [
+    selectCourseVideoStatus,
+    (_: RootState, _courseId: string, videoId: string) => videoId,
+  ],
   (courseVideos, videoId): FullUserVideo => {
     return courseVideos[videoId] || { status: "none" };
   },

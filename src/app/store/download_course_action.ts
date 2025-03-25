@@ -42,7 +42,7 @@ export default function downloadCourseAction(courseData: CourseData) {
       console.error("Error downloading course", e);
       update({ status: "error" });
     }
-  }
+  };
 }
 
 // Files need to have a mime for the browser to serve them correctly.

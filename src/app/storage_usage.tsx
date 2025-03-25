@@ -23,7 +23,10 @@ export default function StorageUsage() {
 }
 
 function useStorageEstimate(): StorageEstimate {
-  const [estimate, setEstimate] = React.useState<StorageEstimate>({quota: undefined, usage: undefined});
+  const [estimate, setEstimate] = React.useState<StorageEstimate>({
+    quota: undefined,
+    usage: undefined,
+  });
 
   React.useEffect(() => {
     const interval = setInterval(() => {

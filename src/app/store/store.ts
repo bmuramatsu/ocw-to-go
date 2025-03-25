@@ -32,4 +32,3 @@ export const useAppStore = useStore.withTypes<AppStore>();
 // eslint-disable-next-line @typescript-eslint/no-empty-object-type
 export type AppMiddleware = Middleware<{}, RootState>;
 export type AppMiddlewareAPI = MiddlewareAPI<AppDispatch, RootState>;
-

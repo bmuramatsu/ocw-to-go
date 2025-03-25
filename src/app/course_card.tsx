@@ -54,7 +54,6 @@ export default function CourseCard({ courseData }: Props) {
   const formattedVideoSpace = useFormattedBytes(totalVideoSpace);
   const formattedCourseSize = useFormattedBytes(courseData.downloadSize);
 
-
   const dispatch = useAppDispatch();
   const removeCourse = () => dispatch(asyncActions.removeCourse(courseData.id));
   const downloadCourse = () => dispatch(downloadCourseAction(courseData));
@@ -112,7 +111,8 @@ export default function CourseCard({ courseData }: Props) {
         {state === "ready" && !!totalVideos && (
           <p className="u-mt-8 inline-icon">
             {finishedVideos === totalVideos && <Checkmark />}
-            {finishedVideos}/{totalVideos} videos downloaded ({formattedVideoSpace})
+            {finishedVideos}/{totalVideos} videos downloaded (
+            {formattedVideoSpace})
           </p>
         )}
       </div>
