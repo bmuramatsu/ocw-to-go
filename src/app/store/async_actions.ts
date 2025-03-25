@@ -3,8 +3,7 @@ import { AppDispatch } from "./store";
 import { userActions } from "./user_store";
 
 // These actions use redux 'thunk' functionality to perform asynchronous
-// operations. They perform async operations, then dispatch one of more actions
-// to redux
+// operations, then dispatch actions to update the redux store.
 
 export function removeCourse(courseId: string) {
   return async function removeCourseThunk(dispatch: AppDispatch) {

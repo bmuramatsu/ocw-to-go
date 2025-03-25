@@ -74,6 +74,10 @@ export default class VideoDownloader {
     this.running = item;
 
     let url = this.video(item.courseId, item.videoId).videoUrl;
+    // some videos are hosted on archive.org, which doesn't support CORS properly,
+    // but you can do an 'opaque' request to get the video. This means the user
+    // can see the video, but we can't access any information about it, including
+    // whether it was successful or not. This is not ideal, but it works
     const doOpaqueRequest = !url.startsWith(VIDEO_HOST);
     // some of the archive.org links are http, but seem to work fine over https
     url = url.replace(/^http:/, "https:");

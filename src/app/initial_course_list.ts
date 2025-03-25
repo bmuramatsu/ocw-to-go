@@ -1,5 +1,4 @@
-// This provides the list of available courses, and functions
-// to get information about course download status
+// This provides the list of available courses
 import { CourseData } from "../types";
 import introCS from "../courses/introduction-to-cs-and-programming-using-python.json";
 import linearAlg from "../courses/linear-algebra.json";
