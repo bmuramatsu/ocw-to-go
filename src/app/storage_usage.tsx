@@ -1,6 +1,6 @@
 // Displays the storage usage at the bottom of the page
 import React from "react";
-import { formatBytes } from "./utils/format_bytes";
+import { useFormattedBytes } from "./utils/format_bytes";
 
 type UsageData = {
   usedPercent: number;
@@ -9,32 +9,42 @@ type UsageData = {
 };
 
 export default function StorageUsage() {
-  const [usage, setUsage] = React.useState<UsageData | null>(null);
+  const estimate = useStorageEstimate();
+  const storage = useStorage(estimate);
 
-  React.useEffect(() => {
-    const interval = setInterval(() => {
-      calculateUsage().then(setUsage);
-    }, 5000);
-
-    calculateUsage().then(setUsage);
-
-    return () => clearInterval(interval);
-  }, [setUsage]);
-
-  if (!usage) return null;
+  if (!storage) return null;
 
   return (
     <span>
-      Storage: {usage.usedPercent}% used ({usage.usedSpace} of{" "}
-      {usage.totalSpace})
+      Storage: {storage.usedPercent}% used ({storage.usedSpace} of{" "}
+      {storage.totalSpace})
     </span>
   );
 }
 
-async function calculateUsage(): Promise<UsageData | null> {
-  const data = await navigator.storage.estimate();
-  const { usage, quota } = data;
-  if (usage === undefined || quota === undefined) {
+function useStorageEstimate(): StorageEstimate {
+  const [estimate, setEstimate] = React.useState<StorageEstimate>({quota: undefined, usage: undefined});
+
+  React.useEffect(() => {
+    const interval = setInterval(() => {
+      navigator.storage.estimate().then(setEstimate);
+    }, 5000);
+
+    navigator.storage.estimate().then(setEstimate);
+
+    return () => clearInterval(interval);
+  }, [setEstimate]);
+
+  return estimate;
+}
+
+function useStorage(estimate: StorageEstimate): UsageData | null {
+  const { usage, quota } = estimate;
+
+  const formattedQuota = useFormattedBytes(quota || 0);
+  const formattedUsage = useFormattedBytes(usage || 0);
+
+  if (usage === undefined || quota === undefined || quota === 0) {
     return null;
   }
 
@@ -42,7 +52,7 @@ async function calculateUsage(): Promise<UsageData | null> {
   usedPercent = Math.round(usedPercent);
   return {
     usedPercent,
-    usedSpace: formatBytes(usage),
-    totalSpace: formatBytes(quota),
+    usedSpace: formattedUsage,
+    totalSpace: formattedQuota,
   };
 }
