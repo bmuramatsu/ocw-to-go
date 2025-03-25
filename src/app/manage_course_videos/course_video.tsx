@@ -5,7 +5,7 @@ import { useAppDispatch, useAppSelector } from "../store/store";
 import * as customActions from "../store/custom_actions";
 import * as asyncActions from "../store/async_actions";
 import { selectVideoStatus, FullUserVideo } from "../store/video_selectors";
-import { formatBytes } from "../utils/format_bytes";
+import { useFormattedBytes } from "../utils/format_bytes";
 
 interface Props {
   courseId: string;
@@ -18,12 +18,14 @@ export default function CourseVideo({ courseId, video }: Props) {
     selectVideoStatus(s, courseId, video.youtubeKey),
   );
 
+  const bytes = useFormattedBytes(video.contentLength);
+
   return (
     <div key={video.youtubeKey} className="video-list__item">
       <StatusIcon videoStatus={videoStatus} />
       <div className="video-list__item__content">
         <h3>{video.title}</h3>
-        <p>{formatBytes(video.contentLength)}</p>
+        <p>{bytes}</p>
       </div>
       <DownloadButton
         courseId={courseId}

@@ -9,6 +9,7 @@ import * as asyncActions from "./store/async_actions";
 import { useAppDispatch, useAppSelector } from "./store/store";
 import { Link } from "wouter";
 import { selectCourseVideoStatus } from "./store/video_selectors";
+import { useFormattedBytes } from "./utils/format_bytes";
 
 function downloadState(state: CourseStatus) {
   switch (state) {
@@ -42,6 +43,17 @@ export default function CourseCard({ courseData }: Props) {
   Object.values(videoStatus).forEach((video) => {
     if (video?.status == "ready") finishedVideos++;
   });
+
+  const totalVideoSpace = courseData.videos.reduce((total, video) => {
+    if (videoStatus[video.youtubeKey]?.status === "ready") {
+      return total + video.contentLength;
+    }
+    return total;
+  }, 0);
+
+  const formattedVideoSpace = useFormattedBytes(totalVideoSpace);
+  const formattedCourseSize = useFormattedBytes(courseData.downloadSize);
+
 
   const dispatch = useAppDispatch();
   const removeCourse = () => dispatch(asyncActions.removeCourse(courseData.id));
@@ -88,19 +100,19 @@ export default function CourseCard({ courseData }: Props) {
           <span>Topics:</span> {courseData.topics.join(", ")}
         </p>
         <p className="u-mt-8">
-          <span>Course size:</span> 250.56 MB
+          <span>Course size:</span> {formattedCourseSize}
         </p>
 
         {state === "ready" && (
           <p className="u-mt-12 inline-icon">
             <Checkmark />
-            Course downloaded (250.56 MB)
+            Course downloaded ({formattedCourseSize})
           </p>
         )}
         {state === "ready" && !!totalVideos && (
           <p className="u-mt-8 inline-icon">
             {finishedVideos === totalVideos && <Checkmark />}
-            {finishedVideos}/{totalVideos} videos downloaded (0 MB)
+            {finishedVideos}/{totalVideos} videos downloaded ({formattedVideoSpace})
           </p>
         )}
       </div>

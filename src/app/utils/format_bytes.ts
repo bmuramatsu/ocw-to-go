@@ -1,3 +1,5 @@
+import React from "react";
+
 // Co-pilot wrote this :P
 export function formatBytes(bytes: number): string {
   if (bytes === 0) return "0 Bytes";
@@ -5,4 +7,10 @@ export function formatBytes(bytes: number): string {
   const sizes = ["Bytes", "KB", "MB", "GB", "TB"];
   const i = Math.floor(Math.log(bytes) / Math.log(k));
   return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + " " + sizes[i];
+}
+
+export function useFormattedBytes(bytes: number): string {
+  return React.useMemo(() => {
+    return formatBytes(bytes);
+  }, [bytes]);
 }

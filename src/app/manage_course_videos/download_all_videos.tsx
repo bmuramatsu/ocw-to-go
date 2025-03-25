@@ -4,8 +4,9 @@ import * as asyncActions from "../store/async_actions";
 import { useAppDispatch } from "../store/store";
 import { useAppSelector } from "../store/store";
 import { selectCourseVideoStatus } from "../store/video_selectors";
-import { Cancel, Download, Loader, Trash} from "../svgs";
+import { Cancel, Download, Loader, Trash } from "../svgs";
 import { COURSES_BY_ID } from "../initial_course_list";
+import { useFormattedBytes } from "../utils/format_bytes";
 
 interface Props {
   courseId: string;
@@ -20,6 +21,10 @@ export default function DownloadAllVideos({ courseId }: Props) {
   const courseVideos = useAppSelector((state) =>
     selectCourseVideoStatus(state, courseId),
   );
+  const totalSpace = courseData.videos.reduce((total, video) => {
+    return total + video.contentLength;
+  }, 0);
+  const formattedSpace = useFormattedBytes(totalSpace);
 
   const total = courseData.videos.length;
   const finished = Object.values(courseVideos).filter(
@@ -27,7 +32,12 @@ export default function DownloadAllVideos({ courseId }: Props) {
   ).length;
 
   if (total === finished) {
-    return <button className="btn--has-icon" onClick={removeCourseVideos}><Trash />Delete All</button>;
+    return (
+      <button className="btn--has-icon" onClick={removeCourseVideos}>
+        <Trash />
+        Delete All
+      </button>
+    );
   }
 
   const inQueue = Object.values(courseVideos).every(
@@ -59,7 +69,7 @@ export default function DownloadAllVideos({ courseId }: Props) {
       onClick={() => dispatch(customActions.downloadCourseVideos(courseData))}
     >
       <Download />
-      Download All (23.45 GB)
+      Download All ({formattedSpace})
     </button>
   );
 }
