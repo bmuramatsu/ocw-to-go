@@ -20,6 +20,7 @@ const OVERRIDES: Override[] = [
   },
 ];
 
+// TODO make these not unmount the app
 export default function overrideNavButtons() {
   OVERRIDES.forEach((o) => {
     document.querySelectorAll<HTMLAnchorElement>(o.selector).forEach((el) => {

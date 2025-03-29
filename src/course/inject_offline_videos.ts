@@ -1,5 +1,7 @@
 // If the user has downloaded the video, this injects a video
 // elements into the page and hides the youtube player.
+import OcwBroadcastChannel from "../common/broadcast_channel";
+import { VideoData } from "../types";
 import env from "./env";
 
 export default async function injectOfflineVideos() {
@@ -16,8 +18,17 @@ export default async function injectOfflineVideos() {
 
   const href = `/course-videos/${env.course.id}/${code}.mp4`;
   const exists = await caches.match(href);
-  if (!exists) return;
+  if (exists) {
+    addVideoPlayer(href, code);
+  } else {
+    const videoData = getVideoData(code);
+    if (videoData) {
+      addDownloadLink(videoPlayer, videoData);
+    }
+  }
+}
 
+function addVideoPlayer(href: string, code: string) {
   // We know we have a local copy at this point, so swap the iframe out for a video element
   const wrapper = document.querySelector<HTMLElement>(".video-player-wrapper")!;
   wrapper.style.display = "none";
@@ -37,8 +48,19 @@ export default async function injectOfflineVideos() {
   wrapper.after(video);
 }
 
+function addDownloadLink(player: HTMLElement, videoData: VideoData) {
+  console.log(player, videoData)
+  const button = document.createElement("button");
+  button.textContent = "Download Video";
+  button.classList.add("download-video-button");
+  button.onclick = async () => {
+    new OcwBroadcastChannel().postMessage({type: "download-video", courseId: env.course.id, videoId: videoData.youtubeKey});
+  }
+  player.appendChild(button);
+}
+
 async function addCaptions(video: HTMLVideoElement, youtubeKey: string) {
-  const videoData = env.course.videos.find((v) => v.youtubeKey === youtubeKey);
+  const videoData = getVideoData(youtubeKey);
   if (!videoData || !videoData.captionsFile) return;
 
   const fileName = videoData.captionsFile.split("/").pop();
@@ -56,4 +78,8 @@ async function addCaptions(video: HTMLVideoElement, youtubeKey: string) {
 
   // This turns the captions on by default, I don't know if that's what we want yet
   track.track.mode = "showing";
+}
+
+function getVideoData(youtubeKey: string): VideoData | undefined {
+  return env.course.videos.find((v) => v.youtubeKey === youtubeKey);
 }

@@ -17,6 +17,8 @@ const videoDownloadMiddleware: AppMiddleware = (store) => {
   const downloader = new VideoDownloader(store);
 
   return (next) => (action) => {
+    console.log("videoDownloadMiddleware", action);
+
     if (customActions.downloadCourseVideos.match(action)) {
       const newItems = missingCourseVideos(action.payload, store.getState());
       store.dispatch(userActions.addToVideoQueue(newItems));
