@@ -49,7 +49,6 @@ function addVideoPlayer(href: string, code: string) {
 }
 
 function addDownloadLink(player: HTMLElement, videoData: VideoData) {
-  console.log(player, videoData)
   const button = document.createElement("button");
   button.textContent = "Download Video";
   button.classList.add("download-video-button");

@@ -19,9 +19,9 @@ export default function Root() {
   return (
     <React.StrictMode>
       <ReduxProvider store={store}>
-        <BroadcastProvider>
-          <DataLoader />
-          <Router hook={useHashLocation}>
+        <DataLoader />
+        <Router hook={useHashLocation}>
+          <BroadcastProvider>
             <ScrollToTop />
             <Switch>
               <Route path="/courses/:courseId">
@@ -55,8 +55,8 @@ export default function Root() {
                 </Layout>
               </Route>
             </Switch>
-          </Router>
-        </BroadcastProvider>
+          </BroadcastProvider>
+        </Router>
       </ReduxProvider>
     </React.StrictMode>
   );

@@ -12,7 +12,7 @@ export default function useInitialCourses() {
     getInitialVideos().then((videos) =>
       dispatch(userActions.setInitialVideos(videos)),
     );
-  }, []);
+  }, [dispatch]);
 }
 
 async function getInitialVideos(): Promise<UserVideos> {

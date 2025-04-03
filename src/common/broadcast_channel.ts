@@ -6,7 +6,7 @@ export type OcwMessage =
       courseId: string;
       videoId: string;
     }
-  | { type: "update-video-status" };
+  | { type: "navigate", href: string };
 
 export default class OcwBroadcastChannel {
   private channel: BroadcastChannel;
@@ -20,14 +20,12 @@ export default class OcwBroadcastChannel {
   }
 
   onMessage(callback: (message: OcwMessage) => void) {
-    console.log("raw message");
     this.channel.onmessage = (event: MessageEvent<OcwMessage>) => {
       callback(event.data);
     };
   }
 
-  //close() {
-  //  console.log("Closing broadcast channel");
-  //  this.channel.close();
-  //}
+  clearOnMessage() {
+    this.channel.onmessage = null;
+  }
 }

@@ -2,7 +2,6 @@
 // are stored in the cache, and will be served by the service worker
 import React from "react";
 import { COURSES_BY_ID } from "./initial_course_list";
-import OcwBroadcastChannel from "../common/broadcast_channel";
 
 interface Props {
   courseId: string;
@@ -55,32 +54,6 @@ export default function CourseView({ courseId }: Props) {
       }
     };
   }, [ref, course]);
-
-  // Listen to events from the iframe. Currently unused
-  React.useEffect(() => {
-    function onMessage(e: MessageEvent) {
-      if (
-        e.source === ref.current?.contentWindow &&
-        typeof e.data === "object" &&
-        !Array.isArray(e.data) &&
-        e.data === null
-      ) {
-        console.log("this message?", e);
-      }
-    }
-
-    window.addEventListener("message", onMessage);
-
-    return () => {
-      window.removeEventListener("message", onMessage);
-    };
-  }, [ref]);
-
-  React.useEffect(() => {
-    //const channel = new OcwBroadcastChannel();
-    //channel.onMessage(console.log);
-    //return () => {channel.close();};
-  }, []);
 
   return (
     <>
