@@ -1,5 +1,12 @@
 # MIT OpenCourseWare To Go
 
+## About
+MIT OpenCourseWare To Go is an experiment in offering selected materials 
+optimized for offline use in Google Chrome on Android and iOS.
+
+If you have questions, please contact Brandon 
+Muramatsu at mura -at- mit -dot- edu.
+
 ## Development
 
 ### Dependencies
