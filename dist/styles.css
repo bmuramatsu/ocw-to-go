@@ -39,6 +39,9 @@ a:hover {
 .space-between {
   justify-content: space-between;
 }
+.flex-end {
+  justify-content: flex-end;
+}
 .align-center {
   align-items: center;
 }
@@ -47,6 +50,9 @@ a:hover {
 }
 .gap-24 {
   gap: 2.4rem;
+}
+.flex-1 {
+  flex: 1;
 }
 
 .u-all-caps {
@@ -61,6 +67,9 @@ a:hover {
 }
 .u-mt-24 {
   margin-block-start: 2.4rem !important;
+}
+.u-min-300 {
+  min-width: 300px;
 }
 
 .inline-icon {
@@ -237,6 +246,76 @@ main > h2 {
   align-items: center;
   flex-wrap: wrap;
   gap: 0.4rem;
+}
+
+.video-header {
+  font-size: 1.4rem;
+  margin-block: 1.75em 0;
+}
+
+.video-list {
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+}
+
+.video-list__item {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 1.2rem;
+}
+.video-list__item + .video-list__item {
+  border-block-start: 1px solid #ddd;
+}
+
+.video-list__item__content {
+  flex: 1;
+}
+.video-list__item__content h3 {
+  font-size: 1.4rem;
+  font-weight: normal;
+  margin-block: 0;
+}
+.video-list__item__content p {
+  font-size: 1.2rem;
+  margin-block: 0.4rem 0;
+  color: #555;
+}
+
+.video-list__graphic {
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  box-shadow: 0 2px 0 0 rgb(0 0 0 / 15%);
+  overflow: hidden;
+}
+.video-list__graphic div {
+  padding: 0.2rem 0.4rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #333;
+}
+.video-list__graphic span {
+  display: grid;
+  width: 100%;
+  padding: 0.4rem;
+  place-content: center;
+}
+.video-list__graphic svg {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+.video-list__graphic.is-red svg {
+  fill: #a31f34;
+}
+.video-list__graphic.is-green {
+  background-color: #e6fde2;
+}
+.video-list__graphic.is-green svg {
+  fill: #007c13;
+}
+.video-list__graphic.is-loading svg {
+  animation: rotate 1s linear infinite;
 }
 
 @keyframes rotate {

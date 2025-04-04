@@ -14,125 +14,144 @@
     "cardImg": "/images/course_cards/41e30dea-e361-4ee8-afb3-21db484b1ded.jpg",
     "imgAltText": "Chalkboard at a school in Haiti with lessons written on it",
     "file": "https://mit-ocw-courses.atomicjoltdevapps.com/creole.zip",
+    "downloadSize": 15347747,
+    "diskSize": 42764581,
     "videos": [
         {
             "title": "1. Do \"Pidgins\" exist? Do Creole languages come from Pidgins?",
             "videoUrl": "https://archive.org/download/MIT24.908S17/MIT24_908S17_Creole_Chapter_01_Pidgins_300k.mp4",
             "youtubeKey": "mAhtll45Yz8",
             "contentLength": 22889771,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/a69d77dfb2fc5876a1acd65d0c9b3198_mAhtll45Yz8.vtt"
         },
         {
             "title": "2. How much variation in space and in time through the history of Haitian Creole?",
             "videoUrl": "https://archive.org/download/MIT24.908S17/MIT24_908S17_Creole_Chapter_02_History_300k.mp4",
             "youtubeKey": "3WrHSdaC9-A",
             "contentLength": 9136974,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/c70608a4a70c56a89016765a5b50c9a7_3WrHSdaC9-A.vtt"
         },
         {
             "title": "3. On \"Kreyolofoni\": Why do we still use the label \"Creole\" to refer to \"Creole languages\"?",
             "videoUrl": "https://archive.org/download/MIT24.908S17/MIT24_908S17_Creole_Chapter_03_Kreyolofoni_300k.mp4",
             "youtubeKey": "T8IjB94ka2g",
             "contentLength": 18388253,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/299a1fb98fe6520796c3af2b5738502f_T8IjB94ka2g.vtt"
         },
         {
             "title": "4. Post-colonial discourses of power & identity; the making of socio-economic & cultural hierarchies",
             "videoUrl": "https://archive.org/download/MIT24.908S17/MIT24_908S17_Creole_Chapter_04_Post_Colonial_300k.mp4",
             "youtubeKey": "Qm6ykShr0Pg",
             "contentLength": 37589518,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/2041ff388a7956b8abece1f60ef03194_Qm6ykShr0Pg.vtt"
         },
         {
             "title": "5. Language and discourses of power in the making of “authentic” identities in post-colonial societies",
             "videoUrl": "https://archive.org/download/MIT24.908S17/MIT24_908S17_Creole_Chapter_05_Language_300k.mp4",
             "youtubeKey": "8fAGSwTwzxI",
             "contentLength": 34530313,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/b4a7c02e973a59909c8d5c90c989ed32_8fAGSwTwzxI.vtt"
         },
         {
             "title": "6. Language, culture, identity and \"authenticity\" in post-colonial communities",
             "videoUrl": "https://archive.org/download/MIT24.908S17/MIT24_908S17_Creole_Chapter_06_Authenticity_300k.mp4",
             "youtubeKey": "JDRa0SwOf2k",
             "contentLength": 34039733,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/28fe0d743cd855e6b1fe1b2928e329d6_JDRa0SwOf2k.vtt"
         },
         {
             "title": "7. Feedback to students who led class discussion",
             "videoUrl": "https://archive.org/download/MIT24.908S17/MIT24_908S17_Creole_Chapter_07_Feedback_300k.mp4",
             "youtubeKey": "g0KqIIEjXiM",
             "contentLength": 8932398,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/6abce8acffd455009b875affe28e2034_g0KqIIEjXiM.vtt"
         },
         {
             "title": "8. Against Creole Exceptionalism, Part 1: Creole languages are perfectly normal languages",
             "videoUrl": "https://archive.org/download/MIT24.908S17/MIT24_908S17_Creole_Chapter_08_Exceptionalism_300k.mp4",
             "youtubeKey": "p8BXCDrYliY",
             "contentLength": 38260455,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/cc2f8d938788578db7bd2d14c5a485ef_p8BXCDrYliY.vtt"
         },
         {
             "title": "9. Against Creole Exceptionalism, Part 2: Creole formation is normal language change",
             "videoUrl": "https://archive.org/download/MIT24.908S17/MIT24_908S17_Creole_Chapter_09_Exceptionalism_Part_2_300k.mp4",
             "youtubeKey": "m6PnN-aEYbc",
             "contentLength": 22665099,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/8b1addf2a5e35453b1108dfa4665e5c4_m6PnN-aEYbc.vtt"
         },
         {
             "title": "10. Against Creole Exceptionalism, Part 3: Creole formation is language acquisition plus social factors",
             "videoUrl": "https://archive.org/download/MIT24.908S17/MIT24_908S17_Creole_Chapter_10_Exceptionalism_Part_3_300k.mp4",
             "youtubeKey": "z_YXJLMpxoM",
             "contentLength": 23010313,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/dfce3e283447547cb048ae7ebdd6445a_z_YXJLMpxoM.vtt"
         },
         {
             "title": "11. \"Birth certificates\" of languages created via migration & population contact—Kreyòl, English…",
             "videoUrl": "https://archive.org/download/MIT24.908S17/MIT24_908S17_Creole_Chapter_11_Birth_Certificates_300k.mp4",
             "youtubeKey": "OKAsxiE8ziY",
             "contentLength": 23894918,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/bf2372da83d35b3c989b17220d2723f0_OKAsxiE8ziY.vtt"
         },
         {
             "title": "12. A brief & partial history of anti-Creole myths at the core of imperialism—linguistic & otherwise",
             "videoUrl": "https://archive.org/download/MIT24.908S17/MIT24_908S17_Creole_Chapter_12_Anti_Creole_Myths_300k.mp4",
             "youtubeKey": "MT3LjjdODHA",
             "contentLength": 40175249,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/ab0555956927577c8a93b230af2fbecf_MT3LjjdODHA.vtt"
         },
         {
             "title": "A Different Way to View the World",
             "videoUrl": "https://archive.org/download/MIT24.908S17/MIT24_908S17_Jose_Esparza_Part_1_300k.mp4",
             "youtubeKey": "1Ukb9KNTNkA",
             "contentLength": 4769045,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/319e12ef592d5a81bc43d5239e6db6a3_1Ukb9KNTNkA.vtt"
         },
         {
             "title": "Advice for Educators: Help Students Read the Word and the World",
             "videoUrl": "https://archive.org/download/MIT24.908S17/MIT24_908S17_Jose_Esparza_Part_2_300k.mp4",
             "youtubeKey": "w-zdunIsHUU",
             "contentLength": 4181733,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/a5c2e756d1e2502cb8fed77637a6aa69_w-zdunIsHUU.vtt"
         },
         {
             "title": "Facilitating Meaningful Classroom Discussions",
             "videoUrl": "https://archive.org/download/MIT24.908S17/MIT24_908S17_Facilitating_Discussions_English_300k.mp4",
             "youtubeKey": "aRZax7Y2t7g",
             "contentLength": 9079921,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/aaa13501b28759c9ba95359e1482d87f_aRZax7Y2t7g.vtt"
         },
         {
             "title": "Facilitating Meaningful Classroom Discussions (Creole)",
             "videoUrl": "https://archive.org/download/MIT24.908S17/MIT24_908S17_Facilitating_Discussions_Creole_300k.mp4",
             "youtubeKey": "v3dEe0h7zy8",
             "contentLength": 6469941,
-            "categories": []
+            "categories": [],
+            "captionsFile": null
         },
         {
             "title": "Facilitating Meaningful Classroom Discussions (Creole)",
             "videoUrl": "https://archive.org/download/MIT24.908S17/MIT24_908S17_Facilitating_Discussions_Creole_300k.mp4",
             "youtubeKey": "ZAMQEaG1WLk",
             "contentLength": 6469941,
-            "categories": []
+            "categories": [],
+            "captionsFile": null
         },
         {
             "title": "Guest lecture (2022): Unmaking and remaking community (part 1)",
@@ -141,7 +160,8 @@
             "contentLength": 125620539,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/15WVVTBTj4VleBSmb2KkDfLMpZ6TG4mlD_transcript.webvtt"
         },
         {
             "title": "Guest lecture (2022): Unmaking and remaking community (part 2)",
@@ -150,133 +170,152 @@
             "contentLength": 277252773,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/1ieTChz0Ar8f4tf3D7HL9092FpcWPiPOR_transcript.webvtt"
         },
         {
             "title": "Inspiration for the Course",
             "videoUrl": "https://archive.org/download/MIT24.908S17/MIT24_908S17_Inspiration_for_Course_English_300k.mp4",
             "youtubeKey": "TZ0tcovkOp8",
             "contentLength": 2518496,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/8a7100dfbcdf5af5b51843920989d0be_TZ0tcovkOp8.vtt"
         },
         {
             "title": "Inspiration for the Course (Creole)",
             "videoUrl": "https://archive.org/download/MIT24.908S17/MIT24_908S17_Inspiration_for_Course_Creole_300k.mp4",
             "youtubeKey": "R5o6Yr-9om8",
             "contentLength": 2522340,
-            "categories": []
+            "categories": [],
+            "captionsFile": null
         },
         {
             "title": "Key Learning: All Languages are Equal",
             "videoUrl": "https://archive.org/download/MIT24.908S17/MIT24_908S17_Dalila_Stanfield_Part_1_300k.mp4",
             "youtubeKey": "KO6GiBAK7cY",
             "contentLength": 3419115,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/279e8b4521de5498b6ec7ca6e0065887_KO6GiBAK7cY.vtt"
         },
         {
             "title": "Meet the Educator",
             "videoUrl": "https://archive.org/download/MIT24.908S17/MIT24_908S17_Meet_the_Educator_English_300k.mp4",
             "youtubeKey": "z6kTOFSZZmQ",
             "contentLength": 3223008,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/18346e4c4ee1568bbbde9740ad925be4_z6kTOFSZZmQ.vtt"
         },
         {
             "title": "Meet the Educator (Creole)",
             "videoUrl": "https://archive.org/download/MIT24.908S17/MIT24_908S17_Meet_the_Educator_Creole_300k.mp4",
             "youtubeKey": "qGr5sdlobCQ",
             "contentLength": 2968591,
-            "categories": []
+            "categories": [],
+            "captionsFile": null
         },
         {
             "title": "Oral Presentations: Connecting Abstract Analyses to Lived Experiences",
             "videoUrl": "https://archive.org/download/MIT24.908S17/MIT24_908S17_Oral_Presentations_English_300k.mp4",
             "youtubeKey": "vHflY7UBg70",
             "contentLength": 5393303,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/6669b58a24c75f65b766ebd7075619da_vHflY7UBg70.vtt"
         },
         {
             "title": "Oral Presentations: Connecting Abstract Analyses to Lived Experiences (Creole)",
             "videoUrl": "https://archive.org/download/MIT24.908S17/MIT24_908S17_Oral_Presentations_Creole_300k.mp4",
             "youtubeKey": "eduHyoNHi4s",
             "contentLength": 4810974,
-            "categories": []
+            "categories": [],
+            "captionsFile": null
         },
         {
             "title": "Real-World Learning Outcomes",
             "videoUrl": "https://archive.org/download/MIT24.908S17/MIT24_908S17_Real-World_English_300k.mp4",
             "youtubeKey": "xCpg54xUzLE",
             "contentLength": 6153929,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/2a9d0fdf35bb5925b88d45bcba6852ac_xCpg54xUzLE.vtt"
         },
         {
             "title": "Real-World Learning Outcomes (Creole)",
             "videoUrl": "https://archive.org/download/MIT24.908S17/MIT24_908S17_Real-World_Creole_300k.mp4",
             "youtubeKey": "wuews7bQrAg",
             "contentLength": 5158059,
-            "categories": []
+            "categories": [],
+            "captionsFile": null
         },
         {
             "title": "Rooted in the Personal: Students’ Questions about Identity",
             "videoUrl": "https://archive.org/download/MIT24.908S17/MIT24_908S17_Rooted_in_Personal_English_300k.mp4",
             "youtubeKey": "Mbz648H3IEw",
             "contentLength": 6587865,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/a3a74c3a97b45bf8806daa4edc5b579f_Mbz648H3IEw.vtt"
         },
         {
             "title": "Rooted in the Personal: Students’ Questions about Identity (Creole)",
             "videoUrl": "https://archive.org/download/MIT24.908S17/MIT24_908S17_Rooted_in_Personal_Creole_300k.mp4",
             "youtubeKey": "v0c2_iigwwM",
             "contentLength": 5743779,
-            "categories": []
+            "categories": [],
+            "captionsFile": null
         },
         {
             "title": "Sharing with Teachers to Promote Social Change",
             "videoUrl": "https://archive.org/download/MIT24.908S17/MIT24_908S17_Sharing_with_Teachers_English_300k.mp4",
             "youtubeKey": "Q2uUFNDuRFk",
             "contentLength": 6286014,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/26874fdaead150449bcab1b4242a4644_Q2uUFNDuRFk.vtt"
         },
         {
             "title": "Sharing with Teachers to Promote Social Change (Creole)",
             "videoUrl": "https://archive.org/download/MIT24.908S17/MIT24_908S17_Sharing_with_Teachers_Creole_300k.mp4",
             "youtubeKey": "WikAwM9Uyas",
             "contentLength": 5376607,
-            "categories": []
+            "categories": [],
+            "captionsFile": null
         },
         {
             "title": "Unpacking Misconceptions about Creole Languages and Identities",
             "videoUrl": "https://archive.org/download/MIT24.908S17/MIT24_908S17_Misconceptions_English_300k.mp4",
             "youtubeKey": "SRp9W3T_sHQ",
             "contentLength": 8828700,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/98421790da185011b1b243511f66bb7e_SRp9W3T_sHQ.vtt"
         },
         {
             "title": "Unpacking Misconceptions about Creole Languages and Identities (Creole)",
             "videoUrl": "https://archive.org/download/MIT24.908S17/MIT24_908S17_Misconceptions_Creole_300k.mp4",
             "youtubeKey": "NawhRQ7tZU4",
             "contentLength": 7060993,
-            "categories": []
+            "categories": [],
+            "captionsFile": null
         },
         {
             "title": "Using Student Surveys to Customize Teaching",
             "videoUrl": "https://archive.org/download/MIT24.908S17/MIT24_908S17_Student_Surveys_English_300k.mp4",
             "youtubeKey": "fh1bvrJN4Fc",
             "contentLength": 4261506,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/17e04627acfc54c49da8207c25b5d05f_fh1bvrJN4Fc.vtt"
         },
         {
             "title": "Using Student Surveys to Customize Teaching (Creole)",
             "videoUrl": "https://archive.org/download/MIT24.908S17/MIT24_908S17_Student_Surveys_Creole_300k.mp4",
             "youtubeKey": "w4h7ZZd-cI0",
             "contentLength": 4504868,
-            "categories": []
+            "categories": [],
+            "captionsFile": null
         },
         {
             "title": "Valuing Educators from the Diaspora",
             "videoUrl": "https://archive.org/download/MIT24.908S17/MIT24_908S17_Delila_Stanfield_Part_2_300k.mp4",
             "youtubeKey": "_62YvNU_yOM",
             "contentLength": 4699005,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/c804bf8a93bc5d67b53617cf77e8197a_62YvNUyOM.vtt"
         }
     ]
 }

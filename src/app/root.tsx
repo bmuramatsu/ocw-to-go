@@ -9,21 +9,28 @@ import TermsAndConditions from "./terms_and_conditions";
 import CourseView from "./course_view";
 import DataLoader from "./dataloader";
 import ScrollToTop from "./scroll_to_top";
-import VideoDownloaderContext from "./video_downloader_context";
 import { Provider as ReduxProvider } from "react-redux";
 import { store } from "./store/store";
 import Layout from "./layout";
+import ManageCourseVideos from "./manage_course_videos/manage_course_videos";
 
 export default function Root() {
   return (
-    <ReduxProvider store={store}>
-      <DataLoader />
-      <VideoDownloaderContext>
+    <React.StrictMode>
+      <ReduxProvider store={store}>
+        <DataLoader />
         <Router hook={useHashLocation}>
           <ScrollToTop />
           <Switch>
             <Route path="/courses/:courseId">
               {({ courseId }) => <CourseView courseId={courseId} />}
+            </Route>
+            <Route path="/manage_videos/:courseId">
+              {({ courseId }) => (
+                <Layout>
+                  <ManageCourseVideos courseId={courseId} />
+                </Layout>
+              )}
             </Route>
             <Route path="/accessibility">
               <Layout>
@@ -47,7 +54,7 @@ export default function Root() {
             </Route>
           </Switch>
         </Router>
-      </VideoDownloaderContext>
-    </ReduxProvider>
+      </ReduxProvider>
+    </React.StrictMode>
   );
 }

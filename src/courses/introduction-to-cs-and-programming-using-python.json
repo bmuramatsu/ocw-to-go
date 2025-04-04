@@ -13,6 +13,8 @@
     "cardImg": "/images/course_cards/0d7cf6b1-07d3-4577-9858-19e9881653f8.jpg",
     "imgAltText": "Closeup of sunflower petals and seeds. ",
     "file": "https://mit-ocw-courses.atomicjoltdevapps.com/intro-to-cs-01.zip",
+    "downloadSize": 70470702,
+    "diskSize": 106024595,
     "videos": [
         {
             "title": "Lecture 1: Introduction to CS and Programming Using Python",
@@ -21,7 +23,8 @@
             "contentLength": 98848218,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1LrNFzx4f4UlMXOcxUUcqK2lCzQpaS-Bc_transcript.webvtt"
         },
         {
             "title": "Lecture 2: Strings, Input/Output, and Branching",
@@ -30,7 +33,8 @@
             "contentLength": 143650441,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-2-multi-version-4_1_captions.vtt"
         },
         {
             "title": "Lecture 3: Iteration",
@@ -39,7 +43,8 @@
             "contentLength": 74221676,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1jn58uDUTgM2Zg1YYoxK9CkiG-rAH9Fmh_transcript.webvtt"
         },
         {
             "title": "Lecture 4: Loops over Strings, Guess-and-Check, and Binary",
@@ -48,7 +53,8 @@
             "contentLength": 136866992,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1SVVezlb4h8tA4fKRJ41pWjsyaqdGdXvs_transcript.webvtt"
         },
         {
             "title": "Lecture 5: Floats and Approximation Methods",
@@ -57,7 +63,8 @@
             "contentLength": 78738256,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1sdzlNzf_U9Dl1VICMcDzaSFH3WDS2W3x_transcript.webvtt"
         },
         {
             "title": "Lecture 6: Bisection Search (FIXED)",
@@ -66,7 +73,8 @@
             "contentLength": 138327969,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1ZzX65dND58Lig0K6fcjTbpA5FiKIhAcx_transcript.webvtt"
         },
         {
             "title": "Lecture 7: Decomposition, Abstraction, and Functions",
@@ -75,7 +83,8 @@
             "contentLength": 73171448,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1NWsD4yStlMPsvHXGgvg0oT1zF13vXErk_transcript.webvtt"
         },
         {
             "title": "Lecture 8: Functions as Objects",
@@ -84,7 +93,8 @@
             "contentLength": 132528943,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1fkfiNALPDISPZW42aeW-nV_AJwXJ6fWN_transcript.webvtt"
         },
         {
             "title": "Lecture 9: Lambda Functions, Tuples, and Lists",
@@ -93,7 +103,8 @@
             "contentLength": 75436756,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1lMet5GPIW1ZhnesX_FN2udiX7bcr0mJd_transcript.webvtt"
         },
         {
             "title": "Lecture 10: Lists and Mutability (FIXED)",
@@ -102,7 +113,8 @@
             "contentLength": 113788561,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1thJR8x0QK8HpwQ3OqOE-MVtYg_P0QZ_T_transcript.webvtt"
         },
         {
             "title": "Lecture 11: Aliasing and Cloning",
@@ -111,7 +123,8 @@
             "contentLength": 71333365,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1We_TL7FBrn8k8Fh5XnBgrQuG6qDsI4is_transcript.webvtt"
         },
         {
             "title": "Lecture 12: List Comprehension, Functions as Objects, Testing, and Debugging (FIXED)",
@@ -120,7 +133,8 @@
             "contentLength": 131704846,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1yicNRax_Y6uXUq1RhogtauUcSorMMd66_transcript.webvtt"
         },
         {
             "title": "Lecture 13: Exceptions and Assertions",
@@ -129,7 +143,8 @@
             "contentLength": 76853469,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1tniTNqJJXR2M7JRpXHVinHY3MoCnxgyp_transcript.webvtt"
         },
         {
             "title": "Lecture 14: Dictionaries",
@@ -138,7 +153,8 @@
             "contentLength": 126365892,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1U0kBprsi-v9QhXIZdGgvCZd92936dmcz_transcript.webvtt"
         },
         {
             "title": "Lecture 15: Recursion",
@@ -147,7 +163,8 @@
             "contentLength": 77457829,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1uFTx7VBCy0zz2tZxzgf-VjE9TAsYp_0k_transcript.webvtt"
         },
         {
             "title": "Lecture 16: Recursion on Non-numerics",
@@ -156,7 +173,8 @@
             "contentLength": 121795322,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1hkR9BnkJ6tULeV8uM23dCK3mIdAL-omX_transcript.webvtt"
         },
         {
             "title": "Lecture 17: Python Classes",
@@ -165,7 +183,8 @@
             "contentLength": 70597602,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1jlgqPffb0jTD1GJmYxnukqh0qw6RY0Wv_transcript.webvtt"
         },
         {
             "title": "Lecture 18: More Python Class Methods",
@@ -174,7 +193,8 @@
             "contentLength": 134105925,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1H2sYXjAUBaCmU_W-8a9MZk-H-jYu14Za_transcript.webvtt"
         },
         {
             "title": "Lecture 19: Inheritance",
@@ -183,7 +203,8 @@
             "contentLength": 125254604,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1jicSeVbkfCJ6PQAOsX0o52Z998OZwDoD_transcript.webvtt"
         },
         {
             "title": "Lecture 20: Fitness Tracker Object-Oriented Programming Example",
@@ -192,7 +213,8 @@
             "contentLength": 140992558,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1l8mjRn1hi9LyjpsOLlLbZwxdsseNS_va_transcript.webvtt"
         },
         {
             "title": "Lecture 21: Timing Programs and Counting Operations",
@@ -201,7 +223,8 @@
             "contentLength": 59466379,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1xvoC1C2Y-utkqO-wB9gc4lhFPNpM5Zjj_transcript.webvtt"
         },
         {
             "title": "Lecture 22: Big Oh and Theta",
@@ -210,7 +233,8 @@
             "contentLength": 140908119,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1A8qBYXfGlxrh1AzmvG-kNRw4M5bppdQ-_transcript.webvtt"
         },
         {
             "title": "Lecture 23: Complexity Classes Examples",
@@ -219,7 +243,8 @@
             "contentLength": 127219520,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1xR3e2ychp7hYL-4PwrUUucM6a_hYVwvo_transcript.webvtt"
         },
         {
             "title": "Lecture 24: Sorting Algorithms",
@@ -228,7 +253,8 @@
             "contentLength": 83164265,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1VUHQTtGcGveZjWvzAwGFp2hH-QuimE7-_transcript.webvtt"
         },
         {
             "title": "Lecture 25: Plotting",
@@ -237,7 +263,8 @@
             "contentLength": 127104976,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1cvnthuuvW853odAxpelaAUZkddb8M-tf_transcript.webvtt"
         },
         {
             "title": "Lecture 26: List Access, Hashing, Simulations, and Wrap-Up",
@@ -246,7 +273,8 @@
             "contentLength": 105799465,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1Jf1_GNVjvRScJqmNBDRrxyK6igxPavZg_transcript.webvtt"
         }
     ]
 }

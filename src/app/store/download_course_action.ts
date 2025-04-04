@@ -1,26 +1,23 @@
-// Hook that downloads a course, unzips it, and caches the files.
+// Redux thunk that downloads a course, unzips it, and caches the files.
 // This all happens asynchronously.
-import React from "react";
 import JSZip from "jszip";
-import { CourseData, RawVideo, UserCourse } from "../types";
-import { updateCourse } from "./store/user_store";
-import { useAppDispatch } from "./store/store";
+import { CourseData, UserCourse } from "../../types";
+import { userActions } from "./user_store";
+import { AppDispatch } from "./store";
 
-export default function useDownloadCourse(courseData: CourseData) {
-  const dispatch = useAppDispatch();
-
-  return React.useCallback(async () => {
+export default function downloadCourseAction(courseData: CourseData) {
+  return async function downloadCourseThunk(dispatch: AppDispatch) {
     const { id: courseId, file: path } = courseData;
     const update = (updates: Partial<UserCourse>) => {
-      dispatch(updateCourse({ courseId, updates }));
+      dispatch(userActions.updateCourse({ courseId, updates }));
     };
 
     try {
-      update({ status: "Downloading" });
+      update({ status: "downloading" });
       const resp = await fetch(path);
       const zipBlob = await resp.blob();
       const zip = await new JSZip().loadAsync(zipBlob);
-      update({ status: "Preparing" });
+      update({ status: "preparing" });
       const cache = await caches.open(`course-${courseId}`);
 
       const paths: string[] = [];
@@ -29,26 +26,10 @@ export default function useDownloadCourse(courseData: CourseData) {
           paths.push(path);
         }
       });
-      const rawVideos: RawVideo[] = [];
 
       for (const path of paths) {
         const mime = mimeFromExtension(path);
         const fileData = await zip.file(path)!.async("blob");
-
-        const fileName = path.split("/").pop();
-        if (fileName === "data.json") {
-          const json = JSON.parse(await fileData.text());
-
-          if (
-            typeof json === "object" &&
-            !Array.isArray(json) &&
-            json !== null &&
-            json.resource_type === "Video" &&
-            (json.file || json.archive_url)
-          ) {
-            rawVideos.push(json);
-          }
-        }
 
         await cache.put(
           `/courses/${courseId}/${path}`,
@@ -56,24 +37,16 @@ export default function useDownloadCourse(courseData: CourseData) {
         );
       }
 
-      await cache.put(
-        `/courses/${courseId}/_pwa_videos.json`,
-        new Response(JSON.stringify(rawVideos)),
-      );
-
-      update({ status: "Ready", ready: true });
+      update({ status: "ready" });
     } catch (e: unknown) {
-      let msg = "";
-      if (e instanceof Error) {
-        msg = e.message;
-      }
-      update({ status: "Error: " + msg });
+      console.error("Error downloading course", e);
+      update({ status: "error" });
     }
-  }, [dispatch, courseData]);
+  };
 }
 
 // Files need to have a mime for the browser to serve them correctly.
-// This list may not be exhastive
+// This list may not be exhaustive
 function mimeFromExtension(path: string) {
   const extension = path.split(".").pop();
   switch (extension) {

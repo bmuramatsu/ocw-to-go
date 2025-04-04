@@ -1,99 +1,127 @@
-import { Video, CourseVideos } from "../types";
-import { VIDEO_HOST } from "./dataloaders/use_video_status";
+import { VideoData, VideoQueue, VideoQueueItem } from "../types";
+import { COURSES_BY_ID } from "./initial_course_list";
+import { AppMiddlewareAPI } from "./store/store";
+import { userActions } from "./store/user_store";
 
-// This maintains a queue of videos to download and downloads them one at a time.
-// It is initialized from the react app, and public functions may be called from the app.
-// In order to inform the app of changes to the queue, it accepts callback functions.
-// This way it doesn't have to be aware of react/redux.
+const VIDEO_HOST = "https://ocw.mit.edu";
 
-// It was put into a class instead of done in react directly because of the complexity of
-// managing the queue. React hooks are not well suited to this kind of state management.
+// This maintains a queue of videos to download and downloads them one at a
+// time. It is initialized from a redux middleware, and all interactions from
+// the app must be done through dispatching actions. The list of videos that
+// acts as a queue is stored in redux, so that the UI can access it. This class
+// has access to the store so it can access that queue, and dispatch actions
+// as it progresses through the queue.
+
+// It was put into a class instead of done in react directly because the
+// complexity of managing the queue in a long-running process isn't well-suited
+// to react or react hooks.
 export default class VideoDownloader {
-  #queue: Video[] = [];
-  #currentVideo: Video | undefined = undefined;
-  #setQueue: (queue: Video[]) => void;
-  #incrementCourseCount: (courseId: string) => void;
-  #canceller: AbortController;
+  store: AppMiddlewareAPI;
+  // this is used to cancel the current download
+  canceller: AbortController;
+  running: VideoQueueItem | null;
 
-  constructor(
-    setQueue: (queue: Video[]) => void,
-    incrementCourseCount: (courseId: string) => void,
-  ) {
-    this.#setQueue = setQueue;
-    this.#incrementCourseCount = incrementCourseCount;
-    this.#canceller = new AbortController();
+  constructor(store: AppMiddlewareAPI) {
+    this.store = store;
+    this.canceller = new AbortController();
+    this.running = null;
   }
 
-  #postQueue() {
-    const copy = [...this.#queue];
-    if (this.#currentVideo) {
-      copy.unshift(this.#currentVideo);
+  get queue(): VideoQueue {
+    return this.store.getState().user.videoQueue;
+  }
+
+  // This starts the download process if it isn't already running. Usually
+  // called from middleware after the queue has been modified.
+  bump() {
+    const next = this.queue[0];
+    if (!this.running && next) {
+      this.downloadItem(next);
     }
-    this.#setQueue(copy);
   }
 
-  async addCourseToQueue(videoStatus: CourseVideos) {
-    await caches.open(`course-videos-${videoStatus.courseId}`);
+  // when we abort all downloads for a course, stop the current download if
+  // it's in that course
+  abortCourseDownload(courseId: string) {
+    if (this.running?.courseId == courseId) {
+      this.abortCurrentDownload();
+    }
+  }
 
-    for await (const video of videoStatus.videos) {
-      const exists = await caches.match(
-        `/course-videos/${videoStatus.courseId}/${video.youtubeKey}.mp4`,
+  // abort the current download if it matches the given ids
+  abortVideoDownload(courseId: string, videoId: string) {
+    if (
+      this.running?.courseId == courseId &&
+      this.running?.videoId == videoId
+    ) {
+      this.abortCurrentDownload();
+    }
+  }
+
+  abortCurrentDownload() {
+    this.canceller.abort();
+    // once the controller is aborted, all future downloads are immediately
+    // aborted. So we create a fresh instance.
+    this.canceller = new AbortController();
+    this.running = null;
+    // bump in case there are other courses/videos queued;
+    this.bump();
+  }
+
+  // Downloads a single video. When it's done, it will call finishDownload
+  // which will continue the processing.
+  async downloadItem(item: VideoQueueItem) {
+    this.running = item;
+
+    let url = this.video(item.courseId, item.videoId).videoUrl;
+    // some videos are hosted on archive.org, which doesn't support CORS properly,
+    // but you can do an 'opaque' request to get the video. This means the user
+    // can see the video, but we can't access any information about it, including
+    // whether it was successful or not. This is not ideal, but it works
+    const doOpaqueRequest = !url.startsWith(VIDEO_HOST);
+    // some of the archive.org links are http, but seem to work fine over https
+    url = url.replace(/^http:/, "https:");
+
+    try {
+      const response = await fetch(url, {
+        mode: doOpaqueRequest ? "no-cors" : "cors",
+        signal: this.canceller.signal,
+      });
+
+      // opaque request is never 'ok', we just accept whatever the response is
+      if (!response.ok && !doOpaqueRequest) {
+        throw new Error(`Failed to download video: ${response.statusText}`);
+      }
+
+      const cache = await caches.open(`course-videos-${item.courseId}`);
+      await cache.put(
+        `/course-videos/${item.courseId}/${item.videoId}.mp4`,
+        response,
       );
-      if (!exists) {
-        this.#queue.push(video);
+      this.finishDownload(true, item);
+    } catch (e) {
+      console.error("Failed to download", item, e);
+
+      // If the download was aborted, allow the middleware to clean up the queue
+      // and bump the downloader.
+      const wasAborted = e instanceof DOMException && e.name === "AbortError";
+      if (!wasAborted) {
+        console.error("download was aborted");
+        this.finishDownload(false, item);
       }
-    }
-    if (!this.#currentVideo) {
-      this.#startDownload();
-    } else {
-      this.#postQueue();
     }
   }
 
-  async cancelDownload(courseId: string) {
-    this.#queue = this.#queue.filter((video) => video.courseId !== courseId);
-    const oldCanceller = this.#canceller;
-    // once it has been aborted, all future requests will be aborted, so we need to create a new one.
-    // I assign it before creating so that future iterations of the loop will use the new one
-    this.#canceller = new AbortController();
-    oldCanceller.abort();
-    this.#postQueue();
+  video(courseId: string, videoId: string): VideoData {
+    return COURSES_BY_ID[courseId].videos.find(
+      (video) => video.youtubeKey === videoId,
+    )!;
   }
 
-  async #startDownload() {
-    while ((this.#currentVideo = this.#queue.shift())) {
-      this.#postQueue();
-
-      try {
-        let url = this.#currentVideo.url;
-        const doOpaqueRequest = !url.startsWith(VIDEO_HOST);
-        // some of the archive.org links are http, but seem to work fine over https
-        url = url.replace(/^http:/, "https:");
-
-        const response = await fetch(url, {
-          mode: doOpaqueRequest ? "no-cors" : "cors",
-          signal: this.#canceller.signal,
-        });
-
-        // opaque request is never 'ok', we just accept whatever the response is
-        if (!response.ok && !doOpaqueRequest) {
-          throw new Error(`Failed to download video: ${response.statusText}`);
-        }
-
-        const cache = await caches.open(
-          `course-videos-${this.#currentVideo.courseId}`,
-        );
-        await cache.put(
-          `/course-videos/${this.#currentVideo.courseId}/${this.#currentVideo.youtubeKey}.mp4`,
-          response,
-        );
-
-        this.#incrementCourseCount(this.#currentVideo.courseId);
-      } catch (e: unknown) {
-        console.error("Failed to download", this.#currentVideo, e);
-      }
-    }
-
-    this.#postQueue();
+  // update the queue and start the next download
+  finishDownload(success: boolean, item: VideoQueueItem) {
+    this.running = null;
+    this.store.dispatch(userActions.finishVideoDownload({ success, item }));
+    this.bump();
   }
 }

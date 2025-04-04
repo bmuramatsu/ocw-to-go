@@ -19,189 +19,113 @@
     "courseLevel": "6.0001 | Undergraduate",
     "cardImg": "/images/course_cards/71ad7cf6-d1bb-4cee-aa16-c5a86a3393c8.jpg",
     "imgAltText": "A black backlit keyboard.",
-    "file": "https://mit-ocw-courses.atomicjoltdevapps.com/intro-to-cs2.zip",
+    "file": "https://mit-ocw-courses.atomicjoltdevapps.com/intro-to-cs-2.zip",
+    "downloadSize": 33524595,
+    "diskSize": 73403978,
     "videos": [
         {
             "title": "Bindings",
             "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_01_exercise_03_300k.mp4",
             "youtubeKey": "EFCdr_43qmU",
             "contentLength": 6019359,
-            "categories": []
-        },
-        {
-            "title": "Bindings",
-            "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_01_exercise_03_300k.mp4",
-            "youtubeKey": "EFCdr_43qmU",
-            "contentLength": 6019359,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/9c97a54610825310a6bfaeda6153148a_EFCdr_43qmU.vtt"
         },
         {
             "title": "Black Box and Glass Box Testing",
             "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_07_exercise_01_300k.mp4",
             "youtubeKey": "5McjE8e5gIg",
             "contentLength": 6867424,
-            "categories": []
-        },
-        {
-            "title": "Black Box and Glass Box Testing",
-            "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_07_exercise_01_300k.mp4",
-            "youtubeKey": "5McjE8e5gIg",
-            "contentLength": 6867424,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/18219eb4df64570e9ac27b783c865b5a_5McjE8e5gIg.vtt"
         },
         {
             "title": "Branching",
             "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_02_exercise_03_300k.mp4",
             "youtubeKey": "jjbWNcIjmzc",
             "contentLength": 4703724,
-            "categories": []
-        },
-        {
-            "title": "Branching",
-            "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_02_exercise_03_300k.mp4",
-            "youtubeKey": "jjbWNcIjmzc",
-            "contentLength": 4703724,
-            "categories": []
-        },
-        {
-            "title": "Class Definition",
-            "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_08_exercise_01_300k.mp4",
-            "youtubeKey": "vqn_yk5aFcI",
-            "contentLength": 170,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/6cf9ce0dd66c5255bacd5c6b8d9e8ecd_jjbWNcIjmzc.vtt"
         },
         {
             "title": "Class Definition",
             "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_08_exercise_01_300k.mp4",
             "youtubeKey": "vqn_yk5aFcI",
             "contentLength": 4041761,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/53f27d55eb9357d785d6e1536e2077ce_vqn_yk5aFcI.vtt"
         },
         {
             "title": "Class Instance",
             "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_08_exercise_02_300k.mp4",
             "youtubeKey": "2__KumJsGXc",
             "contentLength": 7524674,
-            "categories": []
-        },
-        {
-            "title": "Class Instance",
-            "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_08_exercise_02_300k.mp4",
-            "youtubeKey": "2__KumJsGXc",
-            "contentLength": 7524674,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/c183e98852b65e3bb9092e380e478c86_2__KumJsGXc.vtt"
         },
         {
             "title": "Comparisons",
             "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_02_exercise_02_300k.mp4",
             "youtubeKey": "lniF6ys2CIk",
             "contentLength": 5358630,
-            "categories": []
-        },
-        {
-            "title": "Comparisons",
-            "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_02_exercise_02_300k.mp4",
-            "youtubeKey": "lniF6ys2CIk",
-            "contentLength": 5358630,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/c114abbb1126527a8dc5f53fb19643c7_lniF6ys2CIk.vtt"
         },
         {
             "title": "Errors",
             "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_07_exercise_02_300k.mp4",
             "youtubeKey": "-wz4iU2V-Yo",
             "contentLength": 5152586,
-            "categories": []
-        },
-        {
-            "title": "Errors",
-            "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_07_exercise_02_300k.mp4",
-            "youtubeKey": "-wz4iU2V-Yo",
-            "contentLength": 5152586,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/49ea7482f51a5484b84332f10e7594ff_-wz4iU2V-Yo.vtt"
         },
         {
             "title": "Exceptions",
             "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_07_exercise_03_300k.mp4",
             "youtubeKey": "0Whyfs88TYE",
             "contentLength": 8359985,
-            "categories": []
-        },
-        {
-            "title": "Exceptions",
-            "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_07_exercise_03_300k.mp4",
-            "youtubeKey": "0Whyfs88TYE",
-            "contentLength": 8359985,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/8f794e1885df50c8b863a7c6f9f1dc11_0Whyfs88TYE.vtt"
         },
         {
             "title": "For Loops",
             "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_02_exercise_05_300k.mp4",
             "youtubeKey": "mrvBnZIEsZY",
             "contentLength": 6577107,
-            "categories": []
-        },
-        {
-            "title": "For Loops",
-            "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_02_exercise_05_300k.mp4",
-            "youtubeKey": "mrvBnZIEsZY",
-            "contentLength": 6577107,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/6d9ba3c7abff5102a40a71f0f7077e58_mrvBnZIEsZY.vtt"
         },
         {
             "title": "For Loops With Strings",
             "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_03_exercise_02_300k.mp4",
             "youtubeKey": "4WtaFLayz_w",
             "contentLength": 12147524,
-            "categories": []
-        },
-        {
-            "title": "For Loops With Strings",
-            "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_03_exercise_02_300k.mp4",
-            "youtubeKey": "4WtaFLayz_w",
-            "contentLength": 12147524,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/5fe042bb51ea5aff93826736b62a00cd_4WtaFLayz_w.vtt"
         },
         {
             "title": "Function Calls",
             "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_04_exercise_01_300k.mp4",
             "youtubeKey": "4gPwo38MNss",
             "contentLength": 8075898,
-            "categories": []
-        },
-        {
-            "title": "Function Calls",
-            "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_04_exercise_01_300k.mp4",
-            "youtubeKey": "4gPwo38MNss",
-            "contentLength": 8075898,
-            "categories": []
-        },
-        {
-            "title": "Functions as Arguments",
-            "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_04_exercise_02_300k.mp4",
-            "youtubeKey": "QaOHeMnpnmU",
-            "contentLength": 170,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/91e6eccb1e3b53c3b94a2e44d5e9c0d4_4gPwo38MNss.vtt"
         },
         {
             "title": "Functions as Arguments",
             "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_04_exercise_02_300k.mp4",
             "youtubeKey": "QaOHeMnpnmU",
             "contentLength": 10288921,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/1ac6fc5c6ce855168d82eae3695a4deb_QaOHeMnpnmU.vtt"
         },
         {
             "title": "Getters and Setters",
             "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_09_exercise_01_300k.mp4",
             "youtubeKey": "C_pgH5QhIZ8",
             "contentLength": 6259405,
-            "categories": []
-        },
-        {
-            "title": "Getters and Setters",
-            "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_09_exercise_01_300k.mp4",
-            "youtubeKey": "C_pgH5QhIZ8",
-            "contentLength": 6259405,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/cbac1017c6e457f29d1564d3bfc73988_C_pgH5QhIZ8.vtt"
         },
         {
             "title": "Lecture 1: What is Computation?",
@@ -210,7 +134,8 @@
             "contentLength": 101137401,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/a746f6bc380f5e6d807ffff5f56cd877_nykOeWgQcHM.vtt"
         },
         {
             "title": "Lecture 2: Branching and Iteration",
@@ -219,7 +144,8 @@
             "contentLength": 103139956,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/8a169eb715615fa0b797f83ff9d20ab8_0jljZRnHwOI.vtt"
         },
         {
             "title": "Lecture 3: String Manipulation, Guess and Check, Approximations, Bisection",
@@ -228,7 +154,8 @@
             "contentLength": 106484836,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/6e2747d4f92152b8a5cf50493d1345d0_SE4P7IVCunE.vtt"
         },
         {
             "title": "Lecture 4: Decomposition, Abstraction, and Functions",
@@ -237,7 +164,8 @@
             "contentLength": 97241238,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/89d4f8a478a957b49244641cb53d1cf8_MjbuarJ7SE0.vtt"
         },
         {
             "title": "Lecture 5: Tuples, Lists, Aliasing, Mutability, and Cloning",
@@ -246,7 +174,8 @@
             "contentLength": 98247344,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/87450a3bb883546da3cda15e422b259f_RvRKT-jXvko.vtt"
         },
         {
             "title": "Lecture 6: Recursion and Dictionaries",
@@ -255,7 +184,8 @@
             "contentLength": 113029812,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/47cee8b93c70579083a51a57875b4107_WPSeyjX1-4s.vtt"
         },
         {
             "title": "Lecture 7: Testing, Debugging, Exceptions, and Assertions",
@@ -264,16 +194,18 @@
             "contentLength": 97173536,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/6ee3c0a292f8549c97316557478ef6c6_9H6muyZjms0.vtt"
         },
         {
             "title": "Lecture 8: Object Oriented Programming",
             "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_08_300k.mp4",
             "youtubeKey": "-DP1i2ZU9gk",
-            "contentLength": 170,
+            "contentLength": 98484871,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/5a9c022658d65cbaab283244b3dd08f8_-DP1i2ZU9gk.vtt"
         },
         {
             "title": "Lecture 9: Python Classes and Inheritance",
@@ -282,16 +214,18 @@
             "contentLength": 111445916,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/aed16ab8ac985193be54b211502f6790_FlGjISF3l78.vtt"
         },
         {
             "title": "Lecture 10: Understanding Program Efficiency, Part 1",
             "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_10_300k.mp4",
             "youtubeKey": "o9nW0uBqvEo",
-            "contentLength": 170,
+            "contentLength": 121621614,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/72291ca1d4a355abaa116a3156379efb_o9nW0uBqvEo.vtt"
         },
         {
             "title": "Lecture 11: Understanding Program Efficiency, Part 2",
@@ -300,7 +234,8 @@
             "contentLength": 115232323,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/aa2f1860d51a521b8a91c8e39b3330a8_7lQXYl_L28w.vtt"
         },
         {
             "title": "Lecture 12: Searching and Sorting",
@@ -309,189 +244,112 @@
             "contentLength": 114629187,
             "categories": [
                 "Lecture Videos"
-            ]
+            ],
+            "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/42d52f1c18495cef94a343364b38c7aa_6LOwPhPDwVc.vtt"
         },
         {
             "title": "List Aliasing / Mutation",
             "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_05_exercise_04_300k.mp4",
             "youtubeKey": "FKp-6sojt9A",
             "contentLength": 6634133,
-            "categories": []
-        },
-        {
-            "title": "List Aliasing / Mutation",
-            "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_05_exercise_04_300k.mp4",
-            "youtubeKey": "FKp-6sojt9A",
-            "contentLength": 6634133,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/7ed7a5a673ff5766ac36f2c0d11769a3_FKp-6sojt9A.vtt"
         },
         {
             "title": "List Operations",
             "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_05_exercise_03_300k.mp4",
             "youtubeKey": "SrkqbLOQcEo",
             "contentLength": 9327250,
-            "categories": []
-        },
-        {
-            "title": "List Operations",
-            "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_05_exercise_03_300k.mp4",
-            "youtubeKey": "SrkqbLOQcEo",
-            "contentLength": 9327250,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/a3021c513b1853bbb2af27b7540b342e_SrkqbLOQcEo.vtt"
         },
         {
             "title": "Method Call",
             "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_08_exercise_04_300k.mp4",
             "youtubeKey": "_ax4eNMI9Dw",
             "contentLength": 6255343,
-            "categories": []
-        },
-        {
-            "title": "Method Call",
-            "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_08_exercise_04_300k.mp4",
-            "youtubeKey": "_ax4eNMI9Dw",
-            "contentLength": 6255343,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/ec519c26809c5f589fc2f29556c0b28d_ax4eNMI9Dw.vtt"
         },
         {
             "title": "Methods",
             "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_08_exercise_03_300k.mp4",
             "youtubeKey": "goalLDamePE",
             "contentLength": 5494547,
-            "categories": []
-        },
-        {
-            "title": "Methods",
-            "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_08_exercise_03_300k.mp4",
-            "youtubeKey": "goalLDamePE",
-            "contentLength": 5494547,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/b50f9ca9e5d8512cb50e0f6c4acb9539_goalLDamePE.vtt"
         },
         {
             "title": "Python vs. Math",
             "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_01_exercise_02_300k.mp4",
             "youtubeKey": "F-_PKUUM-qY",
             "contentLength": 5899223,
-            "categories": []
-        },
-        {
-            "title": "Python vs. Math",
-            "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_01_exercise_02_300k.mp4",
-            "youtubeKey": "F-_PKUUM-qY",
-            "contentLength": 5899223,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/3eda8246cc535805ab8ac5a7f9bd6e84_F-_PKUUM-qY.vtt"
         },
         {
             "title": "Shell vs. Editor ",
             "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_01_exercise_01_300k.mp4",
             "youtubeKey": "Y6J8I056Ffw",
             "contentLength": 5266736,
-            "categories": []
-        },
-        {
-            "title": "Shell vs. Editor ",
-            "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_01_exercise_01_300k.mp4",
-            "youtubeKey": "Y6J8I056Ffw",
-            "contentLength": 5266736,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/c55b413bcfbf57a78803535b2dd6708f_Y6J8I056Ffw.vtt"
         },
         {
             "title": "Simple Lists",
             "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_05_exercise_02_300k.mp4",
             "youtubeKey": "zYVWQpCitKQ",
             "contentLength": 8632072,
-            "categories": []
-        },
-        {
-            "title": "Simple Lists",
-            "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_05_exercise_02_300k.mp4",
-            "youtubeKey": "zYVWQpCitKQ",
-            "contentLength": 8632072,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/8c07513b906f5d1695dcb1b335d343fe_zYVWQpCitKQ.vtt"
         },
         {
             "title": "Special Methods",
             "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_08_exercise_05_300k.mp4",
             "youtubeKey": "qq7I2MQNrtU",
             "contentLength": 7191473,
-            "categories": []
-        },
-        {
-            "title": "Special Methods",
-            "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_08_exercise_05_300k.mp4",
-            "youtubeKey": "qq7I2MQNrtU",
-            "contentLength": 7191473,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/79bc295f740057e6a284fd51e8e2c9b6_qq7I2MQNrtU.vtt"
         },
         {
             "title": "String Manipulations",
             "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_03_exercise_01_300k.mp4",
             "youtubeKey": "-jjUoTiaSHw",
             "contentLength": 9241337,
-            "categories": []
-        },
-        {
-            "title": "String Manipulations",
-            "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_03_exercise_01_300k.mp4",
-            "youtubeKey": "-jjUoTiaSHw",
-            "contentLength": 9241337,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/3b43568b5ffb5dac926f47475f090a67_-jjUoTiaSHw.vtt"
         },
         {
             "title": "Strings",
             "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_02_exercise_01_300k.mp4",
             "youtubeKey": "w4uxYDPsjbw",
             "contentLength": 4305115,
-            "categories": []
-        },
-        {
-            "title": "Strings",
-            "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_02_exercise_01_300k.mp4",
-            "youtubeKey": "w4uxYDPsjbw",
-            "contentLength": 4305115,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/aed20cccf82d515e8218c608b6a375b7_w4uxYDPsjbw.vtt"
         },
         {
             "title": "Subclass",
             "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_09_exercise_02_300k.mp4",
             "youtubeKey": "8s0d87sjy1A",
             "contentLength": 8545078,
-            "categories": []
-        },
-        {
-            "title": "Subclass",
-            "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_09_exercise_02_300k.mp4",
-            "youtubeKey": "8s0d87sjy1A",
-            "contentLength": 8545078,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/b1fa57000d985224b9f0ce4e6753bdc1_8s0d87sjy1A.vtt"
         },
         {
             "title": "Tuples",
             "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_05_exercise_01_300k.mp4",
             "youtubeKey": "ncpb4wIsQu8",
             "contentLength": 10189558,
-            "categories": []
-        },
-        {
-            "title": "Tuples",
-            "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_05_exercise_01_300k.mp4",
-            "youtubeKey": "ncpb4wIsQu8",
-            "contentLength": 10189558,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/87b5cc41c447517cbf6d1d4764b5c488_ncpb4wIsQu8.vtt"
         },
         {
             "title": "While Loops",
             "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_02_exercise_04_300k.mp4",
             "youtubeKey": "P-0w8xWcnDQ",
             "contentLength": 6435477,
-            "categories": []
-        },
-        {
-            "title": "While Loops",
-            "videoUrl": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_02_exercise_04_300k.mp4",
-            "youtubeKey": "P-0w8xWcnDQ",
-            "contentLength": 6435477,
-            "categories": []
+            "categories": [],
+            "captionsFile": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/14474466362c520aa6a69016800e7bd9_P-0w8xWcnDQ.vtt"
         }
     ]
 }
