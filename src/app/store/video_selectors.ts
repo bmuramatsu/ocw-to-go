@@ -7,7 +7,7 @@ type VideoStatus = "none" | "downloading" | "waiting" | "ready" | "error";
 export type FullUserVideo = {
   status: VideoStatus;
 };
-type AllVideoStatus = Partial<{
+export type AllVideoStatus = Partial<{
   [courseId: string]: Partial<{
     [videoId: string]: FullUserVideo;
   }>;

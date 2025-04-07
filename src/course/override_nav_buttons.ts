@@ -1,4 +1,4 @@
-import type OcwBroadcastChannel from "../common/broadcast_channel";
+import OcwBroadcastChannel from "../common/broadcast_channel";
 
 // Make various links within the courses take you back to the PWA
 type Override = {
@@ -22,7 +22,9 @@ const OVERRIDES: Override[] = [
   },
 ];
 
-export default function overrideNavButtons(channel: OcwBroadcastChannel) {
+export default function overrideNavButtons() {
+  const channel = new OcwBroadcastChannel();
+
   OVERRIDES.forEach((o) => {
     document.querySelectorAll<HTMLAnchorElement>(o.selector).forEach((el) => {
       el.href = o.href;

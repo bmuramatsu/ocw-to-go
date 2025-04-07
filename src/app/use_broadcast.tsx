@@ -1,15 +1,14 @@
 import React from "react";
 import OcwBroadcastChannel, { OcwMessage } from "../common/broadcast_channel";
-import { useAppDispatch } from "./store/store";
+import { useAppDispatch, useAppStore } from "./store/store";
 import * as customActions from "./store/custom_actions";
 import { useLocation } from "wouter";
+import { selectAllVideoStatus } from "./store/video_selectors";
 
 // We don't really want this to be created more than once, so create once instance that will be accessed via context throughout the app
 const channel = new OcwBroadcastChannel();
 
-const BroadcastContext = React.createContext<OcwBroadcastChannel>(
-  new OcwBroadcastChannel(),
-);
+const BroadcastContext = React.createContext(channel);
 
 interface Props {
   children: React.ReactNode;
@@ -26,6 +25,7 @@ export function BroadcastProvider({ children }: Props) {
 
 // Messages that interact with react/redux should be handled here
 function useMessageListener() {
+  const store = useAppStore();
   const dispatch = useAppDispatch();
   const [_location, navigate] = useLocation();
 
@@ -54,4 +54,17 @@ function useMessageListener() {
 
     return () => channel.clearOnMessage();
   }, [dispatch, navigate]);
+
+  // This might move down to the course view component as an optimization
+  React.useEffect(() => {
+    const unsub = store.subscribe(() => {
+      const videoStatus = selectAllVideoStatus(store.getState());
+      channel.postMessage({
+        type: "video-status",
+        videoStatus,
+      });
+    });
+
+    return unsub;
+  }, [store]);
 }

@@ -1,3 +1,5 @@
+import type { AllVideoStatus } from "../app/store/video_selectors";
+
 const NAME = "ocw-broadcast-channel";
 
 export type OcwMessage =
@@ -6,7 +8,8 @@ export type OcwMessage =
       courseId: string;
       videoId: string;
     }
-  | { type: "navigate", href: string };
+  | { type: "navigate"; href: string }
+  | { type: "video-status"; videoStatus: AllVideoStatus };
 
 export default class OcwBroadcastChannel {
   private channel: BroadcastChannel;
