@@ -69,9 +69,11 @@ export class VideoInjector {
   addPortal() {
     const portalTarget = document.createElement("div");
     portalTarget.id = `download-video-portal-${this.videoId}`;
+    // react will render into the shadow root in order to isolate styles
+    portalTarget.attachShadow({ mode: "open" });
     this.wrapper.before(portalTarget);
     this.channel.postMessage({
-      type: "portalOpened",
+      type: "portal-opened",
       videoData: this.videoData,
     });
   }

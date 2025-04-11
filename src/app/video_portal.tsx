@@ -13,7 +13,7 @@ interface Props {
 export default function VideoDownloadPortal({ courseId, currentVideo, iframe, }: Props) {
   const target = iframe.contentWindow?.document.getElementById(
     `download-video-portal-${currentVideo.youtubeKey}`,
-  );
+  )?.shadowRoot;
 
   if (!target) {
     return null;
@@ -21,6 +21,7 @@ export default function VideoDownloadPortal({ courseId, currentVideo, iframe, }:
 
   return createPortal(
     <>
+      <link rel="stylesheet" href="/styles.css"/>
       <CourseVideo video={currentVideo} courseId={courseId} />
       <VideoPlayer video={currentVideo} courseId={courseId} />
     </>

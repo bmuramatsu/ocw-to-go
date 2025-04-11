@@ -72,16 +72,6 @@ export default function CourseView({ courseId }: Props) {
   React.useEffect(() => {
     const unsub = channel.subscribe((message) => {
       switch (message.type) {
-        case "download-video": {
-          store.dispatch({
-            type: "DOWNLOAD_VIDEO",
-            payload: {
-              courseId: message.courseId,
-              videoId: message.videoId,
-            },
-          });
-          break;
-        }
         // this allows the iframed content to navigate with the router
         // rather than built-in browser navigation, which causes the page to reload
         // and interrupt tasks like video downloads
@@ -91,7 +81,7 @@ export default function CourseView({ courseId }: Props) {
           break;
         }
 
-        case "portalOpened": {
+        case "portal-opened": {
           setCurrentVideo(message.videoData);
           break;
         }

@@ -9,7 +9,7 @@ export type OcwMessage =
       videoId: string;
     }
   | { type: "navigate"; href: string }
-  | { type: "portalOpened"; videoData: VideoData }
+  | { type: "portal-opened"; videoData: VideoData }
   | { type: "video-player-state-change"; ready: boolean };
 
 type OnMessageCallback = (message: OcwMessage) => void;
