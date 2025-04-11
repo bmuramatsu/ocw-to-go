@@ -67,6 +67,7 @@ function DownloadButton({
             {videoStatus.status === "downloading"
               ? "Downloading"
               : "Waiting..."}
+            {videoStatus.status === "downloading" && <Progress />}
           </div>
           <button
             className="icon-btn"
@@ -136,3 +137,11 @@ function StatusIcon({ videoStatus }: StatusIconProps) {
       );
   }
 }
+
+const Progress = () => {
+  let downloadProgress = useAppSelector((s) => s.user.downloadProgress);
+  if (!downloadProgress) return null;
+  downloadProgress = Math.round(downloadProgress * 100);
+
+  return <span>{downloadProgress}%</span>;
+};

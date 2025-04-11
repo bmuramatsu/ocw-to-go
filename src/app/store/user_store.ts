@@ -16,12 +16,14 @@ export interface UserStore {
   userCourses: UserCourses;
   userVideos: UserVideos;
   videoQueue: VideoQueue;
+  downloadProgress: null | number;
 }
 
 const initialState: UserStore = {
   userCourses: {},
   userVideos: {},
   videoQueue: [],
+  downloadProgress: null,
 };
 
 const userStore = createSlice({
@@ -87,6 +89,7 @@ const userStore = createSlice({
         ...current,
         ready: success,
       };
+      state.downloadProgress = null;
     },
     removeCourseVideosFromQueue: (state, action: PayloadAction<string>) => {
       state.videoQueue = state.videoQueue.filter(
@@ -101,6 +104,9 @@ const userStore = createSlice({
             item.videoId === action.payload.videoId
           ),
       );
+    },
+    updateDownloadProgress: (state, action: PayloadAction<number>) => {
+      state.downloadProgress = action.payload;
     },
   },
 });

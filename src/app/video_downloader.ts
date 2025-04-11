@@ -73,20 +73,32 @@ export default class VideoDownloader {
   async downloadItem(item: VideoQueueItem) {
     this.running = item;
 
-    let url = this.video(item.courseId, item.videoId).videoUrl;
+    const video = this.video(item.courseId, item.videoId);
+
+    let url = video.videoUrl;
+    // some of the archive.org links are http, but seem to work fine over https
+    url = url.replace(/^http:/, "https:");
     // some videos are hosted on archive.org, which doesn't support CORS properly,
     // but you can do an 'opaque' request to get the video. This means the user
     // can see the video, but we can't access any information about it, including
     // whether it was successful or not. This is not ideal, but it works
     const doOpaqueRequest = !url.startsWith(VIDEO_HOST);
-    // some of the archive.org links are http, but seem to work fine over https
-    url = url.replace(/^http:/, "https:");
 
     try {
       const response = await fetch(url, {
         mode: doOpaqueRequest ? "no-cors" : "cors",
         signal: this.canceller.signal,
       });
+
+      let cachedResponse = response;
+
+      // it's not possible to track progress on an opaque request
+      if (!doOpaqueRequest) {
+        cachedResponse = await this.trackProgress(
+          response,
+          video.contentLength,
+        );
+      }
 
       // opaque request is never 'ok', we just accept whatever the response is
       if (!response.ok && !doOpaqueRequest) {
@@ -96,7 +108,7 @@ export default class VideoDownloader {
       const cache = await caches.open(`course-videos-${item.courseId}`);
       await cache.put(
         `/course-videos/${item.courseId}/${item.videoId}.mp4`,
-        response,
+        cachedResponse,
       );
       this.finishDownload(true, item);
     } catch (e) {
@@ -110,6 +122,37 @@ export default class VideoDownloader {
         this.finishDownload(false, item);
       }
     }
+  }
+
+  async trackProgress(
+    response: Response,
+    contentLength: number,
+  ): Promise<Response> {
+    const chunks: Uint8Array[] = [];
+    let loaded = 0;
+
+    if (!response.body) {
+      return response;
+    }
+
+    const interval = setInterval(() => {
+      const progress = loaded / contentLength;
+      this.store.dispatch(userActions.updateDownloadProgress(progress));
+    }, 300);
+
+    const reader = response.body?.getReader();
+    while (true) {
+      const { done, value } = await reader.read();
+
+      if (done) break;
+
+      chunks.push(value);
+      loaded += value.byteLength;
+    }
+
+    const blob = new Blob(chunks);
+    clearInterval(interval);
+    return new Response(blob, { headers: { "content-type": "video/mp4" } });
   }
 
   video(courseId: string, videoId: string): VideoData {
