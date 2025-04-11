@@ -3,11 +3,6 @@ import { VideoData } from "../types";
 const NAME = "ocw-broadcast-channel";
 
 export type OcwMessage =
-  | {
-      type: "download-video";
-      courseId: string;
-      videoId: string;
-    }
   | { type: "navigate"; href: string }
   | { type: "portal-opened"; videoData: VideoData }
   | { type: "video-player-state-change"; ready: boolean };
