@@ -21,8 +21,10 @@ export default function VideoDownloadPortal({ courseId, currentVideo, iframe, }:
 
   return createPortal(
     <>
-      <link rel="stylesheet" href="/styles.css"/>
-      <CourseVideo video={currentVideo} courseId={courseId} />
+      <link rel="stylesheet" href="/video-downloader-styles.css"/>
+      <div className="video-list">
+        <CourseVideo video={currentVideo} courseId={courseId} />
+      </div>
       <VideoPlayer video={currentVideo} courseId={courseId} />
     </>
     ,
