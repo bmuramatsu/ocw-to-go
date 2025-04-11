@@ -1,4 +1,5 @@
 import { FullUserVideo } from "../app/store/video_selectors";
+import { Download } from "./svgs";
 
 export class DownloadVideo extends HTMLElement {
   constructor() {
@@ -33,7 +34,18 @@ export class DownloadVideo extends HTMLElement {
         }
       </style>
 
-      <div id="download-video" data-state="none">
+      <div id="download-video" class="video-list__item" data-state="none">
+        <div class="video-list__graphic">
+          <div>VIDEO</div>
+          <span>
+            ${Download()}
+          </span>
+        </div>
+        <div className="video-list__item__content">
+          <h3>{video.title}</h3>
+          <p>{bytes}</p>
+        </div>
+
         <button id="download-button">Download Video</button>
         <span id="in-progress">Downloading...</span>
         <span id="finished">Finished</span>

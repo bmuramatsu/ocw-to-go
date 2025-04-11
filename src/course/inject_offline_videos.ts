@@ -28,22 +28,24 @@ export default function injectOfflineVideos() {
     return;
   }
 
-  const vi = new VideoInjector(videoPlayer, videoData);
-  vi.addPlayer();
-  vi.subscribeToVideoStatus();
-  vi.addDownloadElement();
+  new VideoInjector(videoPlayer, videoData);
 }
 
 export class VideoInjector {
   channel: OcwBroadcastChannel;
   playerEl: HTMLElement;
+  wrapper: HTMLElement;
   videoData: VideoData;
-  downloadElement?: DownloadVideo;
+  downloadElement: DownloadVideo;
 
   constructor(playerEl: HTMLElement, videoData: VideoData) {
     this.channel = new OcwBroadcastChannel();
     this.playerEl = playerEl;
     this.videoData = videoData;
+    this.wrapper = playerEl.closest(".video-player-wrapper")!;
+    this.downloadElement = this.addDownloadElement();
+    this.addPlayerIfExists();
+    this.subscribeToVideoStatus();
   }
 
   get videoId() {
@@ -54,7 +56,7 @@ export class VideoInjector {
     return `/course-videos/${env.course.id}/${this.videoId}.mp4`;
   }
 
-  async addPlayer() {
+  async addPlayerIfExists() {
     const exists = await caches.match(this.videoPath);
     if (exists) {
       this.addVideoPlayer();
@@ -63,10 +65,8 @@ export class VideoInjector {
 
   addVideoPlayer() {
     // We know we have a local copy at this point, so swap the iframe out for a video element
-    const wrapper = document.querySelector<HTMLElement>(
-      ".video-player-wrapper",
-    )!;
-    wrapper.style.display = "none";
+    this.wrapper.style.display = "none";
+    this.playerEl.remove();
 
     const video = document.createElement("video");
 
@@ -80,7 +80,7 @@ export class VideoInjector {
 
     this.addCaptions(video);
 
-    wrapper.after(video);
+    this.wrapper.after(video);
   }
 
   async addCaptions(video: HTMLVideoElement) {
@@ -116,9 +116,9 @@ export class VideoInjector {
         videoId: this.videoId,
       });
     });
-    this.downloadElement = downloadElement;
 
-    this.playerEl.appendChild(downloadElement);
+    this.wrapper.before(downloadElement);
+    return downloadElement;
   }
 
   subscribeToVideoStatus() {
@@ -126,7 +126,7 @@ export class VideoInjector {
       if (message.type == "course-video-status") {
         const video = message.videoStatus[this.videoId]
         if (video) {
-          this.downloadElement?.updateStatus(video);
+          this.downloadElement.updateStatus(video);
 
           // I'm not sure if this is what we want to do, but it works
           if (video.status === "ready") {

@@ -108,14 +108,6 @@ function StatusIcon({ videoStatus }: StatusIconProps) {
         </div>
       );
     case "downloading":
-      return (
-        <div className="video-list__graphic is-loading">
-          <div>VIDEO</div>
-          <span>
-            <Loader />
-          </span>
-        </div>
-      );
     case "waiting":
       return (
         <div className="video-list__graphic is-loading">
