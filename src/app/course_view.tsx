@@ -2,6 +2,9 @@
 // are stored in the cache, and will be served by the service worker
 import React from "react";
 import { COURSES_BY_ID } from "./initial_course_list";
+import { useAppStore } from "./store/store";
+import { selectCourseVideoStatus } from "./store/video_selectors";
+import { useBroadcastChannel } from "./use_broadcast";
 
 interface Props {
   courseId: string;
@@ -54,6 +57,21 @@ export default function CourseView({ courseId }: Props) {
       }
     };
   }, [ref, course]);
+
+  const store = useAppStore();
+  const channel = useBroadcastChannel();
+
+  React.useEffect(() => {
+    const unsub = store.subscribe(() => {
+      const videoStatus = selectCourseVideoStatus(store.getState(), courseId);
+      channel.postMessage({
+        type: "course-video-status",
+        videoStatus,
+      });
+    });
+
+    return unsub;
+  }, [store, courseId, channel]);
 
   return (
     <>

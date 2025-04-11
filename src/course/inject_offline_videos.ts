@@ -2,7 +2,10 @@
 // elements into the page and hides the youtube player.
 import OcwBroadcastChannel from "../common/broadcast_channel";
 import type { VideoData } from "../types";
+import { DownloadVideo, registerDownloadVideo } from "./download_element";
 import env from "./env";
+
+registerDownloadVideo();
 
 export default function injectOfflineVideos() {
   const videoPlayer = document.querySelector<HTMLElement>(
@@ -26,19 +29,18 @@ export default function injectOfflineVideos() {
   }
 
   const vi = new VideoInjector(videoPlayer, videoData);
-  vi.addPlayerOrDownloadButton();
+  vi.addPlayer();
   vi.subscribeToVideoStatus();
+  vi.addDownloadElement();
 }
 
 export class VideoInjector {
   channel: OcwBroadcastChannel;
   playerEl: HTMLElement;
   videoData: VideoData;
+  downloadElement?: DownloadVideo;
 
-  constructor(
-    playerEl: HTMLElement,
-    videoData: VideoData,
-  ) {
+  constructor(playerEl: HTMLElement, videoData: VideoData) {
     this.channel = new OcwBroadcastChannel();
     this.playerEl = playerEl;
     this.videoData = videoData;
@@ -52,12 +54,10 @@ export class VideoInjector {
     return `/course-videos/${env.course.id}/${this.videoId}.mp4`;
   }
 
-  async addPlayerOrDownloadButton() {
+  async addPlayer() {
     const exists = await caches.match(this.videoPath);
     if (exists) {
       this.addVideoPlayer();
-    } else {
-      this.addDownloadLink();
     }
   }
 
@@ -104,23 +104,36 @@ export class VideoInjector {
     track.track.mode = "showing";
   }
 
-  addDownloadLink() {
-    const button = document.createElement("button");
-    button.textContent = "Download Video";
-    button.classList.add("download-video-button");
-    button.onclick = async () => {
+  addDownloadElement() {
+    const downloadElement = document.createElement(
+      "download-video",
+    ) as DownloadVideo;
+
+    downloadElement.addEventListener("download-video", () => {
       this.channel.postMessage({
         type: "download-video",
         courseId: env.course.id,
         videoId: this.videoId,
       });
-    };
-    this.playerEl.appendChild(button);
+    });
+    this.downloadElement = downloadElement;
+
+    this.playerEl.appendChild(downloadElement);
   }
 
   subscribeToVideoStatus() {
     this.channel.onMessage((message) => {
-      console.log("invideothing",message);
+      if (message.type == "course-video-status") {
+        const video = message.videoStatus[this.videoId]
+        if (video) {
+          this.downloadElement?.updateStatus(video);
+
+          // I'm not sure if this is what we want to do, but it works
+          if (video.status === "ready") {
+            this.addVideoPlayer();
+          }
+        }
+      }
     });
   }
 }

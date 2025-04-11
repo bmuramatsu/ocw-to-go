@@ -7,10 +7,11 @@ type VideoStatus = "none" | "downloading" | "waiting" | "ready" | "error";
 export type FullUserVideo = {
   status: VideoStatus;
 };
+export type CourseVideoStatus = Partial<{
+  [videoId: string]: FullUserVideo;
+}>;
 export type AllVideoStatus = Partial<{
-  [courseId: string]: Partial<{
-    [videoId: string]: FullUserVideo;
-  }>;
+  [courseId: string]: CourseVideoStatus;
 }>;
 
 // The purpose of these redux selectors is to make it easier to access video
