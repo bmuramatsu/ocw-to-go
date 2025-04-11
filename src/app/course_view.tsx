@@ -3,8 +3,10 @@
 import React from "react";
 import { COURSES_BY_ID } from "./initial_course_list";
 import { useAppStore } from "./store/store";
-import { selectCourseVideoStatus } from "./store/video_selectors";
 import { useBroadcastChannel } from "./use_broadcast";
+import { useLocation } from "wouter";
+import { VideoData } from "../types";
+import VideoDownloadPortal from "./video_portal";
 
 interface Props {
   courseId: string;
@@ -16,8 +18,13 @@ export default function CourseView({ courseId }: Props) {
 
   // this effect injects various items into the iframe to
   // enhance the course experience
+  const [currentVideo, setCurrentVideo] = React.useState<VideoData | null>(
+    null,
+  );
   React.useEffect(() => {
     function onLoad() {
+      setCurrentVideo(null);
+
       const childWindow = ref.current?.contentWindow;
       if (childWindow) {
         // Inject PDF.js into the iframe to render PDFs inline
@@ -60,18 +67,51 @@ export default function CourseView({ courseId }: Props) {
 
   const store = useAppStore();
   const channel = useBroadcastChannel();
+  const [_location, navigate] = useLocation();
 
   React.useEffect(() => {
-    const unsub = store.subscribe(() => {
-      const videoStatus = selectCourseVideoStatus(store.getState(), courseId);
-      channel.postMessage({
-        type: "course-video-status",
-        videoStatus,
-      });
+    const unsub = channel.subscribe((message) => {
+      switch (message.type) {
+        case "download-video": {
+          store.dispatch({
+            type: "DOWNLOAD_VIDEO",
+            payload: {
+              courseId: message.courseId,
+              videoId: message.videoId,
+            },
+          });
+          break;
+        }
+        // this allows the iframed content to navigate with the router
+        // rather than built-in browser navigation, which causes the page to reload
+        // and interrupt tasks like video downloads
+        case "navigate": {
+          setCurrentVideo(null);
+          navigate(message.href);
+          break;
+        }
+
+        case "portalOpened": {
+          setCurrentVideo(message.videoData);
+          break;
+        }
+      }
     });
 
     return unsub;
-  }, [store, courseId, channel]);
+  }, [channel, store, navigate]);
+
+  //React.useEffect(() => {
+  //  const unsub = store.subscribe(() => {
+  //    const videoStatus = selectCourseVideoStatus(store.getState(), courseId);
+  //    channel.postMessage({
+  //      type: "course-video-status",
+  //      videoStatus,
+  //    });
+  //  });
+  //
+  //  return unsub;
+  //}, [store, courseId, channel]);
 
   return (
     <>
@@ -80,6 +120,14 @@ export default function CourseView({ courseId }: Props) {
         style={{ width: "100%", height: "100vh", border: "none" }}
         ref={ref}
       />
+      {currentVideo && ref.current && (
+        <VideoDownloadPortal
+          currentVideo={currentVideo}
+          iframe={ref.current}
+          courseId={courseId}
+        />
+      )}
     </>
   );
 }
+

@@ -43,9 +43,19 @@ export class VideoInjector {
     this.playerEl = playerEl;
     this.videoData = videoData;
     this.wrapper = playerEl.closest(".video-player-wrapper")!;
-    this.downloadElement = this.addDownloadElement();
-    this.addPlayerIfExists();
-    this.subscribeToVideoStatus();
+    //this.downloadElement = this.addDownloadElement();
+    this.addPortal();
+    //this.addPlayerIfExists();
+    //
+    this.channel.subscribe((message) => {
+      if (message.type === "video-player-state-change") {
+        if (message.ready) {
+          this.hideYoutubePlayer();
+        } else {
+          this.showYoutubePlayer();
+        }
+      }
+    });
   }
 
   get videoId() {
@@ -61,6 +71,14 @@ export class VideoInjector {
     if (exists) {
       this.addVideoPlayer();
     }
+  }
+
+  hideYoutubePlayer() {
+    this.wrapper.style.display = "none";
+  }
+
+  showYoutubePlayer() {
+    this.wrapper.style.display = "block";
   }
 
   addVideoPlayer() {
@@ -83,7 +101,7 @@ export class VideoInjector {
     this.wrapper.after(video);
   }
 
-  async addCaptions(video: HTMLVideoElement) {
+  addCaptions(video: HTMLVideoElement) {
     const videoData = getVideoData(this.videoId);
     if (!videoData || !videoData.captionsFile) return;
 
@@ -121,19 +139,13 @@ export class VideoInjector {
     return downloadElement;
   }
 
-  subscribeToVideoStatus() {
-    this.channel.onMessage((message) => {
-      if (message.type == "course-video-status") {
-        const video = message.videoStatus[this.videoId]
-        if (video) {
-          this.downloadElement.updateStatus(video);
-
-          // I'm not sure if this is what we want to do, but it works
-          if (video.status === "ready") {
-            this.addVideoPlayer();
-          }
-        }
-      }
+  addPortal() {
+    const portalTarget = document.createElement("div");
+    portalTarget.id = `download-video-portal-${this.videoId}`;
+    this.wrapper.before(portalTarget);
+    this.channel.postMessage({
+      type: "portalOpened",
+      videoData: this.videoData,
     });
   }
 }

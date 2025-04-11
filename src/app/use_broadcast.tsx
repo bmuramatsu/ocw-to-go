@@ -13,7 +13,7 @@ interface Props {
   children: React.ReactNode;
 }
 export function BroadcastProvider({ children }: Props) {
-  useMessageListener();
+  //useMessageListener();
 
   return (
     <BroadcastContext.Provider value={channel}>
