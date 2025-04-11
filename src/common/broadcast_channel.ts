@@ -1,4 +1,3 @@
-import type { CourseVideoStatus } from "../app/store/video_selectors";
 import { VideoData } from "../types";
 
 const NAME = "ocw-broadcast-channel";
@@ -10,7 +9,6 @@ export type OcwMessage =
       videoId: string;
     }
   | { type: "navigate"; href: string }
-  | { type: "course-video-status"; videoStatus: CourseVideoStatus }
   | { type: "portalOpened"; videoData: VideoData }
   | { type: "video-player-state-change"; ready: boolean };
 
@@ -28,17 +26,6 @@ export default class OcwBroadcastChannel {
     this.channel.postMessage(message);
   }
 
-  onMessage(callback: (message: OcwMessage) => void) {
-    this.channel.onmessage = (event: MessageEvent<OcwMessage>) => {
-      callback(event.data);
-    };
-  }
-
-  clearOnMessage() {
-    this.channel.onmessage = null;
-  }
-
-  // returns an unsubscribe function
   subscribe(callback: OnMessageCallback): UnsubscribeCallback {
     const listener = (event: MessageEvent<OcwMessage>) => {
       callback(event.data);

@@ -67,7 +67,7 @@ export default function CourseView({ courseId }: Props) {
 
   const store = useAppStore();
   const channel = useBroadcastChannel();
-  const [_location, navigate] = useLocation();
+  const [, navigate] = useLocation();
 
   React.useEffect(() => {
     const unsub = channel.subscribe((message) => {
@@ -100,18 +100,6 @@ export default function CourseView({ courseId }: Props) {
 
     return unsub;
   }, [channel, store, navigate]);
-
-  //React.useEffect(() => {
-  //  const unsub = store.subscribe(() => {
-  //    const videoStatus = selectCourseVideoStatus(store.getState(), courseId);
-  //    channel.postMessage({
-  //      type: "course-video-status",
-  //      videoStatus,
-  //    });
-  //  });
-  //
-  //  return unsub;
-  //}, [store, courseId, channel]);
 
   return (
     <>
