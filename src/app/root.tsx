@@ -12,6 +12,8 @@ import ScrollToTop from "./scroll_to_top";
 import { Provider as ReduxProvider } from "react-redux";
 import { store } from "./store/store";
 import Layout from "./layout";
+import Share from "./share";
+import Share2 from "./share2";
 import ManageCourseVideos from "./manage_course_videos/manage_course_videos";
 
 export default function Root() {
@@ -45,6 +47,16 @@ export default function Root() {
             <Route path="/terms_and_conditions">
               <Layout>
                 <TermsAndConditions />
+              </Layout>
+            </Route>
+            <Route path="/share">
+              <Layout>
+                <Share />
+              </Layout>
+            </Route>
+            <Route path="/share2">
+              <Layout>
+                <Share2 />
               </Layout>
             </Route>
             <Route path="/">
