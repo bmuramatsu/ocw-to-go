@@ -24,6 +24,6 @@ export function deleteVideo(courseId: string, videoId: string) {
   return async function deleteVideoThunk(dispatch: AppDispatch) {
     const cache = await caches.open(`course-videos-${courseId}`);
     cache.delete(`/course-videos/${courseId}/${videoId}.mp4`);
-    dispatch(userActions.deleteVideo({ courseId, videoId }));
+    dispatch(userActions.deleteVideo({ videoId }));
   };
 }

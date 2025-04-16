@@ -58,7 +58,7 @@ const userStore = createSlice({
     },
     deleteVideo: (
       state,
-      action: PayloadAction<{ courseId: string; videoId: string }>,
+      action: PayloadAction<{ videoId: string }>,
     ) => {
       delete state.userVideos[action.payload.videoId];
     },
