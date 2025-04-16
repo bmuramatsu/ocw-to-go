@@ -10,7 +10,15 @@ interface Props {
   iframe: HTMLIFrameElement;
 }
 
-export default function VideoDownloadPortal({ courseId, currentVideo, iframe, }: Props) {
+// This renders the controls to downloads/delete videos from within the course iframe.
+// Because it's same-origin, react portals have no problem rendering inside the iframe,
+// including providing access to Redux and other context.
+// This is easier that managing the state updates in the DOM manually
+export default function VideoDownloadPortal({
+  courseId,
+  currentVideo,
+  iframe,
+}: Props) {
   const target = iframe.contentWindow?.document.getElementById(
     `download-video-portal-${currentVideo.youtubeKey}`,
   )?.shadowRoot;
@@ -21,14 +29,12 @@ export default function VideoDownloadPortal({ courseId, currentVideo, iframe, }:
 
   return createPortal(
     <>
-      <link rel="stylesheet" href="/video-downloader-styles.css"/>
+      <link rel="stylesheet" href="/video-downloader-styles.css" />
       <div className="video-list">
         <CourseVideo video={currentVideo} courseId={courseId} />
       </div>
       <VideoPlayer video={currentVideo} courseId={courseId} />
-    </>
-    ,
+    </>,
     target,
   );
 }
-

@@ -29,6 +29,8 @@ export default function overrideNavButtons() {
     document.querySelectorAll<HTMLAnchorElement>(o.selector).forEach((el) => {
       el.href = o.href;
 
+      // this navigates with the app router instead of the browser history,
+      // so the app doesn't reload
       el.addEventListener("click", (e: MouseEvent) => {
         e.preventDefault();
         channel.postMessage({

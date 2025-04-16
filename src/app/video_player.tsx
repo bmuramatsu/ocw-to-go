@@ -4,6 +4,8 @@ import { useAppSelector } from "./store/store";
 import { selectVideoStatus } from "./store/video_selectors";
 import { useBroadcastChannel } from "./use_broadcast";
 
+// This is rendered inside a portal in the course content, only if we detect that
+// a local copy of the video is ready to be played
 interface Props {
   courseId: string;
   video: VideoData;
@@ -17,8 +19,9 @@ export default function VideoPlayer({ courseId, video }: Props) {
 
   const channel = useBroadcastChannel();
 
+  // The script running in the page listens for this event and hides the youtube
+  // player when the local video is rendered
   React.useEffect(() => {
-    console.log("Video player ready", ready);
     channel.postMessage({
       type: "video-player-state-change",
       ready,
