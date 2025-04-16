@@ -45,7 +45,7 @@ jobs:
       - name: Run TypeScript type check
         run: npm run typecheck
 
-  typecheck:
+  unit_tests:
     name: Unit tests
     runs-on: ubuntu-latest
     steps:
