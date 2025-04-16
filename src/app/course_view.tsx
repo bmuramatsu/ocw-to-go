@@ -7,6 +7,7 @@ import { useBroadcastChannel } from "./use_broadcast";
 import { useLocation } from "wouter";
 import { VideoData } from "../types";
 import VideoDownloadPortal from "./video_portal";
+import ErrorBoundary from "./error_boundary";
 
 interface Props {
   courseId: string;
@@ -99,13 +100,17 @@ export default function CourseView({ courseId }: Props) {
         ref={ref}
       />
       {currentVideo && ref.current && (
-        <VideoDownloadPortal
-          currentVideo={currentVideo}
-          iframe={ref.current}
-          courseId={courseId}
-        />
+        // Wrap in an error boundary because there's a potential for bugs if the
+        // element is unmounted while the portal is open
+        // The user shouldn't see this happen.
+        <ErrorBoundary>
+          <VideoDownloadPortal
+            currentVideo={currentVideo}
+            iframe={ref.current}
+            courseId={courseId}
+          />
+        </ErrorBoundary>
       )}
     </>
   );
 }
-
