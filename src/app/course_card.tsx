@@ -1,8 +1,15 @@
 // This is a course card, which displays metadata about the course,
 // and status information about the state of the course download.
 import React from "react";
-import { CourseData, CourseStatus, newUserCourse } from "../types";
-import { Checkmark, Download, Loader, Trash, Videos } from "./svgs";
+import { CourseData, CourseStatus } from "../types";
+import {
+  Checkmark,
+  ChevronRight,
+  Download,
+  Loader,
+  Trash,
+  Videos,
+} from "./svgs";
 import CourseLink from "./course_link";
 import downloadCourseAction from "./store/download_course_action";
 import * as asyncActions from "./store/async_actions";
@@ -10,6 +17,7 @@ import { useAppDispatch, useAppSelector } from "./store/store";
 import { Link } from "wouter";
 import { selectCourseVideoStatus } from "./store/video_selectors";
 import { useFormattedBytes } from "./utils/format_bytes";
+import { selectUserCourse } from "./store/course_selectors";
 
 function downloadState(state: CourseStatus) {
   switch (state) {
@@ -29,9 +37,7 @@ interface Props {
 }
 
 export default function CourseCard({ courseData }: Props) {
-  const userCourse =
-    useAppSelector(({ user }) => user.userCourses[courseData.id]) ||
-    newUserCourse();
+  const userCourse = useAppSelector((s) => selectUserCourse(s, courseData.id));
 
   const videoStatus = useAppSelector((s) =>
     selectCourseVideoStatus(s, courseData.id),
@@ -52,7 +58,8 @@ export default function CourseCard({ courseData }: Props) {
   }, 0);
 
   const formattedVideoSpace = useFormattedBytes(totalVideoSpace);
-  const formattedCourseSize = useFormattedBytes(courseData.downloadSize);
+  const zippedCourseSize = useFormattedBytes(courseData.downloadSize);
+  const unzippedCourseSize = useFormattedBytes(courseData.diskSize);
 
   const dispatch = useAppDispatch();
   const removeCourse = () => dispatch(asyncActions.removeCourse(courseData.id));
@@ -73,8 +80,7 @@ export default function CourseCard({ courseData }: Props) {
   return (
     <>
       <CourseLink
-        ready={state === "ready"}
-        courseId={courseData.id}
+        courseData={courseData}
         className="course-card__img"
         aria-hidden
         tabIndex={-1}
@@ -88,7 +94,7 @@ export default function CourseCard({ courseData }: Props) {
       <div className="course-card__content">
         <p className="u-all-caps">{courseData.courseLevel}</p>
         <h3>
-          <CourseLink ready={state === "ready"} courseId={courseData.id}>
+          <CourseLink courseData={courseData}>
             {courseData.name}
           </CourseLink>
         </h3>
@@ -98,14 +104,14 @@ export default function CourseCard({ courseData }: Props) {
         <p className="u-mt-8">
           <span>Topics:</span> {courseData.topics.join(", ")}
         </p>
-        <p className="u-mt-8">
-          <span>Course size:</span> {formattedCourseSize}
-        </p>
-
-        {state === "ready" && (
+        {state !== "ready" ? (
+          <p className="u-mt-8">
+            <span>Course size:</span> {zippedCourseSize}
+          </p>
+        ) : (
           <p className="u-mt-12 inline-icon">
             <Checkmark />
-            Course downloaded ({formattedCourseSize})
+            Course downloaded ({unzippedCourseSize})
           </p>
         )}
         {state === "ready" && !!totalVideos && (
@@ -141,8 +147,15 @@ export default function CourseCard({ courseData }: Props) {
             </Link>
             <button onClick={confirmRemove} className="btn--has-icon">
               <Trash />
-              Delete
+              Delete Course and Videos
             </button>
+            <CourseLink
+              courseData={courseData}
+              className="btn--has-icon is-primary icon-right"
+            >
+              View Course
+              <ChevronRight />
+            </CourseLink>
           </>
         )}
       </div>
