@@ -20,14 +20,16 @@ import { useFormattedBytes } from "./utils/format_bytes";
 import { selectUserCourse } from "./store/course_selectors";
 import CourseVideoUsage from "./course_video_usage";
 
+// This might go away when we add error states
 function downloadState(state: CourseStatus) {
   switch (state) {
     case "none":
     case "error":
       return "download";
     case "downloading":
-    case "preparing":
       return "downloading";
+    case "preparing":
+      return "preparing";
     case "ready":
       return "ready";
   }
@@ -69,6 +71,7 @@ export default function CourseCard({ courseData }: Props) {
   }
 
   const state = downloadState(userCourse.status);
+  const downloadProgress = Math.round(userCourse.downloadProgress * 100);
 
   return (
     <>
@@ -87,9 +90,7 @@ export default function CourseCard({ courseData }: Props) {
       <div className="course-card__content">
         <p className="u-all-caps">{courseData.courseLevel}</p>
         <h3>
-          <CourseLink courseData={courseData}>
-            {courseData.name}
-          </CourseLink>
+          <CourseLink courseData={courseData}>{courseData.name}</CourseLink>
         </h3>
         <p className="u-mt-12">
           <span>Instructor:</span> {courseData.instructors.join(", ")}
@@ -110,7 +111,7 @@ export default function CourseCard({ courseData }: Props) {
         {state === "ready" && !!totalVideos && (
           <p className="u-mt-8 inline-icon">
             {finishedVideos === totalVideos && <Checkmark />}
-            <CourseVideoUsage course={courseData}/>
+            <CourseVideoUsage course={courseData} />
           </p>
         )}
       </div>
@@ -124,7 +125,13 @@ export default function CourseCard({ courseData }: Props) {
         {state === "downloading" && (
           <button className="btn--has-icon is-primary is-downloading" disabled>
             <Loader />
-            Downloading Course
+            Downloading Course ({downloadProgress}%)
+          </button>
+        )}
+        {state === "preparing" && (
+          <button className="btn--has-icon is-primary is-downloading" disabled>
+            <Loader />
+            Preparing Course
           </button>
         )}
 
