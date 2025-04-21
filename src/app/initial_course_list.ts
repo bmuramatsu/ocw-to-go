@@ -9,18 +9,21 @@ type RawCourse = Omit<CourseData, "videos"> & {
   videoGroups: VideoGroup[];
 };
 
+type RawVideo = Omit<VideoData, "category">;
+
 type VideoGroup = {
   category: string;
-  videos: VideoData[];
+  videos: RawVideo[];
 };
 
 export const RAW_COURSES: RawCourse[] = [introCS, linearAlg, introCS2, creole];
 
 export const ALL_COURSES: CourseData[] = RAW_COURSES.map((course) => {
-  const videos = course.videoGroups.flatMap((group) => group.videos);
   return {
     ...course,
-    videos,
+    videos: course.videoGroups.flatMap((group) =>
+      group.videos.map((video) => ({ ...video, category: group.category })),
+    ),
   };
 });
 
