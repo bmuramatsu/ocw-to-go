@@ -3,7 +3,7 @@ import * as customActions from "../store/custom_actions";
 import * as asyncActions from "../store/async_actions";
 import { useAppDispatch } from "../store/store";
 import { useAppSelector } from "../store/store";
-import { selectCourseVideoStatus } from "../store/video_selectors";
+import { selectCourseVideoUsage } from "../store/video_selectors";
 import { Cancel, Download, Loader, Trash } from "../svgs";
 import { COURSES_BY_ID } from "../initial_course_list";
 import { useFormattedBytes } from "../utils/format_bytes";
@@ -18,20 +18,13 @@ export default function DownloadAllVideos({ courseId }: Props) {
   const removeCourseVideos = () =>
     dispatch(asyncActions.removeCourseVideos(courseId));
   const courseData = COURSES_BY_ID[courseId];
-  const courseVideos = useAppSelector((state) =>
-    selectCourseVideoStatus(state, courseId),
+
+  const videoUsage = useAppSelector((state) =>
+    selectCourseVideoUsage(state, courseId),
   );
-  const totalSpace = courseData.videos.reduce((total, video) => {
-    return total + video.contentLength;
-  }, 0);
-  const formattedSpace = useFormattedBytes(totalSpace);
+  const formattedSpace = useFormattedBytes(videoUsage.totalSpace);
 
-  const total = courseData.videos.length;
-  const finished = Object.values(courseVideos).filter(
-    (video) => video?.status === "ready",
-  ).length;
-
-  if (total === finished) {
+  if (videoUsage.totalVideos === videoUsage.finishedVideos) {
     return (
       <button className="btn--has-icon" onClick={removeCourseVideos}>
         <Trash />
@@ -40,11 +33,7 @@ export default function DownloadAllVideos({ courseId }: Props) {
     );
   }
 
-  const inQueue = Object.values(courseVideos).every(
-    (video) => video?.status !== "none",
-  );
-
-  if (inQueue) {
+  if (videoUsage.allQueued) {
     return (
       <div className="combo-btn">
         <div className="btn--has-icon is-downloading">

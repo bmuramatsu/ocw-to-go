@@ -1,6 +1,6 @@
 import { createSelector } from "@reduxjs/toolkit";
 import { RootState } from "./store";
-import { ALL_COURSES } from "../initial_course_list";
+import { ALL_COURSES, COURSES_BY_ID } from "../initial_course_list";
 import { UserVideos, VideoQueue } from "../../types";
 
 type VideoStatus = "none" | "downloading" | "waiting" | "ready" | "error";
@@ -22,6 +22,7 @@ type AllVideoStatus = Partial<{
 
 const selectQueue = (state: RootState) => state.user.videoQueue;
 const selectUserVideos = (state: RootState) => state.user.userVideos;
+const selectCourseID = (_: RootState, courseId: string) => courseId;
 
 export const selectAllVideoStatus = createSelector(
   [selectQueue, selectUserVideos],
@@ -47,7 +48,7 @@ export const selectAllVideoStatus = createSelector(
 // These functions let you drill further down into video status by course and
 // video ids
 export const selectCourseVideoStatus = createSelector(
-  [selectAllVideoStatus, (_: RootState, courseId: string) => courseId],
+  [selectAllVideoStatus, selectCourseID],
   (allVideoStatus, courseId) => {
     return allVideoStatus[courseId] || {};
   },
@@ -60,6 +61,47 @@ export const selectVideoStatus = createSelector(
   ],
   (courseVideos, videoId): FullUserVideo => {
     return courseVideos[videoId] || { status: "none" };
+  },
+);
+
+type VideoUsage = {
+  usedSpace: number;
+  totalSpace: number;
+  finishedVideos: number;
+  totalVideos: number;
+  allQueued: boolean;
+};
+export const selectCourseVideoUsage = createSelector(
+  [selectAllVideoStatus, selectCourseID],
+  (allVideoStatus, courseId): VideoUsage => {
+    const course = COURSES_BY_ID[courseId];
+    const videoStatus = allVideoStatus[courseId] || {};
+
+    let usedSpace = 0;
+    let totalSpace = 0;
+    let finishedVideos = 0;
+    // true if all are done or in progress
+    let allQueued = true;
+
+    course.videos.forEach((video) => {
+      totalSpace += video.contentLength;
+      const status = videoStatus[video.youtubeKey]?.status || "none";
+      if (status === "ready") {
+        usedSpace += video.contentLength;
+        finishedVideos++;
+      }
+      if (status === "none") {
+        allQueued = false;
+      }
+    });
+
+    return {
+      usedSpace,
+      totalSpace,
+      finishedVideos,
+      totalVideos: course.videos.length,
+      allQueued,
+    };
   },
 );
 

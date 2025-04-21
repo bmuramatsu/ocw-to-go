@@ -18,6 +18,7 @@ import { Link } from "wouter";
 import { selectCourseVideoStatus } from "./store/video_selectors";
 import { useFormattedBytes } from "./utils/format_bytes";
 import { selectUserCourse } from "./store/course_selectors";
+import CourseVideoUsage from "./course_video_usage";
 
 function downloadState(state: CourseStatus) {
   switch (state) {
@@ -50,14 +51,6 @@ export default function CourseCard({ courseData }: Props) {
     if (video?.status == "ready") finishedVideos++;
   });
 
-  const totalVideoSpace = courseData.videos.reduce((total, video) => {
-    if (videoStatus[video.youtubeKey]?.status === "ready") {
-      return total + video.contentLength;
-    }
-    return total;
-  }, 0);
-
-  const formattedVideoSpace = useFormattedBytes(totalVideoSpace);
   const zippedCourseSize = useFormattedBytes(courseData.downloadSize);
   const unzippedCourseSize = useFormattedBytes(courseData.diskSize);
 
@@ -117,8 +110,7 @@ export default function CourseCard({ courseData }: Props) {
         {state === "ready" && !!totalVideos && (
           <p className="u-mt-8 inline-icon">
             {finishedVideos === totalVideos && <Checkmark />}
-            {finishedVideos}/{totalVideos} videos downloaded (
-            {formattedVideoSpace})
+            <CourseVideoUsage course={courseData}/>
           </p>
         )}
       </div>
