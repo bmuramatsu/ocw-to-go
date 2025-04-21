@@ -99,7 +99,6 @@ for (const dataPath of dataPaths) {
       videoUrl,
       youtubeKey: dataJSON["youtube_key"],
       contentLength: length,
-      category,
       captionsFile: dataJSON["captions_file"],
     };
 
@@ -142,5 +141,5 @@ fs.writeFileSync(
 );
 
 console.log(
-  `wrote src/courses/${safeName}.json, please review and import into src/app/initial_course_list.ts`,
+  `wrote src/courses/${safeName}.json, please review and import into src/courses/index.ts`,
 );

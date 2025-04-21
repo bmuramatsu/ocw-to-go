@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "add_course": "node scripts/add_course.mjs",
     "build": "node esbuild.mjs",
     "dev": "npm run watch & npm run serve",
     "formatcheck": "prettier -c src",
