@@ -67,8 +67,12 @@ const cardData = {
   file: url,
   downloadSize: parseInt(downloadSize),
   diskSize,
-  videos: [],
+  videoGroups: [],
 };
+
+// use a Map because it maintains insertion order
+const videoGroups = new Map();
+const knownVideos = [];
 
 for (const dataPath of dataPaths) {
   const data = await zip.file(dataPath).async("text");
@@ -77,8 +81,9 @@ for (const dataPath of dataPaths) {
   if (
     dataJSON["resource_type"] === "Video" &&
     (dataJSON["file"] || dataJSON["archive_url"]) &&
-    !cardData.videos.some((v) => v.youtubeKey === dataJSON.youtube_key)
+    !knownVideos.includes(dataJSON.youtube_key)
   ) {
+    knownVideos.push(dataJSON.youtube_key);
     console.log(`getting length for ${dataJSON.title}`);
     const videoUrl = dataJSON["file"]
       ? VIDEO_HOST + dataJSON["file"]
@@ -86,22 +91,43 @@ for (const dataPath of dataPaths) {
 
     const resp = await fetch(videoUrl, { method: "HEAD" });
     const length = parseInt(resp.headers.get("content-length"));
+    // these seem to be applied very inconsistently
+    const category = dataJSON["learning_resource_types"][0] || "Other";
 
-    cardData.videos.push({
+    const videoData = {
       title: dataJSON.title,
       videoUrl,
       youtubeKey: dataJSON["youtube_key"],
       contentLength: length,
-      // these seem to be applied very inconsistently
-      categories: dataJSON["learning_resource_types"],
+      category,
       captionsFile: dataJSON["captions_file"],
-    });
+    };
+
+    if (videoGroups.has(category)) {
+      videoGroups.get(category).push(videoData);
+    } else {
+      videoGroups.set(category, [videoData]);
+    }
   }
 }
 
-cardData.videos.sort((a, b) =>
-  a.title.localeCompare(b.title, undefined, { numeric: true }),
-);
+// Put "Other" at the end
+const otherVideos = videoGroups.get("Other");
+if (otherVideos) {
+  videoGroups.delete("Other");
+  videoGroups.set("Other", otherVideos);
+}
+
+for (const [category, videos] of videoGroups) {
+  videos.sort((a, b) =>
+    a.title.localeCompare(b.title, undefined, { numeric: true }),
+  );
+
+  cardData.videoGroups.push({
+    category,
+    videos,
+  });
+}
 
 const safeName = cardData.name
   .toLowerCase()

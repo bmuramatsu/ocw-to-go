@@ -19,7 +19,7 @@ export type VideoData = {
   videoUrl: string;
   youtubeKey: string;
   contentLength: number;
-  categories: string[];
+  category: string;
   captionsFile: string | null;
 };
 
