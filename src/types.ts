@@ -32,12 +32,14 @@ export type CourseStatus =
 
 export type UserCourse = {
   status: CourseStatus;
+  downloadProgress: number;
 };
 
 export const newUserCourse = (
   params: Partial<UserCourse> = {},
 ): UserCourse => ({
   status: "none",
+  downloadProgress: 0,
   ...params,
 });
 
