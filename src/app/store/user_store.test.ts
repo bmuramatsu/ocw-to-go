@@ -121,6 +121,15 @@ describe("addToVideoQueue", () => {
     const result = reducer(state, actions.addToVideoQueue([item1, item2]));
     expect(result.videoQueue).toEqual([item0, item1, item2]);
   });
+
+  test("does not add duplicates to the queue", () => {
+    const state = initialState();
+    const item0 = { courseId: "course0", videoId: "video0" };
+    const item1 = { courseId: "course1", videoId: "video1" };
+    state.videoQueue = [item0];
+    const result = reducer(state, actions.addToVideoQueue([item0, item1]));
+    expect(result.videoQueue).toEqual([item0, item1]);
+  });
 });
 
 describe("finishVideoDownload", () => {
