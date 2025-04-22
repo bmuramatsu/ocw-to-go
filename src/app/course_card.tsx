@@ -117,10 +117,16 @@ export default function CourseCard({ courseData }: Props) {
       </div>
       <div className="course-card__actions">
         {state === "download" && (
-          <button onClick={downloadCourse} className="btn--has-icon is-primary">
-            <Download />
-            Download Course
-          </button>
+          <>
+            <button
+              onClick={downloadCourse}
+              className="btn--has-icon is-primary"
+            >
+              <Download />
+              Download Course
+            </button>
+            {userCourse.errorMessage && <p>{userCourse.errorMessage}</p>}
+          </>
         )}
         {state === "downloading" && (
           <button className="btn--has-icon is-primary is-downloading" disabled>

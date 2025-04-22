@@ -17,13 +17,13 @@ export default function useInitialCourses() {
 }
 
 async function getInitialUserCourses(): Promise<UserCourses> {
-  const cacheKeys = await window.caches.keys();
-
   const courses: UserCourses = {};
 
   for await (const course of ALL_COURSES) {
-    const ready = cacheKeys.includes(`course-${course.id}`);
-    if (ready) {
+    // look for the special file created when course is finished unpacking
+    const resp = await caches.match(`/courses/${course.id}/__ready`);
+
+    if (resp) {
       courses[course.id] = newUserCourse({ status: "ready" });
     }
   }

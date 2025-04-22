@@ -33,6 +33,7 @@ export type CourseStatus =
 export type UserCourse = {
   status: CourseStatus;
   downloadProgress: number;
+  errorMessage?: string;
 };
 
 export const newUserCourse = (

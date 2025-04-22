@@ -1,4 +1,4 @@
-// Redux thunk that downloads a course, unzips it, and caches the files.
+// this is a Redux thunk that downloads a course, unzips it, and caches the files.
 // This all happens asynchronously.
 import JSZip from "jszip";
 import { CourseData, UserCourse } from "../../types";
@@ -14,7 +14,7 @@ export default function downloadCourseAction(courseData: CourseData) {
     };
 
     try {
-      update({ status: "downloading" });
+      update({ status: "downloading", errorMessage: undefined });
 
       const zipBlob = await downloadWithProgress(path, (progress, total) =>
         update({ downloadProgress: progress / total }),
@@ -41,10 +41,21 @@ export default function downloadCourseAction(courseData: CourseData) {
         );
       }
 
+      // Mark the course as ready by creating a special file
+      // This way if something goes wrong during the unzipping,
+      // we won't present it as being ready.
+      await cache.put(`/courses/${courseId}/__ready`, new Response(""));
+
       update({ status: "ready" });
     } catch (e: unknown) {
-      console.error("Error downloading course", e);
-      update({ status: "error" });
+      let errorMessage = "An error occurred";
+      if (e instanceof Error && e.name === "QuotaExceededError") {
+        errorMessage = "Not enough space to download this course.";
+      }
+
+      await caches.delete(`course-${courseId}`);
+
+      update({ status: "none", errorMessage });
     }
   };
 }
