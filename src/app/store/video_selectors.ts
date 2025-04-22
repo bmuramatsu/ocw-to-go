@@ -4,8 +4,10 @@ import { ALL_COURSES, COURSES_BY_ID } from "../initial_course_list";
 import { UserVideos, VideoQueue } from "../../types";
 
 type VideoStatus = "none" | "downloading" | "waiting" | "ready" | "error";
+// This expands from a simple boolean status to a string
 export type FullUserVideo = {
   status: VideoStatus;
+  errorMessage?: string;
 };
 export type CourseVideoStatus = Partial<{
   [videoId: string]: FullUserVideo;
@@ -127,5 +129,5 @@ function makeFullVideoStatus(
     return { status: "ready" };
   }
 
-  return { status: "none" };
+  return { status: "none", errorMessage: userVideo?.errorMessage };
 }

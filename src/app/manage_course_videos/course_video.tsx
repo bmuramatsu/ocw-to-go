@@ -80,15 +80,20 @@ function DownloadButton({
       );
     default:
       return (
-        <button
-          className="btn--has-icon"
-          onClick={() =>
-            dispatch(customActions.downloadVideo({ courseId, videoId }))
-          }
-        >
-          <Download />
-          Download
-        </button>
+        <>
+          <button
+            className="btn--has-icon"
+            onClick={() =>
+              dispatch(customActions.downloadVideo({ courseId, videoId }))
+            }
+          >
+            <Download />
+            Download
+          </button>
+          {videoStatus.errorMessage && (
+            <p>{videoStatus.errorMessage}</p>
+          )}
+        </>
       );
   }
 }

@@ -49,6 +49,7 @@ export type UserCourses = Partial<{ [courseId: string]: UserCourse }>;
 // This may have a download percentage in the future
 export type UserVideo = {
   ready: boolean;
+  errorMessage?: string;
 };
 
 export type UserVideos = Partial<{ [videoId: string]: UserVideo }>;

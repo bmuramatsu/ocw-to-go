@@ -100,15 +100,17 @@ export default class VideoDownloader {
       );
       this.finishDownload(true, item);
     } catch (e) {
-      console.error("Failed to download", item, e);
-
       // If the download was aborted, allow the middleware to clean up the queue
       // and bump the downloader.
       const wasAborted = e instanceof DOMException && e.name === "AbortError";
-      if (!wasAborted) {
-        console.error("download was aborted");
-        this.finishDownload(false, item);
+      if (wasAborted) return;
+
+      let errorMessage = "An error occurred";
+      const outOfSpace = e instanceof Error && e.name === "QuotaExceededError";
+      if (outOfSpace) {
+        errorMessage = "Not enough space to download this video.";
       }
+      this.finishDownload(false, item, errorMessage);
     }
   }
 
@@ -119,9 +121,15 @@ export default class VideoDownloader {
   }
 
   // update the queue and start the next download
-  finishDownload(success: boolean, item: VideoQueueItem) {
+  finishDownload(
+    success: boolean,
+    item: VideoQueueItem,
+    errorMessage?: string,
+  ) {
     this.running = null;
-    this.store.dispatch(userActions.finishVideoDownload({ success, item }));
+    this.store.dispatch(
+      userActions.finishVideoDownload({ success, item, errorMessage }),
+    );
     this.bump();
   }
 }
