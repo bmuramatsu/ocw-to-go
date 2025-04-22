@@ -37,7 +37,7 @@ export class VideoInjector {
   constructor(playerEl: HTMLElement, videoData: VideoData) {
     this.channel = new OcwBroadcastChannel();
     this.videoData = videoData;
-    this.wrapper = playerEl.closest(".video-player-wrapper")!;
+    this.wrapper = playerEl;
     this.addPortal();
     this.captureOtherVideoDownloads();
 
@@ -83,21 +83,22 @@ export class VideoInjector {
   // This makes the existing video download button on the page trigger the in-app
   // download instead
   captureOtherVideoDownloads() {
-    document.querySelectorAll<HTMLElement>("a[href$='.mp4']").forEach((link) => {
-      // add the video size to the link text
-      const size = formatBytes(this.videoData.contentLength);
-      link.textContent = link.textContent + ` (${size})`;
+    document
+      .querySelectorAll<HTMLElement>("a[href$='.mp4']")
+      .forEach((link) => {
+        // add the video size to the link text
+        const size = formatBytes(this.videoData.contentLength);
+        link.textContent = link.textContent + ` (${size})`;
 
-      link.addEventListener("click", (e) => {
-        e.preventDefault();
+        link.addEventListener("click", (e) => {
+          e.preventDefault();
 
-        this.channel.postMessage({
-          type: "download-video",
-          videoData: this.videoData,
+          this.channel.postMessage({
+            type: "download-video",
+            videoData: this.videoData,
+          });
         });
-
       });
-    });
   }
 }
 

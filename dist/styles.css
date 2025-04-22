@@ -282,6 +282,19 @@ main > h2 {
   color: #555;
 }
 
+@media screen and (max-width: 500px) {
+  .video-list__item {
+    flex-wrap: wrap;
+  }
+  .video-list__item > .combo-btn,
+  .video-list__item > .btn--has-icon {
+    flex: 1 0 100%;
+  }
+  .video-list__item .combo-btn .btn--has-icon {
+    width: 100%;
+  }
+}
+
 .video-list__graphic {
   border-radius: 5px;
   background-color: #f5f5f5;
