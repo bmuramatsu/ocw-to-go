@@ -3,6 +3,7 @@
 import OcwBroadcastChannel from "../common/broadcast_channel";
 import type { VideoData } from "../types";
 import env from "./env";
+import { formatBytes } from "../app/utils/format_bytes";
 
 export default function injectOfflineVideos() {
   const videoPlayer = document.querySelector<HTMLElement>(
@@ -36,8 +37,9 @@ export class VideoInjector {
   constructor(playerEl: HTMLElement, videoData: VideoData) {
     this.channel = new OcwBroadcastChannel();
     this.videoData = videoData;
-    this.wrapper = playerEl.closest(".video-player-wrapper")!;
+    this.wrapper = playerEl;
     this.addPortal();
+    this.captureOtherVideoDownloads();
 
     this.channel.subscribe((message) => {
       if (message.type === "video-player-state-change") {
@@ -76,6 +78,27 @@ export class VideoInjector {
       type: "portal-opened",
       videoData: this.videoData,
     });
+  }
+
+  // This makes the existing video download button on the page trigger the in-app
+  // download instead
+  captureOtherVideoDownloads() {
+    document
+      .querySelectorAll<HTMLElement>("a[href$='.mp4']")
+      .forEach((link) => {
+        // add the video size to the link text
+        const size = formatBytes(this.videoData.contentLength);
+        link.textContent = link.textContent + ` (${size})`;
+
+        link.addEventListener("click", (e) => {
+          e.preventDefault();
+
+          this.channel.postMessage({
+            type: "download-video",
+            videoData: this.videoData,
+          });
+        });
+      });
   }
 }
 

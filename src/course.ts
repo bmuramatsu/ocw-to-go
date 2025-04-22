@@ -2,13 +2,13 @@
 // It performs various DOM mutations add attaches listeners to
 // fix or enhance the course experience.
 import overrideNavButtons from "./course/override_nav_buttons";
-import fixPdfDownloads from "./course/fix_pdf_downloads";
+import fixFileDownloads from "./course/fix_file_downloads";
 import renderPdfs from "./course/render_pdfs";
 import injectOfflineVideos from "./course/inject_offline_videos";
 
 function init() {
   overrideNavButtons();
-  fixPdfDownloads();
+  fixFileDownloads();
   renderPdfs();
   injectOfflineVideos();
 }

@@ -63,7 +63,13 @@ const userStore = createSlice({
       delete state.userVideos[action.payload.videoId];
     },
     addToVideoQueue(state, action: PayloadAction<VideoQueue>) {
-      state.videoQueue.push(...action.payload);
+      // TODO add a test for this on the other branch
+      action.payload.forEach((newItem) => {
+        const inQueue = state.videoQueue.some(oldItem => newItem.courseId === oldItem.courseId && newItem.videoId === oldItem.videoId);
+        if (!inQueue) {
+          state.videoQueue.push(...action.payload);
+        }
+      });
     },
     finishVideoDownload: (
       state,

@@ -2,12 +2,13 @@
 // are stored in the cache, and will be served by the service worker
 import React from "react";
 import { COURSES_BY_ID } from "./initial_course_list";
-import { useAppStore } from "./store/store";
+import { useAppDispatch } from "./store/store";
 import { useBroadcastChannel } from "./use_broadcast";
 import { useLocation } from "wouter";
 import { VideoData } from "../types";
 import VideoDownloadPortal from "./video_portal";
 import ErrorBoundary from "./error_boundary";
+import { downloadVideo } from "./store/custom_actions";
 
 interface Props {
   courseId: string;
@@ -66,7 +67,7 @@ export default function CourseView({ courseId }: Props) {
     };
   }, [ref, course]);
 
-  const store = useAppStore();
+  const dispatch = useAppDispatch();
   const channel = useBroadcastChannel();
   const [, navigate] = useLocation();
 
@@ -86,11 +87,15 @@ export default function CourseView({ courseId }: Props) {
           setCurrentVideo(message.videoData);
           break;
         }
+
+        case "download-video": {
+          dispatch(downloadVideo({ videoId: message.videoData.youtubeKey, courseId }));
+        }
       }
     });
 
     return unsub;
-  }, [channel, store, navigate]);
+  }, [channel, dispatch, navigate, courseId]);
 
   return (
     <>
