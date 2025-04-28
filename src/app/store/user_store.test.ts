@@ -139,6 +139,15 @@ describe("addToVideoQueue", () => {
     const result = reducer(state, actions.addToVideoQueue([item0, item1]));
     expect(result.videoQueue).toEqual([item0, item1]);
   });
+
+  test("clears error messages for videos in the queue", () => {
+    const state = initialState();
+    state.userVideos["video0"] = { ready: false, errorMessage: "Error" };
+    const item = { courseId: "course0", videoId: "video0" };
+    const result = reducer(state, actions.addToVideoQueue([item]));
+    expect(result.userVideos["video0"]).toBeTruthy();
+    expect(result.userVideos["video0"]!.errorMessage).toBe(undefined);
+  });
 });
 
 describe("finishVideoDownload", () => {
@@ -146,13 +155,13 @@ describe("finishVideoDownload", () => {
     const state = initialState();
     const item = { courseId: "course0", videoId: "video0" };
     state.videoQueue = [item];
-    state.userVideos[item.videoId] = { ready: false };
+    state.userVideos[item.videoId] = { ready: false, errorMessage: "Error" };
     const result = reducer(
       state,
       actions.finishVideoDownload({ success: true, item }),
     );
     expect(result.videoQueue).toEqual([]);
-    expect(result.userVideos[item.videoId]).toEqual({ ready: true });
+    expect(result.userVideos[item.videoId]).toEqual({ ready: true, errorMessage: undefined });
   });
 });
 
