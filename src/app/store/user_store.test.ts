@@ -1,12 +1,21 @@
 import { describe, expect, test } from "vitest";
 import reducer, { userActions as actions, UserStore } from "./user_store";
 import { ALL_COURSES } from "../initial_course_list";
+import { UserCourse } from "../../types";
 
 function initialState(): UserStore {
   return {
     userCourses: {},
     userVideos: {},
     videoQueue: [],
+  };
+}
+
+function newCourse(params: Partial<UserCourse>): UserCourse {
+  return {
+    status: "none",
+    downloadProgress: 0,
+    ...params,
   };
 }
 
@@ -19,9 +28,9 @@ describe("setInitialCourses", () => {
   test("sets non-empty course list", () => {
     const result = reducer(
       initialState(),
-      actions.setInitialCourses({ course1: { status: "ready" } }),
+      actions.setInitialCourses({ course1: newCourse({ status: "ready" }) }),
     );
-    expect(result.userCourses["course1"]).toEqual({ status: "ready" });
+    expect(result.userCourses["course1"]?.status).toEqual("ready");
   });
 });
 
@@ -43,7 +52,7 @@ describe("setInitialVideos", () => {
 describe("updateCourse", () => {
   test("updates info about course state", () => {
     const state = initialState();
-    state.userCourses["course1"] = { status: "none" };
+    state.userCourses["course1"] = newCourse({ status: "none" });
     const result = reducer(
       state,
       actions.updateCourse({
@@ -51,7 +60,7 @@ describe("updateCourse", () => {
         updates: { status: "ready" },
       }),
     );
-    expect(result.userCourses["course1"]).toEqual({ status: "ready" });
+    expect(result.userCourses["course1"]?.status).toEqual("ready");
   });
 
   test("adds course record if it doesn't exist", () => {
@@ -62,7 +71,7 @@ describe("updateCourse", () => {
         updates: { status: "ready" },
       }),
     );
-    expect(result.userCourses["course1"]).toEqual({ status: "ready" });
+    expect(result.userCourses["course1"]?.status).toEqual("ready");
   });
 });
 
@@ -71,7 +80,7 @@ describe("deleteCourse", () => {
     const state = initialState();
     const course = ALL_COURSES[0];
     const video = course.videos[0];
-    state.userCourses[course.id] = { status: "ready" };
+    state.userCourses[course.id] = newCourse({ status: "ready" });
     state.userVideos[video.youtubeKey] = { ready: true };
     state.userVideos["other_video"] = { ready: false };
 

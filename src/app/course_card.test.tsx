@@ -1,19 +1,11 @@
 import React from "react";
 import { vi, expect, test } from "vitest";
 import CourseCard from "./course_card";
-import { render } from "./test_helper";
+import { appRender } from "./test_helper";
 import { act } from "@testing-library/react";
 import { ALL_COURSES } from "./initial_course_list";
 import { userActions } from "./store/user_store";
 import { CourseData } from "../types";
-
-function initialUserStore() {
-  return {
-    userCourses: {},
-    userVideos: {},
-    videoQueue: [],
-  };
-}
 
 // Both of these actions have side-effect we don't want in tests.
 // Instead we mock them to immediately update the state as though
@@ -35,32 +27,28 @@ vi.mock("./store/async_actions", async () => {
   };
 });
 
-
 test("CourseCard renders correctly", () => {
   const course = ALL_COURSES[0];
-  const dom = render(<CourseCard courseData={course} />);
+  const dom = appRender(<CourseCard courseData={course} />);
   expect(dom.getByText(course.name)).toBeTruthy();
 });
 
 test("CourseCard dispatches the 'download course' action", () => {
   const course = ALL_COURSES[0];
-  const dom = render(<CourseCard courseData={course} />);
+  const dom = appRender(<CourseCard courseData={course} />);
   const button = dom.getByText("Download Course");
   act(() => button.click());
-  expect(dom.getByText("Downloading Course")).toBeTruthy();
+  expect(dom.getByText("Downloading Course (0%)")).toBeTruthy();
 });
 
 test("CourseCard dispatches the 'delete course' action", () => {
   const course = ALL_COURSES[0];
-  const dom = render(<CourseCard courseData={course} />, {
-    storeData: {
-      user: {
-        ...initialUserStore(),
-        userCourses: { [course.id]: { status: "ready" } },
-      },
+  const dom = appRender(<CourseCard courseData={course} />, {
+    userStore: {
+      userCourses: { [course.id]: { status: "ready", downloadProgress: 0 } },
     },
   });
-  const button = dom.getByText("Delete");
+  const button = dom.getByText("Delete Course and Videos");
   const confirmSpy = vi.spyOn(window, "confirm").mockReturnValue(true);
   act(() => button.click());
   expect(confirmSpy).toHaveBeenCalled();
