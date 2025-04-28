@@ -13,7 +13,7 @@ export default async function downloadWithProgress(
 
     callback(progress, total);
     interval = setInterval(() => {
-      callback(progress,total);
+      callback(progress, total);
     }, 300);
 
     const reader = resp.body!.getReader();

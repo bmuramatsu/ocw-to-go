@@ -90,9 +90,7 @@ function DownloadButton({
             <Download />
             Download
           </button>
-          {videoStatus.errorMessage && (
-            <p>{videoStatus.errorMessage}</p>
-          )}
+          {videoStatus.errorMessage && <p>{videoStatus.errorMessage}</p>}
         </>
       );
   }

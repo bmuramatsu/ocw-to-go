@@ -69,7 +69,7 @@ const userStore = createSlice({
         if (!inQueue) {
           state.videoQueue.push(newItem);
         }
-        const userVideo = state.userVideos[newItem.videoId]
+        const userVideo = state.userVideos[newItem.videoId];
         if (userVideo) {
           userVideo.errorMessage = undefined;
         }

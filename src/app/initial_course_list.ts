@@ -2,7 +2,6 @@
 import { CourseData } from "../types";
 import { RAW_COURSES } from "../courses";
 
-
 // Transforms the courses as they appear in the JSON files into
 // a more convenient format for the application.
 export const ALL_COURSES: CourseData[] = RAW_COURSES.map((course) => {
