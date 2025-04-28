@@ -54,6 +54,12 @@ a:hover {
 .flex-1 {
   flex: 1;
 }
+.align-end {
+  align-items: flex-end;
+}
+.flex-column {
+  flex-direction: column;
+}
 
 .u-all-caps {
   text-transform: uppercase;
@@ -70,6 +76,11 @@ a:hover {
 }
 .u-min-300 {
   min-width: 300px;
+}
+
+.text {
+  font-size: 1.2rem;
+  margin-block: 1em;
 }
 
 .inline-icon {
@@ -165,6 +176,9 @@ main > h2 {
   font-size: 2.4rem;
   margin-block: 0 1em;
 }
+main .h1 {
+  margin-block: 0.25em;
+}
 
 .text-block h2 {
   font-size: 2.4rem;
@@ -243,9 +257,11 @@ main > h2 {
 .course-card__actions {
   padding: 1.6rem 1.2rem 0.8rem;
   display: flex;
-  align-items: center;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 0.4rem;
+}
+.course-card__actions .btn--has-icon {
+  width: 100%;
 }
 
 .video-header {
@@ -366,6 +382,10 @@ a.btn--has-icon.is-primary {
 a.btn--has-icon.is-primary:hover {
   background-color: #222;
 }
+.btn--has-icon.icon-right, a.btn--has-icon.icon-right {
+  justify-content: space-between;
+  padding-inline-start: 1.2rem;
+}
 .btn--has-icon.is-success,
 a.btn--has-icon.is-success {
   background-color: #a31f34;
@@ -401,6 +421,7 @@ a.btn--has-icon:disabled {
 a.btn--has-icon:hover {
   cursor: pointer;
   background-color: #f1f1f1;
+  text-decoration: none;
 }
 .btn--has-icon:active,
 a.btn--has-icon:active {
