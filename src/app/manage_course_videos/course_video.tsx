@@ -80,7 +80,7 @@ function DownloadButton({
       );
     default:
       return (
-        <>
+        <div className="flex flex-column align-end">
           <button
             className="btn--has-icon"
             onClick={() =>
@@ -90,8 +90,10 @@ function DownloadButton({
             <Download />
             Download
           </button>
-          {videoStatus.errorMessage && <p>{videoStatus.errorMessage}</p>}
-        </>
+          {videoStatus.errorMessage && (
+            <p className="error-message u-mt-8">{videoStatus.errorMessage}</p>
+          )}
+        </div>
       );
   }
 }

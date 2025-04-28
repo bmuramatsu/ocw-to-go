@@ -118,6 +118,9 @@ export default function CourseCard({ courseData }: Props) {
       <div className="course-card__actions">
         {state === "download" && (
           <>
+            {userCourse.errorMessage && (
+              <p className="error-message u-mb-4">{userCourse.errorMessage}</p>
+            )}
             <button
               onClick={downloadCourse}
               className="btn--has-icon is-primary"
@@ -125,7 +128,6 @@ export default function CourseCard({ courseData }: Props) {
               <Download />
               Download Course
             </button>
-            {userCourse.errorMessage && <p>{userCourse.errorMessage}</p>}
           </>
         )}
         {state === "downloading" && (
