@@ -69,6 +69,7 @@ steps will vary depending on the host and target operating systems and browsers.
 
 The following scripts are available. They can be run with `npm run <script>`.
 
+- `add_course`: Add a new course JSON file. Described in more detail below.
 - `build`: Build the site with production settings.
 - `dev`: Combination of `serve` and `watch` for convenience.
 - `formatcheck`: Checks code formatting with prettier.
@@ -89,12 +90,32 @@ Depending on the Pages configuration, other branches may be deployed as well.
 They will use randomly generated subdomains that are available on the github
 pull request page.
 
-## Courses
+## Adding Courses
 
-Course zip files are stored in a cloudflare R2 bucket (similar to AWS S3).
-This is currently done manually. After uploaded, the course can be added to the
-file `src/app/initial_course_list.ts`. This process is likely to change in the
-near future.
+Course zip files are stored in a cloudflare R2 bucket (similar to AWS S3).  They
+are currently uploaded manually in the cloudflare dashboard. After uploading,
+click on the object and locate the URL. Copy that URL and run the following
+task:
+
+```bash
+npm run add_course [object_url]
+```
+
+This will analyze the zip file and any videos identified in the course and
+output a JSON file located at `src/courses/[course-name].json`. Review the
+contents of the JSON file. The script attempts to place the videos into
+reasonable groups and order them, but this requires metadata that isn't always
+present, so you may need to re-organize them.
+
+Once the file looks correct, import it into `src/app/initial_course_list.ts`,
+following the pattern of other courses in the file. You will add an 'import'
+like this:
+
+```javascript
+import course_name from './[course_name].json';
+```
+
+Then add that course to the list that is exported at the bottom of the file.
 
 ## Architecture
 
