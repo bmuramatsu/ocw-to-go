@@ -4,6 +4,7 @@ import JSZip from "jszip";
 import { CourseData, UserCourse } from "../../types";
 import { userActions } from "./user_store";
 import { AppDispatch } from "./store";
+import downloadWithProgress from "../utils/download_with_progress";
 
 export default function downloadCourseAction(courseData: CourseData) {
   return async function downloadCourseThunk(dispatch: AppDispatch) {
@@ -14,8 +15,11 @@ export default function downloadCourseAction(courseData: CourseData) {
 
     try {
       update({ status: "downloading" });
-      const resp = await fetch(path);
-      const zipBlob = await resp.blob();
+
+      const zipBlob = await downloadWithProgress(path, (progress, total) =>
+        update({ downloadProgress: progress / total }),
+      );
+
       const zip = await new JSZip().loadAsync(zipBlob);
       update({ status: "preparing" });
       const cache = await caches.open(`course-${courseId}`);
