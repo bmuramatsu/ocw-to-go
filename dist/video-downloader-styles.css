@@ -6,6 +6,20 @@
   box-sizing: border-box;
 }
 
+.flex {
+  display: flex;
+}
+.align-end {
+  align-items: flex-end;
+}
+.flex-column {
+  flex-direction: column;
+}
+
+.u-mt-8 {
+  margin-block-start: 8px !important;
+}
+
 .video-list {
   border: 1px solid #ddd;
   border-radius: 5px;
@@ -206,4 +220,11 @@ a.btn--has-icon:focus-visible {
 
 video {
   display: block;
+}
+
+.error-message {
+  color: #a31f34;
+  font-size: 14px;
+  font-weight: bold;
+  margin-block: 0;
 }

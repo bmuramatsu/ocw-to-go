@@ -89,7 +89,9 @@ export default function CourseView({ courseId }: Props) {
         }
 
         case "download-video": {
-          dispatch(downloadVideo({ videoId: message.videoData.youtubeKey, courseId }));
+          dispatch(
+            downloadVideo({ videoId: message.videoData.youtubeKey, courseId }),
+          );
         }
       }
     });

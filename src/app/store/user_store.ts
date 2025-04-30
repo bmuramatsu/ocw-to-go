@@ -56,24 +56,32 @@ const userStore = createSlice({
         delete state.userVideos[videoId];
       });
     },
-    deleteVideo: (
-      state,
-      action: PayloadAction<{ courseId: string; videoId: string }>,
-    ) => {
+    deleteVideo: (state, action: PayloadAction<{ videoId: string }>) => {
       delete state.userVideos[action.payload.videoId];
     },
     addToVideoQueue(state, action: PayloadAction<VideoQueue>) {
-      // TODO add a test for this on the other branch
       action.payload.forEach((newItem) => {
-        const inQueue = state.videoQueue.some(oldItem => newItem.courseId === oldItem.courseId && newItem.videoId === oldItem.videoId);
+        const inQueue = state.videoQueue.some(
+          (oldItem) =>
+            newItem.courseId === oldItem.courseId &&
+            newItem.videoId === oldItem.videoId,
+        );
         if (!inQueue) {
-          state.videoQueue.push(...action.payload);
+          state.videoQueue.push(newItem);
+        }
+        const userVideo = state.userVideos[newItem.videoId];
+        if (userVideo) {
+          userVideo.errorMessage = undefined;
         }
       });
     },
     finishVideoDownload: (
       state,
-      action: PayloadAction<{ success: boolean; item: VideoQueueItem }>,
+      action: PayloadAction<{
+        success: boolean;
+        item: VideoQueueItem;
+        errorMessage?: string;
+      }>,
     ) => {
       // the item should be the first in the list, but just in case some other
       // modification has happened to the queue, we do it safely
@@ -92,6 +100,7 @@ const userStore = createSlice({
       state.userVideos[item.videoId] = {
         ...current,
         ready: success,
+        errorMessage: action.payload.errorMessage,
       };
     },
     removeCourseVideosFromQueue: (state, action: PayloadAction<string>) => {

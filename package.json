@@ -10,7 +10,7 @@
     "formatfix": "prettier -c src --write",
     "lint": "eslint src",
     "serve": "npx serve -l 8088 dist",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "vitest",
     "typecheck": "tsc -noemit",
     "watch": "node esbuild.mjs dev"
   },
@@ -19,6 +19,7 @@
   "description": "",
   "devDependencies": {
     "@eslint/js": "^9.14.0",
+    "@testing-library/react": "^16.3.0",
     "@types/jszip": "^3.4.0",
     "@types/react": "^18.3.10",
     "@types/react-dom": "^18.3.0",
@@ -27,8 +28,10 @@
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.2.0",
     "globals": "^15.11.0",
+    "jsdom": "^26.1.0",
     "prettier": "3.3.3",
-    "typescript-eslint": "^8.12.2"
+    "typescript-eslint": "^8.12.2",
+    "vitest": "^3.1.1"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.3.0",

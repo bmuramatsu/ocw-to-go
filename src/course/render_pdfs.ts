@@ -47,7 +47,6 @@ export default async function renderPdfs() {
 
   const doc = await pdfjs()!.getDocument(path).promise;
 
-  console.log(doc);
   for (let i = 1; i <= doc.numPages; i++) {
     const page = await doc.getPage(i);
     renderPage(wrapper, page);

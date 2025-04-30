@@ -80,15 +80,20 @@ function DownloadButton({
       );
     default:
       return (
-        <button
-          className="btn--has-icon"
-          onClick={() =>
-            dispatch(customActions.downloadVideo({ courseId, videoId }))
-          }
-        >
-          <Download />
-          Download
-        </button>
+        <div className="flex flex-column align-end">
+          <button
+            className="btn--has-icon"
+            onClick={() =>
+              dispatch(customActions.downloadVideo({ courseId, videoId }))
+            }
+          >
+            <Download />
+            Download
+          </button>
+          {videoStatus.errorMessage && (
+            <p className="error-message u-mt-8">{videoStatus.errorMessage}</p>
+          )}
+        </div>
       );
   }
 }

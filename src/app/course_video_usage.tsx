@@ -17,7 +17,8 @@ export default function CourseVideoUsage({ course }: Props) {
 
   return (
     <>
-      {videoStatus.finishedVideos}/{videoStatus.totalVideos} videos downloaded ({formattedVideoSpace})
+      {videoStatus.finishedVideos}/{videoStatus.totalVideos} videos downloaded (
+      {formattedVideoSpace})
     </>
   );
 }
