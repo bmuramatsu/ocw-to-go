@@ -7,6 +7,7 @@ const ASSETS_TO_CACHE = [
   "/index.html",
   "/favicon.ico",
   "/styles.css",
+  "/video-downloader-styles.css",
   "/course-styles.css",
   "/app.js",
   "/course.js",

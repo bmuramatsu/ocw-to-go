@@ -2,6 +2,13 @@
 // are stored in the cache, and will be served by the service worker
 import React from "react";
 import { COURSES_BY_ID } from "./initial_course_list";
+import { useAppDispatch } from "./store/store";
+import { useBroadcastChannel } from "./use_broadcast";
+import { useLocation } from "wouter";
+import { VideoData } from "../types";
+import VideoDownloadPortal from "./video_portal";
+import ErrorBoundary from "./error_boundary";
+import { downloadVideo } from "./store/custom_actions";
 
 interface Props {
   courseId: string;
@@ -13,8 +20,13 @@ export default function CourseView({ courseId }: Props) {
 
   // this effect injects various items into the iframe to
   // enhance the course experience
+  const [currentVideo, setCurrentVideo] = React.useState<VideoData | null>(
+    null,
+  );
   React.useEffect(() => {
     function onLoad() {
+      setCurrentVideo(null);
+
       const childWindow = ref.current?.contentWindow;
       if (childWindow) {
         // Inject PDF.js into the iframe to render PDFs inline
@@ -55,26 +67,35 @@ export default function CourseView({ courseId }: Props) {
     };
   }, [ref, course]);
 
-  // Listen to events from the iframe. Currently unused
+  const dispatch = useAppDispatch();
+  const channel = useBroadcastChannel();
+  const [, navigate] = useLocation();
+
   React.useEffect(() => {
-    function onMessage(e: MessageEvent) {
-      if (e.source !== ref.current?.contentWindow) return;
-      if (
-        typeof e.data !== "object" ||
-        Array.isArray(e.data) ||
-        e.data === null
-      )
-        return;
+    const unsub = channel.subscribe((message) => {
+      switch (message.type) {
+        // this allows the iframed content to navigate with the router
+        // rather than built-in browser navigation, which causes the page to reload
+        // and interrupt tasks like video downloads
+        case "navigate": {
+          setCurrentVideo(null);
+          navigate(message.href);
+          break;
+        }
 
-      // We don't currently have any events to handle
-    }
+        case "portal-opened": {
+          setCurrentVideo(message.videoData);
+          break;
+        }
 
-    window.addEventListener("message", onMessage);
+        case "download-video": {
+          dispatch(downloadVideo({ videoId: message.videoData.youtubeKey, courseId }));
+        }
+      }
+    });
 
-    return () => {
-      window.removeEventListener("message", onMessage);
-    };
-  }, [ref]);
+    return unsub;
+  }, [channel, dispatch, navigate, courseId]);
 
   return (
     <>
@@ -83,6 +104,18 @@ export default function CourseView({ courseId }: Props) {
         style={{ width: "100%", height: "100vh", border: "none" }}
         ref={ref}
       />
+      {currentVideo && ref.current && (
+        // Wrap in an error boundary because there's a potential for bugs if the
+        // element is unmounted while the portal is open
+        // The user shouldn't see this happen.
+        <ErrorBoundary>
+          <VideoDownloadPortal
+            currentVideo={currentVideo}
+            iframe={ref.current}
+            courseId={courseId}
+          />
+        </ErrorBoundary>
+      )}
     </>
   );
 }

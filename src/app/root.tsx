@@ -13,6 +13,7 @@ import { Provider as ReduxProvider } from "react-redux";
 import { store } from "./store/store";
 import Layout from "./layout";
 import ManageCourseVideos from "./manage_course_videos/manage_course_videos";
+import { BroadcastProvider } from "./use_broadcast";
 
 export default function Root() {
   return (
@@ -20,39 +21,41 @@ export default function Root() {
       <ReduxProvider store={store}>
         <DataLoader />
         <Router hook={useHashLocation}>
-          <ScrollToTop />
-          <Switch>
-            <Route path="/courses/:courseId">
-              {({ courseId }) => <CourseView courseId={courseId} />}
-            </Route>
-            <Route path="/manage_videos/:courseId">
-              {({ courseId }) => (
+          <BroadcastProvider>
+            <ScrollToTop />
+            <Switch>
+              <Route path="/courses/:courseId">
+                {({ courseId }) => <CourseView courseId={courseId} />}
+              </Route>
+              <Route path="/manage_videos/:courseId">
+                {({ courseId }) => (
+                  <Layout>
+                    <ManageCourseVideos courseId={courseId} />
+                  </Layout>
+                )}
+              </Route>
+              <Route path="/accessibility">
                 <Layout>
-                  <ManageCourseVideos courseId={courseId} />
+                  <Accessibility />
                 </Layout>
-              )}
-            </Route>
-            <Route path="/accessibility">
-              <Layout>
-                <Accessibility />
-              </Layout>
-            </Route>
-            <Route path="/creative_commons">
-              <Layout>
-                <CreativeCommons />
-              </Layout>
-            </Route>
-            <Route path="/terms_and_conditions">
-              <Layout>
-                <TermsAndConditions />
-              </Layout>
-            </Route>
-            <Route path="/">
-              <Layout>
-                <CourseList />
-              </Layout>
-            </Route>
-          </Switch>
+              </Route>
+              <Route path="/creative_commons">
+                <Layout>
+                  <CreativeCommons />
+                </Layout>
+              </Route>
+              <Route path="/terms_and_conditions">
+                <Layout>
+                  <TermsAndConditions />
+                </Layout>
+              </Route>
+              <Route path="/">
+                <Layout>
+                  <CourseList />
+                </Layout>
+              </Route>
+            </Switch>
+          </BroadcastProvider>
         </Router>
       </ReduxProvider>
     </React.StrictMode>
