@@ -114,6 +114,14 @@ export default function CourseCard({ courseData }: Props) {
             <CourseVideoUsage course={courseData} />
           </p>
         )}
+        {/* TODO needs styles and positioning */}
+        <a
+          href={`https://ocw.mit.edu/courses/${courseData.id}`}
+          target="_blank"
+          rel="noreferrer"
+        >
+          View online
+        </a>
       </div>
       <div className="course-card__actions">
         {state === "download" && (
