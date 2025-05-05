@@ -100,7 +100,7 @@ export default function CourseCard({ courseData }: Props) {
         </p>
         {state !== "ready" ? (
           <p className="u-mt-8">
-            <span>Course size:</span> {zippedCourseSize}
+            <span>Download:</span> {zippedCourseSize}
           </p>
         ) : (
           <p className="u-mt-12 inline-icon">
