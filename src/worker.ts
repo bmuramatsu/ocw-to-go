@@ -81,6 +81,12 @@ async function fileFromCache(request: Request): Promise<Response | undefined> {
     }
   }
 
+  // handle logo replacement
+  if (request.url.match(/ocw_logo_white\.[a-z0-9]*\.svg?/)) {
+    const response = await caches.match("/images/to-go-logo.svg");
+    return Promise.resolve(response);
+  }
+
   const response = await caches.match(request);
   return Promise.resolve(response);
 }
