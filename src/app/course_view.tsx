@@ -17,6 +17,7 @@ interface Props {
 export default function CourseView({ courseId }: Props) {
   const course = COURSES_BY_ID[courseId];
   const ref = React.useRef<HTMLIFrameElement>(null);
+  const [pageReady, setPageReady] = React.useState(false);
 
   // this effect injects various items into the iframe to
   // enhance the course experience
@@ -92,6 +93,16 @@ export default function CourseView({ courseId }: Props) {
           dispatch(
             downloadVideo({ videoId: message.videoData.youtubeKey, courseId }),
           );
+          break;
+        }
+        case "page-ready": {
+          setPageReady(true);
+          break;
+        }
+
+        case "page-unload": {
+          setPageReady(false);
+          break;
         }
       }
     });
@@ -101,9 +112,15 @@ export default function CourseView({ courseId }: Props) {
 
   return (
     <>
+      {!pageReady && <h1>Loading...</h1>}
       <iframe
         src={`/courses/${course.id}/index.html`}
-        style={{ width: "100%", height: "100vh", border: "none" }}
+        style={{
+          width: "100%",
+          height: "100vh",
+          border: "none",
+          display: pageReady ? "inline" : "none",
+        }}
         ref={ref}
       />
       {currentVideo && ref.current && (
