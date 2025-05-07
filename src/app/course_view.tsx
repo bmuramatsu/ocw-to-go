@@ -1,5 +1,10 @@
 // This renders the course in an iframe. The course HTML and related assets
-// are stored in the cache, and will be served by the service worker
+// are stored in the cache, and will be served by the service worker.
+// We want the main window history to be used instead of the iframe,
+// so that refreshing or sending links works properly. To accomplish this
+// we stop navigation events within the iframe and instead navigate in
+// the outer window. When that happens, a new iframe is created, that way
+// there aren't duplicate history entries.
 import React from "react";
 import { COURSES_BY_ID } from "./initial_course_list";
 import { useAppDispatch } from "./store/store";
@@ -12,9 +17,10 @@ import { downloadVideo } from "./store/custom_actions";
 
 interface Props {
   courseId: string;
+  rest: string | undefined;
 }
 
-export default function CourseView({ courseId }: Props) {
+export default function CourseView({ courseId, rest }: Props) {
   const course = COURSES_BY_ID[courseId];
   const ref = React.useRef<HTMLIFrameElement>(null);
 
@@ -23,6 +29,7 @@ export default function CourseView({ courseId }: Props) {
   const [currentVideo, setCurrentVideo] = React.useState<VideoData | null>(
     null,
   );
+
   React.useEffect(() => {
     function onLoad() {
       setCurrentVideo(null);
@@ -65,11 +72,11 @@ export default function CourseView({ courseId }: Props) {
         iframe.removeEventListener("load", onLoad);
       }
     };
-  }, [ref, course]);
+  }, [ref, course, rest]);
 
   const dispatch = useAppDispatch();
-  const channel = useBroadcastChannel();
   const [, navigate] = useLocation();
+  const channel = useBroadcastChannel();
 
   React.useEffect(() => {
     const unsub = channel.subscribe((message) => {
@@ -100,10 +107,19 @@ export default function CourseView({ courseId }: Props) {
     return unsub;
   }, [channel, dispatch, navigate, courseId]);
 
+  const parts = ["courses", courseId];
+  if (rest) {
+    parts.push(rest);
+  }
+  parts.push("index.html");
+  const path = `/${parts.join("/")}`;
+
+  // Use a key so that the iframe is recreated when the path changes.
+  // This prevents multiple history entries from being created.
   return (
-    <>
+    <React.Fragment key={path}>
       <iframe
-        src={`/courses/${course.id}/index.html`}
+        src={path}
         style={{
           width: "100%",
           height: "100vh",
@@ -123,6 +139,6 @@ export default function CourseView({ courseId }: Props) {
           />
         </ErrorBoundary>
       )}
-    </>
+    </React.Fragment>
   );
 }

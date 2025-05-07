@@ -6,8 +6,10 @@ import overrideNavButtons from "./course/override_nav_buttons";
 import fixFileDownloads from "./course/fix_file_downloads";
 import renderPdfs from "./course/render_pdfs";
 import injectOfflineVideos from "./course/inject_offline_videos";
+import addUnloadListener from "./course/unload_listener";
 
 function init() {
+  addUnloadListener();
   injectOnlineLink();
   overrideNavButtons();
   fixFileDownloads();
