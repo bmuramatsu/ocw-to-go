@@ -1,7 +1,9 @@
 import ENV from "./env";
 
 export default function injectOnlineLink() {
-  const title = document.querySelector("#course-banner h1");
+  const title = document.querySelector(
+    "#course-banner .course-number-term-detail",
+  );
   if (!title) return;
 
   const link = document.createElement("a");
@@ -11,5 +13,6 @@ export default function injectOnlineLink() {
 
   link.innerText = "View course online";
 
+  title.appendChild(document.createTextNode(" | "));
   title.appendChild(link);
 }
