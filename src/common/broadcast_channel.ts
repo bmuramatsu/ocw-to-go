@@ -6,9 +6,7 @@ export type OcwMessage =
   | { type: "navigate"; href: string }
   | { type: "portal-opened"; videoData: VideoData }
   | { type: "video-player-state-change"; ready: boolean }
-  | { type: "download-video"; videoData: VideoData }
-  | { type: "page-unload"; }
-  | { type: "page-ready"; };
+  | { type: "download-video"; videoData: VideoData };
 
 type OnMessageCallback = (message: OcwMessage) => void;
 type UnsubscribeCallback = () => void;
