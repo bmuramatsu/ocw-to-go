@@ -17,10 +17,10 @@ import { downloadVideo } from "./store/custom_actions";
 
 interface Props {
   courseId: string;
-  rest: string | undefined;
+  path: string | undefined;
 }
 
-export default function CourseView({ courseId, rest }: Props) {
+export default function CourseView({ courseId, path }: Props) {
   const course = COURSES_BY_ID[courseId];
   const ref = React.useRef<HTMLIFrameElement>(null);
 
@@ -72,7 +72,7 @@ export default function CourseView({ courseId, rest }: Props) {
         iframe.removeEventListener("load", onLoad);
       }
     };
-  }, [ref, course, rest]);
+  }, [ref, course, path]);
 
   const dispatch = useAppDispatch();
   const [, navigate] = useLocation();
@@ -108,18 +108,18 @@ export default function CourseView({ courseId, rest }: Props) {
   }, [channel, dispatch, navigate, courseId]);
 
   const parts = ["courses", courseId];
-  if (rest) {
-    parts.push(rest);
+  if (path) {
+    parts.push(path);
   }
   parts.push("index.html");
-  const path = `/${parts.join("/")}`;
+  const fullPath = `/${parts.join("/")}`;
 
   // Use a key so that the iframe is recreated when the path changes.
   // This prevents multiple history entries from being created.
   return (
-    <React.Fragment key={path}>
+    <React.Fragment key={fullPath}>
       <iframe
-        src={path}
+        src={fullPath}
         style={{
           width: "100%",
           height: "100vh",

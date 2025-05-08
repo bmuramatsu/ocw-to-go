@@ -1,5 +1,6 @@
 import ENV from "./env";
 
+// Adds a link to the online version of the course to the course banner
 export default function injectOnlineLink() {
   const title = document.querySelector(
     "#course-banner .course-number-term-detail",

@@ -26,7 +26,7 @@ export default function Root() {
             <Switch>
               <Route path="/courses/:courseId/*?">
                 {({ courseId, "*": rest }) => (
-                  <CourseView courseId={courseId} rest={rest} />
+                  <CourseView courseId={courseId} path={rest} />
                 )}
               </Route>
               <Route path="/manage_videos/:courseId">
