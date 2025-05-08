@@ -140,6 +140,15 @@ describe("addToVideoQueue", () => {
     expect(result.videoQueue).toEqual([item0, item1]);
   });
 
+  test("does not add items that are already ready", () => {
+    const state = initialState();
+    const item0 = { courseId: "course0", videoId: "video0" };
+    const item1 = { courseId: "course1", videoId: "video1" };
+    state.userVideos[item0.videoId] = { ready: true };
+    const result = reducer(state, actions.addToVideoQueue([item0, item1]));
+    expect(result.videoQueue).toEqual([item1]);
+  });
+
   test("clears error messages for videos in the queue", () => {
     const state = initialState();
     state.userVideos["video0"] = { ready: false, errorMessage: "Error" };

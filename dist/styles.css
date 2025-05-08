@@ -267,6 +267,17 @@ main .h1 {
   width: 100%;
 }
 
+a.external-link {
+  text-decoration: underline;
+
+}
+
+a.external-link svg {
+  width: 1.6rem;
+  height: 1.6rem;
+  fill: black;
+}
+
 .video-header {
   font-size: 1.4rem;
   margin-block: 1.75em 0;

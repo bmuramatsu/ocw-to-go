@@ -61,15 +61,18 @@ const userStore = createSlice({
     },
     addToVideoQueue(state, action: PayloadAction<VideoQueue>) {
       action.payload.forEach((newItem) => {
+        const userVideo = state.userVideos[newItem.videoId];
+        if (userVideo?.ready) return;
+
         const inQueue = state.videoQueue.some(
           (oldItem) =>
             newItem.courseId === oldItem.courseId &&
             newItem.videoId === oldItem.videoId,
         );
-        if (!inQueue) {
-          state.videoQueue.push(newItem);
-        }
-        const userVideo = state.userVideos[newItem.videoId];
+
+        if (inQueue) return;
+
+        state.videoQueue.push(newItem);
         if (userVideo) {
           userVideo.errorMessage = undefined;
         }
