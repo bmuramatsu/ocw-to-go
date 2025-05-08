@@ -9,41 +9,35 @@ manager like asdf.
 
 Run `npm install` to install dependencies.
 
-### Building
+### Running
 
-Run `npm run build` to build the site. The output will be in the `dist` folder.
-
-### Server
-
-OCW To Go is a static site. There is a script included that will use
-[serve](https://www.npmjs.com/package/serve) to serve the site on port 8088.
-You may choose to use another file server or reverse proxy if you prefer.
+Run `npm run dev` to build and serve the app. There are alternative ways
+to run described below, but this is the easiest way to get started.
+Once it is running, open your browser and navigate to `http://localhost:8088`
+to view the app.
 
 ### HTTPS
 
-Service workers require a secure (HTTPS) connection. An exception is made for
-localhost, so if you only care about testing on your computer, you can find the
-site at http://localhost:8088.
+Browser standards require that service workers can't run on any given site. The
+must run either over HTTPS, or on localhost. Localhost is included for
+convenience during development. So you may use service workers on a valid HTTPS
+site or at http://localhost:[port], but not over a IP or http domain, like
+http://192.[address-of-host-machine] or http://[custom-domain-name].
 
-If you want to test from a mobile device, you will need a domain name and a
-valid certificate. Using a service like Cloudflare Tunnels or ngrok is
-recommended. These provide the secure connection, and facilitate connecting to
-the server without needing to configure local networking or DNS.
+So you may start development within your browser over localhost, but in order
+to test from a mobile device, you will need a domain name and a valid
+certificate. Using a service like Cloudflare Tunnels or ngrok is recommended.
+These provide the secure connection, and facilitate connecting to the server
+without needing to configure local networking or DNS.
 
 Once you have installed a tunneling service, configure it to forward requests
 to your server on port 8088.
 
-Run `npm start` to start the development server.
+Run `npm run dev` to start the development server.
 
 The site needs to be accessed over HTTPS for the service worker to function.
 You can use cloudflare tunnels, ngrok, or another service to set up a secure
 tunnel to your local server. This also makes it easy to test on mobile devices.
-
-### Re-building
-
-To rebuild the site when changes are made automatically, run `npm run watch`.
-For convenience, the command `npm run dev` will run both `serve` and `watch`
-together.
 
 ### Code formatting
 
@@ -107,7 +101,7 @@ contents of the JSON file. The script attempts to place the videos into
 reasonable groups and order them, but this requires metadata that isn't always
 present, so you may need to re-organize them.
 
-Once the file looks correct, import it into `src/app/initial_course_list.ts`,
+Once the file looks correct, import it into `src/courses/index.ts`,
 following the pattern of other courses in the file. You will add an 'import'
 like this:
 
@@ -115,7 +109,8 @@ like this:
 import course_name from './[course_name].json';
 ```
 
-Then add that course to the list that is exported at the bottom of the file.
+Then add that course to the list that is exported at the bottom of the
+`index.ts` file.
 
 ## Architecture
 
