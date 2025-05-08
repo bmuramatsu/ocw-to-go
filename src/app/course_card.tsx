@@ -6,6 +6,7 @@ import {
   Checkmark,
   ChevronRight,
   Download,
+  Globe,
   Loader,
   Trash,
   Videos,
@@ -98,6 +99,15 @@ export default function CourseCard({ courseData }: Props) {
         <p className="u-mt-8">
           <span>Topics:</span> {courseData.topics.join(", ")}
         </p>
+        <a
+          href={`https://ocw.mit.edu/courses/${courseData.id}`}
+          target="_blank"
+          rel="noreferrer"
+          className="external-link"
+        >
+          <Globe />
+          View online
+        </a>
         {state !== "ready" ? (
           <p className="u-mt-8">
             <span>Download:</span> {zippedCourseSize}
@@ -114,14 +124,6 @@ export default function CourseCard({ courseData }: Props) {
             <CourseVideoUsage course={courseData} />
           </p>
         )}
-        {/* TODO needs styles and positioning */}
-        <a
-          href={`https://ocw.mit.edu/courses/${courseData.id}`}
-          target="_blank"
-          rel="noreferrer"
-        >
-          View online
-        </a>
       </div>
       <div className="course-card__actions">
         {state === "download" && (
