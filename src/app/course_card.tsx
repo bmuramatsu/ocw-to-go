@@ -103,7 +103,7 @@ export default function CourseCard({ courseData }: Props) {
           href={`https://ocw.mit.edu/courses/${courseData.id}`}
           target="_blank"
           rel="noreferrer"
-          className="external-link"
+          className="external-link u-mt-8"
         >
           <Globe />
           View online

@@ -4,3 +4,27 @@
   margin-top: 10px;
   box-shadow: 2px 2px 2px 2px gray;
 }
+
+a.external-link {
+  position: relative;
+  display: inline-block;
+  font-size: inherit;
+  text-decoration: underline !important;
+  color: #FFF;
+  padding-inline-start: 20px;
+}
+
+a.external-link svg {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  translate: 0 -50%;
+  width: 16px;
+  height: 16px;
+  fill: #FFF;
+}
+
+a.external-link:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
