@@ -6,6 +6,7 @@ import {
   Checkmark,
   ChevronRight,
   Download,
+  Globe,
   Loader,
   Trash,
   Videos,
@@ -98,9 +99,18 @@ export default function CourseCard({ courseData }: Props) {
         <p className="u-mt-8">
           <span>Topics:</span> {courseData.topics.join(", ")}
         </p>
+        <a
+          href={`https://ocw.mit.edu/courses/${courseData.id}`}
+          target="_blank"
+          rel="noreferrer"
+          className="external-link u-mt-8"
+        >
+          <Globe />
+          View online
+        </a>
         {state !== "ready" ? (
           <p className="u-mt-8">
-            <span>Course size:</span> {zippedCourseSize}
+            <span>Download:</span> {zippedCourseSize}
           </p>
         ) : (
           <p className="u-mt-12 inline-icon">

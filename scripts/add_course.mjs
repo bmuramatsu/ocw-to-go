@@ -33,14 +33,25 @@ const instructors = dataJSON.instructors.map((i) => i.title);
 
 const level = dataJSON.level[0];
 
-const courseId = dataJSON.site_uid;
+// This is the ID you use to reach the course on the site, it's it's more readable than the site_uid
+let courseId;
+const imgGlobalPath = dataJSON.course_image_metadata.file;
+const match = imgGlobalPath.match(/\/courses\/(.*)\//);
+if (match && match[1]) {
+  courseId = match[1];
+} else {
+  throw new Error(
+    `Failed to get course ID from course image path: ${imgGlobalPath}`,
+  );
+}
+
 // remove preceding "./" if present. jszip doesn't handle it
-const cardSrcPath = dataJSON.image_src.replace(/^\.\/?/, "");
-const cardDestPath = `dist/images/course_cards/${courseId}.jpg`;
+const imgLocalPath = dataJSON.image_src.replace(/^\.\/?/, "");
+const imgDestPath = `dist/images/course_cards/${courseId}.jpg`;
 
-const cardImg = await zip.file(cardSrcPath).async("nodebuffer");
+const imgBlob = await zip.file(imgLocalPath).async("nodebuffer");
 
-fs.writeFileSync(cardDestPath, cardImg);
+fs.writeFileSync(imgDestPath, imgBlob);
 
 const dataPaths = [];
 let diskSize = 0;

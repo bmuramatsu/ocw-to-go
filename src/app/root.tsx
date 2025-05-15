@@ -24,8 +24,10 @@ export default function Root() {
           <BroadcastProvider>
             <ScrollToTop />
             <Switch>
-              <Route path="/courses/:courseId">
-                {({ courseId }) => <CourseView courseId={courseId} />}
+              <Route path="/courses/:courseId/*?">
+                {({ courseId, "*": rest }) => (
+                  <CourseView courseId={courseId} path={rest} />
+                )}
               </Route>
               <Route path="/manage_videos/:courseId">
                 {({ courseId }) => (
