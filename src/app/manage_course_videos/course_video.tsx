@@ -7,13 +7,13 @@ import * as asyncActions from "../store/async_actions";
 import { selectVideoStatus, FullUserVideo } from "../store/video_selectors";
 import { useFormattedBytes } from "../utils/format_bytes";
 
-interface Props {
+export interface CourseVideoProps {
   courseId: string;
   video: VideoData;
 }
 
 // this component is a single video on the downloads page
-export default function CourseVideo({ courseId, video }: Props) {
+export default function CourseVideo({ courseId, video }: CourseVideoProps) {
   const videoStatus = useAppSelector((s) =>
     selectVideoStatus(s, courseId, video.youtubeKey),
   );
