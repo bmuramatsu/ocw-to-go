@@ -9,6 +9,7 @@
     "formatcheck": "prettier -c src",
     "formatfix": "prettier -c src --write",
     "lint": "eslint src",
+    "make_course_list": "node scripts/make_course_list.mjs",
     "serve": "npx serve -l 8088 dist",
     "test": "vitest",
     "typecheck": "tsc -noemit",

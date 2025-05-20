@@ -60,3 +60,16 @@ export type VideoQueueItem = {
 };
 
 export type VideoQueue = VideoQueueItem[];
+
+// Types used for import courses from JSON files
+type RawVideo = Omit<VideoData, "category">;
+
+type VideoGroup = {
+  category: string;
+  videos: RawVideo[];
+};
+
+export type RawCourse = Omit<CourseData, "videos"> & {
+  videoGroups: VideoGroup[];
+};
+
