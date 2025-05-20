@@ -19,6 +19,8 @@ export default function VideoPlayer({ courseId, video }: Props) {
 
   const channel = useBroadcastChannel();
 
+  const [hasPlayed, setHasPlayed] = React.useState(false);
+
   // The script running in the page listens for this event and hides the youtube
   // player when the local video is rendered
   React.useEffect(() => {
@@ -35,14 +37,18 @@ export default function VideoPlayer({ courseId, video }: Props) {
     return `/courses/${courseId}/static_resources/${fileName}`;
   }
 
+  // iOS shows the captions before the video has started playing and it looks
+  // bad. So we only show the captions after the user has played the video.
+  const showCaptions = video.captionsFile && hasPlayed;
+
   return (
-    <video controls>
+    <video controls onPlay={() => setHasPlayed(true)}>
       <source
         type="video/mp4"
         src={`/course-videos/${courseId}/${video.youtubeKey}.mp4`}
       />
-      {video.captionsFile && (
-        <track kind="captions" src={captionsPath(video.captionsFile)} />
+      {showCaptions && (
+        <track kind="captions" src={captionsPath(video.captionsFile!)} />
       )}
     </video>
   );

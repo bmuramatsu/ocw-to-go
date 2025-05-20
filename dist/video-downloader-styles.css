@@ -221,6 +221,7 @@ a.btn--has-icon:focus-visible {
 video {
   display: block;
   width: 100%;
+  background-color: black;
 }
 
 .error-message {
