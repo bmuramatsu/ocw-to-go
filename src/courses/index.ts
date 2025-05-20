@@ -1,4 +1,7 @@
 // THIS FILE IS AUTO-GENERATED. DO NOT EDIT.
+// To edit the course list, modify src/courses/index.txt and
+// run npm run make_course_list.
+// To add a new course, please reference README.md
 import { RawCourse } from "../types";
 import course0 from "./introduction-to-cs-and-programming-using-python.json";
 import course1 from "./linear-algebra.json";
