@@ -220,6 +220,7 @@ a.btn--has-icon:focus-visible {
 
 video {
   display: block;
+  width: 100%;
 }
 
 .error-message {

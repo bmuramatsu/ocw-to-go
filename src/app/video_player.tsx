@@ -36,7 +36,7 @@ export default function VideoPlayer({ courseId, video }: Props) {
   }
 
   return (
-    <video style={{ width: "100%" }} controls>
+    <video controls>
       <source
         type="video/mp4"
         src={`/course-videos/${courseId}/${video.youtubeKey}.mp4`}
