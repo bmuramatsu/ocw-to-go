@@ -1,5 +1,11 @@
 # MIT OpenCourseWare To Go
 
+# About
+MIT OpenCourseWare To Go is an experiment in offering selected <a href="https://ocw.mit.edu/">MIT 
+OpenCourseWare</a> materials optimized for offline use in Google Chrome on Android and iOS devices.
+
+If you have questions, please contact us at <a href="mailtoo:ocwtogo-help@mit.edu">ocwtogo-help@mit.edu</a>.
+
 ## Development
 
 ### Dependencies
