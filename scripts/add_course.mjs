@@ -5,6 +5,7 @@
 // Files should be uploaded to R2 before running the script
 import fs from "fs";
 import JSZip from "jszip";
+import makeCourseList from "./course_list_maker.mjs";
 
 export const VIDEO_HOST = "https://ocw.mit.edu";
 
@@ -151,6 +152,7 @@ fs.writeFileSync(
   JSON.stringify(cardData, null, 4),
 );
 
-console.log(
-  `wrote src/courses/${safeName}.json, please review and import into src/courses/index.ts`,
-);
+fs.appendFileSync("src/courses/index.txt", `${safeName}`);
+makeCourseList();
+
+console.log(`Course added to src/courses/index.ts`);

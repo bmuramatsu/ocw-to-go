@@ -220,6 +220,8 @@ a.btn--has-icon:focus-visible {
 
 video {
   display: block;
+  width: 100%;
+  background-color: black;
 }
 
 .error-message {
@@ -227,4 +229,16 @@ video {
   font-size: 14px;
   font-weight: bold;
   margin-block: 0;
+}
+
+/* Mimics the message styles from the zip files */
+.offline-message {
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+  color: #856404;
+  border: 1px solid #0000;
+  border-radius: .25rem;
+  margin-bottom: 1rem;
+  padding: .75rem 1.25rem;
+  position: relative;
 }

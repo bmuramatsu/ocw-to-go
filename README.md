@@ -77,6 +77,8 @@ The following scripts are available. They can be run with `npm run <script>`.
 - `formatcheck`: Checks code formatting with prettier.
 - `formatfix`: Runs the formatter on all files in src. Be careful with it!
 - `lint`: Run ESLint on the project.
+- `make_course_list`: Generates the list of courses based on the index.txt file.
+   Described in more detail below.
 - `serve`: Serve the site on port 8088.
 - `test`: Run the test suite.
 - `typecheck`: Run TypeScript type checking. The build tool, esbuild, builds typescript,
@@ -115,22 +117,37 @@ contents of the JSON file. The script attempts to place the videos into
 reasonable groups and order them, but this requires metadata that isn't always
 present, so you may want to re-organize them.
 
-Once the file looks correct, import it into `src/courses/index.ts`,
-following the pattern of other courses in the file. 
-
-1. Add an 'import' like this:
-
-```javascript
-import course_name from './[course_name].json';
-```
-
-2. Then add that course to the list that is exported at the bottom of the
-`index.ts` file.
+The script will then automatically import the new course into the project,
+This is explained in more detail in the next section.
 
 The course has now been added to your local copy. You can review the newly added 
 course using `npm run dev` and loading OCW To Go in your browser. To deploy 
 the newly added course(s), merge changes into `main` on Github and Cloudflare 
 Pages will automatically update.
+
+## Course List Management
+
+In order to make adding courses and otherwise modifying the course list simple,
+we use a small amount of code generation.
+
+Course definitions are stored in .json files in src/courses. The master list of
+courses is in src/courses/index.txt. This list is used to generate src/courses/index.ts.
+
+The generation is done by running:
+
+```bash
+npm run make_course_list
+```
+
+When you add a new course, the file is generated automatically, so you won't
+need to run the make_course_list script.  If you wish to remove or re-order
+courses, you would edit index.txt and then run make_course_list.
+
+The motivation behind this process is to make managing the course list simple,
+while still providing type safety. When the files are imported into index.ts,
+they are assigned a type. If there's something wrong with the JSON file, the
+compiler or the type checker will detect that, which will prevent application
+errors.
 
 ## Architecture
 
