@@ -120,9 +120,9 @@ The generation is done by running:
 npm run make_course_list
 ```
 
-When you add a new course, this is done automatically, so you won't need to run
-that command. If you wish to remove or re-order courses, you would edit
-index.txt and run the command above.
+When you add a new course, the file is generated automatically, so you won't
+need to run the make_course_list script.  If you wish to remove or re-order
+courses, you would edit index.txt and then run make_course_list.
 
 The motivation behind this process is to make managing the course list simple,
 while still providing type safety. When the files are imported into index.ts,
