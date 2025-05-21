@@ -1,5 +1,11 @@
 # MIT OpenCourseWare To Go
 
+# About
+MIT OpenCourseWare To Go is an experiment in offering selected <a href="https://ocw.mit.edu/">MIT 
+OpenCourseWare</a> materials optimized for offline use in Google Chrome on Android and iOS devices.
+
+If you have questions, please contact us at <a href="mailtoo:ocwtogo-help@mit.edu">ocwtogo-help@mit.edu</a>.
+
 ## Development
 
 ### Dependencies
@@ -36,7 +42,7 @@ to your server on port 8088.
 Run `npm run dev` to start the development server.
 
 The site needs to be accessed over HTTPS for the service worker to function.
-You can use cloudflare tunnels, ngrok, or another service to set up a secure
+You can use Cloudflare tunnels, ngrok, or another service to set up a secure
 tunnel to your local server. This also makes it easy to test on mobile devices.
 
 ### Code formatting
@@ -48,12 +54,14 @@ scripts, call it manually, or integrate it with your editor.
 ### Browsers
 
 Google Chrome is recommended for development. It seems to have the best support
-for PWAs. In the developer console, in the Application tab, you can easily stop
+for PWAs. 
+
+In the developer console, in the Application tab, you can easily stop
 the service worker, clear all storage, or force the app to reset every page
 load. Without that setting, you will see an old cached version of both the app
 and worker scripts.
 
-With a tunneling service like cloudflare tunnels, you can also test from mobile
+With a tunneling service like Cloudflare tunnels, you can also test from mobile
 devices, or with iOS simulator and Android Studio, you can test with various
 emulated mobile devices. With a bit of configuration, you can attach a desktop
 browser to these devices to open a developer console and debug. The specific
@@ -83,15 +91,21 @@ The site is deployed to Cloudflare Pages. This is done automatically when
 changes are merged to the `main` branch.
 
 Depending on the Pages configuration, other branches may be deployed as well.
-They will use randomly generated subdomains that are available on the github
+The other branches will use randomly generated subdomains that are available on the github
 pull request page.
 
 ## Adding Courses
 
-Course zip files are stored in a cloudflare R2 bucket (similar to AWS S3).  They
-are currently uploaded manually in the cloudflare dashboard. After uploading,
-click on the object and locate the URL. Copy that URL and run the following
-task:
+To add a course, currently you will need to upload the course zip file and then run 
+a scripts in your local development copy.
+
+Course zip files are stored in a Cloudflare R2 bucket (similar to AWS S3).  They
+are currently uploaded manually in the Cloudflare dashboard. We recommend uploading 
+the course zip using the original filename as downloaded from the MIT OCW website, this 
+filename is also the course_name.
+
+After uploading, click on the object and locate the URL. Copy that URL and run the 
+following task replacing object_url:
 
 ```bash
 npm run add_course [object_url]
@@ -101,10 +115,15 @@ This will analyze the zip file and any videos identified in the course and
 output a JSON file located at `src/courses/[course-name].json`. Review the
 contents of the JSON file. The script attempts to place the videos into
 reasonable groups and order them, but this requires metadata that isn't always
-present, so you may need to re-organize them.
+present, so you may want to re-organize them.
 
-The script will also automatically import the new course into the project,
+The script will then automatically import the new course into the project,
 This is explained in more detail in the next section.
+
+The course has now been added to your local copy. You can review the newly added 
+course using `npm run dev` and loading OCW To Go in your browser. To deploy 
+the newly added course(s), merge changes into `main` on Github and Cloudflare 
+Pages will automatically update.
 
 ## Course List Management
 
@@ -135,7 +154,7 @@ errors.
 OCW To Go is a progressive web app that is intended to work offline. Upon first
 load, the application assets are stored in a cache. A service worker script
 intercepts incoming requests and serves them from the cache instead of the
-network. When courses are downloaded, a ZIP file is unpacked, and each asset
+network. When courses are downloaded, a zip file is unpacked, and each asset
 is cached, unmodified. When the user loads the course, we load the root
 index.html file in an iframe and inject some items into it to enhance the
 experience. Because all paths in the zip are relative, they will pull from the

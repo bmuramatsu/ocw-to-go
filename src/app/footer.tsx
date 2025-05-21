@@ -33,7 +33,7 @@ export default function Footer() {
         </div>
         <div className="flex gap-24 wrap space-between align-center u-mt-24">
           <p>
-            MIT OpenCourseWare is an online publication of materials from over
+            <a href="https://ocw.mit.edu/">MIT OpenCourseWare</a> is an online publication of materials from over
             2,500 MIT courses, freely sharing knowledge with learners and
             educators around the world.{" "}
             <a href="https://ocw.mit.edu/about/">Learn more</a>
@@ -63,6 +63,7 @@ export default function Footer() {
         <div className="flex gap-24 wrap space-between align-center u-mt-24">
           <p>
             © 2001-2024 Massachusetts Institute of Technology
+            <br />
             <br />
             MIT OpenCourseWare To Go v{VERSION}
             <br />
@@ -97,7 +98,7 @@ export default function Footer() {
             </li>
             <li>
               <a
-                href="https://twitter.com/MITOCW"
+                href="https://x.com/MITOCW"
                 target="_blank"
                 rel="noreferrer"
               >
