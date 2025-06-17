@@ -140,11 +140,7 @@ for (const [category, videos] of videoGroups) {
   });
 }
 
-const safeName = cardData.name
-  .toLowerCase()
-  .replace(/[^a-z0-9]/g, "-") // Replace non-alphanumeric with hyphens
-  .replace(/-+/g, "-") // Collapse multiple hyphens
-  .replace(/^-+|-+$/g, ""); // Trim leading/trailing hyphens
+const safeName = cardData.id;
 
 console.log(cardData);
 fs.writeFileSync(
