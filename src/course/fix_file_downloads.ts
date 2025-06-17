@@ -3,11 +3,18 @@
 // worker recognizes to force a download instead of opening the PDF in the browser, which doesn't
 // work reliably in all browsers.
 export default function fixFileDownloads() {
-  const buttons = document.querySelectorAll("a[href^='./static_resources']");
+  const badLinks = document.querySelectorAll("a[href^='./static_resources']");
 
-  buttons.forEach((button) => {
+  badLinks.forEach((button) => {
     let href = button.getAttribute("href")!;
     href = href.replace(/^\.\//, "../../");
+    button.setAttribute("href", href);
+  });
+
+
+  const pdfDownloads = document.querySelectorAll("a[href$='.pdf']");
+  pdfDownloads.forEach((button) => {
+    let href = button.getAttribute("href")!;
     href = href + "?forcedownload=true";
     button.setAttribute("href", href);
     button.removeAttribute("download");
