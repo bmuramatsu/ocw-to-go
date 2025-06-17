@@ -11,7 +11,7 @@
     "courseLevel": "18.06SC | Undergraduate",
     "cardImg": "/images/course_cards/18-06sc-linear-algebra-fall-2011.jpg",
     "imgAltText": "Multi-colored cubes arranged to create the illusion of hexagons.",
-    "file": "https://mit-ocw-courses.atomicjoltdevapps.com/linear-algebra.zip",
+    "file": "https://files.ocwtogo.org/18.06sc-fall-2011.zip",
     "downloadSize": 50504499,
     "diskSize": 168847846,
     "videoGroups": [
@@ -370,8 +370,7 @@
         },
         {
             "category": "Other Video",
-            "videos": [
-            ]
+            "videos": []
         },
         {
             "category": "Course Introduction",
