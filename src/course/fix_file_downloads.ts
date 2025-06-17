@@ -12,7 +12,7 @@ export default function fixFileDownloads() {
   });
 
 
-  const pdfDownloads = document.querySelectorAll("a[href$='.pdf']");
+  const pdfDownloads = document.querySelectorAll("a[href*='/static_resources/']");
   pdfDownloads.forEach((button) => {
     let href = button.getAttribute("href")!;
     href = href + "?forcedownload=true";
