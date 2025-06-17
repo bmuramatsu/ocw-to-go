@@ -35,7 +35,7 @@ export default async function renderPdfs() {
   const iframe = wrapper.querySelector("iframe");
   if (iframe) return;
 
-  const anchor = wrapper.querySelector("a.download-link");
+  const anchor = document.querySelector(".resource-item a[href*='.pdf']");
   if (!anchor) return;
 
   wrapper.classList.add("pdfjs-wrapper");
