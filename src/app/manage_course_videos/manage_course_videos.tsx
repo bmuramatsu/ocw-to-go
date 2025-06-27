@@ -48,6 +48,7 @@ export default function ManageCourseVideos({ courseId }: Props) {
                 key={video.youtubeKey}
                 courseId={courseId}
                 video={video}
+                withLink
               />
             ))}
           </div>
