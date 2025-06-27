@@ -112,6 +112,7 @@ for (const dataPath of dataPaths) {
       youtubeKey: dataJSON["youtube_key"],
       contentLength: length,
       captionsFile: dataJSON["captions_file"],
+      htmlFile: dataPath.replace("data.json", "index.html"),
     };
 
     if (videoGroups.has(category)) {

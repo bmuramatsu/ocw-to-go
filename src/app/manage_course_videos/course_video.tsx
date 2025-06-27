@@ -6,6 +6,7 @@ import * as customActions from "../store/custom_actions";
 import * as asyncActions from "../store/async_actions";
 import { selectVideoStatus, FullUserVideo } from "../store/video_selectors";
 import { useFormattedBytes } from "../utils/format_bytes";
+import { Link } from "wouter";
 
 export interface CourseVideoProps {
   courseId: string;
@@ -20,11 +21,13 @@ export default function CourseVideo({ courseId, video }: CourseVideoProps) {
 
   const bytes = useFormattedBytes(video.contentLength);
 
+  const videoPath = `/courses/${courseId}/${video.htmlFile}`
+
   return (
     <div key={video.youtubeKey} className="video-list__item">
       <StatusIcon videoStatus={videoStatus} />
       <div className="video-list__item__content">
-        <h3>{video.title}</h3>
+        <h3><Link href={videoPath}>{video.title}</Link></h3>
         <p>{bytes}</p>
       </div>
       <DownloadButton
