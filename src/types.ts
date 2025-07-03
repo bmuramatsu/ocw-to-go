@@ -21,6 +21,7 @@ export type VideoData = {
   contentLength: number;
   category: string;
   captionsFile: string | null;
+  htmlFile: string;
 };
 
 export type CourseStatus =
@@ -72,4 +73,3 @@ type VideoGroup = {
 export type RawCourse = Omit<CourseData, "videos"> & {
   videoGroups: VideoGroup[];
 };
-

@@ -2,7 +2,7 @@ import OcwBroadcastChannel from "../common/broadcast_channel";
 
 // This captures all navigation within the iframe and sends it to the main window
 // If navigation instead occurs using the back button, the main window will
-// take take of that.
+// take care of that.
 export default function addUnloadListener() {
   const channel = new OcwBroadcastChannel();
 

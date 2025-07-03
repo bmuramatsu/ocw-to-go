@@ -6,25 +6,35 @@ import * as customActions from "../store/custom_actions";
 import * as asyncActions from "../store/async_actions";
 import { selectVideoStatus, FullUserVideo } from "../store/video_selectors";
 import { useFormattedBytes } from "../utils/format_bytes";
+import { Link } from "wouter";
 
 export interface CourseVideoProps {
   courseId: string;
   video: VideoData;
+  withLink?: boolean;
 }
 
 // this component is a single video on the downloads page
-export default function CourseVideo({ courseId, video }: CourseVideoProps) {
+export default function CourseVideo({
+  courseId,
+  video,
+  withLink = false,
+}: CourseVideoProps) {
   const videoStatus = useAppSelector((s) =>
     selectVideoStatus(s, courseId, video.youtubeKey),
   );
 
   const bytes = useFormattedBytes(video.contentLength);
 
+  const videoPath = `/courses/${courseId}/${video.htmlFile}`;
+
   return (
     <div key={video.youtubeKey} className="video-list__item">
       <StatusIcon videoStatus={videoStatus} />
       <div className="video-list__item__content">
-        <h3>{video.title}</h3>
+        <h3>
+          {withLink ? <Link href={videoPath}>{video.title}</Link> : video.title}
+        </h3>
         <p>{bytes}</p>
       </div>
       <DownloadButton
