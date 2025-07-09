@@ -29,6 +29,18 @@ a.external-link:hover {
   opacity: 0.8;
 }
 
+#mobile-course-nav-toggle {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  min-height: 36px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px 8px 8px;
+  line-height: 1;
+}
+
 /* overriding strange video styles */
 
 .video-page .video-player-wrapper .video-container {
