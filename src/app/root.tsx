@@ -2,7 +2,7 @@
 import React from "react";
 import { Router, Route, Switch } from "wouter";
 import { useHashLocation } from "wouter/use-hash-location";
-import CourseList from "./course_list";
+import Homepage from "./homepage";
 import Accessibility from "./accessibility";
 import CreativeCommons from "./creative_commons";
 import TermsAndConditions from "./terms_and_conditions";
@@ -14,6 +14,9 @@ import { store } from "./store/store";
 import Layout from "./layout";
 import ManageCourseVideos from "./manage_course_videos/manage_course_videos";
 import { BroadcastProvider } from "./use_broadcast";
+import CourseCatalog from "./course_catalog";
+import AllCourses from "./all_courses";
+import MyCourses from "./my_courses";
 
 export default function Root() {
   return (
@@ -48,11 +51,23 @@ export default function Root() {
                     <Route path="/terms_and_conditions">
                       <TermsAndConditions />
                     </Route>
+                    <Route path="/all-courses">
+                      <CourseCatalog>
+                        <AllCourses />
+                      </CourseCatalog>
+                    </Route>
+                    <Route path="/my-courses">
+                      <CourseCatalog>
+                        <MyCourses />
+                      </CourseCatalog>
+                    </Route>
                     <Route path="/">
-                      <CourseList />
+                      <Homepage />
                     </Route>
                     <Route>
-                      <h1>Page not found.</h1>
+                      <main>
+                        <h1>Page not found.</h1>
+                      </main>
                     </Route>
                   </Switch>
                 </Layout>

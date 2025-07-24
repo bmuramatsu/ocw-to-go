@@ -3,6 +3,7 @@ import React from "react";
 import CourseCard from "./course_card";
 import { ALL_COURSES } from "./initial_course_list";
 
+// TODO delete this?
 export default function CourseList() {
   return (
     <main>

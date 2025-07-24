@@ -12,6 +12,11 @@ export default function Header() {
           width="217"
         />
       </Link>
+      {/* TODO remove inline styles */}
+      <Link href="/all-courses" style={{ color: "white" }}>All Courses</Link>
+      <Link href="/my-courses" style={{ color: "white" }}>My Courses</Link>
+      {/* TODO where should this link go? */}
+      <a href="https://ocw.mit.edu/about/" style={{ color: "white" }}>About OCW</a>
     </header>
   );
 }
