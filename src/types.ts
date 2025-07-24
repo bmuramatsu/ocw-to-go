@@ -12,6 +12,7 @@ export type CourseData = {
   videos: VideoData[];
   downloadSize: number;
   diskSize: number;
+  featured?: boolean;
 };
 
 export type VideoData = {
@@ -24,12 +25,7 @@ export type VideoData = {
   htmlFile: string;
 };
 
-export type CourseStatus =
-  | "none"
-  | "downloading"
-  | "preparing"
-  | "ready"
-  | "error";
+export type CourseStatus = "none" | "downloading" | "preparing" | "ready";
 
 export type UserCourse = {
   status: CourseStatus;

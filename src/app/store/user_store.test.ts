@@ -8,6 +8,8 @@ function initialState(): UserStore {
     userCourses: {},
     userVideos: {},
     videoQueue: [],
+    coursesInitialized: true,
+    videosInitialized: true,
   };
 }
 
@@ -170,7 +172,10 @@ describe("finishVideoDownload", () => {
       actions.finishVideoDownload({ success: true, item }),
     );
     expect(result.videoQueue).toEqual([]);
-    expect(result.userVideos[item.videoId]).toEqual({ ready: true, errorMessage: undefined });
+    expect(result.userVideos[item.videoId]).toEqual({
+      ready: true,
+      errorMessage: undefined,
+    });
   });
 });
 

@@ -1,8 +1,19 @@
 // This is the landing page
 import React from "react";
 import { Link } from "wouter";
+import ScrollTo from "./scroll_to";
+import { ALL_COURSES } from "./initial_course_list";
+import { FeaturedCourseCard } from "./course_card/course_card";
 
 export default function Homepage() {
+  const courseCount = React.useMemo(() => {
+    return ALL_COURSES.length;
+  }, []);
+
+  const featuredCourses = React.useMemo(() => {
+    return ALL_COURSES.filter((course) => course.featured);
+  }, []);
+
   return (
     <main>
       <div>
@@ -23,13 +34,17 @@ export default function Homepage() {
         <br />
         Learn.
         <br />
-        {/* TODO make this scroll down? use scrollIntoView */}
-        <a>Learn More</a>
+        <ScrollTo href="#how-to-use">Learn More</ScrollTo>
       </div>
       <div>
         <h2>Featured courses</h2>
         <h2>Cards go here</h2>
-        <Link href="/all-courses">Explore all COUNT courses</Link>
+        <ul className="course-grid">
+          {featuredCourses.map((course) => (
+            <FeaturedCourseCard key={course.id} courseData={course} />
+          ))}
+        </ul>
+        <Link href="/all-courses">Explore all {courseCount} courses</Link>
       </div>
       <div id="how-to-use">
         <h2>How to use</h2>

@@ -4,18 +4,8 @@ import {
   selectCourseVideoStatus,
   selectVideoStatus,
 } from "./video_selectors";
-import { RootState } from "./store";
 import { ALL_COURSES } from "../initial_course_list";
-
-function initialState(): RootState {
-  return {
-    user: {
-      userCourses: {},
-      userVideos: {},
-      videoQueue: [],
-    },
-  };
-}
+import { initialState } from "../test_helper";
 
 describe("selectAllVideoStatus", () => {
   test("returns object with known courses and videos populated with 'none'", () => {

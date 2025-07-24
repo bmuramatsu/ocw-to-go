@@ -1,11 +1,12 @@
 import React from "react";
 import { vi, expect, test } from "vitest";
-import CourseCard from "./course_card";
-import { appRender } from "./test_helper";
+// TODO fix
+import { FeaturedCourseCard as CourseCard } from "./course_card";
+import { appRender } from "../test_helper";
 import { act } from "@testing-library/react";
-import { ALL_COURSES } from "./initial_course_list";
-import { userActions } from "./store/user_store";
-import { CourseData } from "../types";
+import { ALL_COURSES } from "../initial_course_list";
+import { userActions } from "../store/user_store";
+import { CourseData } from "../../types";
 
 // Both of these actions have side-effect we don't want in tests.
 // Instead we mock them to immediately update the state as though
