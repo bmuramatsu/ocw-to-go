@@ -24,36 +24,37 @@ export default function Root() {
           <BroadcastProvider>
             <ScrollToTop />
             <Switch>
+              {/* Routes without layout */}
               <Route path="/courses/:courseId/*?">
                 {({ courseId, "*": rest }) => (
                   <CourseView courseId={courseId} path={rest} />
                 )}
               </Route>
-              <Route path="/manage_videos/:courseId">
-                {({ courseId }) => (
-                  <Layout>
-                    <ManageCourseVideos courseId={courseId} />
-                  </Layout>
-                )}
-              </Route>
-              <Route path="/accessibility">
+              {/* Layout routes */}
+              <Route>
                 <Layout>
-                  <Accessibility />
-                </Layout>
-              </Route>
-              <Route path="/creative_commons">
-                <Layout>
-                  <CreativeCommons />
-                </Layout>
-              </Route>
-              <Route path="/terms_and_conditions">
-                <Layout>
-                  <TermsAndConditions />
-                </Layout>
-              </Route>
-              <Route path="/">
-                <Layout>
-                  <CourseList />
+                  <Switch>
+                    <Route path="/manage_videos/:courseId">
+                      {({ courseId }) => (
+                        <ManageCourseVideos courseId={courseId} />
+                      )}
+                    </Route>
+                    <Route path="/accessibility">
+                      <Accessibility />
+                    </Route>
+                    <Route path="/creative_commons">
+                      <CreativeCommons />
+                    </Route>
+                    <Route path="/terms_and_conditions">
+                      <TermsAndConditions />
+                    </Route>
+                    <Route path="/">
+                      <CourseList />
+                    </Route>
+                    <Route>
+                      <h1>Page not found.</h1>
+                    </Route>
+                  </Switch>
                 </Layout>
               </Route>
             </Switch>
