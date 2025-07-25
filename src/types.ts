@@ -6,13 +6,16 @@ export type CourseData = {
   name: string;
   cardImg: string;
   imgAltText: string;
+  courseNumber: string;
   courseLevel: string;
   instructors: string[];
   topics: string[];
   videos: VideoData[];
   downloadSize: number;
   diskSize: number;
-  featured?: boolean;
+  featured: boolean;
+  description: string;
+  descriptionHtml: string;
 };
 
 export type VideoData = {

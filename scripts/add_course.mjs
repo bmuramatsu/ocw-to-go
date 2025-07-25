@@ -6,6 +6,7 @@
 import fs from "fs";
 import JSZip from "jszip";
 import makeCourseList from "./course_list_maker.mjs";
+import readline from "readline";
 
 export const VIDEO_HOST = "https://ocw.mit.edu";
 
@@ -26,13 +27,6 @@ const zip = await new JSZip().loadAsync(zipFile);
 const dataText = await zip.file("data.json").async("text");
 
 const dataJSON = JSON.parse(dataText);
-
-// topics are in a nested list for some reason
-const topics = dataJSON.topics.flatMap((t) => t);
-
-const instructors = dataJSON.instructors.map((i) => i.title);
-
-const level = dataJSON.level[0];
 
 // This is the ID you use to reach the course on the site, it's it's more readable than the site_uid
 let courseId;
@@ -68,17 +62,39 @@ zip.forEach((path, fileData) => {
   }
 });
 
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+async function getUserInput(prompt) {
+  return new Promise((resolve) => {
+    rl.question(prompt, resolve);
+  });
+}
+
+const featuredAnswer = await getUserInput("Is this a featured course? (y/n): ");
+const featured = featuredAnswer[0].toLowerCase() === "y";
+
+const category = await getUserInput("Enter the category for this course: ");
+
 const cardData = {
   id: courseId,
   name: dataJSON.course_title,
-  topics,
-  instructors,
-  courseLevel: `${dataJSON.primary_course_number} | ${level}`,
+  featured,
+  category,
+  // topics are in a nested list for some reason
+  topics: dataJSON.topics.flatMap((t) => t),
+  instructors: dataJSON.instructors.map((i) => i.title),
+  courseNumber: dataJSON.primary_course_number,
+  courseLevel: dataJSON.level[0],
   cardImg: `/images/course_cards/${courseId}.jpg`,
   imgAltText: dataJSON.course_image_metadata.image_metadata["image-alt"],
   file: url,
   downloadSize: parseInt(downloadSize),
   diskSize,
+  description: dataJSON.course_description,
+  descriptionHtml: dataJSON.course_description_html,
   videoGroups: [],
 };
 
@@ -153,3 +169,4 @@ fs.appendFileSync("src/courses/index.txt", `${safeName}`);
 makeCourseList();
 
 console.log(`Course added to src/courses/index.ts`);
+rl.close();

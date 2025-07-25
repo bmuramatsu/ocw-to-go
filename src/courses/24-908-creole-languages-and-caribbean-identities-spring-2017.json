@@ -1,6 +1,8 @@
 {
     "id": "24-908-creole-languages-and-caribbean-identities-spring-2017",
     "name": "Creole Languages and Caribbean Identities",
+    "featured": false,
+    "category": "Unknown",
     "topics": [
         "Humanities",
         "Linguistics",
@@ -10,12 +12,15 @@
     "instructors": [
         "Prof. Michel DeGraff"
     ],
-    "courseLevel": "24.908 | Undergraduate",
+    "courseNumber": "24.908",
+    "courseLevel": "Undergraduate",
     "cardImg": "/images/course_cards/24-908-creole-languages-and-caribbean-identities-spring-2017.jpg",
     "imgAltText": "Chalkboard at a school in Haiti with lessons written on it",
     "file": "https://files.ocwtogo.org/24.908-spring-2017-2.zip",
     "downloadSize": 15923290,
     "diskSize": 44504946,
+    "description": "Caribbean Creole languages result from language contact via colonization and the slave trade. In this course we explore the history of Creole languages from cognitive, historical and comparative perspectives. We evaluate popular theories about \"Creole genesis\" and the role of language acquisition. Then we explore the non-linguistic aspects of Creole formation, using sources from literature, religion and music. We also look into issues of Caribbean identities as we examine Creole speakers' and others' beliefs and attitudes toward their cultures. We also make comparisons with relevant aspects of African-American culture in the U.S.",
+    "descriptionHtml": "Caribbean Creole languages result from language contact via colonization and the slave trade. In this course we explore the history of Creole languages from cognitive, historical and comparative perspectives. We evaluate popular theories about &ldquo;Creole genesis&rdquo; and the role of language acquisition. Then we explore the non-linguistic aspects of Creole formation, using sources from literature, religion and music. We also look into issues of Caribbean identities as we examine Creole speakers&rsquo; and others&rsquo; beliefs and attitudes toward their cultures. We also make comparisons with relevant aspects of African-American culture in the U.S.",
     "videoGroups": [
         {
             "category": "Lecture Videos",

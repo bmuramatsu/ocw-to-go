@@ -1,6 +1,8 @@
 {
     "id": "6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016",
     "name": "Introduction to Computer Science and Programming in Python",
+    "featured": false,
+    "category": "Unknown",
     "topics": [
         "Engineering",
         "Computer Science",
@@ -16,12 +18,15 @@
         "Prof. Eric Grimson",
         "Prof. John Guttag"
     ],
-    "courseLevel": "6.0001 | Undergraduate",
+    "courseNumber": "6.0001",
+    "courseLevel": "Undergraduate",
     "cardImg": "/images/course_cards/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016.jpg",
     "imgAltText": "A black backlit keyboard.",
     "file": "https://files.ocwtogo.org/6.0001-fall-2016.zip",
     "downloadSize": 34125480,
     "diskSize": 75252363,
+    "description": "_6.0001 Introduction to Computer Science and Programming in Python_ is intended for students with little or no programming experience. It aims to provide students with an understanding of the role computation can play in solving problems and to help students, regardless of their major, feel justifiably confident of their ability to write small programs that allow them to accomplish useful goals. The class uses the Python 3.5 programming language.\n",
+    "descriptionHtml": "<em>6.0001 Introduction to Computer Science and Programming in Python</em> is intended for students with little or no programming experience. It aims to provide students with an understanding of the role computation can play in solving problems and to help students, regardless of their major, feel justifiably confident of their ability to write small programs that allow them to accomplish useful goals. The class uses the Python 3.5 programming language.",
     "videoGroups": [
         {
             "category": "Lecture Videos",
