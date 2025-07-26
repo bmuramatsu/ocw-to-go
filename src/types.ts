@@ -8,6 +8,7 @@ export type CourseData = {
   imgAltText: string;
   courseNumber: string;
   courseLevel: string;
+  category: string;
   instructors: string[];
   topics: string[];
   videos: VideoData[];
