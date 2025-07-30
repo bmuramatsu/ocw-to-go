@@ -24,12 +24,12 @@ function CourseCard({
   const userCourse = useAppSelector((s) => selectUserCourse(s, courseData.id));
 
   const state = userCourse.status;
+  const hasVideos = !!courseData.videos.length;
 
   return (
     <li className="course-card">
-      {/* TODO real codes */}
       <div id="top-left">
-        <button>18.06SC</button>
+        <button>{courseData.courseNumber}</button>
         {state === "ready" && (
           <button>
             Downloaded <Checkmark />
@@ -65,7 +65,7 @@ function CourseCard({
         {includeDescription && <p>Description component here</p>}
       </div>
       <div className="course-card__actions">
-        {includeManageVideos && state === "ready" && (
+        {includeManageVideos && hasVideos && state === "ready" && (
           <VideoButton courseData={courseData} />
         )}
         {userCourse.errorMessage && (

@@ -13,6 +13,8 @@ export default function CourseCardMenu({ courseData }: CourseCardMenuProps) {
 
   const dispatch = useAppDispatch();
 
+  const hasVideos = !!courseData.videos.length;
+
   const confirmRemove = React.useCallback(() => {
     if (
       window.confirm(
@@ -28,9 +30,13 @@ export default function CourseCardMenu({ courseData }: CourseCardMenuProps) {
       <button onClick={() => setExpanded((e) => !e)}>Menu</button>
       {expanded && (
         <ul className="course-card-menu">
-          <li>
-            <Link href={`/manage_videos/${courseData.id}`}>Manage Videos</Link>
-          </li>
+          {hasVideos && (
+            <li>
+              <Link href={`/manage_videos/${courseData.id}`}>
+                Manage Videos
+              </Link>
+            </li>
+          )}
           <li>
             <button onClick={confirmRemove}>Remove Course</button>
           </li>

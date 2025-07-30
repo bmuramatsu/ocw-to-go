@@ -11,7 +11,9 @@ export default function Homepage() {
   }, []);
 
   const featuredCourses = React.useMemo(() => {
-    return ALL_COURSES.filter((course) => course.featured);
+    return ALL_COURSES.filter((course) => course.featured).sort((a, b) =>
+      a.courseNumber.localeCompare(b.courseNumber),
+    );
   }, []);
 
   return (
