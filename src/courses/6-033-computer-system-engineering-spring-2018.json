@@ -1,0 +1,47 @@
+{
+    "id": "6-033-computer-system-engineering-spring-2018",
+    "name": "Computer System Engineering",
+    "featured": false,
+    "category": "Computer Science",
+    "topics": [
+        "Engineering",
+        "Computer Science",
+        "Computer Design and Engineering",
+        "Engineering",
+        "Computer Science",
+        "Computer Networks",
+        "Engineering",
+        "Computer Science",
+        "Operating Systems",
+        "Engineering",
+        "Computer Science",
+        "Software Design and Engineering"
+    ],
+    "instructors": [
+        "Dr. Katrina LaCurts"
+    ],
+    "courseNumber": "6.033",
+    "courseLevel": "Undergraduate",
+    "cardImg": "/images/course_cards/6-033-computer-system-engineering-spring-2018.jpg",
+    "imgAltText": "Diagram of information between servers. ",
+    "file": "https://files.ocwtogo.org/6.033-spring-2018.zip",
+    "downloadSize": 27425960,
+    "diskSize": 83164709,
+    "description": "This class covers topics on the engineering of computer software and hardware systems. Topics include techniques for controlling complexity; strong modularity using client-server design, operating systems; performance, networks; naming; security and privacy; fault-tolerant systems, atomicity and coordination of concurrent activities, and recovery; impact of computer systems on society.",
+    "descriptionHtml": "This class covers topics on the engineering of computer software and hardware systems. Topics include techniques for controlling complexity; strong modularity using client-server design, operating systems; performance, networks; naming; security and privacy; fault-tolerant systems, atomicity and coordination of concurrent activities, and recovery; impact of computer systems on society.",
+    "videoGroups": [
+        {
+            "category": "Other",
+            "videos": [
+                {
+                    "title": "Infusing Active Learning into 6.033 Recitations",
+                    "videoUrl": "https://archive.org/download/MIT6.033S18/MIT6_033S18_DUET_Lecture_300k.mp4",
+                    "youtubeKey": "r2_-2KW76ec",
+                    "contentLength": 123330908,
+                    "captionsFile": "/courses/6-033-computer-system-engineering-spring-2018/2b22f0394b71569eb9d47f66efc2d366_r2_-2KW76ec.vtt",
+                    "htmlFile": "resources/infusing-active-learning-into-6/index.html"
+                }
+            ]
+        }
+    ]
+}

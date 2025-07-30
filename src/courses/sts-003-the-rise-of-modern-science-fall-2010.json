@@ -1,0 +1,28 @@
+{
+    "id": "sts-003-the-rise-of-modern-science-fall-2010",
+    "name": "The Rise of Modern Science",
+    "featured": false,
+    "category": "Arts and Humanities",
+    "topics": [
+        "Humanities",
+        "History",
+        "History of Science and Technology",
+        "Social Science",
+        "Public Administration",
+        "Science and Technology Policy"
+    ],
+    "instructors": [
+        "Prof. David Jones",
+        "Prof. David Kaiser"
+    ],
+    "courseNumber": "STS.003",
+    "courseLevel": "Undergraduate",
+    "cardImg": "/images/course_cards/sts-003-the-rise-of-modern-science-fall-2010.jpg",
+    "imgAltText": "Photo of the earth appearing to rise over the surface of the moon.",
+    "file": "https://files.ocwtogo.org/sts.003-fall-2010.zip",
+    "downloadSize": 118726168,
+    "diskSize": 153488072,
+    "description": "This subject introduces the history of science from antiquity to the present. Students consider the impact of philosophy, art, magic, social structure, and folk knowledge on the development of what has come to be called \"science\" in the Western tradition, including those fields today designated as physics, biology, chemistry, medicine, astronomy and the mind sciences. Topics include concepts of matter, nature, motion, body, heavens, and mind as these have been shaped over the course of history. Students read original works by Aristotle, Vesalius, Newton, Lavoisier, Darwin, Freud, and Einstein, among others.\n",
+    "descriptionHtml": "This subject introduces the history of science from antiquity to the present. Students consider the impact of philosophy, art, magic, social structure, and folk knowledge on the development of what has come to be called &ldquo;science&rdquo; in the Western tradition, including those fields today designated as physics, biology, chemistry, medicine, astronomy and the mind sciences. Topics include concepts of matter, nature, motion, body, heavens, and mind as these have been shaped over the course of history. Students read original works by Aristotle, Vesalius, Newton, Lavoisier, Darwin, Freud, and Einstein, among others.",
+    "videoGroups": []
+}

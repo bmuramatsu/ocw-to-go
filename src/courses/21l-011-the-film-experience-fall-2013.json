@@ -1,0 +1,281 @@
+{
+    "id": "21l-011-the-film-experience-fall-2013",
+    "name": "The Film Experience",
+    "featured": false,
+    "category": "Arts and Humanities",
+    "topics": [
+        "Fine Arts",
+        "Fine Arts",
+        "Visual Arts",
+        "Film and Video"
+    ],
+    "instructors": [
+        "Prof. David Thorburn"
+    ],
+    "courseNumber": "21L.011",
+    "courseLevel": "Undergraduate",
+    "cardImg": "/images/course_cards/21l-011-the-film-experience-fall-2013.jpg",
+    "imgAltText": "Photo of Buster Keaton crouched on the cowcatcher of a steam locomotive.",
+    "file": "https://files.ocwtogo.org/21l.011-fall-2013.zip",
+    "downloadSize": 15987523,
+    "diskSize": 50532170,
+    "description": "This course concentrates on close analysis and criticism of a wide range of films, from the early silent period, classic Hollywood genres including musicals, thrillers and westerns, and European and Japanese art cinema. It explores the work of Griffith, Chaplin, Keaton, Capra, Hawks, Hitchcock, Altman, Renoir, DeSica, and Kurosawa. Through comparative reading of films from different eras and countries, students develop the skills to turn their in-depth analyses into interpretations and explore theoretical issues related to spectatorship.\n",
+    "descriptionHtml": "This course concentrates on close analysis and criticism of a wide range of films, from the early silent period, classic Hollywood genres including musicals, thrillers and westerns, and European and Japanese art cinema. It explores the work of Griffith, Chaplin, Keaton, Capra, Hawks, Hitchcock, Altman, Renoir, DeSica, and Kurosawa. Through comparative reading of films from different eras and countries, students develop the skills to turn their in-depth analyses into interpretations and explore theoretical issues related to spectatorship.",
+    "videoGroups": [
+        {
+            "category": "Lecture Videos",
+            "videos": [
+                {
+                    "title": "Lecture 1: Introduction (2007)",
+                    "videoUrl": "https://archive.org/download/MIT21L.011F13/MIT21L_011F13_L01_300k.mp4",
+                    "youtubeKey": "LFOsw1Vccac",
+                    "contentLength": 120593755,
+                    "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/14992aee130858e6b0dc8d3841391936_LFOsw1Vccac.vtt",
+                    "htmlFile": "resources/lecture-1-introduction-2007/index.html"
+                },
+                {
+                    "title": "Lecture 2:  Keaton (2007)",
+                    "videoUrl": "https://archive.org/download/MIT21L.011F13/MIT21L_011F13_L02_300k.mp4",
+                    "youtubeKey": "vpJba2qIXjs",
+                    "contentLength": 134995666,
+                    "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/c17c37e53d565dc1a6b6200e3fd084b6_vpJba2qIXjs.vtt",
+                    "htmlFile": "resources/lecture-2-keaton-2007/index.html"
+                },
+                {
+                    "title": "Lecture 3: Chaplin, Part I (2007)",
+                    "videoUrl": "https://archive.org/download/MIT21L.011F13/MIT21L_011F13_L03_300k.mp4",
+                    "youtubeKey": "m4ZuXay_qOo",
+                    "contentLength": 122537860,
+                    "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/80ed4550872e5d87b465f747e7f60aea_m4ZuXay_qOo.vtt",
+                    "htmlFile": "resources/lecture-3-chaplin-part-i-2007/index.html"
+                },
+                {
+                    "title": "Lecture 4: Chaplin, Part II (2007)",
+                    "videoUrl": "https://archive.org/download/MIT21L.011F13/MIT21L_011F13_L04_300k.mp4",
+                    "youtubeKey": "0jWfHFBLnv0",
+                    "contentLength": 146310348,
+                    "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/652ba0248afc57b199c4fa5b16bf8937_0jWfHFBLnv0.vtt",
+                    "htmlFile": "resources/lecture-4-chaplin-part-ii-2007/index.html"
+                },
+                {
+                    "title": "Lecture 5: Film as Global & Cultural Form; Montage, Mise en Scène",
+                    "videoUrl": "https://archive.org/download/MIT21L.011F13/MIT21L_011F13_L05_300k.mp4",
+                    "youtubeKey": "r67dVaGtBGA",
+                    "contentLength": 113029405,
+                    "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/1ed8cef89cb05a4ea9270faaa81df120_r67dVaGtBGA.vtt",
+                    "htmlFile": "resources/lecture-5-film-as-global-cultural-form-montage-mise-en-scene/index.html"
+                },
+                {
+                    "title": "Lecture 6: German Film, Murnau",
+                    "videoUrl": "https://archive.org/download/MIT21L.011F13/MIT21L_011F13_L06_300k.mp4",
+                    "youtubeKey": "BgozyEIGsuc",
+                    "contentLength": 114060028,
+                    "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/2bbd898edc4c5f328dbc0b2ee1e304fe_BgozyEIGsuc.vtt",
+                    "htmlFile": "resources/lecture-6-german-film-murnau/index.html"
+                },
+                {
+                    "title": "Lecture 7: The Studio Era",
+                    "videoUrl": "https://archive.org/download/MIT21L.011F13/MIT21L_011F13_L07_300k.mp4",
+                    "youtubeKey": "NOT1VZrNkMo",
+                    "contentLength": 130725984,
+                    "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/3046c52cc5be5353a963eba5132fc5e3_NOT1VZrNkMo.vtt",
+                    "htmlFile": "resources/lecture-7-the-studio-era/index.html"
+                },
+                {
+                    "title": "Lecture 8: The Work of Movies; Capra & Hawks",
+                    "videoUrl": "https://archive.org/download/MIT21L.011F13/MIT21L_011F13_L08_300k.mp4",
+                    "youtubeKey": "ilM34q8F6rY",
+                    "contentLength": 132312679,
+                    "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/ec5d5dd6df7d525681980afe1883922e_ilM34q8F6rY.vtt",
+                    "htmlFile": "resources/lecture-8-the-work-of-movies-capra-hawks/index.html"
+                },
+                {
+                    "title": "Lecture 9: Alfred Hitchcock",
+                    "videoUrl": "https://archive.org/download/MIT21L.011F13/MIT21L_011F13_L09_300k.mp4",
+                    "youtubeKey": "vtViG3o2mgg",
+                    "contentLength": 115859354,
+                    "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/3d8f6fc95899588fbe0d2b1a786c1708_vtViG3o2mgg.vtt",
+                    "htmlFile": "resources/lecture-9-alfred-hitchcock/index.html"
+                },
+                {
+                    "title": "Lecture 10: Shadow of a Doubt, Rear Window",
+                    "videoUrl": "https://archive.org/download/MIT21L.011F13/MIT21L_011F13_L10_300k.mp4",
+                    "youtubeKey": "xt_0iNlUQ2U",
+                    "contentLength": 128550684,
+                    "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/c87a04da5b285e83b8ee361e96477aec_xt_0iNlUQ2U.vtt",
+                    "htmlFile": "resources/lecture-10-shadow-of-a-doubt-rear-window/index.html"
+                },
+                {
+                    "title": "Lecture 11: The Musical",
+                    "videoUrl": "https://archive.org/download/MIT21L.011F13/MIT21L_011F13_L11_300k.mp4",
+                    "youtubeKey": "mPCTR32vxWo",
+                    "contentLength": 107278301,
+                    "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/b2024739e58156308e59227051f53b80_mPCTR32vxWo.vtt",
+                    "htmlFile": "resources/lecture-11-the-musical/index.html"
+                },
+                {
+                    "title": "Lecture 12: The Musical (continued)",
+                    "videoUrl": "https://archive.org/download/MIT21L.011F13/MIT21L_011F13_L12_300k.mp4",
+                    "youtubeKey": "tHttGDNmgKI",
+                    "contentLength": 137977869,
+                    "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/bb2d8415570b58028fdb7fa1de2c0256_tHttGDNmgKI.vtt",
+                    "htmlFile": "resources/lecture-12-the-musical-continued/index.html"
+                },
+                {
+                    "title": "Lecture 13: The Western",
+                    "videoUrl": "https://archive.org/download/MIT21L.011F13/MIT21L_011F13_L13_300k.mp4",
+                    "youtubeKey": "wAojFJTmsxE",
+                    "contentLength": 103713058,
+                    "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/633fbbcf6bf75705b78916e5a595cbd9_wAojFJTmsxE.vtt",
+                    "htmlFile": "resources/lecture-13-the-western/index.html"
+                },
+                {
+                    "title": "Lecture 14: The Western (continued) ",
+                    "videoUrl": "https://archive.org/download/MIT21L.011F13/MIT21L_011F13_L14_300k.mp4",
+                    "youtubeKey": "oocw6x_kCQs",
+                    "contentLength": 140140901,
+                    "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/b089c61a7c2a57bea1a72c9d2c672d9e_oocw6x_kCQs.vtt",
+                    "htmlFile": "resources/lecture-14-the-western-continued/index.html"
+                },
+                {
+                    "title": "Lecture 15: American Film in the 1970s, Part I (2007)",
+                    "videoUrl": "https://archive.org/download/MIT21L.011F13/MIT21L_011F13_L15_300k.mp4",
+                    "youtubeKey": "BWLwSqLZd2o",
+                    "contentLength": 123964736,
+                    "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/5a7f08364ca05cd39c4be9690c43ab9f_BWLwSqLZd2o.vtt",
+                    "htmlFile": "resources/lecture-15-american-film-in-the-1970s-part-i-2007/index.html"
+                },
+                {
+                    "title": "Lecture 16: American Film in the 1970s, Part II (2007)",
+                    "videoUrl": "https://archive.org/download/MIT21L.011F13/MIT21L_011F13_L16_300k.mp4",
+                    "youtubeKey": "j-F3Sy1nxPA",
+                    "contentLength": 130436102,
+                    "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/bb5720739e2258d3a0598f02305b8918_j-F3Sy1nxPA.vtt",
+                    "htmlFile": "resources/lecture-16-american-film-in-the-1970s-part-ii-2007/index.html"
+                },
+                {
+                    "title": "Lecture 17: Jean Renoir and Poetic Realism",
+                    "videoUrl": "https://archive.org/download/MIT21L.011F13/MIT21L_011F13_L17_300k.mp4",
+                    "youtubeKey": "WsEPhUu8kKU",
+                    "contentLength": 111772809,
+                    "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/93b1a611f2455ea5a034f963b62bdbb0_WsEPhUu8kKU.vtt",
+                    "htmlFile": "resources/lecture-17-jean-renoir-and-poetic-realism/index.html"
+                },
+                {
+                    "title": "Lecture 18: Renoir's Grand Illusion (1937)",
+                    "videoUrl": "https://archive.org/download/MIT21L.011F13/MIT21L_011F13_L18_300k.mp4",
+                    "youtubeKey": "eO3RNUAFtDE",
+                    "contentLength": 126694703,
+                    "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/5a3e9022ab175e5aa3cf5d553c163f24_eO3RNUAFtDE.vtt",
+                    "htmlFile": "resources/lecture-18-renoirs-grand-illusion-1937/index.html"
+                },
+                {
+                    "title": "Lecture 19: Italian Neorealism, Part I (2007)",
+                    "videoUrl": "https://archive.org/download/MIT21L.011F13/MIT21L_011F13_L19_300k.mp4",
+                    "youtubeKey": "Fq0mvAbzUrY",
+                    "contentLength": 127021291,
+                    "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/0f44ea665b025c13a337ab761a3c1ac4_Fq0mvAbzUrY.vtt",
+                    "htmlFile": "resources/lecture-19-italian-neorealism-part-i-2007/index.html"
+                },
+                {
+                    "title": "Lecture 20: Italian Neorealism, Part II (2007)",
+                    "videoUrl": "https://archive.org/download/MIT21L.011F13/MIT21L_011F13_L20_300k.mp4",
+                    "youtubeKey": "HypQZfQPtYk",
+                    "contentLength": 119621283,
+                    "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/53009640d2c8592fb8a7f2e5059ea1e1_HypQZfQPtYk.vtt",
+                    "htmlFile": "resources/lecture-20-italian-neorealism-part-ii-2007/index.html"
+                },
+                {
+                    "title": "Lecture 21: Truffaut, the Nouvelle Vague, The 400 Blows",
+                    "videoUrl": "https://archive.org/download/MIT21L.011F13/MIT21L_011F13_L21_300k.mp4",
+                    "youtubeKey": "flAwb1TmOkQ",
+                    "contentLength": 132456394,
+                    "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/c3b9f56bbfc55636a9eeda3f8308efaf_flAwb1TmOkQ.vtt",
+                    "htmlFile": "resources/lecture-21-truffaut-the-nouvelle-vague-the-400-blows/index.html"
+                },
+                {
+                    "title": "Lecture 22: Kurosawa and Rashomon",
+                    "videoUrl": "https://archive.org/download/MIT21L.011F13/MIT21L_011F13_L22_300k.mp4",
+                    "youtubeKey": "6B8FySbsUsM",
+                    "contentLength": 138139207,
+                    "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/7568f658b1ea590aa6e6582bcb5b699f_6B8FySbsUsM.vtt",
+                    "htmlFile": "resources/lecture-22-kurosawa-and-rashomon/index.html"
+                },
+                {
+                    "title": "Lecture 23: Summary Perspectives - Film as Art and Artifact",
+                    "videoUrl": "https://archive.org/download/MIT21L.011F13/MIT21L_011F13_L23_300k.mp4",
+                    "youtubeKey": "lbtrbE_kK_Q",
+                    "contentLength": 101079313,
+                    "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/253b345975e05090a36e6860aa8354f6_lbtrbE_kK_Q.vtt",
+                    "htmlFile": "resources/lecture-23-summary-perspectives-film-as-art-and-artifact/index.html"
+                }
+            ]
+        },
+        {
+            "category": "Podcasts",
+            "videos": [
+                {
+                    "title": "Film is for Everyone with Prof. David Thorburn",
+                    "videoUrl": "https://archive.org/download/chalk-radio/S01E05_David_Thorburn_360p.mp4",
+                    "youtubeKey": "hmJMaVYiqwM",
+                    "contentLength": 39196979,
+                    "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/hmJMaVYiqwM_captions.webvtt",
+                    "htmlFile": "resources/film-is-for-everyone-with-prof-david-thorburn/index.html"
+                }
+            ]
+        },
+        {
+            "category": "Other",
+            "videos": [
+                {
+                    "title": "Approach to Lecturing",
+                    "videoUrl": "https://archive.org/download/MIT21L.011F13/MIT21L_011F13_Instructor_ApproachToLearning_300k.mp4",
+                    "youtubeKey": "gjnJf9jobb4",
+                    "contentLength": 30773152,
+                    "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/b186373a40725d4c969488af66ace574_gjnJf9jobb4.vtt",
+                    "htmlFile": "resources/approach-to-lecturing/index.html"
+                },
+                {
+                    "title": "Beyond Film: Television & Literature",
+                    "videoUrl": "https://archive.org/download/MIT21L.011F13/MIT21L_011F13_Instructor_BeyondFilm_300k.mp4",
+                    "youtubeKey": "tg_1R6CDIa0",
+                    "contentLength": 11759633,
+                    "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/cbc5249c0c525311ad020cbdc3ab502e_tg_1R6CDIa0.vtt",
+                    "htmlFile": "resources/beyond-film-television-literature/index.html"
+                },
+                {
+                    "title": "Meet the Educator",
+                    "videoUrl": "https://archive.org/download/MIT21L.011F13/MIT21L_011F13_Instructor_MeetTheEducator_300k.mp4",
+                    "youtubeKey": "r8quwPWwurA",
+                    "contentLength": 22299517,
+                    "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/5e838368064256ff80f2ac4a476f8719_r8quwPWwurA.vtt",
+                    "htmlFile": "resources/meet-the-educator/index.html"
+                },
+                {
+                    "title": "The Film Experience: A Course in Transition",
+                    "videoUrl": "https://archive.org/download/MIT21L.011F13/MIT21L_011F13_Instructor_CourseInTransition_300k.mp4",
+                    "youtubeKey": "kvbLY2mQW1k",
+                    "contentLength": 23971417,
+                    "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/6cc372e8641d5679a11c6f4c76254c79_kvbLY2mQW1k.vtt",
+                    "htmlFile": "resources/the-film-experience-a-course-in-transition/index.html"
+                },
+                {
+                    "title": "The Video Lecture Conundrum",
+                    "videoUrl": "https://archive.org/download/MIT21L.011F13/MIT21L_011F13_Instructor_VideoLectureConundrum_300k.mp4",
+                    "youtubeKey": "lhKse0vIbqo",
+                    "contentLength": 14787253,
+                    "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/117aafd96b3557439d5416fbc9f80f42_lhKse0vIbqo.vtt",
+                    "htmlFile": "resources/the-video-lecture-conundrum/index.html"
+                },
+                {
+                    "title": "Thematic Spines of the Course",
+                    "videoUrl": "https://archive.org/download/MIT21L.011F13/MIT21L_011F13_Instructor_ThematicSpines_300k.mp4",
+                    "youtubeKey": "nIMlZ8ErLfs",
+                    "contentLength": 28139263,
+                    "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/a39e5de0d2cc54808ddf2d1dfdb4355a_nIMlZ8ErLfs.vtt",
+                    "htmlFile": "resources/thematic-spines-of-the-course/index.html"
+                }
+            ]
+        }
+    ]
+}

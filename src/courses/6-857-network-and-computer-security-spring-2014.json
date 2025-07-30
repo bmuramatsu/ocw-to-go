@@ -1,0 +1,30 @@
+{
+    "id": "6-857-network-and-computer-security-spring-2014",
+    "name": "Network and Computer Security",
+    "featured": false,
+    "category": "Computer Science",
+    "topics": [
+        "Engineering",
+        "Computer Science",
+        "Computer Networks",
+        "Engineering",
+        "Computer Science",
+        "Cryptography",
+        "Social Science",
+        "Public Administration",
+        "Security Studies"
+    ],
+    "instructors": [
+        "Prof. Ronald Rivest"
+    ],
+    "courseNumber": "6.857",
+    "courseLevel": "Graduate",
+    "cardImg": "/images/course_cards/6-857-network-and-computer-security-spring-2014.jpg",
+    "imgAltText": "Bitcoin keychain over circuit board.",
+    "file": "https://files.ocwtogo.org/6.857-spring-2014.zip",
+    "downloadSize": 91687530,
+    "diskSize": 119107552,
+    "description": "_6.857_ _Network and Computer Security_ is an upper-level undergraduate, first-year graduate course on network and computer security. It fits within the Computer Systems and Architecture Engineering concentration.\n",
+    "descriptionHtml": "<em>6.857</em> <em>Network and Computer Security</em> is an upper-level undergraduate, first-year graduate course on network and computer security. It fits within the Computer Systems and Architecture Engineering concentration.",
+    "videoGroups": []
+}

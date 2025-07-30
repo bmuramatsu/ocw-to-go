@@ -1,0 +1,115 @@
+{
+    "id": "introduction-to-r-and-gis-fall-2023",
+    "name": "Introduction to R and Geographic Information Systems (GIS)",
+    "featured": false,
+    "category": "Computer Science",
+    "topics": [
+        "Engineering",
+        "Computer Science",
+        "Graphics and Visualization",
+        "Engineering",
+        "Computer Science",
+        "Programming Languages",
+        "Engineering",
+        "Environmental Engineering"
+    ],
+    "instructors": [
+        "Dr. Helena Vallicrosa"
+    ],
+    "courseNumber": "RES.1-002",
+    "courseLevel": "Non-Credit",
+    "cardImg": "/images/course_cards/introduction-to-r-and-gis-fall-2023.jpg",
+    "imgAltText": "A woman standing next to text at a display board.",
+    "file": "https://files.ocwtogo.org/RES.1-002-fall-2023.zip",
+    "downloadSize": 9845418,
+    "diskSize": 34447104,
+    "description": "The goal of these videos is to provide students with tools and concepts for working with R, a free software environment for statistical computing and graphics. The students will learn the basics of R, how to navigate the R interface and deal with different data formats, how to run and interpret linear models with R, and how to use Geographic Information Systems (GIS) in R. These practical sessions were developed as part of the course *1.845 Terrestrial Carbon Cycle and Ecosystem Ecology* but will be useful for anyone looking to learn about R and GIS.",
+    "descriptionHtml": "The goal of these videos is to provide students with tools and concepts for working with R, a free software environment for statistical computing and graphics. The students will learn the basics of R, how to navigate the R interface and deal with different data formats, how to run and interpret linear models with R, and how to use Geographic Information Systems (GIS) in R. These practical sessions were developed as part of the course <em>1.845 Terrestrial Carbon Cycle and Ecosystem Ecology</em> but will be useful for anyone looking to learn about R and GIS.",
+    "videoGroups": [
+        {
+            "category": "Lecture Videos",
+            "videos": [
+                {
+                    "title": "Introduction to GIS, Part I: Key Concepts",
+                    "videoUrl": "https://ocw.mit.edu/courses/introduction-to-r-and-gis-fall-2023/res1-002-gis-2a-key-concepts_360p_16_9.mp4",
+                    "youtubeKey": "kEoJ-teErzM",
+                    "contentLength": 10434636,
+                    "captionsFile": "/courses/introduction-to-r-and-gis-fall-2023/res1-002-gis-2a-key-concepts_captions.vtt",
+                    "htmlFile": "resources/res1-002-gis-2a-key-concepts_mp4/index.html"
+                },
+                {
+                    "title": "Introduction to GIS, Part II: Vectorial Maps, Raster Maps, and Time Series",
+                    "videoUrl": "https://ocw.mit.edu/courses/introduction-to-r-and-gis-fall-2023/res1-002-gis-2b-vectorial-maps_360p_16_9.mp4",
+                    "youtubeKey": "TVSuGdCPXQQ",
+                    "contentLength": 63035531,
+                    "captionsFile": "/courses/introduction-to-r-and-gis-fall-2023/1g0jKSOmN_-vBTKlB_S9CgNOcCkDbdoNO_transcript.webvtt",
+                    "htmlFile": "resources/res1-002-gis-2b-vectorial-maps_mp4/index.html"
+                },
+                {
+                    "title": "Introduction to GIS, Part III: Projection",
+                    "videoUrl": "https://ocw.mit.edu/courses/introduction-to-r-and-gis-fall-2023/res1-002-gis-2c-projection_360p_16_9.mp4",
+                    "youtubeKey": "qsjX1_DW81s",
+                    "contentLength": 17832444,
+                    "captionsFile": "/courses/introduction-to-r-and-gis-fall-2023/1hDpVB4SAP_-DKOGyjywDMGkxBskcnptx_transcript.webvtt",
+                    "htmlFile": "resources/res1-002-gis-2c-projection_mp4/index.html"
+                },
+                {
+                    "title": "Introduction to GIS, Part IV: Stack, Brick, Crop, and Mask",
+                    "videoUrl": "https://ocw.mit.edu/courses/introduction-to-r-and-gis-fall-2023/res1-002-gis-2d-stack-brick-crop-mask_360p_16_9.mp4",
+                    "youtubeKey": "gHW8ncZJhQY",
+                    "contentLength": 41137639,
+                    "captionsFile": "/courses/introduction-to-r-and-gis-fall-2023/1basMexZPcWyyLCVw-xHHgIG_Vkd-UPc__transcript.webvtt",
+                    "htmlFile": "resources/res1-002-gis-2d-stack-brick-crop-mask_mp4/index.html"
+                },
+                {
+                    "title": "Introduction to GIS, Part V: Extract Information from Maps using Spatial Data Points",
+                    "videoUrl": "https://ocw.mit.edu/courses/introduction-to-r-and-gis-fall-2023/res1-002-gis-2e-extraction-info-from-maps_360p_16_9.mp4",
+                    "youtubeKey": "G_vxgoj1YNU",
+                    "contentLength": 64847586,
+                    "captionsFile": "/courses/introduction-to-r-and-gis-fall-2023/1ETd5GLsQCsGjh4ViB5EwCJzLOPCO6uVF_transcript.webvtt",
+                    "htmlFile": "resources/res1-002-gis-2e-extraction-info-from-maps_mp4/index.html"
+                },
+                {
+                    "title": "Introduction to GIS, Part VI: Plotting Maps with ggplot2",
+                    "videoUrl": "https://ocw.mit.edu/courses/introduction-to-r-and-gis-fall-2023/res1-002-gis-2f-plotting-maps-with-ggplot2_360p_16_9.mp4",
+                    "youtubeKey": "lE217O9ZGws",
+                    "contentLength": 40086699,
+                    "captionsFile": "/courses/introduction-to-r-and-gis-fall-2023/1iQW1BISdcdRLT_ar-V1fT8tpG4upodT2_transcript.webvtt",
+                    "htmlFile": "resources/res1-002-gis-2f-plotting-maps-with-ggplot2_mp4/index.html"
+                },
+                {
+                    "title": "Introduction to R, Part I: Interface and Data Structures",
+                    "videoUrl": "https://ocw.mit.edu/courses/introduction-to-r-and-gis-fall-2023/res1-002-1a-intro-to-r_360p_16_9.mp4",
+                    "youtubeKey": "7fYgr1qUdnU",
+                    "contentLength": 116876490,
+                    "captionsFile": "/courses/introduction-to-r-and-gis-fall-2023/140_64cA5VpzCzeo_uOioug5EAz2myv7R_transcript.webvtt",
+                    "htmlFile": "resources/res1-002-1a-intro-to-r_mp4/index.html"
+                },
+                {
+                    "title": "Introduction to R, Part II: Playing with the Data",
+                    "videoUrl": "https://ocw.mit.edu/courses/introduction-to-r-and-gis-fall-2023/res1-002-1b-playing_with_data_360p_16_9.mp4",
+                    "youtubeKey": "4z0294hE9Uk",
+                    "contentLength": 51462115,
+                    "captionsFile": "/courses/introduction-to-r-and-gis-fall-2023/1nG4VopwI_v_YO57ihI2nZGylygJtrHF3_transcript.webvtt",
+                    "htmlFile": "resources/res1-002-1b-playing_with_data_mp4/index.html"
+                },
+                {
+                    "title": "Introduction to R, Part III: Linear and Mixed Models in R",
+                    "videoUrl": "https://ocw.mit.edu/courses/introduction-to-r-and-gis-fall-2023/res1002_1b-2_linearmixed_models_in_r_360p_16_9.mp4",
+                    "youtubeKey": "IvJvmufB1oA",
+                    "contentLength": 40803307,
+                    "captionsFile": "/courses/introduction-to-r-and-gis-fall-2023/157RDARK9eDL3Z0mmKPjVUnIVDAv3zvLk_transcript.webvtt",
+                    "htmlFile": "resources/res1002_1b-2_linearmixed_models_in_r_mp4/index.html"
+                },
+                {
+                    "title": "Introduction to R, Part IV: Loops and Functions",
+                    "videoUrl": "https://ocw.mit.edu/courses/introduction-to-r-and-gis-fall-2023/res1-002-1c-loopsfunctions_360p_16_9.mp4",
+                    "youtubeKey": "31kRLTxDaAw",
+                    "contentLength": 73696072,
+                    "captionsFile": "/courses/introduction-to-r-and-gis-fall-2023/1CTyQGG_S3L5EOA30I-X2Ek8VS8shgXq-_transcript.webvtt",
+                    "htmlFile": "resources/res1-002-1c-loopsfunctions_mp4/index.html"
+                }
+            ]
+        }
+    ]
+}

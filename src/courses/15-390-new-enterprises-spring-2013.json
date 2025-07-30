@@ -1,0 +1,131 @@
+{
+    "id": "15-390-new-enterprises-spring-2013",
+    "name": "New Enterprises",
+    "featured": false,
+    "category": "Business",
+    "topics": [
+        "Business",
+        "Entrepreneurship",
+        "Business",
+        "Leadership",
+        "Business",
+        "Management"
+    ],
+    "instructors": [
+        "William Aulet",
+        "Howard Anderson",
+        "Prof. Matt Marx"
+    ],
+    "courseNumber": "15.390",
+    "courseLevel": "Graduate",
+    "cardImg": "/images/course_cards/15-390-new-enterprises-spring-2013.jpg",
+    "imgAltText": "Photo of town sign that reads: \"Entering Startup.\"",
+    "file": "https://files.ocwtogo.org/15.390-spring-2013.zip",
+    "downloadSize": 25368552,
+    "diskSize": 56896251,
+    "description": "This course covers the process of identifying and quantifying market opportunities, then conceptualizing, planning, and starting a new, technology-based enterprise. Students develop detailed business plans for a startup. It is intended for students who want to start their own business, further develop an existing business, be a member of a management team in a new enterprise, or better understand the entrepreneur and the entrepreneurial process.\n",
+    "descriptionHtml": "This course covers the process of identifying and quantifying market opportunities, then conceptualizing, planning, and starting a new, technology-based enterprise. Students develop detailed business plans for a startup. It is intended for students who want to start their own business, further develop an existing business, be a member of a management team in a new enterprise, or better understand the entrepreneur and the entrepreneurial process.",
+    "videoGroups": [
+        {
+            "category": "Other",
+            "videos": [
+                {
+                    "title": "Lecture 1: What is Entrepreneurship",
+                    "videoUrl": "http://www.archive.org/download/MIT15.390F13/MIT15_390F13_lec01_300k.mp4",
+                    "youtubeKey": "Xcsp0486olY",
+                    "contentLength": 11314713,
+                    "captionsFile": "/courses/15-390-new-enterprises-spring-2013/0ea78790d8305047809ac5c3a54f83a4_Xcsp0486olY.vtt",
+                    "htmlFile": "resources/lecture-1/index.html"
+                },
+                {
+                    "title": "Lecture 2: What is Innovation",
+                    "videoUrl": "http://www.archive.org/download/MIT15.390F13/MIT15_390F13_lec02_300k.mp4",
+                    "youtubeKey": "oD7X3KvJAVk",
+                    "contentLength": 10466070,
+                    "captionsFile": "/courses/15-390-new-enterprises-spring-2013/c3be11c283905f2bb471b553e4418ac1_oD7X3KvJAVk.vtt",
+                    "htmlFile": "resources/lecture-2/index.html"
+                },
+                {
+                    "title": "Lecture 3: Varieties of Innovation",
+                    "videoUrl": "http://www.archive.org/download/MIT15.390F13/MIT15_390F13_lec03_300k.mp4",
+                    "youtubeKey": "1mw_Uo5ba58",
+                    "contentLength": 10914573,
+                    "captionsFile": "/courses/15-390-new-enterprises-spring-2013/818702ed1ae45172a6fb1b90f4687c3b_1mw_Uo5ba58.vtt",
+                    "htmlFile": "resources/lecture-3/index.html"
+                },
+                {
+                    "title": "Lecture 4: Three Ways to Start a Company",
+                    "videoUrl": "http://www.archive.org/download/MIT15.390F13/MIT15_390F13_lec04_300k.mp4",
+                    "youtubeKey": "NExvTgq5IM4",
+                    "contentLength": 6717814,
+                    "captionsFile": "/courses/15-390-new-enterprises-spring-2013/713bd0d21e9b549f8901c808fd70f855_NExvTgq5IM4.vtt",
+                    "htmlFile": "resources/lecture-4/index.html"
+                },
+                {
+                    "title": "Lecture 5: Six Myths of Entrepreneurship",
+                    "videoUrl": "http://www.archive.org/download/MIT15.390F13/MIT15_390F13_lec05_300k.mp4",
+                    "youtubeKey": "_zWgGX71Iws",
+                    "contentLength": 19038334,
+                    "captionsFile": "/courses/15-390-new-enterprises-spring-2013/c6c80db9fe0357be8647cbb7effb7a8d_zWgGX71Iws.vtt",
+                    "htmlFile": "resources/lecture-5/index.html"
+                },
+                {
+                    "title": "Lecture 6: How to Do Market Segmentation",
+                    "videoUrl": "http://www.archive.org/download/MIT15.390F13/MIT15_390F13_lec06_300k.mp4",
+                    "youtubeKey": "JyYoXu0cJwA",
+                    "contentLength": 7506039,
+                    "captionsFile": "/courses/15-390-new-enterprises-spring-2013/3502e87c8e2b5d7cbd574e9d1b66e1be_JyYoXu0cJwA.vtt",
+                    "htmlFile": "resources/lecture-6/index.html"
+                },
+                {
+                    "title": "Lecture 7: What is a Beachhead Market",
+                    "videoUrl": "http://www.archive.org/download/MIT15.390F13/MIT15_390F13_lec07_300k.mp4",
+                    "youtubeKey": "2KpOZ9N2QOQ",
+                    "contentLength": 5631530,
+                    "captionsFile": "/courses/15-390-new-enterprises-spring-2013/01ea5559713651a8ad8f548f08a4771d_2KpOZ9N2QOQ.vtt",
+                    "htmlFile": "resources/lecture-7/index.html"
+                },
+                {
+                    "title": "Lecture 8: Our Passion for Entrepreneurship at MIT",
+                    "videoUrl": "http://www.archive.org/download/MIT15.390F13/MIT15_390F13_lec08_300k.mp4",
+                    "youtubeKey": "Ma3ANiGPVNU",
+                    "contentLength": 4744825,
+                    "captionsFile": "/courses/15-390-new-enterprises-spring-2013/4c92cceb143b5e0b9d864611a4da8a67_Ma3ANiGPVNU.vtt",
+                    "htmlFile": "resources/lecture-8/index.html"
+                },
+                {
+                    "title": "Lecture 9: Market Segmentation with SensAble Technologies: Part I",
+                    "videoUrl": "http://www.archive.org/download/MIT15.390F13/MIT15_390F13_lec09_300k.mp4",
+                    "youtubeKey": "IPDZFNh73Kw",
+                    "contentLength": 9728054,
+                    "captionsFile": "/courses/15-390-new-enterprises-spring-2013/63e9aeffd68e59c2bf7c55065661d5ca_IPDZFNh73Kw.vtt",
+                    "htmlFile": "resources/lecture-9/index.html"
+                },
+                {
+                    "title": "Lecture 10: Market Segmentation with SensAble Technologies: Part II",
+                    "videoUrl": "http://www.archive.org/download/MIT15.390F13/MIT15_390F13_lec10_300k.mp4",
+                    "youtubeKey": "cHgbCAHQgbU",
+                    "contentLength": 5885203,
+                    "captionsFile": "/courses/15-390-new-enterprises-spring-2013/76722b1230205ea2843f79532e89e9ef_cHgbCAHQgbU.vtt",
+                    "htmlFile": "resources/lecture-10/index.html"
+                },
+                {
+                    "title": "Lecture 11: From Passion to Idea or Technology",
+                    "videoUrl": "http://www.archive.org/download/MIT15.390F13/MIT15_390F13_lec11_300k.mp4",
+                    "youtubeKey": "NS0pxSF0Kmo",
+                    "contentLength": 10885347,
+                    "captionsFile": "/courses/15-390-new-enterprises-spring-2013/39fba2486f6a55b0b083067c18bb17f2_NS0pxSF0Kmo.vtt",
+                    "htmlFile": "resources/lecture-11/index.html"
+                },
+                {
+                    "title": "Lecture 12: What Makes a Business",
+                    "videoUrl": "http://www.archive.org/download/MIT15.390F13/MIT15_390F13_lec12_300k.mp4",
+                    "youtubeKey": "cKJ0Bx3N2tQ",
+                    "contentLength": 6517572,
+                    "captionsFile": "/courses/15-390-new-enterprises-spring-2013/3c94bb3fea9a5090b501cbabd4c4f3f1_cKJ0Bx3N2tQ.vtt",
+                    "htmlFile": "resources/lecture-12/index.html"
+                }
+            ]
+        }
+    ]
+}

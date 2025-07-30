@@ -1,0 +1,361 @@
+{
+    "id": "2-003sc-engineering-dynamics-fall-2011",
+    "name": "Engineering Dynamics",
+    "featured": false,
+    "category": "Engineering",
+    "topics": [
+        "Engineering",
+        "Mechanical Engineering",
+        "Solid Mechanics",
+        "Science",
+        "Physics",
+        "Classical Mechanics"
+    ],
+    "instructors": [
+        "Prof. J. Kim Vandiver",
+        "Prof. David Gossard"
+    ],
+    "courseNumber": "2.003SC",
+    "courseLevel": "Undergraduate",
+    "cardImg": "/images/course_cards/2-003sc-engineering-dynamics-fall-2011.jpg",
+    "imgAltText": "Photograph of the Toronto skyline seen from over the water, with a commercial jet in flight over the skyline and boats visible near the harbor.",
+    "file": "https://files.ocwtogo.org/2.003sc-fall-2011.zip",
+    "downloadSize": 89873930,
+    "diskSize": 210109049,
+    "description": "This course is an introduction to the dynamics and vibrations of lumped-parameter models of mechanical systems. Topics covered include kinematics, force-momentum formulation for systems of particles and rigid bodies in planar motion, work-energy concepts, virtual displacements and virtual work. Students will also become familiar with the following topics: Lagrange's equations for systems of particles and rigid bodies in planar motion, and linearization of equations of motion. After this course, students will be able to evaluate free and forced vibration of linear multi-degree of freedom models of mechanical systems and matrix eigenvalue problems.\n",
+    "descriptionHtml": "This course is an introduction to the dynamics and vibrations of lumped-parameter models of mechanical systems. Topics covered include kinematics, force-momentum formulation for systems of particles and rigid bodies in planar motion, work-energy concepts, virtual displacements and virtual work. Students will also become familiar with the following topics: Lagrange&rsquo;s equations for systems of particles and rigid bodies in planar motion, and linearization of equations of motion. After this course, students will be able to evaluate free and forced vibration of linear multi-degree of freedom models of mechanical systems and matrix eigenvalue problems.",
+    "videoGroups": [
+        {
+            "category": "Lecture Videos",
+            "videos": [
+                {
+                    "title": "Cart and pendulum 2 DOF equations of motion",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_lec14_300k.mp4",
+                    "youtubeKey": "qrbCpv3Sv34",
+                    "contentLength": 249096323,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/1ac3d028296a522cb5ebdaf7112d1189_qrbCpv3Sv34.vtt",
+                    "htmlFile": "resources/cart-and-pendulum-2-dof-equations-of-motion/index.html"
+                },
+                {
+                    "title": "Class 1: Rotation about fixed axis through center of mass",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_lec12_300k.mp4",
+                    "youtubeKey": "mB_rrEN_Ltc",
+                    "contentLength": 242118385,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/f9469b655ac15da496e789d57c18ee63_mB_rrEN_Ltc.vtt",
+                    "htmlFile": "resources/class-1-rotation-about-fixed-axis-through-center-of-mass/index.html"
+                },
+                {
+                    "title": "Concept question discussion",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_lec16_300k.mp4",
+                    "youtubeKey": "lFedznDnPZc",
+                    "contentLength": 250074134,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/aab99aba3c2054dea5bda50f5f48f230_lFedznDnPZc.vtt",
+                    "htmlFile": "resources/concept-question-discussion/index.html"
+                },
+                {
+                    "title": "Example 4: Problem with moving points of constraint",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_lec13_300k.mp4",
+                    "youtubeKey": "wERH7LtoUuE",
+                    "contentLength": 216321513,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/bd7f8ad2e1555faea9a0aa11a2d0ddd9_wERH7LtoUuE.vtt",
+                    "htmlFile": "resources/example-class-4-problem-with-moving-points-of-constraint/index.html"
+                },
+                {
+                    "title": "Example 4: Rotating mass shaker and effect of gravity on torque",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_lec10_300k.mp4",
+                    "youtubeKey": "Fo-Y6kEMURk",
+                    "contentLength": 231145516,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/af85ae358a7a5421878f1e9a7d736463_Fo-Y6kEMURk.vtt",
+                    "htmlFile": "resources/example-4-rotating-mass-shaker-and-effect-of-gravity-on-torque/index.html"
+                },
+                {
+                    "title": "Example problems",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_lec15_300k.mp4",
+                    "youtubeKey": "zhk9xLjrmi4",
+                    "contentLength": 273371687,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/97ebc51b16a65e3086747f241fce14af_zhk9xLjrmi4.vtt",
+                    "htmlFile": "resources/example-problems/index.html"
+                },
+                {
+                    "title": "Hockey puck by Lagrange",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_lec17_300k.mp4",
+                    "youtubeKey": "cd8lDtAtJbE",
+                    "contentLength": 262216901,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/c38230cdff4e5658a3d8133b21c8d70d_cd8lDtAtJbE.vtt",
+                    "htmlFile": "resources/hockey-puck-by-lagrange/index.html"
+                },
+                {
+                    "title": "Intro to the time rate of change of linear and angular momentum for a particlecoordinates",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_lec06_300k.mp4",
+                    "youtubeKey": "jROTMB142T0",
+                    "contentLength": 254778279,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/dee55ab352ba5410b0d9ef0e0cd861bb_jROTMB142T0.vtt",
+                    "htmlFile": "resources/intro-to-the-time-rate-of-change-of-linear-and-angular-momentum-for-a-particlecoordinates/index.html"
+                },
+                {
+                    "title": "Lecture 3: Motion of Center of Mass; Acceleration in Rotating Ref. Frames",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_lec03_300k.mp4",
+                    "youtubeKey": "d00XI_UTKQo",
+                    "contentLength": 252678082,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/be076b1881fa5b47898915601e93ae82_d00XI_UTKQo.vtt",
+                    "htmlFile": "resources/lecture-3-motion-of-center-of-mass-acceleration-in-rotating-ref-1/index.html"
+                },
+                {
+                    "title": "Lecture 5: Impulse, Torque, and Angular Momentum for a System of Particles",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_lec05_300k.mp4",
+                    "youtubeKey": "NHedXxUO-Bg",
+                    "contentLength": 258992943,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/9b57697c5385544dba96c4d30254037f_NHedXxUO-Bg.vtt",
+                    "htmlFile": "resources/lecture-5-impulse-torque-and-angular-momentum-for-a-system-of-particles/index.html"
+                },
+                {
+                    "title": "Lecture 9: Rotating Imbalance",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_lec09_300k.mp4",
+                    "youtubeKey": "QHTJK0v404U",
+                    "contentLength": 272395978,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/4161dfc077815fd38525c13a64957ccf_QHTJK0v404U.vtt",
+                    "htmlFile": "resources/lecture-9-rotating-imbalance-1/index.html"
+                },
+                {
+                    "title": "Lecture 11: Mass Moment of Inertia of Rigid Bodies",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_lec11_300k.mp4",
+                    "youtubeKey": "YZ9y4zcfCPs",
+                    "contentLength": 240049388,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/9c9b19a47e4653a6890f8cfb8596d813_YZ9y4zcfCPs.vtt",
+                    "htmlFile": "resources/lecture-11-mass-moment-of-inertia-of-rigid-bodies-1/index.html"
+                },
+                {
+                    "title": "Lecture 26: Response of 2-DOF Systems by the Use of Transfer Functions",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_lec26_300k.mp4",
+                    "youtubeKey": "fK9AGvLf3yw",
+                    "contentLength": 276898678,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/dae06eb5295e5b3f8ddee71ab6985b1b_fK9AGvLf3yw.vtt",
+                    "htmlFile": "resources/lecture-26-response-of-2-dof-systems-by-the-use-of-transfer-functions-1/index.html"
+                },
+                {
+                    "title": "Linearization of a 2-DOF system",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_lec23_300k.mp4",
+                    "youtubeKey": "tm51lwadMOc",
+                    "contentLength": 264377349,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/bd5c6adfc38354caa87f8fe1d383684e_tm51lwadMOc.vtt",
+                    "htmlFile": "resources/linearization-of-a-2-dof-system/index.html"
+                },
+                {
+                    "title": "Muddy card discussion",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_lec07_300k.mp4",
+                    "youtubeKey": "63sIgMvBuEQ",
+                    "contentLength": 238473818,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/b5eedfa36be25e5c8ca60ad6f29e3456_63sIgMvBuEQ.vtt",
+                    "htmlFile": "resources/muddy-card-discussion/index.html"
+                },
+                {
+                    "title": "Newton's 3rd Law action and reaction forces",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_lec02_300k.mp4",
+                    "youtubeKey": "ZNVvYg1FOPk",
+                    "contentLength": 244146615,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/69482235c7e250dcbf32358ff438d4bb_ZNVvYg1FOPk.vtt",
+                    "htmlFile": "resources/newtons-3rd-law-action-and-reaction-forces/index.html"
+                },
+                {
+                    "title": "Obtain the equations of motion of a 2 DOF system",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_lec22_300k.mp4",
+                    "youtubeKey": "9CPA6WG6mRo",
+                    "contentLength": 280719586,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/6241d5f0a90956d2af7260704ceffaf5_9CPA6WG6mRo.vtt",
+                    "htmlFile": "resources/obtain-the-equations-of-motion-of-a-2-dof-system/index.html"
+                },
+                {
+                    "title": "Predicting natural frequency by SQRT(g/delta)",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_lec21_300k.mp4",
+                    "youtubeKey": "f1pxiNDTyHc",
+                    "contentLength": 270911834,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/2952a05ddd2b5adb9e54f6fc42ad10f4_f1pxiNDTyHc.vtt",
+                    "htmlFile": "resources/predicting-natural-frequency-by-sqrt-g-delta/index.html"
+                },
+                {
+                    "title": "Response to initial conditions using modal analysis",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_lec24_300k.mp4",
+                    "youtubeKey": "OxcCPTc_bXw",
+                    "contentLength": 276328554,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/a84609ee41e4590ea19524db8b3f0625_OxcCPTc_bXw.vtt",
+                    "htmlFile": "resources/response-to-initial-conditions-using-modal-analysis/index.html"
+                },
+                {
+                    "title": "Rotating mass demo related to homework 1",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_lec08_300k.mp4",
+                    "youtubeKey": "zNCBDrnT05E",
+                    "contentLength": 245416430,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/9fbb4df42df558bcb0768222c971ad3a_zNCBDrnT05E.vtt",
+                    "htmlFile": "resources/rotating-mass-demo-related-to-homework-1/index.html"
+                },
+                {
+                    "title": "Steady state linear system response to harmonic input",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_lec20_300k.mp4",
+                    "youtubeKey": "wzEqF_UQkks",
+                    "contentLength": 259212595,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/4061daaffaea536ab23239d686420c4b_wzEqF_UQkks.vtt",
+                    "htmlFile": "resources/steady-state-linear-system-response-to-harmonic-input/index.html"
+                },
+                {
+                    "title": "Steady state response to harmonic excitation by the method of modal analysis",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_lec25_300k.mp4",
+                    "youtubeKey": "p9DHjoLS3GA",
+                    "contentLength": 267181765,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/bd566912efe257718015ecfe690f3072_p9DHjoLS3GA.vtt",
+                    "htmlFile": "resources/steady-state-response-to-harmonic-excitation-by-the-method-of-modal-analysis/index.html"
+                },
+                {
+                    "title": "Two examples using polar coordinates",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_lec04_300k.mp4",
+                    "youtubeKey": "iMz0LiqjFmE",
+                    "contentLength": 192050620,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/536febcd03b4534d926155c3638df757_iMz0LiqjFmE.vtt",
+                    "htmlFile": "resources/two-examples-using-polar-coordinates/index.html"
+                }
+            ]
+        },
+        {
+            "category": "Tutorial Videos",
+            "videos": [
+                {
+                    "title": "Problem 6 and 7-more pendula",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_lec18_300k.mp4",
+                    "youtubeKey": "osyKjTQuwlk",
+                    "contentLength": 124527283,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/2ad8c3f110c85a73a667a3d877ee2c7d_osyKjTQuwlk.vtt",
+                    "htmlFile": "resources/problem-6-and-7-more-pendula/index.html"
+                }
+            ]
+        },
+        {
+            "category": "Recitation Videos",
+            "videos": [
+                {
+                    "title": "Recitation 4: Free Body Diagrams",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_rec04_300k.mp4",
+                    "youtubeKey": "cecD1w3-SD0",
+                    "contentLength": 148382538,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/61dc9eaf70e35039a6209c5cc5b6f537_cecD1w3-SD0.vtt",
+                    "htmlFile": "resources/recitation-4-free-body-diagrams-1/index.html"
+                },
+                {
+                    "title": "Recitation 6: Angular Momentum and Torque",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_rec06_300k.mp4",
+                    "youtubeKey": "6wPHoFjnYXI",
+                    "contentLength": 112496741,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/49c8c1a4526551d9a6e3b86d43faf9a1_6wPHoFjnYXI.vtt",
+                    "htmlFile": "resources/recitation-6-angular-momentum-and-torque/index.html"
+                },
+                {
+                    "title": "Recitation 7: Cart and Pendulum, Direct Method",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_rec07_300k.mp4",
+                    "youtubeKey": "Ze5nqLIYUMc",
+                    "contentLength": 146792115,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/dad5ce55f64e5b518990a00b9f808263_Ze5nqLIYUMc.vtt",
+                    "htmlFile": "resources/recitation-7-cart-and-pendulum-direct-method/index.html"
+                },
+                {
+                    "title": "Recitation 12: Modal Analysis of a Double Pendulum System",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_rec12_300k.mp4",
+                    "youtubeKey": "3F4wlYR_3h8",
+                    "contentLength": 175800101,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/da2b8737d5e25017a605cd03fe250fdf_3F4wlYR_3h8.vtt",
+                    "htmlFile": "resources/recitation-12-modal-analysis-of-a-double-pendulum-system-1/index.html"
+                }
+            ]
+        },
+        {
+            "category": "Other",
+            "videos": [
+                {
+                    "title": "Lecture 1: History of Dynamics; Motion in Moving Reference Frames",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_lec01_300k.mp4",
+                    "youtubeKey": "GUvoVvXwoOQ",
+                    "contentLength": 184871703,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/07932cf48cd954e3aa7d641da029a889_GUvoVvXwoOQ.vtt",
+                    "htmlFile": "resources/lecture-1-history-of-dynamics-motion-in-moving-reference-frames-1/index.html"
+                },
+                {
+                    "title": "Lecture 19: Introduction to Mechanical Vibration",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_lec19_300k.mp4",
+                    "youtubeKey": "9_d8CQrCYUw",
+                    "contentLength": 252896066,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/fdd444eacea85df783a3c0867c0dceb7_9_d8CQrCYUw.vtt",
+                    "htmlFile": "resources/lecture-19-introduction-to-mechanical-vibration/index.html"
+                },
+                {
+                    "title": "Lecture 27: Vibration of Continuous Structures: Strings, Beams, Rods, etc.",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_lec27_300k.mp4",
+                    "youtubeKey": "1xJJu5p3dD0",
+                    "contentLength": 241325691,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/a7aaca5186af5df7b495a90e1a6510ed_1xJJu5p3dD0.vtt",
+                    "htmlFile": "resources/lecture-27-vibration-of-continuous-structures-strings-beams-rods-etc-1/index.html"
+                },
+                {
+                    "title": "Notation Systems",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_lec14b_300k.mp4",
+                    "youtubeKey": "zlbbbA5Uuu8",
+                    "contentLength": 14460253,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/5cdf1f5ebc495c73a282b8acb5924324_zlbbbA5Uuu8.vtt",
+                    "htmlFile": "resources/notation-systems/index.html"
+                },
+                {
+                    "title": "Recitation 2: Velocity and Acceleration in Translating and Rotating Frames",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_rec02_300k.mp4",
+                    "youtubeKey": "7kcWV6zlcRU",
+                    "contentLength": 159329505,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/25e1a12df0495909b69a883adcd4f99a_7kcWV6zlcRU.vtt",
+                    "htmlFile": "resources/recitation-2-velocity-and-acceleration-in-translating-and-rotating-frames-1/index.html"
+                },
+                {
+                    "title": "Recitation 3: Motion in Moving Reference Frames",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_rec03_300k.mp4",
+                    "youtubeKey": "QYP-oC1kP_s",
+                    "contentLength": 137249761,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/064e89558f3b5ffa910bbffecda1f08b_QYP-oC1kP_s.vtt",
+                    "htmlFile": "resources/recitation-3-motion-in-moving-reference-frames/index.html"
+                },
+                {
+                    "title": "Recitation 5: Equations of Motion",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_rec05_300k.mp4",
+                    "youtubeKey": "PZ1zxBO1kO8",
+                    "contentLength": 146326517,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/dcada476639451098d3bac6af7a3c429_PZ1zxBO1kO8.vtt",
+                    "htmlFile": "resources/recitation-5-equations-of-motion-1/index.html"
+                },
+                {
+                    "title": "Recitation 8: Cart and Pendulum, Lagrange Method",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_rec08_300k.mp4",
+                    "youtubeKey": "-QVENB3aEvY",
+                    "contentLength": 119138023,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/03e29972b4fc575792362d6ae73b7dcd_-QVENB3aEvY.vtt",
+                    "htmlFile": "resources/recitation-8-cart-and-pendulum-lagrange-method-1/index.html"
+                },
+                {
+                    "title": "Recitation 9: Generalized Forces",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_rec09_300k.mp4",
+                    "youtubeKey": "QadsG49DY3M",
+                    "contentLength": 150446982,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/439420099bb9527a8a5ee6ff131adcbc_QadsG49DY3M.vtt",
+                    "htmlFile": "resources/recitation-9-generalized-forces-1/index.html"
+                },
+                {
+                    "title": "Recitation 10: Steady State Dynamics",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_rec10_300k.mp4",
+                    "youtubeKey": "pYZMNOuRwk0",
+                    "contentLength": 101097599,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/d90d208891fd5bd19f7df5878de49146_pYZMNOuRwk0.vtt",
+                    "htmlFile": "resources/recitation-10-steady-state-dynamics/index.html"
+                },
+                {
+                    "title": "Recitation 11: Double Pendulum System",
+                    "videoUrl": "http://www.archive.org/download/MIT2.003SCF11/MIT2_003SCF11_rec11_300k.mp4",
+                    "youtubeKey": "fZKrUgm9R1o",
+                    "contentLength": 138148603,
+                    "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/b553dbff0e045a758155f910bfb9a767_fZKrUgm9R1o.vtt",
+                    "htmlFile": "resources/recitation-11-double-pendulum-system/index.html"
+                }
+            ]
+        }
+    ]
+}

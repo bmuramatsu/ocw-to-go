@@ -1,0 +1,231 @@
+{
+    "id": "18-100a-real-analysis-fall-2020",
+    "name": "Real Analysis",
+    "featured": false,
+    "category": "Mathematics",
+    "topics": [
+        "Mathematics",
+        "Calculus",
+        "Mathematics",
+        "Mathematical Analysis"
+    ],
+    "instructors": [
+        "Dr. Casey Rodriguez"
+    ],
+    "courseNumber": "18.100A",
+    "courseLevel": "Undergraduate",
+    "cardImg": "/images/course_cards/18-100a-real-analysis-fall-2020.jpg",
+    "imgAltText": "A man standing in front of a blackboard and pointing to some text on the blackboard.",
+    "file": "https://files.ocwtogo.org/18-100a-fall-2020.zip",
+    "downloadSize": 30101521,
+    "diskSize": 61867814,
+    "description": "This course covers the fundamentals of mathematical analysis: convergence of sequences and series, continuity, differentiability, Riemann integral, sequences and series of functions, uniformity, and the interchange of limit operations. It shows the utility of abstract concepts through a study of real numbers, and teaches an understanding and construction of proofs.",
+    "descriptionHtml": "This course covers the fundamentals of mathematical analysis: convergence of sequences and series, continuity, differentiability, Riemann integral, sequences and series of functions, uniformity, and the interchange of limit operations. It shows the utility of abstract concepts through a study of real numbers, and teaches an understanding and construction of proofs.",
+    "videoGroups": [
+        {
+            "category": "Lecture Videos",
+            "videos": [
+                {
+                    "title": "Lecture 1: Sets, Set Operations and Mathematical Induction",
+                    "videoUrl": "https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/18100a-lecture-1-multicammp4_360p_16_9.mp4",
+                    "youtubeKey": "LY7YmuDbuW0",
+                    "contentLength": 136563220,
+                    "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1c3M0aPBTrAxgJPGQ0lbmWtFAHTXsd0P9_transcript.webvtt",
+                    "htmlFile": "resources/18100a-lecture-1-multicammp4/index.html"
+                },
+                {
+                    "title": "Lecture 2: Cantor's Theory of Cardinality (Size)",
+                    "videoUrl": "https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/18100a-lecture-2-multicammp4_360p_16_9.mp4",
+                    "youtubeKey": "9_xG0AGRa-w",
+                    "contentLength": 147480947,
+                    "captionsFile": "/courses/18-100a-real-analysis-fall-2020/10eRBzxaDhmhDya7nrt4G50lMys37g_7m_transcript.webvtt",
+                    "htmlFile": "resources/18100a-lecture-2-multicammp4/index.html"
+                },
+                {
+                    "title": "Lecture 3: Cantor's Remarkable Theorem and the Rationals' Lack of the Least Upper Bound Property",
+                    "videoUrl": "https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/18100a-lecture-3-multicammp418_360p_16_9.mp4",
+                    "youtubeKey": "nbENJ-Ce7Nc",
+                    "contentLength": 135820200,
+                    "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1Zk8AvPsay3MbLl4DzWNJu4uHALNX6Tl-_transcript.webvtt",
+                    "htmlFile": "resources/18100a-lecture-3-multicammp4182/index.html"
+                },
+                {
+                    "title": "Lecture 4: The Characterization of the Real Numbers",
+                    "videoUrl": "https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/18100a-lecture-4-multicam_360p_16_9.mp4",
+                    "youtubeKey": "mlPLLXHZ8_U",
+                    "contentLength": 149787462,
+                    "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1ntPBhuGKrbwtkzdJ5p2-OIh8OSMkp5sp_transcript.webvtt",
+                    "htmlFile": "resources/18100a-lecture-4-multicam2/index.html"
+                },
+                {
+                    "title": "Lecture 5: The Archimedian Property, Density of the Rationals, and Absolute Value",
+                    "videoUrl": "https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/18100a-lecture-5-multicam_360p_16_9.mp4",
+                    "youtubeKey": "M2d4HsBsu8Y",
+                    "contentLength": 134817006,
+                    "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1q_zk-bP9eY1S2dzcZmK-zIIXu6PGTK1r_transcript.webvtt",
+                    "htmlFile": "resources/18100a-lecture-5-multicam2/index.html"
+                },
+                {
+                    "title": "Lecture 6: The Uncountabality of the Real Numbers",
+                    "videoUrl": "https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/18100a-lecture-6-multicam_360p_16_9.mp4",
+                    "youtubeKey": "PnDtMfyZSIE",
+                    "contentLength": 142381343,
+                    "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1xAzql4TtzN25bWOHC_VOH5yDE3jGfxsL_transcript.webvtt",
+                    "htmlFile": "resources/18100a-lecture-6-multicam2/index.html"
+                },
+                {
+                    "title": "Lecture 7: Convergent Sequences of Real Numbers",
+                    "videoUrl": "https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/18100a-lecture-7-multicam_360p_16_9.mp4",
+                    "youtubeKey": "49Ro2zf9hAc",
+                    "contentLength": 99456575,
+                    "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1_NK2jm1gpP8PCLXiqusrPI3vYAuVTQfJ_transcript.webvtt",
+                    "htmlFile": "resources/18100a-lecture-7-multicam/index.html"
+                },
+                {
+                    "title": "Lecture 8: The Squeeze Theorem and Operations Involving Convergent Sequences",
+                    "videoUrl": "https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/18100a-lecture-8-multicam_360p_16_9.mp4",
+                    "youtubeKey": "os_XGBNPllM",
+                    "contentLength": 125891362,
+                    "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1zfW4x2QAVv0IpBp80dOQ6Hh8j7opYMwU_transcript.webvtt",
+                    "htmlFile": "resources/18100a-lecture-8-multicam/index.html"
+                },
+                {
+                    "title": "Lecture 9: Limsup, Liminf, and the Bolzano-Weierstrass Theorem",
+                    "videoUrl": "https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/18100a-lecture-9-multicam-version-2_360p_16_9.mp4",
+                    "youtubeKey": "Xn8wL2ItzZw",
+                    "contentLength": 121904012,
+                    "captionsFile": "/courses/18-100a-real-analysis-fall-2020/10IcZbDFqzrgrKvNyTGQTmy-h_W7IO3Dr_transcript.webvtt",
+                    "htmlFile": "resources/18100a-lecture-9-multicam-version-2/index.html"
+                },
+                {
+                    "title": "Lecture 10: The Completeness of the Real Numbers and Basic Properties of Infinite Series",
+                    "videoUrl": "https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/18100a-lecture-10-multicam_1_360p_16_9.mp4",
+                    "youtubeKey": "0_w-R_g5lRA",
+                    "contentLength": 127922682,
+                    "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1Qdkoc6qQFOHjUfOYS7ulcBgmI7sHo9HH_transcript.webvtt",
+                    "htmlFile": "resources/18100a-lecture-10-multicam_1/index.html"
+                },
+                {
+                    "title": "Lecture 11: Absolute Convergence and the Comparison Test for Series",
+                    "videoUrl": "https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/18100a-lecture-11-multicam_360p_16_9.mp4",
+                    "youtubeKey": "RzSp9nIFnbo",
+                    "contentLength": 101103813,
+                    "captionsFile": "/courses/18-100a-real-analysis-fall-2020/15InmWX8dOuS-_9CKFnIqysdHrnyvHtD8_transcript.webvtt",
+                    "htmlFile": "resources/18100a-lecture-11-multicam/index.html"
+                },
+                {
+                    "title": "Lecture 12: The Ratio, Root, and Alternating Series Tests",
+                    "videoUrl": "https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/18100a-lecture-12-multicam_360p_16_9.mp4",
+                    "youtubeKey": "ZjjpLMKs7Tc",
+                    "contentLength": 103203879,
+                    "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1d0IaJVYrozWUIUjCZUKR3XNjeEMAK71O_transcript.webvtt",
+                    "htmlFile": "resources/18100a-lecture-12-multicam/index.html"
+                },
+                {
+                    "title": "Lecture 13: Limits of Functions",
+                    "videoUrl": "https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/18100a-lecture-13-zoom-subtitled-version-4_360p_16_9.mp4",
+                    "youtubeKey": "cjeXg5rJ9D8",
+                    "contentLength": 85612747,
+                    "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1o2LKLGBtP9fZuAKyx2MlPfKW6NvpLYym_transcript.webvtt",
+                    "htmlFile": "resources/18100a-lecture-13-zoom-subtitled-version-4/index.html"
+                },
+                {
+                    "title": "Lecture 14: Limits of Functions in Terms of Sequences and Continuity",
+                    "videoUrl": "https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/18100a-lecture-14-multicam_360p_16_9.mp4",
+                    "youtubeKey": "bBESL68iX6s",
+                    "contentLength": 102546917,
+                    "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1vRlhrS0O5BaJlwsJA04CW9NpCV_AMi83_transcript.webvtt",
+                    "htmlFile": "resources/18100a-lecture-14-multicam/index.html"
+                },
+                {
+                    "title": "Lecture 15: The Continuity of Sine and Cosine and the Many Discontinuities of Dirichlet's Function",
+                    "videoUrl": "https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/18100a-lecture-15-multicam_360p_16_9.mp4",
+                    "youtubeKey": "smIcuRZybsA",
+                    "contentLength": 104717961,
+                    "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1PUmaEW1L7O-KnCYAnFDpkRYosM7p-gtT_transcript.webvtt",
+                    "htmlFile": "resources/18100a-lecture-15-multicam/index.html"
+                },
+                {
+                    "title": "Lecture 16: The Min/Max Theorem and Bolzano's Intermediate Value Theorem",
+                    "videoUrl": "https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/18100a-lecture-16-multicam_360p_16_9.mp4",
+                    "youtubeKey": "dcUKdwHRSD8",
+                    "contentLength": 111042704,
+                    "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1t7R8OBcMHWx3rFE0emZpMvKtdYhEub-y_transcript.webvtt",
+                    "htmlFile": "resources/18100a-lecture-16-multicam2/index.html"
+                },
+                {
+                    "title": "Lecture 17: Uniform Continuity and the Definition of the Derivative",
+                    "videoUrl": "https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/18100a-lecture-17-multicam_360p_16_9.mp4",
+                    "youtubeKey": "f_sNWn7zujU",
+                    "contentLength": 120501598,
+                    "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1W1-9ZyyWj2a3xcClmmlXzZWrp6TDOuBX_transcript.webvtt",
+                    "htmlFile": "resources/18100a-lecture-17-multicam/index.html"
+                },
+                {
+                    "title": "Lecture 18: Weierstrass's Example of a Continuous and Nowhere Differentiable Function",
+                    "videoUrl": "https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/18100a-lecture-18-multicam_360p_16_9.mp4",
+                    "youtubeKey": "PuRJ9IgUW-M",
+                    "contentLength": 129604051,
+                    "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1QZEO5PtMCq4uCozEmygto_ISF63mjfJo_transcript.webvtt",
+                    "htmlFile": "resources/18100a-lecture-18-multicam/index.html"
+                },
+                {
+                    "title": "Lecture 19: Differentiation Rules, Rolle's Theorem, and the Mean Value Theorem",
+                    "videoUrl": "https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/18100a-lecture-19-multicam_360p_16_9.mp4",
+                    "youtubeKey": "V3Wg_jrMSQY",
+                    "contentLength": 125156663,
+                    "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1amfhQA2YEpNhkZSG5NGFQKW3te6BKAef_transcript.webvtt",
+                    "htmlFile": "resources/18100a-lecture-19-multicam2/index.html"
+                },
+                {
+                    "title": "Lecture 20: Taylor's Theorem and the Definition of Riemann Sums",
+                    "videoUrl": "https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/18100a-lecture-20-multicam_1_360p_16_9.mp4",
+                    "youtubeKey": "ImHAGH_OEow",
+                    "contentLength": 87650467,
+                    "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1kk7ggLs5GSgVPl8hsOtXEAyw7A0RVf_G_transcript.webvtt",
+                    "htmlFile": "resources/18100a-lecture-20-multicam_1/index.html"
+                },
+                {
+                    "title": "Lecture 21: The Riemann Integral of a Continuous Function",
+                    "videoUrl": "https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/18100a-lecture-21-multicam_360p_16_9.mp4",
+                    "youtubeKey": "QeYUHA0UMVg",
+                    "contentLength": 112948097,
+                    "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1T64KBVHQWygm5QR94v-05Vp5_t4_T87u_transcript.webvtt",
+                    "htmlFile": "resources/18100a-lecture-21-multicam/index.html"
+                },
+                {
+                    "title": "Lecture 22: Fundamental Theorem of Calculus, Integration by Parts, and Change of Variable Formula",
+                    "videoUrl": "https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/18100a-lecture-22-multicam_360p_16_9.mp4",
+                    "youtubeKey": "WWZ_CeiRnIo",
+                    "contentLength": 120454383,
+                    "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1LKqnNzODrg8PPyw-_iPcf93AM86Lj2GE_transcript.webvtt",
+                    "htmlFile": "resources/18100a-lecture-22-multicam/index.html"
+                },
+                {
+                    "title": "Lecture 23: Pointwise and Uniform Convergence of Sequences of Functions",
+                    "videoUrl": "https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/18100a-lecture-23-multicam_360p_16_9.mp4",
+                    "youtubeKey": "_HRTdXJgZ0Q",
+                    "contentLength": 115973972,
+                    "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1RaKLWv7F-clQEuFEQ6Tc7V2d5qi4G82i_transcript.webvtt",
+                    "htmlFile": "resources/18100a-lecture-23-multicam/index.html"
+                },
+                {
+                    "title": "Lecture 24: Uniform Convergence, the Weierstrass M-Test, and Interchanging Limits",
+                    "videoUrl": "https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/18100a-lecture-24-multicam_360p_16_9.mp4",
+                    "youtubeKey": "gXPX29KfEc4",
+                    "contentLength": 124332260,
+                    "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1vu4GMg5v7TRTz-K943dU10R7KZuWqwZN_transcript.webvtt",
+                    "htmlFile": "resources/18100a-lecture-24-multicam/index.html"
+                },
+                {
+                    "title": "Lecture 25: Power Series and the Weierstrass Approximation Theorem",
+                    "videoUrl": "https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/18100a-lecture-25-multicam_360p_16_9.mp4",
+                    "youtubeKey": "u4qQ1oIQcW8",
+                    "contentLength": 127951711,
+                    "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1IF6ZH-tTnbGSrhsh9INxEdk_UWslK6pV_transcript.webvtt",
+                    "htmlFile": "resources/18100a-lecture-25-multicam/index.html"
+                }
+            ]
+        }
+    ]
+}

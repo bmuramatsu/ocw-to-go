@@ -1,0 +1,224 @@
+{
+    "id": "cms-608-game-design-spring-2014",
+    "name": "Game Design",
+    "featured": false,
+    "category": "Arts and Humanities",
+    "topics": [
+        "Fine Arts",
+        "Game Design",
+        "Fine Arts",
+        "Media Studies"
+    ],
+    "instructors": [
+        "Philip B. Tan",
+        "Richard Eberhardt"
+    ],
+    "courseNumber": "CMS.608",
+    "courseLevel": "Undergraduate",
+    "cardImg": "/images/course_cards/cms-608-game-design-spring-2014.jpg",
+    "imgAltText": "Colored pieces on a board of hexagons, many sided dice, and a sheet of rules.",
+    "file": "https://files.ocwtogo.org/cms.608-spring-2014.zip",
+    "downloadSize": 23838263,
+    "diskSize": 64490061,
+    "description": "This course is built around practical instruction in the design and analysis of non-­digital games. It provides students the texts, tools, references, and historical context to analyze and compare game designs across a variety of genres. In teams, students design, develop, and thoroughly test their original games to better understand the interaction and evolution of game rules. Covers various genres and types of games, including sports, game shows, games of chance, card games, schoolyard games, board games, and role-­playing games.\n",
+    "descriptionHtml": "This course is built around practical instruction in the design and analysis of non-­digital games. It provides students the texts, tools, references, and historical context to analyze and compare game designs across a variety of genres. In teams, students design, develop, and thoroughly test their original games to better understand the interaction and evolution of game rules. Covers various genres and types of games, including sports, game shows, games of chance, card games, schoolyard games, board games, and role-­playing games.",
+    "videoGroups": [
+        {
+            "category": "Lecture Audio",
+            "videos": [
+                {
+                    "title": "1-1: Introduction, Overview, and Syllabus for Game Design",
+                    "videoUrl": "https://archive.org/download/MITCMS.608JS14/MITCMS_608S14_ses01_1.mp3",
+                    "youtubeKey": "xHNIknabsRY",
+                    "contentLength": 44714887,
+                    "captionsFile": "/courses/cms-608-game-design-spring-2014/xHNIknabsRY_captions.webvtt",
+                    "htmlFile": "resources/ses01_1/index.html"
+                },
+                {
+                    "title": "1-2: Game Mechanics",
+                    "videoUrl": "https://archive.org/download/MITCMS.608JS14/MITCMS_608S14_ses01_2.mp3",
+                    "youtubeKey": "dK55mOcHdAc",
+                    "contentLength": 16501676,
+                    "captionsFile": "/courses/cms-608-game-design-spring-2014/dK55mOcHdAc_captions.webvtt",
+                    "htmlFile": "resources/ses01_2/index.html"
+                },
+                {
+                    "title": "2-1: Meaningful Decisions in Gameplay",
+                    "videoUrl": "https://archive.org/download/MITCMS.608JS14/MITCMS_608S14_ses02_1.mp3",
+                    "youtubeKey": "S_fiR00UBGo",
+                    "contentLength": 44669817,
+                    "captionsFile": "/courses/cms-608-game-design-spring-2014/S_fiR00UBGo_captions.webvtt",
+                    "htmlFile": "resources/ses02_1/index.html"
+                },
+                {
+                    "title": "2-2: Brainstorming",
+                    "videoUrl": "https://archive.org/download/MITCMS.608JS14/MITCMS_608S14_ses02_2.mp3",
+                    "youtubeKey": "OSlcaoq80Xs",
+                    "contentLength": 35708755,
+                    "captionsFile": "/courses/cms-608-game-design-spring-2014/OSlcaoq80Xs_captions.webvtt",
+                    "htmlFile": "resources/ses02_2/index.html"
+                },
+                {
+                    "title": "3-1: Prototyping",
+                    "videoUrl": "https://archive.org/download/MITCMS.608JS14/MITCMS_608S14_ses03_1.mp3",
+                    "youtubeKey": "Ym5M_EQuNmU",
+                    "contentLength": 33115021,
+                    "captionsFile": "/courses/cms-608-game-design-spring-2014/Ym5M_EQuNmU_captions.webvtt",
+                    "htmlFile": "resources/ses03_1/index.html"
+                },
+                {
+                    "title": "3-2: Altering Rules & Playtesting",
+                    "videoUrl": "https://archive.org/download/MITCMS.608JS14/MITCMS_608S14_ses03_2.mp3",
+                    "youtubeKey": "FC_eWZp7a4E",
+                    "contentLength": 12255041,
+                    "captionsFile": "/courses/cms-608-game-design-spring-2014/FC_eWZp7a4E_captions.webvtt",
+                    "htmlFile": "resources/ses03_2/index.html"
+                },
+                {
+                    "title": "4. Mechanics, Dynamics, Aesthetics - The MDA Framework",
+                    "videoUrl": "https://archive.org/download/MITCMS.608JS14/MITCMS_608S14_ses04.mp3",
+                    "youtubeKey": "H0MFJwQH2fo",
+                    "contentLength": 37556958,
+                    "captionsFile": "/courses/cms-608-game-design-spring-2014/H0MFJwQH2fo_captions.webvtt",
+                    "htmlFile": "resources/ses04/index.html"
+                },
+                {
+                    "title": "5. Imperfect Information and Dice",
+                    "videoUrl": "https://archive.org/download/MITCMS.608JS14/MITCMS_608S14_ses05.mp3",
+                    "youtubeKey": "RWSypiENYfc",
+                    "contentLength": 28915276,
+                    "captionsFile": "/courses/cms-608-game-design-spring-2014/RWSypiENYfc_captions.webvtt",
+                    "htmlFile": "resources/ses05/index.html"
+                },
+                {
+                    "title": "6. Constraints and Usability",
+                    "videoUrl": "https://archive.org/download/MITCMS.608JS14/MITCMS_608S14_ses06.mp3",
+                    "youtubeKey": "w56ICZB3IfI",
+                    "contentLength": 35725138,
+                    "captionsFile": "/courses/cms-608-game-design-spring-2014/w56ICZB3IfI_captions.webvtt",
+                    "htmlFile": "resources/ses01_6/index.html"
+                },
+                {
+                    "title": "7. Aesthetics and Player Experience",
+                    "videoUrl": "https://archive.org/download/MITCMS.608JS14/MITCMS_608S14_ses07.mp3",
+                    "youtubeKey": "_bjy6AMn5aY",
+                    "contentLength": 22478778,
+                    "captionsFile": "/courses/cms-608-game-design-spring-2014/_bjy6AMn5aY_captions.webvtt",
+                    "htmlFile": "resources/ses07/index.html"
+                },
+                {
+                    "title": "9. Randomness and Player Choice",
+                    "videoUrl": "https://archive.org/download/MITCMS.608JS14/MITCMS_608S14_ses09.mp3",
+                    "youtubeKey": "hM5erRmEzCk",
+                    "contentLength": 40323623,
+                    "captionsFile": "/courses/cms-608-game-design-spring-2014/hM5erRmEzCk_captions.webvtt",
+                    "htmlFile": "resources/ses09/index.html"
+                },
+                {
+                    "title": "10. History of American Board Games",
+                    "videoUrl": "https://archive.org/download/MITCMS.608JS14/MITCMS_608S14_ses10.mp3",
+                    "youtubeKey": "Uq0zx1Hy9Jw",
+                    "contentLength": 27590182,
+                    "captionsFile": "/courses/cms-608-game-design-spring-2014/Uq0zx1Hy9Jw_captions.webvtt",
+                    "htmlFile": "resources/ses10/index.html"
+                },
+                {
+                    "title": "11. Defining Game, Play, and Sport",
+                    "videoUrl": "https://archive.org/download/MITCMS.608JS14/MITCMS_608S14_ses11.mp3",
+                    "youtubeKey": "1_t7ixz5XRY",
+                    "contentLength": 25640755,
+                    "captionsFile": "/courses/cms-608-game-design-spring-2014/1_t7ixz5XRY_captions.webvtt",
+                    "htmlFile": "resources/ses11/index.html"
+                },
+                {
+                    "title": "13. Cybernetics and Multiplayer",
+                    "videoUrl": "https://archive.org/download/MITCMS.608JS14/MITCMS_608S14_ses13.mp3",
+                    "youtubeKey": "wmoKns-IQ-E",
+                    "contentLength": 38238979,
+                    "captionsFile": "/courses/cms-608-game-design-spring-2014/wmoKns-IQ-E_captions.webvtt",
+                    "htmlFile": "resources/ses13/index.html"
+                },
+                {
+                    "title": "14. Adding and Cutting Mechanics",
+                    "videoUrl": "https://archive.org/download/MITCMS.608JS14/MITCMS_608S14_ses14.mp3",
+                    "youtubeKey": "DF9fniCnL10",
+                    "contentLength": 34083738,
+                    "captionsFile": "/courses/cms-608-game-design-spring-2014/DF9fniCnL10_captions.webvtt",
+                    "htmlFile": "resources/ses14/index.html"
+                },
+                {
+                    "title": "15. Assignment 3",
+                    "videoUrl": "https://archive.org/download/MITCMS.608JS14/MITCMS_608S14_ses15.mp3",
+                    "youtubeKey": "cZkKaqj9K1U",
+                    "contentLength": 23155217,
+                    "captionsFile": "/courses/cms-608-game-design-spring-2014/cZkKaqj9K1U_captions.webvtt",
+                    "htmlFile": "resources/ses15/index.html"
+                },
+                {
+                    "title": "16. The Simulation Gap & Assignment 3 Pitches",
+                    "videoUrl": "https://archive.org/download/MITCMS.608JS14/MITCMS_608S14_ses16.mp3",
+                    "youtubeKey": "JK29_2fW-w4",
+                    "contentLength": 38897655,
+                    "captionsFile": "/courses/cms-608-game-design-spring-2014/JK29_2fW-w4_captions.webvtt",
+                    "htmlFile": "resources/ses16/index.html"
+                },
+                {
+                    "title": "17. Guest Lectures by Professional Designers",
+                    "videoUrl": "https://archive.org/download/MITCMS.608JS14/MITCMS_608S14_ses17.mp3",
+                    "youtubeKey": "-Fd6JJ1Xkt4",
+                    "contentLength": 51369390,
+                    "captionsFile": "/courses/cms-608-game-design-spring-2014/-Fd6JJ1Xkt4_captions.webvtt",
+                    "htmlFile": "resources/ses17/index.html"
+                },
+                {
+                    "title": "19. Space Control",
+                    "videoUrl": "https://archive.org/download/MITCMS.608JS14/MITCMS_608S14_ses19.mp3",
+                    "youtubeKey": "bgeWfB0SNEg",
+                    "contentLength": 68618609,
+                    "captionsFile": "/courses/cms-608-game-design-spring-2014/bgeWfB0SNEg_captions.webvtt",
+                    "htmlFile": "resources/ses19/index.html"
+                },
+                {
+                    "title": "20. Cooperative Games",
+                    "videoUrl": "https://archive.org/download/MITCMS.608JS14/MITCMS_608S14_ses20.mp3",
+                    "youtubeKey": "SUcIAQTu-Ts",
+                    "contentLength": 34068255,
+                    "captionsFile": "/courses/cms-608-game-design-spring-2014/SUcIAQTu-Ts_captions.webvtt",
+                    "htmlFile": "resources/ses20/index.html"
+                },
+                {
+                    "title": "21. Social Play",
+                    "videoUrl": "https://archive.org/download/MITCMS.608JS14/MITCMS_608S14_ses21.mp3",
+                    "youtubeKey": "_yMU8qMSKzw",
+                    "contentLength": 53206779,
+                    "captionsFile": "/courses/cms-608-game-design-spring-2014/_yMU8qMSKzw_captions.webvtt",
+                    "htmlFile": "resources/ses21/index.html"
+                },
+                {
+                    "title": "22. Changing Rules I",
+                    "videoUrl": "https://archive.org/download/MITCMS.608JS14/MITCMS_608S14_ses22.mp3",
+                    "youtubeKey": "VXQAhzat098",
+                    "contentLength": 21337815,
+                    "captionsFile": "/courses/cms-608-game-design-spring-2014/VXQAhzat098_captions.webvtt",
+                    "htmlFile": "resources/ses22/index.html"
+                },
+                {
+                    "title": "23. Changing Rules II",
+                    "videoUrl": "https://archive.org/download/MITCMS.608JS14/MITCMS_608S14_ses23.mp3",
+                    "youtubeKey": "K3QfVXBqbYM",
+                    "contentLength": 35863570,
+                    "captionsFile": "/courses/cms-608-game-design-spring-2014/K3QfVXBqbYM_captions.webvtt",
+                    "htmlFile": "resources/ses23/index.html"
+                },
+                {
+                    "title": "24. Indie Games and Aesthetics with Jesper Juul",
+                    "videoUrl": "https://archive.org/download/MITCMS.608JS14/MITCMS_608S14_ses24.mp3",
+                    "youtubeKey": "fN1uPAtLatY",
+                    "contentLength": 24267560,
+                    "captionsFile": "/courses/cms-608-game-design-spring-2014/fN1uPAtLatY_captions.webvtt",
+                    "htmlFile": "resources/ses24/index.html"
+                }
+            ]
+        }
+    ]
+}

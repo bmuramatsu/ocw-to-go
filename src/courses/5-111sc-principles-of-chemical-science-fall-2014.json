@@ -1,0 +1,409 @@
+{
+    "id": "5-111sc-principles-of-chemical-science-fall-2014",
+    "name": "Principles of Chemical Science",
+    "featured": false,
+    "category": "Physical Science",
+    "topics": [
+        "Science",
+        "Chemistry",
+        "Inorganic Chemistry",
+        "Science",
+        "Chemistry",
+        "Organic Chemistry",
+        "Science",
+        "Chemistry",
+        "Physical Chemistry"
+    ],
+    "instructors": [
+        "Prof. Catherine Drennan"
+    ],
+    "courseNumber": "5.111SC",
+    "courseLevel": "Undergraduate",
+    "cardImg": "/images/course_cards/5-111sc-principles-of-chemical-science-fall-2014.jpg",
+    "imgAltText": "Photograph of Professor Drennan and abstract drawings of chemical formulas and symbols.",
+    "file": "https://files.ocwtogo.org/5.111sc-fall-2014.zip",
+    "downloadSize": 83313393,
+    "diskSize": 159046538,
+    "description": "This course provides an introduction to the chemistry of biological, inorganic, and organic molecules. The emphasis is on basic principles of atomic and molecular electronic structure, thermodynamics, acid-base and redox equilibria, chemical kinetics, and catalysis. One year of high school chemistry is the expected background for this freshman-level course.\n\nThe aims include developing a unified and intuitive view of how electronic structure controls the three-dimensional shape of molecules, the physical and chemical properties of molecules in gases, liquids and solids, and ultimately the assembly of macromolecules as in polymers and DNA. Relationships between chemistry and other fundamental sciences such as biology and physics are emphasized, as are the relationships between the science of chemistry to its applications in environmental science, atmospheric chemistry and electronic devices. \n\n[![Click to get started.](/images/button_start.png)](pages/syllabus)\n\n### Acknowledgements\n\nProfessor Drennan would like to acknowledge the contributions of MIT Lecturer Dr. Elizabeth Vogel Taylor, Professor Sylvia Ceyer, and Professor Robert Silbey to the development of this course and its materials.\n",
+    "descriptionHtml": "<p>This course provides an introduction to the chemistry of biological, inorganic, and organic molecules. The emphasis is on basic principles of atomic and molecular electronic structure, thermodynamics, acid-base and redox equilibria, chemical kinetics, and catalysis. One year of high school chemistry is the expected background for this freshman-level course.</p>\n<p>The aims include developing a unified and intuitive view of how electronic structure controls the three-dimensional shape of molecules, the physical and chemical properties of molecules in gases, liquids and solids, and ultimately the assembly of macromolecules as in polymers and DNA. Relationships between chemistry and other fundamental sciences such as biology and physics are emphasized, as are the relationships between the science of chemistry to its applications in environmental science, atmospheric chemistry and electronic devices. </p>\n<p><a href=\"pages/syllabus/index.html\"><img src=\"/images/button_start.png\" alt=\"Click to get started.\"></a></p>\n<h3 id=\"acknowledgements\">Acknowledgements</h3>\n<p>Professor Drennan would like to acknowledge the contributions of MIT Lecturer Dr. Elizabeth Vogel Taylor, Professor Sylvia Ceyer, and Professor Robert Silbey to the development of this course and its materials.</p>\n",
+    "videoGroups": [
+        {
+            "category": "Lecture Videos",
+            "videos": [
+                {
+                    "title": "Lecture 1: The Importance of Chemical Principles",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_L01_300k.mp4",
+                    "youtubeKey": "YkYeYhXUeEE",
+                    "contentLength": 50459415,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/53806302a09d5654b2be51beb4b8dbe4_YkYeYhXUeEE.vtt",
+                    "htmlFile": "resources/lecture-1-the-importance-of-chemical-principles/index.html"
+                },
+                {
+                    "title": "Lecture 2: Atomic Structure",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_L02_300k.mp4",
+                    "youtubeKey": "ustfXi-mpkI",
+                    "contentLength": 91358192,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/96f4d4d8c8b25ae784451342fa709f41_ustfXi-mpkI.vtt",
+                    "htmlFile": "resources/lecture-2-atomic-structure/index.html"
+                },
+                {
+                    "title": "Lecture 3: Wave-Particle Duality of Light",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_L03_300k.mp4",
+                    "youtubeKey": "_U6YamvF7BE",
+                    "contentLength": 106902523,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/843d153ec22e56ef84cbc38f56cdcb02_U6YamvF7BE.vtt",
+                    "htmlFile": "resources/lecture-3-wave-particle-duality-of-light/index.html"
+                },
+                {
+                    "title": "Lecture 4: Wave-Particle Duality of Matter; Schrödinger Equation",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_L04_300k.mp4",
+                    "youtubeKey": "Qg7pQ_CYaIQ",
+                    "contentLength": 107782526,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/0c9468d223fd5fdfb5f5482468ce80b6_Qg7pQ_CYaIQ.vtt",
+                    "htmlFile": "resources/lecture-4-wave-particle-duality-of-matter-schroedinger-equation/index.html"
+                },
+                {
+                    "title": "Lecture 5: Hydrogen atom energy levels",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_L05_300k.mp4",
+                    "youtubeKey": "kO0VmaLkgj8",
+                    "contentLength": 97167724,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/b859fe55a8d45db59b0529a414f86c49_kO0VmaLkgj8.vtt",
+                    "htmlFile": "resources/lecture-5-hydrogen-atom-energy-levels/index.html"
+                },
+                {
+                    "title": "Lecture 6: Hydrogen atom wavefunctions (orbitals)",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_L06_300k.mp4",
+                    "youtubeKey": "V-RPM3e8Ws0",
+                    "contentLength": 141191515,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/47fde2dec1055b69a501aa05cab350a2_V-RPM3e8Ws0.vtt",
+                    "htmlFile": "resources/lecture-6-hydrogen-atom-wavefunctions-orbitals/index.html"
+                },
+                {
+                    "title": "Lecture 7: Multielectron atoms",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_L07_300k.mp4",
+                    "youtubeKey": "-jJz5OMmuP0",
+                    "contentLength": 83690401,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/05b3a9fed0ec58288b33d4a9ff68a8b4_-jJz5OMmuP0.vtt",
+                    "htmlFile": "resources/lecture-7-multielectron-atoms/index.html"
+                },
+                {
+                    "title": "Lecture 8: The Periodic Table and Periodic Trends",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_L08_300k.mp4",
+                    "youtubeKey": "LWmVdG0uj2g",
+                    "contentLength": 97255276,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/c0bba8e1cb275592bbbe373abb7ff55a_LWmVdG0uj2g.vtt",
+                    "htmlFile": "resources/lecture-8-the-periodic-table-and-periodic-trends/index.html"
+                },
+                {
+                    "title": "Lecture 9: Periodic Table; Ionic and Covalent Bonds",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_L09_300k.mp4",
+                    "youtubeKey": "NIZFPnHtrBA",
+                    "contentLength": 126097227,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/87f60a24779056e6842192ad24a33594_NIZFPnHtrBA.vtt",
+                    "htmlFile": "resources/lecture-9-periodic-table-ionic-and-covalent-bonds/index.html"
+                },
+                {
+                    "title": "Lecture 10: Introduction to Lewis Structures",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_L10_300k.mp4",
+                    "youtubeKey": "ed_XR1BzuQs",
+                    "contentLength": 102157268,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/81cfae9a8e805d78a3c31cbc63055b5a_ed_XR1BzuQs.vtt",
+                    "htmlFile": "resources/lecture-10-lewis-structures/index.html"
+                },
+                {
+                    "title": "Lecture 11: Lewis Structures: Breakdown of the Octet Rule",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_L11_300k.mp4",
+                    "youtubeKey": "Hc5ODj1Ml6c",
+                    "contentLength": 67585686,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/0fd611b5e92d5811bc2b17a6cd313a86_Hc5ODj1Ml6c.vtt",
+                    "htmlFile": "resources/lecture-11-formal-charge-and-resonance/index.html"
+                },
+                {
+                    "title": "Lecture 12: The Shapes of Molecules: VSEPR Theory",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_L12_300k.mp4",
+                    "youtubeKey": "Ja9eEQQzTic",
+                    "contentLength": 106029441,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/9ca5153a3de253e3a80eb57e7751bc53_Ja9eEQQzTic.vtt",
+                    "htmlFile": "resources/lecture-12-the-shapes-of-molecules-vsepr-theory/index.html"
+                },
+                {
+                    "title": "Lecture 13: Molecular Orbital Theory",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_L13_300k.mp4",
+                    "youtubeKey": "O192jrR80oo",
+                    "contentLength": 153066775,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/6bf9c10af0af5bf78c9d60b8711e8101_O192jrR80oo.vtt",
+                    "htmlFile": "resources/lecture-13-molecular-orbital-theory/index.html"
+                },
+                {
+                    "title": "Lecture 14: Valence Bond Theory and Hybridization",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_L14_300k.mp4",
+                    "youtubeKey": "BBbuj0XpaiQ",
+                    "contentLength": 132443657,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/eec086f4fd7d52ff955087ce8dbe3de3_BBbuj0XpaiQ.vtt",
+                    "htmlFile": "resources/lecture-14-valence-bond-theory-and-hybridization/index.html"
+                },
+                {
+                    "title": "Lecture 15: Thermodynamics: Bond and Reaction Enthalpies",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_L15_300k.mp4",
+                    "youtubeKey": "wS1MX-C2V9w",
+                    "contentLength": 90007302,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/cb734ec20d8b55e497db7e33353336b9_wS1MX-C2V9w.vtt",
+                    "htmlFile": "resources/lecture-15-thermodynamics-bond-and-reaction-enthalpies/index.html"
+                },
+                {
+                    "title": "Lecture 16: Thermodynamics: Gibbs Free Energy and Entropy",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_L16_300k.mp4",
+                    "youtubeKey": "OjhZYx1FbhI",
+                    "contentLength": 75218817,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/4c36cf4abb6e51278f23fb3928fe158b_OjhZYx1FbhI.vtt",
+                    "htmlFile": "resources/lecture-16-thermodynamics-gibbs-free-energy-and-entropy/index.html"
+                },
+                {
+                    "title": "Lecture 17: Thermodynamics: Now What Happens When You Heat It Up?",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_L17_300k.mp4",
+                    "youtubeKey": "awdQqF9CFt0",
+                    "contentLength": 76200866,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/2f3b565ad3595486a8ed00f1505a5ddc_awdQqF9CFt0.vtt",
+                    "htmlFile": "resources/lecture-17-thermodynamics-now-what-happens-when-you-heat-it-up/index.html"
+                },
+                {
+                    "title": "Lecture 18: Introduction to Chemical Equilibrium",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_L18_300k.mp4",
+                    "youtubeKey": "f0udxGcoztE",
+                    "contentLength": 111729621,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/81cad1b317255cc2951841f16d344b24_f0udxGcoztE.vtt",
+                    "htmlFile": "resources/lecture-18-introduction-to-chemical-equilibrium/index.html"
+                },
+                {
+                    "title": "Lecture 19: Chemical Equilibrium: Le Châtelier's Principle",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_L19_300k.mp4",
+                    "youtubeKey": "AVL5AwJrrEU",
+                    "contentLength": 110282617,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/f2d48eccbbf25772948e6681b50f3b34_AVL5AwJrrEU.vtt",
+                    "htmlFile": "resources/lecture-19-chemical-equilibrium-le-chatelier2019s-principle/index.html"
+                },
+                {
+                    "title": "Lecture 20: Solubility and Acid-Base Equilibrium",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_L20_300k.mp4",
+                    "youtubeKey": "FJCVSswFXyE",
+                    "contentLength": 99148906,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/897f42272d565e4ea83def6ac634fec9_FJCVSswFXyE.vtt",
+                    "htmlFile": "resources/lecture-20-solubility-and-acid-base-equilibrium/index.html"
+                },
+                {
+                    "title": "Lecture 21: Acid-Base Equilibrium: Is MIT Water Safe to Drink?",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_L21_300k.mp4",
+                    "youtubeKey": "pJdUR2uak2s",
+                    "contentLength": 140968982,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/660c5e5bb8fa54318e04b67671e50888_pJdUR2uak2s.vtt",
+                    "htmlFile": "resources/lecture-21-acid-base-equilibrium-is-mit-water-safe-to-drink/index.html"
+                },
+                {
+                    "title": "Lecture 22: Acid-Base Equilibrium: Salt Solutions and Buffers",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_L22_300k.mp4",
+                    "youtubeKey": "caonmXHGB60",
+                    "contentLength": 118438661,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/bf9c25b1ab0a5b06b8d2d13cff780e47_caonmXHGB60.vtt",
+                    "htmlFile": "resources/lecture-22-acid-base-equilibrium-salt-solutions-and-buffers/index.html"
+                },
+                {
+                    "title": "Lecture 23: Acid-Base Titrations Part I",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_L23_300k.mp4",
+                    "youtubeKey": "pIwp65fPyYU",
+                    "contentLength": 106604700,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/1ea6eff1c4ca55a1984c7f2d8bbd0b8e_pIwp65fPyYU.vtt",
+                    "htmlFile": "resources/lecture-23-acid-base-titrations-part-i/index.html"
+                },
+                {
+                    "title": "Lecture 24: Acid-Base Titrations Part II",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_L24_300k.mp4",
+                    "youtubeKey": "Om_5b29d_9g",
+                    "contentLength": 49422710,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/93c4579ca0ca5c76ba57dde4cb352891_Om_5b29d_9g.vtt",
+                    "htmlFile": "resources/lecture-24-acid-base-titrations-part-ii/index.html"
+                },
+                {
+                    "title": "Lecture 25: Oxidation-Reduction and Electrochemical Cells",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_L25_300k.mp4",
+                    "youtubeKey": "BZzkyqe6KD8",
+                    "contentLength": 121995784,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/b41265fff05e5f5e8c24234bc9d7ea51_BZzkyqe6KD8.vtt",
+                    "htmlFile": "resources/lecture-25-oxidation-reduction-and-electrochemical-cells/index.html"
+                },
+                {
+                    "title": "Lecture 26: Chemical and Biological Oxidations",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_L26_300k.mp4",
+                    "youtubeKey": "f6Z99Gu6XEE",
+                    "contentLength": 102754478,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/01649c609cb65fa6b789a834fa3e7819_f6Z99Gu6XEE.vtt",
+                    "htmlFile": "resources/lecture-26-chemical-and-biological-oxidations/index.html"
+                },
+                {
+                    "title": "Lecture 27: Introduction to Transition Metals",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_L27_300k.mp4",
+                    "youtubeKey": "JBgbUI3pxV0",
+                    "contentLength": 102113804,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/006772af473656e093b66fe2759bd6fb_JBgbUI3pxV0.vtt",
+                    "htmlFile": "resources/lecture-27-introduction-to-transition-metals/index.html"
+                },
+                {
+                    "title": "Lecture 28: Transition Metals: Crystal Field Theory Part I",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_L28_300k.mp4",
+                    "youtubeKey": "lLdPSLNxDqA",
+                    "contentLength": 124065020,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/f38a763c2393504fa3c1a27202a79ea8_lLdPSLNxDqA.vtt",
+                    "htmlFile": "resources/lecture-28-transition-metals-crystal-field-theory-part-i/index.html"
+                },
+                {
+                    "title": "Lecture 29: Transition Metals: Crystal Field Theory Part II",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_L29_300k.mp4",
+                    "youtubeKey": "CFPnZ66nge4",
+                    "contentLength": 79351620,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/05c5f1e19007507c9655f24ab67924bd_CFPnZ66nge4.vtt",
+                    "htmlFile": "resources/lecture-29-transition-metals-crystal-field-theory-part-ii/index.html"
+                },
+                {
+                    "title": "Lecture 30: Kinetics: Rate Laws",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_L30_300k.mp4",
+                    "youtubeKey": "B7iFcW8USjQ",
+                    "contentLength": 106148806,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/f8818d748f0a5559bf1f6066dbdef7a5_B7iFcW8USjQ.vtt",
+                    "htmlFile": "resources/lecture-30-kinetics-rate-laws/index.html"
+                },
+                {
+                    "title": "Lecture 31: Nuclear Chemistry and Chemical Kinetics",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_L31_300k.mp4",
+                    "youtubeKey": "XKeAd4xybjM",
+                    "contentLength": 81668632,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/760bbe98c1ad51d18eeb734c175f0448_XKeAd4xybjM.vtt",
+                    "htmlFile": "resources/lecture-31-nuclear-chemistry-and-chemical-kinetics/index.html"
+                },
+                {
+                    "title": "Lecture 32: Kinetics: Reaction Mechanisms",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_L32_300k.mp4",
+                    "youtubeKey": "4q0T9c7jotw",
+                    "contentLength": 108032049,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/25f199be150557859fe349cd6c9d66ba_4q0T9c7jotw.vtt",
+                    "htmlFile": "resources/lecture-32-kinetics-reaction-mechanisms/index.html"
+                },
+                {
+                    "title": "Lecture 33: Kinetics and Temperature",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_L33_300k.mp4",
+                    "youtubeKey": "KHkNrbSKFic",
+                    "contentLength": 120764360,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/f37fb51be41c5cb9bbcc121da2254138_KHkNrbSKFic.vtt",
+                    "htmlFile": "resources/lecture-33-kinetics-and-temperature/index.html"
+                },
+                {
+                    "title": "Lecture 34: Kinetics: Catalysts",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_L34_300k.mp4",
+                    "youtubeKey": "p8AAjZXr5dg",
+                    "contentLength": 95806291,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/305095cdb9fa5288b446f85e0a27af78_p8AAjZXr5dg.vtt",
+                    "htmlFile": "resources/lecture-34-kinetics-catalysts/index.html"
+                },
+                {
+                    "title": "Lecture 35: Applying Chemical Principles",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_L35_300k.mp4",
+                    "youtubeKey": "pn1cxuBmhtI",
+                    "contentLength": 77396968,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/0b90e7c27c285d6cbc5bd1bac5667a40_pn1cxuBmhtI.vtt",
+                    "htmlFile": "resources/lecture-35-applying-chemical-principles/index.html"
+                }
+            ]
+        },
+        {
+            "category": "Other Video",
+            "videos": [
+                {
+                    "title": "5.111: A Space to Discover your Passion for Chemistry",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_CreatingSpace_300k.mp4",
+                    "youtubeKey": "r7MO11iMsOQ",
+                    "contentLength": 10820316,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/fa9931497b6d57808499099119084113_r7MO11iMsOQ.vtt",
+                    "htmlFile": "resources/5/index.html"
+                },
+                {
+                    "title": "Building a Team of Teaching Assistants",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_TeachingTeam_300k.mp4",
+                    "youtubeKey": "S5UKjrfJiL8",
+                    "contentLength": 8117539,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/93a94043e40255f6afcc9b570ae4171e_S5UKjrfJiL8.vtt",
+                    "htmlFile": "resources/building-a-team-of-teaching-assistants/index.html"
+                },
+                {
+                    "title": "Clicker Competitions",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_Clickers_300k.mp4",
+                    "youtubeKey": "VXeTfT8JL0Q",
+                    "contentLength": 10172824,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/d915a72260aa54978ce667b3e4631a5d_VXeTfT8JL0Q.vtt",
+                    "htmlFile": "resources/clicker-competitions/index.html"
+                },
+                {
+                    "title": "Diversity Training: Addressing Stereotype Threat in the Classroom",
+                    "videoUrl": "https://archive.org/download/mitdiversitytraining/MIT_diversity_training_stereotype_300k.mp4",
+                    "youtubeKey": "pSIAK5hzJeI",
+                    "contentLength": 216577727,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/7d25f72cebfe55ababb4d3891909a4ae_pSIAK5hzJeI.vtt",
+                    "htmlFile": "resources/diversity-training-addressing-stereotype-threat-in-the-classroom/index.html"
+                },
+                {
+                    "title": "Diversity Training: Introduction Video",
+                    "videoUrl": "https://archive.org/download/mitdiversitytraining/MIT_diversity_training_intro_300k.mp4",
+                    "youtubeKey": "IzTRzMf8kKE",
+                    "contentLength": 10024984,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/406b55eaf7675474b4893c19cad7579a_IzTRzMf8kKE.vtt",
+                    "htmlFile": "resources/diversity-training-introduction-video/index.html"
+                },
+                {
+                    "title": "Meet the Educator",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_MeetTheEducator_300k.mp4",
+                    "youtubeKey": "YEUyMX7kouw",
+                    "contentLength": 8730236,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/cf95fad5e9da5a979ec8c0455399dc9f_YEUyMX7kouw.vtt",
+                    "htmlFile": "resources/meet-the-educator/index.html"
+                },
+                {
+                    "title": "Pizza Forums: Connecting with Students in a Large Lecture Class",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_Pizza_300k.mp4",
+                    "youtubeKey": "xB8xRCSyQlY",
+                    "contentLength": 6518824,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/2b533be405375285a44755e06d737927_xB8xRCSyQlY.vtt",
+                    "htmlFile": "resources/pizza-forums-connecting-with-students-in-a-large-lecture-class/index.html"
+                },
+                {
+                    "title": "Preparing for Lectures",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_PreparingLectures_300k.mp4",
+                    "youtubeKey": "_ZZ6jwuBJxc",
+                    "contentLength": 5374493,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/d7e60309cf5759c69ce2a45f22962e15_ZZ6jwuBJxc.vtt",
+                    "htmlFile": "resources/preparing-for-lectures/index.html"
+                },
+                {
+                    "title": "Promoting Active Participation During Lectures",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_ActiveParticipation_300k.mp4",
+                    "youtubeKey": "htRqniQFm5g",
+                    "contentLength": 9876367,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/967b1e574ecb54f3b6c522e7f921c607_htRqniQFm5g.vtt",
+                    "htmlFile": "resources/promoting-active-participation-during-lectures/index.html"
+                },
+                {
+                    "title": "Spotlighting Contemporary Chemistry",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_SpotlightingContemporary_300k.mp4",
+                    "youtubeKey": "-Y8pOF1AgUY",
+                    "contentLength": 7487951,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/69f42cd27a5258b18a8f098d11741869_-Y8pOF1AgUY.vtt",
+                    "htmlFile": "resources/spotlighting-contemporary-chemistry/index.html"
+                },
+                {
+                    "title": "Using Humor to Engage Students",
+                    "videoUrl": "https://archive.org/download/MIT5.111F14/MIT5_111F14_Humor_300k.mp4",
+                    "youtubeKey": "739SB34oEyo",
+                    "contentLength": 10180400,
+                    "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/f049459ac6bd593286f6caca1ef92602_739SB34oEyo.vtt",
+                    "htmlFile": "resources/using-humor-to-engage-students/index.html"
+                }
+            ]
+        }
+    ]
+}
