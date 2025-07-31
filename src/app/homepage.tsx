@@ -4,6 +4,8 @@ import { Link } from "wouter";
 import ScrollTo from "./scroll_to";
 import { ALL_COURSES } from "./initial_course_list";
 import { FeaturedCourseCard } from "./course_card/course_card";
+import { featuredCourseNumbers } from "../courses/featured";
+import { CourseData } from "../types";
 
 export default function Homepage() {
   const courseCount = React.useMemo(() => {
@@ -11,9 +13,18 @@ export default function Homepage() {
   }, []);
 
   const featuredCourses = React.useMemo(() => {
-    return ALL_COURSES.filter((course) => course.featured).sort((a, b) =>
-      a.courseNumber.localeCompare(b.courseNumber),
-    );
+    const featuredCourses: CourseData[] = [];
+
+    featuredCourseNumbers.forEach((courseNumber) => {
+      const course = ALL_COURSES.find((c) => c.courseNumber === courseNumber);
+      if (course) {
+        featuredCourses.push(course);
+      } else {
+        console.warn(`Featured course ${courseNumber} not found`);
+      }
+    });
+
+    return featuredCourses;
   }, []);
 
   return (

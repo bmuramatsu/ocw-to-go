@@ -14,7 +14,6 @@ export type CourseData = {
   videos: VideoData[];
   downloadSize: number;
   diskSize: number;
-  featured: boolean;
   description: string;
   descriptionHtml: string;
 };
