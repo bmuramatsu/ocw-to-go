@@ -26,21 +26,24 @@ export default function CourseVideo({
 
   const bytes = useFormattedBytes(video.contentLength);
 
-  const videoPath = `/courses/${courseId}/${video.htmlFile}`;
-
   return (
     <div key={video.youtubeKey} className="video-list__item">
       <StatusIcon videoStatus={videoStatus} />
       <div className="video-list__item__content">
         <h3>
-          {withLink ? <Link href={videoPath}>{video.title}</Link> : video.title}
+          {withLink ? (
+            <Link href={videoPath(courseId, video)}>{video.title}</Link>
+          ) : (
+            video.title
+          )}
         </h3>
         <p>{bytes}</p>
       </div>
       <DownloadButton
         courseId={courseId}
-        videoId={video.youtubeKey}
+        video={video}
         videoStatus={videoStatus}
+        withLink={withLink}
       />
     </div>
   );
@@ -48,14 +51,17 @@ export default function CourseVideo({
 
 interface DownloadButtonProps {
   courseId: string;
-  videoId: string;
+  video: VideoData;
   videoStatus: FullUserVideo;
+  withLink: boolean;
 }
 function DownloadButton({
   courseId,
-  videoId,
+  video,
   videoStatus,
+  withLink,
 }: DownloadButtonProps) {
+  const videoId = video.youtubeKey;
   const dispatch = useAppDispatch();
   const deleteVideo = () =>
     dispatch(asyncActions.deleteVideo(courseId, videoId));
@@ -63,10 +69,16 @@ function DownloadButton({
   switch (videoStatus.status) {
     case "ready":
       return (
-        <button className="btn--has-icon" onClick={() => deleteVideo()}>
-          <Trash />
-          Delete
-        </button>
+        <>
+          {withLink && (
+            <Link href={videoPath(courseId, video)} className="btn--has-icon">
+              Play
+            </Link>
+          )}
+          <button className="btn--has-icon" onClick={() => deleteVideo()}>
+            <Trash />
+          </button>
+        </>
       );
     case "downloading":
     case "waiting":
@@ -106,6 +118,10 @@ function DownloadButton({
         </div>
       );
   }
+}
+
+function videoPath(courseId: string, video: VideoData): string {
+  return `/courses/${courseId}/${video.htmlFile}`;
 }
 
 interface StatusIconProps {

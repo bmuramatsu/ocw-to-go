@@ -10,7 +10,7 @@ a.external-link {
   display: inline-block;
   font-size: inherit;
   text-decoration: underline !important;
-  color: #FFF;
+  color: #fff;
   padding-inline-start: 20px;
 }
 
@@ -21,7 +21,7 @@ a.external-link svg {
   translate: 0 -50%;
   width: 16px;
   height: 16px;
-  fill: #FFF;
+  fill: #fff;
 }
 
 a.external-link:hover {
@@ -29,6 +29,7 @@ a.external-link:hover {
   opacity: 0.8;
 }
 
+/* making the mobile nav button more prominent */
 #mobile-course-nav-toggle {
   background-color: black;
   color: white;
@@ -39,6 +40,7 @@ a.external-link:hover {
   gap: 8px;
   padding: 8px 16px 8px 8px;
   line-height: 1;
+  white-space: nowrap;
 }
 
 /* overriding strange video styles */
@@ -46,4 +48,11 @@ a.external-link:hover {
 .video-page .video-player-wrapper .video-container {
   height: auto !important;
   padding-bottom: 0 !important;
+}
+
+/* Hide the offline message since we replace it with our own, it's also removed
+ * with JS, but this will hopefully prevent it from appearing temporarily */
+
+.video-player-wrapper .show-offline {
+  display: none;
 }
