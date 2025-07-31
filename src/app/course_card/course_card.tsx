@@ -9,6 +9,7 @@ import { selectUserCourse } from "../store/course_selectors";
 import MainButton from "../course_card/main_button";
 import CourseCardMenu from "../course_card/menu";
 import VideoButton from "../course_card/video_button";
+import CourseCardDescription from "./description";
 
 interface Props {
   courseData: CourseData;
@@ -62,7 +63,9 @@ function CourseCard({
           <CourseLink courseData={courseData}>{courseData.name}</CourseLink>
         </h3>
         <p className="u-mt-12">{courseData.instructors.join(", ")}</p>
-        {includeDescription && <p>Description component here</p>}
+        {includeDescription && (
+          <CourseCardDescription courseData={courseData} />
+        )}
       </div>
       <div className="course-card__actions">
         {includeManageVideos && hasVideos && state === "ready" && (
