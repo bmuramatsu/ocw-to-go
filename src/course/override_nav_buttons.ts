@@ -1,4 +1,4 @@
-import OcwBroadcastChannel from "../common/broadcast_channel";
+import broadcastChannel from "./course_channel";
 
 // Make various links within the courses take you back to the PWA
 type Override = {
@@ -23,8 +23,6 @@ const OVERRIDES: Override[] = [
 ];
 
 export default function overrideNavButtons() {
-  const channel = new OcwBroadcastChannel();
-
   OVERRIDES.forEach((o) => {
     document.querySelectorAll<HTMLAnchorElement>(o.selector).forEach((el) => {
       el.href = o.href;
@@ -33,7 +31,7 @@ export default function overrideNavButtons() {
       // so the app doesn't reload
       el.addEventListener("click", (e: MouseEvent) => {
         e.preventDefault();
-        channel.postMessage({
+        broadcastChannel.postMessage({
           type: "navigate",
           href: o.href,
         });

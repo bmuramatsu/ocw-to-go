@@ -1,11 +1,9 @@
-import OcwBroadcastChannel from "../common/broadcast_channel";
+import { broadcastChannel } from "./course_channel";
 
 // This captures all navigation within the iframe and sends it to the main window
 // If navigation instead occurs using the back button, the main window will
 // take care of that.
 export default function addUnloadListener() {
-  const channel = new OcwBroadcastChannel();
-
   document.addEventListener("click", (e) => {
     if (!e.target) return;
 
@@ -21,7 +19,7 @@ export default function addUnloadListener() {
 
       let absolutePath = new URL(origin!.href).pathname;
       absolutePath = absolutePath.replace("/index.html", "");
-      channel.postMessage({ type: "navigate", href: absolutePath });
+      broadcastChannel.postMessage({ type: "navigate", href: absolutePath });
     }
   });
 }
