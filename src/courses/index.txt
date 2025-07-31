@@ -1,7 +1,6 @@
 6-100l-introduction-to-cs-and-programming-using-python-fall-2022
 18-06sc-linear-algebra-fall-2011
 24-908-creole-languages-and-caribbean-identities-spring-2017
-6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016
 18-01sc-single-variable-calculus-fall-2010
 1-89-environmental-microbiology-fall-2004
 6-092-introduction-to-programming-in-java-january-iap-2010

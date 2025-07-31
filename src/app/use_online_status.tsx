@@ -13,15 +13,8 @@ export function OnlineStatusProvider({ children }: OnlineStatusProviderProps) {
   const [online, setOnline] = React.useState(navigator.onLine);
 
   React.useEffect(() => {
-    const onlineListener = () => {
-      console.log("on");
-      setOnline(true);
-    };
-    const offlineListener = () => {
-      console.log("off");
-      setOnline(false);
-    };
-
+    const onlineListener = () => setOnline(true);
+    const offlineListener = () => setOnline(false);
     window.addEventListener("online", onlineListener);
     window.addEventListener("offline", offlineListener);
 
