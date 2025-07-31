@@ -13,13 +13,18 @@ export default function addUnloadListener() {
     // which is more useful in this case
     const href = origin?.getAttribute("href");
 
-    // Capture only events that are navigating within the course
+    // Capture events that are navigating within the course
     if (href?.startsWith(".") && href.endsWith("/index.html")) {
       e.preventDefault();
 
       let absolutePath = new URL(origin!.href).pathname;
       absolutePath = absolutePath.replace("/index.html", "");
       broadcastChannel.postMessage({ type: "navigate", href: absolutePath });
+      // capture events that are navigating to locations in the app
+    } else if (href?.startsWith("/")) {
+      e.preventDefault();
+      broadcastChannel.postMessage({ type: "navigate", href });
     }
+    // other links are ignored
   });
 }

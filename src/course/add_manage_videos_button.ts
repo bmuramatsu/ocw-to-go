@@ -1,4 +1,3 @@
-import broadcastChannel from "./course_channel";
 import env from "./env";
 
 // Adds links to 'Manage Videos' anywhere in the course where the 'Browse
@@ -48,14 +47,6 @@ function addLink(container: Element, link: HTMLAnchorElement) {
 
   const href = `/manage_videos/${env.course.id}`;
   link.href = href;
-
-  link.addEventListener("click", (e: MouseEvent) => {
-    e.preventDefault();
-    broadcastChannel.postMessage({
-      type: "navigate",
-      href,
-    });
-  });
 
   container.appendChild(link);
 }

@@ -1,5 +1,3 @@
-import broadcastChannel from "./course_channel";
-
 // Make various links within the courses take you back to the PWA
 type Override = {
   selector: string;
@@ -26,16 +24,6 @@ export default function overrideNavButtons() {
   OVERRIDES.forEach((o) => {
     document.querySelectorAll<HTMLAnchorElement>(o.selector).forEach((el) => {
       el.href = o.href;
-
-      // this navigates with the app router instead of the browser history,
-      // so the app doesn't reload
-      el.addEventListener("click", (e: MouseEvent) => {
-        e.preventDefault();
-        broadcastChannel.postMessage({
-          type: "navigate",
-          href: o.href,
-        });
-      });
     });
   });
 }
