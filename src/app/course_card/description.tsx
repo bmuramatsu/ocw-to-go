@@ -20,10 +20,22 @@ export default function CourseCardDescription({
     return `<p>${courseData.descriptionHtml}</p>`;
   }, [courseData.descriptionHtml]);
 
+  const [expanded, setExpanded] = React.useState(false);
+
   return (
-    <div
-      className="course-card__description"
-      dangerouslySetInnerHTML={{ __html: firstParagraph }}
-    />
+    <>
+      <div
+        className="course-card__description"
+        dangerouslySetInnerHTML={{ __html: firstParagraph }}
+        style={
+          expanded
+            ? {}
+            : { overflow: "hidden", lineHeight: "1.5em", maxHeight: "4.5em" }
+        }
+      />
+      <button onClick={() => setExpanded((e) => !e)}>
+        {expanded ? "Collapse" : "Expand"}
+      </button>
+    </>
   );
 }
