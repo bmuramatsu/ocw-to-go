@@ -6,7 +6,7 @@ import { ChevronRight } from "./svgs";
 
 export default function AllCourses() {
   const groupedCourses = React.useMemo(() => {
-    return ALL_COURSES.reduce(
+    const groups = ALL_COURSES.reduce(
       (acc, course) => {
         const category = course.category;
         if (!acc[category]) {
@@ -17,6 +17,12 @@ export default function AllCourses() {
       },
       {} as Record<string, CourseData[]>,
     );
+
+    Object.keys(groups).forEach((key) => {
+      groups[key].sort((a, b) => a.courseNumber.localeCompare(b.courseNumber));
+    });
+
+    return groups;
   }, []);
 
   const categories = React.useMemo(() => {

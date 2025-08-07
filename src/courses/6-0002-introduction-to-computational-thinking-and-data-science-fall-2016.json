@@ -1,0 +1,165 @@
+{
+    "id": "6-0002-introduction-to-computational-thinking-and-data-science-fall-2016",
+    "name": "Introduction to Computational Thinking and Data Science",
+    "category": "Computer Science",
+    "topics": [
+        "Engineering",
+        "Computer Science",
+        "Mathematics",
+        "Probability and Statistics"
+    ],
+    "instructors": [
+        "Prof. Eric Grimson",
+        "Prof. John Guttag",
+        "Dr. Ana Bell"
+    ],
+    "courseNumber": "6.0002",
+    "courseLevel": "Undergraduate",
+    "cardImg": "/images/course_cards/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.jpg",
+    "imgAltText": "Abstract blue, red, yellow, and purple block clusters.",
+    "file": "https://files.ocwtogo.org/6.0002-fall-2016.zip",
+    "downloadSize": 33826763,
+    "diskSize": 66719857,
+    "description": "6.0002 is the continuation of _[6.0001 Introduction to Computer Science and Programming in Python](/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/)_ and is intended for students with little or no programming experience. It aims to provide students with an understanding of the role computation can play in solving problems and to help students, regardless of their major, feel justifiably confident of their ability to write small programs that allow them to accomplish useful goals. The class uses the Python 3.5 programming language.\n",
+    "descriptionHtml": "6.0002 is the continuation of <em><a href=\"https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/\" target=\"_blank\" rel=\"noopener\">6.0001 Introduction to Computer Science and Programming in Python</a></em> and is intended for students with little or no programming experience. It aims to provide students with an understanding of the role computation can play in solving problems and to help students, regardless of their major, feel justifiably confident of their ability to write small programs that allow them to accomplish useful goals. The class uses the Python 3.5 programming language.",
+    "videoGroups": [
+        {
+            "category": "Podcasts",
+            "videos": [
+                {
+                    "title": "MIT Programmer on GenAI, Growth Mindset, and Rubber Ducks?",
+                    "videoUrl": "https://archive.org/download/chalk-radio/S07E02_Ana_Bell_360p.mp4",
+                    "youtubeKey": "p8918BiV01c",
+                    "contentLength": 69657764,
+                    "captionsFile": "/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/p8918BiV01c_captions.webvtt",
+                    "htmlFile": "resources/mit-programmer-on-genai-growth-mindset-and-rubber-ducks/index.html"
+                }
+            ]
+        },
+        {
+            "category": "Lecture Videos",
+            "videos": [
+                {
+                    "title": "Lecture 1: Introduction and Optimization Problems",
+                    "videoUrl": "https://archive.org/download/MIT6.0002F16/MIT6_0002F16_lec01_300k.mp4",
+                    "youtubeKey": "C1lhuz6pZC0",
+                    "contentLength": 95621745,
+                    "captionsFile": "/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/663807dc409052db97795d0016d6ffe1_C1lhuz6pZC0.vtt",
+                    "htmlFile": "resources/lecture-1-introduction-and-optimization-problems/index.html"
+                },
+                {
+                    "title": "Lecture 2: Optimization Problems",
+                    "videoUrl": "https://archive.org/download/MIT6.0002F16/MIT6_0002F16_lec02_300k.mp4",
+                    "youtubeKey": "uK5yvoXnkSk",
+                    "contentLength": 112345825,
+                    "captionsFile": "/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/872b808a53775fef91a224c9097a4fd9_uK5yvoXnkSk.vtt",
+                    "htmlFile": "resources/lecture-2-optimization-problems/index.html"
+                },
+                {
+                    "title": "Lecture 3: Graph-theoretic Models",
+                    "videoUrl": "https://archive.org/download/MIT6.0002F16/MIT6_0002F16_lec03_300k.mp4",
+                    "youtubeKey": "V_TulH374hw",
+                    "contentLength": 117873948,
+                    "captionsFile": "/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/16ac952ca7a856bdb21e9083946f188e_V_TulH374hw.vtt",
+                    "htmlFile": "resources/lecture-3-graph-theoretic-models/index.html"
+                },
+                {
+                    "title": "Lecture 4: Stochastic Thinking",
+                    "videoUrl": "https://archive.org/download/MIT6.0002F16/MIT6_0002F16_lec04_300k.mp4",
+                    "youtubeKey": "-1BnXEwHUok",
+                    "contentLength": 115692505,
+                    "captionsFile": "/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/8f30fbded7a45916bec11a59017feacf_-1BnXEwHUok.vtt",
+                    "htmlFile": "resources/lecture-4-stochastic-thinking/index.html"
+                },
+                {
+                    "title": "Lecture 5: Random Walks",
+                    "videoUrl": "https://archive.org/download/MIT6.0002F16/MIT6_0002F16_lec05_300k.mp4",
+                    "youtubeKey": "6wUD_gp5WeE",
+                    "contentLength": 114951163,
+                    "captionsFile": "/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/5044d4e030c55242ba24395be426ea82_6wUD_gp5WeE.vtt",
+                    "htmlFile": "resources/lecture-5-random-walks/index.html"
+                },
+                {
+                    "title": "Lecture 6: Monte Carlo Simulation",
+                    "videoUrl": "https://archive.org/download/MIT6.0002F16/MIT6_0002F16_lec06_300k.mp4",
+                    "youtubeKey": "OgO1gpXSUzU",
+                    "contentLength": 115024651,
+                    "captionsFile": "/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/0a7a61628fed5a67b11469d56d7e521e_OgO1gpXSUzU.vtt",
+                    "htmlFile": "resources/lecture-6-monte-carlo-simulation/index.html"
+                },
+                {
+                    "title": "Lecture 7: Confidence Intervals",
+                    "videoUrl": "https://archive.org/download/MIT6.0002F16/MIT6_0002F16_lec07_300k.mp4",
+                    "youtubeKey": "rUxP7TM8-wo",
+                    "contentLength": 117957035,
+                    "captionsFile": "/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/80a64e43656053c7ab6c8a97bedddd4f_rUxP7TM8-wo.vtt",
+                    "htmlFile": "resources/lecture-7-confidence-intervals/index.html"
+                },
+                {
+                    "title": "Lecture 8: Sampling and Standard Error",
+                    "videoUrl": "https://archive.org/download/MIT6.0002F16/MIT6_0002F16_lec08_300k.mp4",
+                    "youtubeKey": "soZv_KKax3E",
+                    "contentLength": 108665585,
+                    "captionsFile": "/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/4f622d3309645cefafc357f5151b33bc_soZv_KKax3E.vtt",
+                    "htmlFile": "resources/lecture-8-sampling-and-standard-error/index.html"
+                },
+                {
+                    "title": "Lecture 9: Understanding Experimental Data",
+                    "videoUrl": "https://archive.org/download/MIT6.0002F16/MIT6_0002F16_lec09_300k.mp4",
+                    "youtubeKey": "vIFKGFl1Cn8",
+                    "contentLength": 109861558,
+                    "captionsFile": "/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/a6e9ee93bbf55d288d19d088237503e7_vIFKGFl1Cn8.vtt",
+                    "htmlFile": "resources/lecture-9-understanding-experimental-data/index.html"
+                },
+                {
+                    "title": "Lecture 10: Understanding Experimental Data (cont.)",
+                    "videoUrl": "https://archive.org/download/MIT6.0002F16/MIT6_0002F16_lec10_300k.mp4",
+                    "youtubeKey": "fQvg-hh9dUw",
+                    "contentLength": 116978326,
+                    "captionsFile": "/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/d3a31f30c86458e1bd60ae903e5bf219_fQvg-hh9dUw.vtt",
+                    "htmlFile": "resources/lecture-10-understanding-experimental-data-cont/index.html"
+                },
+                {
+                    "title": "Lecture 11: Introduction to Machine Learning",
+                    "videoUrl": "https://archive.org/download/MIT6.0002F16/MIT6_0002F16_lec11_300k.mp4",
+                    "youtubeKey": "h0e2HAPTGF4",
+                    "contentLength": 120832563,
+                    "captionsFile": "/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/7164106d893f546f85048b859c487883_h0e2HAPTGF4.vtt",
+                    "htmlFile": "resources/lecture-11-introduction-to-machine-learning/index.html"
+                },
+                {
+                    "title": "Lecture 12: Clustering",
+                    "videoUrl": "https://archive.org/download/MIT6.0002F16/MIT6_0002F16_lec12_300k.mp4",
+                    "youtubeKey": "esmzYhuFnds",
+                    "contentLength": 118174074,
+                    "captionsFile": "/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/240dddf19b9f5c6ea248285541be53c7_esmzYhuFnds.vtt",
+                    "htmlFile": "resources/lecture-12-clustering/index.html"
+                },
+                {
+                    "title": "Lecture 13: Classification",
+                    "videoUrl": "https://archive.org/download/MIT6.0002F16/MIT6_0002F16_lec13_300k.mp4",
+                    "youtubeKey": "eg8DJYwdMyg",
+                    "contentLength": 115273197,
+                    "captionsFile": "/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/ff9a51abcbf85c0eba0a142bc9e4ec7d_eg8DJYwdMyg.vtt",
+                    "htmlFile": "resources/lecture-13-classification/index.html"
+                },
+                {
+                    "title": "Lecture 14: Classification and Statistical Sins",
+                    "videoUrl": "https://archive.org/download/MIT6.0002F16/MIT6_0002F16_lec14_300k.mp4",
+                    "youtubeKey": "K2SC-WPdT6k",
+                    "contentLength": 114333225,
+                    "captionsFile": "/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/c39bf448235e5ae09a089715e8c1ef18_K2SC-WPdT6k.vtt",
+                    "htmlFile": "resources/lecture-14-classification-and-statistical-sins/index.html"
+                },
+                {
+                    "title": "Lecture 15: Statistical Sins and Wrap Up",
+                    "videoUrl": "https://archive.org/download/MIT6.0002F16/MIT6_0002F16_lec15_300k.mp4",
+                    "youtubeKey": "iOZVbILaIZc",
+                    "contentLength": 104466517,
+                    "captionsFile": "/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/483cefbc6af05afabbc6506e21f82e84_iOZVbILaIZc.vtt",
+                    "htmlFile": "resources/lecture-15-statistical-sins-and-wrap-up/index.html"
+                }
+            ]
+        }
+    ]
+}

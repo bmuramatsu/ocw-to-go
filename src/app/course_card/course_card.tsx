@@ -9,6 +9,7 @@ import { selectUserCourse } from "../store/course_selectors";
 import MainButton from "../course_card/main_button";
 import CourseCardMenu from "../course_card/menu";
 import VideoButton from "../course_card/video_button";
+import CourseCardDescription from "./description";
 
 interface Props {
   courseData: CourseData;
@@ -24,14 +25,14 @@ function CourseCard({
   const userCourse = useAppSelector((s) => selectUserCourse(s, courseData.id));
 
   const state = userCourse.status;
+  const hasVideos = !!courseData.videos.length;
 
   return (
     <li className="course-card">
-      {/* TODO real codes */}
       <div className="course-card__top">
         <div className="course-card__top-content">
           <div className="flex align-center gap-2">
-            <span className="chip">18.06SC</span>
+            <span className="chip">{courseData.courseNumber}</span>
             {state === "ready" && (
               <span className="chip chip--downloaded">
                 <Checkmark /> Downloaded
@@ -66,10 +67,12 @@ function CourseCard({
           <CourseLink courseData={courseData}>{courseData.name}</CourseLink>
         </h3>
         <p>{courseData.instructors.join(", ")}</p>
-        {includeDescription && <p className="u-mt-20">Description component here</p>}
+        {includeDescription && (
+          <CourseCardDescription courseData={courseData} />
+        )}
       </div>
       <div className="course-card__actions">
-        {includeManageVideos && state === "ready" && (
+        {includeManageVideos && hasVideos && state === "ready" && (
           <VideoButton courseData={courseData} />
         )}
         {userCourse.errorMessage && (

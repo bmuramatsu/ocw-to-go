@@ -18,7 +18,7 @@ export const selectMyCourses = createSelector(
     return ALL_COURSES.filter(
       (course) =>
         userCourses[course.id] && userCourses[course.id]!.status !== "none",
-    );
+    ).sort((a, b) => a.courseNumber.localeCompare(b.courseNumber));
   },
 );
 

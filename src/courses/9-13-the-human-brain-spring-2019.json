@@ -1,0 +1,182 @@
+{
+    "id": "9-13-the-human-brain-spring-2019",
+    "name": "The Human Brain",
+    "category": "Physical Science",
+    "topics": [
+        "Health and Medicine",
+        "Sensory-Neural Systems",
+        "Science",
+        "Cognitive Science",
+        "Science",
+        "Biology",
+        "Neuroscience"
+    ],
+    "instructors": [
+        "Prof. Nancy Kanwisher"
+    ],
+    "courseNumber": "9.13",
+    "courseLevel": "Undergraduate",
+    "cardImg": "/images/course_cards/9-13-the-human-brain-spring-2019.jpg",
+    "imgAltText": "Labeled image of a human cortex with regions marked with different colors.",
+    "file": "https://files.ocwtogo.org/9.13-spring-2019.zip",
+    "downloadSize": 53492196,
+    "diskSize": 89487906,
+    "description": "This course surveys the core perceptual and cognitive abilities of the human mind and asks how they are implemented in the brain. Key themes include the representations, development, and degree of functional specificity of these components of mind and brain. The course will take students straight to the cutting edge of the field, empowering them to understand and critically evaluate empirical articles in the current literature.\n",
+    "descriptionHtml": "This course surveys the core perceptual and cognitive abilities of the human mind and asks how they are implemented in the brain. Key themes include the representations, development, and degree of functional specificity of these components of mind and brain. The course will take students straight to the cutting edge of the field, empowering them to understand and critically evaluate empirical articles in the current literature.",
+    "videoGroups": [
+        {
+            "category": "Lecture Videos",
+            "videos": [
+                {
+                    "title": "Lecture 1: Introduction",
+                    "videoUrl": "https://archive.org/download/MIT9.13S19/MIT9_13S19_lec01_300k.mp4",
+                    "youtubeKey": "ba-HMvDn_vU",
+                    "contentLength": 186917088,
+                    "captionsFile": "/courses/9-13-the-human-brain-spring-2019/4ff3ee71c5a7544b97bd0a64c0ea69be_ba-HMvDn_vU.vtt",
+                    "htmlFile": "resources/lecture-1-introduction/index.html"
+                },
+                {
+                    "title": "Lecture 2: Neuroanatomy",
+                    "videoUrl": "https://archive.org/download/MIT9.13S19/MIT9_13S19_lec02_300k.mp4",
+                    "youtubeKey": "bAkuNXtgrLA",
+                    "contentLength": 118727764,
+                    "captionsFile": "/courses/9-13-the-human-brain-spring-2019/ac55e8e17c025fbe9f0ecfab51ec3645_bAkuNXtgrLA.vtt",
+                    "htmlFile": "resources/lecture-2-neuroanatomy/index.html"
+                },
+                {
+                    "title": "Lecture 4: Cognitive Neuroscience Methods I",
+                    "videoUrl": "https://archive.org/download/MIT9.13S19/MIT9_13S19_lec04_300k.mp4",
+                    "youtubeKey": "vFZY--lgmHs",
+                    "contentLength": 142660747,
+                    "captionsFile": "/courses/9-13-the-human-brain-spring-2019/a862c600e38356faae65aa7d2ad787a1_vFZY--lgmHs.vtt",
+                    "htmlFile": "resources/lecture-4-cognitive-neuroscience-methods-i/index.html"
+                },
+                {
+                    "title": "Lecture 5: Cognitive Neuroscience Methods II",
+                    "videoUrl": "https://archive.org/download/MIT9.13S19/MIT9_13S19_lec05_300k.mp4",
+                    "youtubeKey": "YD7QG4G7WVg",
+                    "contentLength": 168436129,
+                    "captionsFile": "/courses/9-13-the-human-brain-spring-2019/43197ff4a4025c0791c558eb11673014_YD7QG4G7WVg.vtt",
+                    "htmlFile": "resources/lecture-5-cognitive-neuroscience-methods-ii/index.html"
+                },
+                {
+                    "title": "Lecture 6: Experimental Design",
+                    "videoUrl": "https://archive.org/download/MIT9.13S19/MIT9_13S19_lec06_300k.mp4",
+                    "youtubeKey": "Nk0H3o-hRMA",
+                    "contentLength": 133716051,
+                    "captionsFile": "/courses/9-13-the-human-brain-spring-2019/42e5318160c55f9b87f70ec7e3e7073e_Nk0H3o-hRMA.vtt",
+                    "htmlFile": "resources/lecture-6-experimental-design/index.html"
+                },
+                {
+                    "title": "Lecture 7: Category Selectivity, Controversies, and MVPA",
+                    "videoUrl": "https://archive.org/download/MIT9.13S19/MIT9_13S19_lec07_300k.mp4",
+                    "youtubeKey": "otriwYhNtm0",
+                    "contentLength": 162429248,
+                    "captionsFile": "/courses/9-13-the-human-brain-spring-2019/1c77e0b4df19592ca3916a5c9af75e07_otriwYhNtm0.vtt",
+                    "htmlFile": "resources/lecture-7-category-selectivity-controversies-and-mvpa/index.html"
+                },
+                {
+                    "title": "Lecture 8: Navigation I",
+                    "videoUrl": "https://archive.org/download/MIT9.13S19/MIT9_13S19_lec08_300k.mp4",
+                    "youtubeKey": "MuRVOQY8KoY",
+                    "contentLength": 195753743,
+                    "captionsFile": "/courses/9-13-the-human-brain-spring-2019/3f8e95d611fb50fe940aa3127cf785bf_MuRVOQY8KoY.vtt",
+                    "htmlFile": "resources/lecture-8-navigation-i/index.html"
+                },
+                {
+                    "title": "Lecture 9: Navigation II",
+                    "videoUrl": "https://archive.org/download/MIT9.13S19/MIT9_13S19_lec09_300k.mp4",
+                    "youtubeKey": "ppxK4R8XWfU",
+                    "contentLength": 169252397,
+                    "captionsFile": "/courses/9-13-the-human-brain-spring-2019/f236858c01a85a809087d6c6050c8016_ppxK4R8XWfU.vtt",
+                    "htmlFile": "resources/lecture-9-navigation-ii/index.html"
+                },
+                {
+                    "title": "Lecture 10: Development, Nature & Nurture I",
+                    "videoUrl": "https://archive.org/download/MIT9.13S19/MIT9_13S19_lec10_300k.mp4",
+                    "youtubeKey": "kAX_PRnliMo",
+                    "contentLength": 190485686,
+                    "captionsFile": "/courses/9-13-the-human-brain-spring-2019/03072d1fb8eb59608dd7ef23db369646_kAX_PRnliMo.vtt",
+                    "htmlFile": "resources/lecture-10-development-nature-nurture-i/index.html"
+                },
+                {
+                    "title": "Lecture 11: Development, Nature & Nurture II (2018)",
+                    "videoUrl": "https://archive.org/download/MIT9.13S19/MIT9_13S19_lec11_300k.mp4",
+                    "youtubeKey": "xA00vkxG3lE",
+                    "contentLength": 180207829,
+                    "captionsFile": "/courses/9-13-the-human-brain-spring-2019/9e0e389b3f4350938af898a5cdb414c9_xA00vkxG3lE.vtt",
+                    "htmlFile": "resources/lecture-11-development-nature-nurture-ii-2018/index.html"
+                },
+                {
+                    "title": "Lecture 13: Number",
+                    "videoUrl": "https://archive.org/download/MIT9.13S19/MIT9_13S19_lec13_300k.mp4",
+                    "youtubeKey": "W2PY6z1Wddg",
+                    "contentLength": 165577173,
+                    "captionsFile": "/courses/9-13-the-human-brain-spring-2019/56e063fe9f9b51f592992337159980d8_W2PY6z1Wddg.vtt",
+                    "htmlFile": "resources/lecture-13-number/index.html"
+                },
+                {
+                    "title": "Lecture 15: Hearing and Speech",
+                    "videoUrl": "https://archive.org/download/MIT9.13S19/MIT9_13S19_lec15_300k.mp4",
+                    "youtubeKey": "9Bz-5-RC690",
+                    "contentLength": 184837608,
+                    "captionsFile": "/courses/9-13-the-human-brain-spring-2019/1c95fa7b00395f7fa4f4ac6d05bccc0e_9Bz-5-RC690.vtt",
+                    "htmlFile": "resources/lecture-15-hearing-and-speech/index.html"
+                },
+                {
+                    "title": "Lecture 16: Music",
+                    "videoUrl": "https://archive.org/download/MIT9.13S19/MIT9_13S19_lec16_300k.mp4",
+                    "youtubeKey": "YVHM8dSkimo",
+                    "contentLength": 170559536,
+                    "captionsFile": "/courses/9-13-the-human-brain-spring-2019/af30c5902a8455188bfc6abe249a17e6_YVHM8dSkimo.vtt",
+                    "htmlFile": "resources/lecture-16-music/index.html"
+                },
+                {
+                    "title": "Lecture 18: Language I",
+                    "videoUrl": "https://archive.org/download/MIT9.13S19/MIT9_13S19_lec18_300k.mp4",
+                    "youtubeKey": "XRdJ5mXBo8A",
+                    "contentLength": 161117639,
+                    "captionsFile": "/courses/9-13-the-human-brain-spring-2019/ae5e2f7a998b58d8a1cbf3c0c3626723_XRdJ5mXBo8A.vtt",
+                    "htmlFile": "resources/lecture-18-language-i/index.html"
+                },
+                {
+                    "title": "Lecture 20: Mentalizing and Theory of Mind",
+                    "videoUrl": "https://archive.org/download/MIT9.13S19/MIT9_13S19_lec20_300k.mp4",
+                    "youtubeKey": "pfZY5aDJazA",
+                    "contentLength": 177361324,
+                    "captionsFile": "/courses/9-13-the-human-brain-spring-2019/a9cc6bb6aadf58ca94d401064973c755_pfZY5aDJazA.vtt",
+                    "htmlFile": "resources/lecture-20-mentalizing-theory-of-mind/index.html"
+                },
+                {
+                    "title": "Lecture 21: Brain Networks",
+                    "videoUrl": "https://archive.org/download/MIT9.13S19/MIT9_13S19_lec21_300k.mp4",
+                    "youtubeKey": "SchmVoc5NzY",
+                    "contentLength": 194701951,
+                    "captionsFile": "/courses/9-13-the-human-brain-spring-2019/8a9a404d91d358a6a5c7adf54e74b6de_SchmVoc5NzY.vtt",
+                    "htmlFile": "resources/lecture-21-brain-networks/index.html"
+                },
+                {
+                    "title": "Lecture 24: Attention and Awareness",
+                    "videoUrl": "https://archive.org/download/MIT9.13S19/MIT9_13S19_lec24_300k.mp4",
+                    "youtubeKey": "B4a0WdGp52g",
+                    "contentLength": 133001523,
+                    "captionsFile": "/courses/9-13-the-human-brain-spring-2019/910a42344cf15fb488b2d172a136529b_B4a0WdGp52g.vtt",
+                    "htmlFile": "resources/lecture-24-attention-and-awareness/index.html"
+                }
+            ]
+        },
+        {
+            "category": "Podcasts",
+            "videos": [
+                {
+                    "title": "Sketching a Picture of the Mind with Prof. Nancy Kanwisher",
+                    "videoUrl": "https://archive.org/download/chalk-radio/S03E01_Nancy_Kanwisher_360p.mp4",
+                    "youtubeKey": "fEFMn64t76c",
+                    "contentLength": 43650935,
+                    "captionsFile": "/courses/9-13-the-human-brain-spring-2019/fEFMn64t76c_captions.webvtt",
+                    "htmlFile": "resources/sketching-a-picture-of-the-mind-with-prof-nancy-kanwisher/index.html"
+                }
+            ]
+        }
+    ]
+}

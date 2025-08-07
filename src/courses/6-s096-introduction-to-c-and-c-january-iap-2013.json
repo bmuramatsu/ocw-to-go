@@ -1,0 +1,28 @@
+{
+    "id": "6-s096-introduction-to-c-and-c-january-iap-2013",
+    "name": "Introduction to C and C++",
+    "category": "Computer Science",
+    "topics": [
+        "Engineering",
+        "Computer Science",
+        "Programming Languages",
+        "Engineering",
+        "Computer Science",
+        "Software Design and Engineering"
+    ],
+    "instructors": [
+        "Tom Lieber",
+        "Kyle Murray",
+        "Frank Li"
+    ],
+    "courseNumber": "6.S096",
+    "courseLevel": "Undergraduate",
+    "cardImg": "/images/course_cards/6-s096-introduction-to-c-and-c-january-iap-2013.jpg",
+    "imgAltText": "A composite image with C++ code on top, and photographs of a tiger and Persian cat below.",
+    "file": "https://files.ocwtogo.org/6.s096-january-iap-2013.zip",
+    "downloadSize": 14946692,
+    "diskSize": 41290524,
+    "description": "This course provides a fast-paced introduction to the C and C++ programming languages. You will learn the required background knowledge, including memory management, pointers, preprocessor macros, object-oriented programming, and how to find bugs when you inevitably use any of those incorrectly. There will be daily assignments and a small-scale individual project.\n\nThis course is offered during the Independent Activities Period (IAP), which is a special 4-week term at MIT that runs from the first week of January until the end of the month.\n",
+    "descriptionHtml": "<p>This course provides a fast-paced introduction to the C and C++ programming languages. You will learn the required background knowledge, including memory management, pointers, preprocessor macros, object-oriented programming, and how to find bugs when you inevitably use any of those incorrectly. There will be daily assignments and a small-scale individual project.</p>\n<p>This course is offered during the Independent Activities Period (IAP), which is a special 4-week term at MIT that runs from the first week of January until the end of the month.</p>\n",
+    "videoGroups": []
+}

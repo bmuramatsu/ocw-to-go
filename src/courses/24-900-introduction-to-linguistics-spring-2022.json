@@ -1,0 +1,220 @@
+{
+    "id": "24-900-introduction-to-linguistics-spring-2022",
+    "name": "Introduction to Linguistics",
+    "category": "Arts and Humanities",
+    "topics": [
+        "Humanities",
+        "Linguistics"
+    ],
+    "instructors": [
+        "Prof. Norvin W. Richards"
+    ],
+    "courseNumber": "24.900",
+    "courseLevel": "Undergraduate",
+    "cardImg": "/images/course_cards/24-900-introduction-to-linguistics-spring-2022.jpg",
+    "imgAltText": "",
+    "file": "https://files.ocwtogo.org/24.900-spring-2022.zip",
+    "downloadSize": 24049104,
+    "diskSize": 58404778,
+    "description": "This class provides some answers to basic questions about the nature of human language. Throughout the course, we examine a number of ways in which human language is a complex but law-governed mental system. Much of the class is devoted to studying some core aspects of this system in detail; we also spend individual classes discussing a number of other issues, including how language is acquired, how languages change over time, language endangerment, and others.",
+    "descriptionHtml": "This class provides some answers to basic questions about the nature of human language. Throughout the course, we examine a number of ways in which human language is a complex but law-governed mental system. Much of the class is devoted to studying some core aspects of this system in detail; we also spend individual classes discussing a number of other issues, including how language is acquired, how languages change over time, language endangerment, and others.",
+    "videoGroups": [
+        {
+            "category": "Lecture Videos",
+            "videos": [
+                {
+                    "title": "Lecture 2: Morphology, Part 1",
+                    "videoUrl": "https://ocw.mit.edu/courses/24-900-introduction-to-linguistics-spring-2022/ocw_24900_lecture02_2022feb03-fixed_360p_16_9.mp4",
+                    "youtubeKey": "Mvy5hjAWeZw",
+                    "contentLength": 106564805,
+                    "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/1hGsHloB3djAu_434Mjepx3CTbvAhA6wa_transcript.webvtt",
+                    "htmlFile": "resources/ocw_24900_lecture02_2022feb03-fixed/index.html"
+                },
+                {
+                    "title": "Lecture 3: Morphology, Part 2",
+                    "videoUrl": "https://ocw.mit.edu/courses/24-900-introduction-to-linguistics-spring-2022/ocw_24900_lecture03_2022feb08_360p_16_9.mp4",
+                    "youtubeKey": "NfD6QNY6Zzg",
+                    "contentLength": 104646677,
+                    "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/12ChuriW0Xo9h4IDLLgPipRkMt-0F4IsW_transcript.webvtt",
+                    "htmlFile": "resources/ocw_24900_lecture03_2022feb08/index.html"
+                },
+                {
+                    "title": "Lecture 4: Morphology, Part 3",
+                    "videoUrl": "https://ocw.mit.edu/courses/24-900-introduction-to-linguistics-spring-2022/ocw_24900_lecture04_2022feb10_360p_16_9.mp4",
+                    "youtubeKey": "vxOO8cIn398",
+                    "contentLength": 86172485,
+                    "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/13G-QTpFrZvH88mUgPCG15natCJkXXxn6_transcript.webvtt",
+                    "htmlFile": "resources/ocw_24900_lecture04_2022feb10/index.html"
+                },
+                {
+                    "title": "Lecture 5: Phonetics, Part 1",
+                    "videoUrl": "https://ocw.mit.edu/courses/24-900-introduction-to-linguistics-spring-2022/ocw_24900_lecture05_2022feb15_360p_16_9.mp4",
+                    "youtubeKey": "xZ8mnJPu95Q",
+                    "contentLength": 114550889,
+                    "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/1rniZ0KvzFxjTzFGIkyO5la1Kz3E6WgHY_transcript.webvtt",
+                    "htmlFile": "resources/ocw_24900_lecture05_2022feb15/index.html"
+                },
+                {
+                    "title": "Lecture 6: Phonetics, Part 2",
+                    "videoUrl": "https://ocw.mit.edu/courses/24-900-introduction-to-linguistics-spring-2022/ocw_24900_lecture06_2022feb17_360p_16_9.mp4",
+                    "youtubeKey": "NVQWWXhbUvs",
+                    "contentLength": 77879108,
+                    "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/1F5sIWDCAb3mso5C7oRJ_mV4IEQkBcneg_transcript.webvtt",
+                    "htmlFile": "resources/ocw_24900_lecture06_2022feb17/index.html"
+                },
+                {
+                    "title": "Lecture 8: Phonology, Part 1",
+                    "videoUrl": "https://ocw.mit.edu/courses/24-900-introduction-to-linguistics-spring-2022/ocw_24900_lecture08_2022mar01_360p_16_9.mp4",
+                    "youtubeKey": "SyM5j0SeDRQ",
+                    "contentLength": 105661640,
+                    "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/1U93NYfuKEeiqPCY7rCuKUoBdby0rUT0v_transcript.webvtt",
+                    "htmlFile": "resources/ocw_24900_lecture08_2022mar01/index.html"
+                },
+                {
+                    "title": "Lecture 9: Phonology, Part 2",
+                    "videoUrl": "https://ocw.mit.edu/courses/24-900-introduction-to-linguistics-spring-2022/ocw_24900_lecture09_2022mar03_360p_16_9.mp4",
+                    "youtubeKey": "-Pg11JHzUTo",
+                    "contentLength": 114209521,
+                    "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/1qZpCWDnGS-YUqutMXAzxO3hMJL3cfJp9_transcript.webvtt",
+                    "htmlFile": "resources/ocw_24900_lecture09_2022mar03/index.html"
+                },
+                {
+                    "title": "Lecture 10: Phonology, Part 3",
+                    "videoUrl": "https://ocw.mit.edu/courses/24-900-introduction-to-linguistics-spring-2022/ocw_24900_lecture10_2022mar08_360p_16_9.mp4",
+                    "youtubeKey": "qb1U3_Q-7o8",
+                    "contentLength": 94518574,
+                    "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/1qrLzq7wII0saS3YIZTqp0YusgM1HH7vQ_transcript.webvtt",
+                    "htmlFile": "resources/ocw_24900_lecture10_2022mar08/index.html"
+                },
+                {
+                    "title": "Lecture 11: Syntax, Part 1",
+                    "videoUrl": "https://ocw.mit.edu/courses/24-900-introduction-to-linguistics-spring-2022/ocw_24900_lecture11_2022mar10_360p_16_9.mp4",
+                    "youtubeKey": "q7pPG7V2ack",
+                    "contentLength": 110805131,
+                    "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/15OsasEW2g-fPtnYqQyvkcaaoJYNTw_ou_transcript.webvtt",
+                    "htmlFile": "resources/ocw_24900_lecture11_2022mar10/index.html"
+                },
+                {
+                    "title": "Lecture 12: Syntax, Part 2",
+                    "videoUrl": "https://ocw.mit.edu/courses/24-900-introduction-to-linguistics-spring-2022/ocw_24900_lecture12_2022mar15_360p_16_9.mp4",
+                    "youtubeKey": "-OeyjP2zri4",
+                    "contentLength": 107853096,
+                    "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/1q19CKqBXkYc1Zd9ak_IanfaZYPlTjOJ7_transcript.webvtt",
+                    "htmlFile": "resources/ocw_24900_lecture12_2022mar15/index.html"
+                },
+                {
+                    "title": "Lecture 13: Syntax, Part 3",
+                    "videoUrl": "https://ocw.mit.edu/courses/24-900-introduction-to-linguistics-spring-2022/ocw_24900_lecture13_2022mar17_360p_16_9.mp4",
+                    "youtubeKey": "4ndEWbwbIrA",
+                    "contentLength": 121917310,
+                    "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/1ssaQs2EKBQUUoFDiTY0Ypv7Kw9zGs08U_transcript.webvtt",
+                    "htmlFile": "resources/ocw_24900_lecture13_2022mar17/index.html"
+                },
+                {
+                    "title": "Lecture 14: Syntax, Part 4",
+                    "videoUrl": "https://ocw.mit.edu/courses/24-900-introduction-to-linguistics-spring-2022/ocw_24900_lecture14_2022mar29_360p_16_9.mp4",
+                    "youtubeKey": "TgwDg_svSnM",
+                    "contentLength": 115671062,
+                    "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/17gbJAo0dgUAs8efamM_yrq2027N-Tlav_transcript.webvtt",
+                    "htmlFile": "resources/ocw_24900_lecture14_2022mar29/index.html"
+                },
+                {
+                    "title": "Lecture 15: Syntax, Part 5",
+                    "videoUrl": "https://ocw.mit.edu/courses/24-900-introduction-to-linguistics-spring-2022/ocw_24900_lecture15_2022mar31_360p_16_9.mp4",
+                    "youtubeKey": "wrcQ5wUVxd0",
+                    "contentLength": 110890002,
+                    "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/1674PlF6St7rQdmyY6CeL9me_tAK1FYFB_transcript.webvtt",
+                    "htmlFile": "resources/ocw_24900_lecture15_2022mar31/index.html"
+                },
+                {
+                    "title": "Lecture 16: Syntax, Part 6",
+                    "videoUrl": "https://ocw.mit.edu/courses/24-900-introduction-to-linguistics-spring-2022/ocw_24900_lecture16_2022apr05_360p_16_9.mp4",
+                    "youtubeKey": "ruzcPdSyn8o",
+                    "contentLength": 111601760,
+                    "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/1UKWJD0NdThMRMdv-5YkhH7Tm-7vY1wb8_transcript.webvtt",
+                    "htmlFile": "resources/ocw_24900_lecture16_2022apr05/index.html"
+                },
+                {
+                    "title": "Lecture 17: Syntax, Part 7, and Semantics, Part 1",
+                    "videoUrl": "https://ocw.mit.edu/courses/24-900-introduction-to-linguistics-spring-2022/ocw_24900_lecture17_2022apr07_360p_16_9.mp4",
+                    "youtubeKey": "Di8e2opeGA0",
+                    "contentLength": 109139623,
+                    "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/1MptwG2vU-HESQLFjTdgVvgS2K4ys2QJY_transcript.webvtt",
+                    "htmlFile": "resources/ocw_24900_lecture17_2022apr07/index.html"
+                },
+                {
+                    "title": "Lecture 18: Semantics, Part 2",
+                    "videoUrl": "https://ocw.mit.edu/courses/24-900-introduction-to-linguistics-spring-2022/ocw_24900_lecture18_2022apr12_360p_16_9.mp4",
+                    "youtubeKey": "UXG4JImev-s",
+                    "contentLength": 94844752,
+                    "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/1-16ySkB8tERkYHAHHiaNRvPteK8bqYXw_transcript.webvtt",
+                    "htmlFile": "resources/ocw_24900_lecture18_2022apr12/index.html"
+                },
+                {
+                    "title": "Lecture 19: Semantics, Part 3",
+                    "videoUrl": "https://ocw.mit.edu/courses/24-900-introduction-to-linguistics-spring-2022/ocw_24900_lecture19_2022apr14_360p_16_9.mp4",
+                    "youtubeKey": "vWC6Q3Dv1ws",
+                    "contentLength": 81597740,
+                    "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/11REkJkMCHID034oDPHdI1L1vG7aDmanA_transcript.webvtt",
+                    "htmlFile": "resources/ocw_24900_lecture19_2022apr14/index.html"
+                },
+                {
+                    "title": "Lecture 20: Semantics, Part 4",
+                    "videoUrl": "https://ocw.mit.edu/courses/24-900-introduction-to-linguistics-spring-2022/ocw_24900_lecture20_2022apr19_360p_16_9.mp4",
+                    "youtubeKey": "VymHeBjublw",
+                    "contentLength": 101336469,
+                    "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/1iscT5XvcBr6Q7tRKpqW1B91yKtpMRuDi_transcript.webvtt",
+                    "htmlFile": "resources/ocw_24900_lecture20_2022apr19/index.html"
+                },
+                {
+                    "title": "Lecture 21: Semantics, Part 5",
+                    "videoUrl": "https://ocw.mit.edu/courses/24-900-introduction-to-linguistics-spring-2022/ocw_24900_lecture21_2022apr21_360p_16_9.mp4",
+                    "youtubeKey": "msSCIvkjbHI",
+                    "contentLength": 109438593,
+                    "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/1EszDHIhvb-PvBwxjgNAwoWCi90TygE3T_transcript.webvtt",
+                    "htmlFile": "resources/ocw_24900_lecture21_2022apr21/index.html"
+                },
+                {
+                    "title": "Lecture 22: Dialects",
+                    "videoUrl": "https://ocw.mit.edu/courses/24-900-introduction-to-linguistics-spring-2022/ocw_24900_lecture22_2022spr26_360p_16_9.mp4",
+                    "youtubeKey": "6QRlpk8ZmPI",
+                    "contentLength": 90116460,
+                    "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/1UWqieveMr4b2mJWuWIM1Nxx4qoNL9r6p_transcript.webvtt",
+                    "htmlFile": "resources/ocw_24900_lecture22_2022spr26/index.html"
+                },
+                {
+                    "title": "Lecture 23: Historical Linguistics",
+                    "videoUrl": "https://ocw.mit.edu/courses/24-900-introduction-to-linguistics-spring-2022/ocw_24900_lecture23_2022apr28_360p_16_9.mp4",
+                    "youtubeKey": "5itfLAwQol8",
+                    "contentLength": 103600261,
+                    "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/1INQT8RnPt_b1LJm_g5kQ_ByluD5u_NWO_transcript.webvtt",
+                    "htmlFile": "resources/ocw_24900_lecture23_2022apr28/index.html"
+                },
+                {
+                    "title": "Lecture 24: Endangered Languages",
+                    "videoUrl": "https://ocw.mit.edu/courses/24-900-introduction-to-linguistics-spring-2022/ocw_24900_lecture24_2022may03_360p_16_9.mp4",
+                    "youtubeKey": "LOsNklq-dH8",
+                    "contentLength": 86988791,
+                    "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/1DbBdWkispOb6VReTZ7KCoYhQ3gTO1_6C_transcript.webvtt",
+                    "htmlFile": "resources/ocw_24900_lecture24_2022may03/index.html"
+                },
+                {
+                    "title": "Lecture 25: Language Acquisition",
+                    "videoUrl": "https://ocw.mit.edu/courses/24-900-introduction-to-linguistics-spring-2022/ocw_24900_lecture25_2022may05_360p_16_9.mp4",
+                    "youtubeKey": "caLQIEeYpEk",
+                    "contentLength": 84158655,
+                    "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/1FRgFrTY2rk4Xuiy0lIRJRJ7J3Zswb-Lj_transcript.webvtt",
+                    "htmlFile": "resources/ocw_24900_lecture25_2022may05/index.html"
+                },
+                {
+                    "title": "Lecture 26: Signed Languages",
+                    "videoUrl": "https://ocw.mit.edu/courses/24-900-introduction-to-linguistics-spring-2022/ocw_24900_lecture26_2022may10_360p_16_9.mp4",
+                    "youtubeKey": "12UWP2ZhUl0",
+                    "contentLength": 66274016,
+                    "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/1b7TZWEkidhukCE_FYZbnFFTFahpMjnuk_transcript.webvtt",
+                    "htmlFile": "resources/ocw_24900_lecture26_2022may10/index.html"
+                }
+            ]
+        }
+    ]
+}

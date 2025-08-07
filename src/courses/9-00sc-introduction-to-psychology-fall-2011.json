@@ -1,0 +1,246 @@
+{
+    "id": "9-00sc-introduction-to-psychology-fall-2011",
+    "name": "Introduction to Psychology",
+    "category": "Social Science",
+    "topics": [
+        "Social Science",
+        "Psychology",
+        "Science",
+        "Cognitive Science"
+    ],
+    "instructors": [
+        "Prof. John D. E. Gabrieli"
+    ],
+    "courseNumber": "9.00SC",
+    "courseLevel": "Undergraduate",
+    "cardImg": "/images/course_cards/9-00sc-introduction-to-psychology-fall-2011.jpg",
+    "imgAltText": "Photo of Professor Gabrieli sitting next to a computer display of human brain images, with fMRI scanner in the background.",
+    "file": "https://files.ocwtogo.org/9.00sc-fall-2011.zip",
+    "downloadSize": 135587008,
+    "diskSize": 299888724,
+    "description": "This course is a survey of the scientific study of human nature, including how the mind works, and how the brain supports the mind. Topics include the mental and neural bases of perception, emotion, learning, memory, cognition, child development, personality, psychopathology, and social interaction. Students will consider how such knowledge relates to debates about nature and nurture, free will, consciousness, human differences, self, and society.\n\nCourse Format\n\nThis course has been designed for independent study. It includes all of the materials you will need to understand the concepts covered in this subject. The materials in this course include:\n\n- A full set of **Lecture Videos** by Prof. John Gabrieli.\n- **Reading Assignments** in several books, including one **free online textbook** and detailed notes on another book.\n- Assorted multiple choice and short answer questions to **Check Yourself** on the material in each session.\n- Supporting **Discussion** content that elaborates on the lectures and reading.\n- A rich collection of online resources for **Further Study** on each session's topics.\n- A full set of **Exams** with solution keys, and extra practice questions for review.",
+    "descriptionHtml": "<p>This course is a survey of the scientific study of human nature, including how the mind works, and how the brain supports the mind. Topics include the mental and neural bases of perception, emotion, learning, memory, cognition, child development, personality, psychopathology, and social interaction. Students will consider how such knowledge relates to debates about nature and nurture, free will, consciousness, human differences, self, and society.</p>\n<p>Course Format</p>\n<p>This course has been designed for independent study. It includes all of the materials you will need to understand the concepts covered in this subject. The materials in this course include:</p>\n<ul>\n<li>A full set of <strong>Lecture Videos</strong> by Prof. John Gabrieli.</li>\n<li><strong>Reading Assignments</strong> in several books, including one <strong>free online textbook</strong> and detailed notes on another book.</li>\n<li>Assorted multiple choice and short answer questions to <strong>Check Yourself</strong> on the material in each session.</li>\n<li>Supporting <strong>Discussion</strong> content that elaborates on the lectures and reading.</li>\n<li>A rich collection of online resources for <strong>Further Study</strong> on each session&rsquo;s topics.</li>\n<li>A full set of <strong>Exams</strong> with solution keys, and extra practice questions for review.</li>\n</ul>\n",
+    "videoGroups": [
+        {
+            "category": "Lecture Videos",
+            "videos": [
+                {
+                    "title": "Attitudes, Emotions, and Aging",
+                    "videoUrl": "http://www.archive.org/download/MIT9.00SCF11/MIT9_00SCF11_lec18_300k.mp4",
+                    "youtubeKey": "Qw4SkvZ03cc",
+                    "contentLength": 163439823,
+                    "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/d54acbc38d325c14b859f7d150ef6861_Qw4SkvZ03cc.vtt",
+                    "htmlFile": "resources/attitudes-emotions-and-aging/index.html"
+                },
+                {
+                    "title": "First Impressions: How Powerful, How Accurate?",
+                    "videoUrl": "http://www.archive.org/download/MIT9.00SCF11/MIT9_00SCF11_lec23_300k.mp4",
+                    "youtubeKey": "zPPsdsAQBx4",
+                    "contentLength": 153163386,
+                    "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/2462a7ce347758ca8d3c13440a25ae56_zPPsdsAQBx4.vtt",
+                    "htmlFile": "resources/first-impressions-how-powerful-how-accurate/index.html"
+                },
+                {
+                    "title": "How Our Minds Make Our Worlds: Vision, Memory, Attention",
+                    "videoUrl": "http://www.archive.org/download/MIT9.00SCF11/MIT9_00SCF11_lec01_300k.mp4",
+                    "youtubeKey": "2fbrl6WoIyo",
+                    "contentLength": 112343279,
+                    "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/1be9930df2c5522d85391392cc75ded8_2fbrl6WoIyo.vtt",
+                    "htmlFile": "resources/how-our-minds-make-our-worlds-vision-memory-attention/index.html"
+                },
+                {
+                    "title": "Introduction to Recognition",
+                    "videoUrl": "http://www.archive.org/download/MIT9.00SCF11/MIT9_00SCF11_lec06_300k.mp4",
+                    "youtubeKey": "MYMYXhR2Ppw",
+                    "contentLength": 127244789,
+                    "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/799e5aca91555729a141d6571d8197cf_MYMYXhR2Ppw.vtt",
+                    "htmlFile": "resources/introduction-to-recognition/index.html"
+                },
+                {
+                    "title": "Introduction to Vision and the Brain",
+                    "videoUrl": "http://www.archive.org/download/MIT9.00SCF11/MIT9_00SCF11_lec05_300k.mp4",
+                    "youtubeKey": "v4ur5mna060",
+                    "contentLength": 92568027,
+                    "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/ab5229d732a7580d953324684a7e65f6_v4ur5mna060.vtt",
+                    "htmlFile": "resources/introduction-to-vision-and-the-brain/index.html"
+                },
+                {
+                    "title": "Language Basics: Sounds We Hear and Distinguish",
+                    "videoUrl": "http://www.archive.org/download/MIT9.00SCF11/MIT9_00SCF11_lec12_300k.mp4",
+                    "youtubeKey": "gRe7dy2HSTg",
+                    "contentLength": 120343648,
+                    "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/07bc45b958d35b99ad78aaa2b875df9e_gRe7dy2HSTg.vtt",
+                    "htmlFile": "resources/language-basics-sounds-we-hear-and-distinguish/index.html"
+                },
+                {
+                    "title": "Lecture 3: Brain I",
+                    "videoUrl": "http://www.archive.org/download/MIT9.00SCF11/MIT9_00SCF11_lec03_300k.mp4",
+                    "youtubeKey": "SjjGiqf96rI",
+                    "contentLength": 122657475,
+                    "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/3bf29d9ebd6a565ba7964965281b2152_SjjGiqf96rI.vtt",
+                    "htmlFile": "resources/lecture-3-brain-i/index.html"
+                },
+                {
+                    "title": "Lecture 17: Child Development",
+                    "videoUrl": "http://www.archive.org/download/MIT9.00SCF11/MIT9_00SCF11_lec17_300k.mp4",
+                    "youtubeKey": "yBYebcVw8Zk",
+                    "contentLength": 75488651,
+                    "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/97a83819705e5aa687e211694a75673f_yBYebcVw8Zk.vtt",
+                    "htmlFile": "resources/lecture-17-child-development/index.html"
+                },
+                {
+                    "title": "Lecture 24: Conclusions",
+                    "videoUrl": "http://ia600802.us.archive.org/3/items/MIT9.00SCF11/MIT9_00SCF11_lec24_300k.mp4",
+                    "youtubeKey": "vf1U3Nt3HQk",
+                    "contentLength": 112586259,
+                    "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/5506aca97161535f88509b199856ca26_vf1U3Nt3HQk.vtt",
+                    "htmlFile": "resources/lecture-24-conclusions/index.html"
+                },
+                {
+                    "title": "Methods of Studying the Human Brain",
+                    "videoUrl": "http://www.archive.org/download/MIT9.00SCF11/MIT9_00SCF11_lec04_300k.mp4",
+                    "youtubeKey": "-cK1og4ElKE",
+                    "contentLength": 160908686,
+                    "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/09b691eb7d655c7291ae6f7265445ba0_-cK1og4ElKE.vtt",
+                    "htmlFile": "resources/methods-of-studying-the-human-brain/index.html"
+                },
+                {
+                    "title": "Object Tracking 1",
+                    "videoUrl": "https://archive.org/download/MIT9.00SCF11/MIT9_00SCF11_lec07_track1_2_300k.mp4",
+                    "youtubeKey": "G6xsNP2TE3A",
+                    "contentLength": 480568,
+                    "captionsFile": null,
+                    "htmlFile": "resources/object-tracking-1/index.html"
+                },
+                {
+                    "title": "Object Tracking 2",
+                    "videoUrl": "https://archive.org/download/MIT9.00SCF11/MIT9_00SCF11_lec07_track4_2_300k.mp4",
+                    "youtubeKey": "tyRM_cSqbqQ",
+                    "contentLength": 484994,
+                    "captionsFile": null,
+                    "htmlFile": "resources/object-tracking-2/index.html"
+                },
+                {
+                    "title": "Object Tracking 3",
+                    "videoUrl": "https://archive.org/download/MIT9.00SCF11/MIT9_00SCF11_lec07_track4_18_300k.mp4",
+                    "youtubeKey": "o8puRrvCHAc",
+                    "contentLength": 605395,
+                    "captionsFile": null,
+                    "htmlFile": "resources/object-tracking-3/index.html"
+                },
+                {
+                    "title": "Operant Conditioning, Thorndike's cat, and Little Albert",
+                    "videoUrl": "http://www.archive.org/download/MIT9.00SCF11/MIT9_00SCF11_lec09_300k.mp4",
+                    "youtubeKey": "SBrCPDC21f4",
+                    "contentLength": 121793534,
+                    "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/ef6381dc19b15f6099466c785d4ec6b7_SBrCPDC21f4.vtt",
+                    "htmlFile": "resources/operant-conditioning-thorndikes-cat-and-little-albert/index.html"
+                },
+                {
+                    "title": "Peripheral Bodily Events Influencing Emotion",
+                    "videoUrl": "http://www.archive.org/download/MIT9.00SCF11/MIT9_00SCF11_lec15_300k.mp4",
+                    "youtubeKey": "t73rjeOj0eY",
+                    "contentLength": 135837628,
+                    "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/957755a620ca5489842d4b3c480e4d48_t73rjeOj0eY.vtt",
+                    "htmlFile": "resources/peripheral-bodily-events-influencing-emotion/index.html"
+                },
+                {
+                    "title": "Personality and How It's Tested",
+                    "videoUrl": "http://www.archive.org/download/MIT9.00SCF11/MIT9_00SCF11_lec16_300k.mp4",
+                    "youtubeKey": "Vko17una2Zw",
+                    "contentLength": 136461716,
+                    "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/d6cb1de2105c53b9925ec068fb902139_Vko17una2Zw.vtt",
+                    "htmlFile": "resources/personality-and-how-its-tested/index.html"
+                },
+                {
+                    "title": "Proactive and Retroactive Interference",
+                    "videoUrl": "http://www.archive.org/download/MIT9.00SCF11/MIT9_00SCF11_lec10_300k.mp4",
+                    "youtubeKey": "76O3rulk844",
+                    "contentLength": 126127098,
+                    "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/2c1a95ddf934503cb45fb9eb142ee977_76O3rulk844.vtt",
+                    "htmlFile": "resources/proactive-and-retroactive-interference/index.html"
+                },
+                {
+                    "title": "Psychological Modifiers of the Stress Response",
+                    "videoUrl": "http://www.archive.org/download/MIT9.00SCF11/MIT9_00SCF11_lec19_300k.mp4",
+                    "youtubeKey": "z9XQpjNgeBI",
+                    "contentLength": 160735757,
+                    "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/1542994260385130afc3ac70ddac0d66_z9XQpjNgeBI.vtt",
+                    "htmlFile": "resources/psychological-modifiers-of-the-stress-response/index.html"
+                },
+                {
+                    "title": "Psychology and Science",
+                    "videoUrl": "http://www.archive.org/download/MIT9.00SCF11/MIT9_00SCF11_lec02_300k.mp4",
+                    "youtubeKey": "syXplPKQb_o",
+                    "contentLength": 162728305,
+                    "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/dc44a64bab4c5d8ea5dcf6e012da78b7_syXplPKQb_o.vtt",
+                    "htmlFile": "resources/psychology-and-science/index.html"
+                },
+                {
+                    "title": "Racism, Acheivement Gaps, and the Stereotype Threat",
+                    "videoUrl": "http://www.archive.org/download/MIT9.00SCF11/MIT9_00SCF11_lec14_300k.mp4",
+                    "youtubeKey": "bihrpOS0qtY",
+                    "contentLength": 163666941,
+                    "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/65e8bfb100df52f2852153f0645d0f9c_bihrpOS0qtY.vtt",
+                    "htmlFile": "resources/racism-acheivement-gaps-and-the-stereotype-threat/index.html"
+                },
+                {
+                    "title": "Thinking Traps: Functional Fixedness, Problem Solving, and Creativity",
+                    "videoUrl": "http://www.archive.org/download/MIT9.00SCF11/MIT9_00SCF11_lec13_300k.mp4",
+                    "youtubeKey": "qZdm4mpQA_8",
+                    "contentLength": 152245953,
+                    "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/3a582b20723f58d899516e537c1ac901_qZdm4mpQA_8.vtt",
+                    "htmlFile": "resources/thinking-traps-functional-fixedness-problem-solving-and-creativity-1/index.html"
+                },
+                {
+                    "title": "Treatment Approaches: Behavioral and Medical",
+                    "videoUrl": "http://www.archive.org/download/MIT9.00SCF11/MIT9_00SCF11_lec21_300k.mp4",
+                    "youtubeKey": "SFPPw6sDHEI",
+                    "contentLength": 135081100,
+                    "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/49ff4bd660c9515eb8e1eaa01959bb03_SFPPw6sDHEI.vtt",
+                    "htmlFile": "resources/treatment-approaches-behavioral-and-medical/index.html"
+                },
+                {
+                    "title": "Treatment of Schizophrenia",
+                    "videoUrl": "http://www.archive.org/download/MIT9.00SCF11/MIT9_00SCF11_lec20_300k.mp4",
+                    "youtubeKey": "SXzdOK_J-xE",
+                    "contentLength": 116203006,
+                    "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/44449cb190f65c4288686c02bbfbe1f1_SXzdOK_J-xE.vtt",
+                    "htmlFile": "resources/treatment-of-schizophrenia/index.html"
+                },
+                {
+                    "title": "Types of Memory and Q&A about Patient H.M.",
+                    "videoUrl": "http://www.archive.org/download/MIT9.00SCF11/MIT9_00SCF11_lec11_300k.mp4",
+                    "youtubeKey": "kD3CswjYb2E",
+                    "contentLength": 131277680,
+                    "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/29f6432763d8518db560bf99cdb3d4ad_kD3CswjYb2E.vtt",
+                    "htmlFile": "resources/types-of-memory-and-q-a-about-patient-h/index.html"
+                },
+                {
+                    "title": "What Do We Mean by \"Attention\"?",
+                    "videoUrl": "http://www.archive.org/download/MIT9.00SCF11/MIT9_00SCF11_lec07_300k.mp4",
+                    "youtubeKey": "lBU64nfe8nM",
+                    "contentLength": 95609670,
+                    "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/b56ea18286995fe68118766712cac08b_lBU64nfe8nM.vtt",
+                    "htmlFile": "resources/what-do-we-mean-by-attention/index.html"
+                },
+                {
+                    "title": "What Information From the Neglected Field can be Processed?",
+                    "videoUrl": "http://www.archive.org/download/MIT9.00SCF11/MIT9_00SCF11_lec08_300k.mp4",
+                    "youtubeKey": "QvK6YdFKMY8",
+                    "contentLength": 113319140,
+                    "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/8408fccbaca4572fb6812870949b9f1e_QvK6YdFKMY8.vtt",
+                    "htmlFile": "resources/what-information-from-the-neglected-field-can-be-processed/index.html"
+                },
+                {
+                    "title": "What is Social Psychology?",
+                    "videoUrl": "http://www.archive.org/download/MIT9.00SCF11/MIT9_00SCF11_lec22_300k.mp4",
+                    "youtubeKey": "lanmHS0JwYI",
+                    "contentLength": 158238475,
+                    "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/2b500152bb535651a75e667e32ec4f31_lanmHS0JwYI.vtt",
+                    "htmlFile": "resources/what-is-social-psychology/index.html"
+                }
+            ]
+        }
+    ]
+}

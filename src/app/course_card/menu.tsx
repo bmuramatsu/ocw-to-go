@@ -14,6 +14,8 @@ export default function CourseCardMenu({ courseData }: CourseCardMenuProps) {
 
   const dispatch = useAppDispatch();
 
+  const hasVideos = !!courseData.videos.length;
+
   const confirmRemove = React.useCallback(() => {
     if (
       window.confirm(

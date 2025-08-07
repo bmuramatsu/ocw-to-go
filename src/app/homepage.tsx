@@ -5,6 +5,8 @@ import ScrollTo from "./scroll_to";
 import { ALL_COURSES } from "./initial_course_list";
 import { FeaturedCourseCard } from "./course_card/course_card";
 import { ChevronRight, HeroImg, PhoneImg, DownloadImg, ChalkboardImg } from "./svgs";
+import { featuredCourseNumbers } from "../courses/featured";
+import { CourseData } from "../types";
 
 export default function Homepage() {
   const courseCount = React.useMemo(() => {
@@ -12,7 +14,18 @@ export default function Homepage() {
   }, []);
 
   const featuredCourses = React.useMemo(() => {
-    return ALL_COURSES.filter((course) => course.featured);
+    const featuredCourses: CourseData[] = [];
+
+    featuredCourseNumbers.forEach((courseNumber) => {
+      const course = ALL_COURSES.find((c) => c.courseNumber === courseNumber);
+      if (course) {
+        featuredCourses.push(course);
+      } else {
+        console.warn(`Featured course ${courseNumber} not found`);
+      }
+    });
+
+    return featuredCourses;
   }, []);
 
   return (
@@ -54,8 +67,6 @@ export default function Homepage() {
             {featuredCourses.map((course) => (
               <FeaturedCourseCard key={course.id} courseData={course} />
             ))}
-            <li className="course-card--fake"></li> 
-            <li className="course-card--fake"></li> 
           </ul>
           <div className="flex justify-center u-mt-24">
             <Link className="btn btn--primary" href="/all-courses">Explore all {courseCount} courses</Link>

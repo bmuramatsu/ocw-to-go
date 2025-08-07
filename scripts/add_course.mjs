@@ -119,6 +119,12 @@ for (const dataPath of dataPaths) {
 
     const resp = await fetch(videoUrl, { method: "HEAD" });
     const length = parseInt(resp.headers.get("content-length"));
+    if (!length) {
+      console.warn(
+        `No content-length for ${dataJSON.title} (${videoUrl}), skipping`,
+      );
+      continue;
+    }
     // these seem to be applied very inconsistently
     const category = dataJSON["learning_resource_types"][0] || "Other";
 
@@ -165,7 +171,7 @@ fs.writeFileSync(
   JSON.stringify(cardData, null, 4),
 );
 
-fs.appendFileSync("src/courses/index.txt", `${safeName}`);
+fs.appendFileSync("src/courses/index.txt", `\n${safeName}`);
 makeCourseList();
 
 console.log(`Course added to src/courses/index.ts`);

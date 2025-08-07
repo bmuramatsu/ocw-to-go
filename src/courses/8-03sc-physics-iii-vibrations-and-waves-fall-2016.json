@@ -1,0 +1,325 @@
+{
+    "id": "8-03sc-physics-iii-vibrations-and-waves-fall-2016",
+    "name": "Physics III: Vibrations and Waves",
+    "category": "Physical Science",
+    "topics": [
+        "Science",
+        "Physics",
+        "Classical Mechanics",
+        "Science",
+        "Physics",
+        "Electromagnetism",
+        "Science",
+        "Physics",
+        "Atomic, Molecular, Optical Physics"
+    ],
+    "instructors": [
+        "Prof. Yen-Jie Lee"
+    ],
+    "courseNumber": "8.03SC",
+    "courseLevel": "Undergraduate",
+    "cardImg": "/images/course_cards/8-03sc-physics-iii-vibrations-and-waves-fall-2016.jpg",
+    "imgAltText": "A water drop on top and water column with waves below it.",
+    "file": "https://files.ocwtogo.org/8.03sc-fall-2016.zip",
+    "downloadSize": 135513634,
+    "diskSize": 259292232,
+    "description": "Vibrations and waves are everywhere. If you take any system and disturb it from a stable equilibrium, the resultant motion will be waves and vibrations. Think of a guitar string—pluck the string, and it vibrates. The sound waves generated make their way to our ears, and we hear the string’s sound. Our eyes see what’s happening because they receive the electromagnetic waves of the light reflected from the guitar string, so that we can recognize the beautiful sinusoidal waves on the string. In fact, without vibrations and waves, we could not recognize the universe around us at all!\n\n[![Click to get started.](/images/button_start.png)](pages/syllabus)\n\nThe amazing thing is that we can describe many fascinating phenomena arising from very different physical systems with mathematics. This course will provide you with the concepts and mathematical tools necessary to understand and explain a broad range of vibrations and waves. You will learn that waves come from many interconnected (coupled) objects when they are vibrating together. We will discuss many of these phenomena, along with related topics, including mechanical vibrations and waves, sound waves, electromagnetic waves, optics, and gravitational waves.\n",
+    "descriptionHtml": "<p>Vibrations and waves are everywhere. If you take any system and disturb it from a stable equilibrium, the resultant motion will be waves and vibrations. Think of a guitar string—pluck the string, and it vibrates. The sound waves generated make their way to our ears, and we hear the string’s sound. Our eyes see what’s happening because they receive the electromagnetic waves of the light reflected from the guitar string, so that we can recognize the beautiful sinusoidal waves on the string. In fact, without vibrations and waves, we could not recognize the universe around us at all!</p>\n<p><a href=\"pages/syllabus/index.html\"><img src=\"/images/button_start.png\" alt=\"Click to get started.\"></a></p>\n<p>The amazing thing is that we can describe many fascinating phenomena arising from very different physical systems with mathematics. This course will provide you with the concepts and mathematical tools necessary to understand and explain a broad range of vibrations and waves. You will learn that waves come from many interconnected (coupled) objects when they are vibrating together. We will discuss many of these phenomena, along with related topics, including mechanical vibrations and waves, sound waves, electromagnetic waves, optics, and gravitational waves.</p>\n",
+    "videoGroups": [
+        {
+            "category": "Lecture Videos",
+            "videos": [
+                {
+                    "title": "Lecture 1: Periodic Oscillations, Harmonic Oscillators",
+                    "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec01_300k.mp4",
+                    "youtubeKey": "4ysFC9vd3GE",
+                    "contentLength": 134446500,
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/8085d63bf3f5547d9b04fa06bc67a179_4ysFC9vd3GE.vtt",
+                    "htmlFile": "resources/lecture-1-video/index.html"
+                },
+                {
+                    "title": "Lecture 6: Driven Oscillators, Resonance",
+                    "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec06_300k.mp4",
+                    "youtubeKey": "Ahv7Akj2xs4",
+                    "contentLength": 193264736,
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/02cb5fbed665548395183d815214f8a4_Ahv7Akj2xs4.vtt",
+                    "htmlFile": "resources/lecture-6-video/index.html"
+                },
+                {
+                    "title": "Lecture 8: Translation Symmetry",
+                    "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec08_300k.mp4",
+                    "youtubeKey": "J1uHGy1tRmM",
+                    "contentLength": 162205264,
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/dd8b93bad4015a4fa01e8f34f0c4ec48_J1uHGy1tRmM.vtt",
+                    "htmlFile": "resources/lecture-8-video/index.html"
+                },
+                {
+                    "title": "Lecture 11: Sound Waves",
+                    "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec11_300k.mp4",
+                    "youtubeKey": "RhIh1zw0-BM",
+                    "contentLength": 172734547,
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/21e0241153d458c4a77ea9e842d7f08e_RhIh1zw0-BM.vtt",
+                    "htmlFile": "resources/lecture-11-video/index.html"
+                },
+                {
+                    "title": "Lecture 15: Uncertainty Principle, 2D Waves",
+                    "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec15_300k.mp4",
+                    "youtubeKey": "In0E5_JrPpo",
+                    "contentLength": 174303259,
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/d708bf3163bd515284e2333d09cb20ba_In0E5_JrPpo.vtt",
+                    "htmlFile": "resources/lecture-15-video/index.html"
+                },
+                {
+                    "title": "Lecture 22: Diffraction, Resolution",
+                    "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec22_300k.mp4",
+                    "youtubeKey": "FY6iXM9X5Fo",
+                    "contentLength": 174027398,
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/a20c45c5f890583d8b68c4aedf50ff1f_FY6iXM9X5Fo.vtt",
+                    "htmlFile": "resources/lecture-22-video/index.html"
+                }
+            ]
+        },
+        {
+            "category": "Instructor Insights",
+            "videos": [
+                {
+                    "title": "Behind-the-Scenes Demo Prep",
+                    "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_Educator05_Behind-the-Scenes_Demo_Prep_300k.mp4",
+                    "youtubeKey": "cektQp7QQhk",
+                    "contentLength": 6372488,
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/8313cf7c161c5d2192c48b4e0c3bea61_cektQp7QQhk.vtt",
+                    "htmlFile": "resources/behind-the-scenes-demo-prep/index.html"
+                },
+                {
+                    "title": "Combining Chalk Talks and Slides in a Complementary Way",
+                    "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_Educator07_Chalkboards_300k.mp4",
+                    "youtubeKey": "gDzWxDqb8Xg",
+                    "contentLength": 6508538,
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/6af28f7841ee57d58487befdf2d89e82_gDzWxDqb8Xg.vtt",
+                    "htmlFile": "resources/combining-chalk-talks-and-slides-in-a-complementary-way/index.html"
+                },
+                {
+                    "title": "Course Iteration: Incorporating Theoretical Content and Demonstrations",
+                    "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_Educator10_Course_Iteration_300k.mp4",
+                    "youtubeKey": "fTACO13q2oU",
+                    "contentLength": 6932768,
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/8f9211b556545dab958ed4fe6d0b257e_fTACO13q2oU.vtt",
+                    "htmlFile": "resources/course-iteration/index.html"
+                },
+                {
+                    "title": "Making Time for Individual Questions in a Large Lecture",
+                    "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_Educator02_Taking_Breaks_300k.mp4",
+                    "youtubeKey": "cZAM2Co3tzo",
+                    "contentLength": 4257833,
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/347ba0c943f75eb681fa6eb3268c9830_cZAM2Co3tzo.vtt",
+                    "htmlFile": "resources/making-time-for-individual-questions-in-a-large-lecture/index.html"
+                },
+                {
+                    "title": "Students’ Common Misconceptions",
+                    "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_Educator01_Common_Misconceptions_300k.mp4",
+                    "youtubeKey": "GUgIh6ff86Y",
+                    "contentLength": 4705485,
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/088d095b75af5e589976aa6126821f1c_GUgIh6ff86Y.vtt",
+                    "htmlFile": "resources/students2019-common-misconceptions/index.html"
+                },
+                {
+                    "title": "Taking a Vote to Engage Learners",
+                    "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_Educator06_Voting_300k.mp4",
+                    "youtubeKey": "0oUSmdQ-WaA",
+                    "contentLength": 7129269,
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/00b04f83df135cf992c93064640c6a77_0oUSmdQ-WaA.vtt",
+                    "htmlFile": "resources/taking-a-vote-to-engage-learners/index.html"
+                },
+                {
+                    "title": "The Role of Recitations",
+                    "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_Educator09_Recitations_300k.mp4",
+                    "youtubeKey": "wwQu2_u8jeo",
+                    "contentLength": 5299813,
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/bfbf7398e2a2540383c1e25bd25d555e_wwQu2_u8jeo.vtt",
+                    "htmlFile": "resources/the-role-of-recitations/index.html"
+                },
+                {
+                    "title": "Tips for Physics Educators",
+                    "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_Educator11_Tips_for_Physics_Educators_300k.mp4",
+                    "youtubeKey": "8P2AvGGtm_A",
+                    "contentLength": 6318065,
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/b3d7de3914f75b0ca9d97b37609cce1a_8P2AvGGtm_A.vtt",
+                    "htmlFile": "resources/tips-for-physics-educators/index.html"
+                },
+                {
+                    "title": "Using Demonstrations in Class",
+                    "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_Educator04_Using_Demos_in_Class_300k.mp4",
+                    "youtubeKey": "9Dwl2FbEc5E",
+                    "contentLength": 7549373,
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/7298980a9d49505787492e8a9e50c710_9Dwl2FbEc5E.vtt",
+                    "htmlFile": "resources/using-demonstrations-in-class/index.html"
+                },
+                {
+                    "title": "Using Humor to Enhance Learning",
+                    "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_Educator03_Using_Humor_300k.mp4",
+                    "youtubeKey": "lAuAC4hz5rc",
+                    "contentLength": 6497563,
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/22887287910e5ab69c7d6b2d01cd5540_lAuAC4hz5rc.vtt",
+                    "htmlFile": "resources/using-humor-to-enhance-learning/index.html"
+                },
+                {
+                    "title": "Using Questionnaires to Customize Course Content",
+                    "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_Educator08_Questionnaires_300k.mp4",
+                    "youtubeKey": "7Knpp3AIteQ",
+                    "contentLength": 7442730,
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/98134762160e52228b24db10a86e4e12_7Knpp3AIteQ.vtt",
+                    "htmlFile": "resources/using-questionnaires-to-customize-course-content/index.html"
+                }
+            ]
+        },
+        {
+            "category": "Other",
+            "videos": [
+                {
+                    "title": "Bell Labs Wave Machine (Mismatched Impedance)",
+                    "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec10_300k.mp4",
+                    "youtubeKey": "SnNmbVH5DAM",
+                    "contentLength": 173306502,
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/dcf025c57dab57bba3fd636db011dd57_SnNmbVH5DAM.vtt",
+                    "htmlFile": "resources/copy2_of_lecture-10-video/index.html"
+                },
+                {
+                    "title": "Brewster's Angle",
+                    "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec19_300k.mp4",
+                    "youtubeKey": "sBKHUPDUI1o",
+                    "contentLength": 193862423,
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/377630a8b2845b4fa940e158f1e8765e_sBKHUPDUI1o.vtt",
+                    "htmlFile": "resources/copy2_of_lecture-19-video/index.html"
+                },
+                {
+                    "title": "Chladni Figures (Speaker Driven)",
+                    "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec16_300k.mp4",
+                    "youtubeKey": "_kKIQ1h9UuA",
+                    "contentLength": 192982788,
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/2442e1653f2151ed8c8fde06395846a1_kKIQ1h9UuA.vtt",
+                    "htmlFile": "resources/copy_of_lecture-16-video/index.html"
+                },
+                {
+                    "title": "Damped and Undamped Masses on a Spring",
+                    "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec02_300k.mp4",
+                    "youtubeKey": "T2n6fVybLcU",
+                    "contentLength": 179950167,
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/06cbe36eb7f05f8e842f6b2ad116724a_T2n6fVybLcU.vtt",
+                    "htmlFile": "resources/copy9_of_lecture-2-video/index.html"
+                },
+                {
+                    "title": "Lecture 12 VideoLecture Video 12: Maxwell's Equation, Electromagnetic Waves",
+                    "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec12_300k.mp4",
+                    "youtubeKey": "8kcvyoHsXrw",
+                    "contentLength": 178128449,
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/599c1bbea83c511398f606ba040398ff_8kcvyoHsXrw.vtt",
+                    "htmlFile": "resources/lecture-12-video-1/index.html"
+                },
+                {
+                    "title": "Lecture Video 3: Driven Oscillators, Transient Phenomena, Resonance",
+                    "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec03_300k.mp4",
+                    "youtubeKey": "FCFpaKcpuXQ",
+                    "contentLength": 178516019,
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/7390e1408fba5124963bf4725036d01a_FCFpaKcpuXQ.vtt",
+                    "htmlFile": "resources/lecture-3-video-1/index.html"
+                },
+                {
+                    "title": "Lecture Video 13: Dispersive Medium, Phase Velocity, Group Velocity",
+                    "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec13_300k.mp4",
+                    "youtubeKey": "QxemLb8-5AA",
+                    "contentLength": 173010516,
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/917f9c799fa6515c992b22795ccbe813_QxemLb8-5AA.vtt",
+                    "htmlFile": "resources/lecture-13-video-1/index.html"
+                },
+                {
+                    "title": "Lecture Video 14: Fourier Transform, AM Radio",
+                    "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec14_300k.mp4",
+                    "youtubeKey": "VGAlyJ7e0IQ",
+                    "contentLength": 182113939,
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/864c4ec724975868b47312f3a44d7941_VGAlyJ7e0IQ.vtt",
+                    "htmlFile": "resources/lecture-14-video-1/index.html"
+                },
+                {
+                    "title": "Lecture Video 17: Polarization, Polarizer Video",
+                    "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec17_300k.mp4",
+                    "youtubeKey": "TjxR7lAwWhI",
+                    "contentLength": 172589377,
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/5e09cb6509e55cacb6fdb09dc2dc394b_TjxR7lAwWhI.vtt",
+                    "htmlFile": "resources/lecture-17-video-1/index.html"
+                },
+                {
+                    "title": "Lecture Video 20: Interference, Soap Bubble",
+                    "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec20_300k.mp4",
+                    "youtubeKey": "VkbtIDSHfSc",
+                    "contentLength": 193643116,
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/a6d82548358553d1bfa588bb5560ee8b_VkbtIDSHfSc.vtt",
+                    "htmlFile": "resources/lecture-20-video-1/index.html"
+                },
+                {
+                    "title": "Lecture Video 23: Quantum Waves and Gravitational Waves",
+                    "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec23_300k.mp4",
+                    "youtubeKey": "Roj7FVjl-gw",
+                    "contentLength": 178379437,
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/d5e959123eea585cb9dfc45e68c21f38_Roj7FVjl-gw.vtt",
+                    "htmlFile": "resources/lecture-23-video-1/index.html"
+                },
+                {
+                    "title": "Lecture Video 24: Review for Final Exam",
+                    "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec24_300k.mp4",
+                    "youtubeKey": "jwh7LqjT4w0",
+                    "contentLength": 163484879,
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/66ed6bb669765b0993a60c82a674c4cc_jwh7LqjT4w0.vtt",
+                    "htmlFile": "resources/lecture-24-video-1/index.html"
+                },
+                {
+                    "title": "Polarizing Filters and Light",
+                    "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec18_300k.mp4",
+                    "youtubeKey": "Dlhma3z57SA",
+                    "contentLength": 198246904,
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/713a50edf0ea5c58b0702883f1807827_Dlhma3z57SA.vtt",
+                    "htmlFile": "resources/copy_of_lecture-18-video/index.html"
+                },
+                {
+                    "title": "Rijke Tube",
+                    "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec09_300k.mp4",
+                    "youtubeKey": "1JeBWHzrRD4",
+                    "contentLength": 177919263,
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/81ab267f179750aca3380a7706636362_1JeBWHzrRD4.vtt",
+                    "htmlFile": "resources/copy3_of_lecture-9-video/index.html"
+                },
+                {
+                    "title": "Single-Slit Diffraction with a Laser",
+                    "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec21_300k.mp4",
+                    "youtubeKey": "mqhO9GT8hD4",
+                    "contentLength": 185526927,
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/5662f2c096015f92ac324c2c36c8f5ba_mqhO9GT8hD4.vtt",
+                    "htmlFile": "resources/copy4_of_lecture-21-video/index.html"
+                },
+                {
+                    "title": "Two Rigid Pendulums Coupled with a Spring",
+                    "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec05_300k.mp4",
+                    "youtubeKey": "I0YACDaY-ww",
+                    "contentLength": 187533659,
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/59e531cf7f7b54d4893d9c70edb76e84_I0YACDaY-ww.vtt",
+                    "htmlFile": "resources/copy2_of_lecture-5-video/index.html"
+                },
+                {
+                    "title": "Two Rigid Pendulums Coupled with a Spring",
+                    "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec04_300k.mp4",
+                    "youtubeKey": "BX4QPdP7fT8",
+                    "contentLength": 182848361,
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/65e59491ef93581dbfc18ac103cd1313_BX4QPdP7fT8.vtt",
+                    "htmlFile": "resources/copy3_of_lecture-4-video/index.html"
+                },
+                {
+                    "title": "Vibrating Spring (Hand Driven)",
+                    "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec07_300k.mp4",
+                    "youtubeKey": "b1eKhyC9TTo",
+                    "contentLength": 175908841,
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/290f5acd3bd357eb8b53506108d821eb_b1eKhyC9TTo.vtt",
+                    "htmlFile": "resources/copy2_of_lecture-7-video/index.html"
+                }
+            ]
+        }
+    ]
+}
