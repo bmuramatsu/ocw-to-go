@@ -8,7 +8,7 @@ export default function MyCourses() {
 
   return (
     <>
-      <ul className="course-grid has-padding">
+      <ul className="course-grid has-padding no-inline-padding">
         {myCourses.map((course) => (
           <MyCourseCard key={course.id} courseData={course} />
         ))}

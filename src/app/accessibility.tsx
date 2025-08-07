@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Accessibility() {
   return (
-    <main className="text-block">
-      <h1>Accessibility</h1>
+    <main className="main__contain blog-width section-padding text-block">
+      <h1 className="h1">Accessibility</h1>
       <h2>Our Commitment</h2>
       <p>
         MIT is committed to providing an environment that is accessible to
