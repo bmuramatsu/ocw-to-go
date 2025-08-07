@@ -12,26 +12,23 @@ export default function CourseCardDescription({
 }: CourseCardDescriptionProps) {
   const firstParagraph = useFirstParagraph(courseData.descriptionHtml);
 
-  const description = useDescriptionText(firstParagraph);
-
   const [expanded, setExpanded] = React.useState(false);
+  const toggleExpanded = () => setExpanded(!expanded);
 
   return (
-    <>
-      <p onClick={() => setExpanded(true)} className={expanded ? "course-card__description u-mt-20 is-open" : "course-card__description u-mt-20 "}>
-        <span
-          dangerouslySetInnerHTML={{
-            __html: description.expandedText
-          }}
-        />
-        {description.isLong && !expanded && (
-          <button onClick={() => setExpanded(true)}>View More</button>
-        )}
-        {description.isLong && expanded && (
-          <button onClick={() => setExpanded(false)}>View Less</button>
-        )}
-      </p>
-    </>
+    <p
+      onClick={toggleExpanded}
+      className={`course-card__description u-mt-20 ${expanded ? "is-open" : ""}`}
+    >
+      <span
+        dangerouslySetInnerHTML={{
+          __html: firstParagraph.innerHTML,
+        }}
+      />
+      <button onClick={toggleExpanded}>
+        {expanded ? "View Less" : "View More"}
+      </button>
+    </p>
   );
 }
 
@@ -50,37 +47,4 @@ function useFirstParagraph(descriptionHtml: string): HTMLParagraphElement {
 
     return p;
   }, [descriptionHtml]);
-}
-
-type DescriptionText = {
-  isLong: boolean;
-  text: string;
-  expandedText: string;
-};
-
-// Using two values here to avoid truncating a small amount of text. For
-// example, if the text is 405 characters, we don't want a button that is hiding
-// 5 characters.
-const COLLAPSE_CUTOFF = 500;
-const COLLAPSED_SIZE = 400;
-
-function useDescriptionText(
-  firstParagraph: HTMLParagraphElement,
-): DescriptionText {
-  return React.useMemo((): DescriptionText => {
-    if (firstParagraph.innerText.length <= COLLAPSE_CUTOFF) {
-      return {
-        isLong: false,
-        text: firstParagraph.innerHTML,
-        expandedText: "",
-      };
-    }
-
-    return {
-      isLong: true,
-      // use text instead of HTML because truncating HTML can break tags
-      text: firstParagraph.innerText.slice(0, COLLAPSED_SIZE) + "...",
-      expandedText: firstParagraph.innerHTML,
-    };
-  }, [firstParagraph]);
 }
