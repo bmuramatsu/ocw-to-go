@@ -52,7 +52,7 @@ function CategoryGroup({ category, courses }: CategoryGroupProps) {
 
   return (
     <div className="accordion">
-      <button className="accordion-toggle" onClick={() => setOpen((o) => !o)}>
+      <button className={`accordion-toggle ${open ? "is-open" : ""}`} onClick={() => setOpen((o) => !o)}>
         <h2>{category} ({courses.length}){" "}</h2><ChevronRight />
       </button>
       {open && (

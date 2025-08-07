@@ -1,20 +1,18 @@
 import React from "react";
-import { Link } from "wouter";
 import { More } from "../svgs";
 import { CourseData } from "../../types";
 import { useAppDispatch } from "../store/store";
 import * as asyncActions from "../store/async_actions";
+import useAutoCloseMenu from "../use_auto_close_menu";
 
 interface CourseCardMenuProps {
   courseData: CourseData;
 }
 
 export default function CourseCardMenu({ courseData }: CourseCardMenuProps) {
-  const [expanded, setExpanded] = React.useState(false);
+  const [expanded, open, close] = useAutoCloseMenu(false);
 
   const dispatch = useAppDispatch();
-
-  const hasVideos = !!courseData.videos.length;
 
   const confirmRemove = React.useCallback(() => {
     if (
@@ -28,7 +26,7 @@ export default function CourseCardMenu({ courseData }: CourseCardMenuProps) {
 
   return (
     <div className="menu-container">
-      <button className="icon-btn" onClick={() => setExpanded((e) => !e)}><More /></button>
+      <button className="icon-btn" onClick={e => expanded ? close() : open(e)}><More /></button>
       {expanded && (
         <ul className="course-card-menu">
           <li>
