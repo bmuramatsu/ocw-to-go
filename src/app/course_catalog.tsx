@@ -14,21 +14,30 @@ export default function CourseCatalog({ children }: Props) {
 
   return (
     <main>
-      <h2>Course Catalog</h2>
-      <p>
-        Explore {allCoursesCount} MIT OpenCourseWare courses curated for offline
-        learning from your mobile device.
-      </p>
-      <Link href="/my-courses" className={(active) => (active ? "active" : "")}>
-        My courses ({myCoursesCount})
-      </Link>
-      <Link
-        href="/all-courses"
-        className={(active) => (active ? "active" : "")}
-      >
-        All courses ({allCoursesCount})
-      </Link>
-      {children}
+      <section className="section-padding">
+        <div className="main__contain">
+          <h1 className="h1 u-mb-8">Course Catalog</h1>
+          <p className="text u-mt-8 u-mb-0">
+            Explore {allCoursesCount} MIT courses optimized for offline learning.
+          </p>
+        </div>
+      </section>
+      <nav className="tabs">
+        <Link href="/my-courses" className={(active) => (active ? "active" : "")}>
+          My courses ({myCoursesCount})
+        </Link>
+        <Link
+          href="/all-courses"
+          className={(active) => (active ? "active" : "")}
+        >
+          All courses ({allCoursesCount})
+        </Link>
+      </nav>
+      <section className="bg--gray">
+        <div className="main__contain no-padding">
+          {children}
+        </div>
+      </section>
     </main>
   );
 }

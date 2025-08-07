@@ -2,6 +2,7 @@ import React from "react";
 import { ALL_COURSES } from "./initial_course_list";
 import { FeaturedCourseCard } from "./course_card/course_card";
 import { CourseData } from "../types";
+import { ChevronRight } from "./svgs";
 
 export default function AllCourses() {
   const groupedCourses = React.useMemo(() => {
@@ -23,8 +24,7 @@ export default function AllCourses() {
   }, [groupedCourses]);
 
   return (
-    <>
-      <h1>All Courses</h1>
+    <div className="accordion-container">
       {categories.map((category) => (
         <CategoryGroup
           key={category}
@@ -32,7 +32,7 @@ export default function AllCourses() {
           courses={groupedCourses[category]}
         />
       ))}
-    </>
+    </div>
   );
 }
 
@@ -45,17 +45,18 @@ function CategoryGroup({ category, courses }: CategoryGroupProps) {
   const [open, setOpen] = React.useState(false);
 
   return (
-    <div>
-      <h2>
-        {category} ({courses.length}){" "}
-        <button onClick={() => setOpen((o) => !o)}>Toggle</button>
-      </h2>
+    <div className="accordion">
+      <button className="accordion-toggle" onClick={() => setOpen((o) => !o)}>
+        <h2>{category} ({courses.length}){" "}</h2><ChevronRight />
+      </button>
       {open && (
-        <div className="course-list">
+        <ul className="course-grid has-padding">
           {courses.map((course) => (
             <FeaturedCourseCard key={course.id} courseData={course} />
           ))}
-        </div>
+          <li className="course-card--fake"></li> 
+          <li className="course-card--fake"></li> 
+        </ul>
       )}
     </div>
   );

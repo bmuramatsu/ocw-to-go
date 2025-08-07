@@ -3,7 +3,7 @@ import { CourseData, UserCourse } from "../../types";
 import downloadCourseAction from "../store/download_course_action";
 import { useAppDispatch } from "../store/store";
 import { useFormattedBytes } from "../utils/format_bytes";
-import { ChevronRight, Download, Loader } from "../svgs";
+import { Play, Download, Loader } from "../svgs";
 import CourseLink from "../course_link";
 
 interface MainButtonProps {
@@ -21,33 +21,33 @@ export default function MainButton({ courseData, userCourse }: MainButtonProps) 
   switch (userCourse.status) {
     case "none":
       return (
-        <button onClick={downloadCourse} className="btn--has-icon is-primary">
+        <button onClick={downloadCourse} className="btn btn--primary-black">
           <Download />
-          Download Course ({unzippedCourseSize})
+          Download ({unzippedCourseSize})
         </button>
       );
     case "downloading":
       return (
-        <button className="btn--has-icon is-primary is-downloading" disabled>
+        <button className="btn btn--primary-black is-downloading" disabled>
           <Loader />
-          Downloading Course ({downloadProgress}%)
+          Downloading ({downloadProgress}%)
         </button>
       );
     case "preparing":
       return (
-        <button className="btn--has-icon is-primary is-downloading" disabled>
+        <button className="btn btn--primary-black is-downloading" disabled>
           <Loader />
-          Preparing Course
+          Preparing
         </button>
       );
     case "ready":
       return (
         <CourseLink
           courseData={courseData}
-          className="btn--has-icon is-primary icon-right"
+          className="btn btn--primary-black"
         >
+          <Play />
           View Course
-          <ChevronRight />
         </CourseLink>
       );
   }

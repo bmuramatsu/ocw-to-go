@@ -4,6 +4,7 @@ import CourseVideo from "./course_video";
 import DownloadAllVideos from "./download_all_videos";
 import CourseVideoUsage from "../course_video_usage";
 import { VideoData } from "../../types";
+import { Info } from "../svgs";
 
 interface Props {
   courseId: string;
@@ -30,30 +31,38 @@ export default function ManageCourseVideos({ courseId }: Props) {
 
   return (
     <main>
-      <div className="flex wrap flex-end">
-        <h1 className="h1 flex-1 u-min-300">{courseData.name}: Videos</h1>
-        <div className="flex align-end flex-column">
-          <DownloadAllVideos courseId={courseId} />
-          <p className="text">
-            <CourseVideoUsage course={courseData} />
-          </p>
+      <section className="section-padding">
+        <div className="main__contain">
+          <p className="h4">{courseData.name}</p>
+          <h1 className="h1 u-mb-8">Manage Videos</h1>
         </div>
-      </div>
-      {Array.from(videoGroups).map(([category, videos]) => (
-        <React.Fragment key={category}>
-          <h2 className="video-header">{category}</h2>
-          <div className="video-list u-mt-12">
-            {videos.map((video) => (
-              <CourseVideo
-                key={video.youtubeKey}
-                courseId={courseId}
-                video={video}
-                withLink
-              />
-            ))}
+      </section>
+      <section className="bg--gray u-pb-72">
+        <div className="main__contain no-padding">
+          <div className="flat-card">
+            <div className="flex align-center gap-12">
+              <Info />
+              <p className="text">Download course videos to access them offline</p>
+            </div>
+            <DownloadAllVideos courseId={courseId} />
           </div>
-        </React.Fragment>
-      ))}
+          {Array.from(videoGroups).map(([category, videos]) => (
+            <React.Fragment key={category}>
+              <h2 className="video-header">{category}</h2>
+              <div className="video-list u-mt-16">
+                {videos.map((video) => (
+                  <CourseVideo
+                    key={video.youtubeKey}
+                    courseId={courseId}
+                    video={video}
+                    withLink
+                  />
+                ))}
+              </div>
+            </React.Fragment>
+          ))}
+        </div>
+      </section>
     </main>
   );
 }

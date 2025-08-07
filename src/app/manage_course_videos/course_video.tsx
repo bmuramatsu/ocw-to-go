@@ -1,5 +1,5 @@
 import React from "react";
-import { Download, Loader, Checkmark, Cancel, Trash } from "../svgs";
+import { Download, Loader, Checkmark, Cancel, Trash, Play } from "../svgs";
 import { VideoData } from "../../types";
 import { useAppDispatch, useAppSelector } from "../store/store";
 import * as customActions from "../store/custom_actions";
@@ -63,36 +63,40 @@ function DownloadButton({
   switch (videoStatus.status) {
     case "ready":
       return (
-        <button className="btn--has-icon" onClick={() => deleteVideo()}>
-          <Trash />
-          Delete
-        </button>
+        <div className="video-actions flex align-center gap-8">
+          <Link href="#" className="btn btn--primary-black has-icon"><Play />Play video</Link>
+          <button className="icon-btn icon-btn--outlined is-red" onClick={() => deleteVideo()}>
+            <Trash />
+          </button>
+        </div>
       );
     case "downloading":
     case "waiting":
       return (
-        <div className="combo-btn">
-          <div className="btn--has-icon is-downloading">
-            <Loader />
-            {videoStatus.status === "downloading"
-              ? "Downloading"
-              : "Waiting..."}
+        <div className="video-actions">
+          <div className="combo-btn">
+            <div className="btn btn--primary-black-outlined has-icon is-downloading">
+              <Loader />
+              {videoStatus.status === "downloading"
+                ? "Downloading"
+                : "Waiting..."}
+            </div>
+            <button
+              className="icon-btn icon-btn--outlined"
+              onClick={() =>
+                dispatch(customActions.cancelVideoDownload({ courseId, videoId }))
+              }
+            >
+              <Cancel />
+            </button>
           </div>
-          <button
-            className="icon-btn"
-            onClick={() =>
-              dispatch(customActions.cancelVideoDownload({ courseId, videoId }))
-            }
-          >
-            <Cancel />
-          </button>
         </div>
       );
     default:
       return (
-        <div className="flex flex-column align-end">
+        <div className="video-actions flex flex-column align-end">
           <button
-            className="btn--has-icon"
+            className="btn btn--primary-black-outlined has-icon"
             onClick={() =>
               dispatch(customActions.downloadVideo({ courseId, videoId }))
             }

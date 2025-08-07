@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "wouter";
+import { More } from "../svgs";
 import { CourseData } from "../../types";
 import { useAppDispatch } from "../store/store";
 import * as asyncActions from "../store/async_actions";
@@ -24,18 +25,24 @@ export default function CourseCardMenu({ courseData }: CourseCardMenuProps) {
   }, [courseData.id, dispatch]);
 
   return (
-    <>
-      <button onClick={() => setExpanded((e) => !e)}>Menu</button>
+    <div className="menu-container">
+      <button className="icon-btn" onClick={() => setExpanded((e) => !e)}><More /></button>
       {expanded && (
         <ul className="course-card-menu">
           <li>
-            <Link href={`/manage_videos/${courseData.id}`}>Manage Videos</Link>
+            <a
+              href={`https://ocw.mit.edu/courses/${courseData.id}`}
+              target="_blank"
+              rel="noreferrer"
+            >
+              View course online
+            </a>
           </li>
           <li>
-            <button onClick={confirmRemove}>Remove Course</button>
+            <button onClick={confirmRemove}>Delete course and videos</button>
           </li>
         </ul>
       )}
-    </>
+    </div>
   );
 }

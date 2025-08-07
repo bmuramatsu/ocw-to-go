@@ -11,11 +11,12 @@ export default function MyCourses() {
 
   return (
     <>
-      <h1>My Courses</h1>
-      <ul className="course-grid">
+      <ul className="course-grid has-padding">
         {stableCourses.map((course) => (
           <MyCourseCard key={course.id} courseData={course} />
         ))}
+        <li className="course-card--fake"></li> 
+        <li className="course-card--fake"></li> 
       </ul>
     </>
   );

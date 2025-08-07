@@ -2,7 +2,7 @@
 // and status information about the state of the course download.
 import React from "react";
 import { CourseData } from "../../types";
-import { Checkmark, Globe } from "../svgs";
+import { Checkmark, ExternalLink } from "../svgs";
 import CourseLink from "../course_link";
 import { useAppSelector } from "../store/store";
 import { selectUserCourse } from "../store/course_selectors";
@@ -28,41 +28,45 @@ function CourseCard({
   return (
     <li className="course-card">
       {/* TODO real codes */}
-      <div id="top-left">
-        <button>18.06SC</button>
-        {state === "ready" && (
-          <button>
-            Downloaded <Checkmark />
-          </button>
-        )}
+      <div className="course-card__top">
+        <div className="course-card__top-content">
+          <div className="flex align-center gap-2">
+            <span className="chip">18.06SC</span>
+            {state === "ready" && (
+              <span className="chip chip--downloaded">
+                <Checkmark /> Downloaded
+              </span>
+            )}
+          </div>
+          <div id="top-right">
+            {state === "ready" ? (
+              <CourseCardMenu courseData={courseData} />
+            ) : (
+              <a
+                href={`https://ocw.mit.edu/courses/${courseData.id}`}
+                target="_blank"
+                rel="noreferrer"
+                className="btn btn--primary-white"
+              >
+                <ExternalLink />
+                View online
+              </a>
+            )}
+          </div>
+        </div>
+        <img
+          loading="lazy"
+          className="course-card__img"
+          src={courseData.cardImg}
+          alt={courseData.imgAltText}
+        />
       </div>
-      <div id="top-right">
-        {state === "ready" ? (
-          <CourseCardMenu courseData={courseData} />
-        ) : (
-          <a
-            href={`https://ocw.mit.edu/courses/${courseData.id}`}
-            target="_blank"
-            rel="noreferrer"
-            className="external-link u-mt-8"
-          >
-            <Globe />
-            View online
-          </a>
-        )}
-      </div>
-      <img
-        loading="lazy"
-        className="course-card__img"
-        src={courseData.cardImg}
-        alt={courseData.imgAltText}
-      />
       <div className="course-card__content">
         <h3>
           <CourseLink courseData={courseData}>{courseData.name}</CourseLink>
         </h3>
-        <p className="u-mt-12">{courseData.instructors.join(", ")}</p>
-        {includeDescription && <p>Description component here</p>}
+        <p>{courseData.instructors.join(", ")}</p>
+        {includeDescription && <p className="u-mt-20">Description component here</p>}
       </div>
       <div className="course-card__actions">
         {includeManageVideos && state === "ready" && (
