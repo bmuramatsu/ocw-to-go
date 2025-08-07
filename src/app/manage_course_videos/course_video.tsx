@@ -70,14 +70,21 @@ function DownloadButton({
     case "ready":
       return (
         <div className="video-actions flex align-center gap-8">
-          {withLink && (
-            <Link href={videoPath(courseId, video)} className="btn btn--primary-black has-icon">
-              <Play />Play video
-            </Link>
+          {withLink ? (
+            <>
+              <Link href={videoPath(courseId, video)} className="btn btn--primary-black has-icon">
+                <Play />Play video
+              </Link>
+              <button className="icon-btn icon-btn--outlined is-red" onClick={() => deleteVideo()}>
+                <Trash />
+              </button>
+            </>
+          ) : (
+            <button className="btn btn--primary-outlined has-icon" onClick={() => deleteVideo()}>
+              <Trash />
+              Delete
+            </button>
           )}
-          <button className="icon-btn icon-btn--outlined is-red" onClick={() => deleteVideo()}>
-            <Trash />
-          </button>
         </div>
       );
     case "downloading":

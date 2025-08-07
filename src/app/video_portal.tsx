@@ -4,6 +4,7 @@ import CourseVideo, {
   CourseVideoProps,
 } from "./manage_course_videos/course_video";
 import { VideoData } from "../types";
+import { Info } from "./svgs";
 import VideoPlayer from "./video_player";
 import { useAppSelector } from "./store/store";
 import { selectVideoStatus } from "./store/video_selectors";
@@ -62,6 +63,10 @@ function VideoBanner(props: CourseVideoProps) {
 
   return (
     <div className="video-list">
+      <div className="video-list__banner">
+        <Info />
+        <p className="text">Download course videos to access them offline</p>
+      </div>
       <CourseVideo {...props} />
     </div>
   );
