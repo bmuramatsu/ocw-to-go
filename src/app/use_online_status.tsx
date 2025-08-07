@@ -1,3 +1,5 @@
+// This tracks the internet connection status of the user. It can be used as a
+// hook to get immediate updates
 import React from "react";
 
 const OnlineStatus = React.createContext(true);

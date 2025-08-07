@@ -6,9 +6,7 @@ import useAutoCloseMenu from "./use_auto_close_menu";
 import StorageUsage from "./storage_usage";
 
 export default function Header() {
-  const courseCount = React.useMemo(() => {
-    return ALL_COURSES.length;
-  }, []);
+  const courseCount = ALL_COURSES.length;
 
   const [navOpen, open, close] = useAutoCloseMenu(false);
 

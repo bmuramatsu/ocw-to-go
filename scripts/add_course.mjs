@@ -73,15 +73,11 @@ async function getUserInput(prompt) {
   });
 }
 
-const featuredAnswer = await getUserInput("Is this a featured course? (y/n): ");
-const featured = featuredAnswer[0].toLowerCase() === "y";
-
 const category = await getUserInput("Enter the category for this course: ");
 
 const cardData = {
   id: courseId,
   name: dataJSON.course_title,
-  featured,
   category,
   // topics are in a nested list for some reason
   topics: dataJSON.topics.flatMap((t) => t),

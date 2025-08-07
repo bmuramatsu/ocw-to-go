@@ -1,3 +1,6 @@
+// Replaces the resources items with our own version that looks consistent with
+// the OCW app, and clarifies the download language.
+// NOTE this is unused and incomplete.
 export default function replaceResourceItems() {
   document.querySelectorAll(".resource-item").forEach((item) => {
     const name = item

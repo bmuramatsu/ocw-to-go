@@ -15,9 +15,7 @@ import { featuredCourseNumbers } from "../courses/featured";
 import { CourseData } from "../types";
 
 export default function Homepage() {
-  const courseCount = React.useMemo(() => {
-    return ALL_COURSES.length;
-  }, []);
+  const courseCount = ALL_COURSES.length;
 
   const featuredCourses = React.useMemo(() => {
     const featuredCourses: CourseData[] = [];
@@ -113,9 +111,9 @@ export default function Homepage() {
                 <span>Step 2</span>Download a course
               </h3>
               <p className="text">
-                Click the “Download” button on your chosen course's card. This
-                will download all course content <b>except for videos</b>. To
-                download the videos for a course, continue to step 3.
+                Click the “Download” button on your chosen course&apos;s card.
+                This will download all course content <b>except for videos</b>.
+                To download the videos for a course, continue to step 3.
               </p>
             </li>
             <li>
@@ -136,8 +134,8 @@ export default function Homepage() {
                 <span>Step 4</span>Start learning
               </h3>
               <p className="text">
-                Your course is download, your videos are on your device, it's
-                time to start learning!
+                Your course is download, your videos are on your device,
+                it&apos;s time to start learning!
               </p>
             </li>
           </ul>

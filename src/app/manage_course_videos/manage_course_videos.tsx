@@ -2,7 +2,6 @@ import React from "react";
 import { COURSES_BY_ID } from "../initial_course_list";
 import CourseVideo from "./course_video";
 import DownloadAllVideos from "./download_all_videos";
-import CourseVideoUsage from "../course_video_usage";
 import { VideoData } from "../../types";
 import { Info } from "../svgs";
 
