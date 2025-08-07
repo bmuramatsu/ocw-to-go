@@ -67,7 +67,7 @@
   border-inline-end: none;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .video-list__item {
     flex-wrap: wrap;
 
@@ -168,6 +168,19 @@ a.btn--primary-black {
     background-color: rgb(0 0 0 / 80%);
   }
 }
+.btn--primary-outlined,
+a.btn--primary-outlined {
+  border: 1px solid #a31f34;
+  color: #a31f34;
+
+  svg {
+    fill: #a31f34;
+  }
+
+  &:hover {
+    background-color: #faf1f1;
+  }
+}
 .btn--primary-black-outlined {
   background-color: white;
   color: black;
@@ -220,17 +233,6 @@ a.btn--primary-black {
     background-color: #f6f7f9;
     cursor: pointer;
   }
-
-  &.is-red {
-    border-color: #a31f34;
-    svg {
-      fill: #a31f34;
-    }
-
-    &:hover {
-      background-color: #faf1f1;
-    }
-  }
 }
 
 video {
@@ -256,6 +258,7 @@ video {
   border-bottom: 1px solid #ddd;
 
   svg {
+    flex: 0 0 18px;
     width: 18px;
     height: 18px;
     fill: #a31f34;
