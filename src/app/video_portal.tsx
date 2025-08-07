@@ -63,10 +63,12 @@ function VideoBanner(props: CourseVideoProps) {
 
   return (
     <div className="video-list">
-      <div className="video-list__banner">
-        <Info />
-        <p className="text">Download course videos to access them offline</p>
-      </div>
+      {status !== "ready" && (
+        <div className="video-list__banner">
+          <Info />
+          <p className="text">Download course videos to access them offline</p>
+        </div>
+      )}
       <CourseVideo {...props} />
     </div>
   );
