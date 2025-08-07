@@ -33,7 +33,7 @@ export default function CourseCatalog({ children }: Props) {
           All courses ({allCoursesCount})
         </Link>
       </nav>
-      <section className="bg--gray">
+      <section className="bg--gray u-pb-72">
         <div className="main__contain no-padding">
           {children}
         </div>

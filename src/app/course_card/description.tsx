@@ -18,7 +18,7 @@ export default function CourseCardDescription({
 
   return (
     <>
-      <p>
+      <p className="u-mt-20">
         <span
           dangerouslySetInnerHTML={{
             __html: expanded ? description.expandedText : description.text,
