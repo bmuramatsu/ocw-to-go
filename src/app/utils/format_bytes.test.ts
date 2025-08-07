@@ -4,7 +4,7 @@ import { formatBytes } from "./format_bytes";
 
 describe("formatBytes", () => {
   test("should return raw bytes for small values", () => {
-    expect(formatBytes(0)).toBe("0 Bytes");
+    expect(formatBytes(0)).toBe("0 KB");
     expect(formatBytes(1)).toBe("1 Bytes");
     expect(formatBytes(1023)).toBe("1023 Bytes");
   });

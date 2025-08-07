@@ -7,7 +7,7 @@ import changeCourseMenuText from "./course/change_course_menu_text";
 import addManageVideosButton from "./course/add_manage_videos_button";
 import overrideNavButtons from "./course/override_nav_buttons";
 import fixFileDownloads from "./course/fix_file_downloads";
-import replaceResourceItems from "./course/replace_resource_items";
+// import replaceResourceItems from "./course/replace_resource_items";
 import fixTrailingSlashes from "./course/fix_trailing_slashes";
 import renderPdfs from "./course/render_pdfs";
 import injectOfflineVideos from "./course/inject_offline_videos";
@@ -20,7 +20,7 @@ function init() {
   changeCourseMenuText();
   addManageVideosButton();
   overrideNavButtons();
-  replaceResourceItems();
+  // replaceResourceItems();
   fixFileDownloads();
   fixTrailingSlashes();
   renderPdfs();
