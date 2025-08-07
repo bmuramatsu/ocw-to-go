@@ -15,7 +15,7 @@ export default function Header() {
 
   return (
     <section className="bg--black">
-      <div className="main__contain">
+      <div className="main__contain sm-padding">
         <header>
           <Link href="/">
             <img

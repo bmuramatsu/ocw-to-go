@@ -1,4 +1,6 @@
 :root {
+  interpolate-size: allow-keywords;
+
   --red: #a31f34;
   --red-hover: #8c162a;
   --red-bg: #faf1f1;
@@ -32,12 +34,25 @@ body > div#react-app {
   height: 100%;
 }
 
+.page-grid {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  main {
+    flex: 1;
+  }
+}
+
 .main__contain {
   width: min(104.8rem, 100% - 2.4rem * 2);
   margin-inline: auto;
 
   &.blog-width {
     width: min(64rem, 100% - 2.4rem * 2);
+  }
+  &.sm-padding {
+    width: min(104.8rem, 100% - 1.6rem * 2);
   }
   &.no-padding {
     width: min(104.8rem, 100%);
@@ -144,6 +159,9 @@ a:hover {
 }
 .u-mt-24 {
   margin-block-start: 2.4rem !important;
+}
+.u-mt-48 {
+  margin-block-start: 4.8rem !important;
 }
 .u-mb-0 {
   margin-block-end: 0 !important;
@@ -491,35 +509,6 @@ a.btn--primary-white {
   letter-spacing: 0.04em;
 }
 
-/* .page-grid {
-  height: 100%;
-  display: grid;
-  grid-template-columns:
-    [full-start]
-    minmax(1.2rem, 1fr)
-    [content-start]
-    min(125rem, 100% - 1.2rem * 2)
-    [content-end]
-    minmax(1.2rem, 1fr)
-    [full-end];
-  grid-template-rows: auto 1fr auto;
-  gap: 4.8rem 0;
-}
-.page-grid--text {
-  height: 100%;
-  display: grid;
-  grid-template-columns:
-    [full-start]
-    minmax(1.2rem, 1fr)
-    [content-start]
-    min(80rem, 100% - 1.2rem * 2)
-    [content-end]
-    minmax(1.2rem, 1fr)
-    [full-end];
-  grid-template-rows: auto 1fr auto;
-  gap: 4.8rem 0;
-} */
-
 header {
   display: flex;
   align-items: center;
@@ -551,7 +540,9 @@ header img {
   box-shadow: 0 0 24px rgba(0, 0, 0, 0.3);
   visibility: hidden;
   transform: translateX(32rem);
-  transition: transform 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    visibility 0.2s ease;
 
   &.is-open {
     visibility: visible;
@@ -726,6 +717,13 @@ header img {
     padding: 1.6rem;
   }
 }
+@media screen and (min-width: 1080px) {
+  .course-grid {
+    &.no-inline-padding {
+      padding-inline: 0;
+    }
+  }
+}
 
 .course-card {
   border: 1px solid var(--gray9);
@@ -785,14 +783,59 @@ header img {
   text-wrap: pretty;
   color: var(--red);
 }
-.course-card__content p {
+.course-card__content p:first-of-type {
   font-size: 1.2rem;
   margin-block: 0;
   color: var(--gray5);
 }
-.course-card__content p:last-of-type {
+.course-card__description {
+  --_font-size: 1.4rem;
+  --_line-height: calc(var(--_font-size) * 1.5);
+  margin-block-end: 0;
   font-size: 1.4rem;
-  line-height: 1.5;
+  line-height: var(--_line-height);
+  height: calc(var(--_line-height) * 3);
+  position: relative;
+  overflow: hidden;
+  transition: height 0.3s ease;
+
+  &.is-open {
+    height: auto;
+    padding-block-end: var(--_line-height);
+  }
+
+  button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: none;
+    background: var(--white);
+    height: var(--_line-height);
+    padding: 0 0 0 0.8rem;
+    text-decoration: underline;
+    font-size: inherit;
+    line-height: inherit;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 100%;
+      display: inline-block;
+      height: var(--_line-height);
+      width: 4.8rem;
+      background: linear-gradient(to right, transparent, var(--white));
+    }
+    &::after {
+      content: "";
+      position: absolute;
+    }
+
+    &:hover {
+      cursor: pointer;
+      color: var(--red);
+    }
+  }
 }
 
 .course-card__actions {
@@ -932,6 +975,26 @@ header img {
   display: flex;
   flex-direction: column;
   border-radius: 0;
+  height: 5.6rem;
+  overflow: hidden;
+  transition: height 0.5s ease;
+
+  .course-grid {
+    visibility: hidden;
+    transition: visibility 0.5s ease;
+  }
+
+  &.is-open {
+    height: auto;
+
+    .accordion-toggle svg {
+      rotate: -90deg;
+    }
+
+    .course-grid {
+      visibility: visible;
+    }
+  }
 
   & + .accordion {
     border-top: 1px solid var(--grayD);
@@ -960,12 +1023,7 @@ header img {
 
   svg {
     rotate: 90deg;
-  }
-
-  &.is-open {
-    svg {
-      rotate: -90deg;
-    }
+    transition: rotate 0.2s ease;
   }
 }
 @media screen and (min-width: 1000px) {

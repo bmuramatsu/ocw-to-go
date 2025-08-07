@@ -18,19 +18,19 @@ export default function CourseCardDescription({
 
   return (
     <>
-      <p className="u-mt-20">
+      <p onClick={() => setExpanded(true)} className={expanded ? "course-card__description u-mt-20 is-open" : "course-card__description u-mt-20 "}>
         <span
           dangerouslySetInnerHTML={{
-            __html: expanded ? description.expandedText : description.text,
+            __html: description.expandedText
           }}
         />
         {description.isLong && !expanded && (
           <button onClick={() => setExpanded(true)}>View More</button>
         )}
+        {description.isLong && expanded && (
+          <button onClick={() => setExpanded(false)}>View Less</button>
+        )}
       </p>
-      {description.isLong && expanded && (
-        <button onClick={() => setExpanded(false)}>View Less</button>
-      )}
     </>
   );
 }
