@@ -21,7 +21,7 @@ vi.mock("./store/download_course_action", async () => {
   };
 });
 
-vi.mock("./store/async_actions", async () => {
+vi.mock("../store/async_actions", async () => {
   return {
     removeCourse: (courseId: string) =>
       userActions.deleteCourse({ courseId: courseId }),
@@ -42,18 +42,23 @@ test("CourseCard dispatches the 'download course' action", () => {
   expect(dom.getByText("Downloading (0%)")).toBeTruthy();
 });
 
-// This test would have to be moved into the card menu component
-// test("CourseCard dispatches the 'delete course' action", () => {
-//   const course = ALL_COURSES[0];
-//   const dom = appRender(<CourseCard courseData={course} />, {
-//     userStore: {
-//       userCourses: { [course.id]: { status: "ready", downloadProgress: 0 } },
-//     },
-//   });
-//   const button = dom.getByText("Delete Course and Videos");
-//   const confirmSpy = vi.spyOn(window, "confirm").mockReturnValue(true);
-//   act(() => button.click());
-//   expect(confirmSpy).toHaveBeenCalled();
+test("CourseCard dispatches the 'delete course' action", () => {
+  const course = ALL_COURSES[0];
+  const dom = appRender(<CourseCard courseData={course} />, {
+    userStore: {
+      userCourses: { [course.id]: { status: "ready", downloadProgress: 0 } },
+    },
+  });
 
-//   expect(dom.getByText("Download Course")).toBeTruthy();
-// });
+  // First, open the menu by clicking the "More" button
+  const menuButton = dom.getByTestId("course-menu-button");
+  act(() => menuButton.click());
+
+  // Then click the delete button in the opened menu
+  const deleteButton = dom.getByText("Delete course and videos");
+  const confirmSpy = vi.spyOn(window, "confirm").mockReturnValue(true);
+  act(() => deleteButton.click());
+  expect(confirmSpy).toHaveBeenCalled();
+
+  expect(dom.getByText("Download (", { exact: false })).toBeTruthy();
+});

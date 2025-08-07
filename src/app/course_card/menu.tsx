@@ -28,6 +28,7 @@ export default function CourseCardMenu({ courseData }: CourseCardMenuProps) {
     <div className="menu-container">
       <button
         className="icon-btn"
+        data-testid="course-menu-button"
         onClick={(e) => (expanded ? close() : open(e))}
       >
         <More />
