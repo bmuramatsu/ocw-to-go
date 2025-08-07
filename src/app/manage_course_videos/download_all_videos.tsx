@@ -26,7 +26,10 @@ export default function DownloadAllVideos({ courseId }: Props) {
 
   if (videoUsage.totalVideos === videoUsage.finishedVideos) {
     return (
-      <button className="icon-btn icon-btn--outlined is-red" onClick={removeCourseVideos}>
+      <button
+        className="icon-btn icon-btn--outlined is-red"
+        onClick={removeCourseVideos}
+      >
         <Trash />
       </button>
     );

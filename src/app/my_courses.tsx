@@ -12,8 +12,8 @@ export default function MyCourses() {
         {myCourses.map((course) => (
           <MyCourseCard key={course.id} courseData={course} />
         ))}
-        <li className="course-card--fake"></li> 
-        <li className="course-card--fake"></li> 
+        <li className="course-card--fake"></li>
+        <li className="course-card--fake"></li>
       </ul>
     </>
   );

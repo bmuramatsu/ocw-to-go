@@ -42,7 +42,9 @@ export default function ManageCourseVideos({ courseId }: Props) {
           <div className="flat-card">
             <div className="flex align-center gap-12">
               <Info />
-              <p className="text">Download course videos to access them offline</p>
+              <p className="text">
+                Download course videos to access them offline
+              </p>
             </div>
             <DownloadAllVideos courseId={courseId} />
           </div>

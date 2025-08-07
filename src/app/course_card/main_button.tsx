@@ -11,7 +11,10 @@ interface MainButtonProps {
   userCourse: UserCourse;
 }
 
-export default function MainButton({ courseData, userCourse }: MainButtonProps) {
+export default function MainButton({
+  courseData,
+  userCourse,
+}: MainButtonProps) {
   const dispatch = useAppDispatch();
 
   const unzippedCourseSize = useFormattedBytes(courseData.diskSize);
@@ -42,10 +45,7 @@ export default function MainButton({ courseData, userCourse }: MainButtonProps) 
       );
     case "ready":
       return (
-        <CourseLink
-          courseData={courseData}
-          className="btn btn--primary-black"
-        >
+        <CourseLink courseData={courseData} className="btn btn--primary-black">
           <Play />
           View Course
         </CourseLink>

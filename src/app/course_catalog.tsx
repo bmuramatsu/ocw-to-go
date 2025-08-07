@@ -18,12 +18,16 @@ export default function CourseCatalog({ children }: Props) {
         <div className="main__contain">
           <h1 className="h1 u-mb-8">Course Catalog</h1>
           <p className="text u-mt-8 u-mb-0">
-            Explore {allCoursesCount} MIT courses optimized for offline learning.
+            Explore {allCoursesCount} MIT courses optimized for offline
+            learning.
           </p>
         </div>
       </section>
       <nav className="tabs">
-        <Link href="/my-courses" className={(active) => (active ? "active" : "")}>
+        <Link
+          href="/my-courses"
+          className={(active) => (active ? "active" : "")}
+        >
           My courses ({myCoursesCount})
         </Link>
         <Link
@@ -34,9 +38,7 @@ export default function CourseCatalog({ children }: Props) {
         </Link>
       </nav>
       <section className="bg--gray u-pb-72">
-        <div className="main__contain no-padding">
-          {children}
-        </div>
+        <div className="main__contain no-padding">{children}</div>
       </section>
     </main>
   );

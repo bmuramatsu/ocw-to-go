@@ -8,7 +8,9 @@ export function formatBytes(bytes: number): string {
   let i = Math.floor(Math.log(bytes) / Math.log(k));
   i = Math.min(i, 4); // Ensure we don't go above TB
   const precision = i < 3 ? 0 : 2; // round to whole number for Bytes, KB, MB
-  return parseFloat((bytes / Math.pow(k, i)).toFixed(precision)) + " " + sizes[i];
+  return (
+    parseFloat((bytes / Math.pow(k, i)).toFixed(precision)) + " " + sizes[i]
+  );
 }
 
 export function useFormattedBytes(bytes: number): string {

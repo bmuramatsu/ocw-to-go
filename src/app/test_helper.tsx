@@ -13,7 +13,7 @@ export function initialUserStore(): UserStore {
     userVideos: {},
     videoQueue: [],
     coursesInitialized: true,
-    videosInitialized: true
+    videosInitialized: true,
   };
 }
 

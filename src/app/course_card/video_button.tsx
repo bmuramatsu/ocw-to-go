@@ -22,8 +22,8 @@ export default function VideoButton({ courseData }: VideoButtonProps) {
         Manage Videos
         <p>
           {usage.finishedVideos === usage.totalVideos && <Checkmark />}
-          {usage.finishedVideos}/{usage.totalVideos} videos (
-          {usedSpace} / {totalSpace})
+          {usage.finishedVideos}/{usage.totalVideos} videos ({usedSpace} /{" "}
+          {totalSpace})
         </p>
       </div>
       <ChevronRight />

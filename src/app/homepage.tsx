@@ -4,7 +4,13 @@ import { Link } from "wouter";
 import ScrollTo from "./scroll_to";
 import { ALL_COURSES } from "./initial_course_list";
 import { FeaturedCourseCard } from "./course_card/course_card";
-import { ChevronRight, HeroImg, PhoneImg, DownloadImg, ChalkboardImg } from "./svgs";
+import {
+  ChevronRight,
+  HeroImg,
+  PhoneImg,
+  DownloadImg,
+  ChalkboardImg,
+} from "./svgs";
 import { featuredCourseNumbers } from "../courses/featured";
 import { CourseData } from "../types";
 
@@ -38,22 +44,34 @@ export default function Homepage() {
                 MIT OpenCourseWare courses for <span>offline</span> learning
               </h1>
               <p className="text">
-                Download a curated list of MIT OpenCourseWare Courses. Perfect for limited
-                internet access or data caps.
+                Download a curated list of MIT OpenCourseWare Courses. Perfect
+                for limited internet access or data caps.
               </p>
               <div className="flex align-center wrap gap-16">
-                <Link className="btn btn--primary" href="/all-courses">Explore all {courseCount} courses</Link>
-                <Link href="/my-courses" className="btn btn--primary-outlined">My courses</Link>
+                <Link className="btn btn--primary" href="/all-courses">
+                  Explore all {courseCount} courses
+                </Link>
+                <Link href="/my-courses" className="btn btn--primary-outlined">
+                  My courses
+                </Link>
               </div>
             </div>
             <div className="hero__col">
               <div className="steps-feature">
-                <div className="steps-hero"><HeroImg /></div>
+                <div className="steps-hero">
+                  <HeroImg />
+                </div>
                 <div>
                   <p>Explore.</p>
                   <p>Download.</p>
                   <p>Learn.</p>
-                  <ScrollTo href="#how-to-use" className="btn btn--tertiary u-mt-12">Learn More<ChevronRight /></ScrollTo>
+                  <ScrollTo
+                    href="#how-to-use"
+                    className="btn btn--tertiary u-mt-12"
+                  >
+                    Learn More
+                    <ChevronRight />
+                  </ScrollTo>
                 </div>
               </div>
             </div>
@@ -69,7 +87,9 @@ export default function Homepage() {
             ))}
           </ul>
           <div className="flex justify-center u-mt-24">
-            <Link className="btn btn--primary" href="/all-courses">Explore all {courseCount} courses</Link>
+            <Link className="btn btn--primary" href="/all-courses">
+              Explore all {courseCount} courses
+            </Link>
           </div>
         </div>
       </section>
@@ -79,35 +99,52 @@ export default function Homepage() {
           <ul className="how-to-use-list">
             <li>
               <PhoneImg />
-              <h3 className="h3"><span>Step 1</span>Explore Courses</h3>
+              <h3 className="h3">
+                <span>Step 1</span>Explore Courses
+              </h3>
               <p className="text">
-                Look through our catalog and choose a course you would like to start using.
+                Look through our catalog and choose a course you would like to
+                start using.
               </p>
             </li>
             <li>
               <DownloadImg />
-              <h3 className="h3"><span>Step 2</span>Download a course</h3>
+              <h3 className="h3">
+                <span>Step 2</span>Download a course
+              </h3>
               <p className="text">
-                Click the “Download” button on your chosen course's card. This will download all course content <b>except for videos</b>. To download the videos for a course, continue to step 3.
+                Click the “Download” button on your chosen course's card. This
+                will download all course content <b>except for videos</b>. To
+                download the videos for a course, continue to step 3.
               </p>
             </li>
             <li>
               <DownloadImg />
-              <h3 className="h3"><span>Step 3</span>Download videos</h3>
+              <h3 className="h3">
+                <span>Step 3</span>Download videos
+              </h3>
               <p className="text">
-                Once your course has finished downloading, a new “Download videos” button will appear. Clicking on this will display all available videos for your chosen course. You may download videos individually or all at once on this screen.
+                Once your course has finished downloading, a new “Download
+                videos” button will appear. Clicking on this will display all
+                available videos for your chosen course. You may download videos
+                individually or all at once on this screen.
               </p>
             </li>
             <li>
               <ChalkboardImg />
-              <h3 className="h3"><span>Step 4</span>Start learning</h3>
+              <h3 className="h3">
+                <span>Step 4</span>Start learning
+              </h3>
               <p className="text">
-                Your course is download, your videos are on your device, it's time to start learning!
+                Your course is download, your videos are on your device, it's
+                time to start learning!
               </p>
             </li>
           </ul>
           <div className="flex justify-center u-mt-24">
-            <Link className="btn btn--primary" href="/all-courses">Explore all {courseCount} courses</Link>
+            <Link className="btn btn--primary" href="/all-courses">
+              Explore all {courseCount} courses
+            </Link>
           </div>
         </div>
       </section>

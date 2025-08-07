@@ -53,14 +53,17 @@ function CategoryGroup({ category, courses }: CategoryGroupProps) {
   return (
     <div className={`accordion ${open ? "is-open" : ""}`}>
       <button className="accordion-toggle" onClick={() => setOpen((o) => !o)}>
-        <h2>{category} ({courses.length}){" "}</h2><ChevronRight />
+        <h2>
+          {category} ({courses.length}){" "}
+        </h2>
+        <ChevronRight />
       </button>
       <ul className="course-grid has-padding">
         {courses.map((course) => (
           <FeaturedCourseCard key={course.id} courseData={course} />
         ))}
-        <li className="course-card--fake"></li> 
-        <li className="course-card--fake"></li> 
+        <li className="course-card--fake"></li>
+        <li className="course-card--fake"></li>
       </ul>
     </div>
   );

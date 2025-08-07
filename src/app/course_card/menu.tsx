@@ -26,7 +26,12 @@ export default function CourseCardMenu({ courseData }: CourseCardMenuProps) {
 
   return (
     <div className="menu-container">
-      <button className="icon-btn" onClick={e => expanded ? close() : open(e)}><More /></button>
+      <button
+        className="icon-btn"
+        onClick={(e) => (expanded ? close() : open(e))}
+      >
+        <More />
+      </button>
       {expanded && (
         <ul className="course-card-menu">
           <li>
