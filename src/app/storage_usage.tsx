@@ -15,10 +15,12 @@ export default function StorageUsage() {
   if (!storage) return null;
 
   return (
-    <span>
-      Storage: {storage.usedPercent}% used ({storage.usedSpace} of{" "}
-      {storage.totalSpace})
-    </span>
+    <>
+      Local Storage Used:&nbsp;
+      <span>
+        {storage.usedPercent}% ({storage.usedSpace} / {storage.totalSpace})
+      </span>
+    </>
   );
 }
 

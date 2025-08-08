@@ -1,6 +1,7 @@
 {
     "id": "18-06sc-linear-algebra-fall-2011",
     "name": "Linear Algebra",
+    "category": "Mathematics",
     "topics": [
         "Mathematics",
         "Linear Algebra"
@@ -8,12 +9,15 @@
     "instructors": [
         "Prof. Gilbert Strang"
     ],
-    "courseLevel": "18.06SC | Undergraduate",
+    "courseNumber": "18.06SC",
+    "courseLevel": "Undergraduate",
     "cardImg": "/images/course_cards/18-06sc-linear-algebra-fall-2011.jpg",
     "imgAltText": "Multi-colored cubes arranged to create the illusion of hexagons.",
     "file": "https://files.ocwtogo.org/18.06sc-fall-2011.zip",
     "downloadSize": 51094772,
     "diskSize": 170891069,
+    "description": "This course covers matrix theory and linear algebra, emphasizing topics useful in other disciplines such as physics, economics and social sciences, natural sciences, and engineering. It parallels the combination of theory and applications in Professor Strang’s textbook [_Introduction to Linear Algebra_](http://math.mit.edu/~gs/linearalgebra/).\n\nCourse Format\n\nThis course has been designed for independent study. It provides everything you will need to understand the concepts covered in the course. The materials include:\n\n- A complete set of **Lecture Videos** by Professor Gilbert Strang.\n- **Summary Notes** for all videos along with suggested readings in Prof. Strang's textbook [_Linear Algebra_](http://math.mit.edu/~gs/linearalgebra/).\n- **Problem Solving Videos** on every topic taught by an experienced MIT Recitation Instructor.\n- **Problem Sets** to do on your own with **Solutions** to check your answers against when you're done.\n- A selection of **Java® Demonstrations** to illustrate key concepts.\n- A full set of **Exams with Solutions**, including review material to help you prepare.",
+    "descriptionHtml": "<p>This course covers matrix theory and linear algebra, emphasizing topics useful in other disciplines such as physics, economics and social sciences, natural sciences, and engineering. It parallels the combination of theory and applications in Professor Strang’s textbook <a href=\"http://math.mit.edu/~gs/linearalgebra/\" target=\"_blank\" rel=\"noopener\"><em>Introduction to Linear Algebra</em></a>.</p>\n<p>Course Format</p>\n<p>This course has been designed for independent study. It provides everything you will need to understand the concepts covered in the course. The materials include:</p>\n<ul>\n<li>A complete set of <strong>Lecture Videos</strong> by Professor Gilbert Strang.</li>\n<li><strong>Summary Notes</strong> for all videos along with suggested readings in Prof. Strang&rsquo;s textbook <a href=\"http://math.mit.edu/~gs/linearalgebra/\" target=\"_blank\" rel=\"noopener\"><em>Linear Algebra</em></a>.</li>\n<li><strong>Problem Solving Videos</strong> on every topic taught by an experienced MIT Recitation Instructor.</li>\n<li><strong>Problem Sets</strong> to do on your own with <strong>Solutions</strong> to check your answers against when you&rsquo;re done.</li>\n<li>A selection of <strong>Java® Demonstrations</strong> to illustrate key concepts.</li>\n<li>A full set of <strong>Exams with Solutions</strong>, including review material to help you prepare.</li>\n</ul>\n",
     "videoGroups": [
         {
             "category": "Lecture Videos",

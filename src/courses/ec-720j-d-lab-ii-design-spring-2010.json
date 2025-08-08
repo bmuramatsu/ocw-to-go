@@ -1,0 +1,33 @@
+{
+    "id": "ec-720j-d-lab-ii-design-spring-2010",
+    "name": "D-Lab II: Design",
+    "category": "Engineering",
+    "topics": [
+        "Engineering",
+        "Mechanical Engineering",
+        "Mechanical Design",
+        "Social Science",
+        "Economics",
+        "Developmental Economics",
+        "Engineering",
+        "Science",
+        "Earth Science",
+        "Sustainability",
+        "Society",
+        "The Developing World"
+    ],
+    "instructors": [
+        "Amy J. Smith",
+        "Victor Grau Serrat"
+    ],
+    "courseNumber": "EC.720J",
+    "courseLevel": "Undergraduate",
+    "cardImg": "/images/course_cards/ec-720j-d-lab-ii-design-spring-2010.jpg",
+    "imgAltText": "Photo of a metal spiral with flame traveling around it.",
+    "file": "https://files.ocwtogo.org/ec.720j-spring-2010.zip",
+    "downloadSize": 48962273,
+    "diskSize": 81483434,
+    "description": "D-Lab: Design addresses problems faced by undeserved communities with a focus on design, experimentation, and prototyping processes. Particular attention is placed on constraints faced when designing for developing countries. Multidisciplinary teams work on semester-long projects in collaboration with community partners, field practitioners, and experts in relevant fields. Topics covered include design for affordability, design for manufacture, sustainability, and strategies for working effectively with community partners and customers. Students may continue projects begun in [_EC.701J D-Lab I: Development_](courses/sp-721-d-lab-i-development-fall-2009).\n",
+    "descriptionHtml": "D-Lab: Design addresses problems faced by undeserved communities with a focus on design, experimentation, and prototyping processes. Particular attention is placed on constraints faced when designing for developing countries. Multidisciplinary teams work on semester-long projects in collaboration with community partners, field practitioners, and experts in relevant fields. Topics covered include design for affordability, design for manufacture, sustainability, and strategies for working effectively with community partners and customers. Students may continue projects begun in <a href=\"courses/sp-721-d-lab-i-development-fall-2009/index.html\"><em>EC.701J D-Lab I: Development</em></a>.",
+    "videoGroups": []
+}

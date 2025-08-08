@@ -1,0 +1,404 @@
+{
+    "id": "cms-611j-creating-video-games-fall-2014",
+    "name": "Creating Video Games",
+    "category": "Arts and Humanities",
+    "topics": [
+        "Engineering",
+        "Computer Science",
+        "Software Design and Engineering",
+        "Fine Arts",
+        "Game Design",
+        "Fine Arts",
+        "Media Studies",
+        "Digital Media",
+        "Business",
+        "Project Management"
+    ],
+    "instructors": [
+        "Philip B. Tan",
+        "Richard Eberhardt",
+        "Sara Verrilli",
+        "Andrew Grant"
+    ],
+    "courseNumber": "CMS.611J",
+    "courseLevel": "Undergraduate",
+    "cardImg": "/images/course_cards/cms-611j-creating-video-games-fall-2014.jpg",
+    "imgAltText": "Image of a video game, featuring blue and black shapes on a green background.",
+    "file": "https://files.ocwtogo.org/cms.611j-fall-2014.zip",
+    "downloadSize": 34378562,
+    "diskSize": 90076737,
+    "description": "CMS.611J / 6.073 Creating Video Games is a class that introduces students to the complexities of working in small, multidisciplinary teams to develop video games. Students will learn creative design and production methods, working together in small teams to design, develop, and thoroughly test their own original digital games. Design iteration across all aspects of video game development (game design, audio design, visual aesthetics, fiction and programming) will be stressed. Students will also be required to focus test their games, and will need to support and challenge their game design decisions with appropriate focus testing and data analysis.\n",
+    "descriptionHtml": "CMS.611J / 6.073 Creating Video Games is a class that introduces students to the complexities of working in small, multidisciplinary teams to develop video games. Students will learn creative design and production methods, working together in small teams to design, develop, and thoroughly test their own original digital games. Design iteration across all aspects of video game development (game design, audio design, visual aesthetics, fiction and programming) will be stressed. Students will also be required to focus test their games, and will need to support and challenge their game design decisions with appropriate focus testing and data analysis.",
+    "videoGroups": [
+        {
+            "category": "Lecture Videos",
+            "videos": [
+                {
+                    "title": "Session 1: Introduction; Guest Pablo Suarez (Red Cross/Red Crescent Climate Center); Game Engines; Meaningful Decisions in Games",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_lec01_300k.mp4",
+                    "youtubeKey": "pfDfriSjFbY",
+                    "contentLength": 322741933,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/d796968cc36c5d14884049bd294e6910_pfDfriSjFbY.vtt",
+                    "htmlFile": "resources/lecture-1-introduction/index.html"
+                },
+                {
+                    "title": "Session 2: Project 1; Brainstorming and Low-Fidelity Prototyping",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_lec02_300k.mp4",
+                    "youtubeKey": "j8ZGpRo8jd4",
+                    "contentLength": 166352544,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/7655ca686aae547780443e00211353ff_j8ZGpRo8jd4.vtt",
+                    "htmlFile": "resources/lecture-2-project-1-low-fidelity-prototyping/index.html"
+                },
+                {
+                    "title": "Session 3: Revision Control; Game Engines; Vision Statement",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_lec03_300k.mp4",
+                    "youtubeKey": "2pfdTSZ-GUM",
+                    "contentLength": 133346530,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/41afd9bea6005d07b06135cb783c2e29_2pfdTSZ-GUM.vtt",
+                    "htmlFile": "resources/lecture-3-game-engines/index.html"
+                },
+                {
+                    "title": "Session 4: Project 2 Intro; Project 2 Elevator Pitches; Digital Prototypes; Project 2 Team Choice",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_lec04_300k.mp4",
+                    "youtubeKey": "dE-QgdrtzHw",
+                    "contentLength": 106843800,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/55c6c185d277575db75f7f2f953cd78d_dE-QgdrtzHw.vtt",
+                    "htmlFile": "resources/lecture-4-project-2-digital-prototype-with-project-management/index.html"
+                },
+                {
+                    "title": "Session 5: Agile Software Development",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_lec05_300k.mp4",
+                    "youtubeKey": "UxMpn92vGXs",
+                    "contentLength": 168226940,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/e67c5b8be2415ebd997fc3416e7c72d1_UxMpn92vGXs.vtt",
+                    "htmlFile": "resources/lecture-5-agile-software-development/index.html"
+                },
+                {
+                    "title": "Session 6: Agile Project Management",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_lec06_300k.mp4",
+                    "youtubeKey": "nrfl6GAQy2s",
+                    "contentLength": 246649176,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/84e12946d73c5114aa77b6a83803d124_nrfl6GAQy2s.vtt",
+                    "htmlFile": "resources/lecture-6-agile-project-management/index.html"
+                },
+                {
+                    "title": "Session 7: Quality Assurance; Playtesting by Genevieve Conley (Riot Games); Focus Testing Results",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_lec07_300k.mp4",
+                    "youtubeKey": "xQANWfUYeNg",
+                    "contentLength": 193175279,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/71af395d9d5f53408280d2e9fd91fde7_xQANWfUYeNg.vtt",
+                    "htmlFile": "resources/lecture-7-testing-and-guest-lecture-with-genevieve-conley-of-riot-games/index.html"
+                },
+                {
+                    "title": "Session 8: Project 2 Presentations; Project 3; Digital Prototype with  User Interference",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_lec08_300k.mp4",
+                    "youtubeKey": "MZSnYgdlV0A",
+                    "contentLength": 191082055,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/a93e1528390254d3875a684826502a22_MZSnYgdlV0A.vtt",
+                    "htmlFile": "resources/lecture-8-project-2-presentations-project-3-digital-prototype-ii-user-interface/index.html"
+                },
+                {
+                    "title": "Session 9: Guest Lecture –  Hidetaka “SWERY” Suehiro (Access Games)",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_lec09_300k.mp4",
+                    "youtubeKey": "B1zWyyNoRq8",
+                    "contentLength": 138172133,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/0c5e5460b4f1534aa388e1b794281a56_B1zWyyNoRq8.vtt",
+                    "htmlFile": "resources/lecture-9-guest-lecture-with-swery-of-access-games/index.html"
+                },
+                {
+                    "title": "Session 10: Project 3 Check-In;  UI and Usability",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_lec10_300k.mp4",
+                    "youtubeKey": "-SHXUwpVgXU",
+                    "contentLength": 208386367,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/2e96f543a766588488318f0ba7d1e7bc_-SHXUwpVgXU.vtt",
+                    "htmlFile": "resources/lecture-10-ui-and-usability/index.html"
+                },
+                {
+                    "title": "Session 11: Game Development and Best Practices by Tim Cowan  (EA Games)",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_lec11_300k.mp4",
+                    "youtubeKey": "J4pnlCBTJYc",
+                    "contentLength": 151663399,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/952f5e1d4a76561087e5808855aeabfb_J4pnlCBTJYc.vtt",
+                    "htmlFile": "resources/lecture-11-guest-lecture-ea-on-development-and-best-practices/index.html"
+                },
+                {
+                    "title": "Session 12: Project 3 Presentations; Project 4 Topics by Guest Pablo Suarez (Red Cross/Red Crescent Climate Center); Project 4 Brainstorming",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_lec12_300k.mp4",
+                    "youtubeKey": "9is-GrNpNvA",
+                    "contentLength": 325017408,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/4a9c3eab4a4f557d97ba4c33e1e400c7_9is-GrNpNvA.vtt",
+                    "htmlFile": "resources/lecture-12-project-3-presentations-project-4-introduction-small-game-project/index.html"
+                },
+                {
+                    "title": "Session 13: Project 4 Planning and Team Formation; Serious Games",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_lec13_300k.mp4",
+                    "youtubeKey": "zzKSn1Y80F4",
+                    "contentLength": 93954305,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/41376ab9dbc25ba8a19efaea28a1fc61_zzKSn1Y80F4.vtt",
+                    "htmlFile": "resources/lecture-13-serious-games-simulation-abstraction/index.html"
+                },
+                {
+                    "title": "Session 14: Aesthetics",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_lec14_300k.mp4",
+                    "youtubeKey": "0teK9aXB0GI",
+                    "contentLength": 171963435,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/b6aa920dc09a5c4cbd04a2b4903c9ef5_0teK9aXB0GI.vtt",
+                    "htmlFile": "resources/lecture-14-aesthetics/index.html"
+                },
+                {
+                    "title": "Session 15: Freedoms of Play by Scot Osterweil (MIT Game Lab);  Project 4 Playtesting; Project 4 Status Report",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_lec15_300k.mp4",
+                    "youtubeKey": "s8At7cnDelQ",
+                    "contentLength": 134584308,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/89a48d085a3256a484b2b9ef0407a8eb_s8At7cnDelQ.vtt",
+                    "htmlFile": "resources/lecture-15-guest-lecture-scot-osterweil-mit-game-lab/index.html"
+                },
+                {
+                    "title": "Session 16: Team Dynamics",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_lec16_300k.mp4",
+                    "youtubeKey": "Av9sFr_NsBU",
+                    "contentLength": 103360941,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/954cc26cf89d58789fe59cb7fcf64fd2_Av9sFr_NsBU.vtt",
+                    "htmlFile": "resources/lecture-16-team-dynamics/index.html"
+                },
+                {
+                    "title": "Session 17: Working with Artists by  Luigi Guatieri",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_lec17_300k.mp4",
+                    "youtubeKey": "gQHbZlo4Exo",
+                    "contentLength": 139215022,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/40fd8da825d05c99a1def98727eeb256_gQHbZlo4Exo.vtt",
+                    "htmlFile": "resources/lecture-17-working-with-artists-guest-lecture-by-luigi-guatieri/index.html"
+                },
+                {
+                    "title": "Session 18: Fiction and Narrative in Video Games",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_lec18_300k.mp4",
+                    "youtubeKey": "SSnV-2uWG9w",
+                    "contentLength": 143816001,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/687f32e0c9b456a79d363972a6f98e97_SSnV-2uWG9w.vtt",
+                    "htmlFile": "resources/lecture-18-fiction-and-narrative-in-video-games/index.html"
+                },
+                {
+                    "title": "Session 19: Working with Sound Designers by Richard Ludlow and Andy Forsberg (Hexany Audio)",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_lec19_300k.mp4",
+                    "youtubeKey": "Ey_eWZhG8vI",
+                    "contentLength": 118125285,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/b03fabf8f9e754a1bcea3dc94c5b0cb1_Ey_eWZhG8vI.vtt",
+                    "htmlFile": "resources/lecture-19-working-with-sound-designers-guest-lecture-by-richard-ludlow-and-andy-forsberg/index.html"
+                },
+                {
+                    "title": "Session 20: Writing in Games by Heather Albano and Laura Baldwin",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_lec20_300k.mp4",
+                    "youtubeKey": "5wHMEQkFzvE",
+                    "contentLength": 137523282,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/1928f594daa95a11a6cc915d2e47c6f2_5wHMEQkFzvE.vtt",
+                    "htmlFile": "resources/lecture-20-writing-in-games-guest-lecture-by-heather-albano-and-laura-baldwin/index.html"
+                },
+                {
+                    "title": "Session 22: Project 4 Check-in Presentations; Scope",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_lec22_300k.mp4",
+                    "youtubeKey": "Ya8wC2rNQK0",
+                    "contentLength": 147016830,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/97a31ef511f755b8b5b9833e6b67ac2b_Ya8wC2rNQK0.vtt",
+                    "htmlFile": "resources/lecture-22-cutting-features-scope/index.html"
+                },
+                {
+                    "title": "Session 23: Project 4 Feedback;  Team Discussions",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_lec23_300k.mp4",
+                    "youtubeKey": "SODYb6YPPLk",
+                    "contentLength": 155397929,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/87dfb37e2b095131b3c1ec96ee6cf7a5_SODYb6YPPLk.vtt",
+                    "htmlFile": "resources/lecture-23-team-discussions/index.html"
+                },
+                {
+                    "title": "Session 24: Running a Game Studio (Guest Lecture by Michael Carriere and Jenna Hoffstein)",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_lec24_300k.mp4",
+                    "youtubeKey": "__knqdOcWTM",
+                    "contentLength": 116158027,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/100a391415ac5f8ab02197d7ff60765a_knqdOcWTM.vtt",
+                    "htmlFile": "resources/lecture-24-running-a-game-studio-guest-lecture-by-michael-carriere-and-jenna-hoffstein/index.html"
+                },
+                {
+                    "title": "Session 25: Getting Players to Play Your Game by Sean Baptiste (Fire Hose Games)",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_lec25_300k.mp4",
+                    "youtubeKey": "zaabQDKK8WY",
+                    "contentLength": 116848125,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/97834ddc19df5cc985d1d43b2681ae28_zaabQDKK8WY.vtt",
+                    "htmlFile": "resources/lecture-25-getting-players-to-your-game-guest-lecture-by-sean-baptiste/index.html"
+                },
+                {
+                    "title": "Session 26: Final Presentation Rehearsal",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_lec26_300k.mp4",
+                    "youtubeKey": "ok4qM1OzlPA",
+                    "contentLength": 251666372,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/22129871952c56a99da9036478bff60b_ok4qM1OzlPA.vtt",
+                    "htmlFile": "resources/lecture-26-final-presentation-rehearsals/index.html"
+                },
+                {
+                    "title": "Session 27: Final Presentations",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_lec27_300k.mp4",
+                    "youtubeKey": "sKolTx6sxUo",
+                    "contentLength": 282698794,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/abb4feeebcf5549bba1e24d5142c5001_sKolTx6sxUo.vtt",
+                    "htmlFile": "resources/lecture-27-final-presentations/index.html"
+                }
+            ]
+        },
+        {
+            "category": "Other",
+            "videos": [
+                {
+                    "title": "Advice for Educators",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_Advice_for_Educators_300k.mp4",
+                    "youtubeKey": "T0GdXZusbKI",
+                    "contentLength": 5560795,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/06065d9e8b08556b901a3ddf464c09f5_T0GdXZusbKI.vtt",
+                    "htmlFile": "resources/advice-for-educators/index.html"
+                },
+                {
+                    "title": "Assessing Students' Projects",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_Assessment_300k.mp4",
+                    "youtubeKey": "HpeJ1h0V1RE",
+                    "contentLength": 6408918,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/c6ccdb8607cd51d3b82307e525ff7059_HpeJ1h0V1RE.vtt",
+                    "htmlFile": "resources/assessing-students-projects/index.html"
+                },
+                {
+                    "title": "Client Interview: Pablo Suarez",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_Pablo_Suarez_300k.mp4",
+                    "youtubeKey": "WLjo-mDBiDg",
+                    "contentLength": 26427846,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/86165afcc27552db94194c233878d615_WLjo-mDBiDg.vtt",
+                    "htmlFile": "resources/client-interview-pablo-suarez/index.html"
+                },
+                {
+                    "title": "Digital Prototype",
+                    "videoUrl": "https://archive.org/download/MITCMS.611JF14/MITCMS_611JF14_HelloWaves_300k.mp4",
+                    "youtubeKey": "lxpXowuUdKw",
+                    "contentLength": 135033715,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/014cf8f455bb5582972b91291ee58ad6_lxpXowuUdKw.vtt",
+                    "htmlFile": "resources/copy4_of_from-pitch-to-product/index.html"
+                },
+                {
+                    "title": "Encouraging Iteration",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_Iterative_Process_300k.mp4",
+                    "youtubeKey": "B3_z1qTD2ZE",
+                    "contentLength": 18294378,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/1795c907b1eb5dab8388f3942c991356_B3_z1qTD2ZE.vtt",
+                    "htmlFile": "resources/teaching-the-iterative-process/index.html"
+                },
+                {
+                    "title": "Fostering Diversity of Voice",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_Diversity_of_Voices_300k.mp4",
+                    "youtubeKey": "cBoUvyAaEUY",
+                    "contentLength": 13174928,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/cd071251cd3456729cceb93855b7f3cb_cBoUvyAaEUY.vtt",
+                    "htmlFile": "resources/fostering-diversity-of-voices/index.html"
+                },
+                {
+                    "title": "Instructor Introduction: Andrew Haydn Grant",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_Andrew_Intro_300k.mp4",
+                    "youtubeKey": "8TPJUR378f0",
+                    "contentLength": 10302184,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/6c91516615575230803c80b365cf7d34_8TPJUR378f0.vtt",
+                    "htmlFile": "resources/instructor-introduction-andrew-haydn-grant/index.html"
+                },
+                {
+                    "title": "Instructor Introduction: Philip Tan",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_Philip_Intro_300k.mp4",
+                    "youtubeKey": "RY0X1oEQbb0",
+                    "contentLength": 7423896,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/6ca9810fa02a535fbec105a3c82318bb_RY0X1oEQbb0.vtt",
+                    "htmlFile": "resources/instructor-introduction-philip-tan/index.html"
+                },
+                {
+                    "title": "Instructor Introduction: Richard Eberhardt",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_Rik_Intro_300k.mp4",
+                    "youtubeKey": "HpACiptk990",
+                    "contentLength": 25554594,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/d5cfc1feef855059adda4832074f23b9_HpACiptk990.vtt",
+                    "htmlFile": "resources/instructor-introduction-richard-eberhardt/index.html"
+                },
+                {
+                    "title": "Instructor Introduction: Sara Verrilli",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_Sara_Intro_300k.mp4",
+                    "youtubeKey": "bhk8Wtgpb1w",
+                    "contentLength": 13724833,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/29ffbd2d928a5816b84d6b90648746b2_bhk8Wtgpb1w.vtt",
+                    "htmlFile": "resources/instructor-introduction-sara-verrilli/index.html"
+                },
+                {
+                    "title": "Postmortem Analysis",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_Postmortem_300k.mp4",
+                    "youtubeKey": "4HP37G4v3S8",
+                    "contentLength": 50143660,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/33cd465a640e53d1b30513025c133712_4HP37G4v3S8.vtt",
+                    "htmlFile": "resources/postmortem-analysis/index.html"
+                },
+                {
+                    "title": "Refining the Course",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_Refining_the_Course_300k.mp4",
+                    "youtubeKey": "CrS0ndCbsro",
+                    "contentLength": 13868466,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/8842b8e844df5d56a1e8075043b45361_CrS0ndCbsro.vtt",
+                    "htmlFile": "resources/refining-the-course/index.html"
+                },
+                {
+                    "title": "Sequencing Learning Experiences",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_Sequencing_Learning_300k.mp4",
+                    "youtubeKey": "lyR4HQ01nos",
+                    "contentLength": 9142896,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/80cb72672e815d588eb7b97b68bf617b_lyR4HQ01nos.vtt",
+                    "htmlFile": "resources/sequencing-learning-experiences/index.html"
+                },
+                {
+                    "title": "Student Interview: Lauren Merriman",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_Lauren_Merriman_300k.mp4",
+                    "youtubeKey": "Od21y3eAwUo",
+                    "contentLength": 22825566,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/d148a1cc089554a4b157b72f0239dd1e_Od21y3eAwUo.vtt",
+                    "htmlFile": "resources/student-interview-lauren-merriman-1/index.html"
+                },
+                {
+                    "title": "Student Interview: Lenny Martinez",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_Lenny_Martinez_300k.mp4",
+                    "youtubeKey": "jbhbJBtS48w",
+                    "contentLength": 15240326,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/9060bed10f405ec4bdab1b58562ac4f8_jbhbJBtS48w.vtt",
+                    "htmlFile": "resources/student-interview-lenny-martinez/index.html"
+                },
+                {
+                    "title": "Student Interview: Matthew Susskind",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_Matt_Susskind_300k.mp4",
+                    "youtubeKey": "uX-D5Q_5v4A",
+                    "contentLength": 17920191,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/45b775e65a0f5f2eb345ff0c02e0bac1_uX-D5Q_5v4A.vtt",
+                    "htmlFile": "resources/student-interview-matthew-susskind-1/index.html"
+                },
+                {
+                    "title": "Student Interview: Miriam Prosnitz",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_Miriam_Proznitz_300k.mp4",
+                    "youtubeKey": "-3ixsZ7fBUI",
+                    "contentLength": 9810604,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/e5b7cbe9bd625b6dbd908443715b2e0d_-3ixsZ7fBUI.vtt",
+                    "htmlFile": "resources/student-interview-miriam-prosnitz-1/index.html"
+                },
+                {
+                    "title": "Student Interview: Tej Chajed",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_Tej_Chajed_300k.mp4",
+                    "youtubeKey": "bgMZSJ2rfNc",
+                    "contentLength": 13587871,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/aeecc067fd42510caa027d4d559e46ee_bgMZSJ2rfNc.vtt",
+                    "htmlFile": "resources/student-interview-tej-chajed-1/index.html"
+                },
+                {
+                    "title": "Teaching Students How to Solve Creative Problems as Teams",
+                    "videoUrl": "http://www.archive.org/download/MITCMS.611JF14/MITCMS_611JF14_Teaching_Teamwork_300k.mp4",
+                    "youtubeKey": "Y7cMih9O8es",
+                    "contentLength": 17025392,
+                    "captionsFile": "/courses/cms-611j-creating-video-games-fall-2014/8c540d5c628558d28ca830057a757312_Y7cMih9O8es.vtt",
+                    "htmlFile": "resources/teaching-students-how-to-solve-creative-problems-as-teams/index.html"
+                }
+            ]
+        }
+    ]
+}

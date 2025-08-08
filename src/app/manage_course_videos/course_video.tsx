@@ -1,5 +1,5 @@
 import React from "react";
-import { Download, Loader, Checkmark, Cancel, Trash } from "../svgs";
+import { Download, Loader, Checkmark, Cancel, Trash, Play } from "../svgs";
 import { VideoData } from "../../types";
 import { useAppDispatch, useAppSelector } from "../store/store";
 import * as customActions from "../store/custom_actions";
@@ -26,21 +26,24 @@ export default function CourseVideo({
 
   const bytes = useFormattedBytes(video.contentLength);
 
-  const videoPath = `/courses/${courseId}/${video.htmlFile}`;
-
   return (
     <div key={video.youtubeKey} className="video-list__item">
       <StatusIcon videoStatus={videoStatus} />
       <div className="video-list__item__content">
         <h3>
-          {withLink ? <Link href={videoPath}>{video.title}</Link> : video.title}
+          {withLink ? (
+            <Link href={videoPath(courseId, video)}>{video.title}</Link>
+          ) : (
+            video.title
+          )}
         </h3>
         <p>{bytes}</p>
       </div>
       <DownloadButton
         courseId={courseId}
-        videoId={video.youtubeKey}
+        video={video}
         videoStatus={videoStatus}
+        withLink={withLink}
       />
     </div>
   );
@@ -48,14 +51,17 @@ export default function CourseVideo({
 
 interface DownloadButtonProps {
   courseId: string;
-  videoId: string;
+  video: VideoData;
   videoStatus: FullUserVideo;
+  withLink: boolean;
 }
 function DownloadButton({
   courseId,
-  videoId,
+  video,
   videoStatus,
+  withLink,
 }: DownloadButtonProps) {
+  const videoId = video.youtubeKey;
   const dispatch = useAppDispatch();
   const deleteVideo = () =>
     dispatch(asyncActions.deleteVideo(courseId, videoId));
@@ -63,36 +69,63 @@ function DownloadButton({
   switch (videoStatus.status) {
     case "ready":
       return (
-        <button className="btn--has-icon" onClick={() => deleteVideo()}>
-          <Trash />
-          Delete
-        </button>
+        <div className="video-actions flex align-center gap-8">
+          {withLink ? (
+            <>
+              <Link
+                href={videoPath(courseId, video)}
+                className="btn btn--primary-black has-icon"
+              >
+                <Play />
+                Play video
+              </Link>
+              <button
+                className="icon-btn icon-btn--outlined is-red"
+                onClick={() => deleteVideo()}
+              >
+                <Trash />
+              </button>
+            </>
+          ) : (
+            <button
+              className="btn btn--primary-outlined has-icon"
+              onClick={() => deleteVideo()}
+            >
+              <Trash />
+              Delete
+            </button>
+          )}
+        </div>
       );
     case "downloading":
     case "waiting":
       return (
-        <div className="combo-btn">
-          <div className="btn--has-icon is-downloading">
-            <Loader />
-            {videoStatus.status === "downloading"
-              ? "Downloading"
-              : "Waiting..."}
+        <div className="video-actions">
+          <div className="combo-btn">
+            <div className="btn btn--primary-black-outlined has-icon is-downloading">
+              <Loader />
+              {videoStatus.status === "downloading"
+                ? "Downloading"
+                : "Waiting..."}
+            </div>
+            <button
+              className="icon-btn icon-btn--outlined"
+              onClick={() =>
+                dispatch(
+                  customActions.cancelVideoDownload({ courseId, videoId }),
+                )
+              }
+            >
+              <Cancel />
+            </button>
           </div>
-          <button
-            className="icon-btn"
-            onClick={() =>
-              dispatch(customActions.cancelVideoDownload({ courseId, videoId }))
-            }
-          >
-            <Cancel />
-          </button>
         </div>
       );
     default:
       return (
-        <div className="flex flex-column align-end">
+        <div className="video-actions flex flex-column align-end">
           <button
-            className="btn--has-icon"
+            className="btn btn--primary-black-outlined has-icon"
             onClick={() =>
               dispatch(customActions.downloadVideo({ courseId, videoId }))
             }
@@ -106,6 +139,10 @@ function DownloadButton({
         </div>
       );
   }
+}
+
+function videoPath(courseId: string, video: VideoData): string {
+  return `/courses/${courseId}/${video.htmlFile}`;
 }
 
 interface StatusIconProps {

@@ -8,7 +8,7 @@ interface Props {
 
 export default function Layout({ children }: Props) {
   return (
-    <div className="page-grid--text">
+    <div className="page-grid">
       <div className="header-container">
         <Header />
       </div>

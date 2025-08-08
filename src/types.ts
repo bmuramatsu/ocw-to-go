@@ -6,12 +6,16 @@ export type CourseData = {
   name: string;
   cardImg: string;
   imgAltText: string;
+  courseNumber: string;
   courseLevel: string;
+  category: string;
   instructors: string[];
   topics: string[];
   videos: VideoData[];
   downloadSize: number;
   diskSize: number;
+  description: string;
+  descriptionHtml: string;
 };
 
 export type VideoData = {
@@ -24,12 +28,7 @@ export type VideoData = {
   htmlFile: string;
 };
 
-export type CourseStatus =
-  | "none"
-  | "downloading"
-  | "preparing"
-  | "ready"
-  | "error";
+export type CourseStatus = "none" | "downloading" | "preparing" | "ready";
 
 export type UserCourse = {
   status: CourseStatus;

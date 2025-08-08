@@ -1,0 +1,94 @@
+{
+    "id": "15-s50-poker-theory-and-analytics-january-iap-2015",
+    "name": "Poker Theory and Analytics",
+    "category": "Business",
+    "topics": [
+        "Business",
+        "Management",
+        "Mathematics",
+        "Probability and Statistics"
+    ],
+    "instructors": [
+        "Kevin Desmond"
+    ],
+    "courseNumber": "15.S50",
+    "courseLevel": "Graduate",
+    "cardImg": "/images/course_cards/15-s50-poker-theory-and-analytics-january-iap-2015.jpg",
+    "imgAltText": "A hand of Texas Hold'em poker from the point of view of a player holding an ace high straight flush.",
+    "file": "https://files.ocwtogo.org/15.s50-january-iap-2015.zip",
+    "downloadSize": 32940433,
+    "diskSize": 62983427,
+    "description": "This course takes a broad-based look at poker theory and applications of poker analytics to investment management and trading.\n\nThis course is offered during the [Independent Activities Period (IAP)](http://web.mit.edu/IAP/), which is a special 4-week term at MIT in January. IAP provides members of the MIT community including students, faculty, staff, and alums with an opportunity to organize, sponsor and participate in a wide variety of activities and topics that are often outside of the regular MIT curriculum.\n\n**Faculty Advisor**: Paul Mende\n",
+    "descriptionHtml": "<p>This course takes a broad-based look at poker theory and applications of poker analytics to investment management and trading.</p>\n<p>This course is offered during the <a href=\"http://web.mit.edu/IAP/\" target=\"_blank\" rel=\"noopener\">Independent Activities Period (IAP)</a>, which is a special 4-week term at MIT in January. IAP provides members of the MIT community including students, faculty, staff, and alums with an opportunity to organize, sponsor and participate in a wide variety of activities and topics that are often outside of the regular MIT curriculum.</p>\n<p><strong>Faculty Advisor</strong>: Paul Mende</p>\n",
+    "videoGroups": [
+        {
+            "category": "Lecture Videos",
+            "videos": [
+                {
+                    "title": "Analytical Techniques",
+                    "videoUrl": "https://archive.org/download/MIT15.S50IAP15/MIT15_S50IAP15_lec02_300k.mp4",
+                    "youtubeKey": "tXVDY1HvrVU",
+                    "contentLength": 161990937,
+                    "captionsFile": "/courses/15-s50-poker-theory-and-analytics-january-iap-2015/96cda25a39a95ac9a8c11636a0d95c46_tXVDY1HvrVU.vtt",
+                    "htmlFile": "resources/analytical-techniques/index.html"
+                },
+                {
+                    "title": "Basic Strategy",
+                    "videoUrl": "https://archive.org/download/MIT15.S50IAP15/MIT15_S50IAP15_lec03_300k.mp4",
+                    "youtubeKey": "LCoPLFaeq0U",
+                    "contentLength": 167290935,
+                    "captionsFile": "/courses/15-s50-poker-theory-and-analytics-january-iap-2015/bea70a6b3e0f577abfadb6999162d85a_LCoPLFaeq0U.vtt",
+                    "htmlFile": "resources/basic-strategy/index.html"
+                },
+                {
+                    "title": "Decision Making",
+                    "videoUrl": "https://archive.org/download/MIT15.S50IAP15/MIT15_S50IAP15_lec08_300k.mp4",
+                    "youtubeKey": "kn92WXcKr0M",
+                    "contentLength": 153209120,
+                    "captionsFile": "/courses/15-s50-poker-theory-and-analytics-january-iap-2015/720cfad09b515d6b9168bf8de115c3f7_kn92WXcKr0M.vtt",
+                    "htmlFile": "resources/decision-making/index.html"
+                },
+                {
+                    "title": "Game Theory",
+                    "videoUrl": "https://archive.org/download/MIT15.S50IAP15/MIT15_S50IAP15_lec07_300k.mp4",
+                    "youtubeKey": "MnbQjpejZt4",
+                    "contentLength": 152040741,
+                    "captionsFile": "/courses/15-s50-poker-theory-and-analytics-january-iap-2015/af5e8be756f3534ab6ef1d2760162744_MnbQjpejZt4.vtt",
+                    "htmlFile": "resources/game-theory/index.html"
+                },
+                {
+                    "title": "Introduction to Poker Theory",
+                    "videoUrl": "https://archive.org/download/MIT15.S50IAP15/MIT15_S50IAP15_lec01_300k.mp4",
+                    "youtubeKey": "OTkq4OsG_Yc",
+                    "contentLength": 73979210,
+                    "captionsFile": "/courses/15-s50-poker-theory-and-analytics-january-iap-2015/3f627d338c275af7aa72075060a65e1e_OTkq4OsG_Yc.vtt",
+                    "htmlFile": "resources/introduction-to-poker-theory/index.html"
+                },
+                {
+                    "title": "Poker Economics",
+                    "videoUrl": "https://archive.org/download/MIT15.S50IAP15/MIT15_S50IAP15_lec06_300k.mp4",
+                    "youtubeKey": "IZZ4y5GfdOU",
+                    "contentLength": 188965317,
+                    "captionsFile": "/courses/15-s50-poker-theory-and-analytics-january-iap-2015/4a4b4ee9891f50d5824ce0efebfaa252_IZZ4y5GfdOU.vtt",
+                    "htmlFile": "resources/poker-economics/index.html"
+                },
+                {
+                    "title": "Preflop Analysis",
+                    "videoUrl": "https://archive.org/download/MIT15.S50IAP15/MIT15_S50IAP15_lec04_300k.mp4",
+                    "youtubeKey": "tssNDp5I6zA",
+                    "contentLength": 103948703,
+                    "captionsFile": "/courses/15-s50-poker-theory-and-analytics-january-iap-2015/8ea104385db952f0a66d87decf0866ed_tssNDp5I6zA.vtt",
+                    "htmlFile": "resources/preflop-analysis/index.html"
+                },
+                {
+                    "title": "Tournament Play",
+                    "videoUrl": "https://archive.org/download/MIT15.S50IAP15/MIT15_S50IAP15_lec05_300k.mp4",
+                    "youtubeKey": "JQSTRkGEiWw",
+                    "contentLength": 110431879,
+                    "captionsFile": "/courses/15-s50-poker-theory-and-analytics-january-iap-2015/6e1bd550548c52d58218a530b107ea40_JQSTRkGEiWw.vtt",
+                    "htmlFile": "resources/tournament-play/index.html"
+                }
+            ]
+        }
+    ]
+}
