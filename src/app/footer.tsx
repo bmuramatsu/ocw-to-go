@@ -55,8 +55,8 @@ export default function Footer() {
         </div>
         <div className="flex gap-24 wrap space-between align-center u-mt-24">
           <p>
-            MIT OpenCourseWare To Go offers curated course materials optimized
-            for offline, mobile learning in Google Chrome on Android AND
+            MIT OpenCourseWare To Go offers a curated list of course materials 
+            optimized for offline, mobile learning in Google Chrome on Android and
             iOS.
           </p>
         </div>
