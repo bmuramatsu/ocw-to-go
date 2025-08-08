@@ -1,0 +1,250 @@
+{
+    "id": "14-01-principles-of-microeconomics-fall-2023",
+    "name": "Principles of Microeconomics ",
+    "category": "Social Science",
+    "topics": [
+        "Social Science",
+        "Economics",
+        "Microeconomics"
+    ],
+    "instructors": [
+        "Prof. Jonathan Gruber"
+    ],
+    "courseNumber": "14.01",
+    "courseLevel": "Undergraduate",
+    "cardImg": "/images/course_cards/14-01-principles-of-microeconomics-fall-2023.jpg",
+    "imgAltText": "A row of cars on the assembly line, showcasing the manufacturing process in an automotive factory setting.",
+    "file": "https://files.ocwtogo.org/14.01-fall-2023.zip",
+    "downloadSize": 24705481,
+    "diskSize": 57099522,
+    "description": "This introductory undergraduate course covers the fundamentals of microeconomics. Topics include supply and demand, market equilibrium, consumer theory, production and the behavior of firms, monopoly, oligopoly, welfare economics, public goods, and externalities.",
+    "descriptionHtml": "This introductory undergraduate course covers the fundamentals of microeconomics. Topics include supply and demand, market equilibrium, consumer theory, production and the behavior of firms, monopoly, oligopoly, welfare economics, public goods, and externalities.",
+    "videoGroups": [
+        {
+            "category": "Lecture Videos",
+            "videos": [
+                {
+                    "title": "Lec 1: Introduction to Principles of Microeconomics and Supply & Demand",
+                    "videoUrl": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture01-2023sep06_360p_16_9.mp4",
+                    "youtubeKey": "8ssjKR7nNck",
+                    "contentLength": 118384482,
+                    "captionsFile": "/courses/14-01-principles-of-microeconomics-fall-2023/1eUcoskiOny7uj-hC8hI-l230fqqWeRCH_transcript.webvtt",
+                    "htmlFile": "resources/1401-lecture01-2023sep06_mp4/index.html"
+                },
+                {
+                    "title": "Lec 2: Preferences and Utility Function",
+                    "videoUrl": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture02-2023sep11_360p_16_9.mp4",
+                    "youtubeKey": "uuY13aUtFUo",
+                    "contentLength": 108672119,
+                    "captionsFile": "/courses/14-01-principles-of-microeconomics-fall-2023/1nU4Ro98UoLiIgMeHhveAhCn8YIdan-FS_transcript.webvtt",
+                    "htmlFile": "resources/1401-lecture02-2023sep11_mp4/index.html"
+                },
+                {
+                    "title": "Lec 3: Budget Constraints and Constrained Choice",
+                    "videoUrl": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture03-2023sep13_360p_16_9.mp4",
+                    "youtubeKey": "c8K_FSLtceQ",
+                    "contentLength": 150104982,
+                    "captionsFile": "/courses/14-01-principles-of-microeconomics-fall-2023/1njhKLz3mGyrDyuwDOModusR3qN08Oz_A_transcript.webvtt",
+                    "htmlFile": "resources/1401-lecture03-2023sep13_mp4/index.html"
+                },
+                {
+                    "title": "Lec 4: Demand Curves and Income/Substitution Effects",
+                    "videoUrl": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture04-2023sep18_360p_16_9.mp4",
+                    "youtubeKey": "Qj1HvrSKLqY",
+                    "contentLength": 133450621,
+                    "captionsFile": "/courses/14-01-principles-of-microeconomics-fall-2023/1u7QgZleF_LElj3-IW_az5kyYaq1fvYfj_transcript.webvtt",
+                    "htmlFile": "resources/1401-lecture04-2023sep18_mp4/index.html"
+                },
+                {
+                    "title": "Lec 5: Production Theory",
+                    "videoUrl": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture05-2023sep20-v2_360p_16_9.mp4",
+                    "youtubeKey": "Q7-mCKOzNUI",
+                    "contentLength": 110972550,
+                    "captionsFile": "/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture05-2023sep20-v2_captions.vtt",
+                    "htmlFile": "resources/1401-lecture05-2023sep20-v2_mp4/index.html"
+                },
+                {
+                    "title": "Lec 6: Costs",
+                    "videoUrl": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture06-2023sep25_360p_16_9.mp4",
+                    "youtubeKey": "y1bnBxfNVkU",
+                    "contentLength": 128344445,
+                    "captionsFile": "/courses/14-01-principles-of-microeconomics-fall-2023/1KjOoZ_6JHqDZnACIBCZQ_ie9bX0voSh7_transcript.webvtt",
+                    "htmlFile": "resources/1401-lecture06-2023sep25_mp4/index.html"
+                },
+                {
+                    "title": "Lec 7: Competition I",
+                    "videoUrl": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture07-2023sep27_360p_16_9.mp4",
+                    "youtubeKey": "IYwk6EwPmCg",
+                    "contentLength": 115912711,
+                    "captionsFile": "/courses/14-01-principles-of-microeconomics-fall-2023/1y6QvWT1dZb2asBpO5OFPKGI5y3hsnjjD_transcript.webvtt",
+                    "htmlFile": "resources/1401-lecture07-2023sep27_mp4/index.html"
+                },
+                {
+                    "title": "Lec 8: Competition II",
+                    "videoUrl": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture08-2023oct02_360p_16_9.mp4",
+                    "youtubeKey": "sHlazW9s_g8",
+                    "contentLength": 135261142,
+                    "captionsFile": "/courses/14-01-principles-of-microeconomics-fall-2023/1veDeVvihAKTwJKAIHvygdJhlqp3EP90L_transcript.webvtt",
+                    "htmlFile": "resources/1401-lecture08-2023oct02_mp4/index.html"
+                },
+                {
+                    "title": "Lec 9: Supply and Demand & Consumer/Producer Surplus",
+                    "videoUrl": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture09-2023oct04_360p_16_9.mp4",
+                    "youtubeKey": "-Z35m38qLd4",
+                    "contentLength": 141161217,
+                    "captionsFile": "/courses/14-01-principles-of-microeconomics-fall-2023/1FpshsWObLbHaOCGWL32kg0JTpH-B8q7x_transcript.webvtt",
+                    "htmlFile": "resources/1401-lecture09-2023oct04_mp4/index.html"
+                },
+                {
+                    "title": "Lec 10: Welfare Economics",
+                    "videoUrl": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture10-2023oct11_360p_16_9.mp4",
+                    "youtubeKey": "1zAuKwZ5PPE",
+                    "contentLength": 81547476,
+                    "captionsFile": "/courses/14-01-principles-of-microeconomics-fall-2023/1ZH_qQNddnGOetdIaF0MVlQLwMXUbI6y__transcript.webvtt",
+                    "htmlFile": "resources/1401-lecture10-2023oct11_mp4/index.html"
+                },
+                {
+                    "title": "Lec 11: Monopoly I",
+                    "videoUrl": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture11-2023oct16_360p_16_9.mp4",
+                    "youtubeKey": "CD_HqiEdNOw",
+                    "contentLength": 113964007,
+                    "captionsFile": "/courses/14-01-principles-of-microeconomics-fall-2023/1L7QXz_ItqIraMVGmF7oeSgA3EhcJ7Pp1_transcript.webvtt",
+                    "htmlFile": "resources/1401-lecture11-2023oct16_mp4/index.html"
+                },
+                {
+                    "title": "Lec 12: Monopoly II",
+                    "videoUrl": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture12-2023oct18_360p_16_9.mp4",
+                    "youtubeKey": "iBmoqczj7xs",
+                    "contentLength": 109259318,
+                    "captionsFile": "/courses/14-01-principles-of-microeconomics-fall-2023/1xUj6f3FdvTawTf4BfUZhWhnnDiQB5yvl_transcript.webvtt",
+                    "htmlFile": "resources/1401-lecture12-2023oct18_mp4/index.html"
+                },
+                {
+                    "title": "Lec 13: Oligopoly I",
+                    "videoUrl": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture13-2023oct23_360p_16_9.mp4",
+                    "youtubeKey": "_crDeSDpB20",
+                    "contentLength": 134542935,
+                    "captionsFile": "/courses/14-01-principles-of-microeconomics-fall-2023/13jVQw-8s1W9AqlGDsTTcAkYLEOk-ZfpW_transcript.webvtt",
+                    "htmlFile": "resources/1401-lecture13-2023oct23_mp4/index.html"
+                },
+                {
+                    "title": "Lec 14: Oligopoly II",
+                    "videoUrl": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture14-2023oct25_360p_16_9.mp4",
+                    "youtubeKey": "omeBIMSJ89k",
+                    "contentLength": 130200964,
+                    "captionsFile": "/courses/14-01-principles-of-microeconomics-fall-2023/1iNAZ_8vr72UE_NPRQQYix4RNzdyVqvKg_transcript.webvtt",
+                    "htmlFile": "resources/1401-lecture14-2023oct25_mp4/index.html"
+                },
+                {
+                    "title": "Lec 15: Input Markets I—Labor Market",
+                    "videoUrl": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture15-2023oct30_360p_16_9.mp4",
+                    "youtubeKey": "kUt5rgd8kfc",
+                    "contentLength": 125699038,
+                    "captionsFile": "/courses/14-01-principles-of-microeconomics-fall-2023/137py6c_brXus1J-LNHuKSJnoV7kshYLs_transcript.webvtt",
+                    "htmlFile": "resources/1401-lecture15-2023oct30_mp4/index.html"
+                },
+                {
+                    "title": "Lec 16: Input Markets II—Labor and Capital",
+                    "videoUrl": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture16-2023nov01_360p_16_9.mp4",
+                    "youtubeKey": "Zl92WCm30bU",
+                    "contentLength": 107437725,
+                    "captionsFile": "/courses/14-01-principles-of-microeconomics-fall-2023/14u5S_x3G67UVcw5cYf1jPpA4dAbhSnJ2_transcript.webvtt",
+                    "htmlFile": "resources/1401-lecture16-2023nov01_mp4/index.html"
+                },
+                {
+                    "title": "Lec 17: Making Choices over Time",
+                    "videoUrl": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture17-2023nov06_360p_16_9.mp4",
+                    "youtubeKey": "CZwgOqxScB4",
+                    "contentLength": 124031681,
+                    "captionsFile": "/courses/14-01-principles-of-microeconomics-fall-2023/1Y-NeiZlohmPQGLJHEpvv62AasKDgpqVL_transcript.webvtt",
+                    "htmlFile": "resources/1401-lecture17-2023nov06_mp4/index.html"
+                },
+                {
+                    "title": "Lec 18: Introduction to Trade",
+                    "videoUrl": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture18-2023nov08_360p_16_9.mp4",
+                    "youtubeKey": "KVV8pUOap2I",
+                    "contentLength": 111663273,
+                    "captionsFile": "/courses/14-01-principles-of-microeconomics-fall-2023/1ICSUYUeBPYe8MZ7ocD6c6XoDb6V8tFxB_transcript.webvtt",
+                    "htmlFile": "resources/1401-lecture18-2023nov08_mp4/index.html"
+                },
+                {
+                    "title": "Lec 19: International Trade: Welfare and Policy",
+                    "videoUrl": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture19-2023nov13_360p_16_9.mp4",
+                    "youtubeKey": "TxoAbm57ELE",
+                    "contentLength": 108883653,
+                    "captionsFile": "/courses/14-01-principles-of-microeconomics-fall-2023/1wiGq2YSQxXL3feT-PeKe6DnSdrD7vGTw_transcript.webvtt",
+                    "htmlFile": "resources/1401-lecture19-2023nov13_mp4/index.html"
+                },
+                {
+                    "title": "Lec 20: Uncertainty",
+                    "videoUrl": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture20-2023nov15_360p_16_9.mp4",
+                    "youtubeKey": "qwNTv1tjKbA",
+                    "contentLength": 114887285,
+                    "captionsFile": "/courses/14-01-principles-of-microeconomics-fall-2023/1cJ70aRnRvSeFryA5TlGJ_dJGUMguhEam_transcript.webvtt",
+                    "htmlFile": "resources/1401-lecture20-2023nov15_mp4/index.html"
+                },
+                {
+                    "title": "Lec 21: Social Insurance",
+                    "videoUrl": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture21-2023nov27_360p_16_9.mp4",
+                    "youtubeKey": "rXwgo-9xZDo",
+                    "contentLength": 121802320,
+                    "captionsFile": "/courses/14-01-principles-of-microeconomics-fall-2023/1W_mXc-kItia9nBLXHp-J2-wAKFsLcQxC_transcript.webvtt",
+                    "htmlFile": "resources/1401-lecture21-2023nov27_mp4/index.html"
+                },
+                {
+                    "title": "Lec 22: Efficiency and Equity",
+                    "videoUrl": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture22-2023nov29_360p_16_9.mp4",
+                    "youtubeKey": "8sgl_wzzQUY",
+                    "contentLength": 87587947,
+                    "captionsFile": "/courses/14-01-principles-of-microeconomics-fall-2023/1fDtk3zJCrxphYKcTVeYiRYyovgbwyqTr_transcript.webvtt",
+                    "htmlFile": "resources/1401-lecture22-2023nov29_mp4/index.html"
+                },
+                {
+                    "title": "Lec 23: Government Redistribution and Taxation",
+                    "videoUrl": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture23-2023dec04_360p_16_9.mp4",
+                    "youtubeKey": "DB7dSaro4cE",
+                    "contentLength": 105166045,
+                    "captionsFile": "/courses/14-01-principles-of-microeconomics-fall-2023/1q_yRcf6jnAFszMZOCYx0J01MX2CXGsds_transcript.webvtt",
+                    "htmlFile": "resources/1401-lecture23-2023dec04_mp4/index.html"
+                },
+                {
+                    "title": "Lec 24: Externalities",
+                    "videoUrl": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture24-2023dec06_360p_16_9.mp4",
+                    "youtubeKey": "EDGRxqnILUM",
+                    "contentLength": 118747601,
+                    "captionsFile": "/courses/14-01-principles-of-microeconomics-fall-2023/1fXujhNgXqv0tDS5gMpWig1mYXtL1OcYS_transcript.webvtt",
+                    "htmlFile": "resources/1401-lecture24-2023dec06_mp4/index.html"
+                },
+                {
+                    "title": "Lec 25: Behavioral Economics",
+                    "videoUrl": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture25-2023dec11_360p_16_9.mp4",
+                    "youtubeKey": "TT7ZUJGPqos",
+                    "contentLength": 145777532,
+                    "captionsFile": "/courses/14-01-principles-of-microeconomics-fall-2023/1TibVtUY0LALfn3SgCCFeLLy_OOLk8vEG_transcript.webvtt",
+                    "htmlFile": "resources/1401-lecture25-2023dec11_mp4/index.html"
+                },
+                {
+                    "title": "Lec 26: Health Care Economics",
+                    "videoUrl": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture26-2023dec13_360p_16_9.mp4",
+                    "youtubeKey": "VoLP28-OSRU",
+                    "contentLength": 127804752,
+                    "captionsFile": "/courses/14-01-principles-of-microeconomics-fall-2023/1D_iQiYpYoxBYre089q_2wT617N5p9lGP_transcript.webvtt",
+                    "htmlFile": "resources/1401-lecture26-2023dec13_mp4/index.html"
+                }
+            ]
+        },
+        {
+            "category": "Podcasts",
+            "videos": [
+                {
+                    "title": "Thinking Like an Economist with Prof. Jonathan Gruber",
+                    "videoUrl": "https://archive.org/download/chalk-radio/S01E09_Jonathan_Gruber_360p.mp4",
+                    "youtubeKey": "oMWvVcKdtco",
+                    "contentLength": 24584368,
+                    "captionsFile": "/courses/14-01-principles-of-microeconomics-fall-2023/oMWvVcKdtco_captions.webvtt",
+                    "htmlFile": "resources/thinking-like-an-economist-with-prof-jonathan-gruber/index.html"
+                }
+            ]
+        }
+    ]
+}

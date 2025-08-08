@@ -1,0 +1,225 @@
+{
+    "id": "15-s12-blockchain-and-money-fall-2018",
+    "name": "Blockchain and Money",
+    "category": "Business",
+    "topics": [
+        "Business",
+        "Finance",
+        "Business",
+        "Information Technology",
+        "Engineering",
+        "Computer Science",
+        "Engineering",
+        "Computer Science",
+        "Algorithms and Data Structures",
+        "Engineering",
+        "Computer Science",
+        "Computer Networks",
+        "Engineering",
+        "Computer Science",
+        "Cryptography"
+    ],
+    "instructors": [
+        "Prof. Gary Gensler"
+    ],
+    "courseNumber": "15.S12",
+    "courseLevel": "Graduate",
+    "cardImg": "/images/course_cards/15-s12-blockchain-and-money-fall-2018.jpg",
+    "imgAltText": "A golden coin sits on a motherboard. Three mini figurines surround the coin with tools. ",
+    "file": "https://files.ocwtogo.org/15.s12-fall-2018.zip",
+    "downloadSize": 46251806,
+    "diskSize": 90736673,
+    "description": "This course is for students wishing to explore blockchain technology's potential use—by entrepreneurs and incumbents—to change the world of money and finance. The course begins with a review of Bitcoin and an understanding of the commercial, technical, and public policy fundamentals of blockchain technology, distributed ledgers, and smart contracts. The class then continues on to current and potential blockchain applications in the financial sector.\n",
+    "descriptionHtml": "This course is for students wishing to explore blockchain technology&rsquo;s potential use—by entrepreneurs and incumbents—to change the world of money and finance. The course begins with a review of Bitcoin and an understanding of the commercial, technical, and public policy fundamentals of blockchain technology, distributed ledgers, and smart contracts. The class then continues on to current and potential blockchain applications in the financial sector.",
+    "videoGroups": [
+        {
+            "category": "Lecture Videos",
+            "videos": [
+                {
+                    "title": "Session 1: Introduction",
+                    "videoUrl": "https://archive.org/download/MIT15.S12F18/MIT15_S12F18_lec01_300k.mp4",
+                    "youtubeKey": "EH6vE97qIP4",
+                    "contentLength": 144907726,
+                    "captionsFile": "/courses/15-s12-blockchain-and-money-fall-2018/20bc3a67ada855098f6514ce837a6b0f_EH6vE97qIP4.vtt",
+                    "htmlFile": "resources/session-1-introduction/index.html"
+                },
+                {
+                    "title": "Session 2: Money, Ledgers, and Bitcoin",
+                    "videoUrl": "https://archive.org/download/MIT15.S12F18/MIT15_S12F18_lec02_300k.mp4",
+                    "youtubeKey": "5auv_xrvoJk",
+                    "contentLength": 179961340,
+                    "captionsFile": "/courses/15-s12-blockchain-and-money-fall-2018/15e74d93b99f5d7db9e7bf3faecacdec_5auv_xrvoJk.vtt",
+                    "htmlFile": "resources/session-2-money-ledgers-and-bitcoin/index.html"
+                },
+                {
+                    "title": "Session 3: Blockchain Basics & Cryptography",
+                    "videoUrl": "https://archive.org/download/MIT15.S12F18/MIT15_S12F18_lec03_300k.mp4",
+                    "youtubeKey": "0UvVOMZqpEA",
+                    "contentLength": 181952929,
+                    "captionsFile": "/courses/15-s12-blockchain-and-money-fall-2018/85efa6a54a105e7a86ac67bf2aab224b_0UvVOMZqpEA.vtt",
+                    "htmlFile": "resources/session-3-blockchain-basics-cryptography/index.html"
+                },
+                {
+                    "title": "Session 4: Blockchain Basics and Consensus",
+                    "videoUrl": "https://archive.org/download/MIT15.S12F18/MIT15_S12F18_lec04_300k.mp4",
+                    "youtubeKey": "w7HDA8gUbpQ",
+                    "contentLength": 173908852,
+                    "captionsFile": "/courses/15-s12-blockchain-and-money-fall-2018/f9fd533a9fde584299eda01f89e6c6a1_w7HDA8gUbpQ.vtt",
+                    "htmlFile": "resources/session-4-blockchain-basics-and-consensus/index.html"
+                },
+                {
+                    "title": "Session 5: Blockchain Basics and Transactions, UTXO, and Script Code",
+                    "videoUrl": "https://archive.org/download/MIT15.S12F18/MIT15_S12F18_lec05_300k.mp4",
+                    "youtubeKey": "zGDTt9Q3vyM",
+                    "contentLength": 176494103,
+                    "captionsFile": "/courses/15-s12-blockchain-and-money-fall-2018/27bc2fb2946155be99ba1d0bfeab94eb_zGDTt9Q3vyM.vtt",
+                    "htmlFile": "resources/session-5-blockchain-basics-transactions/index.html"
+                },
+                {
+                    "title": "Session 6: Smart Contracts and DApps",
+                    "videoUrl": "https://archive.org/download/MIT15.S12F18/MIT15_S12F18_lec06_300k.mp4",
+                    "youtubeKey": "JPkgJwJHYSc",
+                    "contentLength": 191296294,
+                    "captionsFile": "/courses/15-s12-blockchain-and-money-fall-2018/e4afd92324145523ac182cd637eb962a_JPkgJwJHYSc.vtt",
+                    "htmlFile": "resources/session-6-smart-contracts-and-dapps/index.html"
+                },
+                {
+                    "title": "Session 7: Technical Challenges",
+                    "videoUrl": "https://archive.org/download/MIT15.S12F18/MIT15_S12F18_lec07_300k.mp4",
+                    "youtubeKey": "GLVrOlHLJ1U",
+                    "contentLength": 190241433,
+                    "captionsFile": "/courses/15-s12-blockchain-and-money-fall-2018/c017c949f8b85cad864ba1f901853e76_GLVrOlHLJ1U.vtt",
+                    "htmlFile": "resources/session-7-technical-challenges/index.html"
+                },
+                {
+                    "title": "Session 8: Public Policy",
+                    "videoUrl": "https://archive.org/download/MIT15.S12F18/MIT15_S12F18_lec08_300k.mp4",
+                    "youtubeKey": "sMnBl0g3Ev4",
+                    "contentLength": 180251644,
+                    "captionsFile": "/courses/15-s12-blockchain-and-money-fall-2018/8e7e3067e27450a8b79860f71568fdec_sMnBl0g3Ev4.vtt",
+                    "htmlFile": "resources/session-8-public-policy/index.html"
+                },
+                {
+                    "title": "Session 9: Permissioned Systems",
+                    "videoUrl": "https://archive.org/download/MIT15.S12F18/MIT15_S12F18_lec09_300k.mp4",
+                    "youtubeKey": "vPJ8oQ99r9c",
+                    "contentLength": 188604375,
+                    "captionsFile": "/courses/15-s12-blockchain-and-money-fall-2018/2112a441a55555428558a76febed70d2_vPJ8oQ99r9c.vtt",
+                    "htmlFile": "resources/session-9-permissioned-systems/index.html"
+                },
+                {
+                    "title": "Session 10: Financial System Challenges and Opportunities",
+                    "videoUrl": "https://archive.org/download/MIT15.S12F18/MIT15_S12F18_lec10_300k.mp4",
+                    "youtubeKey": "l0vD_FBWk0g",
+                    "contentLength": 189813521,
+                    "captionsFile": "/courses/15-s12-blockchain-and-money-fall-2018/cdf032b62aca52cfad73ae31e24298ff_l0vD_FBWk0g.vtt",
+                    "htmlFile": "resources/session-10-financial-system-challenges-and-opportunities/index.html"
+                },
+                {
+                    "title": "Session 11: Blockchain Economics",
+                    "videoUrl": "https://archive.org/download/MIT15.S12F18/MIT15_S12F18_lec11_300k.mp4",
+                    "youtubeKey": "_eGNSuTBc60",
+                    "contentLength": 180366237,
+                    "captionsFile": "/courses/15-s12-blockchain-and-money-fall-2018/433f8780656a592a88470acb63297800_eGNSuTBc60.vtt",
+                    "htmlFile": "resources/session-11-blockchain-economics/index.html"
+                },
+                {
+                    "title": "Session 12: Assessing Use Cases",
+                    "videoUrl": "https://archive.org/download/MIT15.S12F18/MIT15_S12F18_lec12_300k.mp4",
+                    "youtubeKey": "ObGYNQLG3us",
+                    "contentLength": 175338376,
+                    "captionsFile": "/courses/15-s12-blockchain-and-money-fall-2018/0f6ba32e533052ee866d8a18b57492ea_ObGYNQLG3us.vtt",
+                    "htmlFile": "resources/session-12-assessing-use-cases/index.html"
+                },
+                {
+                    "title": "Session 13: Payments, Part 1",
+                    "videoUrl": "https://archive.org/download/MIT15.S12F18/MIT15_S12F18_lec13_300k.mp4",
+                    "youtubeKey": "ojcOUtUwIe4",
+                    "contentLength": 184606486,
+                    "captionsFile": "/courses/15-s12-blockchain-and-money-fall-2018/75df00c4127e5a7d8804978f501039a0_ojcOUtUwIe4.vtt",
+                    "htmlFile": "resources/session-13-payments-part-1/index.html"
+                },
+                {
+                    "title": "Session 14: Payments, Part 2",
+                    "videoUrl": "https://archive.org/download/MIT15.S12F18/MIT15_S12F18_lec14_300k.mp4",
+                    "youtubeKey": "_Ycy0Dy-B1c",
+                    "contentLength": 181008962,
+                    "captionsFile": "/courses/15-s12-blockchain-and-money-fall-2018/a251fb6cad385a159785c6954cb2d719_Ycy0Dy-B1c.vtt",
+                    "htmlFile": "resources/session-14-payments-part-2/index.html"
+                },
+                {
+                    "title": "Session 15: Central Banks & Commercial Banking, Part 1",
+                    "videoUrl": "https://archive.org/download/MIT15.S12F18/MIT15_S12F18_lec15_300k.mp4",
+                    "youtubeKey": "lPD9fx8fK1k",
+                    "contentLength": 187695096,
+                    "captionsFile": "/courses/15-s12-blockchain-and-money-fall-2018/484ff3d72dc95e13928e0e14be799b4a_lPD9fx8fK1k.vtt",
+                    "htmlFile": "resources/session-15-central-banks-commercial-banking-part-1/index.html"
+                },
+                {
+                    "title": "Session 16: Central Banks & Commercial Banking, Part 2",
+                    "videoUrl": "https://archive.org/download/MIT15.S12F18/MIT15_S12F18_lec16_300k.mp4",
+                    "youtubeKey": "uNqMBBbb6UI",
+                    "contentLength": 183280182,
+                    "captionsFile": "/courses/15-s12-blockchain-and-money-fall-2018/6bf20cc78ae857968ddfa240dd95103a_uNqMBBbb6UI.vtt",
+                    "htmlFile": "resources/session-16-central-banks-commercial-banking-part-2/index.html"
+                },
+                {
+                    "title": "Session 17: Secondary Markets and Crypto-Exchanges",
+                    "videoUrl": "https://archive.org/download/MIT15.S12F18/MIT15_S12F18_lec17_300k.mp4",
+                    "youtubeKey": "KHBi3n0hUSU",
+                    "contentLength": 178655624,
+                    "captionsFile": "/courses/15-s12-blockchain-and-money-fall-2018/3ca08565f3755ac693ee49a222d529d4_KHBi3n0hUSU.vtt",
+                    "htmlFile": "resources/session-17-secondary-markets-and-crypto-exchanges/index.html"
+                },
+                {
+                    "title": "Session 19: Primary Markets, ICOs, & Venture Capital, Part 1",
+                    "videoUrl": "https://archive.org/download/MIT15.S12F18/MIT15_S12F18_lec19_300k.mp4",
+                    "youtubeKey": "iWpQpPbo7rM",
+                    "contentLength": 140695673,
+                    "captionsFile": "/courses/15-s12-blockchain-and-money-fall-2018/d88e2aee5015578c808271218974c46c_iWpQpPbo7rM.vtt",
+                    "htmlFile": "resources/session-19-primary-markets-part-1/index.html"
+                },
+                {
+                    "title": "Session 20: Primary Markets, ICOs, & Venture Capital, Part 2",
+                    "videoUrl": "https://archive.org/download/MIT15.S12F18/MIT15_S12F18_lec20_300k.mp4",
+                    "youtubeKey": "7EXcHqLg7BI",
+                    "contentLength": 187690148,
+                    "captionsFile": "/courses/15-s12-blockchain-and-money-fall-2018/e005ac7e47a45802bf61ab57b9bacfe7_7EXcHqLg7BI.vtt",
+                    "htmlFile": "resources/session-20-primary-markets-venture-capital/index.html"
+                },
+                {
+                    "title": "Session 21: Post Trade Clearing, Settlement, & Processing ",
+                    "videoUrl": "https://archive.org/download/MIT15.S12F18/MIT15_S12F18_lec21_300k.mp4",
+                    "youtubeKey": "-cZPoqnRZq4",
+                    "contentLength": 177333417,
+                    "captionsFile": "/courses/15-s12-blockchain-and-money-fall-2018/411bdee3f2d1540f979ec36780784d33_-cZPoqnRZq4.vtt",
+                    "htmlFile": "resources/session-21-post-trade-clearing-settlement-processing/index.html"
+                },
+                {
+                    "title": "Session 22: Trade Finance & Supply Chain",
+                    "videoUrl": "https://archive.org/download/MIT15.S12F18/MIT15_S12F18_lec22_300k.mp4",
+                    "youtubeKey": "DsSzQfejwMk",
+                    "contentLength": 161954294,
+                    "captionsFile": "/courses/15-s12-blockchain-and-money-fall-2018/fa1e4fa6284a5f1f8d8fe26a8cd85328_DsSzQfejwMk.vtt",
+                    "htmlFile": "resources/session-22-trade-finance-supply-chain/index.html"
+                },
+                {
+                    "title": "Session 23: Digital ID",
+                    "videoUrl": "https://archive.org/download/MIT15.S12F18/MIT15_S12F18_lec23_300k.mp4",
+                    "youtubeKey": "W06Le8fw0vU",
+                    "contentLength": 170510845,
+                    "captionsFile": "/courses/15-s12-blockchain-and-money-fall-2018/639d0ca98f1657f68391fb1c116783de_W06Le8fw0vU.vtt",
+                    "htmlFile": "resources/session-23-digital-id/index.html"
+                },
+                {
+                    "title": "Session 24: Conclusion",
+                    "videoUrl": "https://archive.org/download/MIT15.S12F18/MIT15_S12F18_lec24_300k.mp4",
+                    "youtubeKey": "CJCKTixMb70",
+                    "contentLength": 154362780,
+                    "captionsFile": "/courses/15-s12-blockchain-and-money-fall-2018/f15067598109518c926001353139cf99_CJCKTixMb70.vtt",
+                    "htmlFile": "resources/session-24-conclusion/index.html"
+                }
+            ]
+        }
+    ]
+}

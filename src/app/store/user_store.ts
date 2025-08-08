@@ -16,12 +16,16 @@ export interface UserStore {
   userCourses: UserCourses;
   userVideos: UserVideos;
   videoQueue: VideoQueue;
+  coursesInitialized: boolean;
+  videosInitialized: boolean;
 }
 
 const initialState: UserStore = {
   userCourses: {},
   userVideos: {},
   videoQueue: [],
+  coursesInitialized: false,
+  videosInitialized: false,
 };
 
 const userStore = createSlice({
@@ -30,9 +34,11 @@ const userStore = createSlice({
   reducers: {
     setInitialCourses: (state, action: PayloadAction<UserCourses>) => {
       state.userCourses = action.payload;
+      state.coursesInitialized = true;
     },
     setInitialVideos: (state, action: PayloadAction<UserVideos>) => {
       state.userVideos = action.payload;
+      state.videosInitialized = true;
     },
     updateCourse: (
       state,

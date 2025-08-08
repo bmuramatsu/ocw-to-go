@@ -1,0 +1,954 @@
+{
+    "id": "8-04-quantum-physics-i-spring-2016",
+    "name": "Quantum Physics I",
+    "category": "Physical Science",
+    "topics": [
+        "Science",
+        "Physics",
+        "Quantum Mechanics"
+    ],
+    "instructors": [
+        "Prof. Barton Zwiebach"
+    ],
+    "courseNumber": "8.04",
+    "courseLevel": "Undergraduate",
+    "cardImg": "/images/course_cards/8-04-quantum-physics-i-spring-2016.jpg",
+    "imgAltText": "Lines and boxes showing experimental set-up of a Mach-Zehnder interferometer.",
+    "file": "https://files.ocwtogo.org/8.04-spring-2016.zip",
+    "downloadSize": 28763244,
+    "diskSize": 78339638,
+    "description": "This is the first course in the undergraduate Quantum Physics sequence. It introduces the basic features of quantum mechanics. It covers the experimental basis of quantum physics, introduces wave mechanics, Schrödinger's equation in a single dimension, and Schrödinger's equation in three dimensions. The lectures and lecture notes for this course form the basis of Zwiebach’s textbook *Mastering Quantum Mechanics* published by [MIT Press](https://mitpress.mit.edu/books/mastering-quantum-mechanics) in April 2022.\n\nThis presentation of 8.04 by Barton Zwiebach (2016) differs somewhat and complements nicely the presentation of [Allan Adams (2013)](/courses/8-04-quantum-physics-i-spring-2013/). Adams covers a larger set of ideas; Zwiebach tends to go deeper into a smaller set of ideas, offering a systematic and detailed treatment. Adams begins with the subtleties of superpostion, while Zwiebach discusses the surprises of interaction-free measurements. While both courses overlap over a sizable amount of standard material, Adams discussed applications to condensed matter physics, while Zwiebach focused on scattering and resonances. The different perspectives of the instructors make the problem sets in the two courses rather different.",
+    "descriptionHtml": "<p>This is the first course in the undergraduate Quantum Physics sequence. It introduces the basic features of quantum mechanics. It covers the experimental basis of quantum physics, introduces wave mechanics, Schrödinger&rsquo;s equation in a single dimension, and Schrödinger&rsquo;s equation in three dimensions. The lectures and lecture notes for this course form the basis of Zwiebach’s textbook <em>Mastering Quantum Mechanics</em> published by <a href=\"https://mitpress.mit.edu/books/mastering-quantum-mechanics\" target=\"_blank\" rel=\"noopener\">MIT Press</a> in April 2022.</p>\n<p>This presentation of 8.04 by Barton Zwiebach (2016) differs somewhat and complements nicely the presentation of <a href=\"https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2013/\" target=\"_blank\" rel=\"noopener\">Allan Adams (2013)</a>. Adams covers a larger set of ideas; Zwiebach tends to go deeper into a smaller set of ideas, offering a systematic and detailed treatment. Adams begins with the subtleties of superpostion, while Zwiebach discusses the surprises of interaction-free measurements. While both courses overlap over a sizable amount of standard material, Adams discussed applications to condensed matter physics, while Zwiebach focused on scattering and resonances. The different perspectives of the instructors make the problem sets in the two courses rather different.</p>\n",
+    "videoGroups": [
+        {
+            "category": "Lecture Videos",
+            "videos": [
+                {
+                    "title": "Algebraic solution of the harmonic oscillator",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec14_s3_300k.mp4",
+                    "youtubeKey": "8CCFPgd_P1w",
+                    "contentLength": 40550660,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/c63d5aae1acf5f6c82f88a6a18b880f1_8CCFPgd_P1w.vtt",
+                    "htmlFile": "resources/algebraic-solution-of-the-harmonic-oscillator/index.html"
+                },
+                {
+                    "title": "Angular momentum operators and their algebra",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec20_s2_300k.mp4",
+                    "youtubeKey": "xoCHe0mtxu0",
+                    "contentLength": 34141176,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/12f4733a63ae5e079867adaf75622b62_xoCHe0mtxu0.vtt",
+                    "htmlFile": "resources/angular-momentum-operators-and-their-algebra/index.html"
+                },
+                {
+                    "title": "Associated Legendre functions and spherical harmonics",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec21_s1_300k.mp4",
+                    "youtubeKey": "Lt2Y6fLJ09Q",
+                    "contentLength": 43871043,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/c281b9a67cff59d5b587ad33694e092d_Lt2Y6fLJ09Q.vtt",
+                    "htmlFile": "resources/associated-legendre-functions-and-spherical-harmonics/index.html"
+                },
+                {
+                    "title": "Behavior of the differential equation",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec13_s5_300k.mp4",
+                    "youtubeKey": "eNf8nH1yEYc",
+                    "contentLength": 24975832,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/4c1fb117b2c2548f9df1def64cc16b10_eNf8nH1yEYc.vtt",
+                    "htmlFile": "resources/behavior-of-the-differential-equation/index.html"
+                },
+                {
+                    "title": "Center of mass and relative motion wavefunctions",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec22_s1_300k.mp4",
+                    "youtubeKey": "dVWKsiaAZ14",
+                    "contentLength": 33936781,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/638d44e080855b7890d627654822135f_dVWKsiaAZ14.vtt",
+                    "htmlFile": "resources/center-of-mass-and-relative-motion-wavefunctions/index.html"
+                },
+                {
+                    "title": "Comments on the spectrum and continuity conditions",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec10_s4_300k.mp4",
+                    "youtubeKey": "gMnQ21-pjOA",
+                    "contentLength": 30569420,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/22520710ad525889a329d3011d20c18e_gMnQ21-pjOA.vtt",
+                    "htmlFile": "resources/comments-on-the-spectrum-and-continuity-conditions/index.html"
+                },
+                {
+                    "title": "Commutators, matrices, and 3-dimensional Schrödinger equation",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec05_s4_300k.mp4",
+                    "youtubeKey": "m7UT2Hr465o",
+                    "contentLength": 38148711,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/7df50dca8e76555e8985fd3b8d70241b_m7UT2Hr465o.vtt",
+                    "htmlFile": "resources/commutators-matrices-and-3-dimensional-schroedinger-equation/index.html"
+                },
+                {
+                    "title": "Commuting observables for angular momentum",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec20_s3_300k.mp4",
+                    "youtubeKey": "Mh8vUEStCQ8",
+                    "contentLength": 40713324,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/cb966bfab4bd570581066e34ce7560f5_Mh8vUEStCQ8.vtt",
+                    "htmlFile": "resources/commuting-observables-for-angular-momentum/index.html"
+                },
+                {
+                    "title": "Compton Scattering",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec03_s3_300k.mp4",
+                    "youtubeKey": "WR88_Vzfcx4",
+                    "contentLength": 53102359,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/d5cb7dc022f45ee4b5e3e4cdad73c8fe_WR88_Vzfcx4.vtt",
+                    "htmlFile": "resources/compton-scattering/index.html"
+                },
+                {
+                    "title": "Consistency condition. Particle on a circle",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec09_s4_300k.mp4",
+                    "youtubeKey": "_jPVD45YYlk",
+                    "contentLength": 41344725,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/a0d03010f20c53ae96f2b1eb36f55447_jPVD45YYlk.vtt",
+                    "htmlFile": "resources/consistency-condition/index.html"
+                },
+                {
+                    "title": "Correspondence principle: amplitude as a function of position",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec12_s4_300k.mp4",
+                    "youtubeKey": "79GY-hI_emE",
+                    "contentLength": 14534060,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/d05ff7486f41522b82bd3c181ca28056_79GY-hI_emE.vtt",
+                    "htmlFile": "resources/correspondence-principle-amplitude-as-a-function-of-position/index.html"
+                },
+                {
+                    "title": "Creation and annihilation operators acting on energy eigenstates",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec15_s3_300k.mp4",
+                    "youtubeKey": "BRFekCz4XQY",
+                    "contentLength": 49550502,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/014a7cc9d84356cfbef6838eb3b31a9d_BRFekCz4XQY.vtt",
+                    "htmlFile": "resources/creation-and-annihilation-operators-acting-on-energy-eigenstates/index.html"
+                },
+                {
+                    "title": "de Broglie wavelength in different frames",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec04_s1_300k.mp4",
+                    "youtubeKey": "8x94EgM2Mpg",
+                    "contentLength": 34991343,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/aa0c88cfbbc6528f872bee5842651c7e_8x94EgM2Mpg.vtt",
+                    "htmlFile": "resources/de-broglie-wavelength-in-different-frames/index.html"
+                },
+                {
+                    "title": "de Broglie’s proposal",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec03_s4_300k.mp4",
+                    "youtubeKey": "dnuZx9fZHsU",
+                    "contentLength": 25216640,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/d494976deb905b5286c232afb6c69c41_dnuZx9fZHsU.vtt",
+                    "htmlFile": "resources/de-broglie2019s-proposal/index.html"
+                },
+                {
+                    "title": "Defining uncertainty",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec09_s5_300k.mp4",
+                    "youtubeKey": "rCRH9CTThlo",
+                    "contentLength": 24595810,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/de8b902c7cf55520b6d530fc20abb525_rCRH9CTThlo.vtt",
+                    "htmlFile": "resources/defining-uncertainty/index.html"
+                },
+                {
+                    "title": "Degeneracy in the spectrum and features of the solution",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec23_s2_300k.mp4",
+                    "youtubeKey": "Ot9OjT34gkA",
+                    "contentLength": 33804653,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/46f382b78bb956d592e1f507fc7cd915_Ot9OjT34gkA.vtt",
+                    "htmlFile": "resources/degeneracy-in-the-spectrum-and-features-of-the-solution/index.html"
+                },
+                {
+                    "title": "Delta function potential I: Preliminaries",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec13_s1_300k.mp4",
+                    "youtubeKey": "vcuY46RwoV0",
+                    "contentLength": 37946621,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/359e2c584be951f0a6daa4a3ae5b1971_vcuY46RwoV0.vtt",
+                    "htmlFile": "resources/delta-function-potential-i-preliminaries/index.html"
+                },
+                {
+                    "title": "Delta function potential I: Solving for the bound state",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec13_s2_300k.mp4",
+                    "youtubeKey": "1dW_izzvfOk",
+                    "contentLength": 36252169,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/37101390541f5965a1d2ceb5ff08a964_1dW_izzvfOk.vtt",
+                    "htmlFile": "resources/delta-function-potential-i-solving-for-the-bound-state/index.html"
+                },
+                {
+                    "title": "Effective potential and boundary conditions at r=0",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec21_s3_300k.mp4",
+                    "youtubeKey": "_XDm2cxC-UU",
+                    "contentLength": 33751021,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/d8ad9b9577125d968346d8d4a56f71ea_XDm2cxC-UU.vtt",
+                    "htmlFile": "resources/effective-potential-and-boundary-conditions-at-r-0/index.html"
+                },
+                {
+                    "title": "Effects of resonance on phase shifts, wave amplitude and time delay",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec19_s2_300k.mp4",
+                    "youtubeKey": "VY-_xLxHQbA",
+                    "contentLength": 34673159,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/b2bd7665f62f5f43b2106f257f5b9743_VY-_xLxHQbA.vtt",
+                    "htmlFile": "resources/effects-of-resonance-on-phase-shifts-wave-amplitude-and-time-delay/index.html"
+                },
+                {
+                    "title": "Eigenfunctions of a Hermitian operator",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec09_s2_300k.mp4",
+                    "youtubeKey": "K3WI62VJqVo",
+                    "contentLength": 30631963,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/95e5975ae0c35798a95ce74f01cd9955_K3WI62VJqVo.vtt",
+                    "htmlFile": "resources/eigenfunctions-of-a-hermitian-operator/index.html"
+                },
+                {
+                    "title": "Eigenstates of the Hamiltonian",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec24_s4_300k.mp4",
+                    "youtubeKey": "3Cij8HYKXOk",
+                    "contentLength": 33129539,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/ab62427c308c548c8d6685665ad607f8_3Cij8HYKXOk.vtt",
+                    "htmlFile": "resources/eigenstates-of-the-hamiltonian/index.html"
+                },
+                {
+                    "title": "Elitzur-Vaidman bombs",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec02_s5_300k.mp4",
+                    "youtubeKey": "vFZeh8bMx58",
+                    "contentLength": 24676518,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/c8a291faf0695151a570557093eaa3b2_vFZeh8bMx58.vtt",
+                    "htmlFile": "resources/elitzur-vaidman-bombs/index.html"
+                },
+                {
+                    "title": "Energy below the barrier and phase shift",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec16_s3_300k.mp4",
+                    "youtubeKey": "EkpbxgEslE4",
+                    "contentLength": 43819628,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/8f39a63105505304bb58eee6f1d3d0d9_EkpbxgEslE4.vtt",
+                    "htmlFile": "resources/energy-below-the-barrier-and-phase-shift/index.html"
+                },
+                {
+                    "title": "Energy eigenstates for particle on a circle",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec11_s1_300k.mp4",
+                    "youtubeKey": "e0C1Bkcjrdc",
+                    "contentLength": 39056374,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/77b82f6c163d55d9a96131bf29980cc4_e0C1Bkcjrdc.vtt",
+                    "htmlFile": "resources/energy-eigenstates-for-particle-on-a-circle/index.html"
+                },
+                {
+                    "title": "Energy eigenstates of hydrogen",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec22_s5_300k.mp4",
+                    "youtubeKey": "Z4CSAWrzguY",
+                    "contentLength": 29326818,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/e48a99f94f3b5d53806eaa97bb945c5b_Z4CSAWrzguY.vtt",
+                    "htmlFile": "resources/energy-eigenstates-of-hydrogen/index.html"
+                },
+                {
+                    "title": "Energy eigenstates on a generic symmetric potential. Shooting method",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec12_s6_300k.mp4",
+                    "youtubeKey": "45M-BtYAcwg",
+                    "contentLength": 37250175,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/d50ccaae6eb7526e9b86d8e61443a7b3_45M-BtYAcwg.vtt",
+                    "htmlFile": "resources/energy-eigenstates-on-a-generic-symmetric-potential/index.html"
+                },
+                {
+                    "title": "Energy levels and diagram for hydrogen",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec23_s1_300k.mp4",
+                    "youtubeKey": "8cRnBhBaSOo",
+                    "contentLength": 32300425,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/9a586d236c65591e9a6f017a1d3e8e63_8cRnBhBaSOo.vtt",
+                    "htmlFile": "resources/energy-levels-and-diagram-for-hydrogen/index.html"
+                },
+                {
+                    "title": "Entanglement",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec02_s2_300k.mp4",
+                    "youtubeKey": "G3HSP3qMgKI",
+                    "contentLength": 30841931,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/f71ce30831b551cabe28f2a77c5b32b2_G3HSP3qMgKI.vtt",
+                    "htmlFile": "resources/entanglement/index.html"
+                },
+                {
+                    "title": "Excited states of the harmonic oscillator",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec15_s2_300k.mp4",
+                    "youtubeKey": "xmjvqbYvY9o",
+                    "contentLength": 43168023,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/af067c3b1d9c59668d1f391c645c65cb_xmjvqbYvY9o.vtt",
+                    "htmlFile": "resources/excited-states-of-the-harmonic-oscillator/index.html"
+                },
+                {
+                    "title": "Excursion of the phase shift",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec18_s3_300k.mp4",
+                    "youtubeKey": "Cb_3sOYLjUI",
+                    "contentLength": 35957341,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/f0d3befd99c35516ad8096e99f066b87_Cb_3sOYLjUI.vtt",
+                    "htmlFile": "resources/excursion-of-the-phase-shift/index.html"
+                },
+                {
+                    "title": "Expectation value of Hermitian operators",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec09_s1_300k.mp4",
+                    "youtubeKey": "qP6y2edM6Ms",
+                    "contentLength": 38790977,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/d33144165afd5159a281d41187b74fc0_qP6y2edM6Ms.vtt",
+                    "htmlFile": "resources/expectation-value-of-hermitian-operators/index.html"
+                },
+                {
+                    "title": "Expectation values of operators",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec08_s4_300k.mp4",
+                    "youtubeKey": "XQKV-hpsurs",
+                    "contentLength": 65818302,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/b63a7b94a91255d99e7f04b03736e48f_XQKV-hpsurs.vtt",
+                    "htmlFile": "resources/expectation-values-of-operators/index.html"
+                },
+                {
+                    "title": "Expectation values on stationary states",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec10_s3_300k.mp4",
+                    "youtubeKey": "M2i8R6kMXKA",
+                    "contentLength": 21104226,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/a21913875b445addbb476c9be693d2a9_M2i8R6kMXKA.vtt",
+                    "htmlFile": "resources/expectation-values-on-stationary-states/index.html"
+                },
+                {
+                    "title": "Finite square well energy eigenstates",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec11_s5_300k.mp4",
+                    "youtubeKey": "jd4es6Bo600",
+                    "contentLength": 25812648,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/d419558f11685902870f3a3b0f13e4b2_jd4es6Bo600.vtt",
+                    "htmlFile": "resources/finite-square-well-energy-eigenstates/index.html"
+                },
+                {
+                    "title": "Finite square well. Setting up the problem",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec11_s4_300k.mp4",
+                    "youtubeKey": "CdAKFagtXpQ",
+                    "contentLength": 54050555,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/a1504255169b5fcea749d926345f529c_CdAKFagtXpQ.vtt",
+                    "htmlFile": "resources/finite-square-well/index.html"
+                },
+                {
+                    "title": "Fourier transforms and delta functions",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec08_s1_300k.mp4",
+                    "youtubeKey": "8abBLKEZLaI",
+                    "contentLength": 32805942,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/2b318366cf4953cb8744c10e800a2168_8abBLKEZLaI.vtt",
+                    "htmlFile": "resources/fourier-transforms-and-delta-functions/index.html"
+                },
+                {
+                    "title": "Free Schrödinger equation",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec05_s2_300k.mp4",
+                    "youtubeKey": "7euh_iwzSGo",
+                    "contentLength": 23514515,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/b79dc67d95dc5350b56ac9437e0a1db9_7euh_iwzSGo.vtt",
+                    "htmlFile": "resources/free-schroedinger-equation/index.html"
+                },
+                {
+                    "title": "Galilean transformation of ordinary waves",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec04_s2_300k.mp4",
+                    "youtubeKey": "YdtHAIh-kas",
+                    "contentLength": 28880871,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/f55bbb325b6e5cf3b177f0481599e86e_YdtHAIh-kas.vtt",
+                    "htmlFile": "resources/galilean-transformation-of-ordinary-waves/index.html"
+                },
+                {
+                    "title": "Ground state wavefunction",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec14_s4_300k.mp4",
+                    "youtubeKey": "vnyxYtj0mfE",
+                    "contentLength": 38457293,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/015267aba18d541b888ab01023fd0d2c_vnyxYtj0mfE.vtt",
+                    "htmlFile": "resources/ground-state-wavefunction/index.html"
+                },
+                {
+                    "title": "Group velocity and stationary phase approximation",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec04_s4_300k.mp4",
+                    "youtubeKey": "-UgQEHHXTRM",
+                    "contentLength": 24883280,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/781d3fb38af251b2ae7ec4758c3aee6e_-UgQEHHXTRM.vtt",
+                    "htmlFile": "resources/group-velocity-and-stationary-phase-approximation/index.html"
+                },
+                {
+                    "title": "Half-width and time delay",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec19_s4_300k.mp4",
+                    "youtubeKey": "OQMczXtDnpU",
+                    "contentLength": 19545031,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/375230cbe82d56608e9bbc1faf0b2262_OQMczXtDnpU.vtt",
+                    "htmlFile": "resources/half-width-and-time-delay/index.html"
+                },
+                {
+                    "title": "Hamiltonian and emerging spin angular momentum",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec24_s3_300k.mp4",
+                    "youtubeKey": "8NKsBpjXRt0",
+                    "contentLength": 36936956,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/a9cf88f76f1a5628a6856ed9802c2e64_8NKsBpjXRt0.vtt",
+                    "htmlFile": "resources/hamiltonian-and-emerging-spin-angular-momentum/index.html"
+                },
+                {
+                    "title": "Harmonic oscillator: Differential equation",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec13_s4_300k.mp4",
+                    "youtubeKey": "sxzFpOsvfgU",
+                    "contentLength": 39357907,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/38095c1d192459dc95d4ec3c8512d922_sxzFpOsvfgU.vtt",
+                    "htmlFile": "resources/harmonic-oscillator-differential-equation/index.html"
+                },
+                {
+                    "title": "Hydrogen atom two-body problem",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec21_s4_300k.mp4",
+                    "youtubeKey": "7q32Wnm4dEw",
+                    "contentLength": 58105400,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/ca5c70e9e65a5cb8913d30b1f523ca32_7q32Wnm4dEw.vtt",
+                    "htmlFile": "resources/hydrogen-atom-two-body-problem/index.html"
+                },
+                {
+                    "title": "Incident packet and delay for reflection",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec18_s1_300k.mp4",
+                    "youtubeKey": "EJWG9-etPFw",
+                    "contentLength": 44432580,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/d8daba9ab54b525996ea32c0f71546eb_EJWG9-etPFw.vtt",
+                    "htmlFile": "resources/incident-packet-and-delay-for-reflection/index.html"
+                },
+                {
+                    "title": "Infinite square well energy eigenstates",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec11_s2_300k.mp4",
+                    "youtubeKey": "gMHkf-107Sw",
+                    "contentLength": 31961546,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/5593c24e32495b459c1eef7c91b0303b_gMHkf-107Sw.vtt",
+                    "htmlFile": "resources/infinite-square-well-energy-eigenstates/index.html"
+                },
+                {
+                    "title": "Interferometer and interference",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec02_s4_300k.mp4",
+                    "youtubeKey": "37-GdFJGSXs",
+                    "contentLength": 29048557,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/06230ec955eb59f6aa98f025439d2939_37-GdFJGSXs.vtt",
+                    "htmlFile": "resources/interferometer-and-interference/index.html"
+                },
+                {
+                    "title": "Interpretation of the wavefunction",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec05_s5_300k.mp4",
+                    "youtubeKey": "R-5hjmV-bdY",
+                    "contentLength": 18926379,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/8da18b0b96545343bd3231210d2ee46a_R-5hjmV-bdY.vtt",
+                    "htmlFile": "resources/interpretation-of-the-wavefunction/index.html"
+                },
+                {
+                    "title": "Is probability conserved? Hermiticity of the Hamiltonian",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec06_s2_300k.mp4",
+                    "youtubeKey": "5L4QfjbK87M",
+                    "contentLength": 48371038,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/a6d4dd7b757b5b70b1f9681478ca79ba_5L4QfjbK87M.vtt",
+                    "htmlFile": "resources/is-probability-conserved-hermiticity-of-the-hamiltonian/index.html"
+                },
+                {
+                    "title": "Levinson's theorem, part 1",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec18_s4_300k.mp4",
+                    "youtubeKey": "GyukKStk6Ls",
+                    "contentLength": 34783416,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/5f5840fc4c6b51d493e44316acdfdd8a_GyukKStk6Ls.vtt",
+                    "htmlFile": "resources/levinsons-theorem-part-1/index.html"
+                },
+                {
+                    "title": "Levinson's theorem, part 2",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec18_s5_300k.mp4",
+                    "youtubeKey": "yhI3jTX4dY4",
+                    "contentLength": 22550120,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/9310e779db9f5271add9f085c030df6f_yhI3jTX4dY4.vtt",
+                    "htmlFile": "resources/levinsons-theorem-part-2/index.html"
+                },
+                {
+                    "title": "Linearity and nonlinear theories. Schrödinger's equation",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec01_s2_300k.mp4",
+                    "youtubeKey": "kiuwtaprFjk",
+                    "contentLength": 23872539,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/878c5bd680f956c98d17b7366ebfe1c2_kiuwtaprFjk.vtt",
+                    "htmlFile": "resources/linearity-and-nonlinear-theories/index.html"
+                },
+                {
+                    "title": "Local picture of the wavefunction",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec12_s5_300k.mp4",
+                    "youtubeKey": "fWCGM2auQPs",
+                    "contentLength": 31140719,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/4eaf9aff4a6b53dba57aa2285405af64_fWCGM2auQPs.vtt",
+                    "htmlFile": "resources/local-picture-of-the-wavefunction/index.html"
+                },
+                {
+                    "title": "Mach-Zehnder interferometers and beam splitters",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec02_s3_300k.mp4",
+                    "youtubeKey": "0USje5vTIKs",
+                    "contentLength": 36437883,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/c6c580ccd26e5a37b00b63e81f44069e_0USje5vTIKs.vtt",
+                    "htmlFile": "resources/mach-zehnder-interferometers-and-beam-splitters/index.html"
+                },
+                {
+                    "title": "Modelling a resonance",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec19_s3_300k.mp4",
+                    "youtubeKey": "8Dxo4LPK_9w",
+                    "contentLength": 36341272,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/7564b63a02415110859fb6a84c0ad870_8Dxo4LPK_9w.vtt",
+                    "htmlFile": "resources/modelling-a-resonance/index.html"
+                },
+                {
+                    "title": "Momentum operator, energy operator, and a differential equation",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec05_s1_300k.mp4",
+                    "youtubeKey": "ELBh60GU5yE",
+                    "contentLength": 48144981,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/b0db7e3176705be0aabcbbe840f0cee9_ELBh60GU5yE.vtt",
+                    "htmlFile": "resources/momentum-operator-energy-operator-and-a-differential-equation/index.html"
+                },
+                {
+                    "title": "More on superposition. General state of a photon and spin states",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec02_s1_300k.mp4",
+                    "youtubeKey": "0xNmc2tJ-YM",
+                    "contentLength": 40299917,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/1d563288b9cd52ce968e276611be49fa_0xNmc2tJ-YM.vtt",
+                    "htmlFile": "resources/more-on-superposition/index.html"
+                },
+                {
+                    "title": "More on the hydrogen atom degeneracies and orbits",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec24_s1_300k.mp4",
+                    "youtubeKey": "fXlzY2l1-4w",
+                    "contentLength": 54633312,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/14daa1cad63f5c25ad465403a9b64b29_fXlzY2l1-4w.vtt",
+                    "htmlFile": "resources/more-on-the-hydrogen-atom-degeneracies-and-orbits/index.html"
+                },
+                {
+                    "title": "Motion of a wave-packet",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec04_s5_300k.mp4",
+                    "youtubeKey": "i81OpQJIH8U",
+                    "contentLength": 21310611,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/9605678a411f50eebc47ffe63c194ab1_i81OpQJIH8U.vtt",
+                    "htmlFile": "resources/motion-of-a-wave-packet/index.html"
+                },
+                {
+                    "title": "Necessity of complex numbers",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec01_s3_300k.mp4",
+                    "youtubeKey": "f079K1f2WQk",
+                    "contentLength": 18258347,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/7b1ef95b435b558eb76a14dffe108721_f079K1f2WQk.vtt",
+                    "htmlFile": "resources/necessity-of-complex-numbers/index.html"
+                },
+                {
+                    "title": "Node Theorem",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec13_s3_300k.mp4",
+                    "youtubeKey": "NwPOhzDPHKc",
+                    "contentLength": 30822698,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/026feb21d14955fbb74e93ac8343a68a_NwPOhzDPHKc.vtt",
+                    "htmlFile": "resources/node-theorem/index.html"
+                },
+                {
+                    "title": "Nodes and symmetries of the infinite square well eigenstates",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec11_s3_300k.mp4",
+                    "youtubeKey": "x_ngaeI00qU",
+                    "contentLength": 23621741,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/3100612ef6eb5f43be8b067925e12d21_x_ngaeI00qU.vtt",
+                    "htmlFile": "resources/nodes-and-symmetries-of-the-infinite-square-well-eigenstates/index.html"
+                },
+                {
+                    "title": "Nondegeneracy of bound states in 1D. Real solutions",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec12_s1_300k.mp4",
+                    "youtubeKey": "EdXaUfRynx8",
+                    "contentLength": 30427391,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/489b498feeb95b45a6958826af8323f0_EdXaUfRynx8.vtt",
+                    "htmlFile": "resources/nondegeneracy-of-bound-states-in-1d/index.html"
+                },
+                {
+                    "title": "Normalizable wavefunctions and the question of time evolution",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec06_s1_300k.mp4",
+                    "youtubeKey": "d4skxu7MpFI",
+                    "contentLength": 39541282,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/508ef285660e5dd7bdfccb3f9bd5dbb7_d4skxu7MpFI.vtt",
+                    "htmlFile": "resources/normalizable-wavefunctions-and-the-question-of-time-evolution/index.html"
+                },
+                {
+                    "title": "Number operator and commutators",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec15_s1_300k.mp4",
+                    "youtubeKey": "kefsxztSX74",
+                    "contentLength": 37336280,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/23c3b9417a7451368b09e95779cd3c2e_kefsxztSX74.vtt",
+                    "htmlFile": "resources/number-operator-and-commutators/index.html"
+                },
+                {
+                    "title": "Orbits in the hydrogen atom",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec23_s4_300k.mp4",
+                    "youtubeKey": "c5yzy1S3gPg",
+                    "contentLength": 25432989,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/5e92209bba8b57f28449d6b64bad0746_c5yzy1S3gPg.vtt",
+                    "htmlFile": "resources/orbits-in-the-hydrogen-atom/index.html"
+                },
+                {
+                    "title": "Orthonormality of spherical harmonics",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec21_s2_300k.mp4",
+                    "youtubeKey": "gKSRrTik1SA",
+                    "contentLength": 41715692,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/ecc339b828395314b9fd01c4c8da128c_gKSRrTik1SA.vtt",
+                    "htmlFile": "resources/orthonormality-of-spherical-harmonics/index.html"
+                },
+                {
+                    "title": "Parseval identity",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec08_s2_300k.mp4",
+                    "youtubeKey": "i-bP2OkQxUI",
+                    "contentLength": 37079090,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/94fa252959415ec1833216910f92d54d_i-bP2OkQxUI.vtt",
+                    "htmlFile": "resources/parseval-identity/index.html"
+                },
+                {
+                    "title": "Particle on the forbidden region",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec16_s6_300k.mp4",
+                    "youtubeKey": "lA8-N_ARHTw",
+                    "contentLength": 16335288,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/2836e98ec4b155f88b9af58eee1eb551_lA8-N_ARHTw.vtt",
+                    "htmlFile": "resources/particle-on-the-forbidden-region/index.html"
+                },
+                {
+                    "title": "Phase shift for a potential well",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec18_s2_300k.mp4",
+                    "youtubeKey": "sWmY5KME7oo",
+                    "contentLength": 21856518,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/0bf35b064a0854c7bcf84034fc591cbf_sWmY5KME7oo.vtt",
+                    "htmlFile": "resources/phase-shift-for-a-potential-well/index.html"
+                },
+                {
+                    "title": "Photons and the loss of determinism",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec01_s4_300k.mp4",
+                    "youtubeKey": "8OsUQ1yXCcI",
+                    "contentLength": 40938535,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/e0f66f66876f5cff884d76cf33431a5b_8OsUQ1yXCcI.vtt",
+                    "htmlFile": "resources/photons-and-the-loss-of-determinism/index.html"
+                },
+                {
+                    "title": "Potentials that satisfy V(-x) = V(x)",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec12_s2_300k.mp4",
+                    "youtubeKey": "AtjMKPzNIXQ",
+                    "contentLength": 34538982,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/ba08101991e7579b9e3ecb3dc678d4b6_AtjMKPzNIXQ.vtt",
+                    "htmlFile": "resources/potentials-that-satisfy-v-x-v-x/index.html"
+                },
+                {
+                    "title": "Probability current and current conservation",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec06_s3_300k.mp4",
+                    "youtubeKey": "J2ltXyByPJA",
+                    "contentLength": 33541053,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/7db8fa42e6c75037ae7d0ab545c2e2a9_J2ltXyByPJA.vtt",
+                    "htmlFile": "resources/probability-current-and-current-conservation/index.html"
+                },
+                {
+                    "title": "Qualitative insights: Local de Broglie wavelength",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec12_s3_300k.mp4",
+                    "youtubeKey": "QMeKIiufg5s",
+                    "contentLength": 38213361,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/b212a1ce5ef45a298c9920fada68f42e_QMeKIiufg5s.vtt",
+                    "htmlFile": "resources/qualitative-insights-local-de-broglie-wavelength/index.html"
+                },
+                {
+                    "title": "Quantization of the energy",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec14_s2_300k.mp4",
+                    "youtubeKey": "Y6Ma-zn4Olk",
+                    "contentLength": 55493386,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/92d595ce36445b46bce9db24998eea1d_Y6Ma-zn4Olk.vtt",
+                    "htmlFile": "resources/quantization-of-the-energy/index.html"
+                },
+                {
+                    "title": "Quantum mechanics as a framework. Defining linearity",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec01_s1_300k.mp4",
+                    "youtubeKey": "jANZxzetPaQ",
+                    "contentLength": 41937317,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/51a8bd6f3ed655fc8dbd16661910d21c_jANZxzetPaQ.vtt",
+                    "htmlFile": "resources/quantum-mechanics-as-a-framework/index.html"
+                },
+                {
+                    "title": "Ramsauer-Townsend phenomenology",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec17_s3_300k.mp4",
+                    "youtubeKey": "5u-9lFhCl5w",
+                    "contentLength": 24339721,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/347e689b1ea25e269578ba1a14e7d1a5_5u-9lFhCl5w.vtt",
+                    "htmlFile": "resources/ramsauer-townsend-phenomenology/index.html"
+                },
+                {
+                    "title": "Reality condition in Fourier transforms",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec07_s2_300k.mp4",
+                    "youtubeKey": "DvFb-D1zJTA",
+                    "contentLength": 21741681,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/8439487cc1e35d67b72debd7f9c903c8_DvFb-D1zJTA.vtt",
+                    "htmlFile": "resources/reality-condition-in-fourier-transforms/index.html"
+                },
+                {
+                    "title": "Recursion relation for the solution",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec14_s1_300k.mp4",
+                    "youtubeKey": "RxWfrE3o-9k",
+                    "contentLength": 30122900,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/8dbc841731a15924a780d6b2dcda3b13_RxWfrE3o-9k.vtt",
+                    "htmlFile": "resources/recursion-relation-for-the-solution/index.html"
+                },
+                {
+                    "title": "Reflection and transmission coefficients",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec16_s2_300k.mp4",
+                    "youtubeKey": "bX-k26w-tsU",
+                    "contentLength": 19533253,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/5dd12b1f85a95fe99618ea4d1929f57d_bX-k26w-tsU.vtt",
+                    "htmlFile": "resources/reflection-and-transmission-coefficients/index.html"
+                },
+                {
+                    "title": "Resonances in the complex k plane",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec19_s5_300k.mp4",
+                    "youtubeKey": "0T83-47Vi-M",
+                    "contentLength": 35547620,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/a6ad8462f6ff5fd9b84262d156d17686_0T83-47Vi-M.vtt",
+                    "htmlFile": "resources/resonances-in-the-complex-k-plane/index.html"
+                },
+                {
+                    "title": "Resonant transmission",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec17_s2_300k.mp4",
+                    "youtubeKey": "KkSr0SvXfNY",
+                    "contentLength": 41819134,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/2212291a343f5f338d0d40781774b89d_KkSr0SvXfNY.vtt",
+                    "htmlFile": "resources/resonant-transmission/index.html"
+                },
+                {
+                    "title": "Rydberg atoms",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec23_s3_300k.mp4",
+                    "youtubeKey": "avQ2XUzbsgk",
+                    "contentLength": 61772455,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/db31400bb8645097ab1ae12067137d40_avQ2XUzbsgk.vtt",
+                    "htmlFile": "resources/rydberg-atoms/index.html"
+                },
+                {
+                    "title": "Scales of the hydrogen atom",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec22_s2_300k.mp4",
+                    "youtubeKey": "GWMeYKUvj7Y",
+                    "contentLength": 23619856,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/da65e29fe0fc57938b96f3403066946d_GWMeYKUvj7Y.vtt",
+                    "htmlFile": "resources/scales-of-the-hydrogen-atom/index.html"
+                },
+                {
+                    "title": "Scattered wave and phase shift",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec17_s5_300k.mp4",
+                    "youtubeKey": "w49WAat6ymk",
+                    "contentLength": 20584447,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/df954e58d451577091e51a93c93af331_w49WAat6ymk.vtt",
+                    "htmlFile": "resources/scattered-wave-and-phase-shift/index.html"
+                },
+                {
+                    "title": "Scattering in 1D. Incoming and outgoing waves",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec17_s4_300k.mp4",
+                    "youtubeKey": "twdF0EIbFds",
+                    "contentLength": 42605701,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/f9e0bc757b0e5155a02a25b3533832c1_twdF0EIbFds.vtt",
+                    "htmlFile": "resources/scattering-in-1d/index.html"
+                },
+                {
+                    "title": "Scattering states and the step potential",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec15_s4_300k.mp4",
+                    "youtubeKey": "0ABYYJSvkVk",
+                    "contentLength": 25116530,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/5d735a57cf2a53559c769727ae7c7627_0ABYYJSvkVk.vtt",
+                    "htmlFile": "resources/scattering-states-and-the-step-potential/index.html"
+                },
+                {
+                    "title": "Schrödinger equation for hydrogen",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec22_s3_300k.mp4",
+                    "youtubeKey": "KfbvrGt3MlI",
+                    "contentLength": 49317318,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/61a270dea82355beaf4a22258d6eb1b5_KfbvrGt3MlI.vtt",
+                    "htmlFile": "resources/schroedinger-equation-for-hydrogen/index.html"
+                },
+                {
+                    "title": "Series solution and quantization of the energy",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec22_s4_300k.mp4",
+                    "youtubeKey": "3VXLIF2DpHI",
+                    "contentLength": 33850541,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/d72bfd8e4b5250e39f37f047704cb4bc_3VXLIF2DpHI.vtt",
+                    "htmlFile": "resources/series-solution-and-quantization-of-the-energy/index.html"
+                },
+                {
+                    "title": "Shape changes in a wave",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec07_s4_300k.mp4",
+                    "youtubeKey": "50Tla309i7o",
+                    "contentLength": 39862298,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/c5f7ad3f17e757648de76cf0cd59593e_50Tla309i7o.vtt",
+                    "htmlFile": "resources/shape-changes-in-a-wave/index.html"
+                },
+                {
+                    "title": "Simultaneous eigenstates and quantization of angular momentum",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec20_s4_300k.mp4",
+                    "youtubeKey": "lWTUcojZ_gQ",
+                    "contentLength": 57715596,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/59b74008284f53c4905c4e00ce60b1cf_lWTUcojZ_gQ.vtt",
+                    "htmlFile": "resources/simultaneous-eigenstates-and-quantization-of-angular-momentum/index.html"
+                },
+                {
+                    "title": "Solving particle on a circle",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec10_s5_300k.mp4",
+                    "youtubeKey": "2EV1vJAAo8M",
+                    "contentLength": 25835573,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/10a15c008ba052d39201ac10573716d7_2EV1vJAAo8M.vtt",
+                    "htmlFile": "resources/solving-particle-on-a-circle/index.html"
+                },
+                {
+                    "title": "Stationary states: key equations",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec10_s2_300k.mp4",
+                    "youtubeKey": "8KQ-yK2xm60",
+                    "contentLength": 43276472,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/015805deea995d328a32484b382a43d6_8KQ-yK2xm60.vtt",
+                    "htmlFile": "resources/stationary-states-key-equations/index.html"
+                },
+                {
+                    "title": "Step potential probability current",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec16_s1_300k.mp4",
+                    "youtubeKey": "z79v39lMR3k",
+                    "contentLength": 35340593,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/ce1579f276e15c25b9b44f23ffd626c3_z79v39lMR3k.vtt",
+                    "htmlFile": "resources/step-potential-probability-current/index.html"
+                },
+                {
+                    "title": "The frequency of a matter wave",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec04_s3_300k.mp4",
+                    "youtubeKey": "3_qvO8bKGus",
+                    "contentLength": 24574309,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/75136b9dceac5446a8576a339d5834ac_3_qvO8bKGus.vtt",
+                    "htmlFile": "resources/the-frequency-of-a-matter-wave/index.html"
+                },
+                {
+                    "title": "The general Schrödinger equation. x, p commutator",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec05_s3_300k.mp4",
+                    "youtubeKey": "rwzg8iEOc8s",
+                    "contentLength": 42154027,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/b43b78746c085632bd1ed197d2ad16c6_rwzg8iEOc8s.vtt",
+                    "htmlFile": "resources/the-general-schroedinger-equation/index.html"
+                },
+                {
+                    "title": "The nature of superposition. Mach-Zehnder interferometer",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec01_s5_300k.mp4",
+                    "youtubeKey": "CR-eOhdxbes",
+                    "contentLength": 34272007,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/e5cd47eb5b875ac9a77a8271dec96f9c_CR-eOhdxbes.vtt",
+                    "htmlFile": "resources/the-nature-of-superposition/index.html"
+                },
+                {
+                    "title": "The photoelectric effect",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec03_s1_300k.mp4",
+                    "youtubeKey": "byEaU9ILHmw",
+                    "contentLength": 53782957,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/5dd5d92186605b359f30ba3275940895_byEaU9ILHmw.vtt",
+                    "htmlFile": "resources/the-photoelectric-effect/index.html"
+                },
+                {
+                    "title": "The simplest quantum system",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec24_s2_300k.mp4",
+                    "youtubeKey": "-8mPXAsX3DY",
+                    "contentLength": 32753397,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/a0a6ee9bf8ca5f46bc3632bce9a7295c_-8mPXAsX3DY.vtt",
+                    "htmlFile": "resources/the-simplest-quantum-system/index.html"
+                },
+                {
+                    "title": "The wave for a free particle",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec04_s6_300k.mp4",
+                    "youtubeKey": "T6TQHNXy5Wg",
+                    "contentLength": 34167054,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/2445ed210972584fa131f965834ec4eb_T6TQHNXy5Wg.vtt",
+                    "htmlFile": "resources/the-wave-for-a-free-particle/index.html"
+                },
+                {
+                    "title": "Three dimensional current and conservation",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec06_s4_300k.mp4",
+                    "youtubeKey": "Ex_fFlwZoM0",
+                    "contentLength": 42660337,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/a47493f545ce5fabb0728c431598426d_Ex_fFlwZoM0.vtt",
+                    "htmlFile": "resources/three-dimensional-current-and-conservation/index.html"
+                },
+                {
+                    "title": "Three-dimensional Fourier transforms",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec08_s3_300k.mp4",
+                    "youtubeKey": "MJM1AzpB6Y4",
+                    "contentLength": 14480910,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/9dfe5ca2da3156a8b4fc57bc9489d08a_MJM1AzpB6Y4.vtt",
+                    "htmlFile": "resources/three-dimensional-fourier-transforms/index.html"
+                },
+                {
+                    "title": "Time delay and resonances",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec19_s1_300k.mp4",
+                    "youtubeKey": "mnvYIEbJXlM",
+                    "contentLength": 42644414,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/7e2158f1010057fea6d5673466b55d4c_mnvYIEbJXlM.vtt",
+                    "htmlFile": "resources/time-delay-and-resonances/index.html"
+                },
+                {
+                    "title": "Time dependence of expectation values",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec08_s5_300k.mp4",
+                    "youtubeKey": "AnzhigYawy8",
+                    "contentLength": 18121894,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/ab1ec64ee70852399b9a81b1abe56e97_AnzhigYawy8.vtt",
+                    "htmlFile": "resources/time-dependence-of-expectation-values/index.html"
+                },
+                {
+                    "title": "Time evolution of a free particle wavepacket",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec07_s5_300k.mp4",
+                    "youtubeKey": "ipXNYnO7yRk",
+                    "contentLength": 23147674,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/653d0f25704d5d8d95b5357b4a2ef51c_ipXNYnO7yRk.vtt",
+                    "htmlFile": "resources/time-evolution-of-a-free-particle-wavepacket/index.html"
+                },
+                {
+                    "title": "Translation operator. Central potentials",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec20_s1_300k.mp4",
+                    "youtubeKey": "sPsDI0dICtc",
+                    "contentLength": 45296387,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/d728a6b3453d5ff389da7f35329d181e_sPsDI0dICtc.vtt",
+                    "htmlFile": "resources/translation-operator/index.html"
+                },
+                {
+                    "title": "Uncertainty and eigenstates",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec10_s1_300k.mp4",
+                    "youtubeKey": "1D4VPbhDy_A",
+                    "contentLength": 36831822,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/29db91d9f4375643820bf18ed0980241_1D4VPbhDy_A.vtt",
+                    "htmlFile": "resources/uncertainty-and-eigenstates/index.html"
+                },
+                {
+                    "title": "Units of h and Compton wavelength of particles",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec03_s2_300k.mp4",
+                    "youtubeKey": "S9RjSQro2e0",
+                    "contentLength": 30026744,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/c6a6b989e45550acba1b882436a3475d_S9RjSQro2e0.vtt",
+                    "htmlFile": "resources/units-of-h-and-compton-wavelength-of-particles/index.html"
+                },
+                {
+                    "title": "Wavepackets",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec16_s4_300k.mp4",
+                    "youtubeKey": "NXPvXI603RA",
+                    "contentLength": 49011203,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/eff111e090fa57d086a2465c58bbb777_NXPvXI603RA.vtt",
+                    "htmlFile": "resources/wavepackets/index.html"
+                },
+                {
+                    "title": "Wavepackets and Fourier representation",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec07_s1_300k.mp4",
+                    "youtubeKey": "dzI5PddY6eE",
+                    "contentLength": 27065440,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/1d37ebbd44a15231939851ce74f77827_3368145.vtt",
+                    "htmlFile": "resources/wavepackets-and-fourier-representation/index.html"
+                },
+                {
+                    "title": "Wavepackets with energy below the barrier",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec16_s5_300k.mp4",
+                    "youtubeKey": "yqrMAZkQOwI",
+                    "contentLength": 14223900,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/bd1a3fe9420c57c994c4701ea97369ea_yqrMAZkQOwI.vtt",
+                    "htmlFile": "resources/wavepackets-with-energy-below-the-barrier/index.html"
+                },
+                {
+                    "title": "Waves on the finite square well",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec17_s1_300k.mp4",
+                    "youtubeKey": "EdRkQmmq7vk",
+                    "contentLength": 37108198,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/436f42cc7dcc5ad6a46b320789b090d7_EdRkQmmq7vk.vtt",
+                    "htmlFile": "resources/waves-on-the-finite-square-well/index.html"
+                },
+                {
+                    "title": "Widths and uncertainties",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec07_s3_300k.mp4",
+                    "youtubeKey": "vWGP5dogNm8",
+                    "contentLength": 45033758,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/2f71591c5656537f9f74446d8ac45507_vWGP5dogNm8.vtt",
+                    "htmlFile": "resources/widths-and-uncertainties/index.html"
+                }
+            ]
+        },
+        {
+            "category": "Other",
+            "videos": [
+                {
+                    "title": "Completeness of eigenvectors and measurement postulate",
+                    "videoUrl": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec09_s3_300k.mp4",
+                    "youtubeKey": "XF6FAEi_54I",
+                    "contentLength": 39451987,
+                    "captionsFile": "/courses/8-04-quantum-physics-i-spring-2016/097778b3e94b516fa358f5c4e86f895b_XF6FAEi_54I.vtt",
+                    "htmlFile": "resources/completeness-of-eigenvectors-and-measurement-postulate/index.html"
+                }
+            ]
+        }
+    ]
+}

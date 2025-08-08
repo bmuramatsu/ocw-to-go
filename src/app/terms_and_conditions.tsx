@@ -2,8 +2,8 @@ import React from "react";
 
 export default function TermsAndConditions() {
   return (
-    <main className="text-block">
-      <h1>Privacy and Terms of Use</h1>
+    <main className="main__contain blog-width section-padding text-block">
+      <h1 className="h1">Privacy and Terms of Use</h1>
       <p>
         The following notices and licenses comprise together the MIT
         OpenCourseWare License.
@@ -186,7 +186,7 @@ export default function TermsAndConditions() {
         MIT&apos;s sole judgment gives the appearance or impression of a
         relationship with or endorsement by MIT.
       </p>
-      <h2>MIT Interpretation of “Non-commercial”</h2>
+      <h2 className="h2">MIT Interpretation of “Non-commercial”</h2>
       <p>
         Non-commercial use means that users may not sell, profit from, or
         commercialize OCW materials or works derived from them. The guidelines

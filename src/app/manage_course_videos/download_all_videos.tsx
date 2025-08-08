@@ -26,9 +26,11 @@ export default function DownloadAllVideos({ courseId }: Props) {
 
   if (videoUsage.totalVideos === videoUsage.finishedVideos) {
     return (
-      <button className="btn--has-icon" onClick={removeCourseVideos}>
+      <button
+        className="icon-btn icon-btn--outlined is-red"
+        onClick={removeCourseVideos}
+      >
         <Trash />
-        Delete All
       </button>
     );
   }
@@ -36,12 +38,12 @@ export default function DownloadAllVideos({ courseId }: Props) {
   if (videoUsage.allQueued) {
     return (
       <div className="combo-btn">
-        <div className="btn--has-icon is-downloading">
+        <div className="btn btn--primary-black-outlined has-icon is-downloading">
           <Loader />
           Downloading...
         </div>
         <button
-          className="icon-btn"
+          className="icon-btn icon-btn--outlined"
           onClick={() =>
             dispatch(customActions.cancelCourseDownload({ courseId }))
           }
@@ -54,11 +56,11 @@ export default function DownloadAllVideos({ courseId }: Props) {
 
   return (
     <button
-      className="btn--has-icon"
+      className="btn btn--primary-black-outlined has-icon"
       onClick={() => dispatch(customActions.downloadCourseVideos(courseData))}
     >
       <Download />
-      Download All ({formattedSpace})
+      Download all ({formattedSpace})
     </button>
   );
 }

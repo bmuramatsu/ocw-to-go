@@ -33,9 +33,9 @@ export default function Footer() {
         </div>
         <div className="flex gap-24 wrap space-between align-center u-mt-24">
           <p>
-            <a href="https://ocw.mit.edu/">MIT OpenCourseWare</a> is an online publication of materials from over
-            2,500 MIT courses, freely sharing knowledge with learners and
-            educators around the world.{" "}
+            <a href="https://ocw.mit.edu/">MIT OpenCourseWare</a> is an online
+            publication of materials from over 2,500 MIT courses, freely sharing
+            knowledge with learners and educators around the world.{" "}
             <a href="https://ocw.mit.edu/about/">Learn more</a>
           </p>
           <p className="u-all-caps flex align-center">
@@ -97,11 +97,7 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a
-                href="https://x.com/MITOCW"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="https://x.com/MITOCW" target="_blank" rel="noreferrer">
                 <img
                   className="footer-social-icon"
                   src="images/x-icon.png"

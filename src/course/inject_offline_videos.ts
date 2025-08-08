@@ -1,6 +1,6 @@
 // If the user has downloaded the video, this injects a video
-// elements into the page and hides the youtube player.
-import OcwBroadcastChannel from "../common/broadcast_channel";
+// element into the page and hides the youtube player.
+import broadcastChannel from "./course_channel";
 import type { VideoData } from "../types";
 import env from "./env";
 import { formatBytes } from "../app/utils/format_bytes";
@@ -30,18 +30,16 @@ export default function injectOfflineVideos() {
 }
 
 export class VideoInjector {
-  channel: OcwBroadcastChannel;
   wrapper: HTMLElement;
   videoData: VideoData;
 
   constructor(playerEl: HTMLElement, videoData: VideoData) {
-    this.channel = new OcwBroadcastChannel();
     this.videoData = videoData;
     this.wrapper = playerEl;
     this.addPortal();
     this.captureOtherVideoDownloads();
 
-    this.channel.subscribe((message) => {
+    broadcastChannel.subscribe((message) => {
       if (message.type === "video-player-state-change") {
         if (message.ready) {
           this.hideYoutubePlayer();
@@ -74,7 +72,7 @@ export class VideoInjector {
     // react will render into the shadow root in order to isolate styles
     portalTarget.attachShadow({ mode: "open" });
     this.wrapper.before(portalTarget);
-    this.channel.postMessage({
+    broadcastChannel.postMessage({
       type: "portal-opened",
       videoData: this.videoData,
     });
@@ -93,7 +91,7 @@ export class VideoInjector {
         link.addEventListener("click", (e) => {
           e.preventDefault();
 
-          this.channel.postMessage({
+          broadcastChannel.postMessage({
             type: "download-video",
             videoData: this.videoData,
           });

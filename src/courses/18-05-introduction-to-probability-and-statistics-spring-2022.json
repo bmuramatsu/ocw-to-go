@@ -1,0 +1,25 @@
+{
+    "id": "18-05-introduction-to-probability-and-statistics-spring-2022",
+    "name": "Introduction to Probability and Statistics",
+    "category": "Computer Science",
+    "topics": [
+        "Mathematics",
+        "Discrete Mathematics",
+        "Mathematics",
+        "Probability and Statistics"
+    ],
+    "instructors": [
+        "Dr. Jeremy Orloff",
+        "Dr. Jennifer French Kamrin"
+    ],
+    "courseNumber": "18.05",
+    "courseLevel": "Undergraduate",
+    "cardImg": "/images/course_cards/18-05-introduction-to-probability-and-statistics-spring-2022.jpg",
+    "imgAltText": "Three six-sided dice with all sides showing in a plane.",
+    "file": "https://files.ocwtogo.org/18.05-spring-2022.zip",
+    "downloadSize": 46506118,
+    "diskSize": 92957446,
+    "description": "This course provides an elementary introduction to probability and statistics with applications. Topics include basic combinatorics, random variables, probability distributions, Bayesian inference, hypothesis testing, confidence intervals, and linear regression.\n\nThese same course materials, including interactive components (online reading questions and problem checkers) are available on MIT’s [Open Learning Library](https://openlearninglibrary.mit.edu/courses/course-v1:MITx+18.05r_10+2022_Summer/about), which is free to use. You have the option to enroll and track your progress, or you can view and use the materials without enrolling.",
+    "descriptionHtml": "<p>This course provides an elementary introduction to probability and statistics with applications. Topics include basic combinatorics, random variables, probability distributions, Bayesian inference, hypothesis testing, confidence intervals, and linear regression.</p>\n<p>These same course materials, including interactive components (online reading questions and problem checkers) are available on MIT’s <a href=\"https://openlearninglibrary.mit.edu/courses/course-v1:MITx&#43;18.05r_10&#43;2022_Summer/about\" target=\"_blank\" rel=\"noopener\">Open Learning Library</a>, which is free to use. You have the option to enroll and track your progress, or you can view and use the materials without enrolling.</p>\n",
+    "videoGroups": []
+}

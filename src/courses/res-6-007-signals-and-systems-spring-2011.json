@@ -1,0 +1,243 @@
+{
+    "id": "res-6-007-signals-and-systems-spring-2011",
+    "name": "Signals and Systems",
+    "category": "Engineering",
+    "topics": [
+        "Engineering",
+        "Electrical Engineering",
+        "Signal Processing",
+        "Engineering",
+        "Electrical Engineering",
+        "Digital Systems",
+        "Engineering",
+        "Systems Engineering",
+        "Computational Modeling and Simulation"
+    ],
+    "instructors": [
+        "Prof. Alan V. Oppenheim"
+    ],
+    "courseNumber": "RES.6-007",
+    "courseLevel": "Undergraduate",
+    "cardImg": "/images/course_cards/res-6-007-signals-and-systems-spring-2011.jpg",
+    "imgAltText": "Diagram illustrating upsampling.",
+    "file": "https://files.ocwtogo.org/res.6-007-spring-2011.zip",
+    "downloadSize": 50861365,
+    "diskSize": 91644758,
+    "description": "This course was developed in 1987 by the MIT Center for Advanced Engineering Studies. It was designed as a distance-education course for engineers and scientists in the workplace.\n\nSignals and Systems is an introduction to analog and digital signal processing, a topic that forms an integral part of engineering systems in many diverse areas, including seismic data processing, communications, speech processing, image processing, defense electronics, consumer electronics, and consumer products.\n\nThe course presents and integrates the basic concepts for both continuous-time and discrete-time signals and systems. Signal and system representations are developed for both time and frequency domains. These representations are related through the Fourier transform and its generalizations, which are explored in detail. Filtering and filter design, modulation, and sampling for both analog and digital systems, as well as exposition and demonstration of the basic concepts of feedback systems for both analog and digital systems, are discussed and illustrated.\n",
+    "descriptionHtml": "<p>This course was developed in 1987 by the MIT Center for Advanced Engineering Studies. It was designed as a distance-education course for engineers and scientists in the workplace.</p>\n<p>Signals and Systems is an introduction to analog and digital signal processing, a topic that forms an integral part of engineering systems in many diverse areas, including seismic data processing, communications, speech processing, image processing, defense electronics, consumer electronics, and consumer products.</p>\n<p>The course presents and integrates the basic concepts for both continuous-time and discrete-time signals and systems. Signal and system representations are developed for both time and frequency domains. These representations are related through the Fourier transform and its generalizations, which are explored in detail. Filtering and filter design, modulation, and sampling for both analog and digital systems, as well as exposition and demonstration of the basic concepts of feedback systems for both analog and digital systems, are discussed and illustrated.</p>\n",
+    "videoGroups": [
+        {
+            "category": "Lecture Videos",
+            "videos": [
+                {
+                    "title": "Lecture 1: Introduction",
+                    "videoUrl": "http://archive.org/download/MITRES.6.007S11/MITRES_6-007S11lec01_300k.mp4",
+                    "youtubeKey": "KJnAy6hzetw",
+                    "contentLength": 70135902,
+                    "captionsFile": "/courses/res-6-007-signals-and-systems-spring-2011/aca27466e7e7551e86e867731e11312c_KJnAy6hzetw.vtt",
+                    "htmlFile": "resources/lecture-1-introduction/index.html"
+                },
+                {
+                    "title": "Lecture 2: Signals and Systems: Part I",
+                    "videoUrl": "http://www.archive.org/download/MITRES.6.007S11/MITRES_6-007S11lec02_300k.mp4",
+                    "youtubeKey": "6xaaeop7gJ8",
+                    "contentLength": 101371121,
+                    "captionsFile": "/courses/res-6-007-signals-and-systems-spring-2011/14d408208688577f9d1969ba13b49126_6xaaeop7gJ8.vtt",
+                    "htmlFile": "resources/lecture-2-signals-and-systems-part-i/index.html"
+                },
+                {
+                    "title": "Lecture 3: Signals and Systems: Part II",
+                    "videoUrl": "http://www.archive.org/download/MITRES.6.007S11/MITRES_6-007S11lec03_300k.mp4",
+                    "youtubeKey": "jGk3w1b7UXQ",
+                    "contentLength": 122532499,
+                    "captionsFile": "/courses/res-6-007-signals-and-systems-spring-2011/7d288eb335275ac6b6f7b304eef8f2a8_jGk3w1b7UXQ.vtt",
+                    "htmlFile": "resources/lecture-3-signals-and-systems-part-ii/index.html"
+                },
+                {
+                    "title": "Lecture 4: Convolution",
+                    "videoUrl": "http://www.archive.org/download/MITRES.6.007S11/MITRES_6-007S11lec04_300k.mp4",
+                    "youtubeKey": "_vyke3vF4Nk",
+                    "contentLength": 120685436,
+                    "captionsFile": "/courses/res-6-007-signals-and-systems-spring-2011/da62d9b9ee5a531d81d5c6e0d8aebe68_vyke3vF4Nk.vtt",
+                    "htmlFile": "resources/lecture-4-convolution/index.html"
+                },
+                {
+                    "title": "Lecture 5: Properties of Linear, Time-Invariant Systems",
+                    "videoUrl": "http://archive.org/download/MITRES.6.007S11/MITRES_6-007S11lec05_300k.mp4",
+                    "youtubeKey": "mC3TiBJiCsY",
+                    "contentLength": 126825272,
+                    "captionsFile": "/courses/res-6-007-signals-and-systems-spring-2011/0234dba516a55c30b0b477824c6eb7b1_mC3TiBJiCsY.vtt",
+                    "htmlFile": "resources/lecture-5-properties-of-linear-time-invariant-systems/index.html"
+                },
+                {
+                    "title": "Lecture 6: Systems Represented by Differential Equations",
+                    "videoUrl": "http://www.archive.org/download/MITRES.6.007S11/MITRES_6-007S11lec06_300k.mp4",
+                    "youtubeKey": "c6jKux_RkqI",
+                    "contentLength": 108926924,
+                    "captionsFile": "/courses/res-6-007-signals-and-systems-spring-2011/f77b3146affd5f60aedb89e85d175ee3_c6jKux_RkqI.vtt",
+                    "htmlFile": "resources/lecture-6-systems-represented-by-differential-equations/index.html"
+                },
+                {
+                    "title": "Lecture 7: Continuous-Time Fourier Series",
+                    "videoUrl": "http://www.archive.org/download/MITRES.6.007S11/MITRES_6-007S11lec07_300k.mp4",
+                    "youtubeKey": "nuzA75DpSuw",
+                    "contentLength": 117430580,
+                    "captionsFile": "/courses/res-6-007-signals-and-systems-spring-2011/74790f9510ba579aa10aa17db10926c4_nuzA75DpSuw.vtt",
+                    "htmlFile": "resources/lecture-7-continuous-time-fourier-series/index.html"
+                },
+                {
+                    "title": "Lecture 8: Continuous-Time Fourier Transform",
+                    "videoUrl": "http://www.archive.org/download/MITRES.6.007S11/MITRES_6-007S11lec08_300k.mp4",
+                    "youtubeKey": "3UkGd3LK2NY",
+                    "contentLength": 81440731,
+                    "captionsFile": "/courses/res-6-007-signals-and-systems-spring-2011/eea8da51d30d5a679d92a2c5e1343964_3UkGd3LK2NY.vtt",
+                    "htmlFile": "resources/lecture-8-continuous-time-fourier-transform/index.html"
+                },
+                {
+                    "title": "Lecture 9: Fourier Transform Properties",
+                    "videoUrl": "http://www.archive.org/download/MITRES.6.007S11/MITRES_6-007S11lec09_300k.mp4",
+                    "youtubeKey": "D1WF9YKqf3o",
+                    "contentLength": 114247555,
+                    "captionsFile": "/courses/res-6-007-signals-and-systems-spring-2011/f08a548e5d965743b492eba8712d1a70_D1WF9YKqf3o.vtt",
+                    "htmlFile": "resources/lecture-9-fourier-transform-properties/index.html"
+                },
+                {
+                    "title": "Lecture 10: Discrete-Time Fourier Series",
+                    "videoUrl": "http://www.archive.org/download/MITRES.6.007S11/MITRES_6-007S11lec10_300k.mp4",
+                    "youtubeKey": "TkMsVwzd1C0",
+                    "contentLength": 115893294,
+                    "captionsFile": "/courses/res-6-007-signals-and-systems-spring-2011/4b4c798a07875b0c999928309825916d_TkMsVwzd1C0.vtt",
+                    "htmlFile": "resources/lecture-10-discrete-time-fourier-series/index.html"
+                },
+                {
+                    "title": "Lecture 11: Discrete-Time Fourier Transform",
+                    "videoUrl": "http://www.archive.org/download/MITRES.6.007S11/MITRES_6-007S11lec11_300k.mp4",
+                    "youtubeKey": "HKMY-8BqWWw",
+                    "contentLength": 128648700,
+                    "captionsFile": "/courses/res-6-007-signals-and-systems-spring-2011/45a0f77c687655f19af19b29d46a4f95_HKMY-8BqWWw.vtt",
+                    "htmlFile": "resources/lecture-11-discrete-time-fourier-transform/index.html"
+                },
+                {
+                    "title": "Lecture 12: Filtering",
+                    "videoUrl": "http://www.archive.org/download/MITRES.6.007S11/MITRES_6-007S11lec12_300k.mp4",
+                    "youtubeKey": "P5Ce9tbK86M",
+                    "contentLength": 97042286,
+                    "captionsFile": "/courses/res-6-007-signals-and-systems-spring-2011/4d5b1627007d511ca965b509009e4154_P5Ce9tbK86M.vtt",
+                    "htmlFile": "resources/lecture-12-filtering/index.html"
+                },
+                {
+                    "title": "Lecture 13: Continuous-Time Modulation",
+                    "videoUrl": "http://www.archive.org/download/MITRES.6.007S11/MITRES_6-007S11lec13_300k.mp4",
+                    "youtubeKey": "UIgA0czNj5g",
+                    "contentLength": 124243017,
+                    "captionsFile": "/courses/res-6-007-signals-and-systems-spring-2011/bc15d68006df5b889c56f7a9ba3a49b4_UIgA0czNj5g.vtt",
+                    "htmlFile": "resources/lecture-13-continuous-time-modulation/index.html"
+                },
+                {
+                    "title": "Lecture 14: Demonstration of Amplitude Modulation",
+                    "videoUrl": "http://www.archive.org/download/MITRES.6.007S11/MITRES_6-007S11lec14_300k.mp4",
+                    "youtubeKey": "KT3yNuY_FPM",
+                    "contentLength": 82951682,
+                    "captionsFile": "/courses/res-6-007-signals-and-systems-spring-2011/8e8c5641b89b55a19a591ffad7077066_KT3yNuY_FPM.vtt",
+                    "htmlFile": "resources/lecture-14-demonstration-of-amplitude-modulation/index.html"
+                },
+                {
+                    "title": "Lecture 15: Discrete-Time Modulation",
+                    "videoUrl": "http://www.archive.org/download/MITRES.6.007S11/MITRES_6-007S11lec15_300k.mp4",
+                    "youtubeKey": "GrnYlDAsmuA",
+                    "contentLength": 99687369,
+                    "captionsFile": "/courses/res-6-007-signals-and-systems-spring-2011/e06da856a4a35916904b1d8687572fd7_GrnYlDAsmuA.vtt",
+                    "htmlFile": "resources/lecture-15-discrete-time-modulation/index.html"
+                },
+                {
+                    "title": "Lecture 16: Sampling",
+                    "videoUrl": "http://www.archive.org/download/MITRES.6.007S11/MITRES_6-007S11lec16_300k.mp4",
+                    "youtubeKey": "P3eLer1edx8",
+                    "contentLength": 106844765,
+                    "captionsFile": "/courses/res-6-007-signals-and-systems-spring-2011/d5e4eae4520e533da4dcc3cedeaa011c_P3eLer1edx8.vtt",
+                    "htmlFile": "resources/lecture-16-sampling/index.html"
+                },
+                {
+                    "title": "Lecture 17: Interpolation",
+                    "videoUrl": "http://www.archive.org/download/MITRES.6.007S11/MITRES_6-007S11lec17_300k.mp4",
+                    "youtubeKey": "_WV4JlBOQro",
+                    "contentLength": 121148515,
+                    "captionsFile": "/courses/res-6-007-signals-and-systems-spring-2011/951da72973945e609cac68dd5eaeb40f_WV4JlBOQro.vtt",
+                    "htmlFile": "resources/lecture-17-interpolation/index.html"
+                },
+                {
+                    "title": "Lecture 18: Discrete-Time Processing of Continuous-Time Signals",
+                    "videoUrl": "http://archive.org/download/MITRES.6.007S11/MITRES_6-007S11lec18_300k.mp4",
+                    "youtubeKey": "Q7aZNgY18b4",
+                    "contentLength": 91434440,
+                    "captionsFile": "/courses/res-6-007-signals-and-systems-spring-2011/93e0c6fa2c9154d6a65c9c6493603e41_Q7aZNgY18b4.vtt",
+                    "htmlFile": "resources/lecture-18-discrete-time-processing-of-continuous-time-signals/index.html"
+                },
+                {
+                    "title": "Lecture 19: Discrete-Time Sampling",
+                    "videoUrl": "http://www.archive.org/download/MITRES.6.007S11/MITRES_6-007S11lec19_300k.mp4",
+                    "youtubeKey": "mmkOAMOw73U",
+                    "contentLength": 114667324,
+                    "captionsFile": "/courses/res-6-007-signals-and-systems-spring-2011/f04e67c702fc5e56bad5012b65d0422e_mmkOAMOw73U.vtt",
+                    "htmlFile": "resources/lecture-19-discrete-time-sampling/index.html"
+                },
+                {
+                    "title": "Lecture 20: The Laplace Transform",
+                    "videoUrl": "http://www.archive.org/download/MITRES.6.007S11/MITRES_6-007S11lec20_300k.mp4",
+                    "youtubeKey": "pSN7t79RxC4",
+                    "contentLength": 126805818,
+                    "captionsFile": "/courses/res-6-007-signals-and-systems-spring-2011/3f0f285144865615926d75a2dc466ca6_pSN7t79RxC4.vtt",
+                    "htmlFile": "resources/lecture-20-the-laplace-transform/index.html"
+                },
+                {
+                    "title": "Lecture 21: Continuous-Time Second-Order Systems",
+                    "videoUrl": "http://www.archive.org/download/MITRES.6.007S11/MITRES_6-007S11lec21_300k.mp4",
+                    "youtubeKey": "8g4UudyOetE",
+                    "contentLength": 98883983,
+                    "captionsFile": "/courses/res-6-007-signals-and-systems-spring-2011/881b59ca970f5f78b48705aeaf6455db_8g4UudyOetE.vtt",
+                    "htmlFile": "resources/lecture-21-continuous-time-second-order-systems/index.html"
+                },
+                {
+                    "title": "Lecture 22: The z-Transform",
+                    "videoUrl": "http://www.archive.org/download/MITRES.6.007S11/MITRES_6-007S11lec22_300k.mp4",
+                    "youtubeKey": "0Gat_aSzi5Y",
+                    "contentLength": 119465415,
+                    "captionsFile": "/courses/res-6-007-signals-and-systems-spring-2011/b8b27d7b73a15bdc981567c96166ebf7_0Gat_aSzi5Y.vtt",
+                    "htmlFile": "resources/lecture-22-the-z-transform/index.html"
+                },
+                {
+                    "title": "Lecture 23: Mapping Continuous-Time Filters to Discrete-Time Filters",
+                    "videoUrl": "http://www.archive.org/download/MITRES.6.007S11/MITRES_6-007S11lec23_300k.mp4",
+                    "youtubeKey": "z8sXXQxcmN4",
+                    "contentLength": 116738368,
+                    "captionsFile": "/courses/res-6-007-signals-and-systems-spring-2011/07e24e10b49c57919967f5de7ebe714b_z8sXXQxcmN4.vtt",
+                    "htmlFile": "resources/lecture-23-mapping-continuous-time-filters-to-discrete-time-filters/index.html"
+                },
+                {
+                    "title": "Lecture 24: Butterworth Filters",
+                    "videoUrl": "http://www.archive.org/download/MITRES.6.007S11/MITRES_6-007S11lec24_300k.mp4",
+                    "youtubeKey": "4Q1fWMxVDZY",
+                    "contentLength": 104350930,
+                    "captionsFile": "/courses/res-6-007-signals-and-systems-spring-2011/ae3cee0b6a535c3ea89e1e7b0313135b_4Q1fWMxVDZY.vtt",
+                    "htmlFile": "resources/lecture-24-butterworth-filters/index.html"
+                },
+                {
+                    "title": "Lecture 25: Feedback",
+                    "videoUrl": "http://www.archive.org/download/MITRES.6.007S11/MITRES_6-007S11lec25_300k.mp4",
+                    "youtubeKey": "S7MG1hgn0dY",
+                    "contentLength": 103539576,
+                    "captionsFile": "/courses/res-6-007-signals-and-systems-spring-2011/42ad3ae17e3c5fc39235488f9af0fbb2_S7MG1hgn0dY.vtt",
+                    "htmlFile": "resources/lecture-25-feedback/index.html"
+                },
+                {
+                    "title": "Lecture 26: Feedback Example: The Inverted Pendulum",
+                    "videoUrl": "http://www.archive.org/download/MITRES.6.007S11/MITRES_6-007S11lec26_300k.mp4",
+                    "youtubeKey": "D3bblng-Kcc",
+                    "contentLength": 80052062,
+                    "captionsFile": "/courses/res-6-007-signals-and-systems-spring-2011/5f557a4798025a438a671a54550c820f_D3bblng-Kcc.vtt",
+                    "htmlFile": "resources/lecture-26-feedback-example-the-inverted-pendulum/index.html"
+                }
+            ]
+        }
+    ]
+}

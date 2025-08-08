@@ -1,17 +1,25 @@
 import React from "react";
 import { Provider } from "react-redux";
 import { configureStore } from "@reduxjs/toolkit";
-import { rootReducer } from "./store/store";
+import { rootReducer, RootState } from "./store/store";
 import { render as rawRender } from "@testing-library/react";
 import { UserStore } from "./store/user_store";
 import { memoryLocation } from "wouter/memory-location";
 import { Router } from "wouter";
 
-function initialUserStore(): UserStore {
+export function initialUserStore(): UserStore {
   return {
     userCourses: {},
     userVideos: {},
     videoQueue: [],
+    coursesInitialized: true,
+    videosInitialized: true,
+  };
+}
+
+export function initialState(): RootState {
+  return {
+    user: initialUserStore(),
   };
 }
 

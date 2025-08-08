@@ -2,8 +2,8 @@ import React from "react";
 
 export default function CreativeCommons() {
   return (
-    <main className="text-block">
-      <h1>Creative Commons License</h1>
+    <main className="main__contain blog-width section-padding text-block">
+      <h1 className="h1">Creative Commons License</h1>
       <p>
         This work is licensed under the Creative Commons Attribution
         Noncommercial Sharealike 4.0 International License. To view a copy of
