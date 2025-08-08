@@ -39,11 +39,11 @@ export default function Homepage() {
           <div className="hero">
             <div className="hero__col">
               <h1 className="h1">
-                MIT OpenCourseWare courses for <span>offline</span> learning
+                MIT OpenCourseWare To Go<br />Courses for <span>offline, mobile</span> learning
               </h1>
               <p className="text">
                 Download a curated list of MIT OpenCourseWare Courses. Perfect
-                for limited internet access or data caps.
+                for limited internet access or data caps from mobile devices.
               </p>
               <div className="flex align-center wrap gap-16">
                 <Link className="btn btn--primary" href="/all-courses">
