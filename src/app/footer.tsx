@@ -62,7 +62,7 @@ export default function Footer() {
         </div>
         <div className="flex gap-24 wrap space-between align-center u-mt-24">
           <p>
-            © 2001-2024 Massachusetts Institute of Technology
+            © 2001-2025 Massachusetts Institute of Technology
             <br />
             <br />
             MIT OpenCourseWare To Go v{VERSION}
