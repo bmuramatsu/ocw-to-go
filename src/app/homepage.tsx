@@ -134,7 +134,7 @@ export default function Homepage() {
                 <span>Step 4</span>Start learning
               </h3>
               <p className="text">
-                Your course is download, your videos are on your device,
+                Your course is downloaded, your videos are on your device,
                 it&apos;s time to start learning!
               </p>
             </li>
