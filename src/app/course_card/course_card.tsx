@@ -14,13 +14,11 @@ import CourseCardDescription from "./description";
 interface Props {
   courseData: CourseData;
   includeDescription?: boolean;
-  includeManageVideos?: boolean;
 }
 
-function CourseCard({
+export default function CourseCard({
   courseData,
   includeDescription = false,
-  includeManageVideos = false,
 }: Props) {
   const userCourse = useAppSelector((s) => selectUserCourse(s, courseData.id));
 
@@ -72,7 +70,7 @@ function CourseCard({
         )}
       </div>
       <div className="course-card__actions">
-        {includeManageVideos && hasVideos && state === "ready" && (
+        {hasVideos && state === "ready" && (
           <VideoButton courseData={courseData} />
         )}
         {userCourse.errorMessage && (
@@ -81,22 +79,5 @@ function CourseCard({
         <MainButton courseData={courseData} userCourse={userCourse} />
       </div>
     </li>
-  );
-}
-
-type CardFlavorProps = Omit<
-  Props,
-  "includeDescription" | "includeManageVideos"
->;
-
-export function FeaturedCourseCard(props: CardFlavorProps) {
-  return (
-    <CourseCard {...props} includeDescription includeManageVideos={false} />
-  );
-}
-
-export function MyCourseCard(props: CardFlavorProps) {
-  return (
-    <CourseCard {...props} includeDescription={false} includeManageVideos />
   );
 }
