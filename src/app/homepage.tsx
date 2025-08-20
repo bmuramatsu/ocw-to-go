@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "wouter";
 import ScrollTo from "./scroll_to";
 import { ALL_COURSES } from "./initial_course_list";
-import { FeaturedCourseCard } from "./course_card/course_card";
+import CourseCard from "./course_card/course_card";
 import {
   ChevronRight,
   HeroImg,
@@ -39,11 +39,13 @@ export default function Homepage() {
           <div className="hero">
             <div className="hero__col">
               <h1 className="h1">
-                MIT OpenCourseWare course materials for <span>offline, mobile learning</span>
+                MIT OpenCourseWare course materials for{" "}
+                <span>offline, mobile learning</span>
               </h1>
               <p className="text">
-                Download a curated list of MIT OpenCourseWare course materials. Perfect
-                for limited internet access or data caps on mobile devices.
+                Download a curated list of MIT OpenCourseWare course materials.
+                Perfect for limited internet access or data caps on mobile
+                devices.
               </p>
               <div className="flex align-center wrap gap-16">
                 <Link className="btn btn--primary" href="/all-courses">
@@ -81,7 +83,11 @@ export default function Homepage() {
           <h2 className="h2 u-text-center">Featured courses</h2>
           <ul className="course-grid">
             {featuredCourses.map((course) => (
-              <FeaturedCourseCard key={course.id} courseData={course} />
+              <CourseCard
+                key={course.id}
+                courseData={course}
+                includeDescription
+              />
             ))}
           </ul>
           <div className="flex justify-center u-mt-24">

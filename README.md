@@ -171,7 +171,7 @@ These are the major components in the app:
 
 ## Development Notes
 
-OCW To Go uses the course downloads directly from the MIT OpenCourseWare website. As we await bug fixes in the Coures Downloads, we have applied the following rewrites in OCW To Go:
+OCW To Go uses the course downloads directly from the MIT OpenCourseWare website. As we await bug fixes in the Course Downloads, we have applied the following rewrites in OCW To Go:
 
 - ocw-to-go/src/course/fix_file_downloads.ts to adjust the relative path problem to Download PDFs
 - ocw-to-go/src/course/fix_trailing_slashes.ts to adjust the path of the See All links from the Browse Resources (download/index.html) page.
