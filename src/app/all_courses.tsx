@@ -1,6 +1,6 @@
 import React from "react";
 import { ALL_COURSES } from "./initial_course_list";
-import { FeaturedCourseCard } from "./course_card/course_card";
+import CourseCard from "./course_card/course_card";
 import { CourseData } from "../types";
 import { ChevronRight } from "./svgs";
 
@@ -60,7 +60,7 @@ function CategoryGroup({ category, courses }: CategoryGroupProps) {
       </button>
       <ul className="course-grid has-padding">
         {courses.map((course) => (
-          <FeaturedCourseCard key={course.id} courseData={course} />
+          <CourseCard key={course.id} courseData={course} includeDescription />
         ))}
         <li className="course-card--fake"></li>
         <li className="course-card--fake"></li>

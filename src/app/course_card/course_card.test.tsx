@@ -1,6 +1,6 @@
 import React from "react";
 import { vi, expect, test } from "vitest";
-import { FeaturedCourseCard as CourseCard } from "./course_card";
+import CourseCard from "./course_card";
 import { appRender } from "../test_helper";
 import { act } from "@testing-library/react";
 import { ALL_COURSES } from "../initial_course_list";

@@ -1,6 +1,6 @@
 import env from "./env";
 
-// Adds links to 'Manage Videos' anywhere in the course where the 'Browse
+// Adds links to 'Course Videos' anywhere in the course where the 'Browse
 // Resources' button appears
 export default function addManageVideosButton() {
   if (env.course.videos.length === 0) return;
@@ -43,7 +43,7 @@ function addMobileCourseDrawerButton() {
 }
 
 function addLink(container: Element, link: HTMLAnchorElement) {
-  link.textContent = "Manage Videos";
+  link.textContent = "Course Videos";
 
   const href = `/manage_videos/${env.course.id}`;
   link.href = href;

@@ -33,7 +33,7 @@ export default function ManageCourseVideos({ courseId }: Props) {
       <section className="section-padding">
         <div className="main__contain">
           <p className="h4">{courseData.name}</p>
-          <h1 className="h1 u-mb-8">Manage Videos</h1>
+          <h1 className="h1 u-mb-8">Course Videos</h1>
         </div>
       </section>
       <section className="bg--gray u-pb-72">
