@@ -1,7 +1,6 @@
 // This is the script that is injected into the course page.
 // It performs various DOM mutations add attaches listeners to
 // fix or enhance the course experience.
-import injectOnlineLink from "./course/inject_online_link";
 import injectCourseMenuButton from "./course/inject_course_menu_button";
 import changeCourseMenuText from "./course/change_course_menu_text";
 import addManageVideosButton from "./course/add_manage_videos_button";
@@ -15,7 +14,6 @@ import addUnloadListener from "./course/unload_listener";
 
 function init() {
   addUnloadListener();
-  injectOnlineLink();
   injectCourseMenuButton();
   changeCourseMenuText();
   addManageVideosButton();
