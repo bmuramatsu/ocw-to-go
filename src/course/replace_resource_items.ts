@@ -1,6 +1,5 @@
 // Replaces the resources items with our own version that looks consistent with
 // the OCW app, and clarifies the download language.
-// NOTE this is unused and incomplete.
 export default function replaceResourceItems() {
   document.querySelectorAll(".resource-item").forEach((item) => {
     const name = item
@@ -22,8 +21,8 @@ export default function replaceResourceItems() {
     template.innerHTML =
       "<div class='resource-item'>" +
       `<a href="${path}" class="resource-link">` +
-      `<span class="resource-name">${name}</span>` +
-      `<span class="resource-type">${type}</span>` +
+      `<span class="resource-name">${name}</span> ` +
+      `<span class="resource-type">${type}</span> ` +
       (size ? `<span class="resource-size">${size}</span>` : "") +
       "</a></div>";
 
