@@ -3,7 +3,6 @@
 import broadcastChannel from "./course_channel";
 import type { VideoData } from "../types";
 import env from "./env";
-import { formatBytes } from "../app/utils/format_bytes";
 
 export default function injectOfflineVideos() {
   const videoPlayer = document.querySelector<HTMLElement>(
