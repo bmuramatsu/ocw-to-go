@@ -7,7 +7,7 @@ import { formatBytes } from "../app/utils/format_bytes";
 
 export default function injectOfflineVideos() {
   const videoPlayer = document.querySelector<HTMLElement>(
-    ".video-player-wrapper [data-setup*='youtube.com']",
+    ".video-player-wrapper .video-container [data-setup*='youtube.com']",
   );
   if (!videoPlayer) {
     return;
@@ -26,7 +26,13 @@ export default function injectOfflineVideos() {
     return;
   }
 
-  new VideoInjector(videoPlayer, videoData);
+  // The actual youtube player element gets replaced by other scripts, so we
+  // use the closest stable parent to attach to instead.
+  // We know this parent exists because it's part of the selector at the
+  // beginning of the function
+  const playerWrapper = videoPlayer.closest<HTMLElement>(".video-container")!;
+
+  new VideoInjector(playerWrapper, videoData);
 }
 
 export class VideoInjector {
