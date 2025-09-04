@@ -18,6 +18,7 @@ export interface UserStore {
   videoQueue: VideoQueue;
   coursesInitialized: boolean;
   videosInitialized: boolean;
+  videoModalCourse: string | null;
 }
 
 const initialState: UserStore = {
@@ -26,6 +27,7 @@ const initialState: UserStore = {
   videoQueue: [],
   coursesInitialized: false,
   videosInitialized: false,
+  videoModalCourse: null,
 };
 
 const userStore = createSlice({
@@ -125,6 +127,14 @@ const userStore = createSlice({
             item.videoId === action.payload.videoId
           ),
       );
+    },
+    openVideoModal: (state, action: PayloadAction<{ courseId: string }>) => {
+      if (!state.videoModalCourse) {
+        state.videoModalCourse = action.payload.courseId;
+      }
+    },
+    closeVideoModal: (state) => {
+      state.videoModalCourse = null;
     },
   },
 });

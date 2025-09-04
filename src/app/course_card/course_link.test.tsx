@@ -3,10 +3,10 @@ import { vi, expect, test } from "vitest";
 import CourseLink from "./course_link";
 import { act } from "@testing-library/react";
 import { Switch, Route } from "wouter";
-import { ALL_COURSES } from "./initial_course_list";
-import { appRender } from "./test_helper";
-import { CourseData } from "../types";
-import { userActions } from "./store/user_store";
+import { ALL_COURSES } from "../initial_course_list";
+import { appRender } from "../test_helper";
+import { CourseData } from "../../types";
+import { userActions } from "../store/user_store";
 
 test("CourseLink routes to the course if ready", () => {
   const dom = appRender(
