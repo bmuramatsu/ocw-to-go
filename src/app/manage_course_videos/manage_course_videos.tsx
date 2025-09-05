@@ -28,11 +28,18 @@ export default function ManageCourseVideos({ courseId }: Props) {
     return groups;
   }, [courseData]);
 
+  function goBack(e: React.MouseEvent) {
+    e.preventDefault();
+    window.history.back();
+  }
+
   return (
     <main>
       <section className="section-padding">
         <div className="main__contain">
-          <p className="h4">{courseData.name}</p>
+          <p className="h4">
+            <a onClick={goBack}>{courseData.name}</a>
+          </p>
           <h1 className="h1 u-mb-8">Course Videos</h1>
         </div>
       </section>
