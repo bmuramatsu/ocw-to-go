@@ -576,8 +576,6 @@ header img {
   background-color: #f6f7f9;
 }
 .mobile-nav__drawer-bottom {
-  display: flex;
-  align-items: center;
   padding: 1.6rem 2.4rem;
   margin: 0;
   font-size: 1.2rem;
