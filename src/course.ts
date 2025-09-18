@@ -7,6 +7,7 @@ import addManageVideosButton from "./course/add_manage_videos_button";
 import overrideNavButtons from "./course/override_nav_buttons";
 import fixFileDownloads from "./course/fix_file_downloads";
 // import replaceResourceItems from "./course/replace_resource_items";
+import autoExpandResourceList from "./course/auto_expand_resource_list";
 import fixTrailingSlashes from "./course/fix_trailing_slashes";
 import renderPdfs from "./course/render_pdfs";
 import injectOfflineVideos from "./course/inject_offline_videos";
@@ -19,6 +20,7 @@ function init() {
   addManageVideosButton();
   overrideNavButtons();
   // replaceResourceItems();
+  autoExpandResourceList();
   fixFileDownloads();
   fixTrailingSlashes();
   renderPdfs();
