@@ -32,7 +32,9 @@ export default function Root() {
                   {/* Routes without layout */}
                   <Route path="/courses/:courseId/*?">
                     {({ courseId, "*": rest }) => (
-                      <CourseView courseId={courseId} path={rest} />
+                      <Layout footer={false} className="course-content-width">
+                        <CourseView courseId={courseId} path={rest} />
+                      </Layout>
                     )}
                   </Route>
                   {/* Layout routes */}

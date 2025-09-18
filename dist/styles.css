@@ -58,6 +58,13 @@ body > div#react-app {
     width: min(104.8rem, 100%);
   }
 }
+
+.course-content-width {
+  .main__contain.sm-padding {
+    width: min(1363px, 100% - 1.6rem * 2);
+  }
+}
+
 .section-padding {
   padding-block: 4.8rem;
 }
