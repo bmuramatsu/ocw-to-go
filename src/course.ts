@@ -13,6 +13,7 @@ import renderPdfs from "./course/render_pdfs";
 import injectOfflineVideos from "./course/inject_offline_videos";
 import addUnloadListener from "./course/unload_listener";
 import makeOutsideLinksOpenInNewTab from "./course/make_outside_links_open_in_new_tab";
+import fixBadLinks from "./course/fix_bad_links";
 
 function init() {
   addUnloadListener();
@@ -27,6 +28,7 @@ function init() {
   renderPdfs();
   injectOfflineVideos();
   makeOutsideLinksOpenInNewTab();
+  fixBadLinks();
 }
 
 init();
