@@ -34,7 +34,7 @@ test("CourseLink routes to the course if ready", () => {
   expect(dom.container.innerHTML).toContain(`Course ${ALL_COURSES[0].id}`);
 });
 
-vi.mock("./store/download_course_action", async () => {
+vi.mock("../store/download_course_action", async () => {
   return {
     default: (courseData: CourseData) =>
       userActions.updateCourse({
