@@ -2,6 +2,7 @@ import React from "react";
 import StorageUsage from "./storage_usage";
 import { Link } from "wouter";
 import { VERSION } from "../version";
+import resetApp from "./utils/reset_app";
 
 export default function Footer() {
   return (
@@ -55,9 +56,9 @@ export default function Footer() {
         </div>
         <div className="flex gap-24 wrap space-between align-center u-mt-24">
           <p>
-            MIT OpenCourseWare To Go offers a curated list of course materials 
-            for offline, mobile learning. Optimized for Google Chrome on Android and
-            iOS.
+            MIT OpenCourseWare To Go offers a curated list of course materials
+            for offline, mobile learning. Optimized for Google Chrome on Android
+            and iOS.
           </p>
         </div>
         <div className="flex gap-24 wrap space-between align-center u-mt-24">
@@ -65,7 +66,8 @@ export default function Footer() {
             © 2001-2025 Massachusetts Institute of Technology
             <br />
             <br />
-            MIT OpenCourseWare To Go v{VERSION}
+            MIT OpenCourseWare To Go{" "}
+            <span onDoubleClick={resetApp}>v{VERSION}</span>
             <br />
             <StorageUsage />
           </p>
