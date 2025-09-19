@@ -3,7 +3,7 @@ import { COURSES_BY_ID } from "../initial_course_list";
 import CourseVideo from "./course_video";
 import DownloadAllVideos from "./download_all_videos";
 import { VideoData } from "../../types";
-import { Info } from "../svgs";
+import { ChevronRight, Info } from "../svgs";
 
 interface Props {
   courseId: string;
@@ -38,7 +38,9 @@ export default function ManageCourseVideos({ courseId }: Props) {
       <section className="section-padding">
         <div className="main__contain">
           <p className="h4">
-            <a onClick={goBack}>{courseData.name}</a>
+            <a className="course-video-back" onClick={goBack}>
+              <ChevronRight/>{courseData.name}
+            </a>
           </p>
           <h1 className="h1 u-mb-8">Course Videos</h1>
         </div>
