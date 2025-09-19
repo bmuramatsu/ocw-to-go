@@ -33,28 +33,30 @@ export default function VideoModal() {
 
   // use the onClose event because dialogs can also be closed with keyboard events
   return (
-    <dialog ref={dialog} onClose={onClose}>
-      <h3>Download videos separately</h3>
-      <p>
+    <dialog className="dialog" ref={dialog} onClose={onClose}>
+      <h2 className="h3">Download videos separately</h2>
+      <p className="text">
         The course has been downloaded, but videos aren&apos;t included in this
         download because of their large file size. You can download course
         videos separately from the &quot;Course Videos&quot; page.
       </p>
-      <label>
+      <label className="checkbox">
         <input
           type="checkbox"
           checked={disableModal}
           onChange={(e) => setDisableModal(e.target.checked)}
         ></input>
-        Don&apos;t show me this again
+        <span className="checkmark">Don&apos;t show me this again</span>
       </label>
       {/* Dismiss the modal and navigate */}
-      <Link href={`/manage_videos/${courseId}`} onClick={dismiss}>
-        Course Videos
-      </Link>
-      <button type="button" onClick={dismiss}>
-        I Understand
-      </button>
+      <div className="flex flex-end gap-8 u-mt-24">
+        <Link className="btn btn--primary-black-outlined" href={`/manage_videos/${courseId}`} onClick={dismiss}>
+          Course Videos
+        </Link>
+        <button className="btn btn--primary" type="button" onClick={dismiss}>
+          I Understand
+        </button>
+      </div>
     </dialog>
   );
 }
