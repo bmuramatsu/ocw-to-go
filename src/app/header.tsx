@@ -35,18 +35,19 @@ export default function Header() {
               About OCW
             </a>
             <a
-              href="https://giving.mit.edu/give/to/ocw/?utm_source=ocw&utm_medium=homepage_banner&utm_campaign=nextgen_home"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Give Now
-            </a>
-            <a
               href="https://mitocw.zendesk.com/hc/en-us"
               target="_blank"
               rel="noreferrer"
             >
-              Help & faqs
+              Help
+            </a>
+            <a
+              href="https://giving.mit.edu/give/to/ocw/?utm_source=ocw&utm_medium=homepage_banner&utm_campaign=nextgen_home"
+              target="_blank"
+              rel="noreferrer"
+              className="is-primary"
+            >
+              Give Now
             </a>
             <a
               href="https://ocw.mit.edu/contact"
@@ -97,20 +98,20 @@ export default function Header() {
                 </li>
                 <li>
                   <a
+                    href="https://mitocw.zendesk.com/hc/en-us"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Help
+                  </a>
+                </li>
+                <li>
+                  <a
                     href="https://giving.mit.edu/give/to/ocw/?utm_source=ocw&utm_medium=homepage_banner&utm_campaign=nextgen_home"
                     target="_blank"
                     rel="noreferrer"
                   >
                     Give Now
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://mitocw.zendesk.com/hc/en-us"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Help & faqs
                   </a>
                 </li>
                 <li>
