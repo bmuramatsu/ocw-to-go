@@ -8,13 +8,15 @@ export default function MyCourses() {
 
   if (myCourses.length === 0) {
     return (
-      <div>
-        <p>You haven&apos;t downloaded any courses yet.</p>
-        <p>
-          Go to the &quot;All Courses&quot; tab to explore all available
-          courses.
-        </p>
-      </div>
+      <ul className="course-grid has-padding no-inline-padding">
+        <li className="card is-empty">
+          <h3 className="h3">Download courses to get started.</h3>
+          <p className="text">
+            Go to the &quot;All Courses&quot; tab to explore all available
+            courses to download to your device.
+          </p>
+        </li>
+      </ul>
     );
   }
 
