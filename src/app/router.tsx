@@ -1,4 +1,4 @@
-// Application root component. Loads dependencies and sets up routing.
+// Application routes. Uses 'wouter' for routing.
 import React from "react";
 import { Route, Switch } from "wouter";
 import Homepage from "./homepage";

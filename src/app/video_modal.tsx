@@ -11,7 +11,8 @@ export default function VideoModal() {
 
   const dialog = React.useRef<HTMLDialogElement>(null);
 
-  // In order to open as a modal, you must
+  // In order to open as a modal, you must call showModal(). Setting the 'open'
+  // attribute does not work.
   React.useEffect(() => {
     if (dialog.current && courseId) {
       dialog.current.showModal();
@@ -50,7 +51,11 @@ export default function VideoModal() {
       </label>
       {/* Dismiss the modal and navigate */}
       <div className="flex flex-end gap-8 u-mt-24">
-        <Link className="btn btn--primary-black-outlined" href={`/manage_videos/${courseId}`} onClick={dismiss}>
+        <Link
+          className="btn btn--primary-black-outlined"
+          href={`/manage_videos/${courseId}`}
+          onClick={dismiss}
+        >
           Course Videos
         </Link>
         <button className="btn btn--primary" type="button" onClick={dismiss}>
