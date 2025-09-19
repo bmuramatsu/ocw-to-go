@@ -1,3 +1,5 @@
+// On the resource list pages, sometimes the first section is collapsed,
+// we always want it expanded initially
 export default function autoExpandResourceList() {
   const firstToggle = document.querySelector(".resource-list-toggle");
   if (!firstToggle) return;
