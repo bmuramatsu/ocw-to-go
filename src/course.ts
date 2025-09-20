@@ -20,8 +20,8 @@ function init() {
   changeCourseMenuText();
   addManageVideosButton();
   overrideNavButtons();
-  replaceResourceItems();
   fixFileDownloads();
+  replaceResourceItems();
   fixTrailingSlashes();
   renderPdfs();
   injectOfflineVideos();

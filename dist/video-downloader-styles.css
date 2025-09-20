@@ -93,6 +93,7 @@
   font-weight: bold;
   color: white;
   background-color: #333;
+  text-transform: uppercase;
 }
 .video-list__graphic span {
   display: grid;
