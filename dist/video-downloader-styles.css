@@ -47,6 +47,10 @@
   font-weight: normal;
   margin-block: 0;
 }
+.video-list__item__content h3 a {
+  color: #555;
+  text-decoration: none;
+}
 .video-list__item__content p {
   font-size: 12px;
   margin-block: 4px 0;
@@ -86,6 +90,8 @@
   background-color: #f5f5f5;
   box-shadow: 0 2px 0 0 rgb(0 0 0 / 15%);
   overflow: hidden;
+  min-width: 40px;
+  text-align: center;
 }
 .video-list__graphic div {
   padding: 2px 4px;
@@ -186,6 +192,7 @@ a.btn--primary-outlined {
   background-color: white;
   color: black;
   border: 1px solid black;
+  text-decoration: none;
 
   svg {
     fill: black;

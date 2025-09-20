@@ -33,7 +33,7 @@ export default function replaceResourceItems() {
     customItem.dataset.fileType = fileType;
     if (fileSize) customItem.dataset.size = fileSize;
 
-    item.after(customItem);
+    item.replaceWith(customItem);
   });
 }
 
