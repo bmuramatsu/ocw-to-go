@@ -12,6 +12,7 @@ import CourseCatalog from "./course_catalog";
 import AllCourses from "./all_courses";
 import MyCourses from "./my_courses";
 import ServiceWorkerWaiter from "./service_worker_waiter";
+import Settings from "./settings";
 
 export default function Router() {
   return (
@@ -50,6 +51,9 @@ export default function Router() {
                 <CourseCatalog>
                   <MyCourses />
                 </CourseCatalog>
+              </Route>
+              <Route path="/settings">
+                <Settings />
               </Route>
               <Route path="/">
                 <Homepage />

@@ -1402,6 +1402,15 @@ footer a:hover {
   font-size: 1.8rem;
 }
 
+.secret-link {
+  text-decoration: none;
+  cursor: default;
+  &:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
 .checkbox {
   display: block;
 
@@ -1494,7 +1503,4 @@ footer a:hover {
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
   padding: 2.4rem;
   max-width: 50rem;
-
-  h2 {
-  }
 }
