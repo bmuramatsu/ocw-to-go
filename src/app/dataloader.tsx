@@ -15,6 +15,7 @@ export default function DataLoader({ children }: DataLoaderProps) {
   const coursesInitialized = useAppSelector((s) => s.user.coursesInitialized);
   const videosInitialized = useAppSelector((s) => s.user.videosInitialized);
 
+  // could return a loader here
   if (!coursesInitialized || !videosInitialized) {
     return null;
   }

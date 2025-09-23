@@ -12,6 +12,8 @@ export default function addManageVideosButton() {
 
 // These are all very similar, but I'm keeping them separate to provide
 // flexibility
+
+// This is on the initial landing page
 function addHomepageButton() {
   const container = document.querySelector(".course-image-section-container");
   if (!container) return;
@@ -22,23 +24,25 @@ function addHomepageButton() {
   addLink(container, link);
 }
 
+// This is in a collapsible panel on the the right side of other course pages
 function addCourseDrawerButton() {
   const container = document.querySelector("#desktop-course-drawer");
   if (!container) return;
 
   const link = document.createElement("a");
   link.className =
-    "download-course-link-button btn btn-outline-primary btn-link link-button text-decoration-none px-4 py-2 ml-3";
+    "download-course-link-button btn btn-outline-primary btn-link link-button text-decoration-none px-4 py-2 ml-3 mb-3";
   addLink(container, link);
 }
 
+// This is in a panel that appears at mobile sizes
 function addMobileCourseDrawerButton() {
   const container = document.querySelector("#course-info-drawer");
   if (!container) return;
 
   const link = document.createElement("a");
   link.className =
-    "download-course-link-button btn btn-outline-primary btn-link link-button text-decoration-none px-4 py-2 mb-3";
+    "download-course-link-button btn btn-outline-primary btn-link link-button text-decoration-none px-4 py-2 mb-4";
   addLink(container, link);
 }
 

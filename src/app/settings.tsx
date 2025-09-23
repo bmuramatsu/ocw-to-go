@@ -44,30 +44,36 @@ export default function Settings() {
 
   return (
     <main>
-      <div className="main__contain">
+      <div className="main__contain u-mb-8">
         <form onSubmit={onSubmit}>
           <h1>Reset App</h1>
           <div>
-            <label>
+            <label className="checkbox">
               <input
                 type="checkbox"
                 checked={shouldResetApp}
                 onChange={(e) => setShouldResetApp(e.target.checked)}
               />
-              Reset application code and assets?
+              <span className="checkmark">
+                Reset application code and assets?
+              </span>
             </label>
           </div>
           <div>
-            <label>
+            <label className="checkbox">
               <input
                 type="checkbox"
                 checked={shouldResetData}
                 onChange={(e) => setShouldResetData(e.target.checked)}
               />
-              Clear courses and videos?
+              <span className="checkmark">Clear courses and videos?</span>
             </label>
           </div>
-          <button type="submit" disabled={!shouldResetApp && !shouldResetData}>
+          <button
+            className="btn btn--primary u-mt-8"
+            type="submit"
+            disabled={!shouldResetApp && !shouldResetData}
+          >
             Reset
           </button>
         </form>

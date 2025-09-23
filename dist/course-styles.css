@@ -55,3 +55,12 @@ a.external-link:hover {
 .video-player-wrapper .show-offline {
   display: none;
 }
+
+resource-item {
+  display: block;
+  border: 1px solid #ddd;
+}
+
+resource-item + resource-item {
+  border-top: none;
+}
