@@ -537,6 +537,26 @@ a.btn--primary-white {
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
+.course-video-back,
+a.course-video-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  color: inherit;
+  line-height: 1.2;
+
+  svg {
+    width: 1.8rem;
+    height: 1.8rem;
+    fill: var(--black);
+    rotate: 180deg;
+  }
+
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
 
 header {
   display: flex;
