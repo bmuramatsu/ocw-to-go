@@ -31,4 +31,4 @@ function init() {
   fixBadLinks();
 }
 
-init();
+addEventListener("DOMContentLoaded", init);
