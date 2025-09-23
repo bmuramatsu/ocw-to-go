@@ -105,7 +105,9 @@ export default class VideoDownloader {
       const wasAborted = e instanceof DOMException && e.name === "AbortError";
       if (wasAborted) return;
 
-      let errorMessage = "An error occurred";
+      // We're checking for storage errors, any other error is almost certainly a network issue
+      let errorMessage =
+        "An error occurred. Please check your network connection.";
       const outOfSpace = e instanceof Error && e.name === "QuotaExceededError";
       if (outOfSpace) {
         errorMessage = "Not enough space to download this video.";

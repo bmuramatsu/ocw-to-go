@@ -27,7 +27,13 @@ export default function Header() {
           <nav className="desktop-nav">
             <Link href="/all-courses">All Courses</Link>
             <Link href="/my-courses">My Courses</Link>
-            <a href="https://ocw.mit.edu/about/">About OCW</a>
+            <a
+              href="https://ocw.mit.edu/about/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              About OCW
+            </a>
           </nav>
           <nav className="mobile-nav">
             <button className="icon-btn icon-btn--clear" onClick={open}>
@@ -60,7 +66,13 @@ export default function Header() {
                   </Link>
                 </li>
                 <li>
-                  <a href="https://ocw.mit.edu/about/">About OCW</a>
+                  <a
+                    href="https://ocw.mit.edu/about/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    About OCW
+                  </a>
                 </li>
               </ul>
               <p className="mobile-nav__drawer-bottom">

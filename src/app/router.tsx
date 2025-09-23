@@ -11,6 +11,7 @@ import ManageCourseVideos from "./manage_course_videos/manage_course_videos";
 import CourseCatalog from "./course_catalog";
 import AllCourses from "./all_courses";
 import MyCourses from "./my_courses";
+import ServiceWorkerWaiter from "./service_worker_waiter";
 
 export default function Router() {
   return (
@@ -19,7 +20,9 @@ export default function Router() {
         {/* Routes without layout */}
         <Route path="/courses/:courseId/*?">
           {({ courseId, "*": rest }) => (
-            <CourseView courseId={courseId} path={rest} />
+            <ServiceWorkerWaiter>
+              <CourseView courseId={courseId} path={rest} />
+            </ServiceWorkerWaiter>
           )}
         </Route>
         {/* Layout routes */}
