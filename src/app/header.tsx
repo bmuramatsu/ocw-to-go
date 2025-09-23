@@ -30,7 +30,7 @@ export default function Header() {
             <a
               href="https://ocw.mit.edu/about/"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               About OCW
             </a>
@@ -91,7 +91,7 @@ export default function Header() {
                   <a
                     href="https://ocw.mit.edu/about/"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                   >
                     About OCW
                   </a>

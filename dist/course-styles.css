@@ -63,3 +63,12 @@ a.external-link:hover {
 #desktop-header {
   display: none;
 }
+
+resource-item {
+  display: block;
+  border: 1px solid #ddd;
+}
+
+resource-item + resource-item {
+  border-top: none;
+}

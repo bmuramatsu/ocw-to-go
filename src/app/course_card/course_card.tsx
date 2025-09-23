@@ -3,7 +3,7 @@
 import React from "react";
 import { CourseData } from "../../types";
 import { Checkmark, ExternalLink } from "../svgs";
-import CourseLink from "../course_link";
+import CourseLink from "./course_link";
 import { useAppSelector } from "../store/store";
 import { selectUserCourse } from "../store/course_selectors";
 import MainButton from "../course_card/main_button";

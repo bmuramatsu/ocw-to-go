@@ -10,13 +10,14 @@ import { COURSES_BY_ID } from "./app/initial_course_list";
 export type {};
 declare const self: ServiceWorkerGlobalScope;
 
-// Version is primarily imported to force a worker updat
+// Version is primarily imported to force a worker update
 // even if there are no code changes in the worker
 // scripts. Otherwise users will not get the latest assets.
 console.log("WORKER VERSION:" + VERSION);
 
 self.addEventListener("install", (event) => {
   console.log("The Worker Installed", event);
+
   event.waitUntil(
     (async () => {
       const cache = await caches.open("pwa-assets");
@@ -39,21 +40,7 @@ self.addEventListener("fetch", (event: FetchEvent) => {
   event.respondWith(cacheFirst(event.request));
 });
 
-addEventListener("message", (event) => {
-  console.log("The Worker Received a Message", event);
-  if (
-    typeof event.data === "object" &&
-    !Array.isArray(event.data) &&
-    event.data !== null
-  ) {
-    //if (event.data.type === "downloadVideos") {
-    //  downloadVideos(event.data.course);
-    //}
-  }
-});
-
 async function cacheFirst(request: Request) {
-  // return (await caches.match(request)) || await fetch(request);
   return (await fileFromCache(request)) || (await fetch(request));
 }
 
@@ -140,8 +127,3 @@ async function injectOverrides(
     headers,
   });
 }
-
-//async function postToClients(message: any) {
-//  const clients = await self.clients.matchAll();
-//  clients.forEach((client) => client.postMessage(message));
-//}

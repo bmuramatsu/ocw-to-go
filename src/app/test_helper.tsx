@@ -14,6 +14,7 @@ export function initialUserStore(): UserStore {
     videoQueue: [],
     coursesInitialized: true,
     videosInitialized: true,
+    videoModalCourse: null,
   };
 }
 

@@ -16,7 +16,7 @@ export default function StorageUsage() {
 
   return (
     <>
-      Local Storage Used:&nbsp;
+      Web Browser Local Storage Used:&nbsp;
       <span>
         {storage.usedPercent}% ({storage.usedSpace} / {storage.totalSpace})
       </span>
