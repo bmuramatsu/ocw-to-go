@@ -1,3 +1,5 @@
+import { ResourceItem } from "./replace_resource_items";
+
 // very basic type stubs for pdfjs
 type PdfJs = {
   getDocument: (path: string) => { promise: Promise<PdfJsDoc> };
@@ -21,28 +23,39 @@ type PdfJsPage = {
   }) => void;
 };
 
+// type stub for PDF library included in the zip files
+declare global {
+  interface Window {
+    PDFObject: {
+      supportsPDFs: boolean;
+    };
+  }
+}
+
 const pdfjs = (): PdfJs | null =>
   // @ts-expect-error - This is loaded from a CDN
   window.pdfjsLib;
 
 export default async function renderPdfs() {
   await pdfJsIsLoaded();
-  // PDFObject
+  // If the browser supports PDFs natively, don't do anything
+  if (window.PDFObject.supportsPDFs) {
+    return false;
+  }
   const wrapper = document.querySelector<HTMLElement>(".pdf-viewer");
   if (!wrapper) return;
 
-  // If it has rendered the iframe, we assume we don't need to do anything else
-  const iframe = wrapper.querySelector("iframe");
-  if (iframe) return;
-
-  const anchor = document.querySelector(".resource-item a[href*='.pdf']");
-  if (!anchor) return;
+  // This is the custom element that we inject
+  const resourceItem = document.querySelector<ResourceItem>(
+    "resource-item[data-download-path*='.pdf']",
+  );
+  if (!resourceItem) return;
 
   wrapper.classList.add("pdfjs-wrapper");
 
   wrapper.innerHTML = "";
 
-  const path = anchor.getAttribute("href");
+  const path = resourceItem.dataset.downloadPath;
   if (!path) return;
 
   const doc = await pdfjs()!.getDocument(path).promise;
