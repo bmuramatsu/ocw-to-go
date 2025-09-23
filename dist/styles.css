@@ -1354,3 +1354,12 @@ footer a:hover {
 .text-block ul li::marker {
   font-size: 1.8rem;
 }
+
+.secret-link {
+  text-decoration: none;
+  cursor: default;
+  &:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+}

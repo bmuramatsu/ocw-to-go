@@ -55,9 +55,9 @@ export default function Footer() {
         </div>
         <div className="flex gap-24 wrap space-between align-center u-mt-24">
           <p>
-            MIT OpenCourseWare To Go offers a curated list of course materials 
-            for offline, mobile learning. Optimized for Google Chrome on Android and
-            iOS.
+            MIT OpenCourseWare To Go offers a curated list of course materials
+            for offline, mobile learning. Optimized for Google Chrome on Android
+            and iOS.
           </p>
         </div>
         <div className="flex gap-24 wrap space-between align-center u-mt-24">
@@ -65,7 +65,10 @@ export default function Footer() {
             © 2001-2025 Massachusetts Institute of Technology
             <br />
             <br />
-            MIT OpenCourseWare To Go v{VERSION}
+            MIT OpenCourseWare To Go{" "}
+            <Link href="/settings" className="secret-link">
+              v{VERSION}
+            </Link>
             <br />
             <StorageUsage />
           </p>

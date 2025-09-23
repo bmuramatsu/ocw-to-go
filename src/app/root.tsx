@@ -18,6 +18,7 @@ import { OnlineStatusProvider } from "./use_online_status";
 import CourseCatalog from "./course_catalog";
 import AllCourses from "./all_courses";
 import MyCourses from "./my_courses";
+import Settings from "./settings";
 
 export default function Root() {
   return (
@@ -62,6 +63,9 @@ export default function Root() {
                           <CourseCatalog>
                             <MyCourses />
                           </CourseCatalog>
+                        </Route>
+                        <Route path="/settings">
+                          <Settings />
                         </Route>
                         <Route path="/">
                           <Homepage />
