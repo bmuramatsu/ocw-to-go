@@ -5,19 +5,19 @@ import { broadcastChannel } from "./course_channel";
 // take care of that.
 export default function addUnloadListener() {
   document.addEventListener("click", (e) => {
-    if (!e.target) return;
+    // using composedPath to the original target even if it's inside a shadow DOM
+    const target = e.composedPath()[0] as HTMLElement;
 
-    const target = e.target as HTMLElement;
-    const origin = target.closest("a");
-    // origin.href returns the absolute URL, this gets the actual value in the dom,
+    const anchor = target.closest("a");
+    // anchor.href returns the absolute URL, this gets the actual value in the dom,
     // which is more useful in this case
-    const href = origin?.getAttribute("href");
+    const href = anchor?.getAttribute("href");
 
     // Capture events that are navigating within the course
     if (href?.startsWith(".") && href.endsWith("/index.html")) {
       e.preventDefault();
 
-      let absolutePath = new URL(origin!.href).pathname;
+      let absolutePath = new URL(anchor!.href).pathname;
       absolutePath = absolutePath.replace("/index.html", "");
       broadcastChannel.postMessage({ type: "navigate", href: absolutePath });
       // capture events that are navigating to locations in the app

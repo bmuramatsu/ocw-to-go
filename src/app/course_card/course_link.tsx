@@ -1,10 +1,10 @@
 // This links you to the local view of a course.
 import React from "react";
 import { Link } from "wouter";
-import { useAppDispatch, useAppSelector } from "./store/store";
-import { selectUserCourse } from "./store/course_selectors";
-import downloadCourseAction from "./store/download_course_action";
-import { CourseData } from "../types";
+import { useAppDispatch, useAppSelector } from "../store/store";
+import { selectUserCourse } from "../store/course_selectors";
+import downloadCourseAction from "../store/download_course_action";
+import { CourseData } from "../../types";
 
 interface Props extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
   courseData: CourseData;
