@@ -67,6 +67,8 @@ export default function CourseView({ courseId, path }: Props) {
   parts.push("index.html");
   const fullPath = `/${parts.join("/")}`;
 
+  const includeVideoPortals = currentVideos.length > 0 && ref.current;
+
   // Use a key so that the iframe is recreated when the path changes.
   // This prevents multiple history entries from being created.
   return (
@@ -80,8 +82,7 @@ export default function CourseView({ courseId, path }: Props) {
         }}
         ref={ref}
       />
-      {currentVideos.length &&
-        ref.current &&
+      {includeVideoPortals &&
         currentVideos.map((currentVideo) => (
           // Wrap in an error boundary because there's a potential for bugs if the
           // element is unmounted while the portal is open
