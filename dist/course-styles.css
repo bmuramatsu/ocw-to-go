@@ -56,6 +56,14 @@ a.external-link:hover {
   display: none;
 }
 
+#mobile-header {
+  display: none;
+}
+
+#desktop-header {
+  display: none;
+}
+
 resource-item {
   display: block;
   border: 1px solid #ddd;

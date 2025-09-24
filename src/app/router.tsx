@@ -22,7 +22,9 @@ export default function Router() {
         <Route path="/courses/:courseId/*?">
           {({ courseId, "*": rest }) => (
             <ServiceWorkerWaiter>
-              <CourseView courseId={courseId} path={rest} />
+              <Layout footer={false} className="course-content-width">
+                <CourseView courseId={courseId} path={rest} />
+              </Layout>
             </ServiceWorkerWaiter>
           )}
         </Route>

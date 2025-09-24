@@ -65,7 +65,7 @@ ResourceItemTemplate.innerHTML = `
 // reuse the existing CSS from the video list items
 // This is more complex than what we typically inject, but because it's
 // static, we don't need to bring in React
-class ResourceItem extends HTMLElement {
+export class ResourceItem extends HTMLElement {
   constructor() {
     super();
   }
