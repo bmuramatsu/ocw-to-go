@@ -5,33 +5,46 @@ import type { VideoData } from "../types";
 import env from "./env";
 
 export default function injectOfflineVideos() {
-  const videoPlayer = document.querySelector<HTMLElement>(
-    ".video-player-wrapper .video-container [data-setup*='youtube.com']",
-  );
-  if (!videoPlayer) {
-    return;
-  }
+  const allVideoData = [] as VideoData[];
 
-  const match = videoPlayer.dataset.setup!.match(
-    /youtube.com\/embed\/([a-zA-Z0-9_-]+)/,
-  );
+  document
+    .querySelectorAll<HTMLElement>(
+      ".video-player-wrapper .video-container div[data-setup*='youtube.com']",
+    )
+    .forEach((videoPlayer) => {
+      console.log("found video player", videoPlayer);
+      if (!videoPlayer) {
+        return;
+      }
 
-  if (!match || !match[1]) {
-    return;
-  }
+      const match = videoPlayer.dataset.setup!.match(
+        /youtube.com\/embed\/([a-zA-Z0-9_-]+)/,
+      );
 
-  const videoData = getVideoData(match[1]);
-  if (!videoData) {
-    return;
-  }
+      if (!match || !match[1]) {
+        return;
+      }
 
-  // The actual youtube player element gets replaced by other scripts, so we
-  // use the closest stable parent to attach to instead.
-  // We know this parent exists because it's part of the selector at the
-  // beginning of the function
-  const playerWrapper = videoPlayer.closest<HTMLElement>(".video-container")!;
+      const videoData = getVideoData(match[1]);
+      if (!videoData) {
+        return;
+      }
 
-  new VideoInjector(playerWrapper, videoData);
+      // The actual youtube player element gets replaced by other scripts, so we
+      // use the closest stable parent to attach to instead.
+      // We know this parent exists because it's part of the selector at the
+      // beginning of the function
+      const playerWrapper =
+        videoPlayer.closest<HTMLElement>(".video-container")!;
+
+      new VideoInjector(playerWrapper, videoData);
+      allVideoData.push(videoData);
+    });
+
+  broadcastChannel.postMessage({
+    type: "video-portals-opened",
+    videoData: allVideoData,
+  });
 }
 
 export class VideoInjector {
@@ -46,7 +59,10 @@ export class VideoInjector {
     this.changeTranscriptButtonText();
 
     broadcastChannel.subscribe((message) => {
-      if (message.type === "video-player-state-change") {
+      if (
+        message.type === "video-player-state-change" &&
+        message.videoKey === this.videoId
+      ) {
         if (message.ready) {
           this.hideYoutubePlayer();
         } else {
@@ -78,10 +94,6 @@ export class VideoInjector {
     // react will render into the shadow root in order to isolate styles
     portalTarget.attachShadow({ mode: "open" });
     this.wrapper.before(portalTarget);
-    broadcastChannel.postMessage({
-      type: "portal-opened",
-      videoData: this.videoData,
-    });
   }
 
   // This removes the existing video download button to avoid confusion

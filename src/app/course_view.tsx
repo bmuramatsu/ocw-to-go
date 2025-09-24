@@ -24,9 +24,7 @@ export default function CourseView({ courseId, path }: Props) {
 
   // this effect injects various items into the iframe to
   // enhance the course experience
-  const [currentVideo, setCurrentVideo] = React.useState<VideoData | null>(
-    null,
-  );
+  const [currentVideos, setCurrentVideos] = React.useState<VideoData[]>([]);
 
   const dispatch = useAppDispatch();
   const [, navigate] = useLocation();
@@ -39,16 +37,17 @@ export default function CourseView({ courseId, path }: Props) {
         // rather than built-in browser navigation, which causes the page to reload
         // and interrupt tasks like video downloads
         case "navigate": {
-          setCurrentVideo(null);
+          setCurrentVideos([]);
           navigate(message.href);
           break;
         }
 
-        case "portal-opened": {
-          setCurrentVideo(message.videoData);
+        case "video-portals-opened": {
+          setCurrentVideos(message.videoData);
           break;
         }
 
+        // I think this is unused...
         case "download-video": {
           dispatch(
             downloadVideo({ videoId: message.videoData.youtubeKey, courseId }),
@@ -81,18 +80,20 @@ export default function CourseView({ courseId, path }: Props) {
         }}
         ref={ref}
       />
-      {currentVideo && ref.current && (
-        // Wrap in an error boundary because there's a potential for bugs if the
-        // element is unmounted while the portal is open
-        // The user shouldn't see this happen.
-        <ErrorBoundary>
-          <VideoDownloadPortal
-            currentVideo={currentVideo}
-            iframe={ref.current}
-            courseId={courseId}
-          />
-        </ErrorBoundary>
-      )}
+      {currentVideos.length &&
+        ref.current &&
+        currentVideos.map((currentVideo) => (
+          // Wrap in an error boundary because there's a potential for bugs if the
+          // element is unmounted while the portal is open
+          // The user shouldn't see this happen.
+          <ErrorBoundary key={currentVideo.youtubeKey}>
+            <VideoDownloadPortal
+              currentVideo={currentVideo}
+              iframe={ref.current!}
+              courseId={courseId}
+            />
+          </ErrorBoundary>
+        ))}
     </React.Fragment>
   );
 }

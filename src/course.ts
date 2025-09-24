@@ -23,10 +23,10 @@ function init() {
   overrideNavButtons();
   autoExpandResourceList();
   fixFileDownloads();
+  injectOfflineVideos();
   replaceResourceItems();
   fixTrailingSlashes();
   renderPdfs();
-  injectOfflineVideos();
   makeOutsideLinksOpenInNewTab();
   fixBadLinks();
 }
