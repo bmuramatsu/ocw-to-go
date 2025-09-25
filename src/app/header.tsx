@@ -54,7 +54,7 @@ export default function Header() {
               target="_blank"
               rel="noreferrer"
             >
-              Contact us
+              Contact Us
             </a>
           </nav>
           <nav className="mobile-nav">
