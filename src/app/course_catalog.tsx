@@ -28,7 +28,7 @@ export default function CourseCatalog({ children }: Props) {
           href="/my-courses"
           className={(active) => (active ? "active" : "")}
         >
-          My courses ({myCoursesCount})
+          My Courses ({myCoursesCount})
         </Link>
         <Link
           href="/all-courses"
