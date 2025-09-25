@@ -18,7 +18,7 @@ export default function CourseCatalog({ children }: Props) {
         <div className="main__contain">
           <h1 className="h1 u-mb-8">Course Catalog</h1>
           <p className="text u-mt-8 u-mb-0">
-            Explore {allCoursesCount} MIT courses optimized for offline
+            Explore a curated list of {allCoursesCount} MIT OpenCourseWare courses optimized for offline
             learning.
           </p>
         </div>
