@@ -34,7 +34,7 @@ export default function CourseCatalog({ children }: Props) {
           href="/all-courses"
           className={(active) => (active ? "active" : "")}
         >
-          All courses ({allCoursesCount})
+          All Courses ({allCoursesCount})
         </Link>
       </nav>
       <section className="bg--gray u-pb-72">
