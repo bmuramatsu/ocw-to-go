@@ -128,7 +128,7 @@ export default function Homepage() {
                 <span>Step 3</span>Download videos
               </h3>
               <p className="text">
-                Once your course has finished downloading, a new “Manage
+                Once your course has finished downloading, a new “Course
                 videos” button will appear. Clicking on this will display all
                 available videos for your chosen course. You may download videos
                 individually or all at once on this screen.
