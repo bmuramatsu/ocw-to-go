@@ -84,7 +84,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link href="/my-courses" className={activeClass}>
-                    My courses
+                    My Courses
                   </Link>
                 </li>
                 <li>
