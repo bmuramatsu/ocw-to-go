@@ -1,8 +1,6 @@
 import React from "react";
 import { createPortal } from "react-dom";
-import CourseVideo, {
-  CourseVideoProps,
-} from "./manage_course_videos/course_video";
+import CourseVideo, { CourseVideoProps } from "./course_video";
 import { VideoData } from "../types";
 import { Info } from "./svgs";
 import VideoPlayer from "./video_player";

@@ -72,3 +72,13 @@ type VideoGroup = {
 export type RawCourse = Omit<CourseData, "videos"> & {
   videoGroups: VideoGroup[];
 };
+
+// We replace resource items in the course pages with our components, this contains
+// the relevant data
+export type ResourceItemData = {
+  name: string;
+  navPath: string | null;
+  downloadPath: string | null;
+  fileType: string;
+  size: string | null;
+};

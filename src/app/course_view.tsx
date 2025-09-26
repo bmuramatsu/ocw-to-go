@@ -13,6 +13,8 @@ import { VideoData } from "../types";
 import VideoDownloadPortal from "./video_portal";
 import ErrorBoundary from "./error_boundary";
 import { downloadVideo } from "./store/custom_actions";
+import CoursePortal from "./course_portals/course_portal";
+import { IsInPortalProvider } from "./course_portals/use_is_in_portal";
 
 interface Props {
   courseId: string;
@@ -25,10 +27,15 @@ export default function CourseView({ courseId, path }: Props) {
   // this effect injects various items into the iframe to
   // enhance the course experience
   const [currentVideos, setCurrentVideos] = React.useState<VideoData[]>([]);
+  const [portals, setPortals] = React.useState<string[]>([]);
 
   const dispatch = useAppDispatch();
-  const [, navigate] = useLocation();
+  const [location, navigate] = useLocation();
   const channel = useBroadcastChannel();
+
+  React.useEffect(() => {
+    setPortals([]);
+  }, [location]);
 
   React.useEffect(() => {
     const unsub = channel.subscribe((message) => {
@@ -47,6 +54,11 @@ export default function CourseView({ courseId, path }: Props) {
           break;
         }
 
+        case "portals-opened": {
+          setPortals((prev) => [...prev, ...message.ids]);
+          break;
+        }
+
         // I think this is unused...
         case "download-video": {
           dispatch(
@@ -58,7 +70,7 @@ export default function CourseView({ courseId, path }: Props) {
     });
 
     return unsub;
-  }, [channel, dispatch, navigate, courseId]);
+  }, [channel, dispatch, navigate, courseId, portals]);
 
   const parts = ["courses", courseId];
   if (path) {
@@ -95,6 +107,13 @@ export default function CourseView({ courseId, path }: Props) {
             />
           </ErrorBoundary>
         ))}
+      <IsInPortalProvider>
+        {portals.map((id) => (
+          <ErrorBoundary key={id}>
+            <CoursePortal id={id} iframe={ref.current!} />
+          </ErrorBoundary>
+        ))}
+      </IsInPortalProvider>
     </React.Fragment>
   );
 }

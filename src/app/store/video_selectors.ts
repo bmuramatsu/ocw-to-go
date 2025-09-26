@@ -3,10 +3,16 @@ import { RootState } from "./store";
 import { ALL_COURSES, COURSES_BY_ID } from "../initial_course_list";
 import { UserVideos, VideoQueue } from "../../types";
 
-type VideoStatus = "none" | "downloading" | "waiting" | "ready" | "error";
+export type DownloadStatus =
+  | "none"
+  | "downloading"
+  | "waiting"
+  | "ready"
+  | "error";
+
 // This expands from a simple boolean status to a string
 export type FullUserVideo = {
-  status: VideoStatus;
+  status: DownloadStatus;
   errorMessage?: string;
 };
 export type CourseVideoStatus = Partial<{

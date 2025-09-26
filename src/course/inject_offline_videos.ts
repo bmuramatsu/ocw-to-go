@@ -12,7 +12,6 @@ export default function injectOfflineVideos() {
       ".video-player-wrapper .video-container div[data-setup*='youtube.com']",
     )
     .forEach((videoPlayer) => {
-      console.log("found video player", videoPlayer);
       if (!videoPlayer) {
         return;
       }

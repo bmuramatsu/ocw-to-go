@@ -1,4 +1,4 @@
-import { ResourceItem } from "./replace_resource_items";
+import ResourceItem from "../common/custom_elements/resource_item";
 
 // very basic type stubs for pdfjs
 type PdfJs = {
