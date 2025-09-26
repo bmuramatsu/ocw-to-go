@@ -40,7 +40,7 @@ export default function replaceResourceItems() {
       size: fileSize || null,
     };
     const id = nextId();
-    const customItem = new ResourceItem(id, data);
+    const customItem = new ResourceItem(id, { item: data });
 
     item.replaceWith(customItem);
 

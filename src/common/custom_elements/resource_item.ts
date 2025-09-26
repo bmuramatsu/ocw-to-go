@@ -1,16 +1,13 @@
 import { ResourceItemData } from "../../types";
+import PortalTarget from "./portal_target";
 
-export default class ResourceItem extends HTMLElement {
-  props: ResourceItemData;
+interface ResourceItemProps {
+  item: ResourceItemData;
+}
 
-  constructor(id: string, props: ResourceItemData) {
-    super();
-    this.props = props;
-    this.id = id;
-  }
-
-  connectedCallback() {
-    this.attachShadow({ mode: "open" });
+export default class ResourceItem extends PortalTarget<ResourceItemProps> {
+  get type() {
+    return "resource-item";
   }
 }
 

@@ -9,8 +9,6 @@ import React from "react";
 import { useAppDispatch } from "./store/store";
 import { useBroadcastChannel } from "./use_broadcast";
 import { useLocation } from "wouter";
-import { VideoData } from "../types";
-import VideoDownloadPortal from "./video_portal";
 import ErrorBoundary from "./error_boundary";
 import { downloadVideo } from "./store/custom_actions";
 import CoursePortal from "./course_portals/course_portal";
@@ -26,7 +24,6 @@ export default function CourseView({ courseId, path }: Props) {
 
   // this effect injects various items into the iframe to
   // enhance the course experience
-  const [currentVideos, setCurrentVideos] = React.useState<VideoData[]>([]);
   const [portals, setPortals] = React.useState<string[]>([]);
 
   const dispatch = useAppDispatch();
@@ -44,13 +41,7 @@ export default function CourseView({ courseId, path }: Props) {
         // rather than built-in browser navigation, which causes the page to reload
         // and interrupt tasks like video downloads
         case "navigate": {
-          setCurrentVideos([]);
           navigate(message.href);
-          break;
-        }
-
-        case "video-portals-opened": {
-          setCurrentVideos(message.videoData);
           break;
         }
 
@@ -79,8 +70,6 @@ export default function CourseView({ courseId, path }: Props) {
   parts.push("index.html");
   const fullPath = `/${parts.join("/")}`;
 
-  const includeVideoPortals = currentVideos.length > 0 && ref.current;
-
   // Use a key so that the iframe is recreated when the path changes.
   // This prevents multiple history entries from being created.
   return (
@@ -94,23 +83,10 @@ export default function CourseView({ courseId, path }: Props) {
         }}
         ref={ref}
       />
-      {includeVideoPortals &&
-        currentVideos.map((currentVideo) => (
-          // Wrap in an error boundary because there's a potential for bugs if the
-          // element is unmounted while the portal is open
-          // The user shouldn't see this happen.
-          <ErrorBoundary key={currentVideo.youtubeKey}>
-            <VideoDownloadPortal
-              currentVideo={currentVideo}
-              iframe={ref.current!}
-              courseId={courseId}
-            />
-          </ErrorBoundary>
-        ))}
       <IsInPortalProvider>
         {portals.map((id) => (
           <ErrorBoundary key={id}>
-            <CoursePortal id={id} iframe={ref.current!} />
+            <CoursePortal id={id} courseId={courseId} iframe={ref.current!} />
           </ErrorBoundary>
         ))}
       </IsInPortalProvider>
