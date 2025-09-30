@@ -12,7 +12,7 @@ export default function MyCourses() {
         <li className="card is-empty">
           <h3 className="h3">Download courses to get started.</h3>
           <p className="text">
-            Go to the &quot;All Courses&quot; tab to explore all available
+            Go to the &quot;All courses&quot; tab to explore all available
             courses to download to your device.
           </p>
         </li>
