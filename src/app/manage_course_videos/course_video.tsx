@@ -142,7 +142,15 @@ function DownloadButton({
 }
 
 function videoPath(courseId: string, video: VideoData): string {
-  return `/courses/${courseId}/${video.htmlFile}`;
+  let path = `/courses/${courseId}/${video.htmlFile}`;
+
+  // The path in the JSON includes index.html, we prefer not to include index.html,
+  // and course_view component expects it not to be there
+  if (path.endsWith("/index.html")) {
+    path = path.slice(0, -11);
+  }
+
+  return path;
 }
 
 interface StatusIconProps {

@@ -6,7 +6,6 @@
 // the outer window. When that happens, a new iframe is created, that way
 // there aren't duplicate history entries.
 import React from "react";
-import { COURSES_BY_ID } from "./initial_course_list";
 import { useAppDispatch } from "./store/store";
 import { useBroadcastChannel } from "./use_broadcast";
 import { useLocation } from "wouter";
@@ -21,7 +20,6 @@ interface Props {
 }
 
 export default function CourseView({ courseId, path }: Props) {
-  const course = COURSES_BY_ID[courseId];
   const ref = React.useRef<HTMLIFrameElement>(null);
 
   // this effect injects various items into the iframe to
@@ -29,50 +27,6 @@ export default function CourseView({ courseId, path }: Props) {
   const [currentVideo, setCurrentVideo] = React.useState<VideoData | null>(
     null,
   );
-
-  React.useEffect(() => {
-    function onLoad() {
-      setCurrentVideo(null);
-
-      const childWindow = ref.current?.contentWindow;
-      if (childWindow) {
-        // Inject PDF.js into the iframe to render PDFs inline
-        const pdfJsScript = childWindow.document.createElement("script");
-        // Using an older version because newer versions require JS modules
-        pdfJsScript.src =
-          "https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.min.js";
-        pdfJsScript.id = "pdfjs";
-        childWindow.document.body.appendChild(pdfJsScript);
-
-        // Inject some configuration into the iframe
-        const envScript = childWindow.document.createElement("script");
-        envScript.textContent = `window.PWA = {course: ${JSON.stringify(course)}};`;
-        childWindow.document.body.appendChild(envScript);
-
-        // Inject the course script to adjust the DOM or listen to events
-        const script = childWindow.document.createElement("script");
-        script.src = "/course.js";
-        childWindow.document.body.appendChild(script);
-
-        // Inject some styles into the iframe to override built-in styles
-        const link = childWindow.document.createElement("link");
-        link.rel = "stylesheet";
-        link.href = "/course-styles.css";
-        childWindow.document.head.appendChild(link);
-      }
-    }
-
-    const iframe = ref.current;
-    if (iframe) {
-      iframe.addEventListener("load", onLoad);
-    }
-
-    return () => {
-      if (iframe) {
-        iframe.removeEventListener("load", onLoad);
-      }
-    };
-  }, [ref, course, path]);
 
   const dispatch = useAppDispatch();
   const [, navigate] = useLocation();

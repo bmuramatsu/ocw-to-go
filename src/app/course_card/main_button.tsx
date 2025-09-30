@@ -4,7 +4,7 @@ import downloadCourseAction from "../store/download_course_action";
 import { useAppDispatch } from "../store/store";
 import { useFormattedBytes } from "../utils/format_bytes";
 import { Play, Download, Loader } from "../svgs";
-import CourseLink from "../course_link";
+import CourseLink from "./course_link";
 
 interface MainButtonProps {
   courseData: CourseData;

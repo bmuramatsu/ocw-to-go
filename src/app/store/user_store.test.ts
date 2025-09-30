@@ -10,6 +10,7 @@ function initialState(): UserStore {
     videoQueue: [],
     coursesInitialized: true,
     videosInitialized: true,
+    videoModalCourse: null,
   };
 }
 

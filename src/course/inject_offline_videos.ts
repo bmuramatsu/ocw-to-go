@@ -3,11 +3,10 @@
 import broadcastChannel from "./course_channel";
 import type { VideoData } from "../types";
 import env from "./env";
-import { formatBytes } from "../app/utils/format_bytes";
 
 export default function injectOfflineVideos() {
   const videoPlayer = document.querySelector<HTMLElement>(
-    ".video-player-wrapper [data-setup*='youtube.com']",
+    ".video-player-wrapper .video-container [data-setup*='youtube.com']",
   );
   if (!videoPlayer) {
     return;
@@ -26,7 +25,13 @@ export default function injectOfflineVideos() {
     return;
   }
 
-  new VideoInjector(videoPlayer, videoData);
+  // The actual youtube player element gets replaced by other scripts, so we
+  // use the closest stable parent to attach to instead.
+  // We know this parent exists because it's part of the selector at the
+  // beginning of the function
+  const playerWrapper = videoPlayer.closest<HTMLElement>(".video-container")!;
+
+  new VideoInjector(playerWrapper, videoData);
 }
 
 export class VideoInjector {
@@ -37,7 +42,8 @@ export class VideoInjector {
     this.videoData = videoData;
     this.wrapper = playerEl;
     this.addPortal();
-    this.captureOtherVideoDownloads();
+    this.removeExistingDownloadLink();
+    this.changeTranscriptButtonText();
 
     broadcastChannel.subscribe((message) => {
       if (message.type === "video-player-state-change") {
@@ -78,25 +84,21 @@ export class VideoInjector {
     });
   }
 
-  // This makes the existing video download button on the page trigger the in-app
-  // download instead
-  captureOtherVideoDownloads() {
-    document
-      .querySelectorAll<HTMLElement>("a[href$='.mp4']")
-      .forEach((link) => {
-        // add the video size to the link text
-        const size = formatBytes(this.videoData.contentLength);
-        link.textContent = link.textContent + ` (${size})`;
+  // This removes the existing video download button to avoid confusion
+  removeExistingDownloadLink() {
+    const link = document.querySelector<HTMLElement>(
+      ".video-tab-download-popup li a[aria-label='Download video']",
+    );
+    link?.closest("li")?.remove();
+  }
 
-        link.addEventListener("click", (e) => {
-          e.preventDefault();
-
-          broadcastChannel.postMessage({
-            type: "download-video",
-            videoData: this.videoData,
-          });
-        });
-      });
+  changeTranscriptButtonText() {
+    const link = document.querySelector<HTMLElement>(
+      ".video-tab-download-popup li a[aria-label='Download transcript']",
+    );
+    if (link) {
+      link.textContent = "Save transcript";
+    }
   }
 }
 

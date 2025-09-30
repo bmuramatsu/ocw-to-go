@@ -5,9 +5,10 @@ import { CourseData, UserCourse } from "../../types";
 import { userActions } from "./user_store";
 import { AppDispatch } from "./store";
 import downloadWithProgress from "../utils/download_with_progress";
+import { openVideoModalAction } from "./video_modal_actions";
 
 export default function downloadCourseAction(courseData: CourseData) {
-  return async function downloadCourseThunk(dispatch: AppDispatch) {
+  return async (dispatch: AppDispatch) => {
     const { id: courseId, file: path } = courseData;
     const update = (updates: Partial<UserCourse>) => {
       dispatch(userActions.updateCourse({ courseId, updates }));
@@ -47,6 +48,9 @@ export default function downloadCourseAction(courseData: CourseData) {
       await cache.put(`/courses/${courseId}/__ready`, new Response(""));
 
       update({ status: "ready" });
+      if (courseData.videos.length > 0) {
+        dispatch(openVideoModalAction(courseId));
+      }
     } catch (e: unknown) {
       let errorMessage = "An error occurred";
       if (e instanceof Error && e.name === "QuotaExceededError") {

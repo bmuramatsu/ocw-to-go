@@ -27,7 +27,35 @@ export default function Header() {
           <nav className="desktop-nav">
             <Link href="/all-courses">All Courses</Link>
             <Link href="/my-courses">My Courses</Link>
-            <a href="https://ocw.mit.edu/about/">About OCW</a>
+            <a
+              href="https://ocw.mit.edu/about/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              About OCW
+            </a>
+            <a
+              href="https://mitocw.zendesk.com/hc/en-us"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Help
+            </a>
+            <a
+              href="https://giving.mit.edu/give/to/ocw/?utm_source=ocw&utm_medium=homepage_banner&utm_campaign=nextgen_home"
+              target="_blank"
+              rel="noreferrer"
+              className="is-primary"
+            >
+              Give Now
+            </a>
+            <a
+              href="https://ocw.mit.edu/contact"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Contact Us
+            </a>
           </nav>
           <nav className="mobile-nav">
             <button className="icon-btn icon-btn--clear" onClick={open}>
@@ -56,11 +84,44 @@ export default function Header() {
                 </li>
                 <li>
                   <Link href="/my-courses" className={activeClass}>
-                    My courses
+                    My Courses
                   </Link>
                 </li>
                 <li>
-                  <a href="https://ocw.mit.edu/about/">About OCW</a>
+                  <a
+                    href="https://ocw.mit.edu/about/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    About OCW
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://mitocw.zendesk.com/hc/en-us"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Help
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://giving.mit.edu/give/to/ocw/?utm_source=ocw&utm_medium=homepage_banner&utm_campaign=nextgen_home"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Give Now
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://ocw.mit.edu/contact"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Contact us
+                  </a>
                 </li>
               </ul>
               <p className="mobile-nav__drawer-bottom">

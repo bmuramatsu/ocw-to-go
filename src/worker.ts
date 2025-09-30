@@ -5,17 +5,19 @@
 import { createPartialResponse } from "workbox-range-requests";
 import ASSETS_TO_CACHE from "./worker/assets";
 import { VERSION } from "./version";
+import { COURSES_BY_ID } from "./app/initial_course_list";
 
 export type {};
 declare const self: ServiceWorkerGlobalScope;
 
-// Version is primarily imported to force a worker updat
+// Version is primarily imported to force a worker update
 // even if there are no code changes in the worker
 // scripts. Otherwise users will not get the latest assets.
 console.log("WORKER VERSION:" + VERSION);
 
 self.addEventListener("install", (event) => {
   console.log("The Worker Installed", event);
+
   event.waitUntil(
     (async () => {
       const cache = await caches.open("pwa-assets");
@@ -38,21 +40,7 @@ self.addEventListener("fetch", (event: FetchEvent) => {
   event.respondWith(cacheFirst(event.request));
 });
 
-addEventListener("message", (event) => {
-  console.log("The Worker Received a Message", event);
-  if (
-    typeof event.data === "object" &&
-    !Array.isArray(event.data) &&
-    event.data !== null
-  ) {
-    //if (event.data.type === "downloadVideos") {
-    //  downloadVideos(event.data.course);
-    //}
-  }
-});
-
 async function cacheFirst(request: Request) {
-  // return (await caches.match(request)) || await fetch(request);
   return (await fileFromCache(request)) || (await fetch(request));
 }
 
@@ -88,11 +76,54 @@ async function fileFromCache(request: Request): Promise<Response | undefined> {
     return Promise.resolve(response);
   }
 
+  // If this is an app html file, inject some JS and CSS
   const response = await caches.match(request);
+
+  if (response) {
+    const match = request.url.match(
+      /\/courses\/([^/]+)\/(?:.*\/)?index\.html$/,
+    );
+    if (match) {
+      const courseId = match[1];
+      return injectOverrides(response, courseId);
+    }
+  }
+
   return Promise.resolve(response);
 }
 
-//async function postToClients(message: any) {
-//  const clients = await self.clients.matchAll();
-//  clients.forEach((client) => client.postMessage(message));
-//}
+async function injectOverrides(
+  response: Response,
+  courseId: string,
+): Promise<Response> {
+  const course = COURSES_BY_ID[courseId];
+  let text = await response.text();
+
+  // inject stylesheet at the end of the head
+  // note that this could be a problem if that string happens to appear earlier
+  // in the document. So far this is not a problem.
+  text = text.replace(
+    /<\/head>/i,
+    `<link rel="stylesheet" href="/course-styles.css"></head>`,
+  );
+
+  // Inject scripts at the end of the body. This is less likely to fail because
+  // this is almost guaranteed to be the last meaningful content in the file.
+  const bodyEnd = text.lastIndexOf("</body>");
+  text =
+    text.slice(0, bodyEnd) +
+    `<script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.min.js" id="pdfjs"></script>` +
+    `<script>window.PWA = {course: ${JSON.stringify(course)}};</script>` +
+    `<script src="/course.js"></script>` +
+    text.slice(bodyEnd);
+
+  // the length has changed, update the headers to match
+  const headers = new Headers(response.headers);
+  headers.append("content-length", text.length.toString());
+
+  return new Response(text, {
+    status: response.status,
+    statusText: response.statusText,
+    headers,
+  });
+}

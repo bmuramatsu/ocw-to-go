@@ -18,7 +18,7 @@ export default function CourseCatalog({ children }: Props) {
         <div className="main__contain">
           <h1 className="h1 u-mb-8">Course Catalog</h1>
           <p className="text u-mt-8 u-mb-0">
-            Explore {allCoursesCount} MIT courses optimized for offline
+            Explore a curated list of {allCoursesCount} MIT OpenCourseWare courses optimized for offline
             learning.
           </p>
         </div>
@@ -28,13 +28,13 @@ export default function CourseCatalog({ children }: Props) {
           href="/my-courses"
           className={(active) => (active ? "active" : "")}
         >
-          My courses ({myCoursesCount})
+          My Courses ({myCoursesCount})
         </Link>
         <Link
           href="/all-courses"
           className={(active) => (active ? "active" : "")}
         >
-          All courses ({allCoursesCount})
+          All Courses ({allCoursesCount})
         </Link>
       </nav>
       <section className="bg--gray u-pb-72">
