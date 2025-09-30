@@ -10,6 +10,9 @@ interface ResourceItemPortalProps {
   courseId: string;
 }
 
+// Replaces the built-in resource items with our own that
+// disables extra download links and displays the download status
+// properly
 export default function ResourceItemPortal({
   item,
   courseId,
@@ -45,7 +48,7 @@ export default function ResourceItemPortal({
         fileType={fileType}
         rightSide={
           downloadPath && (
-            <a href={downloadPath} className="btn btn--primary">
+            <a href={downloadPath} className="btn btn--primary-black-outlined">
               Download
             </a>
           )

@@ -12,6 +12,9 @@ interface CoursePortalProps {
   courseId: string;
 }
 
+// Renders portals inside the course. This is a generic wrapper
+// that finds the portal target and renders the correct component
+// inside
 export default function CoursePortal({
   id,
   courseId,
