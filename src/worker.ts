@@ -13,26 +13,42 @@ declare const self: ServiceWorkerGlobalScope;
 // Version is primarily imported to force a worker update
 // even if there are no code changes in the worker
 // scripts. Otherwise users will not get the latest assets.
-console.log("WORKER VERSION:" + VERSION);
+console.log("WORKER VERSION: " + VERSION);
+const ASSETS_CACHE = `pwa-assets-${VERSION}`;
+
+async function cacheNewFiles() {
+  const cache = await caches.open(ASSETS_CACHE);
+  await cache.addAll(ASSETS_TO_CACHE);
+}
 
 self.addEventListener("install", (event) => {
   console.log("The Worker Installed", event);
 
-  event.waitUntil(
-    (async () => {
-      const cache = await caches.open("pwa-assets");
-      await cache.addAll(ASSETS_TO_CACHE);
-    })(),
-  );
-  // Activate worker immediately
-  self.skipWaiting();
+  event.waitUntil(cacheNewFiles());
 });
+
+async function deleteOldCaches() {
+  const cacheNames = await caches.keys();
+  for (const cacheName of cacheNames) {
+    if (cacheName.startsWith("pwa-assets") && cacheName !== ASSETS_CACHE) {
+      await caches.delete(cacheName);
+    }
+  }
+}
 
 self.addEventListener("activate", (event) => {
   console.log("The Worker Activated", event);
 
+  event.waitUntil(deleteOldCaches());
+
   // Become available to all pages
   event.waitUntil(self.clients.claim());
+});
+
+self.addEventListener("message", (event) => {
+  if (event.data && event.data.type === "SKIP_WAITING") {
+    self.skipWaiting();
+  }
 });
 
 self.addEventListener("fetch", (event: FetchEvent) => {
