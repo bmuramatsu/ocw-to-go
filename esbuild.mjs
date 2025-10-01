@@ -1,8 +1,4 @@
 import esbuild from "esbuild";
-// We're using this for postcss, but it can do SASS and others
-import stylePlugin from "esbuild-style-plugin";
-// This adds reasonable defaults for backwards compatibility with older browsers
-import postCssEnv from "postcss-preset-env";
 
 const [env] = process.argv.slice(2);
 
@@ -16,10 +12,9 @@ const config = {
     "src/video-downloader-styles.css",
   ],
   bundle: true,
-  plugins: [stylePlugin({ postcss: { plugins: [postCssEnv()] } })],
   minify: false,
   sourcemap: true,
-  target: "es2017",
+  target: ["es2017", "chrome58"],
   outdir: "dist",
   format: "iife",
   logLevel: "info",
