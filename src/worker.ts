@@ -102,9 +102,10 @@ async function injectOverrides(
   // inject stylesheet at the end of the head
   // note that this could be a problem if that string happens to appear earlier
   // in the document. So far this is not a problem.
+  const stylesPath = WORKER_ASSET_MANIFEST["/course-styles.css"];
   text = text.replace(
     /<\/head>/i,
-    `<link rel="stylesheet" href="/course-styles.css"></head>`,
+    `<link rel="stylesheet" href="${stylesPath}"></head>`,
   );
 
   // Inject scripts at the end of the body. This is less likely to fail because
@@ -114,7 +115,7 @@ async function injectOverrides(
     text.slice(0, bodyEnd) +
     `<script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.min.js" id="pdfjs"></script>` +
     `<script>window.PWA = {course: ${JSON.stringify(course)}};</script>` +
-    `<script src="/course.js"></script>` +
+    `<script src="${WORKER_ASSET_MANIFEST["/course.ts"]}"></script>` +
     text.slice(bodyEnd);
 
   // the length has changed, update the headers to match

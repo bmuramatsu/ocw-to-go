@@ -33,9 +33,10 @@ export default function VideoDownloadPortal({
     return null;
   }
 
+  const stylesPath = APP_ASSET_MANIFEST["/video-downloader-styles.css"];
   return createPortal(
     <>
-      <link rel="stylesheet" href="/video-downloader-styles.css" />
+      <link rel="stylesheet" href={stylesPath} />
       <VideoBanner video={currentVideo} courseId={courseId} />
       <VideoPlayer video={currentVideo} courseId={courseId} />
     </>,
