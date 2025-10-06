@@ -26,7 +26,7 @@ export default async function downloadWithProgress(
       progress += chunk.length;
     }
 
-    return new Blob(chunks);
+    return new Blob(chunks as BlobPart[]);
   } finally {
     clearInterval(interval);
   }
