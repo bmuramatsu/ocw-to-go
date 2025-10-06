@@ -12,7 +12,7 @@ export default async function downloadWithProgress(
     let progress = 0;
 
     callback(progress, total);
-    interval = setInterval(() => {
+    interval = window.setInterval(() => {
       callback(progress, total);
     }, 300);
 
