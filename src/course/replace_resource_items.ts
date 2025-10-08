@@ -38,8 +38,11 @@ export default function replaceResourceItems() {
 }
 
 const ResourceItemTemplate = document.createElement("template");
+// @ts-expect-error This will go away
+const styles = window.top!.APP_ASSET_MANIFEST["/video-downloader-styles.css"];
+// This will go away
 ResourceItemTemplate.innerHTML = `
-  <link rel="stylesheet" href="/video-downloader-styles.css" />
+  <link rel="stylesheet" href="${styles["/video-downloader-styles.css"]}" />
   <div class="video-list__item">
     <div class="video-list__graphic is-green">
       <div id="file-type"></div>

@@ -12,7 +12,7 @@ export default async function downloadWithProgress(
     let progress = 0;
 
     callback(progress, total);
-    interval = setInterval(() => {
+    interval = window.setInterval(() => {
       callback(progress, total);
     }, 300);
 
@@ -26,7 +26,7 @@ export default async function downloadWithProgress(
       progress += chunk.length;
     }
 
-    return new Blob(chunks);
+    return new Blob(chunks as BlobPart[]);
   } finally {
     clearInterval(interval);
   }
