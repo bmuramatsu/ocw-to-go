@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "add_course": "node scripts/add_course.mjs",
-    "build": "node esbuild.mjs",
+    "build": "node build.mjs",
     "dev": "npm run watch & npm run serve",
     "formatcheck": "prettier -c src",
     "formatfix": "prettier -c src --write",
@@ -13,7 +13,7 @@
     "serve": "npx serve -l 8088 dist",
     "test": "vitest",
     "typecheck": "tsc -noemit",
-    "watch": "node esbuild.mjs dev"
+    "watch": "node build.mjs dev"
   },
   "author": "",
   "license": "ISC",
