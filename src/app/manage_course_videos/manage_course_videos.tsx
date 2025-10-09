@@ -1,6 +1,6 @@
 import React from "react";
 import { COURSES_BY_ID } from "../initial_course_list";
-import CourseVideo from "./course_video";
+import CourseVideo from "../course_video";
 import DownloadAllVideos from "./download_all_videos";
 import { VideoData } from "../../types";
 import { ChevronRight, Info } from "../svgs";

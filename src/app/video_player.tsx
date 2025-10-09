@@ -27,8 +27,9 @@ export default function VideoPlayer({ courseId, video }: Props) {
     channel.postMessage({
       type: "video-player-state-change",
       ready,
+      videoKey: video.youtubeKey,
     });
-  }, [channel, ready]);
+  }, [channel, ready, video.youtubeKey]);
 
   if (!ready) return null;
 

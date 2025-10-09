@@ -4,8 +4,8 @@ const NAME = "ocw-broadcast-channel";
 
 export type OcwMessage =
   | { type: "navigate"; href: string }
-  | { type: "portal-opened"; videoData: VideoData }
-  | { type: "video-player-state-change"; ready: boolean }
+  | { type: "portals-opened"; ids: string[] }
+  | { type: "video-player-state-change"; ready: boolean; videoKey: string }
   | { type: "download-video"; videoData: VideoData };
 
 type OnMessageCallback = (message: OcwMessage) => void;

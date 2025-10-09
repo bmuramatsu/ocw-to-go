@@ -1,12 +1,13 @@
 import React from "react";
-import { Download, Loader, Checkmark, Cancel, Trash, Play } from "../svgs";
-import { VideoData } from "../../types";
-import { useAppDispatch, useAppSelector } from "../store/store";
-import * as customActions from "../store/custom_actions";
-import * as asyncActions from "../store/async_actions";
-import { selectVideoStatus, FullUserVideo } from "../store/video_selectors";
-import { useFormattedBytes } from "../utils/format_bytes";
+import { Download, Loader, Cancel, Trash, Play } from "./svgs";
+import { VideoData } from "../types";
+import { useAppDispatch, useAppSelector } from "./store/store";
+import * as customActions from "./store/custom_actions";
+import * as asyncActions from "./store/async_actions";
+import { selectVideoStatus, FullUserVideo } from "./store/video_selectors";
+import { useFormattedBytes } from "./utils/format_bytes";
 import { Link } from "wouter";
+import ResourceItemLayout from "./resource_item_layout";
 
 export interface CourseVideoProps {
   courseId: string;
@@ -14,7 +15,9 @@ export interface CourseVideoProps {
   withLink?: boolean;
 }
 
-// this component is a single video on the downloads page
+// This is the resource item for a video. It is used on the manage videos page
+// and within course portals. It shows video info and download status, provides
+// a download button, and optionally a link to the video page.
 export default function CourseVideo({
   courseId,
   video,
@@ -27,25 +30,21 @@ export default function CourseVideo({
   const bytes = useFormattedBytes(video.contentLength);
 
   return (
-    <div key={video.youtubeKey} className="video-list__item">
-      <StatusIcon videoStatus={videoStatus} />
-      <div className="video-list__item__content">
-        <h3>
-          {withLink ? (
-            <Link href={videoPath(courseId, video)}>{video.title}</Link>
-          ) : (
-            video.title
-          )}
-        </h3>
-        <p>{bytes}</p>
-      </div>
-      <DownloadButton
-        courseId={courseId}
-        video={video}
-        videoStatus={videoStatus}
-        withLink={withLink}
-      />
-    </div>
+    <ResourceItemLayout
+      status={videoStatus.status}
+      title={video.title}
+      size={bytes}
+      href={withLink && videoPath(courseId, video)}
+      fileType={"VIDEO"}
+      rightSide={
+        <DownloadButton
+          courseId={courseId}
+          video={video}
+          videoStatus={videoStatus}
+          withLink={withLink}
+        />
+      }
+    />
   );
 }
 
@@ -151,40 +150,4 @@ function videoPath(courseId: string, video: VideoData): string {
   }
 
   return path;
-}
-
-interface StatusIconProps {
-  videoStatus: FullUserVideo;
-}
-function StatusIcon({ videoStatus }: StatusIconProps) {
-  switch (videoStatus.status) {
-    case "ready":
-      return (
-        <div className="video-list__graphic is-green">
-          <div>VIDEO</div>
-          <span>
-            <Checkmark />
-          </span>
-        </div>
-      );
-    case "downloading":
-    case "waiting":
-      return (
-        <div className="video-list__graphic is-loading">
-          <div>VIDEO</div>
-          <span>
-            <Loader />
-          </span>
-        </div>
-      );
-    default:
-      return (
-        <div className="video-list__graphic is-red">
-          <div>VIDEO</div>
-          <span>
-            <Download />
-          </span>
-        </div>
-      );
-  }
 }
