@@ -56,7 +56,7 @@ export default function Header() {
               target="_blank"
               rel="noreferrer"
             >
-              Contact us
+              Contact Us
             </a>
           </nav>
           <nav className="mobile-nav">
@@ -86,7 +86,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link href="/my-courses" className={activeClass}>
-                    My courses
+                    My Courses
                   </Link>
                 </li>
                 <li>

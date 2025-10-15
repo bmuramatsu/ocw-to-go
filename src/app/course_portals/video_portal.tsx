@@ -20,9 +20,10 @@ export default function VideoDownloadPortal({
   courseId,
   video,
 }: VideoDownloadPortalProps) {
+  const stylesPath = APP_ASSET_MANIFEST["/video-downloader-styles.css"];
   return (
     <>
-      <link rel="stylesheet" href="/video-downloader-styles.css" />
+      <link rel="stylesheet" href={stylesPath} />
       <VideoBanner video={video} courseId={courseId} />
       <VideoPlayer video={video} courseId={courseId} />
     </>

@@ -37,9 +37,10 @@ export default function ResourceItemPortal({
     return "ready";
   });
 
+  const stylesPath = APP_ASSET_MANIFEST["/video-downloader-styles.css"];
   return (
     <>
-      <link rel="stylesheet" href="/video-downloader-styles.css" />
+      <link rel="stylesheet" href={stylesPath} />
       <ResourceItemLayout
         status={status}
         title={name}
