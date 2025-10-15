@@ -35,68 +35,125 @@
             "category": "Lecture Videos",
             "videos": [
                 {
-                    "title": "Lecture 1: Object-Oriented Programming",
+                    "title": "Lec 1 | MIT 6.01SC Introduction to Electrical Engineering and Computer Science I, Spring 2011",
                     "videoUrl": "http://www.archive.org/download/MIT6.01SCS11/MIT6_01SC_S11_lec01_300k.mp4",
                     "youtubeKey": "3S4cNfl0YF0",
                     "contentLength": 183561497,
                     "captionsFile": "/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/bd32fe9282815440b556efa7b6dfbcf7_3S4cNfl0YF0.vtt",
-                    "htmlFile": "resources/lecture-1-object-oriented-programming-11/index.html"
+                    "htmlFile": [
+                        "resources/lecture-1-object-oriented-programming-11/index.html",
+                        "resources/lecture-1-object-oriented-programming/index.html"
+                    ]
                 },
                 {
-                    "title": "Lecture 2: Primitives, Combination, Abstraction, and Patterns",
+                    "title": "Lec 2 | MIT 6.01SC Introduction to Electrical Engineering and Computer Science I, Spring 2011",
                     "videoUrl": "http://www.archive.org/download/MIT6.01SCS11/MIT6_01SC_S11_lec02_300k.mp4",
                     "youtubeKey": "cQntMUMQyRw",
                     "contentLength": 191053206,
                     "captionsFile": null,
-                    "htmlFile": "resources/lecture-1-object-oriented-programming-1/index.html"
+                    "htmlFile": [
+                        "resources/lecture-1-object-oriented-programming-1/index.html",
+                        "resources/copy_of_lecture-1-object-oriented-programming/index.html"
+                    ]
                 },
                 {
-                    "title": "Lecture 5: Characterizing System Performance",
+                    "title": "Lec 3 | MIT 6.01SC Introduction to Electrical Engineering and Computer Science I, Spring 2011",
+                    "videoUrl": "http://www.archive.org/download/MIT6.01SCS11/MIT6_01SC_S11_lec03_300k.mp4",
+                    "youtubeKey": "CG4ihzTaGdM",
+                    "contentLength": 194431049,
+                    "captionsFile": null,
+                    "htmlFile": [
+                        "resources/lecture-1-object-oriented-programming-2/index.html",
+                        "resources/copy2_of_lecture-1-object-oriented-programming/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 5 | MIT 6.01SC Introduction to Electrical Engineering and Computer Science I, Spring 2011",
                     "videoUrl": "http://www.archive.org/download/MIT6.01SCS11/MIT6_01SC_S11_lec05_300k.mp4",
                     "youtubeKey": "qB5wq5L6EL4",
                     "contentLength": 198200736,
                     "captionsFile": null,
-                    "htmlFile": "resources/lecture-1-object-oriented-programming-3/index.html"
+                    "htmlFile": [
+                        "resources/lecture-1-object-oriented-programming-3/index.html",
+                        "resources/copy3_of_lecture-1-object-oriented-programming/index.html"
+                    ]
                 },
                 {
-                    "title": "Lecture 6: Designing Control Systems",
+                    "title": "Lec 6 | MIT 6.01SC Introduction to Electrical Engineering and Computer Science I, Spring 2011",
                     "videoUrl": "http://www.archive.org/download/MIT6.01SCS11/MIT6_01SC_S11_lec06_300k.mp4",
                     "youtubeKey": "oTNwGuI7Wic",
                     "contentLength": 195735698,
                     "captionsFile": "/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/3ea26f0b5d385da190086a8918c96200_oTNwGuI7Wic.vtt",
-                    "htmlFile": "resources/copy4_of_lecture-1-object-oriented-programming/index.html"
+                    "htmlFile": [
+                        "resources/copy4_of_lecture-1-object-oriented-programming/index.html",
+                        "resources/lecture-1-object-oriented-programming-4/index.html"
+                    ]
                 },
                 {
-                    "title": "Lecture 7: Circuits",
+                    "title": "Lec 7 | MIT 6.01SC Introduction to Electrical Engineering and Computer Science I, Spring 2011",
                     "videoUrl": "http://www.archive.org/download/MIT6.01SCS11/MIT6_01SC_S11_lec07_300k.mp4",
                     "youtubeKey": "5sLFTc10kg8",
                     "contentLength": 187589661,
                     "captionsFile": "/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/f5c62e86dab45316bab4daaf822ad8a4_5sLFTc10kg8.vtt",
-                    "htmlFile": "resources/copy5_of_lecture-1-object-oriented-programming/index.html"
+                    "htmlFile": [
+                        "resources/copy5_of_lecture-1-object-oriented-programming/index.html",
+                        "resources/lecture-1-object-oriented-programming-5/index.html"
+                    ]
                 },
                 {
-                    "title": "Lecture 8: Op-Amps",
+                    "title": "Lec 8 | MIT 6.01SC Introduction to Electrical Engineering and Computer Science I, Spring 2011",
                     "videoUrl": "http://www.archive.org/download/MIT6.01SCS11/MIT6_01SC_S11_lec08_300k.mp4",
                     "youtubeKey": "e7Ptvu5Vu8k",
                     "contentLength": 197830228,
                     "captionsFile": "/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/0860b5a009d2596090735c9bdd0ef170_e7Ptvu5Vu8k.vtt",
-                    "htmlFile": "resources/copy6_of_lecture-1-object-oriented-programming/index.html"
+                    "htmlFile": [
+                        "resources/copy6_of_lecture-1-object-oriented-programming/index.html",
+                        "resources/lecture-1-object-oriented-programming-6/index.html"
+                    ]
                 },
                 {
-                    "title": "Lecture 12: Search Algorithms",
+                    "title": "Lec 9 | MIT 6.01SC Introduction to Electrical Engineering and Computer Science I, Spring 2011",
+                    "videoUrl": "http://www.archive.org/download/MIT6.01SCS11/MIT6_01SC_S11_lec09_300k.mp4",
+                    "youtubeKey": "FANl3evX0FQ",
+                    "contentLength": 173038817,
+                    "captionsFile": "/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/306240edb825558b8f27f749ec7d7994_FANl3evX0FQ.vtt",
+                    "htmlFile": [
+                        "resources/lecture-1-object-oriented-programming-7/index.html",
+                        "resources/copy7_of_lecture-1-object-oriented-programming/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 10 | MIT 6.01SC Introduction to Electrical Engineering and Computer Science I, Spring 2011",
+                    "videoUrl": "http://www.archive.org/download/MIT6.01SCS11/MIT6_01SC_S11_lec10_300k.mp4",
+                    "youtubeKey": "u_x67-kaedM",
+                    "contentLength": 201325726,
+                    "captionsFile": null,
+                    "htmlFile": [
+                        "resources/lecture-1-object-oriented-programming-8/index.html",
+                        "resources/copy8_of_lecture-1-object-oriented-programming/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 12 | MIT 6.01SC Introduction to Electrical Engineering and Computer Science I, Spring 2011",
                     "videoUrl": "http://www.archive.org/download/MIT6.01SCS11/MIT6_01SC_S11_lec12_300k.mp4",
                     "youtubeKey": "xMWcIb6XGVA",
                     "contentLength": 173259472,
                     "captionsFile": "/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/1f1df91dde0e56889788552daada5611_xMWcIb6XGVA.vtt",
-                    "htmlFile": "resources/copy9_of_lecture-1-object-oriented-programming/index.html"
+                    "htmlFile": [
+                        "resources/copy9_of_lecture-1-object-oriented-programming/index.html",
+                        "resources/lecture-1-object-oriented-programming-9/index.html"
+                    ]
                 },
                 {
-                    "title": "Lecture 13: Optimizing a Search",
+                    "title": "Lec 13 | MIT 6.01SC Introduction to Electrical Engineering and Computer Science I, Spring 2011",
                     "videoUrl": "http://www.archive.org/download/MIT6.01SCS11/MIT6_01SC_S11_lec13_300k.mp4",
                     "youtubeKey": "vcDBNyKvLcs",
                     "contentLength": 166872729,
                     "captionsFile": "/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/5b20e641a851523384e21130234a36d3_vcDBNyKvLcs.vtt",
-                    "htmlFile": "resources/copy10_of_lecture-1-object-oriented-programming/index.html"
+                    "htmlFile": [
+                        "resources/copy10_of_lecture-1-object-oriented-programming/index.html",
+                        "resources/lecture-1-object-oriented-programming-10/index.html"
+                    ]
                 }
             ]
         },
@@ -104,161 +161,180 @@
             "category": "Recitation Videos",
             "videos": [
                 {
-                    "title": "Recitation 2: Inheritance",
-                    "videoUrl": "http://www.archive.org/download/MIT6.01SCS11/MIT6_01SC_rec2_300k.mp4",
-                    "youtubeKey": "abW4cppRABM",
-                    "contentLength": 30996272,
-                    "captionsFile": "/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/f01888189296587293e722501c8098de_abW4cppRABM.vtt",
-                    "htmlFile": "resources/recitation-2-inheritance-6/index.html"
-                },
-                {
-                    "title": "Recitation 3: Python Notables",
-                    "videoUrl": "http://www.archive.org/download/MIT6.01SCS11/MIT6_01SC_rec3_300k.mp4",
-                    "youtubeKey": "Y9r9dO7KQj4",
-                    "contentLength": 37819162,
-                    "captionsFile": "/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/d751db18262a5e6c930cfd4006d1d35a_Y9r9dO7KQj4.vtt",
-                    "htmlFile": "resources/copy_of_recitation-2-inheritance/index.html"
-                },
-                {
-                    "title": "Recitation 4: State Machines",
-                    "videoUrl": "http://www.archive.org/download/MIT6.01SCS11/MIT6_01SC_rec4_300k.mp4",
-                    "youtubeKey": "8FWfmvj3HYw",
-                    "contentLength": 31676573,
-                    "captionsFile": "/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/83f535c5c7765d0eb8bae7390dc6eb12_8FWfmvj3HYw.vtt",
-                    "htmlFile": "resources/copy_of_recitation-1-object-oriented-programming/index.html"
-                },
-                {
-                    "title": "Recitation 6: System Equivalences",
-                    "videoUrl": "http://www.archive.org/download/MIT6.01SCS11/MIT6_01SC_rec6_300k.mp4",
-                    "youtubeKey": "l0tUtVRhmDs",
-                    "contentLength": 34986564,
-                    "captionsFile": null,
-                    "htmlFile": "resources/recitation-2-inheritance-2/index.html"
-                },
-                {
-                    "title": "Recitation 7: Poles, Part I",
-                    "videoUrl": "http://www.archive.org/download/MIT6.01SCS11/MIT6_01SC_rec7_300k.mp4",
-                    "youtubeKey": "lF-7mmPHhG0",
-                    "contentLength": 21044283,
-                    "captionsFile": null,
-                    "htmlFile": "resources/recitation-1-object-oriented-programming-3/index.html"
-                },
-                {
-                    "title": "Recitation 8: Poles, Part II",
-                    "videoUrl": "http://www.archive.org/download/MIT6.01SCS11/MIT6_01SC_rec8_300k.mp4",
-                    "youtubeKey": "QleELaAfTd4",
-                    "contentLength": 35427949,
-                    "captionsFile": null,
-                    "htmlFile": "resources/recitation-2-inheritance-3/index.html"
-                },
-                {
-                    "title": "Recitation 11: Op-Amps",
-                    "videoUrl": "http://www.archive.org/download/MIT6.01SCS11/MIT6_01SC_rec11_300k.mp4",
-                    "youtubeKey": "sNLB6_ZIfX0",
-                    "contentLength": 24360034,
-                    "captionsFile": "/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/969d80ffc05f5231afb834b671550720_sNLB6_ZIfX0.vtt",
-                    "htmlFile": "resources/copy5_of_recitation-1-object-oriented-programming/index.html"
-                },
-                {
-                    "title": "Recitation 13: Probability: Basics",
-                    "videoUrl": "http://www.archive.org/download/MIT6.01SCS11/MIT6_01SC_rec13_300k.mp4",
-                    "youtubeKey": "UGdXwvB6K-w",
-                    "contentLength": 35661294,
-                    "captionsFile": "/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/14161e412242597e9a8ff7213d60db66_UGdXwvB6K-w.vtt",
-                    "htmlFile": "resources/copy7_of_recitation-1-object-oriented-programming/index.html"
-                }
-            ]
-        },
-        {
-            "category": "Other",
-            "videos": [
-                {
-                    "title": "Lecture 3: Signals and Systems",
-                    "videoUrl": "http://www.archive.org/download/MIT6.01SCS11/MIT6_01SC_S11_lec03_300k.mp4",
-                    "youtubeKey": "CG4ihzTaGdM",
-                    "contentLength": 194431049,
-                    "captionsFile": null,
-                    "htmlFile": "resources/lecture-1-object-oriented-programming-2/index.html"
-                },
-                {
-                    "title": "Lecture 9: Circuit Abstractions",
-                    "videoUrl": "http://www.archive.org/download/MIT6.01SCS11/MIT6_01SC_S11_lec09_300k.mp4",
-                    "youtubeKey": "FANl3evX0FQ",
-                    "contentLength": 173038817,
-                    "captionsFile": "/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/306240edb825558b8f27f749ec7d7994_FANl3evX0FQ.vtt",
-                    "htmlFile": "resources/lecture-1-object-oriented-programming-7/index.html"
-                },
-                {
-                    "title": "Lecture 10: Discrete Probability and State Estimation",
-                    "videoUrl": "http://www.archive.org/download/MIT6.01SCS11/MIT6_01SC_S11_lec10_300k.mp4",
-                    "youtubeKey": "u_x67-kaedM",
-                    "contentLength": 201325726,
-                    "captionsFile": null,
-                    "htmlFile": "resources/lecture-1-object-oriented-programming-8/index.html"
-                },
-                {
-                    "title": "Recitation 1: Object-Oriented Programming",
+                    "title": "Rec 1 | MIT 6.01SC Introduction to Electrical Engineering and Computer Science I, Spring 2011",
                     "videoUrl": "http://www.archive.org/download/MIT6.01SCS11/MIT6_01SC_rec1_300k.mp4",
                     "youtubeKey": "hdjWA3YcDII",
                     "contentLength": 26282845,
                     "captionsFile": "/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/40e51c52d6ff5d78bb3d943db8ac5bd5_hdjWA3YcDII.vtt",
-                    "htmlFile": "resources/recitation-1-object-oriented-programming-10/index.html"
+                    "htmlFile": [
+                        "resources/recitation-1-object-oriented-programming-10/index.html",
+                        "resources/recitation-1-object-oriented-programming/index.html"
+                    ]
                 },
                 {
-                    "title": "Recitation 5: LTI Motivations and Representations",
+                    "title": "Rec 2 | MIT 6.01SC Introduction to Electrical Engineering and Computer Science I, Spring 2011",
+                    "videoUrl": "http://www.archive.org/download/MIT6.01SCS11/MIT6_01SC_rec2_300k.mp4",
+                    "youtubeKey": "abW4cppRABM",
+                    "contentLength": 30996272,
+                    "captionsFile": "/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/f01888189296587293e722501c8098de_abW4cppRABM.vtt",
+                    "htmlFile": [
+                        "resources/recitation-2-inheritance-6/index.html",
+                        "resources/recitation-2-inheritance/index.html"
+                    ]
+                },
+                {
+                    "title": "Rec 3 | MIT 6.01SC Introduction to Electrical Engineering and Computer Science I, Spring 2011",
+                    "videoUrl": "http://www.archive.org/download/MIT6.01SCS11/MIT6_01SC_rec3_300k.mp4",
+                    "youtubeKey": "Y9r9dO7KQj4",
+                    "contentLength": 37819162,
+                    "captionsFile": "/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/d751db18262a5e6c930cfd4006d1d35a_Y9r9dO7KQj4.vtt",
+                    "htmlFile": [
+                        "resources/copy_of_recitation-2-inheritance/index.html",
+                        "resources/recitation-2-inheritance-1/index.html"
+                    ]
+                },
+                {
+                    "title": "Rec 4 | MIT 6.01SC Introduction to Electrical Engineering and Computer Science I, Spring 2011",
+                    "videoUrl": "http://www.archive.org/download/MIT6.01SCS11/MIT6_01SC_rec4_300k.mp4",
+                    "youtubeKey": "8FWfmvj3HYw",
+                    "contentLength": 31676573,
+                    "captionsFile": "/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/83f535c5c7765d0eb8bae7390dc6eb12_8FWfmvj3HYw.vtt",
+                    "htmlFile": [
+                        "resources/copy_of_recitation-1-object-oriented-programming/index.html",
+                        "resources/recitation-1-object-oriented-programming-1/index.html"
+                    ]
+                },
+                {
+                    "title": "Rec 5 | MIT 6.01SC Introduction to Electrical Engineering and Computer Science I, Spring 2011",
                     "videoUrl": "http://www.archive.org/download/MIT6.01SCS11/MIT6_01SC_rec5_300k.mp4",
                     "youtubeKey": "O6HHjiNKsco",
                     "contentLength": 29556572,
                     "captionsFile": "/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/88edadb9c34553c8ac5f3b9b1bcbf945_O6HHjiNKsco.vtt",
-                    "htmlFile": "resources/copy2_of_recitation-1-object-oriented-programming/index.html"
+                    "htmlFile": [
+                        "resources/copy2_of_recitation-1-object-oriented-programming/index.html",
+                        "resources/recitation-1-object-oriented-programming-2/index.html"
+                    ]
                 },
                 {
-                    "title": "Recitation 9: Circuits: Representation, KVL, KCL",
+                    "title": "Rec 6 | MIT 6.01SC Introduction to Electrical Engineering and Computer Science I, Spring 2011",
+                    "videoUrl": "http://www.archive.org/download/MIT6.01SCS11/MIT6_01SC_rec6_300k.mp4",
+                    "youtubeKey": "l0tUtVRhmDs",
+                    "contentLength": 34986564,
+                    "captionsFile": null,
+                    "htmlFile": [
+                        "resources/recitation-2-inheritance-2/index.html",
+                        "resources/copy2_of_recitation-2-inheritance/index.html"
+                    ]
+                },
+                {
+                    "title": "Rec 7 | MIT 6.01SC Introduction to Electrical Engineering and Computer Science I, Spring 2011",
+                    "videoUrl": "http://www.archive.org/download/MIT6.01SCS11/MIT6_01SC_rec7_300k.mp4",
+                    "youtubeKey": "lF-7mmPHhG0",
+                    "contentLength": 21044283,
+                    "captionsFile": null,
+                    "htmlFile": [
+                        "resources/recitation-1-object-oriented-programming-3/index.html",
+                        "resources/copy3_of_recitation-1-object-oriented-programming/index.html"
+                    ]
+                },
+                {
+                    "title": "Rec 8 | MIT 6.01SC Introduction to Electrical Engineering and Computer Science I, Spring 2011",
+                    "videoUrl": "http://www.archive.org/download/MIT6.01SCS11/MIT6_01SC_rec8_300k.mp4",
+                    "youtubeKey": "QleELaAfTd4",
+                    "contentLength": 35427949,
+                    "captionsFile": null,
+                    "htmlFile": [
+                        "resources/recitation-2-inheritance-3/index.html",
+                        "resources/copy3_of_recitation-2-inheritance/index.html"
+                    ]
+                },
+                {
+                    "title": "Rec 9 | MIT 6.01SC Introduction to Electrical Engineering and Computer Science I, Spring 2011",
                     "videoUrl": "http://www.archive.org/download/MIT6.01SCS11/MIT6_01SC_rec9_300k.mp4",
                     "youtubeKey": "qGZy1CRoZdE",
                     "contentLength": 41595032,
                     "captionsFile": null,
-                    "htmlFile": "resources/recitation-1-object-oriented-programming-4/index.html"
+                    "htmlFile": [
+                        "resources/recitation-1-object-oriented-programming-4/index.html",
+                        "resources/copy4_of_recitation-1-object-oriented-programming/index.html"
+                    ]
                 },
                 {
-                    "title": "Recitation 10: Circuits: NVCC, Sample Problem",
+                    "title": "Rec 10 | MIT 6.01SC Introduction to Electrical Engineering and Computer Science I, Spring 2011",
                     "videoUrl": "http://www.archive.org/download/MIT6.01SCS11/MIT6_01SC_rec10_300k.mp4",
                     "youtubeKey": "dAZ-i9MsbRM",
                     "contentLength": 32234658,
                     "captionsFile": null,
-                    "htmlFile": "resources/recitation-2-inheritance-4/index.html"
+                    "htmlFile": [
+                        "resources/recitation-2-inheritance-4/index.html",
+                        "resources/copy4_of_recitation-2-inheritance/index.html"
+                    ]
                 },
                 {
-                    "title": "Recitation 12: Thevenin/Norton Equivalence and Superposition",
+                    "title": "Rec 11 | MIT 6.01SC Introduction to Electrical Engineering and Computer Science I, Spring 2011",
+                    "videoUrl": "http://www.archive.org/download/MIT6.01SCS11/MIT6_01SC_rec11_300k.mp4",
+                    "youtubeKey": "sNLB6_ZIfX0",
+                    "contentLength": 24360034,
+                    "captionsFile": "/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/969d80ffc05f5231afb834b671550720_sNLB6_ZIfX0.vtt",
+                    "htmlFile": [
+                        "resources/copy5_of_recitation-1-object-oriented-programming/index.html",
+                        "resources/recitation-1-object-oriented-programming-5/index.html"
+                    ]
+                },
+                {
+                    "title": "Rec 12 | MIT 6.01SC Introduction to Electrical Engineering and Computer Science I, Spring 2011",
                     "videoUrl": "http://www.archive.org/download/MIT6.01SCS11/MIT6_01SC_rec12_300k.mp4",
                     "youtubeKey": "rOA1VC5aQ7Q",
                     "contentLength": 29259887,
                     "captionsFile": null,
-                    "htmlFile": "resources/recitation-1-object-oriented-programming-6/index.html"
+                    "htmlFile": [
+                        "resources/recitation-1-object-oriented-programming-6/index.html",
+                        "resources/copy6_of_recitation-1-object-oriented-programming/index.html"
+                    ]
                 },
                 {
-                    "title": "Recitation 14: Probability: State Estimation",
+                    "title": "Rec 13 | MIT 6.01SC Introduction to Electrical Engineering and Computer Science I, Spring 2011",
+                    "videoUrl": "http://www.archive.org/download/MIT6.01SCS11/MIT6_01SC_rec13_300k.mp4",
+                    "youtubeKey": "UGdXwvB6K-w",
+                    "contentLength": 35661294,
+                    "captionsFile": "/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/14161e412242597e9a8ff7213d60db66_UGdXwvB6K-w.vtt",
+                    "htmlFile": [
+                        "resources/copy7_of_recitation-1-object-oriented-programming/index.html",
+                        "resources/recitation-1-object-oriented-programming-7/index.html"
+                    ]
+                },
+                {
+                    "title": "Rec 14 | MIT 6.01SC Introduction to Electrical Engineering and Computer Science I, Spring 2011",
                     "videoUrl": "http://www.archive.org/download/MIT6.01SCS11/MIT6_01SC_rec14_300k.mp4",
                     "youtubeKey": "SpS3ud58yTI",
                     "contentLength": 28444720,
                     "captionsFile": null,
-                    "htmlFile": "resources/recitation-1-object-oriented-programming-8/index.html"
+                    "htmlFile": [
+                        "resources/recitation-1-object-oriented-programming-8/index.html",
+                        "resources/copy8_of_recitation-1-object-oriented-programming/index.html"
+                    ]
                 },
                 {
-                    "title": "Recitation 15: Search: Basics",
+                    "title": "Rec 15 | MIT 6.01SC Introduction to Electrical Engineering and Computer Science I, Spring 2011",
                     "videoUrl": "http://www.archive.org/download/MIT6.01SCS11/MIT6_01SC_rec15_300k.mp4",
                     "youtubeKey": "yWQYXEjxAnk",
                     "contentLength": 35141313,
                     "captionsFile": null,
-                    "htmlFile": "resources/recitation-2-inheritance-5/index.html"
+                    "htmlFile": [
+                        "resources/recitation-2-inheritance-5/index.html",
+                        "resources/copy5_of_recitation-2-inheritance/index.html"
+                    ]
                 },
                 {
-                    "title": "Recitation 16: Search: Dynamic Programming, Costs and Heuristics",
+                    "title": "Rec 16 | MIT 6.01SC Introduction to Electrical Engineering and Computer Science I, Spring 2011",
                     "videoUrl": "http://www.archive.org/download/MIT6.01SCS11/MIT6_01SC_rec16_300k.mp4",
                     "youtubeKey": "J09o6QRVsfw",
                     "contentLength": 33112288,
                     "captionsFile": null,
-                    "htmlFile": "resources/recitation-1-object-oriented-programming-9/index.html"
+                    "htmlFile": [
+                        "resources/recitation-1-object-oriented-programming-9/index.html",
+                        "resources/copy9_of_recitation-1-object-oriented-programming/index.html"
+                    ]
                 }
             ]
         }

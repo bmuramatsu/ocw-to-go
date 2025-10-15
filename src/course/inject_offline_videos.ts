@@ -16,7 +16,8 @@ export default function injectOfflineVideos() {
     .forEach((videoPlayer) => {
       if (!videoPlayer) return;
 
-      const match = videoPlayer.dataset.setup!.match(
+      const youtubeSetupData = videoPlayer.dataset.setup!;
+      const match = youtubeSetupData.match(
         /youtube.com\/embed\/([a-zA-Z0-9_-]+)/,
       );
 
@@ -24,6 +25,8 @@ export default function injectOfflineVideos() {
 
       const videoData = getVideoData(match[1]);
       if (!videoData) return;
+
+      const timeRange = getTimeRange(youtubeSetupData);
 
       // The actual youtube player element gets replaced by other scripts, so we
       // use the closest stable parent to attach to instead.
@@ -33,7 +36,7 @@ export default function injectOfflineVideos() {
         videoPlayer.closest<HTMLElement>(".video-container")!;
 
       const id = nextId();
-      const player = new VideoPlayer(id, { video: videoData });
+      const player = new VideoPlayer(id, { video: videoData, timeRange });
       playerWrapper.before(player);
 
       removeExistingDownloadLink();
@@ -51,6 +54,18 @@ export default function injectOfflineVideos() {
 
 function getVideoData(videoId: string): VideoData | undefined {
   return env.course.videos.find((v) => v.youtubeKey === videoId);
+}
+
+function getTimeRange(setupData: string): [number, number] | null {
+  let json: { youtube?: { start?: number; end?: number } };
+  try {
+    json = JSON.parse(setupData);
+  } catch {
+    return null;
+  }
+  const { start, end } = json.youtube || {};
+  if (start && end && start > -1) return [start, end];
+  return null;
 }
 
 // This removes the existing video download button to avoid confusion

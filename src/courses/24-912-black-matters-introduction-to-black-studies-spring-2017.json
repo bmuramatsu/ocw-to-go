@@ -35,7 +35,9 @@
                     "youtubeKey": "o4xIlEt71Pw",
                     "contentLength": 7486886,
                     "captionsFile": "/courses/24-912-black-matters-introduction-to-black-studies-spring-2017/fa6b14e9c4325d5fadf44f26a6ae2b07_o4xIlEt71Pw.vtt",
-                    "htmlFile": "resources/advancing-social-justice/index.html"
+                    "htmlFile": [
+                        "resources/advancing-social-justice/index.html"
+                    ]
                 },
                 {
                     "title": "An Interdisciplinary Approach",
@@ -43,7 +45,9 @@
                     "youtubeKey": "-SUNntP3dWo",
                     "contentLength": 5398950,
                     "captionsFile": "/courses/24-912-black-matters-introduction-to-black-studies-spring-2017/6a4adb03cc1a522bbe587ee15eb2b215_-SUNntP3dWo.vtt",
-                    "htmlFile": "resources/an-interdisciplinary-approach/index.html"
+                    "htmlFile": [
+                        "resources/an-interdisciplinary-approach/index.html"
+                    ]
                 },
                 {
                     "title": "Anchoring the Course with #StayWoke",
@@ -51,7 +55,9 @@
                     "youtubeKey": "WdQUiCPvcvw",
                     "contentLength": 8505732,
                     "captionsFile": "/courses/24-912-black-matters-introduction-to-black-studies-spring-2017/1b989c2d775c528f82ceae82d63f904e_WdQUiCPvcvw.vtt",
-                    "htmlFile": "resources/anchoring-the-course-with-staywoke/index.html"
+                    "htmlFile": [
+                        "resources/anchoring-the-course-with-staywoke/index.html"
+                    ]
                 },
                 {
                     "title": "Building on the Personal",
@@ -59,7 +65,9 @@
                     "youtubeKey": "sY-Hxq1-_Xo",
                     "contentLength": 6315866,
                     "captionsFile": "/courses/24-912-black-matters-introduction-to-black-studies-spring-2017/28e1d304b5465bbeb3dc7b665e96eb08_sY-Hxq1-_Xo.vtt",
-                    "htmlFile": "resources/building-on-the-personal/index.html"
+                    "htmlFile": [
+                        "resources/building-on-the-personal/index.html"
+                    ]
                 },
                 {
                     "title": "Course Materials that Develop Understanding",
@@ -67,7 +75,9 @@
                     "youtubeKey": "TFLHRW3ldOA",
                     "contentLength": 4915260,
                     "captionsFile": "/courses/24-912-black-matters-introduction-to-black-studies-spring-2017/b73f8a3227695129b5887931866aac9f_TFLHRW3ldOA.vtt",
-                    "htmlFile": "resources/course-materials-that-develop-understanding/index.html"
+                    "htmlFile": [
+                        "resources/course-materials-that-develop-understanding/index.html"
+                    ]
                 },
                 {
                     "title": "Critical Computational Empowerment",
@@ -75,7 +85,9 @@
                     "youtubeKey": "WGgH9wpDs5c",
                     "contentLength": 7345679,
                     "captionsFile": "/courses/24-912-black-matters-introduction-to-black-studies-spring-2017/86b91384974951809d18b03da101f6a0_WGgH9wpDs5c.vtt",
-                    "htmlFile": "resources/critical-computational-empowerment/index.html"
+                    "htmlFile": [
+                        "resources/critical-computational-empowerment/index.html"
+                    ]
                 },
                 {
                     "title": "Framing Cultural Phenomena as Technologies",
@@ -83,7 +95,9 @@
                     "youtubeKey": "CvT9dMwuHhQ",
                     "contentLength": 5636350,
                     "captionsFile": "/courses/24-912-black-matters-introduction-to-black-studies-spring-2017/0522c57918545ac89b3acffb2db49432_CvT9dMwuHhQ.vtt",
-                    "htmlFile": "resources/framing-cultural-phenomena-as-technologies/index.html"
+                    "htmlFile": [
+                        "resources/framing-cultural-phenomena-as-technologies/index.html"
+                    ]
                 },
                 {
                     "title": "Important Language Issues Today",
@@ -91,7 +105,9 @@
                     "youtubeKey": "avJ65YYAfD4",
                     "contentLength": 6272118,
                     "captionsFile": "/courses/24-912-black-matters-introduction-to-black-studies-spring-2017/ed458846e31657fa973bc6da6ce51267_avJ65YYAfD4.vtt",
-                    "htmlFile": "resources/important-language-issues-today/index.html"
+                    "htmlFile": [
+                        "resources/important-language-issues-today/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 25: Neoliberalism and the End of History - Part 1: Introduction",
@@ -99,7 +115,9 @@
                     "youtubeKey": "yqE5O1ef1wY",
                     "contentLength": 10286531,
                     "captionsFile": "/courses/24-912-black-matters-introduction-to-black-studies-spring-2017/fd50059dcaa358bb9a13264f1f56907c_yqE5O1ef1wY.vtt",
-                    "htmlFile": "resources/lecture-25-neoliberalism-and-the-end-of-history-part-1-introduction/index.html"
+                    "htmlFile": [
+                        "resources/lecture-25-neoliberalism-and-the-end-of-history-part-1-introduction/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 25: Neoliberalism and the End of History - Part 2: Immigration",
@@ -107,7 +125,9 @@
                     "youtubeKey": "3XF8HRxS-5g",
                     "contentLength": 28787088,
                     "captionsFile": "/courses/24-912-black-matters-introduction-to-black-studies-spring-2017/77292a689ffa57259a5a9a16a0457914_3XF8HRxS-5g.vtt",
-                    "htmlFile": "resources/lecture-25-neoliberalism-and-the-end-of-history-part-2-immigration/index.html"
+                    "htmlFile": [
+                        "resources/lecture-25-neoliberalism-and-the-end-of-history-part-2-immigration/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 25: Neoliberalism and the End of History - Part 3: Enlightenment, Neoliberalism and Racism",
@@ -115,7 +135,9 @@
                     "youtubeKey": "oIp0_rAEMIs",
                     "contentLength": 36202426,
                     "captionsFile": "/courses/24-912-black-matters-introduction-to-black-studies-spring-2017/5db959dd95395baba73749464d62f1d3_oIp0_rAEMIs.vtt",
-                    "htmlFile": "resources/lecture-25-neoliberalism-and-the-end-of-history-part-3-enlightenment-neoliberalism-and-racism/index.html"
+                    "htmlFile": [
+                        "resources/lecture-25-neoliberalism-and-the-end-of-history-part-3-enlightenment-neoliberalism-and-racism/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 25: Neoliberalism and the End of History - Part 4: Polarized Politics",
@@ -123,7 +145,9 @@
                     "youtubeKey": "UmbsTnQ39a4",
                     "contentLength": 31302278,
                     "captionsFile": "/courses/24-912-black-matters-introduction-to-black-studies-spring-2017/6832bd3177045b69ad6afa92c5403a19_UmbsTnQ39a4.vtt",
-                    "htmlFile": "resources/lecture-25-neoliberalism-and-the-end-of-history-part-4-polarized-politics/index.html"
+                    "htmlFile": [
+                        "resources/lecture-25-neoliberalism-and-the-end-of-history-part-4-polarized-politics/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 25: Neoliberalism and the End of History - Part 5: Neoliberalism to Populism",
@@ -131,7 +155,9 @@
                     "youtubeKey": "pP7mt_Ie04Y",
                     "contentLength": 14998116,
                     "captionsFile": "/courses/24-912-black-matters-introduction-to-black-studies-spring-2017/cf2bd11cfd45503eb589b8e6e42841a5_pP7mt_Ie04Y.vtt",
-                    "htmlFile": "resources/lecture-25-neoliberalism-and-the-end-of-history-part-5-neoliberalism-to-populism/index.html"
+                    "htmlFile": [
+                        "resources/lecture-25-neoliberalism-and-the-end-of-history-part-5-neoliberalism-to-populism/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 25: Neoliberalism and the End of History - Part 6: Populism & Big Data, Facebook's Dark Posts",
@@ -139,7 +165,9 @@
                     "youtubeKey": "oEUo2faDJNA",
                     "contentLength": 29369559,
                     "captionsFile": "/courses/24-912-black-matters-introduction-to-black-studies-spring-2017/ca1299902b435b69995d1a60d0aab149_oEUo2faDJNA.vtt",
-                    "htmlFile": "resources/lecture-25-neoliberalism-and-the-end-of-history-part-6-populism-big-data-facebook-dark-posts/index.html"
+                    "htmlFile": [
+                        "resources/lecture-25-neoliberalism-and-the-end-of-history-part-6-populism-big-data-facebook-dark-posts/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 25: Neoliberalism and the End of History - Part 7: Human Rights and Voting Rights",
@@ -147,7 +175,9 @@
                     "youtubeKey": "-Cve_SI6LQs",
                     "contentLength": 28693688,
                     "captionsFile": "/courses/24-912-black-matters-introduction-to-black-studies-spring-2017/bd3f34073911524cbec8dff9c047a1b7_-Cve_SI6LQs.vtt",
-                    "htmlFile": "resources/lecture-25-neoliberalism-and-the-end-of-history-part-7-human-rights-and-voting-rights/index.html"
+                    "htmlFile": [
+                        "resources/lecture-25-neoliberalism-and-the-end-of-history-part-7-human-rights-and-voting-rights/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 25: Neoliberalism and the End of History - Part 8: What Can We Do?",
@@ -155,7 +185,9 @@
                     "youtubeKey": "aSk7YbhON_0",
                     "contentLength": 21084487,
                     "captionsFile": "/courses/24-912-black-matters-introduction-to-black-studies-spring-2017/a59dac69196454f28dabf944d728cdd4_aSk7YbhON_0.vtt",
-                    "htmlFile": "resources/lecture-25-neoliberalism-and-the-end-of-history-part-8-what-can-we-do/index.html"
+                    "htmlFile": [
+                        "resources/lecture-25-neoliberalism-and-the-end-of-history-part-8-what-can-we-do/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 26, Part 1: Student Presentation \"Language, Resistance and Liberation\"",
@@ -163,7 +195,9 @@
                     "youtubeKey": "apWRSZbJCyM",
                     "contentLength": 82880119,
                     "captionsFile": "/courses/24-912-black-matters-introduction-to-black-studies-spring-2017/1af16dc7852e5e678cd50c09dbbf49e8_apWRSZbJCyM.vtt",
-                    "htmlFile": "resources/lecture-26-part-1-student-presentation-language-resistance-and-liberation/index.html"
+                    "htmlFile": [
+                        "resources/lecture-26-part-1-student-presentation-language-resistance-and-liberation/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 26, Part 2: Student Perspectives on the Course",
@@ -171,7 +205,9 @@
                     "youtubeKey": "f9YGQZVxJ9I",
                     "contentLength": 92805977,
                     "captionsFile": "/courses/24-912-black-matters-introduction-to-black-studies-spring-2017/87175f5bf7695d36957ce18951d51c86_f9YGQZVxJ9I.vtt",
-                    "htmlFile": "resources/lecture-26-part-2-student-perspectives-on-the-course/index.html"
+                    "htmlFile": [
+                        "resources/lecture-26-part-2-student-perspectives-on-the-course/index.html"
+                    ]
                 },
                 {
                     "title": "Leveraging the Humanities to Break Walls and Build Bridges",
@@ -179,7 +215,9 @@
                     "youtubeKey": "HF4hKftgWxg",
                     "contentLength": 5646780,
                     "captionsFile": "/courses/24-912-black-matters-introduction-to-black-studies-spring-2017/5e796c8d772d55abbd9996656637b0b8_HF4hKftgWxg.vtt",
-                    "htmlFile": "resources/leveraging-the-humanities-to-break-walls-and-build-bridges/index.html"
+                    "htmlFile": [
+                        "resources/leveraging-the-humanities-to-break-walls-and-build-bridges/index.html"
+                    ]
                 },
                 {
                     "title": "Political Context for the Course",
@@ -187,7 +225,9 @@
                     "youtubeKey": "RMONbz_0-Rk",
                     "contentLength": 6529154,
                     "captionsFile": "/courses/24-912-black-matters-introduction-to-black-studies-spring-2017/276174dbb9e25d4f93f8c4b8e4dd492f_RMONbz_0-Rk.vtt",
-                    "htmlFile": "resources/political-context-for-the-course/index.html"
+                    "htmlFile": [
+                        "resources/political-context-for-the-course/index.html"
+                    ]
                 },
                 {
                     "title": "Teaching a Wider Audience",
@@ -195,7 +235,9 @@
                     "youtubeKey": "5iD590uppi8",
                     "contentLength": 6730432,
                     "captionsFile": "/courses/24-912-black-matters-introduction-to-black-studies-spring-2017/a049690d6c9450f6a35467b48c640cfa_5iD590uppi8.vtt",
-                    "htmlFile": "resources/teaching-a-wider-audience/index.html"
+                    "htmlFile": [
+                        "resources/teaching-a-wider-audience/index.html"
+                    ]
                 },
                 {
                     "title": "Unlocking Knowledge through MIT OpenCourseWare",
@@ -203,7 +245,9 @@
                     "youtubeKey": "axW7DSLHO8U",
                     "contentLength": 6169499,
                     "captionsFile": "/courses/24-912-black-matters-introduction-to-black-studies-spring-2017/34dd13584ec1562ba14fb787053cf9a9_axW7DSLHO8U.vtt",
-                    "htmlFile": "resources/unlocking-knowledge-through-mit-opencourseware/index.html"
+                    "htmlFile": [
+                        "resources/unlocking-knowledge-through-mit-opencourseware/index.html"
+                    ]
                 }
             ]
         }

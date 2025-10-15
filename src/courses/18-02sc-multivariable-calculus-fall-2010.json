@@ -32,7 +32,9 @@
                     "youtubeKey": "2y4tCiWbVRI",
                     "contentLength": 21169310,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/568a087438235b4fbb461446c6c8b672_2y4tCiWbVRI.vtt",
-                    "htmlFile": "resources/recitation-introduction/index.html"
+                    "htmlFile": [
+                        "resources/recitation-introduction/index.html"
+                    ]
                 },
                 {
                     "title": "Session 1: Coordinate Free Proofs: Centroid of a Triangle",
@@ -40,7 +42,9 @@
                     "youtubeKey": "AYixF5nY3Vc",
                     "contentLength": 26048860,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/ee34b06af846562b840d750d0d346630_AYixF5nY3Vc.vtt",
-                    "htmlFile": "resources/coordinate-free-proofs-centroid-of-a-triangle/index.html"
+                    "htmlFile": [
+                        "resources/coordinate-free-proofs-centroid-of-a-triangle/index.html"
+                    ]
                 },
                 {
                     "title": "Session 3: Dot Products and Angles",
@@ -48,7 +52,9 @@
                     "youtubeKey": "hfyluFvlZ-o",
                     "contentLength": 20247060,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/63a59db914215c1ab5d46001e7440862_hfyluFvlZ-o.vtt",
-                    "htmlFile": "resources/dot-products-and-angles/index.html"
+                    "htmlFile": [
+                        "resources/dot-products-and-angles/index.html"
+                    ]
                 },
                 {
                     "title": "Session 4: Components of a Vector",
@@ -56,7 +62,9 @@
                     "youtubeKey": "4kPz8aqm5yE",
                     "contentLength": 11838632,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/006f7e0031ef54dcbc7e395f8873bce0_4kPz8aqm5yE.vtt",
-                    "htmlFile": "resources/components-of-a-vector/index.html"
+                    "htmlFile": [
+                        "resources/components-of-a-vector/index.html"
+                    ]
                 },
                 {
                     "title": "Session 5: Area of a Parallelogram",
@@ -64,7 +72,9 @@
                     "youtubeKey": "oET16XXfcCI",
                     "contentLength": 7862706,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/52004e0578cd5def9a5789c2b2f17a20_oET16XXfcCI.vtt",
-                    "htmlFile": "resources/area-of-a-parallelogram/index.html"
+                    "htmlFile": [
+                        "resources/area-of-a-parallelogram/index.html"
+                    ]
                 },
                 {
                     "title": "Session 6: Determinants",
@@ -72,7 +82,9 @@
                     "youtubeKey": "PxkEoEbCJT8",
                     "contentLength": 10920991,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/5dbc651b687d5bc0afbc64be5354a26f_PxkEoEbCJT8.vtt",
-                    "htmlFile": "resources/determinants/index.html"
+                    "htmlFile": [
+                        "resources/determinants/index.html"
+                    ]
                 },
                 {
                     "title": "Session 6: Volume of a Parallelepiped",
@@ -80,7 +92,9 @@
                     "youtubeKey": "QCGJVKaCDuI",
                     "contentLength": 6809655,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/335c482dc6fd5fb8b8c1f0f6f8251afc_QCGJVKaCDuI.vtt",
-                    "htmlFile": "resources/volume-of-a-parallelepiped/index.html"
+                    "htmlFile": [
+                        "resources/volume-of-a-parallelepiped/index.html"
+                    ]
                 },
                 {
                     "title": "Session 7: Area Using Cross Product",
@@ -88,7 +102,9 @@
                     "youtubeKey": "QHaAoQQy07I",
                     "contentLength": 11621620,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/b55236e386685f1cb819bb24aa50e231_QHaAoQQy07I.vtt",
-                    "htmlFile": "resources/area-using-cross-product/index.html"
+                    "htmlFile": [
+                        "resources/area-using-cross-product/index.html"
+                    ]
                 },
                 {
                     "title": "Session 9: Matrix Multiplication Practice",
@@ -96,7 +112,9 @@
                     "youtubeKey": "P6fOgkC5kvc",
                     "contentLength": 24824051,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/622c1e2f44de5f04a7a4b8c39b1ab4b3_P6fOgkC5kvc.vtt",
-                    "htmlFile": "resources/matrix-multiplication-practice/index.html"
+                    "htmlFile": [
+                        "resources/matrix-multiplication-practice/index.html"
+                    ]
                 },
                 {
                     "title": "Session 11: Solve a Linear System Using Matrices",
@@ -104,7 +122,9 @@
                     "youtubeKey": "6T13yRjtd-o",
                     "contentLength": 41968605,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/adbca1ffa6f256e689a17e71b0a68418_6T13yRjtd-o.vtt",
-                    "htmlFile": "resources/solve-a-linear-system-using-matrices/index.html"
+                    "htmlFile": [
+                        "resources/solve-a-linear-system-using-matrices/index.html"
+                    ]
                 },
                 {
                     "title": "Session 12: Distance of a Point to a Plane",
@@ -112,7 +132,9 @@
                     "youtubeKey": "SgJo7_4mp6w",
                     "contentLength": 19091630,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/d694cbdee44d58f08ff782baac132c1d_SgJo7_4mp6w.vtt",
-                    "htmlFile": "resources/distance-of-a-point-to-a-plane/index.html"
+                    "htmlFile": [
+                        "resources/distance-of-a-point-to-a-plane/index.html"
+                    ]
                 },
                 {
                     "title": "Session 12: Equations of Planes",
@@ -120,7 +142,9 @@
                     "youtubeKey": "XmQM5pHxX-o",
                     "contentLength": 32151777,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/09b6e290fce25206b90f392597cd8f3f_XmQM5pHxX-o.vtt",
-                    "htmlFile": "resources/equations-of-planes/index.html"
+                    "htmlFile": [
+                        "resources/equations-of-planes/index.html"
+                    ]
                 },
                 {
                     "title": "Session 14: Systems of Linear Equations",
@@ -128,7 +152,9 @@
                     "youtubeKey": "BbNMKMicWy8",
                     "contentLength": 27793391,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/33d19e18e98c551e8fcfc54ff6a076c8_BbNMKMicWy8.vtt",
-                    "htmlFile": "resources/systems-of-linear-equations/index.html"
+                    "htmlFile": [
+                        "resources/systems-of-linear-equations/index.html"
+                    ]
                 },
                 {
                     "title": "Session 15: Parametrized Lines and Intersections",
@@ -136,7 +162,9 @@
                     "youtubeKey": "dUk_I1E5QxY",
                     "contentLength": 19736737,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/c50ff23b28ad5134aaed7d6d866b1a21_dUk_I1E5QxY.vtt",
-                    "htmlFile": "resources/parametrized-lines-and-intersections/index.html"
+                    "htmlFile": [
+                        "resources/parametrized-lines-and-intersections/index.html"
+                    ]
                 },
                 {
                     "title": "Session 16: Parametric Line Intersecting a Plane",
@@ -144,7 +172,9 @@
                     "youtubeKey": "rtEaK_Jp7zU",
                     "contentLength": 18667660,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/169253a64f6655379e6c001e73896bd9_rtEaK_Jp7zU.vtt",
-                    "htmlFile": "resources/parametric-line-intersecting-a-plane/index.html"
+                    "htmlFile": [
+                        "resources/parametric-line-intersecting-a-plane/index.html"
+                    ]
                 },
                 {
                     "title": "Session 19: Differentiating a Vector Valued Function",
@@ -152,7 +182,9 @@
                     "youtubeKey": "evxReCLA-fU",
                     "contentLength": 32666039,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/18f6f6988fcd55cdaef78d14d46a662b_evxReCLA-fU.vtt",
-                    "htmlFile": "resources/differentiating-a-vector-valued-function/index.html"
+                    "htmlFile": [
+                        "resources/differentiating-a-vector-valued-function/index.html"
+                    ]
                 },
                 {
                     "title": "Session 20: Parametric Curves: Velocity, Acceleration, Length",
@@ -160,7 +192,9 @@
                     "youtubeKey": "u9YrIxLZJ6s",
                     "contentLength": 19381119,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/c9d6ab28b04654a982c6a7ddf3822e8f_u9YrIxLZJ6s.vtt",
-                    "htmlFile": "resources/parametric-curves-velocity-acceleration-length/index.html"
+                    "htmlFile": [
+                        "resources/parametric-curves-velocity-acceleration-length/index.html"
+                    ]
                 },
                 {
                     "title": "Session 24: Graphing Surfaces",
@@ -168,7 +202,9 @@
                     "youtubeKey": "f2KsJBClJ1g",
                     "contentLength": 18021930,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/833c376e4a1455f393280017738b5eea_f2KsJBClJ1g.vtt",
-                    "htmlFile": "resources/graphing-surfaces/index.html"
+                    "htmlFile": [
+                        "resources/graphing-surfaces/index.html"
+                    ]
                 },
                 {
                     "title": "Session 25: Level Curves",
@@ -176,7 +212,9 @@
                     "youtubeKey": "uaHiAxFESc4",
                     "contentLength": 24177830,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/047f023108cc5f91899c4f4c4aa211dd_uaHiAxFESc4.vtt",
-                    "htmlFile": "resources/level-curves/index.html"
+                    "htmlFile": [
+                        "resources/level-curves/index.html"
+                    ]
                 },
                 {
                     "title": "Session 25: Level Curves and Critical Points",
@@ -184,7 +222,9 @@
                     "youtubeKey": "gzbWF-IdscE",
                     "contentLength": 19458632,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/b1450919c077592ca004a5f9ab667136_gzbWF-IdscE.vtt",
-                    "htmlFile": "resources/level-curves-and-critical-points/index.html"
+                    "htmlFile": [
+                        "resources/level-curves-and-critical-points/index.html"
+                    ]
                 },
                 {
                     "title": "Session 26: Partial Derivatives",
@@ -192,7 +232,9 @@
                     "youtubeKey": "KnVNFj53Eq4",
                     "contentLength": 12281873,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/6868187899175e6a9968a2538103731d_KnVNFj53Eq4.vtt",
-                    "htmlFile": "resources/partial-derivatives/index.html"
+                    "htmlFile": [
+                        "resources/partial-derivatives/index.html"
+                    ]
                 },
                 {
                     "title": "Session 27: Tangent Plane Approximation",
@@ -200,7 +242,9 @@
                     "youtubeKey": "idNIKTaBEaI",
                     "contentLength": 16039256,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/9267860705625d19b5bf4310754d2d4a_idNIKTaBEaI.vtt",
-                    "htmlFile": "resources/tangent-plane-approximation/index.html"
+                    "htmlFile": [
+                        "resources/tangent-plane-approximation/index.html"
+                    ]
                 },
                 {
                     "title": "Session 29: Least Squares",
@@ -208,7 +252,9 @@
                     "youtubeKey": "YwZYSTQs-Hk",
                     "contentLength": 20998123,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/fa0ac16d81065fafbe39bad38e2db0d6_YwZYSTQs-Hk.vtt",
-                    "htmlFile": "resources/least-squares/index.html"
+                    "htmlFile": [
+                        "resources/least-squares/index.html"
+                    ]
                 },
                 {
                     "title": "Session 30: Second Derivative Test",
@@ -216,7 +262,9 @@
                     "youtubeKey": "oQgHo7acids",
                     "contentLength": 20031163,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/21dfeadc0569520083698b64bc86b14f_oQgHo7acids.vtt",
-                    "htmlFile": "resources/second-derivative-test/index.html"
+                    "htmlFile": [
+                        "resources/second-derivative-test/index.html"
+                    ]
                 },
                 {
                     "title": "Session 31: Max/Min",
@@ -224,7 +272,9 @@
                     "youtubeKey": "ImzS_gSbjK4",
                     "contentLength": 32399906,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/9d9591f17fc559a7a15d446d27438c2e_ImzS_gSbjK4.vtt",
-                    "htmlFile": "resources/max-min/index.html"
+                    "htmlFile": [
+                        "resources/max-min/index.html"
+                    ]
                 },
                 {
                     "title": "Session 34: Total Differentials and the Chain Rule",
@@ -232,7 +282,9 @@
                     "youtubeKey": "2bF6H_xu0ao",
                     "contentLength": 26721346,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/6c5209474f6d5dcf93707d254b8ae3bd_2bF6H_xu0ao.vtt",
-                    "htmlFile": "resources/total-differentials-and-the-chain-rule/index.html"
+                    "htmlFile": [
+                        "resources/total-differentials-and-the-chain-rule/index.html"
+                    ]
                 },
                 {
                     "title": "Session 37: Tangent Planes",
@@ -240,7 +292,9 @@
                     "youtubeKey": "6paZkmBMZwQ",
                     "contentLength": 20875167,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/1aae8432fdf55187b99861d0032c4981_6paZkmBMZwQ.vtt",
-                    "htmlFile": "resources/tangent-planes/index.html"
+                    "htmlFile": [
+                        "resources/tangent-planes/index.html"
+                    ]
                 },
                 {
                     "title": "Session 38: Gradient and Directional Derivative",
@@ -248,7 +302,9 @@
                     "youtubeKey": "XZ1QwS1IKgw",
                     "contentLength": 31415265,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/be92a2289ab157eba2cfa00cc1d5a106_XZ1QwS1IKgw.vtt",
-                    "htmlFile": "resources/gradient-and-directional-derivative/index.html"
+                    "htmlFile": [
+                        "resources/gradient-and-directional-derivative/index.html"
+                    ]
                 },
                 {
                     "title": "Session 39: Lagrange Multipliers",
@@ -256,7 +312,9 @@
                     "youtubeKey": "HyqBcD_e_Uw",
                     "contentLength": 23852322,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/2975b887af3c5e9eb5961c4169ad5d27_HyqBcD_e_Uw.vtt",
-                    "htmlFile": "resources/lagrange-multipliers/index.html"
+                    "htmlFile": [
+                        "resources/lagrange-multipliers/index.html"
+                    ]
                 },
                 {
                     "title": "Session 41: Lagrange Multipliers (3 Variables)",
@@ -264,7 +322,9 @@
                     "youtubeKey": "nDuS5uQ7-lo",
                     "contentLength": 30781040,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/1f749cefd16158308d4c36d198022797_nDuS5uQ7-lo.vtt",
-                    "htmlFile": "resources/lagrange-multipliers-3-variables/index.html"
+                    "htmlFile": [
+                        "resources/lagrange-multipliers-3-variables/index.html"
+                    ]
                 },
                 {
                     "title": "Session 43: The Chain Rule with Constraints",
@@ -272,7 +332,9 @@
                     "youtubeKey": "U91touR6_UY",
                     "contentLength": 35323479,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/ecb594f5714a56bbaea523ed97afdfbf_U91touR6_UY.vtt",
-                    "htmlFile": "resources/the-chain-rule-with-constraints/index.html"
+                    "htmlFile": [
+                        "resources/the-chain-rule-with-constraints/index.html"
+                    ]
                 },
                 {
                     "title": "Session 44: Gradients - Composition",
@@ -280,7 +342,9 @@
                     "youtubeKey": "j9GZjr05Heg",
                     "contentLength": 24052828,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/53e4794afb4355bf956103b0c20e6c48_j9GZjr05Heg.vtt",
-                    "htmlFile": "resources/gradients-composition/index.html"
+                    "htmlFile": [
+                        "resources/gradients-composition/index.html"
+                    ]
                 },
                 {
                     "title": "Session 48: Regions of Integration",
@@ -288,7 +352,9 @@
                     "youtubeKey": "BefxsWy1HqY",
                     "contentLength": 41134460,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/0665e8bca1e45b32bdbee12bbc28178f_BefxsWy1HqY.vtt",
-                    "htmlFile": "resources/regions-of-integration/index.html"
+                    "htmlFile": [
+                        "resources/regions-of-integration/index.html"
+                    ]
                 },
                 {
                     "title": "Session 49: Changing the Order of Integration",
@@ -296,7 +362,9 @@
                     "youtubeKey": "p06QDsAPY4g",
                     "contentLength": 14030334,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/6cbe8f6aab0c5b33a807dc2671e1f7c6_p06QDsAPY4g.vtt",
-                    "htmlFile": "resources/changing-the-order-of-integration/index.html"
+                    "htmlFile": [
+                        "resources/changing-the-order-of-integration/index.html"
+                    ]
                 },
                 {
                     "title": "Session 50: Integration in Polar Coordinates",
@@ -304,7 +372,9 @@
                     "youtubeKey": "I2Z6K_g5kpc",
                     "contentLength": 40699943,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/501044e6a83a5e9099326b1720692ed5_I2Z6K_g5kpc.vtt",
-                    "htmlFile": "resources/integration-in-polar-coordinates/index.html"
+                    "htmlFile": [
+                        "resources/integration-in-polar-coordinates/index.html"
+                    ]
                 },
                 {
                     "title": "Session 52: Integrals with Density",
@@ -312,7 +382,9 @@
                     "youtubeKey": "-pr1TLyPyDw",
                     "contentLength": 36148064,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/006bbf4a002a5543ad7ed54a05bff565_-pr1TLyPyDw.vtt",
-                    "htmlFile": "resources/integrals-with-density/index.html"
+                    "htmlFile": [
+                        "resources/integrals-with-density/index.html"
+                    ]
                 },
                 {
                     "title": "Session 53: Change of Variables",
@@ -320,7 +392,9 @@
                     "youtubeKey": "lCKxeRiBdjQ",
                     "contentLength": 21501972,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/094e4ccabf3d59df804bbb450e94814b_lCKxeRiBdjQ.vtt",
-                    "htmlFile": "resources/change-of-variables/index.html"
+                    "htmlFile": [
+                        "resources/change-of-variables/index.html"
+                    ]
                 },
                 {
                     "title": "Session 54: Integral of exp(-x<sup>2</sup>)",
@@ -328,7 +402,9 @@
                     "youtubeKey": "fWOGfzC3IeY",
                     "contentLength": 22157572,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/ab32ec1d51aa5e44b8dc240727b92e98_fWOGfzC3IeY.vtt",
-                    "htmlFile": "resources/integral-of-exp-x-sup-2-sup/index.html"
+                    "htmlFile": [
+                        "resources/integral-of-exp-x-sup-2-sup/index.html"
+                    ]
                 },
                 {
                     "title": "Session 55: Change of Variables",
@@ -336,7 +412,9 @@
                     "youtubeKey": "G534bz09B4A",
                     "contentLength": 46408882,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/1930e9b310695a89bad55602381b4867_G534bz09B4A.vtt",
-                    "htmlFile": "resources/change-of-variables-1/index.html"
+                    "htmlFile": [
+                        "resources/change-of-variables-1/index.html"
+                    ]
                 },
                 {
                     "title": "Session 57 Line Integrals: Parametrization Independence",
@@ -344,7 +422,9 @@
                     "youtubeKey": "tkAgpKg-tPs",
                     "contentLength": 28795714,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/b4342b2f945c543f8f177a15400e64c4_tkAgpKg-tPs.vtt",
-                    "htmlFile": "resources/line-integrals-parametrization-independence/index.html"
+                    "htmlFile": [
+                        "resources/line-integrals-parametrization-independence/index.html"
+                    ]
                 },
                 {
                     "title": "Session 58 Line Integrals: Path Dependence",
@@ -352,7 +432,9 @@
                     "youtubeKey": "gBuIwfdoOn0",
                     "contentLength": 35705092,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/13c0b94eba4450b1bf3eaf59de4a1011_gBuIwfdoOn0.vtt",
-                    "htmlFile": "resources/line-integrals-path-dependence/index.html"
+                    "htmlFile": [
+                        "resources/line-integrals-path-dependence/index.html"
+                    ]
                 },
                 {
                     "title": "Session 58: Line Integrals by Geometric Reasoning",
@@ -360,7 +442,9 @@
                     "youtubeKey": "ocdM30Wm_8g",
                     "contentLength": 24498783,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/78c3f3e68225588e94e090cbf0813073_ocdM30Wm_8g.vtt",
-                    "htmlFile": "resources/line-integrals-by-geometric-reasoning/index.html"
+                    "htmlFile": [
+                        "resources/line-integrals-by-geometric-reasoning/index.html"
+                    ]
                 },
                 {
                     "title": "Session 60: Fundamental Theorem of Line Integrals",
@@ -368,7 +452,9 @@
                     "youtubeKey": "9rVojYcPeoU",
                     "contentLength": 25856187,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/9f402a82fe4958b39349c72eeb3cb125_9rVojYcPeoU.vtt",
-                    "htmlFile": "resources/fundamental-theorem-of-line-integrals/index.html"
+                    "htmlFile": [
+                        "resources/fundamental-theorem-of-line-integrals/index.html"
+                    ]
                 },
                 {
                     "title": "Session 63: Potentials of Gradient Fields",
@@ -376,7 +462,9 @@
                     "youtubeKey": "Tgk9wURblAw",
                     "contentLength": 26391126,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/71df808a58f856e18d6a5f7adee3cc77_Tgk9wURblAw.vtt",
-                    "htmlFile": "resources/potentials-of-gradient-fields/index.html"
+                    "htmlFile": [
+                        "resources/potentials-of-gradient-fields/index.html"
+                    ]
                 },
                 {
                     "title": "Session 65: Green's Theorem: An Off Center Circle",
@@ -384,7 +472,9 @@
                     "youtubeKey": "jUrPIbJWpOA",
                     "contentLength": 17374867,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/582c1db3feab5699838e9a1aa2ac2061_jUrPIbJWpOA.vtt",
-                    "htmlFile": "resources/greens-theorem-an-off-center-circle/index.html"
+                    "htmlFile": [
+                        "resources/greens-theorem-an-off-center-circle/index.html"
+                    ]
                 },
                 {
                     "title": "Session 68 Green's Theorem: Area Under an Arch",
@@ -392,7 +482,9 @@
                     "youtubeKey": "KXof0q88xbg",
                     "contentLength": 19881614,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/b446b5486b165132b6e07e6bfbc6ca42_KXof0q88xbg.vtt",
-                    "htmlFile": "resources/greens-theorem-area-under-an-arch/index.html"
+                    "htmlFile": [
+                        "resources/greens-theorem-area-under-an-arch/index.html"
+                    ]
                 },
                 {
                     "title": "Session 68: Application of Green's Theorem",
@@ -400,7 +492,9 @@
                     "youtubeKey": "grns_GNYWe4",
                     "contentLength": 16840652,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/5805e234d1c15e9baede51109ecea882_grns_GNYWe4.vtt",
-                    "htmlFile": "resources/application-of-greens-theorem/index.html"
+                    "htmlFile": [
+                        "resources/application-of-greens-theorem/index.html"
+                    ]
                 },
                 {
                     "title": "Session 69: Flux Across a Curve",
@@ -408,7 +502,9 @@
                     "youtubeKey": "mEI7ACWmx_8",
                     "contentLength": 33362969,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/9cd2e02d55ee576db3c8c65317b478c3_mEI7ACWmx_8.vtt",
-                    "htmlFile": "resources/flux-across-a-curve/index.html"
+                    "htmlFile": [
+                        "resources/flux-across-a-curve/index.html"
+                    ]
                 },
                 {
                     "title": "Session 70: Green's Theorem in Normal Form",
@@ -416,7 +512,9 @@
                     "youtubeKey": "1ye7dm9aUj0",
                     "contentLength": 25433643,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/69495e2654d2582b93d1cbcd8763f80a_1ye7dm9aUj0.vtt",
-                    "htmlFile": "resources/greens-theorem-in-normal-form/index.html"
+                    "htmlFile": [
+                        "resources/greens-theorem-in-normal-form/index.html"
+                    ]
                 },
                 {
                     "title": "Session 71: Extended Green's Theorem",
@@ -424,7 +522,9 @@
                     "youtubeKey": "sy7dx_qzQak",
                     "contentLength": 54291068,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/e6b6ff8c4504504c9b3f2639417fb151_sy7dx_qzQak.vtt",
-                    "htmlFile": "resources/extended-greens-theorem/index.html"
+                    "htmlFile": [
+                        "resources/extended-greens-theorem/index.html"
+                    ]
                 },
                 {
                     "title": "Session 72: Domains of Vector Fields",
@@ -432,7 +532,9 @@
                     "youtubeKey": "YWvBaLokEJY",
                     "contentLength": 31738738,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/cd844a17c9bb5acf883f5008ab5307ab_YWvBaLokEJY.vtt",
-                    "htmlFile": "resources/domains-of-vector-fields/index.html"
+                    "htmlFile": [
+                        "resources/domains-of-vector-fields/index.html"
+                    ]
                 },
                 {
                     "title": "Session 74: Volume in Cylindrical Coordinates",
@@ -440,7 +542,9 @@
                     "youtubeKey": "qA83eznsKp8",
                     "contentLength": 41675206,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/880de5cfd90c5c9ebad6553c259de03d_qA83eznsKp8.vtt",
-                    "htmlFile": "resources/volume-in-cylindrical-coordinates/index.html"
+                    "htmlFile": [
+                        "resources/volume-in-cylindrical-coordinates/index.html"
+                    ]
                 },
                 {
                     "title": "Session 75: Average Height",
@@ -448,7 +552,9 @@
                     "youtubeKey": "cbSkFpO2jgQ",
                     "contentLength": 34005346,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/a4c17e2cffb45d29a39c4fe40df48aee_cbSkFpO2jgQ.vtt",
-                    "htmlFile": "resources/average-height/index.html"
+                    "htmlFile": [
+                        "resources/average-height/index.html"
+                    ]
                 },
                 {
                     "title": "Session 75: Moment of Inertia of a Cylinder",
@@ -456,7 +562,9 @@
                     "youtubeKey": "iYFogDTPlRo",
                     "contentLength": 23139043,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/1906a4312360504289f97d86d2257f1b_iYFogDTPlRo.vtt",
-                    "htmlFile": "resources/moment-of-inertia-of-a-cylinder/index.html"
+                    "htmlFile": [
+                        "resources/moment-of-inertia-of-a-cylinder/index.html"
+                    ]
                 },
                 {
                     "title": "Session 77: Average Distance on a Sphere",
@@ -464,7 +572,9 @@
                     "youtubeKey": "RoTz_ylFHfY",
                     "contentLength": 30100154,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/5ee498d5096a531c838fda22209c4bad_RoTz_ylFHfY.vtt",
-                    "htmlFile": "resources/average-distance-on-a-sphere/index.html"
+                    "htmlFile": [
+                        "resources/average-distance-on-a-sphere/index.html"
+                    ]
                 },
                 {
                     "title": "Session 78: Gravity and a Half-Sphere",
@@ -472,7 +582,9 @@
                     "youtubeKey": "jAwWnppdcBE",
                     "contentLength": 26124355,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/d7058d426dd25ef7b4d97e44ac2d25c4_jAwWnppdcBE.vtt",
-                    "htmlFile": "resources/gravity-and-a-half-sphere/index.html"
+                    "htmlFile": [
+                        "resources/gravity-and-a-half-sphere/index.html"
+                    ]
                 },
                 {
                     "title": "Session 80: Flux Through Easy Surfaces",
@@ -480,7 +592,9 @@
                     "youtubeKey": "AYisLr9e0y4",
                     "contentLength": 15647451,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/11e2461e398154ecb1187441501e330b_AYisLr9e0y4.vtt",
-                    "htmlFile": "resources/flux-through-easy-surfaces/index.html"
+                    "htmlFile": [
+                        "resources/flux-through-easy-surfaces/index.html"
+                    ]
                 },
                 {
                     "title": "Session 81: Flux Through a Square",
@@ -488,7 +602,9 @@
                     "youtubeKey": "MosaZngFjZY",
                     "contentLength": 23271993,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/d10ca0f266bd501087dc03ba2c7b2bab_MosaZngFjZY.vtt",
-                    "htmlFile": "resources/flux-through-a-square-1/index.html"
+                    "htmlFile": [
+                        "resources/flux-through-a-square-1/index.html"
+                    ]
                 },
                 {
                     "title": "Session 81: Flux Through Surfaces",
@@ -496,7 +612,9 @@
                     "youtubeKey": "-PGcTRLh1u4",
                     "contentLength": 26263761,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/ead08265e83a57b58e428e33b757b307_-PGcTRLh1u4.vtt",
-                    "htmlFile": "resources/flux-through-a-square/index.html"
+                    "htmlFile": [
+                        "resources/flux-through-a-square/index.html"
+                    ]
                 },
                 {
                     "title": "Session 84: Extended Gauss' Theorem",
@@ -504,7 +622,9 @@
                     "youtubeKey": "WwBaQCy4jfk",
                     "contentLength": 44006293,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/67f6b935ba27576fb5c946dda51da6be_WwBaQCy4jfk.vtt",
-                    "htmlFile": "resources/extended-gauss-theorem/index.html"
+                    "htmlFile": [
+                        "resources/extended-gauss-theorem/index.html"
+                    ]
                 },
                 {
                     "title": "Session 84: Flux",
@@ -512,7 +632,9 @@
                     "youtubeKey": "E8aYX_mW2DA",
                     "contentLength": 26280736,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/d8e3b40041b252b8a5e348eac9b70267_E8aYX_mW2DA.vtt",
-                    "htmlFile": "resources/flux/index.html"
+                    "htmlFile": [
+                        "resources/flux/index.html"
+                    ]
                 },
                 {
                     "title": "Session 84: Flux and the Divergence Theorem",
@@ -520,7 +642,9 @@
                     "youtubeKey": "CCoTAyZ14XM",
                     "contentLength": 27866541,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/78c777bec50c5543869c26bf10fe0a44_CCoTAyZ14XM.vtt",
-                    "htmlFile": "resources/flux-and-the-divergence-theorem/index.html"
+                    "htmlFile": [
+                        "resources/flux-and-the-divergence-theorem/index.html"
+                    ]
                 },
                 {
                     "title": "Session 85: Del and the Product Rule",
@@ -528,7 +652,9 @@
                     "youtubeKey": "_5fpxkVFQUw",
                     "contentLength": 19703626,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/b08af44066985396bd9ae22abb024c12_5fpxkVFQUw.vtt",
-                    "htmlFile": "resources/del-and-the-product-rule/index.html"
+                    "htmlFile": [
+                        "resources/del-and-the-product-rule/index.html"
+                    ]
                 },
                 {
                     "title": "Session 88: Line Integral on a Helix",
@@ -536,7 +662,9 @@
                     "youtubeKey": "YmAMEi-Faz8",
                     "contentLength": 26198107,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/320585ff933a5736bd1f1cc8ef64d576_YmAMEi-Faz8.vtt",
-                    "htmlFile": "resources/line-integral-on-a-helix/index.html"
+                    "htmlFile": [
+                        "resources/line-integral-on-a-helix/index.html"
+                    ]
                 },
                 {
                     "title": "Session 90: Conservative Fields and Exact Differentials",
@@ -544,7 +672,9 @@
                     "youtubeKey": "IYlzo-bxrqs",
                     "contentLength": 34617420,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/741beca639e7546ea4359ee4fb197801_IYlzo-bxrqs.vtt",
-                    "htmlFile": "resources/conservative-fields-and-exact-differentials/index.html"
+                    "htmlFile": [
+                        "resources/conservative-fields-and-exact-differentials/index.html"
+                    ]
                 },
                 {
                     "title": "Session 91: Stokes' Theorem",
@@ -552,7 +682,9 @@
                     "youtubeKey": "2ieG1ka5pBw",
                     "contentLength": 40867384,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/da31e0b1e9b85fd19aba597034fafe7a_2ieG1ka5pBw.vtt",
-                    "htmlFile": "resources/stokes-theorem/index.html"
+                    "htmlFile": [
+                        "resources/stokes-theorem/index.html"
+                    ]
                 },
                 {
                     "title": "Session 93: Extended Stokes' Theorem",
@@ -560,7 +692,9 @@
                     "youtubeKey": "7w1qqEUwn2k",
                     "contentLength": 36459109,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/103d591eb8e553ecadce44d3dfc6b0c9_7w1qqEUwn2k.vtt",
-                    "htmlFile": "resources/extended-stokes-theorem/index.html"
+                    "htmlFile": [
+                        "resources/extended-stokes-theorem/index.html"
+                    ]
                 },
                 {
                     "title": "Session 94: More Stokes' Theorem",
@@ -568,7 +702,9 @@
                     "youtubeKey": "vnWXYI4UQrs",
                     "contentLength": 19385009,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/1437cbdeeb2f5c55ba0c6da50c73245e_vnWXYI4UQrs.vtt",
-                    "htmlFile": "resources/more-stokes-theorem/index.html"
+                    "htmlFile": [
+                        "resources/more-stokes-theorem/index.html"
+                    ]
                 },
                 {
                     "title": "Session 94: Simply Connected Regions",
@@ -576,7 +712,9 @@
                     "youtubeKey": "6S3BJSsc72Q",
                     "contentLength": 34486396,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/4c7203d0152555ff9f6c8360d71e2e08_6S3BJSsc72Q.vtt",
-                    "htmlFile": "resources/simply-connected-regions/index.html"
+                    "htmlFile": [
+                        "resources/simply-connected-regions/index.html"
+                    ]
                 },
                 {
                     "title": "Session 95: Consequences of Stokes' Theorem",
@@ -584,7 +722,9 @@
                     "youtubeKey": "2B7e19xi4Sw",
                     "contentLength": 26068992,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/63a4ca3265335ce1b636fb9cd8084ee6_2B7e19xi4Sw.vtt",
-                    "htmlFile": "resources/consequences-of-stokes-theorem/index.html"
+                    "htmlFile": [
+                        "resources/consequences-of-stokes-theorem/index.html"
+                    ]
                 }
             ]
         },
@@ -592,172 +732,430 @@
             "category": "Lecture Videos",
             "videos": [
                 {
-                    "title": "Session 1 Clip: Vectors",
+                    "title": "Lec 1: Dot product | MIT 18.02 Multivariable Calculus, Fall 2007",
                     "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec01_300k.mp4",
                     "youtubeKey": "PxCxlsl_YwY",
                     "contentLength": 89598573,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/PxCxlsl_YwY_captions.vtt",
-                    "htmlFile": "resources/clip-vectors/index.html"
+                    "htmlFile": [
+                        "resources/clip-vectors/index.html",
+                        "resources/copy2_of_clip-lengths-and-angles/index.html",
+                        "resources/clip-dot-products-1/index.html"
+                    ]
                 },
                 {
-                    "title": "Session 7 Clip 1: Cross Products",
+                    "title": "Lec 2: Determinants; cross product | MIT 18.02 Multivariable Calculus, Fall 2007",
                     "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec02_300k.mp4",
                     "youtubeKey": "9FLItlbBUPY",
                     "contentLength": 121780244,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/9FLItlbBUPY_captions.vtt",
-                    "htmlFile": "resources/clip-1-cross-products/index.html"
+                    "htmlFile": [
+                        "resources/clip-1-cross-products/index.html",
+                        "resources/copy2_of_clip-vector-components/index.html",
+                        "resources/clip-area-and-determinants-in-2d/index.html",
+                        "resources/clip-volumes-and-determinants-in-space/index.html"
+                    ]
                 },
                 {
-                    "title": "Session 11 Clip: Matrix Inverses",
+                    "title": "Lec 3: Matrices; inverse matrices | MIT 18.02 Multivariable Calculus, Fall 2007",
                     "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec03_300k.mp4",
                     "youtubeKey": "bHdzkFrgRcA",
                     "contentLength": 119360888,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/bHdzkFrgRcA_captions.vtt",
-                    "htmlFile": "resources/clip-matrix-inverses/index.html"
+                    "htmlFile": [
+                        "resources/clip-matrix-inverses/index.html",
+                        "resources/clip-equations-of-planes/index.html",
+                        "resources/clip-meaning-of-matrix-multiplication/index.html",
+                        "resources/copy2_of_clip-matrix-multiplication/index.html",
+                        "resources/clip-2-more-on-cross-products/index.html"
+                    ]
                 },
                 {
-                    "title": "Session 12 Clip: Equations of Planes",
+                    "title": "Lec 4: Square systems; equations of planes | MIT 18.02 Multivariable Calculus, Fall 2007",
                     "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec04_300k.mp4",
                     "youtubeKey": "YBajUR3EFSM",
                     "contentLength": 113437021,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/YBajUR3EFSM_captions.vtt",
-                    "htmlFile": "resources/clip-equations-of-planes-1/index.html"
+                    "htmlFile": [
+                        "resources/clip-equations-of-planes-1/index.html",
+                        "resources/clip-linear-systems-and-planes/index.html",
+                        "resources/clip-solutions-to-square-systems/index.html"
+                    ]
                 },
                 {
-                    "title": "Session 16 Clip: Intersection of a Line and a Plane",
+                    "title": "Lec 5: Parametric equations for lines and curves | MIT 18.02 Multivariable Calculus, Fall 2007",
                     "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec05_300k.mp4",
                     "youtubeKey": "57jzPlxf4fk",
                     "contentLength": 117974355,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/57jzPlxf4fk_captions.vtt",
-                    "htmlFile": "resources/clip-intersection-of-a-line-and-a-plane/index.html"
+                    "htmlFile": [
+                        "resources/clip-intersection-of-a-line-and-a-plane/index.html",
+                        "resources/clip-equations-of-lines/index.html",
+                        "resources/clip-general-parametric-equations-and-the-cycloid/index.html",
+                        "resources/clip-point-cusp-of-a-cycloid/index.html"
+                    ]
                 },
                 {
-                    "title": "Session 19 Clip: Velocity and Acceleration",
+                    "title": "Lec 6: Velocity, acceleration; Kepler's second law | MIT 18.02 Multivariable Calculus, Fall 2007",
                     "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec06_300k.mp4",
                     "youtubeKey": "0D4BbCa4gHo",
                     "contentLength": 110886862,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/0D4BbCa4gHo_captions.vtt",
-                    "htmlFile": "resources/clip-velocity-and-acceleration/index.html"
+                    "htmlFile": [
+                        "resources/clip-velocity-and-acceleration/index.html",
+                        "resources/clip-velocity-and-arc-length/index.html",
+                        "resources/clip-keplers-second-law/index.html"
+                    ]
                 },
                 {
-                    "title": "Session 23 Clip: Review of Problems",
+                    "title": "Lec 7: Review | MIT 18.02 Multivariable Calculus, Fall 2007",
                     "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec07_300k.mp4",
                     "youtubeKey": "U1EcnfTKXJ0",
                     "contentLength": 115134061,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/U1EcnfTKXJ0_captions.vtt",
-                    "htmlFile": "resources/clip-review-of-problems/index.html"
+                    "htmlFile": [
+                        "resources/clip-review-of-problems/index.html",
+                        "resources/clip-review-of-topics/index.html"
+                    ]
                 },
                 {
-                    "title": "Session 26 Clip: Partial Derivatives",
+                    "title": "Lec 8: Level curves; partial derivatives; tangent plane | MIT 18.02 Multivariable Calculus, Fall 07",
                     "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec08_300k.mp4",
                     "youtubeKey": "dK3NEf13nPc",
                     "contentLength": 107559117,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/dK3NEf13nPc_captions.vtt",
-                    "htmlFile": "resources/clip-partial-derivatives/index.html"
+                    "htmlFile": [
+                        "resources/clip-partial-derivatives/index.html",
+                        "resources/clip-functions-of-two-variables-graphs/index.html",
+                        "resources/clip-level-curves-and-contour-plots/index.html"
+                    ]
                 },
                 {
-                    "title": "Session 27 Clip: Approximation Formula",
+                    "title": "Lec 9: Max-min problems; least squares | MIT 18.02 Multivariable Calculus, Fall 2007",
                     "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec09_300k.mp4",
                     "youtubeKey": "UYe98CcxPbs",
                     "contentLength": 116340669,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/UYe98CcxPbs_captions.vtt",
-                    "htmlFile": "resources/clip-approximation-formula/index.html"
+                    "htmlFile": [
+                        "resources/clip-approximation-formula/index.html",
+                        "resources/clip-optimization-problem/index.html",
+                        "resources/clip-least-squares/index.html"
+                    ]
                 },
                 {
-                    "title": "Session 31 Clip: Example",
+                    "title": "Lec 10: Second derivative test; boundaries & infinity | MIT 18.02 Multivariable Calculus, Fall 2007",
                     "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec10_300k.mp4",
                     "youtubeKey": "3_goGnJm5sA",
                     "contentLength": 120868555,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/3_goGnJm5sA_captions.vtt",
-                    "htmlFile": "resources/clip-example/index.html"
+                    "htmlFile": [
+                        "resources/clip-example/index.html",
+                        "resources/clip-1-quadratic-example/index.html",
+                        "resources/clip-2-second-derivative-test/index.html"
+                    ]
                 },
                 {
-                    "title": "Session 33 Clip: Examples",
+                    "title": "Lec 11: Differentials; chain rule | MIT 18.02 Multivariable Calculus, Fall 2007",
                     "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec11_300k.mp4",
                     "youtubeKey": "7eZVshlT33Q",
                     "contentLength": 116143906,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/7eZVshlT33Q_captions.vtt",
-                    "htmlFile": "resources/clip-examples/index.html"
+                    "htmlFile": [
+                        "resources/clip-examples/index.html",
+                        "resources/clip-chain-rule-with-more-variables/index.html",
+                        "resources/clip-total-differentials-and-chain-rule/index.html"
+                    ]
                 },
                 {
-                    "title": "Session 38 Clip: Directional Derivatives",
+                    "title": "Lec 12: Gradient; directional derivative; tangent plane | MIT 18.02 Multivariable Calculus, Fall 07",
                     "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec12_300k.mp4",
                     "youtubeKey": "2XraaWefBd8",
                     "contentLength": 115788325,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/2XraaWefBd8_captions.vtt",
-                    "htmlFile": "resources/clip-directional-derivatives/index.html"
+                    "htmlFile": [
+                        "resources/clip-directional-derivatives/index.html",
+                        "resources/clip-proof/index.html",
+                        "resources/clip-example-1/index.html",
+                        "resources/clip-definition-perpendicular-to-level-curves/index.html"
+                    ]
                 },
                 {
-                    "title": "Session 41 Clip: Advanced Example",
+                    "title": "Lec 13: Lagrange multipliers | MIT 18.02 Multivariable Calculus, Fall 2007",
                     "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec13_300k.mp4",
                     "youtubeKey": "15HVevXRsBA",
                     "contentLength": 116157879,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/15HVevXRsBA_captions.vtt",
-                    "htmlFile": "resources/clip-advanced-example/index.html"
+                    "htmlFile": [
+                        "resources/clip-advanced-example/index.html",
+                        "resources/clip-lagrange-multipliers-by-example/index.html",
+                        "resources/clip-proof-of-lagrange-multipliers/index.html"
+                    ]
                 },
                 {
-                    "title": "Session 42 Clip: Constrained Differentials",
+                    "title": "Lec 14: Non-independent variables | MIT 18.02 Multivariable Calculus, Fall 2007",
                     "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec14_300k.mp4",
                     "youtubeKey": "23xbkrpQuAo",
                     "contentLength": 113771361,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/23xbkrpQuAo_captions.vtt",
-                    "htmlFile": "resources/clip-constrained-differentials/index.html"
+                    "htmlFile": [
+                        "resources/clip-constrained-differentials/index.html",
+                        "resources/clip-clearer-notation/index.html",
+                        "resources/clip-example-2/index.html"
+                    ]
                 },
                 {
-                    "title": "Session 46 Clip: Review of Problems",
+                    "title": "Lec 15: Partial differential equations; review | MIT 18.02 Multivariable Calculus, Fall 2007",
                     "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec15_300k.mp4",
                     "youtubeKey": "ChiM2-MV-qM",
                     "contentLength": 105075233,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/ChiM2-MV-qM_captions.vtt",
-                    "htmlFile": "resources/clip-review-of-problems-1/index.html"
+                    "htmlFile": [
+                        "resources/clip-review-of-problems-1/index.html",
+                        "resources/clip-review-of-topics-1/index.html"
+                    ]
                 },
                 {
-                    "title": "Session 47 Clip: Definition of Double Integration",
+                    "title": "Lec 16: Double integrals | MIT 18.02 Multivariable Calculus, Fall 2007",
                     "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec16_300k.mp4",
                     "youtubeKey": "YP_B0AapU0c",
                     "contentLength": 110873435,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/YP_B0AapU0c_captions.vtt",
-                    "htmlFile": "resources/clip-definition-of-double-integration/index.html"
+                    "htmlFile": [
+                        "resources/clip-definition-of-double-integration/index.html",
+                        "resources/clip-examples-of-double-integration/index.html",
+                        "resources/clip-exchanging-the-order-of-integration/index.html"
+                    ]
                 },
                 {
-                    "title": "Session 51 Clip: Applications: Mass and Average Value",
+                    "title": "Lec 17: Double integrals in polar coords; applications | MIT 18.02 Multivariable Calculus, Fall 2007",
                     "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec17_300k.mp4",
                     "youtubeKey": "60e4hdCi1D4",
                     "contentLength": 119231191,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/60e4hdCi1D4_captions.vtt",
-                    "htmlFile": "resources/clip-applications-mass-and-average-value/index.html"
+                    "htmlFile": [
+                        "resources/clip-applications-mass-and-average-value/index.html",
+                        "resources/clip-double-integrals-in-polar-coordinates/index.html",
+                        "resources/clip-applications-moment-of-inertia/index.html"
+                    ]
                 },
                 {
-                    "title": "Session 55 Clip: Example",
+                    "title": "Lec 18: Change of variables | MIT 18.02 Multivariable Calculus, Fall 2007",
                     "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec18_300k.mp4",
                     "youtubeKey": "UZb9hZIAvL4",
                     "contentLength": 115369848,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/UZb9hZIAvL4_captions.vtt",
-                    "htmlFile": "resources/clip-example-3/index.html"
+                    "htmlFile": [
+                        "resources/clip-example-3/index.html",
+                        "resources/clip-change-of-variables/index.html",
+                        "resources/clip-polar-coordinates/index.html"
+                    ]
                 },
                 {
-                    "title": "Session 58 Clip: Geometric Approach",
+                    "title": "Lec 19: Vector fields and line integrals in the plane | MIT 18.02 Multivariable Calculus, Fall 2007",
                     "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec19_300k.mp4",
                     "youtubeKey": "xrypSZU8cBE",
                     "contentLength": 117862980,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/xrypSZU8cBE_captions.vtt",
-                    "htmlFile": "resources/clip-geometric-approach/index.html"
+                    "htmlFile": [
+                        "resources/clip-geometric-approach/index.html",
+                        "resources/clip-vector-fields/index.html",
+                        "resources/clip-work-and-line-integrals/index.html"
+                    ]
                 },
                 {
-                    "title": "Session 61 Clip: Conservative Fields, Path Independence, Exact",
+                    "title": "Lec 20: Path independence and conservative fields | MIT 18.02 Multivariable Calculus, Fall 2007",
                     "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec20_300k.mp4",
                     "youtubeKey": "o7UCBjGsRTE",
                     "contentLength": 116497684,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/o7UCBjGsRTE_captions.vtt",
-                    "htmlFile": "resources/clip-conservative-fields-path-independence-exact/index.html"
+                    "htmlFile": [
+                        "resources/clip-conservative-fields-path-independence-exact/index.html",
+                        "resources/clip-an-important-non-conservative-field/index.html",
+                        "resources/clip-line-integrals/index.html",
+                        "resources/clip-fundamental-theorem/index.html"
+                    ]
                 },
                 {
-                    "title": "Session 62 Clip: Gradient Fields",
+                    "title": "Lec 21: Gradient fields and potential functions | MIT 18.02 Multivariable Calculus, Fall 2007",
                     "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec21_300k.mp4",
                     "youtubeKey": "z5TPjZrsp2k",
                     "contentLength": 115641853,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/z5TPjZrsp2k_captions.vtt",
-                    "htmlFile": "resources/clip-gradient-fields/index.html"
+                    "htmlFile": [
+                        "resources/clip-gradient-fields/index.html",
+                        "resources/clip-curl/index.html",
+                        "resources/clip-potential-functions/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 22: Green's theorem | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec22_300k.mp4",
+                    "youtubeKey": "tYdoS0tkAHA",
+                    "contentLength": 108054540,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/tYdoS0tkAHA_captions.vtt",
+                    "htmlFile": [
+                        "resources/clip-proof-of-greens-theorem/index.html",
+                        "resources/clip-planimeter-greens-theorem-and-area/index.html",
+                        "resources/clip-curl-f-0-implies-conservative/index.html",
+                        "resources/clip-greens-theorem/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 23: Flux; normal form of Green's theorem | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec23_300k.mp4",
+                    "youtubeKey": "_CdoRiNSrqI",
+                    "contentLength": 116253904,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/CdoRiNSrqI_captions.vtt",
+                    "htmlFile": [
+                        "resources/clip-introduction-and-definition-of-divergence/index.html",
+                        "resources/clip-calculating-flux/index.html",
+                        "resources/clip-flux-across-a-curve/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 24: Simply connected regions; review | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec24_300k.mp4",
+                    "youtubeKey": "PnPIqh7Frlw",
+                    "contentLength": 113259007,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/PnPIqh7Frlw_captions.vtt",
+                    "htmlFile": [
+                        "resources/clip-simply-connected-regions-and-conservative-fields/index.html",
+                        "resources/clip-exam-review/index.html",
+                        "resources/clip-extended-greens-theorem/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 25: Triple integrals in rectangular & cylindrical | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec25_300k.mp4",
+                    "youtubeKey": "44R5HgbrUmc",
+                    "contentLength": 112305510,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/44R5HgbrUmc_captions.vtt",
+                    "htmlFile": [
+                        "resources/clip-cylindrical-coordinates/index.html",
+                        "resources/clip-triple-integrals/index.html",
+                        "resources/clip-applications-and-examples/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 26: Spherical coordinates; surface area | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec26_300k.mp4",
+                    "youtubeKey": "RMBGQtwkoyU",
+                    "contentLength": 117903809,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/RMBGQtwkoyU_captions.vtt",
+                    "htmlFile": [
+                        "resources/clip-spherical-coordinates/index.html",
+                        "resources/clip-triple-integrals-in-spherical-coordinates/index.html",
+                        "resources/clip-gravitational-attraction/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 27: Vector fields in 3D; surface integrals & flux | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec27_300k.mp4",
+                    "youtubeKey": "phk05iSMezA",
+                    "contentLength": 116758199,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/phk05iSMezA_captions.vtt",
+                    "htmlFile": [
+                        "resources/clip-calculating-flux-finding-nds/index.html",
+                        "resources/clip-vector-fields-in-space/index.html",
+                        "resources/clip-flux-through-a-surface/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 28: Divergence theorem | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec28_300k.mp4",
+                    "youtubeKey": "WfEQabCGAqI",
+                    "contentLength": 113571236,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/WfEQabCGAqI_captions.vtt",
+                    "htmlFile": [
+                        "resources/clip-other-ways-to-find-nds/index.html",
+                        "resources/clip-divergence-theorem/index.html",
+                        "resources/clip-nds-for-a-surface-z-f-x-y/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 29: Divergence theorem (cont.): applications & proof | MIT 18.02 Multivariable Calculus, Fall 07",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec29_300k.mp4",
+                    "youtubeKey": "wu8kXZSAp20",
+                    "contentLength": 115878383,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/wu8kXZSAp20_captions.vtt",
+                    "htmlFile": [
+                        "resources/clip-proof-of-the-divergence-theorem/index.html",
+                        "resources/clip-physical-meaning-of-flux-del-notation/index.html",
+                        "resources/clip-diffusion-equation/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 30: Line integrals in space, curl, exactness... | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec30_300k.mp4",
+                    "youtubeKey": "seO7-TwXH_I",
+                    "contentLength": 115038254,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/seO7-TwXH_I_captions.vtt",
+                    "htmlFile": [
+                        "resources/clip-curl-in-3d/index.html",
+                        "resources/clip-gradient-fields-and-potential-functions/index.html",
+                        "resources/clip-line-integrals-in-space/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 31: Stokes' theorem | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec31_300k.mp4",
+                    "youtubeKey": "tzoYhe3H5dM",
+                    "contentLength": 111769497,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/tzoYhe3H5dM_captions.vtt",
+                    "htmlFile": [
+                        "resources/clip-stokes-theorem/index.html",
+                        "resources/clip-example-4/index.html",
+                        "resources/clip-proof-of-stokes-theorem/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 32: Stokes' theorem (cont.); review | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec32_300k.mp4",
+                    "youtubeKey": "sr7kCpzAuYw",
+                    "contentLength": 115685744,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/sr7kCpzAuYw_captions.vtt",
+                    "htmlFile": [
+                        "resources/clip-stokes-theorem-and-surface-independence/index.html",
+                        "resources/clip-simply-connected-regions-topology/index.html",
+                        "resources/clip-summary-of-multiple-integration/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 33: Topological considerations; Maxwell's equations | MIT 18.02 Multivariable Calculus, Fall 07",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec33_300k.mp4",
+                    "youtubeKey": "BChhAS1sFvA",
+                    "contentLength": 66379844,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/BChhAS1sFvA_captions.vtt",
+                    "htmlFile": [
+                        "resources/clip-curl-and-physics/index.html",
+                        "resources/clip-introduction/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 34: Final review | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec34_300k.mp4",
+                    "youtubeKey": "ZwpwmGP5ITM",
+                    "contentLength": 101629216,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/ZwpwmGP5ITM_captions.vtt",
+                    "htmlFile": [
+                        "resources/clip-2-max-min-problems-lagrange-multipliers/index.html",
+                        "resources/clip-1-functions-of-2-variables-partial-derivatives/index.html",
+                        "resources/clip-2-matrices-determinants-linear-systems/index.html",
+                        "resources/clip-1-vectors-equations-of-lines-curves-planes/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 35: Final review (cont.) | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec35_300k.mp4",
+                    "youtubeKey": "24v9onS9Kcg",
+                    "contentLength": 113517596,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/24v9onS9Kcg_captions.vtt",
+                    "htmlFile": [
+                        "resources/clip-2-stokes-greens-divergence-theorems/index.html",
+                        "resources/clip-1-work-line-integrals-curl/index.html",
+                        "resources/clip-1-double-integrals-jacobian-triple-integrals/index.html",
+                        "resources/clip-2-applications/index.html"
+                    ]
                 },
                 {
                     "title": "Session 62: Non-Conservative Vector Fields",
@@ -765,119 +1163,9 @@
                     "youtubeKey": "n9gSOBwauRw",
                     "contentLength": 23171735,
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/b3804f5502d0552ab775fa3ce3dac5f8_n9gSOBwauRw.vtt",
-                    "htmlFile": "resources/non-conservative-vector-fields/index.html"
-                },
-                {
-                    "title": "Session 67 Clip: Proof of Green's Theorem",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec22_300k.mp4",
-                    "youtubeKey": "tYdoS0tkAHA",
-                    "contentLength": 108054540,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/tYdoS0tkAHA_captions.vtt",
-                    "htmlFile": "resources/clip-proof-of-greens-theorem/index.html"
-                },
-                {
-                    "title": "Session 70 Clip: Introduction and Definition of Divergence",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec23_300k.mp4",
-                    "youtubeKey": "_CdoRiNSrqI",
-                    "contentLength": 116253904,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/CdoRiNSrqI_captions.vtt",
-                    "htmlFile": "resources/clip-introduction-and-definition-of-divergence/index.html"
-                },
-                {
-                    "title": "Session 72 Clip: Simply Connected Regions and Conservative Fields",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec24_300k.mp4",
-                    "youtubeKey": "PnPIqh7Frlw",
-                    "contentLength": 113259007,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/PnPIqh7Frlw_captions.vtt",
-                    "htmlFile": "resources/clip-simply-connected-regions-and-conservative-fields/index.html"
-                },
-                {
-                    "title": "Session 74 Clip: Cylindrical Coordinates",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec25_300k.mp4",
-                    "youtubeKey": "44R5HgbrUmc",
-                    "contentLength": 112305510,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/44R5HgbrUmc_captions.vtt",
-                    "htmlFile": "resources/clip-cylindrical-coordinates/index.html"
-                },
-                {
-                    "title": "Session 76 Clip: Spherical Coordinates",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec26_300k.mp4",
-                    "youtubeKey": "RMBGQtwkoyU",
-                    "contentLength": 117903809,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/RMBGQtwkoyU_captions.vtt",
-                    "htmlFile": "resources/clip-spherical-coordinates/index.html"
-                },
-                {
-                    "title": "Session 81 Clip: Calculating Flux, Finding ndS",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec27_300k.mp4",
-                    "youtubeKey": "phk05iSMezA",
-                    "contentLength": 116758199,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/phk05iSMezA_captions.vtt",
-                    "htmlFile": "resources/clip-calculating-flux-finding-nds/index.html"
-                },
-                {
-                    "title": "Session 83 Clip: Other Ways to Find ndS",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec28_300k.mp4",
-                    "youtubeKey": "WfEQabCGAqI",
-                    "contentLength": 113571236,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/WfEQabCGAqI_captions.vtt",
-                    "htmlFile": "resources/clip-other-ways-to-find-nds/index.html"
-                },
-                {
-                    "title": "Session 86 Clip: Proof of the Divergence Theorem",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec29_300k.mp4",
-                    "youtubeKey": "wu8kXZSAp20",
-                    "contentLength": 115878383,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/wu8kXZSAp20_captions.vtt",
-                    "htmlFile": "resources/clip-proof-of-the-divergence-theorem/index.html"
-                },
-                {
-                    "title": "Session 90 Clip: Curl in 3D",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec30_300k.mp4",
-                    "youtubeKey": "seO7-TwXH_I",
-                    "contentLength": 115038254,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/seO7-TwXH_I_captions.vtt",
-                    "htmlFile": "resources/clip-curl-in-3d/index.html"
-                },
-                {
-                    "title": "Session 91 Clip: Stokes' Theorem",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec31_300k.mp4",
-                    "youtubeKey": "tzoYhe3H5dM",
-                    "contentLength": 111769497,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/tzoYhe3H5dM_captions.vtt",
-                    "htmlFile": "resources/clip-stokes-theorem/index.html"
-                },
-                {
-                    "title": "Session 95 Clip: Stokes' Theorem and Surface Independence",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec32_300k.mp4",
-                    "youtubeKey": "sr7kCpzAuYw",
-                    "contentLength": 115685744,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/sr7kCpzAuYw_captions.vtt",
-                    "htmlFile": "resources/clip-stokes-theorem-and-surface-independence/index.html"
-                },
-                {
-                    "title": "Session 97 Clip: Curl and Physics",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec33_300k.mp4",
-                    "youtubeKey": "BChhAS1sFvA",
-                    "contentLength": 66379844,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/BChhAS1sFvA_captions.vtt",
-                    "htmlFile": "resources/clip-curl-and-physics/index.html"
-                },
-                {
-                    "title": "Session 100 Clip 2: Max-Min Problems, Lagrange Multipliers",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec34_300k.mp4",
-                    "youtubeKey": "ZwpwmGP5ITM",
-                    "contentLength": 101629216,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/ZwpwmGP5ITM_captions.vtt",
-                    "htmlFile": "resources/clip-2-max-min-problems-lagrange-multipliers/index.html"
-                },
-                {
-                    "title": "Session 102 Clip 2: Stokes, Green's, Divergence Theorems",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec35_300k.mp4",
-                    "youtubeKey": "24v9onS9Kcg",
-                    "contentLength": 113517596,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/24v9onS9Kcg_captions.vtt",
-                    "htmlFile": "resources/clip-2-stokes-greens-divergence-theorems/index.html"
+                    "htmlFile": [
+                        "resources/non-conservative-vector-fields/index.html"
+                    ]
                 }
             ]
         }

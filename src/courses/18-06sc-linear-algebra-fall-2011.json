@@ -14,266 +14,123 @@
     "cardImg": "/images/course_cards/18-06sc-linear-algebra-fall-2011.jpg",
     "imgAltText": "Multi-colored cubes arranged to create the illusion of hexagons.",
     "file": "https://files.ocwtogo.org/18.06sc-fall-2011.zip",
-    "downloadSize": 51094772,
-    "diskSize": 170891069,
+    "downloadSize": 51549827,
+    "diskSize": 172862863,
     "description": "This course covers matrix theory and linear algebra, emphasizing topics useful in other disciplines such as physics, economics and social sciences, natural sciences, and engineering. It parallels the combination of theory and applications in Professor Strang’s textbook [_Introduction to Linear Algebra_](http://math.mit.edu/~gs/linearalgebra/).\n\nCourse Format\n\nThis course has been designed for independent study. It provides everything you will need to understand the concepts covered in the course. The materials include:\n\n- A complete set of **Lecture Videos** by Professor Gilbert Strang.\n- **Summary Notes** for all videos along with suggested readings in Prof. Strang's textbook [_Linear Algebra_](http://math.mit.edu/~gs/linearalgebra/).\n- **Problem Solving Videos** on every topic taught by an experienced MIT Recitation Instructor.\n- **Problem Sets** to do on your own with **Solutions** to check your answers against when you're done.\n- A selection of **Java® Demonstrations** to illustrate key concepts.\n- A full set of **Exams with Solutions**, including review material to help you prepare.",
     "descriptionHtml": "<p>This course covers matrix theory and linear algebra, emphasizing topics useful in other disciplines such as physics, economics and social sciences, natural sciences, and engineering. It parallels the combination of theory and applications in Professor Strang’s textbook <a href=\"http://math.mit.edu/~gs/linearalgebra/\" target=\"_blank\" rel=\"noopener\"><em>Introduction to Linear Algebra</em></a>.</p>\n<p>Course Format</p>\n<p>This course has been designed for independent study. It provides everything you will need to understand the concepts covered in the course. The materials include:</p>\n<ul>\n<li>A complete set of <strong>Lecture Videos</strong> by Professor Gilbert Strang.</li>\n<li><strong>Summary Notes</strong> for all videos along with suggested readings in Prof. Strang&rsquo;s textbook <a href=\"http://math.mit.edu/~gs/linearalgebra/\" target=\"_blank\" rel=\"noopener\"><em>Linear Algebra</em></a>.</li>\n<li><strong>Problem Solving Videos</strong> on every topic taught by an experienced MIT Recitation Instructor.</li>\n<li><strong>Problem Sets</strong> to do on your own with <strong>Solutions</strong> to check your answers against when you&rsquo;re done.</li>\n<li>A selection of <strong>Java® Demonstrations</strong> to illustrate key concepts.</li>\n<li>A full set of <strong>Exams with Solutions</strong>, including review material to help you prepare.</li>\n</ul>\n",
     "videoGroups": [
         {
-            "category": "Lecture Videos",
-            "videos": [
-                {
-                    "title": "An Overview of Linear Algebra",
-                    "videoUrl": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-rec01_300k.mp4",
-                    "youtubeKey": "0oBJN8F616U",
-                    "contentLength": 112781231,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/595c6d159a26523d83aee65cd9a11bb9_0oBJN8F616U.vtt",
-                    "htmlFile": "resources/an-overview-of-linear-algebra/index.html"
-                },
-                {
-                    "title": "Column Space and Nullspace",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/06.mp4",
-                    "youtubeKey": "8o5Cmfpeo6g",
-                    "contentLength": 109278726,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/e0b3bc76b4a756e6bfbda226c878ca71_8o5Cmfpeo6g.vtt",
-                    "htmlFile": "resources/column-space-and-nullspace/index.html"
-                },
-                {
-                    "title": "Factorization into A = LU",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/04.mp4",
-                    "youtubeKey": "MsIvs_6vC38",
-                    "contentLength": 112447812,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/5fce6a16b28d529a8c5b49eef3e65e11_MsIvs_6vC38.vtt",
-                    "htmlFile": "resources/factorization-into-a-lu-1/index.html"
-                },
-                {
-                    "title": "Gil Strang's Final 18.06 Linear Algebra Lecture",
-                    "videoUrl": "https://archive.org/download/youtube-lUUte2o2Sn8/lUUte2o2Sn8.mp4",
-                    "youtubeKey": "lUUte2o2Sn8",
-                    "contentLength": 383796477,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/lUUte2o2Sn8_captions.webvtt",
-                    "htmlFile": "resources/gil-strang-final-lecture/index.html"
-                },
-                {
-                    "title": "Lecture 15: Projections onto Subspaces",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/15.mp4",
-                    "youtubeKey": "Y_Ac6KiQ1t0",
-                    "contentLength": 109646680,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/182ecbaa32e05473a3a38f9b2baaf3d4_Y_Ac6KiQ1t0.vtt",
-                    "htmlFile": "resources/lecture-15-projections-onto-subspaces-1/index.html"
-                },
-                {
-                    "title": "Lecture 16: Projection Matrices and Least Squares",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/16.mp4",
-                    "youtubeKey": "osh80YCg_GM",
-                    "contentLength": 109456489,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/3f83fefe55035ab28e1073cc4ae4e5dc_osh80YCg_GM.vtt",
-                    "htmlFile": "resources/lecture-16-projection-matrices-and-least-squares-1/index.html"
-                },
-                {
-                    "title": "Lecture 17: Orthogonal Matrices and Gram-Schmidt",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/17.mp4",
-                    "youtubeKey": "0MtwqhIwdrI",
-                    "contentLength": 115024152,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/aa3976f167535981a7476f96c5828c40_0MtwqhIwdrI.vtt",
-                    "htmlFile": "resources/lecture-17-orthogonal-matrices-and-gram-schmidt/index.html"
-                },
-                {
-                    "title": "Lecture 18: Properties of Determinants",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/18.mp4",
-                    "youtubeKey": "srxexLishgY",
-                    "contentLength": 110698833,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/be2b1576e95e561aa993d17aafd2df4c_srxexLishgY.vtt",
-                    "htmlFile": "resources/lecture-18-properties-of-determinants-1/index.html"
-                },
-                {
-                    "title": "Lecture 19: Determinant Formulas and Cofactors",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/19.mp4",
-                    "youtubeKey": "23LLB9mNJvc",
-                    "contentLength": 120709015,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/7fdd14a423ff50268754184dd534e634_23LLB9mNJvc.vtt",
-                    "htmlFile": "resources/lecture-19-determinant-formulas-and-cofactors/index.html"
-                },
-                {
-                    "title": "Lecture 20: Cramer's Rule, Inverse Matrix and Volume",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/20.mp4",
-                    "youtubeKey": "QNpj-gOXW9M",
-                    "contentLength": 117083205,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/17e7561cf6645d2b8860668635d15840_QNpj-gOXW9M.vtt",
-                    "htmlFile": "resources/lecture-20-cramers-rule-inverse-matrix-and-volume-1/index.html"
-                },
-                {
-                    "title": "Lecture 21: Eigenvalues and Eigenvectors",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/21.mp4",
-                    "youtubeKey": "cdZnhQjJu4I",
-                    "contentLength": 119896123,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/88c9d0198d5a5b3b81e6d41fbfa26552_cdZnhQjJu4I.vtt",
-                    "htmlFile": "resources/lecture-21-eigenvalues-and-eigenvectors/index.html"
-                },
-                {
-                    "title": "Lecture 22: Diagonalization and Powers of A",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/22.mp4",
-                    "youtubeKey": "13r9QY6cmjc",
-                    "contentLength": 117149002,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/c496537d5739582a99288b4b3b92c33f_13r9QY6cmjc.vtt",
-                    "htmlFile": "resources/lecture-22-diagonalization-and-powers-of-a-1/index.html"
-                },
-                {
-                    "title": "Lecture 23: Differential Equations and exp(At)",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/23.mp4",
-                    "youtubeKey": "IZqwi0wJovM",
-                    "contentLength": 121129627,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/fb7032917aec525cbc2021aa6ddab43d_IZqwi0wJovM.vtt",
-                    "htmlFile": "resources/lecture-23-differential-equations-and-exp-at-1/index.html"
-                },
-                {
-                    "title": "Lecture 24: Markov Matrices; Fourier Series",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/24.mp4",
-                    "youtubeKey": "lGGDIGizcQ0",
-                    "contentLength": 119460500,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/dd72d7f78da15401b904eb697b4cf274_lGGDIGizcQ0.vtt",
-                    "htmlFile": "resources/lecture-24-markov-matrices-fourier-series-1/index.html"
-                },
-                {
-                    "title": "Lecture 25: Symmetric Matrices and Positive Definiteness",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/25.mp4",
-                    "youtubeKey": "UCc9q_cAhho",
-                    "contentLength": 102375409,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/8405a5ca5e7b50b489237aa5c2b06dc5_UCc9q_cAhho.vtt",
-                    "htmlFile": "resources/lecture-25-symmetric-matrices-and-positive-definiteness/index.html"
-                },
-                {
-                    "title": "Lecture 26: Complex Matrices; Fast Fourier Transform (FFT)",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/26.mp4",
-                    "youtubeKey": "M0Sa8fLOajA",
-                    "contentLength": 108639956,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/cb4684aaf8a55beeb066aefd226b796c_M0Sa8fLOajA.vtt",
-                    "htmlFile": "resources/lecture-26-complex-matrices-fast-fourier-transform-fft-1/index.html"
-                },
-                {
-                    "title": "Lecture 27: Positive Definite Matrices and Minima",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/27.mp4",
-                    "youtubeKey": "vF7eyJ2g3kU",
-                    "contentLength": 115156838,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/c18abbf25e3859b98621016feb9043c0_vF7eyJ2g3kU.vtt",
-                    "htmlFile": "resources/lecture-27-positive-definite-matrices-and-minima-1/index.html"
-                },
-                {
-                    "title": "Lecture 28: Similar Matrices and Jordan Form",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/28.mp4",
-                    "youtubeKey": "TSdXJw83kyA",
-                    "contentLength": 106837103,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/e81db3a127065d5ea2ce9419ac77fce9_TSdXJw83kyA.vtt",
-                    "htmlFile": "resources/lecture-28-similar-matrices-and-jordan-form-1/index.html"
-                },
-                {
-                    "title": "Lecture 29: Singular Value Decomposition",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/29.mp4",
-                    "youtubeKey": "TX_vooSnhm8",
-                    "contentLength": 93818080,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/1cb8c5fd4c665bb296a844aeaba5a259_TX_vooSnhm8.vtt",
-                    "htmlFile": "resources/lecture-29-singular-value-decomposition-1/index.html"
-                },
-                {
-                    "title": "Lecture 30: Linear Transformations and their Matrices",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/30.mp4",
-                    "youtubeKey": "Ts3o2I8_Mxc",
-                    "contentLength": 112366254,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/1c8baa700f83532084215e3ef6fae0c1_Ts3o2I8_Mxc.vtt",
-                    "htmlFile": "resources/lecture-30-linear-transformations-and-their-matrices/index.html"
-                },
-                {
-                    "title": "Lecture 31: Change of Basis; Image Compression",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/31.mp4",
-                    "youtubeKey": "0h43aV4aH7I",
-                    "contentLength": 117291876,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/86814e7c3b4e533ba325bbfb20b86cc0_0h43aV4aH7I.vtt",
-                    "htmlFile": "resources/lecture-31-change-of-basis-image-compression-1/index.html"
-                },
-                {
-                    "title": "Lecture 33: Left and Right Inverses; Pseudoinverse",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/33.mp4",
-                    "youtubeKey": "Go2aLo7ZOlU",
-                    "contentLength": 95770123,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/39bf3ee1ebc55446b117cea29e8f9e9f_Go2aLo7ZOlU.vtt",
-                    "htmlFile": "resources/lecture-33-left-and-right-inverses-pseudoinverse/index.html"
-                },
-                {
-                    "title": "Matrix Spaces; Rank 1; Small World Graphs",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/11.mp4",
-                    "youtubeKey": "2IdtqGM6KWU",
-                    "contentLength": 109023514,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/e47db3c0da4e50b391b4f8e469a45169_2IdtqGM6KWU.vtt",
-                    "htmlFile": "resources/matrix-spaces-rank-1-small-world-graphs-1/index.html"
-                },
-                {
-                    "title": "Orthogonal Vectors and Subspaces",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/14.mp4",
-                    "youtubeKey": "YzZUIYRCE38",
-                    "contentLength": 112211308,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/04e75083c99e54d09c18ad2809c67a3d_YzZUIYRCE38.vtt",
-                    "htmlFile": "resources/orthogonal-vectors-and-subspaces-1/index.html"
-                },
-                {
-                    "title": "Solving Ax = 0: Pivot Variables, Special Solutions",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/07.mp4",
-                    "youtubeKey": "VqP2tREMvt0",
-                    "contentLength": 99033441,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/b8ec077a90335789bab9fc1b655c2a21_VqP2tREMvt0.vtt",
-                    "htmlFile": "resources/solving-ax-0-pivot-variables-special-solutions-1/index.html"
-                },
-                {
-                    "title": "The Geometry of Linear Equations",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/01.mp4",
-                    "youtubeKey": "J7DzL2_Na80",
-                    "contentLength": 92409278,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/97f5a4d9abaf503493b295487f5d1e99_J7DzL2_Na80.vtt",
-                    "htmlFile": "resources/the-geometry-of-linear-equations/index.html"
-                }
-            ]
-        },
-        {
             "category": "Recitation Videos",
             "videos": [
-                {
-                    "title": "Exam 1 Problem Solving",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110714_N1_300k.mp4",
-                    "youtubeKey": "AMLekTJR5_U",
-                    "contentLength": 34570333,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/015b050df2b05c89816fb80bc68c76d9_AMLekTJR5_U.vtt",
-                    "htmlFile": "resources/exam-1-problem-solving-1/index.html"
-                },
-                {
-                    "title": "Graphs and Networks",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110711_N1_300k.mp4",
-                    "youtubeKey": "h0m2tsmSPTI",
-                    "contentLength": 29175810,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/0ee3872fe8115e03a19270fe59dbb3b9_h0m2tsmSPTI.vtt",
-                    "htmlFile": "resources/graphs-and-networks-1/index.html"
-                },
-                {
-                    "title": "Inverse Matrices",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110526_A1_300k.mp4",
-                    "youtubeKey": "zWxhmBCdvFs",
-                    "contentLength": 19629239,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/a551d5c30fd056f88a0ce84042e9c7f4_zWxhmBCdvFs.vtt",
-                    "htmlFile": "resources/inverse-matrices-1/index.html"
-                },
-                {
-                    "title": "Problem Solving: Change of Basis",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110714_M1_300k.mp4",
-                    "youtubeKey": "rMv2rDiOTsI",
-                    "contentLength": 29050853,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/a2649a294ba259f998f8821ea1b84c4d_rMv2rDiOTsI.vtt",
-                    "htmlFile": "resources/problem-solving-change-of-basis-1/index.html"
-                },
                 {
                     "title": "An Overview of Key Ideas",
                     "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110711_M3_300k.mp4",
                     "youtubeKey": "OZxzHcW663g",
                     "contentLength": 18072063,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/7ad65525e6765c619cfa303fc24cab3d_OZxzHcW663g.vtt",
-                    "htmlFile": "resources/an-overview-of-key-ideas/index.html"
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/79f4b1a0555258b1ad801c9bec12dab2_OZxzHcW663g.vtt",
+                    "htmlFile": [
+                        "resources/an-overview-of-key-ideas-1/index.html",
+                        "resources/an-overview-of-key-ideas/index.html"
+                    ]
+                },
+                {
+                    "title": "Basis and Dimension",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110526_A2_300k.mp4",
+                    "youtubeKey": "MMWqGD4Urso",
+                    "contentLength": 19135907,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/d458540879f45dc6812513b79cc0ab25_MMWqGD4Urso.vtt",
+                    "htmlFile": [
+                        "resources/basis-and-dimension/index.html",
+                        "resources/basis-and-dimension-1/index.html"
+                    ]
+                },
+                {
+                    "title": "Change of Basis",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110714_M1_300k.mp4",
+                    "youtubeKey": "rMv2rDiOTsI",
+                    "contentLength": 29050853,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/a2649a294ba259f998f8821ea1b84c4d_rMv2rDiOTsI.vtt",
+                    "htmlFile": [
+                        "resources/problem-solving-change-of-basis-1/index.html",
+                        "resources/problem-solving-change-of-basis/index.html"
+                    ]
+                },
+                {
+                    "title": "Complex Matrices",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110711_D2_300k.mp4",
+                    "youtubeKey": "VYS9EYZ3gCo",
+                    "contentLength": 30472514,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/12bb08cabfcd59f9a6fdcd70a76fd4c8_VYS9EYZ3gCo.vtt",
+                    "htmlFile": [
+                        "resources/problem-solving-complex-matrices/index.html",
+                        "resources/problem-solving-complex-matrices-1/index.html"
+                    ]
+                },
+                {
+                    "title": "Computing the Four Fundamental Subspaces",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110526_B2_300k.mp4",
+                    "youtubeKey": "D8u1LV9CnCk",
+                    "contentLength": 24941472,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/d3b548d2c86e5f599f6917b90bb95225_D8u1LV9CnCk.vtt",
+                    "htmlFile": [
+                        "resources/computing-the-four-fundamental-subspaces-1/index.html",
+                        "resources/computing-the-four-fundamental-subspaces/index.html"
+                    ]
+                },
+                {
+                    "title": "Computing the Singular Value Decomposition",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110607_B2_300k.mp4",
+                    "youtubeKey": "pSbafxDHdgE",
+                    "contentLength": 27112402,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/0fa8ca9140d352d1b75c5ad2dfea5243_pSbafxDHdgE.vtt",
+                    "htmlFile": [
+                        "resources/problem-solving-determinants-and-volumecomputing-the-singular-value-decomposition/index.html",
+                        "resources/problem-solving-determinants-and-volumecomputing-the-singular-value-decomposition-1/index.html"
+                    ]
+                },
+                {
+                    "title": "Determinants",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110526_L1_300k.mp4",
+                    "youtubeKey": "B17h10EF59g",
+                    "contentLength": 29952863,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/44e2bbebc3805c3ca89651b63a3d3159_B17h10EF59g.vtt",
+                    "htmlFile": [
+                        "resources/problem-solving-determinants-1/index.html",
+                        "resources/problem-solving-determinants/index.html"
+                    ]
+                },
+                {
+                    "title": "Determinants and Volume",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110609_L4_300k.mp4",
+                    "youtubeKey": "qEBi0K5wfOs",
+                    "contentLength": 32246895,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/e6a77f3fa28c540ab8c2abbade251da9_qEBi0K5wfOs.vtt",
+                    "htmlFile": [
+                        "resources/problem-solving-determinants-and-volume-1/index.html",
+                        "resources/problem-solving-determinants-and-volume/index.html"
+                    ]
+                },
+                {
+                    "title": "Differential Equations and exp (At)",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110531_L1_300k.mp4",
+                    "youtubeKey": "FzncDO1eSNI",
+                    "contentLength": 43571167,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/52f342146948517e8e7526e9d8382caa_FzncDO1eSNI.vtt",
+                    "htmlFile": [
+                        "resources/problem-solving-determinants-and-volumedifferential-equations-and-exp-at/index.html",
+                        "resources/problem-solving-determinants-and-volumedifferential-equations-and-exp-at-1/index.html"
+                    ]
+                },
+                {
+                    "title": "Eigenvalues and Eigenvectors",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110706_N2_300k.mp4",
+                    "youtubeKey": "mVeuZzJdd1w",
+                    "contentLength": 21980196,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/ff6a5ab8d3d55571ae227c6ecfcbab26_mVeuZzJdd1w.vtt",
+                    "htmlFile": [
+                        "resources/problem-solving-eigenvalues-and-eigenvectors/index.html",
+                        "resources/problem-solving-eigenvalues-and-eigenvectors-1/index.html"
+                    ]
                 },
                 {
                     "title": "Elimination with Matrices",
@@ -281,79 +138,186 @@
                     "youtubeKey": "GLFg2UBMAxc",
                     "contentLength": 24067815,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/b69afa4c0de45506b28ebe15a4099ee5_GLFg2UBMAxc.vtt",
-                    "htmlFile": "resources/recitation-elimination-with-matrices-1/index.html"
+                    "htmlFile": [
+                        "resources/recitation-elimination-with-matrices-1/index.html",
+                        "resources/recitation-elimination-with-matrices/index.html"
+                    ]
+                },
+                {
+                    "title": "Exam #1 Problem Solving",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110714_N1_300k.mp4",
+                    "youtubeKey": "AMLekTJR5_U",
+                    "contentLength": 34570333,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/7d27ea066c115df5bbbf4029fa8aeb26_AMLekTJR5_U.vtt",
+                    "htmlFile": [
+                        "resources/exam-1-problem-solving/index.html",
+                        "resources/exam-1-problem-solving-1/index.html"
+                    ]
+                },
+                {
+                    "title": "Exam #2 Problem Solving",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110607_L1_300k.mp4",
+                    "youtubeKey": "pz3zyUO2gpM",
+                    "contentLength": 41619842,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/67a71bb469055af18ddd510d052fd63d_pz3zyUO2gpM.vtt",
+                    "htmlFile": [
+                        "resources/exam-2-problem-solving-1/index.html",
+                        "resources/exam-2-problem-solving/index.html"
+                    ]
+                },
+                {
+                    "title": "Exam #3 Problem Solving",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110714_D2_300k.mp4",
+                    "youtubeKey": "OsHY7ycgbaE",
+                    "contentLength": 30028370,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/bb0bb32a8bfa5e6a9d6d53331a846cad_OsHY7ycgbaE.vtt",
+                    "htmlFile": [
+                        "resources/exam-3-problem-solving/index.html",
+                        "resources/exam-3-problem-solving-1/index.html"
+                    ]
                 },
                 {
                     "title": "Final Exam Problem Solving",
                     "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110607_A2_300k.mp4",
                     "youtubeKey": "4PnArrxCZLE",
                     "contentLength": 28613083,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/6f1bab0ef97e5271a527f47de93876dc_4PnArrxCZLE.vtt",
-                    "htmlFile": "resources/final-exam-problem-solving/index.html"
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/3e7b750dde8f5977b1cef68fa2890720_4PnArrxCZLE.vtt",
+                    "htmlFile": [
+                        "resources/final-exam-problem-solving-1/index.html",
+                        "resources/final-exam-problem-solving/index.html"
+                    ]
+                },
+                {
+                    "title": "Geometry of Linear Algebra",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110609_L2_300k.mp4",
+                    "youtubeKey": "My5w4MXWBew",
+                    "contentLength": 38618265,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/bc9bd9faef505b8e830a29ac7034ef92_My5w4MXWBew.vtt",
+                    "htmlFile": [
+                        "resources/geometry-of-linear-algebra/index.html",
+                        "resources/geometry-of-linear-algebra-1/index.html"
+                    ]
+                },
+                {
+                    "title": "Gram-Schmidt Orthogonalization",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110609_A1_300k.mp4",
+                    "youtubeKey": "HEQuN0QELSQ",
+                    "contentLength": 23329408,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/d34aa6965bfa5047afe50f81ea583982_HEQuN0QELSQ.vtt",
+                    "htmlFile": [
+                        "resources/problem-solving-gram-schmidt-orthogonalization-1/index.html",
+                        "resources/problem-solving-gram-schmidt-orthogonalization/index.html"
+                    ]
+                },
+                {
+                    "title": "Graphs and Networks",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110711_N1_300k.mp4",
+                    "youtubeKey": "h0m2tsmSPTI",
+                    "contentLength": 29175810,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/d975809080255021a562fe1eb39b5c12_h0m2tsmSPTI.vtt",
+                    "htmlFile": [
+                        "resources/graphs-and-networks/index.html",
+                        "resources/graphs-and-networks-1/index.html"
+                    ]
+                },
+                {
+                    "title": "Inverse Matrices",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110526_A1_300k.mp4",
+                    "youtubeKey": "zWxhmBCdvFs",
+                    "contentLength": 19629239,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/002ff64fe1b75d1d8b6b7ccbfe3f3d83_zWxhmBCdvFs.vtt",
+                    "htmlFile": [
+                        "resources/inverse-matrices/index.html",
+                        "resources/inverse-matrices-1/index.html"
+                    ]
+                },
+                {
+                    "title": "Least Squares Approximation",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110531_B1_300k.mp4",
+                    "youtubeKey": "AmQcoopBUTk",
+                    "contentLength": 18861189,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/052381dbfb29511683f9cdd12ca0a913_AmQcoopBUTk.vtt",
+                    "htmlFile": [
+                        "resources/problem-solving-least-squares-approximation-1/index.html",
+                        "resources/problem-solving-least-squares-approximation/index.html"
+                    ]
+                },
+                {
+                    "title": "Linear Transformations",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110714_N2_300k.mp4",
+                    "youtubeKey": "2uDvRUowBzg",
+                    "contentLength": 25116905,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/e8ae27f71be554e3ab8050465f4f7ac9_2uDvRUowBzg.vtt",
+                    "htmlFile": [
+                        "resources/problem-solving-linear-transformations/index.html",
+                        "resources/problem-solving-linear-transformations-1/index.html"
+                    ]
+                },
+                {
+                    "title": "LU Decomposition",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110706_B1_300k.mp4",
+                    "youtubeKey": "-eA2D_rIcNA",
+                    "contentLength": 22347644,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/cd88bbfb516b50ad85f9364b11721938_-eA2D_rIcNA.vtt",
+                    "htmlFile": [
+                        "resources/lu-decomposition/index.html",
+                        "resources/lu-decomposition-1/index.html"
+                    ]
+                },
+                {
+                    "title": "Markov Matrices",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110706_D2_300k.mp4",
+                    "youtubeKey": "wuyAeWE3iIM",
+                    "contentLength": 27599171,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/28466b8218695441932b784ccc36a3b1_wuyAeWE3iIM.vtt",
+                    "htmlFile": [
+                        "resources/problem-solving-markov-matrices-1/index.html",
+                        "resources/problem-solving-markov-matrices/index.html"
+                    ]
                 },
                 {
                     "title": "Matrix Spaces",
                     "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110607_A1_300k.mp4",
                     "youtubeKey": "BaBoztM9Q1w",
                     "contentLength": 20843018,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/01415acdb4dd5310992d9720d56a575c_BaBoztM9Q1w.vtt",
-                    "htmlFile": "resources/matrix-spaces-1/index.html"
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/bd859a9f2d8f508a87dc2f7950e1784b_BaBoztM9Q1w.vtt",
+                    "htmlFile": [
+                        "resources/matrix-spaces/index.html",
+                        "resources/matrix-spaces-1/index.html"
+                    ]
                 },
                 {
-                    "title": "Problem Solving: Computing the Singular Value Decomposition",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110607_B2_300k.mp4",
-                    "youtubeKey": "pSbafxDHdgE",
-                    "contentLength": 27112402,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/0fa8ca9140d352d1b75c5ad2dfea5243_pSbafxDHdgE.vtt",
-                    "htmlFile": "resources/problem-solving-determinants-and-volumecomputing-the-singular-value-decomposition/index.html"
+                    "title": "Orthogonal Vectors and Subspaces",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110706_D1_300k.mp4",
+                    "youtubeKey": "h9aDgvW59TU",
+                    "contentLength": 24306785,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/187d8a0b11db58348436823d3f804f58_h9aDgvW59TU.vtt",
+                    "htmlFile": [
+                        "resources/problem-solving-orthogonal-vectors-and-subspaces-1/index.html",
+                        "resources/problem-solving-orthogonal-vectors-and-subspaces/index.html"
+                    ]
                 },
                 {
-                    "title": "Problem Solving: Determinants",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110526_L1_300k.mp4",
-                    "youtubeKey": "B17h10EF59g",
-                    "contentLength": 29952863,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/9ebb6719e6855bc8b1ac71fb96d53be7_B17h10EF59g.vtt",
-                    "htmlFile": "resources/problem-solving-determinants/index.html"
-                },
-                {
-                    "title": "Problem Solving: Determinants and Volume",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110609_L4_300k.mp4",
-                    "youtubeKey": "qEBi0K5wfOs",
-                    "contentLength": 32246895,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/60b9248dbd1e5ce0ab3fd2b14fdb5a5d_qEBi0K5wfOs.vtt",
-                    "htmlFile": "resources/problem-solving-determinants-and-volume/index.html"
-                },
-                {
-                    "title": "Problem Solving: Differential Equations and exp(At)",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110531_L1_300k.mp4",
-                    "youtubeKey": "FzncDO1eSNI",
-                    "contentLength": 43571167,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/52f342146948517e8e7526e9d8382caa_FzncDO1eSNI.vtt",
-                    "htmlFile": "resources/problem-solving-determinants-and-volumedifferential-equations-and-exp-at/index.html"
-                },
-                {
-                    "title": "Problem Solving: Linear Transformations",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110714_N2_300k.mp4",
-                    "youtubeKey": "2uDvRUowBzg",
-                    "contentLength": 25116905,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/e8ae27f71be554e3ab8050465f4f7ac9_2uDvRUowBzg.vtt",
-                    "htmlFile": "resources/problem-solving-linear-transformations/index.html"
-                },
-                {
-                    "title": "Problem Solving: Markov Matrices",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110706_D2_300k.mp4",
-                    "youtubeKey": "wuyAeWE3iIM",
-                    "contentLength": 27599171,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/ef0f6d2021355c5eb4a69dfec8979288_wuyAeWE3iIM.vtt",
-                    "htmlFile": "resources/problem-solving-markov-matrices/index.html"
-                },
-                {
-                    "title": "Problem Solving: Positive Definite Matrices and Minima",
+                    "title": "Positive Definite Matrices and Minima",
                     "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110714_M2_300k.mp4",
                     "youtubeKey": "cfn2ZUuWPd0",
                     "contentLength": 30000632,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/3248a6ec55dd545c9ea273832cb409dc_cfn2ZUuWPd0.vtt",
-                    "htmlFile": "resources/problem-solving-positive-definite-matrices-and-minima/index.html"
+                    "htmlFile": [
+                        "resources/problem-solving-positive-definite-matrices-and-minima/index.html",
+                        "resources/problem-solving-positive-definite-matrices-and-minima-1/index.html"
+                    ]
+                },
+                {
+                    "title": "Powers of a Matrix",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110531_B2_300k.mp4",
+                    "youtubeKey": "5IGTFgPqlkw",
+                    "contentLength": 21269398,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/11099da0a6a4583ba9f7895c9e31ddd5_5IGTFgPqlkw.vtt",
+                    "htmlFile": [
+                        "resources/problem-solving-powers-of-a-matrix-1/index.html",
+                        "resources/problem-solving-powers-of-a-matrix/index.html"
+                    ]
                 },
                 {
                     "title": "Problem Solving: Projection onto Subspaces",
@@ -361,31 +325,64 @@
                     "youtubeKey": "t-n4a18AW08",
                     "contentLength": 22871315,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/9dc7b19c30515c7a81f0ceea3938a738_t-n4a18AW08.vtt",
-                    "htmlFile": "resources/problem-solving-projection-onto-subspaces/index.html"
+                    "htmlFile": [
+                        "resources/problem-solving-projection-onto-subspaces/index.html"
+                    ]
                 },
                 {
-                    "title": "Problem Solving: Properties of Determinants",
+                    "title": "Properties of Determinants",
                     "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110531_A2_300k.mp4",
                     "youtubeKey": "55AoWKZZtww",
                     "contentLength": 23119356,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/c10d16a9471758cca6e53121a4303ad4_55AoWKZZtww.vtt",
-                    "htmlFile": "resources/problem-solving-properties-of-determinants/index.html"
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/8e991a3a8eea53158554cf07fc225d8a_55AoWKZZtww.vtt",
+                    "htmlFile": [
+                        "resources/problem-solving-properties-of-determinants-1/index.html",
+                        "resources/problem-solving-properties-of-determinants/index.html"
+                    ]
                 },
                 {
-                    "title": "Problem Solving: Pseudoinverses",
+                    "title": "Pseudoinverses",
                     "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110714_D1_300k.mp4",
                     "youtubeKey": "hSRcHTafkjE",
                     "contentLength": 34233573,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/09dda98b4e04571ea7325d5e851513bf_hSRcHTafkjE.vtt",
-                    "htmlFile": "resources/problem-solving-pseudoinverses/index.html"
+                    "htmlFile": [
+                        "resources/problem-solving-pseudoinverses/index.html",
+                        "resources/problem-solving-pseudoinverses-1/index.html"
+                    ]
                 },
                 {
-                    "title": "Problem Solving: Symmetric Matrices and Positive Definiteness",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110711_D1_300k.mp4",
-                    "youtubeKey": "lpnY5QVjU5w",
-                    "contentLength": 29578720,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/6ac0e17f69005b57bfc247b9c49f2685_lpnY5QVjU5w.vtt",
-                    "htmlFile": "resources/problem-solving-symmetric-matrices-and-positive-definiteness/index.html"
+                    "title": "Similar Matrices",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110607_B1_300k.mp4",
+                    "youtubeKey": "KUuxdk_V7To",
+                    "contentLength": 19140643,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/629f5eaace2351e5befb3b65e46243c2_KUuxdk_V7To.vtt",
+                    "htmlFile": [
+                        "resources/problem-solving-similar-matrices/index.html",
+                        "resources/problem-solving-similar-matrices-1/index.html"
+                    ]
+                },
+                {
+                    "title": "Solving Ax=0",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110711_M2_300k.mp4",
+                    "youtubeKey": "3cMyj8EKFGo",
+                    "contentLength": 23524491,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/96f9523f6c725d459f0d839963c9ff1f_3cMyj8EKFGo.vtt",
+                    "htmlFile": [
+                        "resources/solving-ax-0/index.html",
+                        "resources/solving-ax-0-1/index.html"
+                    ]
+                },
+                {
+                    "title": "Solving Ax=b",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110714_M3_300k.mp4",
+                    "youtubeKey": "fjsPjh0B2tU",
+                    "contentLength": 21160270,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/0b61a45dff63528998e8bc5b0d4fed85_fjsPjh0B2tU.vtt",
+                    "htmlFile": [
+                        "resources/solving-ax-b-1/index.html",
+                        "resources/solving-ax-b/index.html"
+                    ]
                 },
                 {
                     "title": "Subspaces of Three Dimensional Space",
@@ -393,23 +390,65 @@
                     "youtubeKey": "QQpvGlF_1Qo",
                     "contentLength": 34402609,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/eabc46e820c85402893bef35ca004ab0_QQpvGlF_1Qo.vtt",
-                    "htmlFile": "resources/subspaces-of-three-dimensional-space/index.html"
+                    "htmlFile": [
+                        "resources/subspaces-of-three-dimensional-space/index.html",
+                        "resources/subspaces-of-three-dimensional-space-1/index.html"
+                    ]
+                },
+                {
+                    "title": "Symmetric Matrices and Positive Definiteness",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110711_D1_300k.mp4",
+                    "youtubeKey": "lpnY5QVjU5w",
+                    "contentLength": 29578720,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/6ac0e17f69005b57bfc247b9c49f2685_lpnY5QVjU5w.vtt",
+                    "htmlFile": [
+                        "resources/problem-solving-symmetric-matrices-and-positive-definiteness/index.html",
+                        "resources/problem-solving-symmetric-matrices-and-positive-definiteness-1/index.html"
+                    ]
                 },
                 {
                     "title": "Vector Subspaces",
                     "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110711_N2_300k.mp4",
                     "youtubeKey": "S8DQZjE4V8U",
                     "contentLength": 20453875,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/0fa96f819581540998577165819872a9_S8DQZjE4V8U.vtt",
-                    "htmlFile": "resources/vector-subspaces/index.html"
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/4f621c92a3615d35834a7237a1a3fa98_S8DQZjE4V8U.vtt",
+                    "htmlFile": [
+                        "resources/vector-subspaces-1/index.html",
+                        "resources/vector-subspaces/index.html"
+                    ]
                 },
                 {
-                    "title": "第二次考试例题",
+                    "title": "三维空间的子空间",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11-zh/MIT18_06SC_110607_L3_zh-hans-cmn_300k.mp4",
+                    "youtubeKey": "VyPIQ_8QqEk",
+                    "contentLength": 30493414,
+                    "captionsFile": null,
+                    "htmlFile": [
+                        "resources/4e097ef47a7a95f476845b507a7a95f4/index.html",
+                        "resources/4e097ef47a7a95f476845b507a7a95f4-1/index.html"
+                    ]
+                },
+                {
+                    "title": "微分方程指数矩阵 (At)",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11-zh/MIT18_06SC_110531_L2_zh-hans-cmn_300k.mp4",
+                    "youtubeKey": "fiSp3Ss-Yo8",
+                    "contentLength": 34413874,
+                    "captionsFile": null,
+                    "htmlFile": [
+                        "resources/5fae520665b97a0b6307657077e99635-at-1/index.html",
+                        "resources/5fae520665b97a0b6307657077e99635-at/index.html"
+                    ]
+                },
+                {
+                    "title": "第二次考试例题求解",
                     "videoUrl": "http://www.archive.org/download/MIT18.06SCF11-zh/MIT18_06SC_110609_L1_zh-hans-cmn_300k.mp4",
                     "youtubeKey": "ThxvK9t7DNo",
                     "contentLength": 43128366,
                     "captionsFile": null,
-                    "htmlFile": "resources/7b2c4e8c6b2180038bd54f8b9898/index.html"
+                    "htmlFile": [
+                        "resources/7b2c4e8c6b2180038bd54f8b9898-1/index.html",
+                        "resources/7b2c4e8c6b2180038bd54f8b9898/index.html"
+                    ]
                 },
                 {
                     "title": "线性代数的几何表示",
@@ -417,7 +456,411 @@
                     "youtubeKey": "mgbjhzDndOY",
                     "contentLength": 36058760,
                     "captionsFile": null,
-                    "htmlFile": "resources/7ebf60274ee36570768451e04f558868793a/index.html"
+                    "htmlFile": [
+                        "resources/7ebf60274ee36570768451e04f558868793a-1/index.html",
+                        "resources/7ebf60274ee36570768451e04f558868793a/index.html"
+                    ]
+                },
+                {
+                    "title": "行列式",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11-zh/MIT18_06SC_110526_L2_zh-hans-cmn_300k.mp4",
+                    "youtubeKey": "ZyYGJc9jNno",
+                    "contentLength": 28200957,
+                    "captionsFile": null,
+                    "htmlFile": [
+                        "resources/884c52175f0f-1/index.html",
+                        "resources/884c52175f0f/index.html"
+                    ]
+                },
+                {
+                    "title": "行列式和体积",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11-zh/MIT18_06SC_110531_L4_zh-hans-cmn_300k.mp4",
+                    "youtubeKey": "ZuWAwCEMeWE",
+                    "contentLength": 26846119,
+                    "captionsFile": null,
+                    "htmlFile": [
+                        "resources/884c52175f0f548c4f5379ef/index.html",
+                        "resources/884c52175f0f548c4f5379ef-1/index.html"
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "Lecture Videos",
+            "videos": [
+                {
+                    "title": "1. The Geometry of Linear Equations",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/01.mp4",
+                    "youtubeKey": "J7DzL2_Na80",
+                    "contentLength": 92409278,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/97f5a4d9abaf503493b295487f5d1e99_J7DzL2_Na80.vtt",
+                    "htmlFile": [
+                        "resources/the-geometry-of-linear-equations/index.html",
+                        "resources/the-geometry-of-linear-equations-1/index.html"
+                    ]
+                },
+                {
+                    "title": "2. Elimination with Matrices.",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/02.mp4",
+                    "youtubeKey": "QVKj3LADCnA",
+                    "contentLength": 108128339,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/ea557f2ff4605f13b857c2aff8866c54_QVKj3LADCnA.vtt",
+                    "htmlFile": [
+                        "resources/elimination-with-matrices/index.html",
+                        "resources/elimination-with-matrices-1/index.html"
+                    ]
+                },
+                {
+                    "title": "3. Multiplication and Inverse Matrices",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/03.mp4",
+                    "youtubeKey": "FX4C-JpTFgY",
+                    "contentLength": 111305176,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/107c72edddd4549fa156839a8c48e1ec_FX4C-JpTFgY.vtt",
+                    "htmlFile": [
+                        "resources/multiplication-and-inverse-matrices-1/index.html",
+                        "resources/multiplication-and-inverse-matrices/index.html"
+                    ]
+                },
+                {
+                    "title": "4. Factorization into A = LU",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/04.mp4",
+                    "youtubeKey": "MsIvs_6vC38",
+                    "contentLength": 112447812,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/a2a1c9d07be650d8b034d59d254a8ae3_MsIvs_6vC38.vtt",
+                    "htmlFile": [
+                        "resources/factorization-into-a-lu/index.html",
+                        "resources/factorization-into-a-lu-1/index.html"
+                    ]
+                },
+                {
+                    "title": "5. Transposes, Permutations, Spaces R^n",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/05.mp4",
+                    "youtubeKey": "JibVXBElKL0",
+                    "contentLength": 108271626,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/1d346aa7f488587eb25b2b8e0b1e41cd_JibVXBElKL0.vtt",
+                    "htmlFile": [
+                        "resources/transposes-permutations-vector-spaces/index.html",
+                        "resources/transposes-permutations-vector-spaces-1/index.html"
+                    ]
+                },
+                {
+                    "title": "6. Column Space and Nullspace",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/06.mp4",
+                    "youtubeKey": "8o5Cmfpeo6g",
+                    "contentLength": 109278726,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/e0b3bc76b4a756e6bfbda226c878ca71_8o5Cmfpeo6g.vtt",
+                    "htmlFile": [
+                        "resources/column-space-and-nullspace/index.html",
+                        "resources/column-space-and-nullspace-1/index.html"
+                    ]
+                },
+                {
+                    "title": "7. Solving Ax = 0: Pivot Variables, Special Solutions",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/07.mp4",
+                    "youtubeKey": "VqP2tREMvt0",
+                    "contentLength": 99033441,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/b8ec077a90335789bab9fc1b655c2a21_VqP2tREMvt0.vtt",
+                    "htmlFile": [
+                        "resources/solving-ax-0-pivot-variables-special-solutions-1/index.html",
+                        "resources/solving-ax-0-pivot-variables-special-solutions/index.html"
+                    ]
+                },
+                {
+                    "title": "8. Solving Ax = b: Row Reduced Form R",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/08.mp4",
+                    "youtubeKey": "9Q1q7s1jTzU",
+                    "contentLength": 107645832,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/4f4e1b5d29ad5ee29376979e5161c2e4_9Q1q7s1jTzU.vtt",
+                    "htmlFile": [
+                        "resources/solving-ax-b-row-reduced-form-r-1/index.html",
+                        "resources/solving-ax-b-row-reduced-form-r/index.html"
+                    ]
+                },
+                {
+                    "title": "9. Independence, Basis, and Dimension",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/09.mp4",
+                    "youtubeKey": "yjBerM5jWsc",
+                    "contentLength": 114739484,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/b555b03e3f2e54869067cce778afaf7d_yjBerM5jWsc.vtt",
+                    "htmlFile": [
+                        "resources/independence-basis-and-dimension/index.html",
+                        "resources/independence-basis-and-dimension-1/index.html"
+                    ]
+                },
+                {
+                    "title": "10. The Four Fundamental Subspaces",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/10.mp4",
+                    "youtubeKey": "nHlE7EgJFds",
+                    "contentLength": 112762733,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/8c2761c8fcb15bfaa495487f7b8a4bba_nHlE7EgJFds.vtt",
+                    "htmlFile": [
+                        "resources/the-four-fundamental-subspaces/index.html",
+                        "resources/the-four-fundamental-subspaces-1/index.html"
+                    ]
+                },
+                {
+                    "title": "11. Matrix Spaces; Rank 1; Small World Graphs",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/11.mp4",
+                    "youtubeKey": "2IdtqGM6KWU",
+                    "contentLength": 109023514,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/e47db3c0da4e50b391b4f8e469a45169_2IdtqGM6KWU.vtt",
+                    "htmlFile": [
+                        "resources/matrix-spaces-rank-1-small-world-graphs-1/index.html",
+                        "resources/matrix-spaces-rank-1-small-world-graphs/index.html"
+                    ]
+                },
+                {
+                    "title": "12. Graphs, Networks, Incidence Matrices",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/12.mp4",
+                    "youtubeKey": "6-wh6yvk6uc",
+                    "contentLength": 108671533,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/ab6c364265de583897ed42a2ffa74491_6-wh6yvk6uc.vtt",
+                    "htmlFile": [
+                        "resources/graphs-networks-incidence-matrices/index.html",
+                        "resources/graphs-networks-incidence-matrices-1/index.html"
+                    ]
+                },
+                {
+                    "title": "13. Quiz 1 Review",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/13.mp4",
+                    "youtubeKey": "l88D4r74gtM",
+                    "contentLength": 107672964,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/0fda28a2b4545e7799a41888d6b6123e_l88D4r74gtM.vtt",
+                    "htmlFile": [
+                        "resources/exam-1-review-1/index.html",
+                        "resources/exam-1-review/index.html"
+                    ]
+                },
+                {
+                    "title": "14. Orthogonal Vectors and Subspaces",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/14.mp4",
+                    "youtubeKey": "YzZUIYRCE38",
+                    "contentLength": 112211308,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/04e75083c99e54d09c18ad2809c67a3d_YzZUIYRCE38.vtt",
+                    "htmlFile": [
+                        "resources/orthogonal-vectors-and-subspaces-1/index.html",
+                        "resources/orthogonal-vectors-and-subspaces/index.html"
+                    ]
+                },
+                {
+                    "title": "15. Projections onto Subspaces",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/15.mp4",
+                    "youtubeKey": "Y_Ac6KiQ1t0",
+                    "contentLength": 109646680,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/182ecbaa32e05473a3a38f9b2baaf3d4_Y_Ac6KiQ1t0.vtt",
+                    "htmlFile": [
+                        "resources/lecture-15-projections-onto-subspaces-1/index.html",
+                        "resources/lecture-15-projections-onto-subspaces/index.html"
+                    ]
+                },
+                {
+                    "title": "16. Projection Matrices and Least Squares",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/16.mp4",
+                    "youtubeKey": "osh80YCg_GM",
+                    "contentLength": 109456489,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/e4114d4887ab527ab79f3d4f0f88e921_osh80YCg_GM.vtt",
+                    "htmlFile": [
+                        "resources/lecture-16-projection-matrices-and-least-squares/index.html",
+                        "resources/lecture-16-projection-matrices-and-least-squares-1/index.html"
+                    ]
+                },
+                {
+                    "title": "17. Orthogonal Matrices and Gram-Schmidt",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/17.mp4",
+                    "youtubeKey": "0MtwqhIwdrI",
+                    "contentLength": 115024152,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/aa3976f167535981a7476f96c5828c40_0MtwqhIwdrI.vtt",
+                    "htmlFile": [
+                        "resources/lecture-17-orthogonal-matrices-and-gram-schmidt/index.html",
+                        "resources/lecture-17-orthogonal-matrices-and-gram-schmidt-1/index.html"
+                    ]
+                },
+                {
+                    "title": "18. Properties of Determinants",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/18.mp4",
+                    "youtubeKey": "srxexLishgY",
+                    "contentLength": 110698833,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/be2b1576e95e561aa993d17aafd2df4c_srxexLishgY.vtt",
+                    "htmlFile": [
+                        "resources/lecture-18-properties-of-determinants-1/index.html",
+                        "resources/lecture-18-properties-of-determinants/index.html"
+                    ]
+                },
+                {
+                    "title": "19. Determinant Formulas and Cofactors",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/19.mp4",
+                    "youtubeKey": "23LLB9mNJvc",
+                    "contentLength": 120709015,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/c2274531c7865da19fadf7b4562aed7f_23LLB9mNJvc.vtt",
+                    "htmlFile": [
+                        "resources/lecture-19-determinant-formulas-and-cofactors-1/index.html",
+                        "resources/lecture-19-determinant-formulas-and-cofactors/index.html"
+                    ]
+                },
+                {
+                    "title": "20. Cramer's Rule, Inverse Matrix, and Volume",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/20.mp4",
+                    "youtubeKey": "QNpj-gOXW9M",
+                    "contentLength": 117083205,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/6ca21e0d5d5853159f0a062deea4f9ec_QNpj-gOXW9M.vtt",
+                    "htmlFile": [
+                        "resources/lecture-20-cramers-rule-inverse-matrix-and-volume/index.html",
+                        "resources/lecture-20-cramers-rule-inverse-matrix-and-volume-1/index.html"
+                    ]
+                },
+                {
+                    "title": "21. Eigenvalues and Eigenvectors",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/21.mp4",
+                    "youtubeKey": "cdZnhQjJu4I",
+                    "contentLength": 119896123,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/88c9d0198d5a5b3b81e6d41fbfa26552_cdZnhQjJu4I.vtt",
+                    "htmlFile": [
+                        "resources/lecture-21-eigenvalues-and-eigenvectors/index.html",
+                        "resources/lecture-21-eigenvalues-and-eigenvectors-1/index.html"
+                    ]
+                },
+                {
+                    "title": "22. Diagonalization and Powers of A",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/22.mp4",
+                    "youtubeKey": "13r9QY6cmjc",
+                    "contentLength": 117149002,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/31328fec5be45ee78b88aaa35d3fb995_13r9QY6cmjc.vtt",
+                    "htmlFile": [
+                        "resources/lecture-22-diagonalization-and-powers-of-a/index.html",
+                        "resources/lecture-22-diagonalization-and-powers-of-a-1/index.html"
+                    ]
+                },
+                {
+                    "title": "23. Differential Equations and exp(At)",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/23.mp4",
+                    "youtubeKey": "IZqwi0wJovM",
+                    "contentLength": 121129627,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/b31eeed850085d9c865da4c8dc6858c8_IZqwi0wJovM.vtt",
+                    "htmlFile": [
+                        "resources/lecture-23-differential-equations-and-exp-at/index.html",
+                        "resources/lecture-23-differential-equations-and-exp-at-1/index.html"
+                    ]
+                },
+                {
+                    "title": "24. Markov Matrices; Fourier Series",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/24.mp4",
+                    "youtubeKey": "lGGDIGizcQ0",
+                    "contentLength": 119460500,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/dd72d7f78da15401b904eb697b4cf274_lGGDIGizcQ0.vtt",
+                    "htmlFile": [
+                        "resources/lecture-24-markov-matrices-fourier-series-1/index.html",
+                        "resources/lecture-24-markov-matrices-fourier-series/index.html"
+                    ]
+                },
+                {
+                    "title": "24b. Quiz 2 Review",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/24b.mp4",
+                    "youtubeKey": "QuZL5IKpO_U",
+                    "contentLength": 112916220,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/9e725ec6656b5f948ea17835e660b4fb_QuZL5IKpO_U.vtt",
+                    "htmlFile": [
+                        "resources/exam-2-review-1/index.html",
+                        "resources/exam-2-review/index.html"
+                    ]
+                },
+                {
+                    "title": "25. Symmetric Matrices and Positive Definiteness",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/25.mp4",
+                    "youtubeKey": "UCc9q_cAhho",
+                    "contentLength": 102375409,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/f5bb225dfb8151efb3349a55414aa62b_UCc9q_cAhho.vtt",
+                    "htmlFile": [
+                        "resources/lecture-25-symmetric-matrices-and-positive-definiteness-1/index.html",
+                        "resources/lecture-25-symmetric-matrices-and-positive-definiteness/index.html"
+                    ]
+                },
+                {
+                    "title": "26. Complex Matrices; Fast Fourier Transform",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/26.mp4",
+                    "youtubeKey": "M0Sa8fLOajA",
+                    "contentLength": 108639956,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/cb4684aaf8a55beeb066aefd226b796c_M0Sa8fLOajA.vtt",
+                    "htmlFile": [
+                        "resources/lecture-26-complex-matrices-fast-fourier-transform-fft-1/index.html",
+                        "resources/lecture-26-complex-matrices-fast-fourier-transform-fft/index.html"
+                    ]
+                },
+                {
+                    "title": "27. Positive Definite Matrices and Minima",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/27.mp4",
+                    "youtubeKey": "vF7eyJ2g3kU",
+                    "contentLength": 115156838,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/c672fa052ba155cab26721352d3ca2ba_vF7eyJ2g3kU.vtt",
+                    "htmlFile": [
+                        "resources/lecture-27-positive-definite-matrices-and-minima/index.html",
+                        "resources/lecture-27-positive-definite-matrices-and-minima-1/index.html"
+                    ]
+                },
+                {
+                    "title": "28. Similar Matrices and Jordan Form",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/28.mp4",
+                    "youtubeKey": "TSdXJw83kyA",
+                    "contentLength": 106837103,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/e81db3a127065d5ea2ce9419ac77fce9_TSdXJw83kyA.vtt",
+                    "htmlFile": [
+                        "resources/lecture-28-similar-matrices-and-jordan-form-1/index.html",
+                        "resources/lecture-28-similar-matrices-and-jordan-form/index.html"
+                    ]
+                },
+                {
+                    "title": "29. Singular Value Decomposition",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/29.mp4",
+                    "youtubeKey": "TX_vooSnhm8",
+                    "contentLength": 93818080,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/e3443d18a999556ebbbc53551145b883_TX_vooSnhm8.vtt",
+                    "htmlFile": [
+                        "resources/lecture-29-singular-value-decomposition/index.html",
+                        "resources/lecture-29-singular-value-decomposition-1/index.html"
+                    ]
+                },
+                {
+                    "title": "30. Linear Transformations and Their Matrices",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/30.mp4",
+                    "youtubeKey": "Ts3o2I8_Mxc",
+                    "contentLength": 112366254,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/bfe409a124175b8592151c3c4651ea70_Ts3o2I8_Mxc.vtt",
+                    "htmlFile": [
+                        "resources/lecture-30-linear-transformations-and-their-matrices-1/index.html",
+                        "resources/lecture-30-linear-transformations-and-their-matrices/index.html"
+                    ]
+                },
+                {
+                    "title": "31. Change of Basis; Image Compression",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/31.mp4",
+                    "youtubeKey": "0h43aV4aH7I",
+                    "contentLength": 117291876,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/86814e7c3b4e533ba325bbfb20b86cc0_0h43aV4aH7I.vtt",
+                    "htmlFile": [
+                        "resources/lecture-31-change-of-basis-image-compression-1/index.html",
+                        "resources/lecture-31-change-of-basis-image-compression/index.html"
+                    ]
+                },
+                {
+                    "title": "33. Left and Right Inverses; Pseudoinverse",
+                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/33.mp4",
+                    "youtubeKey": "Go2aLo7ZOlU",
+                    "contentLength": 95770123,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/560e50df01915456b93cd6bc809601aa_Go2aLo7ZOlU.vtt",
+                    "htmlFile": [
+                        "resources/lecture-33-left-and-right-inverses-pseudoinverse-1/index.html",
+                        "resources/lecture-33-left-and-right-inverses-pseudoinverse/index.html"
+                    ]
+                },
+                {
+                    "title": "Rec 1 | MIT 18.085 Computational Science and Engineering I, Fall 2008",
+                    "videoUrl": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-rec01_300k.mp4",
+                    "youtubeKey": "0oBJN8F616U",
+                    "contentLength": 112781231,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/cc052ad4151e5cc3a2e0653c4adb5a07_0oBJN8F616U.vtt",
+                    "htmlFile": [
+                        "resources/an-overview-of-linear-algebra-1/index.html",
+                        "resources/an-overview-of-linear-algebra/index.html"
+                    ]
                 }
             ]
         },
@@ -425,20 +868,26 @@
             "category": "Lecture Notes",
             "videos": [
                 {
-                    "title": "Exam 3 Review",
+                    "title": "32. Quiz 3 Review",
                     "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/32.mp4",
                     "youtubeKey": "HgC1l_6ySkc",
                     "contentLength": 107029665,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/8e3fb288726055deae77bd4f4b3346c1_HgC1l_6ySkc.vtt",
-                    "htmlFile": "resources/exam-3-review/index.html"
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/2e363da9e1345b569f0dac0141917bec_HgC1l_6ySkc.vtt",
+                    "htmlFile": [
+                        "resources/exam-3-review-1/index.html",
+                        "resources/exam-3-review/index.html"
+                    ]
                 },
                 {
-                    "title": "Final Course Review",
+                    "title": "34. Final Course Review",
                     "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/34.mp4",
                     "youtubeKey": "RWvi4Vx4CDc",
                     "contentLength": 98777983,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/5fa20eaa1aed563bad8c7b5c46b8dc73_RWvi4Vx4CDc.vtt",
-                    "htmlFile": "resources/final-course-review/index.html"
+                    "htmlFile": [
+                        "resources/final-course-review/index.html",
+                        "resources/final-course-review-1/index.html"
+                    ]
                 }
             ]
         },
@@ -451,7 +900,19 @@
                     "youtubeKey": "7UJ4CFRGd-U",
                     "contentLength": 17608303,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/649d8a9bf6655cd99552d08602ee8f9b_7UJ4CFRGd-U.vtt",
-                    "htmlFile": "resources/an-interview-with-gilbert-strang-on-teaching-linear-algebra/index.html"
+                    "htmlFile": [
+                        "resources/an-interview-with-gilbert-strang-on-teaching-linear-algebra/index.html"
+                    ]
+                },
+                {
+                    "title": "Gil Strang's Final 18.06 Linear Algebra Lecture",
+                    "videoUrl": "https://archive.org/download/youtube-lUUte2o2Sn8/lUUte2o2Sn8.mp4",
+                    "youtubeKey": "lUUte2o2Sn8",
+                    "contentLength": 383796477,
+                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/lUUte2o2Sn8_captions.webvtt",
+                    "htmlFile": [
+                        "resources/gil-strang-final-lecture/index.html"
+                    ]
                 },
                 {
                     "title": "Linear Algebra Course Introduction",
@@ -459,231 +920,9 @@
                     "youtubeKey": "YeyrH-Oc2p4",
                     "contentLength": 17073913,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/190783ec11085ed498d9abdd30b2b2c0_YeyrH-Oc2p4.vtt",
-                    "htmlFile": "resources/linear-algebra-course-introduction/index.html"
-                },
-                {
-                    "title": "Graphs, Networks, Incidence Matrices",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/12.mp4",
-                    "youtubeKey": "6-wh6yvk6uc",
-                    "contentLength": 108671533,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/ab6c364265de583897ed42a2ffa74491_6-wh6yvk6uc.vtt",
-                    "htmlFile": "resources/graphs-networks-incidence-matrices/index.html"
-                },
-                {
-                    "title": "Independence, Basis and Dimension",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/09.mp4",
-                    "youtubeKey": "yjBerM5jWsc",
-                    "contentLength": 114739484,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/091078fee8e15d9aa19d212751fe4a01_yjBerM5jWsc.vtt",
-                    "htmlFile": "resources/independence-basis-and-dimension-1/index.html"
-                },
-                {
-                    "title": "Basis and Dimension",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110526_A2_300k.mp4",
-                    "youtubeKey": "MMWqGD4Urso",
-                    "contentLength": 19135907,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/5d1b0a876877508a9f92778ef7f46e97_MMWqGD4Urso.vtt",
-                    "htmlFile": "resources/basis-and-dimension-1/index.html"
-                },
-                {
-                    "title": "Computing the Four Fundamental Subspaces",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110526_B2_300k.mp4",
-                    "youtubeKey": "D8u1LV9CnCk",
-                    "contentLength": 24941472,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/d3b548d2c86e5f599f6917b90bb95225_D8u1LV9CnCk.vtt",
-                    "htmlFile": "resources/computing-the-four-fundamental-subspaces-1/index.html"
-                },
-                {
-                    "title": "Exam 1 Review",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/13.mp4",
-                    "youtubeKey": "l88D4r74gtM",
-                    "contentLength": 107672964,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/0fda28a2b4545e7799a41888d6b6123e_l88D4r74gtM.vtt",
-                    "htmlFile": "resources/exam-1-review-1/index.html"
-                },
-                {
-                    "title": "Exam 2 Problem Solving",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110607_L1_300k.mp4",
-                    "youtubeKey": "pz3zyUO2gpM",
-                    "contentLength": 41619842,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/67a71bb469055af18ddd510d052fd63d_pz3zyUO2gpM.vtt",
-                    "htmlFile": "resources/exam-2-problem-solving-1/index.html"
-                },
-                {
-                    "title": "Exam 2 Review",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/24b.mp4",
-                    "youtubeKey": "QuZL5IKpO_U",
-                    "contentLength": 112916220,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/9e725ec6656b5f948ea17835e660b4fb_QuZL5IKpO_U.vtt",
-                    "htmlFile": "resources/exam-2-review-1/index.html"
-                },
-                {
-                    "title": "Exam 3 Problem Solving",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110714_D2_300k.mp4",
-                    "youtubeKey": "OsHY7ycgbaE",
-                    "contentLength": 30028370,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/8bfd9a7ec9775ee9a39955b05c7f2f92_OsHY7ycgbaE.vtt",
-                    "htmlFile": "resources/exam-3-problem-solving-1/index.html"
-                },
-                {
-                    "title": "Geometry of Linear Algebra",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110609_L2_300k.mp4",
-                    "youtubeKey": "My5w4MXWBew",
-                    "contentLength": 38618265,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/e8095a8697105b98947071752b206541_My5w4MXWBew.vtt",
-                    "htmlFile": "resources/geometry-of-linear-algebra-1/index.html"
-                },
-                {
-                    "title": "Lecture: Elimination with Matrices",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/02.mp4",
-                    "youtubeKey": "QVKj3LADCnA",
-                    "contentLength": 108128339,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/246844f53b315d548c9c682255a040e4_QVKj3LADCnA.vtt",
-                    "htmlFile": "resources/elimination-with-matrices-1/index.html"
-                },
-                {
-                    "title": "LU Decomposition",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110706_B1_300k.mp4",
-                    "youtubeKey": "-eA2D_rIcNA",
-                    "contentLength": 22347644,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/8feb936c240f5fb193da9707bbf48767_-eA2D_rIcNA.vtt",
-                    "htmlFile": "resources/lu-decomposition-1/index.html"
-                },
-                {
-                    "title": "Multiplication and Inverse Matrices",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/03.mp4",
-                    "youtubeKey": "FX4C-JpTFgY",
-                    "contentLength": 111305176,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/107c72edddd4549fa156839a8c48e1ec_FX4C-JpTFgY.vtt",
-                    "htmlFile": "resources/multiplication-and-inverse-matrices-1/index.html"
-                },
-                {
-                    "title": "Problem Solving: Complex Matrices",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110711_D2_300k.mp4",
-                    "youtubeKey": "VYS9EYZ3gCo",
-                    "contentLength": 30472514,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/1313c8abaaf356f386412fb3c83a2e5f_VYS9EYZ3gCo.vtt",
-                    "htmlFile": "resources/problem-solving-complex-matrices-1/index.html"
-                },
-                {
-                    "title": "Problem Solving: Eigenvalues and Eigenvectors",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110706_N2_300k.mp4",
-                    "youtubeKey": "mVeuZzJdd1w",
-                    "contentLength": 21980196,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/92d2c2fb8a6e59c1b4de8cc306896b35_mVeuZzJdd1w.vtt",
-                    "htmlFile": "resources/problem-solving-eigenvalues-and-eigenvectors-1/index.html"
-                },
-                {
-                    "title": "Problem Solving: Gram-Schmidt Orthogonalization",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110609_A1_300k.mp4",
-                    "youtubeKey": "HEQuN0QELSQ",
-                    "contentLength": 23329408,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/d34aa6965bfa5047afe50f81ea583982_HEQuN0QELSQ.vtt",
-                    "htmlFile": "resources/problem-solving-gram-schmidt-orthogonalization-1/index.html"
-                },
-                {
-                    "title": "Problem Solving: Least Squares Approximation",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110531_B1_300k.mp4",
-                    "youtubeKey": "AmQcoopBUTk",
-                    "contentLength": 18861189,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/052381dbfb29511683f9cdd12ca0a913_AmQcoopBUTk.vtt",
-                    "htmlFile": "resources/problem-solving-least-squares-approximation-1/index.html"
-                },
-                {
-                    "title": "Problem Solving: Orthogonal Vectors and Subspaces",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110706_D1_300k.mp4",
-                    "youtubeKey": "h9aDgvW59TU",
-                    "contentLength": 24306785,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/187d8a0b11db58348436823d3f804f58_h9aDgvW59TU.vtt",
-                    "htmlFile": "resources/problem-solving-orthogonal-vectors-and-subspaces-1/index.html"
-                },
-                {
-                    "title": "Problem Solving: Powers of a Matrix",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110531_B2_300k.mp4",
-                    "youtubeKey": "5IGTFgPqlkw",
-                    "contentLength": 21269398,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/11099da0a6a4583ba9f7895c9e31ddd5_5IGTFgPqlkw.vtt",
-                    "htmlFile": "resources/problem-solving-powers-of-a-matrix-1/index.html"
-                },
-                {
-                    "title": "Problem Solving: Similar Matrices",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110607_B1_300k.mp4",
-                    "youtubeKey": "KUuxdk_V7To",
-                    "contentLength": 19140643,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/25d672252dd45d73b08f0d6f0a1c45ba_KUuxdk_V7To.vtt",
-                    "htmlFile": "resources/problem-solving-similar-matrices-1/index.html"
-                },
-                {
-                    "title": "Solving Ax = b: Row Reduced Form R",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/08.mp4",
-                    "youtubeKey": "9Q1q7s1jTzU",
-                    "contentLength": 107645832,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/ce4a1a46dba6506f9b78de35e746ba62_9Q1q7s1jTzU.vtt",
-                    "htmlFile": "resources/solving-ax-b-row-reduced-form-r/index.html"
-                },
-                {
-                    "title": "Solving Ax=0",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110711_M2_300k.mp4",
-                    "youtubeKey": "3cMyj8EKFGo",
-                    "contentLength": 23524491,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/0687f2b739f4597fbb488dd945f9f27a_3cMyj8EKFGo.vtt",
-                    "htmlFile": "resources/solving-ax-0-1/index.html"
-                },
-                {
-                    "title": "Solving Ax=b",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11/MIT18_06SC_110714_M3_300k.mp4",
-                    "youtubeKey": "fjsPjh0B2tU",
-                    "contentLength": 21160270,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/ab4673a534455eb1a588d6ff0485c033_fjsPjh0B2tU.vtt",
-                    "htmlFile": "resources/solving-ax-b/index.html"
-                },
-                {
-                    "title": "The Four Fundamental Subspaces",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/10.mp4",
-                    "youtubeKey": "nHlE7EgJFds",
-                    "contentLength": 112762733,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/8c2761c8fcb15bfaa495487f7b8a4bba_nHlE7EgJFds.vtt",
-                    "htmlFile": "resources/the-four-fundamental-subspaces/index.html"
-                },
-                {
-                    "title": "Transposes, Permutations, Vector Spaces",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06S05_MP4/05.mp4",
-                    "youtubeKey": "JibVXBElKL0",
-                    "contentLength": 108271626,
-                    "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/1d346aa7f488587eb25b2b8e0b1e41cd_JibVXBElKL0.vtt",
-                    "htmlFile": "resources/transposes-permutations-vector-spaces/index.html"
-                },
-                {
-                    "title": "三维空间的子空间",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11-zh/MIT18_06SC_110607_L3_zh-hans-cmn_300k.mp4",
-                    "youtubeKey": "VyPIQ_8QqEk",
-                    "contentLength": 30493414,
-                    "captionsFile": null,
-                    "htmlFile": "resources/4e097ef47a7a95f476845b507a7a95f4-1/index.html"
-                },
-                {
-                    "title": "微分方程指数矩阵(At)",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11-zh/MIT18_06SC_110531_L2_zh-hans-cmn_300k.mp4",
-                    "youtubeKey": "fiSp3Ss-Yo8",
-                    "contentLength": 34413874,
-                    "captionsFile": null,
-                    "htmlFile": "resources/5fae520665b97a0b6307657077e99635-at/index.html"
-                },
-                {
-                    "title": "行列式",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11-zh/MIT18_06SC_110526_L2_zh-hans-cmn_300k.mp4",
-                    "youtubeKey": "ZyYGJc9jNno",
-                    "contentLength": 28200957,
-                    "captionsFile": null,
-                    "htmlFile": "resources/884c52175f0f-1/index.html"
-                },
-                {
-                    "title": "行列式和体积",
-                    "videoUrl": "http://www.archive.org/download/MIT18.06SCF11-zh/MIT18_06SC_110531_L4_zh-hans-cmn_300k.mp4",
-                    "youtubeKey": "ZuWAwCEMeWE",
-                    "contentLength": 26846119,
-                    "captionsFile": null,
-                    "htmlFile": "resources/884c52175f0f548c4f5379ef-1/index.html"
+                    "htmlFile": [
+                        "resources/linear-algebra-course-introduction/index.html"
+                    ]
                 }
             ]
         }

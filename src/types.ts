@@ -25,7 +25,8 @@ export type VideoData = {
   contentLength: number;
   category: string;
   captionsFile: string | null;
-  htmlFile: string;
+  // must have at least one element
+  htmlFile: string[];
 };
 
 export type CourseStatus = "none" | "downloading" | "preparing" | "ready";
@@ -61,7 +62,8 @@ export type VideoQueueItem = {
 
 export type VideoQueue = VideoQueueItem[];
 
-// Types used for import courses from JSON files
+// Types used when courses are imported from JSON, they are converted into the
+// non-raw types defined above
 type RawVideo = Omit<VideoData, "category">;
 
 type VideoGroup = {

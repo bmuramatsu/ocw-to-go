@@ -12,14 +12,27 @@ export const VIDEO_HOST = "https://ocw.mit.edu";
 
 // eslint assumes this is running in the browser
 // eslint-disable-next-line no-undef
-const url = process.argv[2];
+const arg = process.argv[2];
+
+let url;
+let existingCourseJson;
+if (arg.startsWith("http")) {
+  console.log(`Building new course from URL: ${arg}`);
+  url = arg;
+} else {
+  console.log(`Rebuilding existing course from file: ${arg}`);
+  const file = fs.readFileSync(arg, "utf-8");
+  existingCourseJson = JSON.parse(file);
+  url = existingCourseJson.file;
+}
+
+console.log(`Fetching course from URL: ${url}`);
 const resp = await fetch(url);
 if (!resp.ok) {
   throw new Error(`Failed to fetch ${url}: ${resp.status} ${resp.statusText}`);
 }
 
 const zipFile = await resp.arrayBuffer();
-const downloadSize = resp.headers.get("content-length");
 
 const zip = await new JSZip().loadAsync(zipFile);
 
@@ -42,12 +55,14 @@ if (match && match[1]) {
 
 // remove preceding "./" if present. jszip doesn't handle it
 const imgLocalPath = dataJSON.image_src.replace(/^\.\/?/, "");
-const imgDestPath = `dist/images/course_cards/${courseId}.jpg`;
+const imgDestPath = `static/images/course_cards/${courseId}.jpg`;
 
+console.log(`Writing course image to ${imgDestPath}`);
 const imgBlob = await zip.file(imgLocalPath).async("nodebuffer");
 
 fs.writeFileSync(imgDestPath, imgBlob);
 
+console.log("Analyzing course content");
 const dataPaths = [];
 let diskSize = 0;
 
@@ -73,7 +88,13 @@ async function getUserInput(prompt) {
   });
 }
 
-const category = await getUserInput("Enter the category for this course: ");
+let category;
+if (existingCourseJson) {
+  category = existingCourseJson.category;
+  console.log(`Using existing category: ${category}`);
+} else {
+  category = await getUserInput("Enter the category for this course: ");
+}
 
 const cardData = {
   id: courseId,
@@ -87,7 +108,7 @@ const cardData = {
   cardImg: `/images/course_cards/${courseId}.jpg`,
   imgAltText: dataJSON.course_image_metadata.image_metadata["image-alt"],
   file: url,
-  downloadSize: parseInt(downloadSize),
+  downloadSize: parseInt(resp.headers.get("content-length")),
   diskSize,
   description: dataJSON.course_description,
   descriptionHtml: dataJSON.course_description_html,
@@ -95,49 +116,74 @@ const cardData = {
 };
 
 // use a Map because it maintains insertion order
-const videoGroups = new Map();
-const knownVideos = [];
+const allVideos = [];
 
 for (const dataPath of dataPaths) {
   const data = await zip.file(dataPath).async("text");
   const dataJSON = JSON.parse(data);
-
   if (
     dataJSON["resource_type"] === "Video" &&
-    (dataJSON["file"] || dataJSON["archive_url"]) &&
-    !knownVideos.includes(dataJSON.youtube_key)
+    (dataJSON["file"] || dataJSON["archive_url"])
   ) {
-    knownVideos.push(dataJSON.youtube_key);
-    console.log(`getting length for ${dataJSON.title}`);
-    const videoUrl = dataJSON["file"]
-      ? VIDEO_HOST + dataJSON["file"]
-      : dataJSON["archive_url"];
+    allVideos.push({ dataPath, dataJSON });
+  }
+}
 
-    const resp = await fetch(videoUrl, { method: "HEAD" });
-    const length = parseInt(resp.headers.get("content-length"));
-    if (!length) {
-      console.warn(
-        `No content-length for ${dataJSON.title} (${videoUrl}), skipping`,
-      );
-      continue;
-    }
-    // these seem to be applied very inconsistently
-    const category = dataJSON["learning_resource_types"][0] || "Other";
+const videosByKey = Object.groupBy(allVideos, (v) => v.dataJSON.youtube_key);
+const videoGroups = new Map();
 
-    const videoData = {
-      title: dataJSON.title,
-      videoUrl,
-      youtubeKey: dataJSON["youtube_key"],
-      contentLength: length,
-      captionsFile: dataJSON["captions_file"],
-      htmlFile: dataPath.replace("data.json", "index.html"),
-    };
+for (const youtubeKey in videosByKey) {
+  const videos = videosByKey[youtubeKey];
+  const first = videos[0].dataJSON;
+  const singleVideo = videos.length === 1;
 
-    if (videoGroups.has(category)) {
-      videoGroups.get(category).push(videoData);
-    } else {
-      videoGroups.set(category, [videoData]);
-    }
+  // not all videos have a 'file' entry.
+  const videoUrl = first.file ? VIDEO_HOST + first.file : first.archive_url;
+
+  console.log(`getting length for ${first.title}`);
+  const resp = await fetch(videoUrl, { method: "HEAD" });
+  const length = parseInt(resp.headers.get("content-length"));
+  if (!length) {
+    console.warn(
+      `No content-length for ${first.title} (${videoUrl}), skipping`,
+    );
+    continue;
+  }
+  // these seem to be applied very inconsistently
+  // I should grab the first non-empty one
+  const allTypes = videos.flatMap((v) => v.dataJSON["learning_resource_types"]);
+  const category = allTypes[0] || "Other";
+
+  let title;
+  if (singleVideo) {
+    title = first.title;
+  } else {
+    console.log(
+      `Video ${youtubeKey} appears multiple times, fetching title from YouTube`,
+    );
+    const youtubeApiPath = `https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=${first.youtube_key}&format=json`;
+    const youtubeData = await fetch(youtubeApiPath).then((r) => r.json());
+    console.log(`Got title from YouTube: ${youtubeData.title}`);
+    title = youtubeData.title;
+  }
+
+  const videoData = {
+    title,
+    videoUrl,
+    youtubeKey: first["youtube_key"],
+    contentLength: length,
+    // From what I've seen, the videos use different caption files, but the
+    // contents are identical
+    captionsFile: first["captions_file"],
+    // This needs to be a list
+    // also I've lost dataPath at this point
+    htmlFile: videos.map((v) => v.dataPath.replace("data.json", "index.html")),
+  };
+
+  if (videoGroups.has(category)) {
+    videoGroups.get(category).push(videoData);
+  } else {
+    videoGroups.set(category, [videoData]);
   }
 }
 
@@ -167,8 +213,13 @@ fs.writeFileSync(
   JSON.stringify(cardData, null, 4),
 );
 
-fs.appendFileSync("src/courses/index.txt", `\n${safeName}`);
-makeCourseList();
+const courses = fs.readFileSync("src/courses/index.txt", "utf-8").split("\n");
+if (courses.includes(safeName)) {
+  console.log(`Course already in src/courses/index.txt, not adding`);
+} else {
+  fs.appendFileSync("src/courses/index.txt", `\n${safeName}`);
+  makeCourseList();
+  console.log(`Course added to src/courses/index.ts`);
+}
 
-console.log(`Course added to src/courses/index.ts`);
 rl.close();

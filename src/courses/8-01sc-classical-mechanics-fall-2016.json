@@ -33,7 +33,9 @@
                     "youtubeKey": "5ucfHd8FWKw",
                     "contentLength": 5461923,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/635f774d3cd2507094b50297fe1fdc84_5ucfHd8FWKw.vtt",
-                    "htmlFile": "resources/0-1-vectors-vs/index.html"
+                    "htmlFile": [
+                        "resources/0-1-vectors-vs/index.html"
+                    ]
                 },
                 {
                     "title": "0.2 Vector Operators",
@@ -41,7 +43,9 @@
                     "youtubeKey": "Jf2PgGInUEk",
                     "contentLength": 7021230,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/a35de56aedcf5444bf2338ea374414db_Jf2PgGInUEk.vtt",
-                    "htmlFile": "resources/0/index.html"
+                    "htmlFile": [
+                        "resources/0/index.html"
+                    ]
                 },
                 {
                     "title": "0.3 Coordinate Systems and Unit Vectors",
@@ -49,7 +53,9 @@
                     "youtubeKey": "Bq0fDYtbfBA",
                     "contentLength": 3899991,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/49f18648b65f55fd80ef2edf2771becf_Bq0fDYtbfBA.vtt",
-                    "htmlFile": "resources/0-1/index.html"
+                    "htmlFile": [
+                        "resources/0-1/index.html"
+                    ]
                 },
                 {
                     "title": "0.4 Vectors - Magnitude and Direction",
@@ -57,7 +63,9 @@
                     "youtubeKey": "pW6tqp1zRrg",
                     "contentLength": 4688566,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/ca5e78a754695e1c97a8adb104152a0a_pW6tqp1zRrg.vtt",
-                    "htmlFile": "resources/0-2/index.html"
+                    "htmlFile": [
+                        "resources/0-2/index.html"
+                    ]
                 },
                 {
                     "title": "0.5 Vector Decomposition into Components",
@@ -65,7 +73,9 @@
                     "youtubeKey": "VZm6mxu2xlk",
                     "contentLength": 5782691,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/71e832ca260b59bd94394cbab8966a9a_VZm6mxu2xlk.vtt",
-                    "htmlFile": "resources/0-3/index.html"
+                    "htmlFile": [
+                        "resources/0-3/index.html"
+                    ]
                 },
                 {
                     "title": "0.6 Going Between Representations",
@@ -73,7 +83,9 @@
                     "youtubeKey": "esHLwySu4XU",
                     "contentLength": 5068315,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/3cdd0b7f27365bb2a2ec69693d1f84c4_esHLwySu4XU.vtt",
-                    "htmlFile": "resources/0-4/index.html"
+                    "htmlFile": [
+                        "resources/0-4/index.html"
+                    ]
                 },
                 {
                     "title": "1.1 Coordinate Systems and Unit Vectors in 1D Position Vector in 1D",
@@ -81,7 +93,9 @@
                     "youtubeKey": "ErlP_SBcA1s",
                     "contentLength": 11832129,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/917263bef37857bd94ef67692405bcc9_ErlP_SBcA1s.vtt",
-                    "htmlFile": "resources/1/index.html"
+                    "htmlFile": [
+                        "resources/1/index.html"
+                    ]
                 },
                 {
                     "title": "1.2 Position Vector in 1D",
@@ -89,7 +103,9 @@
                     "youtubeKey": "kJxsMnRZXqE",
                     "contentLength": 11518475,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/077e3c3c607a5198b91ca79c79bd25a5_kJxsMnRZXqE.vtt",
-                    "htmlFile": "resources/1-1/index.html"
+                    "htmlFile": [
+                        "resources/1-1/index.html"
+                    ]
                 },
                 {
                     "title": "1.3 Displacement Vector in 1D",
@@ -97,7 +113,9 @@
                     "youtubeKey": "W1lxlbJ0BZU",
                     "contentLength": 21149891,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/78712efb088d5e8d8a2c6f129ab7890d_W1lxlbJ0BZU.vtt",
-                    "htmlFile": "resources/1-2/index.html"
+                    "htmlFile": [
+                        "resources/1-2/index.html"
+                    ]
                 },
                 {
                     "title": "1.4 Average Velocity in 1D",
@@ -105,7 +123,9 @@
                     "youtubeKey": "otGGuHt36XA",
                     "contentLength": 14549436,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/eb4de6161b71524e84eabd90c8c81fe4_otGGuHt36XA.vtt",
-                    "htmlFile": "resources/1-3/index.html"
+                    "htmlFile": [
+                        "resources/1-3/index.html"
+                    ]
                 },
                 {
                     "title": "1.5 Instantaneous Velocity in 1D",
@@ -113,7 +133,9 @@
                     "youtubeKey": "YdyhDdXaSP4",
                     "contentLength": 33532586,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/696b9ada50345817bdeaa39e6dbaf227_YdyhDdXaSP4.vtt",
-                    "htmlFile": "resources/1-4/index.html"
+                    "htmlFile": [
+                        "resources/1-4/index.html"
+                    ]
                 },
                 {
                     "title": "1.7 Worked Example - Derivatives in Kinematics",
@@ -121,7 +143,9 @@
                     "youtubeKey": "jtOxRPQDuJs",
                     "contentLength": 19338412,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/568efbbdb05e5e0e8fb65ab0f4c2b412_jtOxRPQDuJs.vtt",
-                    "htmlFile": "resources/1-5/index.html"
+                    "htmlFile": [
+                        "resources/1-5/index.html"
+                    ]
                 },
                 {
                     "title": "2.1 Introduction to Acceleration",
@@ -129,7 +153,9 @@
                     "youtubeKey": "xZn4l1TSvPQ",
                     "contentLength": 20995914,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/5f67fddbe70354d7931daea08780604e_xZn4l1TSvPQ.vtt",
-                    "htmlFile": "resources/2/index.html"
+                    "htmlFile": [
+                        "resources/2/index.html"
+                    ]
                 },
                 {
                     "title": "2.2 Acceleration in 1D",
@@ -137,7 +163,9 @@
                     "youtubeKey": "qxNJGKrx3EY",
                     "contentLength": 27004170,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/69a13fe6cc8059f7ac97d2ae7e42578e_qxNJGKrx3EY.vtt",
-                    "htmlFile": "resources/2-1/index.html"
+                    "htmlFile": [
+                        "resources/2-1/index.html"
+                    ]
                 },
                 {
                     "title": "2.3 Worked Example - Acceleration from Position",
@@ -145,7 +173,9 @@
                     "youtubeKey": "qmCbc9dbwXU",
                     "contentLength": 22744903,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/a86b031ad2cc577397afcefcd02da5d4_qmCbc9dbwXU.vtt",
-                    "htmlFile": "resources/2-2/index.html"
+                    "htmlFile": [
+                        "resources/2-2/index.html"
+                    ]
                 },
                 {
                     "title": "2.4 Integration",
@@ -153,7 +183,9 @@
                     "youtubeKey": "H7xmTMQ265s",
                     "contentLength": 130778301,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/d3154693ece05ef6896fd13afa45c8c0_H7xmTMQ265s.vtt",
-                    "htmlFile": "resources/2-3/index.html"
+                    "htmlFile": [
+                        "resources/2-3/index.html"
+                    ]
                 },
                 {
                     "title": "3.1 Coordinate System and Position Vector in 2D",
@@ -161,7 +193,9 @@
                     "youtubeKey": "Q3v_2znHCvg",
                     "contentLength": 14427010,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/6912347878255d9dad9cfff358d3e785_Q3v_2znHCvg.vtt",
-                    "htmlFile": "resources/3/index.html"
+                    "htmlFile": [
+                        "resources/3/index.html"
+                    ]
                 },
                 {
                     "title": "3.2 Instantaneous Velocity in 2D",
@@ -169,7 +203,9 @@
                     "youtubeKey": "oOQmu6ICxg4",
                     "contentLength": 36737133,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/9ac4b110e4105d378e19fdcbaff271dc_oOQmu6ICxg4.vtt",
-                    "htmlFile": "resources/3-1/index.html"
+                    "htmlFile": [
+                        "resources/3-1/index.html"
+                    ]
                 },
                 {
                     "title": "3.3 Instantaneous Acceleration in 2D",
@@ -177,7 +213,9 @@
                     "youtubeKey": "sgymEX-4FxE",
                     "contentLength": 32128672,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/03748e17fa825d3db6f5b682f2341bb4_sgymEX-4FxE.vtt",
-                    "htmlFile": "resources/3-2/index.html"
+                    "htmlFile": [
+                        "resources/3-2/index.html"
+                    ]
                 },
                 {
                     "title": "3.4 Projectile Motion",
@@ -185,7 +223,9 @@
                     "youtubeKey": "83NmtaE7fEk",
                     "contentLength": 36985256,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/673bd328fe5f5e0fb1aea8fac18ad3ab_83NmtaE7fEk.vtt",
-                    "htmlFile": "resources/3-3/index.html"
+                    "htmlFile": [
+                        "resources/3-3/index.html"
+                    ]
                 },
                 {
                     "title": "4.1 Newton's First and Second Laws",
@@ -193,7 +233,9 @@
                     "youtubeKey": "89SjJv30kGU",
                     "contentLength": 25854311,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/e229d3465ff15609a25386a64845f9ce_89SjJv30kGU.vtt",
-                    "htmlFile": "resources/4/index.html"
+                    "htmlFile": [
+                        "resources/4/index.html"
+                    ]
                 },
                 {
                     "title": "4.2 Newton's Third Law",
@@ -201,7 +243,9 @@
                     "youtubeKey": "4K539RaRDXU",
                     "contentLength": 42958991,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/6365025aeb395875becf6077c90cb52a_4K539RaRDXU.vtt",
-                    "htmlFile": "resources/4-1/index.html"
+                    "htmlFile": [
+                        "resources/4-1/index.html"
+                    ]
                 },
                 {
                     "title": "4.3 Reference Frames",
@@ -209,7 +253,9 @@
                     "youtubeKey": "QCA3zOe2xdA",
                     "contentLength": 55336001,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/ed18e21b9b235c3a86a834ce8eadfee4_QCA3zOe2xdA.vtt",
-                    "htmlFile": "resources/4-2/index.html"
+                    "htmlFile": [
+                        "resources/4-2/index.html"
+                    ]
                 },
                 {
                     "title": "4.4 Non-inertial Reference Frames",
@@ -217,7 +263,9 @@
                     "youtubeKey": "z0xyQKalezI",
                     "contentLength": 27974689,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/89773f21bea65e038b0a028970663420_z0xyQKalezI.vtt",
-                    "htmlFile": "resources/4-3/index.html"
+                    "htmlFile": [
+                        "resources/4-3/index.html"
+                    ]
                 },
                 {
                     "title": "5.1 Universal Law of Gravitation",
@@ -225,7 +273,9 @@
                     "youtubeKey": "NiCMMn12CIs",
                     "contentLength": 41091720,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/3bdfc68e32ca5763ae0056474dc4d25c_NiCMMn12CIs.vtt",
-                    "htmlFile": "resources/5/index.html"
+                    "htmlFile": [
+                        "resources/5/index.html"
+                    ]
                 },
                 {
                     "title": "5.2 Worked Example: Gravity Superposition",
@@ -233,7 +283,9 @@
                     "youtubeKey": "_mqFIqnCPak",
                     "contentLength": 51681226,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/51980640ee6f5cd197697089d287a247_mqFIqnCPak.vtt",
-                    "htmlFile": "resources/5-1/index.html"
+                    "htmlFile": [
+                        "resources/5-1/index.html"
+                    ]
                 },
                 {
                     "title": "5.3 Gravity at the surface of the Earth: The value of g.",
@@ -241,7 +293,9 @@
                     "youtubeKey": "gl9c9qJRqcM",
                     "contentLength": 29015361,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/4e08a2ef49325a08a3f5009aaad333f5_gl9c9qJRqcM.vtt",
-                    "htmlFile": "resources/5-2/index.html"
+                    "htmlFile": [
+                        "resources/5-2/index.html"
+                    ]
                 },
                 {
                     "title": "6.1 Contact Forces",
@@ -249,7 +303,9 @@
                     "youtubeKey": "IV9NhNIrrDw",
                     "contentLength": 20239899,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/f3fba7065d6f5c9396ce81c5c0f9e871_IV9NhNIrrDw.vtt",
-                    "htmlFile": "resources/6/index.html"
+                    "htmlFile": [
+                        "resources/6/index.html"
+                    ]
                 },
                 {
                     "title": "6.2 Static Friction Lesson",
@@ -257,7 +313,9 @@
                     "youtubeKey": "mLLUgcvQLgY",
                     "contentLength": 20429208,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/1507bd36332a56d8b1cff56f75a30ae1_mLLUgcvQLgY.vtt",
-                    "htmlFile": "resources/6-1/index.html"
+                    "htmlFile": [
+                        "resources/6-1/index.html"
+                    ]
                 },
                 {
                     "title": "7.1 Pushing Pulling and Tension",
@@ -265,7 +323,9 @@
                     "youtubeKey": "RBaBEjzMr4E",
                     "contentLength": 25960017,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/b620b4f7ebf25d118b5a1b27f475f134_RBaBEjzMr4E.vtt",
-                    "htmlFile": "resources/7/index.html"
+                    "htmlFile": [
+                        "resources/7/index.html"
+                    ]
                 },
                 {
                     "title": "7.2 Ideal Rope",
@@ -273,7 +333,9 @@
                     "youtubeKey": "CfBeCHrQj_U",
                     "contentLength": 29677527,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/b28ff504157b5bb38f2726f024cbb728_CfBeCHrQj_U.vtt",
-                    "htmlFile": "resources/7-1/index.html"
+                    "htmlFile": [
+                        "resources/7-1/index.html"
+                    ]
                 },
                 {
                     "title": "7.3 Solving Pulley Systems",
@@ -281,7 +343,9 @@
                     "youtubeKey": "dHMGV_WOG7w",
                     "contentLength": 58237738,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/b06ecc70216b58fbbc09f0e63aa66c5e_dHMGV_WOG7w.vtt",
-                    "htmlFile": "resources/7-2/index.html"
+                    "htmlFile": [
+                        "resources/7-2/index.html"
+                    ]
                 },
                 {
                     "title": "7.4 Hooke's Law",
@@ -289,7 +353,9 @@
                     "youtubeKey": "rCP_-Wuikwo",
                     "contentLength": 35761130,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/ed3d3a69cbc154549d2f4272c818a89c_rCP_-Wuikwo.vtt",
-                    "htmlFile": "resources/7-3/index.html"
+                    "htmlFile": [
+                        "resources/7-3/index.html"
+                    ]
                 },
                 {
                     "title": "8.1 Polar Coordinates",
@@ -297,7 +363,9 @@
                     "youtubeKey": "uo86ir31pn0",
                     "contentLength": 21914110,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/cc50980b55055b5e8c8cad1fd296cbe9_uo86ir31pn0.vtt",
-                    "htmlFile": "resources/8/index.html"
+                    "htmlFile": [
+                        "resources/8/index.html"
+                    ]
                 },
                 {
                     "title": "8.2 Circular Motion: Position and Velocity Vectors",
@@ -305,7 +373,9 @@
                     "youtubeKey": "S9_Oe51XkVY",
                     "contentLength": 35974734,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/4545c523734b5f81be9e070242ad5afe_S9_Oe51XkVY.vtt",
-                    "htmlFile": "resources/8-1/index.html"
+                    "htmlFile": [
+                        "resources/8-1/index.html"
+                    ]
                 },
                 {
                     "title": "8.3 Angular Velocity",
@@ -313,7 +383,9 @@
                     "youtubeKey": "q785KV5ZIN0",
                     "contentLength": 33053671,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/c022db6f0ebc5471b627c77f88fb0bb6_q785KV5ZIN0.vtt",
-                    "htmlFile": "resources/8-2/index.html"
+                    "htmlFile": [
+                        "resources/8-2/index.html"
+                    ]
                 },
                 {
                     "title": "9.1 Uniform Circular Motion",
@@ -321,7 +393,9 @@
                     "youtubeKey": "emrHcqEvXpw",
                     "contentLength": 23348076,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/907c646910925e87bda1a95a9e4edea2_emrHcqEvXpw.vtt",
-                    "htmlFile": "resources/9/index.html"
+                    "htmlFile": [
+                        "resources/9/index.html"
+                    ]
                 },
                 {
                     "title": "9.2 Uniform Circular Motion - Direction of the Acceleration",
@@ -329,7 +403,9 @@
                     "youtubeKey": "l_NW5pPXhg4",
                     "contentLength": 22073568,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/e25c99c40ff25c87814ac58e81845831_l_NW5pPXhg4.vtt",
-                    "htmlFile": "resources/9-1/index.html"
+                    "htmlFile": [
+                        "resources/9-1/index.html"
+                    ]
                 },
                 {
                     "title": "10.1 Circular Motion – Acceleration",
@@ -337,7 +413,9 @@
                     "youtubeKey": "_0PrwAbgoMA",
                     "contentLength": 24261323,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/606ab3a0b9265977b4ada49cccc80ae4_0PrwAbgoMA.vtt",
-                    "htmlFile": "resources/10/index.html"
+                    "htmlFile": [
+                        "resources/10/index.html"
+                    ]
                 },
                 {
                     "title": "10.2 Angular Acceleration",
@@ -345,7 +423,9 @@
                     "youtubeKey": "prCwfSiWuq0",
                     "contentLength": 37883344,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/93a79d957170563b9ade9ac7dbdf2209_prCwfSiWuq0.vtt",
-                    "htmlFile": "resources/10-1/index.html"
+                    "htmlFile": [
+                        "resources/10-1/index.html"
+                    ]
                 },
                 {
                     "title": "10.3 Worked Example - Angular Position from Angular Acceleration",
@@ -353,7 +433,9 @@
                     "youtubeKey": "lufK0UlJ7aE",
                     "contentLength": 28574378,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/237fe15cc6445534b3cc12f9d8078e97_lufK0UlJ7aE.vtt",
-                    "htmlFile": "resources/10-2/index.html"
+                    "htmlFile": [
+                        "resources/10-2/index.html"
+                    ]
                 },
                 {
                     "title": "11.1 Newton's 2nd Law and Circular Motion",
@@ -361,7 +443,9 @@
                     "youtubeKey": "tniGFmPQc0E",
                     "contentLength": 20192699,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/6423fc216ef15bad9968866d25f45439_tniGFmPQc0E.vtt",
-                    "htmlFile": "resources/11/index.html"
+                    "htmlFile": [
+                        "resources/11/index.html"
+                    ]
                 },
                 {
                     "title": "11.2 Worked Example - Car on a Banked Turn",
@@ -369,7 +453,9 @@
                     "youtubeKey": "ofgusnhQ07Q",
                     "contentLength": 45180311,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/3d528a2a4df8586580daa270098818f8_ofgusnhQ07Q.vtt",
-                    "htmlFile": "resources/11-1/index.html"
+                    "htmlFile": [
+                        "resources/11-1/index.html"
+                    ]
                 },
                 {
                     "title": "11.3 Demo: Rotating Bucket",
@@ -377,7 +463,9 @@
                     "youtubeKey": "WLHAaaGHfe8",
                     "contentLength": 5236918,
                     "captionsFile": null,
-                    "htmlFile": "resources/11-2/index.html"
+                    "htmlFile": [
+                        "resources/11-2/index.html"
+                    ]
                 },
                 {
                     "title": "12.1 Pulley Problems - Part I, Set up the Equations",
@@ -385,7 +473,9 @@
                     "youtubeKey": "FNOfxJxceIM",
                     "contentLength": 61185237,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/aa2f45d5810c5632bab28ca38358ce02_FNOfxJxceIM.vtt",
-                    "htmlFile": "resources/12/index.html"
+                    "htmlFile": [
+                        "resources/12/index.html"
+                    ]
                 },
                 {
                     "title": "12.2 Pulley Problem - Part II, Constraint Condition",
@@ -393,7 +483,9 @@
                     "youtubeKey": "gWLC3r6EHl0",
                     "contentLength": 42157926,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/3718110794555fb2871b8f307210f287_gWLC3r6EHl0.vtt",
-                    "htmlFile": "resources/12-1/index.html"
+                    "htmlFile": [
+                        "resources/12-1/index.html"
+                    ]
                 },
                 {
                     "title": "12.3 Pulley Problem - Part III, Constraints and Virtual Displacement Arguments",
@@ -401,7 +493,9 @@
                     "youtubeKey": "GuiIyYbI0HM",
                     "contentLength": 22651840,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/c47f747229bd527abb46d1595f134afe_GuiIyYbI0HM.vtt",
-                    "htmlFile": "resources/12-2/index.html"
+                    "htmlFile": [
+                        "resources/12-2/index.html"
+                    ]
                 },
                 {
                     "title": "12.4 Pulley Problem - Part IV, Solving the System of Equations",
@@ -409,7 +503,9 @@
                     "youtubeKey": "lw9W32ezQhM",
                     "contentLength": 24739733,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/7c5c9b02b0fc54848cd1cef914d542b9_lw9W32ezQhM.vtt",
-                    "htmlFile": "resources/12-3/index.html"
+                    "htmlFile": [
+                        "resources/12-3/index.html"
+                    ]
                 },
                 {
                     "title": "12.5 Worked Example - 2 Blocks and 2 Pulleys",
@@ -417,7 +513,9 @@
                     "youtubeKey": "3V5y9uq5au0",
                     "contentLength": 51184795,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/06269dbf1cce5c97a07e55c0b37863f4_3V5y9uq5au0.vtt",
-                    "htmlFile": "resources/12-4/index.html"
+                    "htmlFile": [
+                        "resources/12-4/index.html"
+                    ]
                 },
                 {
                     "title": "13.1 Rope Hanging Between Trees",
@@ -425,7 +523,9 @@
                     "youtubeKey": "9NS0JcjNdp4",
                     "contentLength": 22019089,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/3c7deeb33e845bbf8f6750df30e9ba27_9NS0JcjNdp4.vtt",
-                    "htmlFile": "resources/13/index.html"
+                    "htmlFile": [
+                        "resources/13/index.html"
+                    ]
                 },
                 {
                     "title": "13.2 Differential Analysis of a Massive Rope",
@@ -433,7 +533,9 @@
                     "youtubeKey": "NBOL5X13UFY",
                     "contentLength": 90665354,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/fa426038719f50e993fd9e5364e6c89c_NBOL5X13UFY.vtt",
-                    "htmlFile": "resources/13-1/index.html"
+                    "htmlFile": [
+                        "resources/13-1/index.html"
+                    ]
                 },
                 {
                     "title": "13.3 Differential Elements",
@@ -441,7 +543,9 @@
                     "youtubeKey": "cadbtBS5qf4",
                     "contentLength": 3792058,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/86dadddd5d575ffdba92d25a0a01507c_cadbtBS5qf4.vtt",
-                    "htmlFile": "resources/13-2/index.html"
+                    "htmlFile": [
+                        "resources/13-2/index.html"
+                    ]
                 },
                 {
                     "title": "13.4 Density",
@@ -449,7 +553,9 @@
                     "youtubeKey": "5QKJG0FZTio",
                     "contentLength": 3000573,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/776d544a7c3956e09c06fec080c251ee_5QKJG0FZTio.vtt",
-                    "htmlFile": "resources/13-3/index.html"
+                    "htmlFile": [
+                        "resources/13-3/index.html"
+                    ]
                 },
                 {
                     "title": "13.5 Demo: Wrapping Friction",
@@ -457,7 +563,9 @@
                     "youtubeKey": "Veyh-DhI8lE",
                     "contentLength": 7188155,
                     "captionsFile": null,
-                    "htmlFile": "resources/13-4/index.html"
+                    "htmlFile": [
+                        "resources/13-4/index.html"
+                    ]
                 },
                 {
                     "title": "13.6 Summary of Differential Analysis",
@@ -465,7 +573,9 @@
                     "youtubeKey": "vUg50UI1aqs",
                     "contentLength": 5917493,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/4c52cf3f6e6f5dc6900429e8a7aa7a18_vUg50UI1aqs.vtt",
-                    "htmlFile": "resources/13-5/index.html"
+                    "htmlFile": [
+                        "resources/13-5/index.html"
+                    ]
                 },
                 {
                     "title": "14.1 Intro to Resistive Forces",
@@ -473,7 +583,9 @@
                     "youtubeKey": "30Ww1HsRblM",
                     "contentLength": 29232561,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/21230b6964385880a853ca5f96e344c4_30Ww1HsRblM.vtt",
-                    "htmlFile": "resources/14/index.html"
+                    "htmlFile": [
+                        "resources/14/index.html"
+                    ]
                 },
                 {
                     "title": "14.2 Resistive Forces - Low Speed Case",
@@ -481,7 +593,9 @@
                     "youtubeKey": "JTePtoM_MeM",
                     "contentLength": 49613822,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/1364cd20cd8c5ea7876c79baba3cefec_JTePtoM_MeM.vtt",
-                    "htmlFile": "resources/14-1/index.html"
+                    "htmlFile": [
+                        "resources/14-1/index.html"
+                    ]
                 },
                 {
                     "title": "14.3 Resistive Forces - High Speed Case",
@@ -489,7 +603,9 @@
                     "youtubeKey": "flwYlUfw4WU",
                     "contentLength": 63519213,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/faca5dd509ba58509ddfca073e3409ca_flwYlUfw4WU.vtt",
-                    "htmlFile": "resources/14-2/index.html"
+                    "htmlFile": [
+                        "resources/14-2/index.html"
+                    ]
                 },
                 {
                     "title": "15.1 Momentum and Impulse",
@@ -497,7 +613,9 @@
                     "youtubeKey": "1GvCIlHihEA",
                     "contentLength": 43492586,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/2dda609355925f339a77f2a3a07c6e70_1GvCIlHihEA.vtt",
-                    "htmlFile": "resources/15/index.html"
+                    "htmlFile": [
+                        "resources/15/index.html"
+                    ]
                 },
                 {
                     "title": "15.2 Impulse is a Vector",
@@ -505,7 +623,9 @@
                     "youtubeKey": "xtpW7fw8s34",
                     "contentLength": 20187805,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/997b021c037657ffa4b6e3030b7501a6_xtpW7fw8s34.vtt",
-                    "htmlFile": "resources/15-1/index.html"
+                    "htmlFile": [
+                        "resources/15-1/index.html"
+                    ]
                 },
                 {
                     "title": "15.3 Worked Example - Bouncing Ball",
@@ -513,7 +633,9 @@
                     "youtubeKey": "bEpq3yjismU",
                     "contentLength": 39461771,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/5291c881115e5242a77c3204d176b212_bEpq3yjismU.vtt",
-                    "htmlFile": "resources/15-2/index.html"
+                    "htmlFile": [
+                        "resources/15-2/index.html"
+                    ]
                 },
                 {
                     "title": "15.4 Momentum of a System of Point Particles",
@@ -521,7 +643,9 @@
                     "youtubeKey": "sxv80X2jQYQ",
                     "contentLength": 28798573,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/6213f71b19ef5452b8841b2d0844c7eb_sxv80X2jQYQ.vtt",
-                    "htmlFile": "resources/15-3/index.html"
+                    "htmlFile": [
+                        "resources/15-3/index.html"
+                    ]
                 },
                 {
                     "title": "15.5 Force on a System of Particles",
@@ -529,7 +653,9 @@
                     "youtubeKey": "Cslq_ZYdYwE",
                     "contentLength": 53578641,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/7c4afbe6566a5b87a49518f39b10c387_Cslq_ZYdYwE.vtt",
-                    "htmlFile": "resources/15-4/index.html"
+                    "htmlFile": [
+                        "resources/15-4/index.html"
+                    ]
                 },
                 {
                     "title": "16.1 Conservation of Momentum",
@@ -537,7 +663,9 @@
                     "youtubeKey": "Vg8t8_IOHDg",
                     "contentLength": 12674157,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/2c02c263b7c35fb59a43f4fd1efda924_Vg8t8_IOHDg.vtt",
-                    "htmlFile": "resources/16/index.html"
+                    "htmlFile": [
+                        "resources/16/index.html"
+                    ]
                 },
                 {
                     "title": "16.2 Momentum Diagrams",
@@ -545,7 +673,9 @@
                     "youtubeKey": "w7z_z-lucyU",
                     "contentLength": 31786609,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/7ebbf0652f1c5e1b9b9a40677fe85415_w7z_z-lucyU.vtt",
-                    "htmlFile": "resources/16-1/index.html"
+                    "htmlFile": [
+                        "resources/16-1/index.html"
+                    ]
                 },
                 {
                     "title": "17.1 Definition of the Center of Mass",
@@ -553,7 +683,9 @@
                     "youtubeKey": "ol1COj0LACs",
                     "contentLength": 27299662,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/6e896babb22159ef811ad8caceede001_ol1COj0LACs.vtt",
-                    "htmlFile": "resources/17/index.html"
+                    "htmlFile": [
+                        "resources/17/index.html"
+                    ]
                 },
                 {
                     "title": "17.2 Worked Example - Center of Mass of 3 Objects",
@@ -561,7 +693,9 @@
                     "youtubeKey": "-b0dFcebPcs",
                     "contentLength": 42804021,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/c2251b47691f5ae6b1297d8ead325f2a_-b0dFcebPcs.vtt",
-                    "htmlFile": "resources/17-1/index.html"
+                    "htmlFile": [
+                        "resources/17-1/index.html"
+                    ]
                 },
                 {
                     "title": "17.3 Center of Mass of a Continuous System",
@@ -569,7 +703,9 @@
                     "youtubeKey": "e548hRYcXlg",
                     "contentLength": 18115426,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/1bb0084102415f23b17788f33357b70c_e548hRYcXlg.vtt",
-                    "htmlFile": "resources/17-2/index.html"
+                    "htmlFile": [
+                        "resources/17-2/index.html"
+                    ]
                 },
                 {
                     "title": "17.5 Worked Example - Center of Mass of a Uniform Rod",
@@ -577,7 +713,9 @@
                     "youtubeKey": "CFh3gu-z_rc",
                     "contentLength": 34934093,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/40bade7dd606517f858d9a4c2fba5045_CFh3gu-z_rc.vtt",
-                    "htmlFile": "resources/17-3/index.html"
+                    "htmlFile": [
+                        "resources/17-3/index.html"
+                    ]
                 },
                 {
                     "title": "17.6 Velocity and Acceleration of the Center of Mass",
@@ -585,7 +723,9 @@
                     "youtubeKey": "QPV-DmpGXeQ",
                     "contentLength": 25743407,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/772ec9ae91d65f5baccd7f3d9070ac24_QPV-DmpGXeQ.vtt",
-                    "htmlFile": "resources/17-4/index.html"
+                    "htmlFile": [
+                        "resources/17-4/index.html"
+                    ]
                 },
                 {
                     "title": "17.7 Reduction of a System to a Point Particle",
@@ -593,7 +733,9 @@
                     "youtubeKey": "xxGA-7soXiw",
                     "contentLength": 24550289,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/512d777511ae536ea06b88e64c2f9ffe_xxGA-7soXiw.vtt",
-                    "htmlFile": "resources/17-5/index.html"
+                    "htmlFile": [
+                        "resources/17-5/index.html"
+                    ]
                 },
                 {
                     "title": "18.1 Relative Velocity",
@@ -601,7 +743,9 @@
                     "youtubeKey": "sN-m5WkbMyI",
                     "contentLength": 12377272,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/f33206e9cbb25b33b1105249b9d09162_sN-m5WkbMyI.vtt",
-                    "htmlFile": "resources/18/index.html"
+                    "htmlFile": [
+                        "resources/18/index.html"
+                    ]
                 },
                 {
                     "title": "18.2 Set up a Recoil Problem",
@@ -609,7 +753,9 @@
                     "youtubeKey": "L5jhg4q1Xvo",
                     "contentLength": 38478292,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/d0fcc9ec84625150841968658fbf9098_L5jhg4q1Xvo.vtt",
-                    "htmlFile": "resources/18-1/index.html"
+                    "htmlFile": [
+                        "resources/18-1/index.html"
+                    ]
                 },
                 {
                     "title": "18.3 Solve for Velocity in the Ground Frame",
@@ -617,7 +763,9 @@
                     "youtubeKey": "7TljYDljC5w",
                     "contentLength": 18557049,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/e91bfb61f36f5d57b833f1b75939c7d7_7TljYDljC5w.vtt",
-                    "htmlFile": "resources/18-2/index.html"
+                    "htmlFile": [
+                        "resources/18-2/index.html"
+                    ]
                 },
                 {
                     "title": "18.4 Solve for Velocity in the Moving Frame",
@@ -625,7 +773,9 @@
                     "youtubeKey": "V-fy33vi-64",
                     "contentLength": 13675104,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/9822729d08655e5c9f2f4ec3117db4df_V-fy33vi-64.vtt",
-                    "htmlFile": "resources/18-3/index.html"
+                    "htmlFile": [
+                        "resources/18-3/index.html"
+                    ]
                 },
                 {
                     "title": "19.1 Rocket Problem 1 - Set up the Problem",
@@ -633,7 +783,9 @@
                     "youtubeKey": "YGR5_Hf9dDg",
                     "contentLength": 20783740,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/3f36852ba32256659877ebe3268f1dd8_YGR5_Hf9dDg.vtt",
-                    "htmlFile": "resources/19/index.html"
+                    "htmlFile": [
+                        "resources/19/index.html"
+                    ]
                 },
                 {
                     "title": "19.2 Rocket Problem 2 - Momentum Diagrams",
@@ -641,7 +793,9 @@
                     "youtubeKey": "7Mv5hT1nugQ",
                     "contentLength": 30082225,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/d9dc01f3f8765f91a97000f49a5a27ef_7Mv5hT1nugQ.vtt",
-                    "htmlFile": "resources/19-1/index.html"
+                    "htmlFile": [
+                        "resources/19-1/index.html"
+                    ]
                 },
                 {
                     "title": "19.3 Rocket Problem 3 - Mass Relations",
@@ -649,7 +803,9 @@
                     "youtubeKey": "Xsg27_uGVZA",
                     "contentLength": 17658597,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/fb4cecc286c55f5f916902e6bfffa9e3_Xsg27_uGVZA.vtt",
-                    "htmlFile": "resources/19-2/index.html"
+                    "htmlFile": [
+                        "resources/19-2/index.html"
+                    ]
                 },
                 {
                     "title": "19.4 Rocket Problem 4 - Solution",
@@ -657,7 +813,9 @@
                     "youtubeKey": "uua2hbbp7h4",
                     "contentLength": 32940723,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/232f32d79e0a59aabd5bddea370961f0_uua2hbbp7h4.vtt",
-                    "htmlFile": "resources/19-3/index.html"
+                    "htmlFile": [
+                        "resources/19-3/index.html"
+                    ]
                 },
                 {
                     "title": "19.5 Rocket Problem 5 - Thrust and External Forces",
@@ -665,7 +823,9 @@
                     "youtubeKey": "SLPRYIb7RdI",
                     "contentLength": 21313378,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/4c196542735b5099abbf3b937a460b36_SLPRYIb7RdI.vtt",
-                    "htmlFile": "resources/19-4/index.html"
+                    "htmlFile": [
+                        "resources/19-4/index.html"
+                    ]
                 },
                 {
                     "title": "19.6 Rocket Problem 6 - Solution for No External Forces",
@@ -673,7 +833,9 @@
                     "youtubeKey": "UPnqIKBAMaQ",
                     "contentLength": 31058937,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/4ea324974f3d5912813df216b82550e0_UPnqIKBAMaQ.vtt",
-                    "htmlFile": "resources/19-5/index.html"
+                    "htmlFile": [
+                        "resources/19-5/index.html"
+                    ]
                 },
                 {
                     "title": "19.7 Rocket Problem 7 - Solution with External Forces",
@@ -681,7 +843,9 @@
                     "youtubeKey": "9VJetX_EQqs",
                     "contentLength": 30816988,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/76f53f4bf1255cbc86ba364c3d97ae1a_9VJetX_EQqs.vtt",
-                    "htmlFile": "resources/19-6/index.html"
+                    "htmlFile": [
+                        "resources/19-6/index.html"
+                    ]
                 },
                 {
                     "title": "20.1 Kinetic Energy",
@@ -689,7 +853,9 @@
                     "youtubeKey": "efpiHD_2O8E",
                     "contentLength": 16738825,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/c715a32c02f850d6b87b37513ee10b55_efpiHD_2O8E.vtt",
-                    "htmlFile": "resources/20/index.html"
+                    "htmlFile": [
+                        "resources/20/index.html"
+                    ]
                 },
                 {
                     "title": "20.2 Work by a Constant Force",
@@ -697,7 +863,9 @@
                     "youtubeKey": "d9ugFckUBcg",
                     "contentLength": 22840401,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/7d731a34dfc05eb99946d4fa612599ff_d9ugFckUBcg.vtt",
-                    "htmlFile": "resources/20-1/index.html"
+                    "htmlFile": [
+                        "resources/20-1/index.html"
+                    ]
                 },
                 {
                     "title": "20.3 Work by a Non-Constant Force",
@@ -705,7 +873,9 @@
                     "youtubeKey": "QAdiRwOLl0A",
                     "contentLength": 37738198,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/a46054475d155d3f9e4f0de1db47318e_QAdiRwOLl0A.vtt",
-                    "htmlFile": "resources/20-2/index.html"
+                    "htmlFile": [
+                        "resources/20-2/index.html"
+                    ]
                 },
                 {
                     "title": "20.4 Integrate Acceleration with Respect to Time and Position",
@@ -713,7 +883,9 @@
                     "youtubeKey": "m8_3VwHy7tE",
                     "contentLength": 29029352,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/0dbcbafda71e519795d6d01cdcf8e3d9_m8_3VwHy7tE.vtt",
-                    "htmlFile": "resources/20-3/index.html"
+                    "htmlFile": [
+                        "resources/20-3/index.html"
+                    ]
                 },
                 {
                     "title": "20.5 Work-Kinetic Energy Theorem",
@@ -721,7 +893,9 @@
                     "youtubeKey": "TF93gm1_O8M",
                     "contentLength": 12482073,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/8fefcbdc56405e03804d38296ccb8b99_TF93gm1_O8M.vtt",
-                    "htmlFile": "resources/20-4/index.html"
+                    "htmlFile": [
+                        "resources/20-4/index.html"
+                    ]
                 },
                 {
                     "title": "20.6 Power",
@@ -729,7 +903,9 @@
                     "youtubeKey": "FSW9EQNZvxI",
                     "contentLength": 7770183,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/947712cd994b5ebdbe36ac574f965b50_FSW9EQNZvxI.vtt",
-                    "htmlFile": "resources/20-5/index.html"
+                    "htmlFile": [
+                        "resources/20-5/index.html"
+                    ]
                 },
                 {
                     "title": "21.1 Scalar Product Properties",
@@ -737,7 +913,9 @@
                     "youtubeKey": "2TZa151GC-0",
                     "contentLength": 46044081,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/76153dfc5ce156fc828d816d9005e4cd_2TZa151GC-0.vtt",
-                    "htmlFile": "resources/21/index.html"
+                    "htmlFile": [
+                        "resources/21/index.html"
+                    ]
                 },
                 {
                     "title": "21.2 Scalar Product in Cartesian Coordinates",
@@ -745,7 +923,9 @@
                     "youtubeKey": "CsHQ35j_1kY",
                     "contentLength": 29070169,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/d2e6491bf09c5c15b99504c0460d6c43_CsHQ35j_1kY.vtt",
-                    "htmlFile": "resources/21-1/index.html"
+                    "htmlFile": [
+                        "resources/21-1/index.html"
+                    ]
                 },
                 {
                     "title": "21.3 Kinetic Energy as a Scalar Product",
@@ -753,7 +933,9 @@
                     "youtubeKey": "zLGu1dlP0UY",
                     "contentLength": 12966200,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/85d9be82e08f51b6809058b5f1a7fbd1_zLGu1dlP0UY.vtt",
-                    "htmlFile": "resources/21-2/index.html"
+                    "htmlFile": [
+                        "resources/21-2/index.html"
+                    ]
                 },
                 {
                     "title": "21.4 Work in 2D and 3D",
@@ -761,7 +943,9 @@
                     "youtubeKey": "oQqskrRWGco",
                     "contentLength": 32482230,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/469ce8aa306053b5a3c1cbe5a228f79a_oQqskrRWGco.vtt",
-                    "htmlFile": "resources/21-3/index.html"
+                    "htmlFile": [
+                        "resources/21-3/index.html"
+                    ]
                 },
                 {
                     "title": "21.5 Work-Kinetic Energy Theorem in 2D and 3D",
@@ -769,7 +953,9 @@
                     "youtubeKey": "i2_731Gi9bg",
                     "contentLength": 34802895,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/9bb8313aef0f57ba84d88dc5ebde2c27_i2_731Gi9bg.vtt",
-                    "htmlFile": "resources/21-4/index.html"
+                    "htmlFile": [
+                        "resources/21-4/index.html"
+                    ]
                 },
                 {
                     "title": "21.6 Worked Example - Block Going Down a Ramp",
@@ -777,7 +963,9 @@
                     "youtubeKey": "ykwNGB9kuaA",
                     "contentLength": 35526705,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/805f8d0bfa9d53db8bfbf37930d785e1_ykwNGB9kuaA.vtt",
-                    "htmlFile": "resources/21-5/index.html"
+                    "htmlFile": [
+                        "resources/21-5/index.html"
+                    ]
                 },
                 {
                     "title": "22.1 Path Independence - Gravity",
@@ -785,7 +973,9 @@
                     "youtubeKey": "fLuyZ7ayDog",
                     "contentLength": 33753859,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/7a40765ce0bb54a49c8cbe4aadeb26e4_fLuyZ7ayDog.vtt",
-                    "htmlFile": "resources/22/index.html"
+                    "htmlFile": [
+                        "resources/22/index.html"
+                    ]
                 },
                 {
                     "title": "22.2 Path Dependence - Friction",
@@ -793,7 +983,9 @@
                     "youtubeKey": "0jWwl0bt6aU",
                     "contentLength": 31672397,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/e7b6f4979a545980a14ee82869489a4a_0jWwl0bt6aU.vtt",
-                    "htmlFile": "resources/22-1/index.html"
+                    "htmlFile": [
+                        "resources/22-1/index.html"
+                    ]
                 },
                 {
                     "title": "22.3 Conservative Forces",
@@ -801,7 +993,9 @@
                     "youtubeKey": "nfawe03nvAY",
                     "contentLength": 15731218,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/dd66d8f2d4975b7dba22c0294e1fbd41_nfawe03nvAY.vtt",
-                    "htmlFile": "resources/22-2/index.html"
+                    "htmlFile": [
+                        "resources/22-2/index.html"
+                    ]
                 },
                 {
                     "title": "22.4 Non-Conservative Forces",
@@ -809,7 +1003,9 @@
                     "youtubeKey": "OwNr82QgkP8",
                     "contentLength": 11348097,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/e9583b5b175a58b8925c07a48e796ac5_OwNr82QgkP8.vtt",
-                    "htmlFile": "resources/22-3/index.html"
+                    "htmlFile": [
+                        "resources/22-3/index.html"
+                    ]
                 },
                 {
                     "title": "22.5 Summary of Work and Kinetic Energy",
@@ -817,7 +1013,9 @@
                     "youtubeKey": "ZBlHexE8m6A",
                     "contentLength": 41571373,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/adf2ce58fa3357cf869f821f2d102b5d_ZBlHexE8m6A.vtt",
-                    "htmlFile": "resources/22-4/index.html"
+                    "htmlFile": [
+                        "resources/22-4/index.html"
+                    ]
                 },
                 {
                     "title": "23.1 Introduction to Potential Energy",
@@ -825,7 +1023,9 @@
                     "youtubeKey": "nCDOa63Jd6M",
                     "contentLength": 57831679,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/5d375725a2995774ab28b781cfd3f591_nCDOa63Jd6M.vtt",
-                    "htmlFile": "resources/23/index.html"
+                    "htmlFile": [
+                        "resources/23/index.html"
+                    ]
                 },
                 {
                     "title": "23.2 Potential Energy of Gravity near the Surface of the Earth",
@@ -833,7 +1033,9 @@
                     "youtubeKey": "ThZH56PUwNc",
                     "contentLength": 23683860,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/b925936065b15e829a56eace77189fe6_ThZH56PUwNc.vtt",
-                    "htmlFile": "resources/23-1/index.html"
+                    "htmlFile": [
+                        "resources/23-1/index.html"
+                    ]
                 },
                 {
                     "title": "23.3 Potential Energy Reference State",
@@ -841,7 +1043,9 @@
                     "youtubeKey": "0EMIK-6LUE4",
                     "contentLength": 30135075,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/c054ff8597675b9499e4d36358875392_0EMIK-6LUE4.vtt",
-                    "htmlFile": "resources/23-2/index.html"
+                    "htmlFile": [
+                        "resources/23-2/index.html"
+                    ]
                 },
                 {
                     "title": "23.4 Potential Energy of a Spring",
@@ -849,7 +1053,9 @@
                     "youtubeKey": "_7JPHNCT1Qo",
                     "contentLength": 31940644,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/8b063b22fd645d70b474140b167aacaa_7JPHNCT1Qo.vtt",
-                    "htmlFile": "resources/23-3/index.html"
+                    "htmlFile": [
+                        "resources/23-3/index.html"
+                    ]
                 },
                 {
                     "title": "23.5 Potential Energy of Gravitation",
@@ -857,7 +1063,9 @@
                     "youtubeKey": "t2PkbsWjG80",
                     "contentLength": 45064022,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/4ad06ac30d435a2595bf1586cf27f2d7_t2PkbsWjG80.vtt",
-                    "htmlFile": "resources/23-4/index.html"
+                    "htmlFile": [
+                        "resources/23-4/index.html"
+                    ]
                 },
                 {
                     "title": "24.1 Mechanical Energy and Energy Conservation",
@@ -865,7 +1073,9 @@
                     "youtubeKey": "z5JfWSocZUQ",
                     "contentLength": 35443237,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/8513b092b1365fef8185b1d9db62964d_z5JfWSocZUQ.vtt",
-                    "htmlFile": "resources/24/index.html"
+                    "htmlFile": [
+                        "resources/24/index.html"
+                    ]
                 },
                 {
                     "title": "24.2 Energy State Diagrams",
@@ -873,7 +1083,9 @@
                     "youtubeKey": "huPKjd3wLyc",
                     "contentLength": 33344276,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/a0d9ac3d961359b383e39eaebe74a598_huPKjd3wLyc.vtt",
-                    "htmlFile": "resources/24-1/index.html"
+                    "htmlFile": [
+                        "resources/24-1/index.html"
+                    ]
                 },
                 {
                     "title": "24.3 Worked Example - Block Sliding Down Circular Slope",
@@ -881,7 +1093,9 @@
                     "youtubeKey": "NCCzjtqZ28M",
                     "contentLength": 43830646,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/73049006913b5f40bb894d28f65bb7ef_NCCzjtqZ28M.vtt",
-                    "htmlFile": "resources/24-2/index.html"
+                    "htmlFile": [
+                        "resources/24-2/index.html"
+                    ]
                 },
                 {
                     "title": "24.4 Newton's 2nd Law and Energy Conservation",
@@ -889,7 +1103,9 @@
                     "youtubeKey": "1UdGbyj8924",
                     "contentLength": 32735741,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/7a671d43766e5e708535e883ef6bbfa0_1UdGbyj8924.vtt",
-                    "htmlFile": "resources/24-3/index.html"
+                    "htmlFile": [
+                        "resources/24-3/index.html"
+                    ]
                 },
                 {
                     "title": "25.1 Force is the Derivative of Potential",
@@ -897,7 +1113,9 @@
                     "youtubeKey": "EHCACV8rdig",
                     "contentLength": 24217388,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/45016de3305b5330841e0b58a182034d_EHCACV8rdig.vtt",
-                    "htmlFile": "resources/25/index.html"
+                    "htmlFile": [
+                        "resources/25/index.html"
+                    ]
                 },
                 {
                     "title": "25.2 Stable and Unstable Equilibrium Points",
@@ -905,7 +1123,9 @@
                     "youtubeKey": "DYi8KTt8688",
                     "contentLength": 43623824,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/ae86baa3d1de5eca86c11466afae853a_DYi8KTt8688.vtt",
-                    "htmlFile": "resources/25-1/index.html"
+                    "htmlFile": [
+                        "resources/25-1/index.html"
+                    ]
                 },
                 {
                     "title": "25.3 Reading Potential Energy Diagrams",
@@ -913,7 +1133,9 @@
                     "youtubeKey": "cwO5KdgBQh0",
                     "contentLength": 32232548,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/af319138595c57e094edc1820440522b_cwO5KdgBQh0.vtt",
-                    "htmlFile": "resources/25-2/index.html"
+                    "htmlFile": [
+                        "resources/25-2/index.html"
+                    ]
                 },
                 {
                     "title": "26.1 Momentum in Collisions",
@@ -921,7 +1143,9 @@
                     "youtubeKey": "YLDRzy8Dcgo",
                     "contentLength": 25412665,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/af4d5c64059c50d790fed157afc7080a_YLDRzy8Dcgo.vtt",
-                    "htmlFile": "resources/26/index.html"
+                    "htmlFile": [
+                        "resources/26/index.html"
+                    ]
                 },
                 {
                     "title": "26.2 Kinetic Energy in Collisions",
@@ -929,7 +1153,9 @@
                     "youtubeKey": "4ZnijNan49U",
                     "contentLength": 31429193,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/29d6d7a3d90f5681bba080488fbcb607_4ZnijNan49U.vtt",
-                    "htmlFile": "resources/26-1/index.html"
+                    "htmlFile": [
+                        "resources/26-1/index.html"
+                    ]
                 },
                 {
                     "title": "26.3 Totally Inelastic Collisions",
@@ -937,7 +1163,9 @@
                     "youtubeKey": "CcJoqITNvh0",
                     "contentLength": 28977406,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/cd3336f71c9a5dd79f4cb7fe01ad41ed_CcJoqITNvh0.vtt",
-                    "htmlFile": "resources/26-2/index.html"
+                    "htmlFile": [
+                        "resources/26-2/index.html"
+                    ]
                 },
                 {
                     "title": "27.1 Worked Example: Elastic 1D Collision",
@@ -945,7 +1173,9 @@
                     "youtubeKey": "6-7BOpZ2k04",
                     "contentLength": 62006165,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/d56363453cc859c5a3277dbbbd53a824_6-7BOpZ2k04.vtt",
-                    "htmlFile": "resources/27/index.html"
+                    "htmlFile": [
+                        "resources/27/index.html"
+                    ]
                 },
                 {
                     "title": "27.2 Relative Velocity in 1D",
@@ -953,7 +1183,9 @@
                     "youtubeKey": "B6a9FaYI730",
                     "contentLength": 22800023,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/64066c091442528ba8184dfaeb95a5f2_B6a9FaYI730.vtt",
-                    "htmlFile": "resources/27-1/index.html"
+                    "htmlFile": [
+                        "resources/27-1/index.html"
+                    ]
                 },
                 {
                     "title": "27.3 Kinetic Energy and Momentum Equation",
@@ -961,7 +1193,9 @@
                     "youtubeKey": "ayIgWaBE0aw",
                     "contentLength": 42503519,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/8d26584299e85bc5a42efa2f1cd6eeea_ayIgWaBE0aw.vtt",
-                    "htmlFile": "resources/27-2/index.html"
+                    "htmlFile": [
+                        "resources/27-2/index.html"
+                    ]
                 },
                 {
                     "title": "27.4 Worked Example: Elastic 1D Collision Again",
@@ -969,7 +1203,9 @@
                     "youtubeKey": "yA203Lrd39E",
                     "contentLength": 32332744,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/62e82f3b08105cc4b192e68805c2b6e3_yA203Lrd39E.vtt",
-                    "htmlFile": "resources/27-3/index.html"
+                    "htmlFile": [
+                        "resources/27-3/index.html"
+                    ]
                 },
                 {
                     "title": "27.5 Worked Example - Gravitational Slingshot",
@@ -977,7 +1213,9 @@
                     "youtubeKey": "1s6_4qX-u2o",
                     "contentLength": 28608209,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/ddfeeb5f4f205a3aa8654471361d0eb1_1s6_4qX-u2o.vtt",
-                    "htmlFile": "resources/27-4/index.html"
+                    "htmlFile": [
+                        "resources/27-4/index.html"
+                    ]
                 },
                 {
                     "title": "27.6 2D Collisions",
@@ -985,7 +1223,9 @@
                     "youtubeKey": "UE-O9TiKOw0",
                     "contentLength": 40291354,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/f0fbeb237e0652b78ae21e9dcb510339_UE-O9TiKOw0.vtt",
-                    "htmlFile": "resources/27-5/index.html"
+                    "htmlFile": [
+                        "resources/27-5/index.html"
+                    ]
                 },
                 {
                     "title": "28.2 Introduction to Translation and Rotation",
@@ -993,7 +1233,9 @@
                     "youtubeKey": "ZApVXJZF7pE",
                     "contentLength": 16250563,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/f6933dc1797e5220861eb67dbdd2b94f_ZApVXJZF7pE.vtt",
-                    "htmlFile": "resources/28-1/index.html"
+                    "htmlFile": [
+                        "resources/28-1/index.html"
+                    ]
                 },
                 {
                     "title": "28.3 Review of Angular Velocity and Acceleration",
@@ -1001,7 +1243,9 @@
                     "youtubeKey": "2oK7Eb0YZ9U",
                     "contentLength": 19650080,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/ee96931e148157c28895b81cbd7abf06_2oK7Eb0YZ9U.vtt",
-                    "htmlFile": "resources/28-2/index.html"
+                    "htmlFile": [
+                        "resources/28-2/index.html"
+                    ]
                 },
                 {
                     "title": "29.1 Kinetic Energy of Rotation",
@@ -1009,7 +1253,9 @@
                     "youtubeKey": "0QF_uCgZW4Y",
                     "contentLength": 38015188,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/ecf454514eb85ab2bf5e93463a502e8d_0QF_uCgZW4Y.vtt",
-                    "htmlFile": "resources/29/index.html"
+                    "htmlFile": [
+                        "resources/29/index.html"
+                    ]
                 },
                 {
                     "title": "29.2 Moment of Inertia of a Rod",
@@ -1017,7 +1263,9 @@
                     "youtubeKey": "1AJbVRQTZlA",
                     "contentLength": 25935494,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/db3af41aca545df5a762e0a9f0fec052_1AJbVRQTZlA.vtt",
-                    "htmlFile": "resources/29-1/index.html"
+                    "htmlFile": [
+                        "resources/29-1/index.html"
+                    ]
                 },
                 {
                     "title": "29.3 Moment of Inertia of a Disc",
@@ -1025,7 +1273,9 @@
                     "youtubeKey": "BPnbq6BobdA",
                     "contentLength": 33592320,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/7081e4e606655e92a6ddf8db864ec9f2_BPnbq6BobdA.vtt",
-                    "htmlFile": "resources/29-2/index.html"
+                    "htmlFile": [
+                        "resources/29-2/index.html"
+                    ]
                 },
                 {
                     "title": "29.4 Parallel Axis Theorem",
@@ -1033,7 +1283,9 @@
                     "youtubeKey": "r2Qb0vsxa8Y",
                     "contentLength": 24801146,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/d475d9ad214551f4818b7c5114ad5dbb_r2Qb0vsxa8Y.vtt",
-                    "htmlFile": "resources/29-3/index.html"
+                    "htmlFile": [
+                        "resources/29-3/index.html"
+                    ]
                 },
                 {
                     "title": "29.5 Moment of Inertia of a Sphere",
@@ -1041,7 +1293,9 @@
                     "youtubeKey": "QmCQUBSsKwQ",
                     "contentLength": 32587787,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/681c7e86878a5acc9625324a3c0fafdb_QmCQUBSsKwQ.vtt",
-                    "htmlFile": "resources/29-4/index.html"
+                    "htmlFile": [
+                        "resources/29-4/index.html"
+                    ]
                 },
                 {
                     "title": "29.6 Derivation of the Parallel Axis Theorem",
@@ -1049,7 +1303,9 @@
                     "youtubeKey": "cMu0hsvgkGk",
                     "contentLength": 33322648,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/7b672da818315d59921916f768666339_cMu0hsvgkGk.vtt",
-                    "htmlFile": "resources/29-5/index.html"
+                    "htmlFile": [
+                        "resources/29-5/index.html"
+                    ]
                 },
                 {
                     "title": "30.1 Introduction to Torque and Rotational Dynamics",
@@ -1057,7 +1313,9 @@
                     "youtubeKey": "X9K8LT7SCZ0",
                     "contentLength": 57600945,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/be5a57ef46d95815ae4dc958c77024ef_X9K8LT7SCZ0.vtt",
-                    "htmlFile": "resources/30/index.html"
+                    "htmlFile": [
+                        "resources/30/index.html"
+                    ]
                 },
                 {
                     "title": "30.2 Cross Product",
@@ -1065,7 +1323,9 @@
                     "youtubeKey": "9yFkrh7-igc",
                     "contentLength": 30319828,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/df2219beaad655fa9c2a277685a9dd4a_9yFkrh7-igc.vtt",
-                    "htmlFile": "resources/30-1/index.html"
+                    "htmlFile": [
+                        "resources/30-1/index.html"
+                    ]
                 },
                 {
                     "title": "30.3 Cross Product in Cartesian Coordinates",
@@ -1073,7 +1333,9 @@
                     "youtubeKey": "jM-JYT2j6Yw",
                     "contentLength": 46411401,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/9c95ef8e5615523a80882ecda02e2063_jM-JYT2j6Yw.vtt",
-                    "htmlFile": "resources/30-2/index.html"
+                    "htmlFile": [
+                        "resources/30-2/index.html"
+                    ]
                 },
                 {
                     "title": "30.4 Torque",
@@ -1081,7 +1343,9 @@
                     "youtubeKey": "1BU28txGAFI",
                     "contentLength": 6872988,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/aa5ba100eca25b728e56040128de6512_1BU28txGAFI.vtt",
-                    "htmlFile": "resources/30-3/index.html"
+                    "htmlFile": [
+                        "resources/30-3/index.html"
+                    ]
                 },
                 {
                     "title": "30.5 Torque from Gravity",
@@ -1089,7 +1353,9 @@
                     "youtubeKey": "ByTlCmDoEnk",
                     "contentLength": 28143381,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/06698f4a1e725de38412fb7475612a2d_ByTlCmDoEnk.vtt",
-                    "htmlFile": "resources/30-4/index.html"
+                    "htmlFile": [
+                        "resources/30-4/index.html"
+                    ]
                 },
                 {
                     "title": "31.1 Relationship between Torque and Angular Acceleration",
@@ -1097,7 +1363,9 @@
                     "youtubeKey": "O_M8asN10oQ",
                     "contentLength": 53133382,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/0a6b943ae8d753bf8027bac93d58258e_O_M8asN10oQ.vtt",
-                    "htmlFile": "resources/31/index.html"
+                    "htmlFile": [
+                        "resources/31/index.html"
+                    ]
                 },
                 {
                     "title": "31.2 Internal Torques Cancel in Pairs",
@@ -1105,7 +1373,9 @@
                     "youtubeKey": "PKOhhK7kPi4",
                     "contentLength": 20718915,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/3ca3cdd10177563780d625eb31f90794_PKOhhK7kPi4.vtt",
-                    "htmlFile": "resources/31-1/index.html"
+                    "htmlFile": [
+                        "resources/31-1/index.html"
+                    ]
                 },
                 {
                     "title": "31.3 Worked Example - Find the Moment of Inertia of a Disc from a Falling Mass",
@@ -1113,7 +1383,9 @@
                     "youtubeKey": "reUjl788R9Q",
                     "contentLength": 42989012,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/ff2c11063e3f5b34adbc7122b60d3848_reUjl788R9Q.vtt",
-                    "htmlFile": "resources/31-2/index.html"
+                    "htmlFile": [
+                        "resources/31-2/index.html"
+                    ]
                 },
                 {
                     "title": "31.4 Worked Example - Atwood Machine",
@@ -1121,7 +1393,9 @@
                     "youtubeKey": "FlHKTvUjD6g",
                     "contentLength": 64102811,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/6c4bc79ea2a6580cbb5f7a1abe8c47fc_FlHKTvUjD6g.vtt",
-                    "htmlFile": "resources/31-3/index.html"
+                    "htmlFile": [
+                        "resources/31-3/index.html"
+                    ]
                 },
                 {
                     "title": "31.5 Massive Pulley Problems",
@@ -1129,7 +1403,9 @@
                     "youtubeKey": "uRUAnKCyyig",
                     "contentLength": 9313463,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/a10362513f3f57cfb3b16c303da22aa0_uRUAnKCyyig.vtt",
-                    "htmlFile": "resources/31-4/index.html"
+                    "htmlFile": [
+                        "resources/31-4/index.html"
+                    ]
                 },
                 {
                     "title": "31.7 Worked Example - Two Blocks and a Pulley Using Energy",
@@ -1137,7 +1413,9 @@
                     "youtubeKey": "2guwjwIHmGg",
                     "contentLength": 44737547,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/392eadfa9cb05f8399864d0056136f2c_2guwjwIHmGg.vtt",
-                    "htmlFile": "resources/31-5/index.html"
+                    "htmlFile": [
+                        "resources/31-5/index.html"
+                    ]
                 },
                 {
                     "title": "32.1 Angular Momentum for a Point Particle",
@@ -1145,7 +1423,9 @@
                     "youtubeKey": "Idx3VgOpUDk",
                     "contentLength": 16178308,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/fabaa3f2067054a4be5f220fb5033149_Idx3VgOpUDk.vtt",
-                    "htmlFile": "resources/32/index.html"
+                    "htmlFile": [
+                        "resources/32/index.html"
+                    ]
                 },
                 {
                     "title": "32.2 Calculating Angular Momentum",
@@ -1153,7 +1433,9 @@
                     "youtubeKey": "WwvDJqtHNBU",
                     "contentLength": 8618613,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/754b6a7fc01e5893812aef241f63e13e_WwvDJqtHNBU.vtt",
-                    "htmlFile": "resources/32-1/index.html"
+                    "htmlFile": [
+                        "resources/32-1/index.html"
+                    ]
                 },
                 {
                     "title": "32.3 Worked Example - Angular Momentum About Different Points",
@@ -1161,7 +1443,9 @@
                     "youtubeKey": "d2POYCmmM8A",
                     "contentLength": 36118538,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/553f33a421f05e9b93896e0def439211_d2POYCmmM8A.vtt",
-                    "htmlFile": "resources/32-2/index.html"
+                    "htmlFile": [
+                        "resources/32-2/index.html"
+                    ]
                 },
                 {
                     "title": "32.4 Angular Momentum of Circular Motion",
@@ -1169,7 +1453,9 @@
                     "youtubeKey": "2tSUT6HDeaw",
                     "contentLength": 20803243,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/a9b18105295b5ecf83aaf78e71e78b1c_2tSUT6HDeaw.vtt",
-                    "htmlFile": "resources/32-3/index.html"
+                    "htmlFile": [
+                        "resources/32-3/index.html"
+                    ]
                 },
                 {
                     "title": "33.1 Worked Example - Angular Momentum of 2 Rotating Point Particles",
@@ -1177,7 +1463,9 @@
                     "youtubeKey": "mHVnpuhfpvI",
                     "contentLength": 41133390,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/f20500198ad45e6aa411b1ebe6c6a689_mHVnpuhfpvI.vtt",
-                    "htmlFile": "resources/33/index.html"
+                    "htmlFile": [
+                        "resources/33/index.html"
+                    ]
                 },
                 {
                     "title": "33.2 Angular Momentum of a Symmetric Object",
@@ -1185,7 +1473,9 @@
                     "youtubeKey": "rd9d0WBFzt8",
                     "contentLength": 25046565,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/7dbe1b256617582b99d6905f7d0a3ff1_rd9d0WBFzt8.vtt",
-                    "htmlFile": "resources/33-1/index.html"
+                    "htmlFile": [
+                        "resources/33-1/index.html"
+                    ]
                 },
                 {
                     "title": "33.4 If Momentum is Zero then Angular Momentum is Independent of Origin",
@@ -1193,7 +1483,9 @@
                     "youtubeKey": "tO6Wh_HhifI",
                     "contentLength": 33699236,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/87489fb7c1705794a5eb3ea0203cc33d_tO6Wh_HhifI.vtt",
-                    "htmlFile": "resources/33-2/index.html"
+                    "htmlFile": [
+                        "resources/33-2/index.html"
+                    ]
                 },
                 {
                     "title": "33.5 Kinetic Energy of a Symmetric Object",
@@ -1201,7 +1493,9 @@
                     "youtubeKey": "NbXDgm7UyVM",
                     "contentLength": 15753435,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/1d3e932c63095ebfabf7922ddf7179c1_NbXDgm7UyVM.vtt",
-                    "htmlFile": "resources/33-3/index.html"
+                    "htmlFile": [
+                        "resources/33-3/index.html"
+                    ]
                 },
                 {
                     "title": "34.1 Torque Causes Angular Momentum to Change - Point Particle",
@@ -1209,7 +1503,9 @@
                     "youtubeKey": "DSk8HTcB7x0",
                     "contentLength": 18139137,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/4d8b02139f275f73bc9f221c7158d53d_DSk8HTcB7x0.vtt",
-                    "htmlFile": "resources/34/index.html"
+                    "htmlFile": [
+                        "resources/34/index.html"
+                    ]
                 },
                 {
                     "title": "34.2 Torque Causes Angular Momentum to Change - System of Particles",
@@ -1217,7 +1513,9 @@
                     "youtubeKey": "x5WavAj2M8A",
                     "contentLength": 23563829,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/809438da485a5bbf8d4c37889f0ce0c7_x5WavAj2M8A.vtt",
-                    "htmlFile": "resources/34-1/index.html"
+                    "htmlFile": [
+                        "resources/34-1/index.html"
+                    ]
                 },
                 {
                     "title": "34.3 Angular Impulse",
@@ -1225,7 +1523,9 @@
                     "youtubeKey": "W3TqFzVh_rE",
                     "contentLength": 22196332,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/9d1a8660ee43538685953b07abd1746e_W3TqFzVh_rE.vtt",
-                    "htmlFile": "resources/34-2/index.html"
+                    "htmlFile": [
+                        "resources/34-2/index.html"
+                    ]
                 },
                 {
                     "title": "34.4 Demo: Bicycle Wheel",
@@ -1233,7 +1533,9 @@
                     "youtubeKey": "3JzsqGZ6opI",
                     "contentLength": 4973824,
                     "captionsFile": null,
-                    "htmlFile": "resources/34-3/index.html"
+                    "htmlFile": [
+                        "resources/34-3/index.html"
+                    ]
                 },
                 {
                     "title": "34.5 Worked Example - Particle Hits Pivoted Ring",
@@ -1241,7 +1543,9 @@
                     "youtubeKey": "c15RtHXBVuQ",
                     "contentLength": 48014470,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/2191404b336754f1804801ac0e4c4a07_c15RtHXBVuQ.vtt",
-                    "htmlFile": "resources/34-4/index.html"
+                    "htmlFile": [
+                        "resources/34-4/index.html"
+                    ]
                 },
                 {
                     "title": "35.1 Translation and Rotation of a Wheel",
@@ -1249,7 +1553,9 @@
                     "youtubeKey": "oILq3xz_XtU",
                     "contentLength": 19967386,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/5f4003778dc95a888d1fb814751d4e80_oILq3xz_XtU.vtt",
-                    "htmlFile": "resources/35/index.html"
+                    "htmlFile": [
+                        "resources/35/index.html"
+                    ]
                 },
                 {
                     "title": "35.2 Rolling Wheel in the Center of Mass Frame",
@@ -1257,7 +1563,9 @@
                     "youtubeKey": "WxkwkGEVu-E",
                     "contentLength": 14877950,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/68d9a6e13c2b5deb9d3092d62fae8f78_WxkwkGEVu-E.vtt",
-                    "htmlFile": "resources/35-1/index.html"
+                    "htmlFile": [
+                        "resources/35-1/index.html"
+                    ]
                 },
                 {
                     "title": "35.3 Rolling Wheel in the Ground Frame",
@@ -1265,7 +1573,9 @@
                     "youtubeKey": "lkeX42KQjac",
                     "contentLength": 15038175,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/2a20c5c5208d5a67bd839fc20d2ac8a1_lkeX42KQjac.vtt",
-                    "htmlFile": "resources/35-2/index.html"
+                    "htmlFile": [
+                        "resources/35-2/index.html"
+                    ]
                 },
                 {
                     "title": "35.4 Rolling Without Slipping, Slipping, and Skidding",
@@ -1273,7 +1583,9 @@
                     "youtubeKey": "1UD560RQ684",
                     "contentLength": 35203418,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/cc8a0b11c8925d1ba31cb8b736ab19bc_1UD560RQ684.vtt",
-                    "htmlFile": "resources/35-3/index.html"
+                    "htmlFile": [
+                        "resources/35-3/index.html"
+                    ]
                 },
                 {
                     "title": "35.5 Contact Point of a Wheel Rolling Without Slipping",
@@ -1281,7 +1593,9 @@
                     "youtubeKey": "4r1xgrWbALg",
                     "contentLength": 20596404,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/5d748292769a58899da4dc6fc4c181c4_4r1xgrWbALg.vtt",
-                    "htmlFile": "resources/35-4/index.html"
+                    "htmlFile": [
+                        "resources/35-4/index.html"
+                    ]
                 },
                 {
                     "title": "36.1 Friction on a Rolling Wheel",
@@ -1289,7 +1603,9 @@
                     "youtubeKey": "hxa6jAYA980",
                     "contentLength": 24673074,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/f2177292ae8456629cd547e897575bc7_hxa6jAYA980.vtt",
-                    "htmlFile": "resources/36/index.html"
+                    "htmlFile": [
+                        "resources/36/index.html"
+                    ]
                 },
                 {
                     "title": "36.2 Worked Example - Wheel Rolling Without Slipping Down Inclined Plane - Torque Method",
@@ -1297,7 +1613,9 @@
                     "youtubeKey": "CfTLS6YYPms",
                     "contentLength": 35768776,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/f9acea86398557d5b70b4f3f065447a9_CfTLS6YYPms.vtt",
-                    "htmlFile": "resources/36-1/index.html"
+                    "htmlFile": [
+                        "resources/36-1/index.html"
+                    ]
                 },
                 {
                     "title": "36.3 Spool Demo",
@@ -1305,7 +1623,9 @@
                     "youtubeKey": "cHKyuSAySyE",
                     "contentLength": 5523785,
                     "captionsFile": null,
-                    "htmlFile": "resources/36-2/index.html"
+                    "htmlFile": [
+                        "resources/36-2/index.html"
+                    ]
                 },
                 {
                     "title": "36.4 Worked Example - Yoyo Pulled Along the Ground",
@@ -1313,7 +1633,9 @@
                     "youtubeKey": "TvdmaZR6m8Q",
                     "contentLength": 36709048,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/01f8e0bcd5ba56ecae6a34bae147aed0_TvdmaZR6m8Q.vtt",
-                    "htmlFile": "resources/36-3/index.html"
+                    "htmlFile": [
+                        "resources/36-3/index.html"
+                    ]
                 },
                 {
                     "title": "36.5 Analyze Force and Torque in Translation and Rotation Problems",
@@ -1321,7 +1643,9 @@
                     "youtubeKey": "RX88J2e4W0M",
                     "contentLength": 18915526,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/ccf91eea19da538184fa12c837d819e2_RX88J2e4W0M.vtt",
-                    "htmlFile": "resources/36-4/index.html"
+                    "htmlFile": [
+                        "resources/36-4/index.html"
+                    ]
                 },
                 {
                     "title": "37.1 Kinetic Energy of Translation and Rotation",
@@ -1329,7 +1653,9 @@
                     "youtubeKey": "ZMa-xKcM2L8",
                     "contentLength": 45560645,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/1c83aacb43fd5a7787a16b2d45b5c178_ZMa-xKcM2L8.vtt",
-                    "htmlFile": "resources/37/index.html"
+                    "htmlFile": [
+                        "resources/37/index.html"
+                    ]
                 },
                 {
                     "title": "37.2 Worked Example - Wheel Rolling Without Slipping Down Inclined Plane",
@@ -1337,7 +1663,9 @@
                     "youtubeKey": "xh_LCHvzp-Q",
                     "contentLength": 25384894,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/a265daa307525072b964b513223733f9_xh_LCHvzp-Q.vtt",
-                    "htmlFile": "resources/37-1/index.html"
+                    "htmlFile": [
+                        "resources/37-1/index.html"
+                    ]
                 },
                 {
                     "title": "37.3 Angular Momentum of Translation and Rotation",
@@ -1345,7 +1673,9 @@
                     "youtubeKey": "V1I-vrXGl3A",
                     "contentLength": 40667620,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/eaaa3e9a01735f459410f88cd20424ab_V1I-vrXGl3A.vtt",
-                    "htmlFile": "resources/37-2/index.html"
+                    "htmlFile": [
+                        "resources/37-2/index.html"
+                    ]
                 },
                 {
                     "title": "DD.1.1 Friction at the Nanoscale",
@@ -1353,7 +1683,9 @@
                     "youtubeKey": "sffRo1-_D8E",
                     "contentLength": 224941415,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/5b342f033acb5a88ad624463d4e5f0a4_sffRo1-_D8E.vtt",
-                    "htmlFile": "resources/dd-1/index.html"
+                    "htmlFile": [
+                        "resources/dd-1/index.html"
+                    ]
                 },
                 {
                     "title": "DD.2.1 Position in the CM Frame",
@@ -1361,7 +1693,9 @@
                     "youtubeKey": "-M8swpL-Ij8",
                     "contentLength": 27457962,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/7ac1f7d98d6759ebb6983637777284a8_-M8swpL-Ij8.vtt",
-                    "htmlFile": "resources/dd-2/index.html"
+                    "htmlFile": [
+                        "resources/dd-2/index.html"
+                    ]
                 },
                 {
                     "title": "DD.2.2 Relative Velocity is Independent of Reference Frame",
@@ -1369,7 +1703,9 @@
                     "youtubeKey": "KmGPMec8-iU",
                     "contentLength": 22778371,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/38a5652b6fc756dca41c32b246ef3da9_KmGPMec8-iU.vtt",
-                    "htmlFile": "resources/dd-2-1/index.html"
+                    "htmlFile": [
+                        "resources/dd-2-1/index.html"
+                    ]
                 },
                 {
                     "title": "DD.2.3 1D Elastic Collision Velocities in CM Frame",
@@ -1377,7 +1713,9 @@
                     "youtubeKey": "7x62TdS0Nn0",
                     "contentLength": 23023268,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/dee7e4c37d6750bf90e0affee1d42815_7x62TdS0Nn0.vtt",
-                    "htmlFile": "resources/dd-2-2/index.html"
+                    "htmlFile": [
+                        "resources/dd-2-2/index.html"
+                    ]
                 },
                 {
                     "title": "DD.2.4 Worked Example: 1D Elastic Collision in CM",
@@ -1385,7 +1723,9 @@
                     "youtubeKey": "jAcdLZRhYNU",
                     "contentLength": 36020436,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/3b7c8d3f1b4c567b9346ed690260be30_jAcdLZRhYNU.vtt",
-                    "htmlFile": "resources/dd-2-3/index.html"
+                    "htmlFile": [
+                        "resources/dd-2-3/index.html"
+                    ]
                 },
                 {
                     "title": "DD.2.5 Kinetic Energy in Different Reference Frames",
@@ -1393,7 +1733,9 @@
                     "youtubeKey": "Uoukes39gb0",
                     "contentLength": 36374867,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/478d8fecfc875ef08d767470cbb6c755_Uoukes39gb0.vtt",
-                    "htmlFile": "resources/dd-2-4/index.html"
+                    "htmlFile": [
+                        "resources/dd-2-4/index.html"
+                    ]
                 },
                 {
                     "title": "DD.2.6 Kinetic Energy in the CM Frame",
@@ -1401,7 +1743,9 @@
                     "youtubeKey": "mjrQHIJj1iI",
                     "contentLength": 26986204,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/586c0ee68df4568696cef348a124e879_mjrQHIJj1iI.vtt",
-                    "htmlFile": "resources/dd-2-5/index.html"
+                    "htmlFile": [
+                        "resources/dd-2-5/index.html"
+                    ]
                 },
                 {
                     "title": "DD.2.7 Change in the Kinetic Energy",
@@ -1409,7 +1753,9 @@
                     "youtubeKey": "oRzzwpZ0ei4",
                     "contentLength": 23671844,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/68cca044ee505964988192c22069c391_oRzzwpZ0ei4.vtt",
-                    "htmlFile": "resources/dd-2-6/index.html"
+                    "htmlFile": [
+                        "resources/dd-2-6/index.html"
+                    ]
                 },
                 {
                     "title": "DD.3.1 Gyroscopes 1 - Free Body Diagrams, Torque, and Rotating Vectors",
@@ -1417,7 +1763,9 @@
                     "youtubeKey": "ThP6wQkf5ec",
                     "contentLength": 97712060,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/673151edcc585c7085d0c9108ee6f954_ThP6wQkf5ec.vtt",
-                    "htmlFile": "resources/dd-3/index.html"
+                    "htmlFile": [
+                        "resources/dd-3/index.html"
+                    ]
                 },
                 {
                     "title": "DD.3.2 Gyroscopes 2 - Precessional Angular Velocity and Titled Gyroscopes",
@@ -1425,7 +1773,9 @@
                     "youtubeKey": "jOPA3XY-V3U",
                     "contentLength": 80495023,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/d8e9c3eb3c105d91978930039f492e06_jOPA3XY-V3U.vtt",
-                    "htmlFile": "resources/dd-3-1/index.html"
+                    "htmlFile": [
+                        "resources/dd-3-1/index.html"
+                    ]
                 },
                 {
                     "title": "DD.3.3 Gyroscopes 3 - Nutation and Total Angular Momentum",
@@ -1433,7 +1783,9 @@
                     "youtubeKey": "5oLLnCGStUc",
                     "contentLength": 77892767,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/189555e8850457a5a2937ef37b851446_5oLLnCGStUc.vtt",
-                    "htmlFile": "resources/dd-3-2/index.html"
+                    "htmlFile": [
+                        "resources/dd-3-2/index.html"
+                    ]
                 },
                 {
                     "title": "Demo: Relative Motion Gun",
@@ -1441,7 +1793,9 @@
                     "youtubeKey": "rqTAICbKHYM",
                     "contentLength": 5099192,
                     "captionsFile": null,
-                    "htmlFile": "resources/demo-relative-motion-gun/index.html"
+                    "htmlFile": [
+                        "resources/demo-relative-motion-gun/index.html"
+                    ]
                 },
                 {
                     "title": "Demo: Shooting an Apple",
@@ -1449,7 +1803,9 @@
                     "youtubeKey": "_zl4b5MnPF0",
                     "contentLength": 6299824,
                     "captionsFile": null,
-                    "htmlFile": "resources/demo-shooting-an-apple/index.html"
+                    "htmlFile": [
+                        "resources/demo-shooting-an-apple/index.html"
+                    ]
                 },
                 {
                     "title": "Orbital Circular Motion – Period",
@@ -1457,7 +1813,9 @@
                     "youtubeKey": "vkWY73HnNYA",
                     "contentLength": 10934818,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/99de3c5831ef5d809b83ffdb2109f2e7_vkWY73HnNYA.vtt",
-                    "htmlFile": "resources/orbital-circular-motion-2013-period/index.html"
+                    "htmlFile": [
+                        "resources/orbital-circular-motion-2013-period/index.html"
+                    ]
                 },
                 {
                     "title": "Orbital Circular Motion – Velocity",
@@ -1465,7 +1823,9 @@
                     "youtubeKey": "bX4liSWB4Gk",
                     "contentLength": 7820202,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/9589b24cadea555381790c4e18bb6b7d_bX4liSWB4Gk.vtt",
-                    "htmlFile": "resources/orbital-circular-motion-2013-velocity/index.html"
+                    "htmlFile": [
+                        "resources/orbital-circular-motion-2013-velocity/index.html"
+                    ]
                 },
                 {
                     "title": "PS.1.1 Three Questions Before Starting",
@@ -1473,7 +1833,9 @@
                     "youtubeKey": "5zXYEVWSIsg",
                     "contentLength": 13510845,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/eaef8abbd1c3542a9932a420eed1f267_5zXYEVWSIsg.vtt",
-                    "htmlFile": "resources/ps-1/index.html"
+                    "htmlFile": [
+                        "resources/ps-1/index.html"
+                    ]
                 },
                 {
                     "title": "PS.1.2 Shooting the Apple",
@@ -1481,7 +1843,9 @@
                     "youtubeKey": "PQfYJ2TjpEU",
                     "contentLength": 60541114,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/5dd269d5461c5cd993bb47fa136f2d24_PQfYJ2TjpEU.vtt",
-                    "htmlFile": "resources/ps-1-1/index.html"
+                    "htmlFile": [
+                        "resources/ps-1-1/index.html"
+                    ]
                 },
                 {
                     "title": "PS.1.3 Worked Example: Braking Car",
@@ -1489,7 +1853,9 @@
                     "youtubeKey": "pb5hUGBjS3A",
                     "contentLength": 40355094,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/59b3b7bd613855cea87a5039e038584e_pb5hUGBjS3A.vtt",
-                    "htmlFile": "resources/ps-1-2/index.html"
+                    "htmlFile": [
+                        "resources/ps-1-2/index.html"
+                    ]
                 },
                 {
                     "title": "PS.1.4 Sketch the Motion",
@@ -1497,7 +1863,9 @@
                     "youtubeKey": "ZjGjNsmsNBU",
                     "contentLength": 13790440,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/2c8f04dad5725169bad8a1f7862374a5_ZjGjNsmsNBU.vtt",
-                    "htmlFile": "resources/ps-1-3/index.html"
+                    "htmlFile": [
+                        "resources/ps-1-3/index.html"
+                    ]
                 },
                 {
                     "title": "PS.1.5 Worked Example: Pedestrian and Bike at Intersection",
@@ -1505,7 +1873,9 @@
                     "youtubeKey": "SjK2lmRFxc4",
                     "contentLength": 80743790,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/10a1210abd2054bfbe9594493f229b88_SjK2lmRFxc4.vtt",
-                    "htmlFile": "resources/ps-1-4/index.html"
+                    "htmlFile": [
+                        "resources/ps-1-4/index.html"
+                    ]
                 },
                 {
                     "title": "PS.2.1 Worked Example: Sliding Block",
@@ -1513,7 +1883,9 @@
                     "youtubeKey": "7WDiK3flILc",
                     "contentLength": 37671271,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/610ce5b2e7225b008b1dc1ee5221eea5_7WDiK3flILc.vtt",
-                    "htmlFile": "resources/ps-2/index.html"
+                    "htmlFile": [
+                        "resources/ps-2/index.html"
+                    ]
                 },
                 {
                     "title": "PS.6.2 Snowplow Problem",
@@ -1521,7 +1893,9 @@
                     "youtubeKey": "nWaoEjE8a8M",
                     "contentLength": 48387555,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/d065f17bd5b75db8b31b22eccce5b643_nWaoEjE8a8M.vtt",
-                    "htmlFile": "resources/ps-6/index.html"
+                    "htmlFile": [
+                        "resources/ps-6/index.html"
+                    ]
                 },
                 {
                     "title": "PS.7.1 Worked Example - Collision and Sliding on a Rough Surface",
@@ -1529,7 +1903,9 @@
                     "youtubeKey": "Lpd_TddOSZY",
                     "contentLength": 40260796,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/e9a8ec6b32155dff952ad45df47508b4_Lpd_TddOSZY.vtt",
-                    "htmlFile": "resources/ps-7/index.html"
+                    "htmlFile": [
+                        "resources/ps-7/index.html"
+                    ]
                 },
                 {
                     "title": "PS.10.1 Blocks and Massive Pulley",
@@ -1537,7 +1913,9 @@
                     "youtubeKey": "IWD-Aue6aIk",
                     "contentLength": 93393593,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/8bde22c1807952e58dbc8d71eadf237b_IWD-Aue6aIk.vtt",
-                    "htmlFile": "resources/ps-10/index.html"
+                    "htmlFile": [
+                        "resources/ps-10/index.html"
+                    ]
                 },
                 {
                     "title": "Rocket Sled - Differential Equation",
@@ -1545,7 +1923,9 @@
                     "youtubeKey": "dvWKCH0ocu8",
                     "contentLength": 19616861,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/8f9dd3651b7750fca14f6ffbc524b441_dvWKCH0ocu8.vtt",
-                    "htmlFile": "resources/rocket-sled-differential-equation/index.html"
+                    "htmlFile": [
+                        "resources/rocket-sled-differential-equation/index.html"
+                    ]
                 },
                 {
                     "title": "Rocket Sled - Integrate the Rocket Equation",
@@ -1553,7 +1933,9 @@
                     "youtubeKey": "7Kq8BINVDiw",
                     "contentLength": 21729088,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/99c06ede3b5d5192b4cb4119435b6b9f_7Kq8BINVDiw.vtt",
-                    "htmlFile": "resources/rocket-sled-integrate-the-rocket-equation/index.html"
+                    "htmlFile": [
+                        "resources/rocket-sled-integrate-the-rocket-equation/index.html"
+                    ]
                 },
                 {
                     "title": "Rocket Sled - Solve for Initial Velocity",
@@ -1561,7 +1943,9 @@
                     "youtubeKey": "bHocXJ4rv5g",
                     "contentLength": 7374609,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/b6e7a24c0c27561e9c335157784aed2b_bHocXJ4rv5g.vtt",
-                    "htmlFile": "resources/rocket-sled-solve-for-initial-velocity/index.html"
+                    "htmlFile": [
+                        "resources/rocket-sled-solve-for-initial-velocity/index.html"
+                    ]
                 },
                 {
                     "title": "Window Washer Free Body Diagrams",
@@ -1569,7 +1953,9 @@
                     "youtubeKey": "XeTsZhYHY_E",
                     "contentLength": 60063558,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/4841e142f1dc52b7a20936378e6baf84_XeTsZhYHY_E.vtt",
-                    "htmlFile": "resources/window-washer-free-body-diagrams/index.html"
+                    "htmlFile": [
+                        "resources/window-washer-free-body-diagrams/index.html"
+                    ]
                 },
                 {
                     "title": "Window Washer Solution",
@@ -1577,7 +1963,9 @@
                     "youtubeKey": "ozIdCgo5uI4",
                     "contentLength": 15307965,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/d5a89d8ef9e452a083b2de3c03114cb1_ozIdCgo5uI4.vtt",
-                    "htmlFile": "resources/window-washer-solution/index.html"
+                    "htmlFile": [
+                        "resources/window-washer-solution/index.html"
+                    ]
                 },
                 {
                     "title": "Worked Example - Orbital Circular Motion – Radius",
@@ -1585,7 +1973,9 @@
                     "youtubeKey": "gEX7MjWwocE",
                     "contentLength": 22803424,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/d7e31577070357978a35e4ce6298fd55_gEX7MjWwocE.vtt",
-                    "htmlFile": "resources/worked-example-orbital-circular-motion-2013-radius/index.html"
+                    "htmlFile": [
+                        "resources/worked-example-orbital-circular-motion-2013-radius/index.html"
+                    ]
                 },
                 {
                     "title": "Worked Example - Stacked Blocks - Choosing the System of 2 Blocks Together",
@@ -1593,7 +1983,9 @@
                     "youtubeKey": "l062G7RC8-o",
                     "contentLength": 32665393,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/9411cb4c43fe5a87be7b9b5879575e0f_l062G7RC8-o.vtt",
-                    "htmlFile": "resources/worked-example-stacked-blocks-choosing-the-system-of-2-blocks-together/index.html"
+                    "htmlFile": [
+                        "resources/worked-example-stacked-blocks-choosing-the-system-of-2-blocks-together/index.html"
+                    ]
                 },
                 {
                     "title": "Worked Example - Stacked Blocks - Free Body Diagrams and Applying Newton's 2nd Law",
@@ -1601,7 +1993,9 @@
                     "youtubeKey": "63U4_OxohOw",
                     "contentLength": 48513923,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/42f53f0e48de5812b3ce2555f3b33035_63U4_OxohOw.vtt",
-                    "htmlFile": "resources/worked-example-stacked-blocks-free-body-diagrams-and-applying-newtons-2nd-law/index.html"
+                    "htmlFile": [
+                        "resources/worked-example-stacked-blocks-free-body-diagrams-and-applying-newtons-2nd-law/index.html"
+                    ]
                 },
                 {
                     "title": "Worked Example - Stacked Blocks - Solve for the Maximum Force",
@@ -1609,7 +2003,9 @@
                     "youtubeKey": "uhaFP0xEmzM",
                     "contentLength": 28630416,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/4c8262d5818c57fabdcd9f75b90c00e7_uhaFP0xEmzM.vtt",
-                    "htmlFile": "resources/worked-example-stacked-blocks-solve-for-the-maximum-force/index.html"
+                    "htmlFile": [
+                        "resources/worked-example-stacked-blocks-solve-for-the-maximum-force/index.html"
+                    ]
                 }
             ]
         },
@@ -1622,7 +2018,9 @@
                     "youtubeKey": "F3N5EkMX_ks",
                     "contentLength": 6553024,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/b50fed3deed953e7a83fd2bdda12f634_F3N5EkMX_ks.vtt",
-                    "htmlFile": "resources/video-introduction/index.html"
+                    "htmlFile": [
+                        "resources/video-introduction/index.html"
+                    ]
                 },
                 {
                     "title": "Week 1: Introduction",
@@ -1630,7 +2028,9 @@
                     "youtubeKey": "i4u7SZjoAs4",
                     "contentLength": 14218015,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/aa34fd36c44658058546d6cc4bfeb927_i4u7SZjoAs4.vtt",
-                    "htmlFile": "resources/week-1-introduction/index.html"
+                    "htmlFile": [
+                        "resources/week-1-introduction/index.html"
+                    ]
                 },
                 {
                     "title": "Week 2 Introduction",
@@ -1638,7 +2038,9 @@
                     "youtubeKey": "yLb_a1EE888",
                     "contentLength": 15073607,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/52372d78adc75df2908f5180c34da82f_yLb_a1EE888.vtt",
-                    "htmlFile": "resources/week-2-introduction/index.html"
+                    "htmlFile": [
+                        "resources/week-2-introduction/index.html"
+                    ]
                 },
                 {
                     "title": "Week 3 Introduction",
@@ -1646,7 +2048,9 @@
                     "youtubeKey": "dlJtUvRaGdE",
                     "contentLength": 9699528,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/f3b64925b7c8598cb866ed6fc49b5d47_dlJtUvRaGdE.vtt",
-                    "htmlFile": "resources/week-3-introduction/index.html"
+                    "htmlFile": [
+                        "resources/week-3-introduction/index.html"
+                    ]
                 },
                 {
                     "title": "Week 4 Introduction",
@@ -1654,7 +2058,9 @@
                     "youtubeKey": "0mGd0JUmgm8",
                     "contentLength": 14480429,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/abaf4b67ecf95f909f90a47c33be3842_0mGd0JUmgm8.vtt",
-                    "htmlFile": "resources/week-4-introduction/index.html"
+                    "htmlFile": [
+                        "resources/week-4-introduction/index.html"
+                    ]
                 },
                 {
                     "title": "Week 5 Introduction",
@@ -1662,7 +2068,9 @@
                     "youtubeKey": "n1cXiw3s72k",
                     "contentLength": 15491379,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/86d89baf94a050bdb42a7bc614c96d9b_n1cXiw3s72k.vtt",
-                    "htmlFile": "resources/week-5-introduction/index.html"
+                    "htmlFile": [
+                        "resources/week-5-introduction/index.html"
+                    ]
                 },
                 {
                     "title": "Week 6 Introduction",
@@ -1670,7 +2078,9 @@
                     "youtubeKey": "D2lW7o32fzk",
                     "contentLength": 6475655,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/d5eb531434f753ecbe6e062830cfdc8c_D2lW7o32fzk.vtt",
-                    "htmlFile": "resources/week-6-introduction/index.html"
+                    "htmlFile": [
+                        "resources/week-6-introduction/index.html"
+                    ]
                 },
                 {
                     "title": "Week 7 Introduction",
@@ -1678,7 +2088,9 @@
                     "youtubeKey": "0qEIs6ie2q8",
                     "contentLength": 13198968,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/9e4045a5487f50079eed8b7104cf6400_0qEIs6ie2q8.vtt",
-                    "htmlFile": "resources/week-7-introduction/index.html"
+                    "htmlFile": [
+                        "resources/week-7-introduction/index.html"
+                    ]
                 },
                 {
                     "title": "Week 8 Introduction",
@@ -1686,7 +2098,9 @@
                     "youtubeKey": "EX0uHJbIw68",
                     "contentLength": 6654787,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/0f6badd29ff35eaca4b77a6b75969aa2_EX0uHJbIw68.vtt",
-                    "htmlFile": "resources/week-8-introduction/index.html"
+                    "htmlFile": [
+                        "resources/week-8-introduction/index.html"
+                    ]
                 },
                 {
                     "title": "Week 9 Introduction",
@@ -1694,7 +2108,9 @@
                     "youtubeKey": "MoRip5VVdkI",
                     "contentLength": 10361466,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/8ce0ddf98cbc55d69d057b3e299ca240_MoRip5VVdkI.vtt",
-                    "htmlFile": "resources/week-9-introduction/index.html"
+                    "htmlFile": [
+                        "resources/week-9-introduction/index.html"
+                    ]
                 },
                 {
                     "title": "Week 10 Introduction",
@@ -1702,7 +2118,9 @@
                     "youtubeKey": "efH7pq9YVQw",
                     "contentLength": 16394677,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/e6bea59895f450b38e9c9c18e1ec768b_efH7pq9YVQw.vtt",
-                    "htmlFile": "resources/week-10-introduction/index.html"
+                    "htmlFile": [
+                        "resources/week-10-introduction/index.html"
+                    ]
                 },
                 {
                     "title": "Week 11 Introduction",
@@ -1710,7 +2128,9 @@
                     "youtubeKey": "6h3T3qIkxqw",
                     "contentLength": 12087124,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/2df7258ad4dc5c21ba1b9522d896a82a_6h3T3qIkxqw.vtt",
-                    "htmlFile": "resources/week-11-introduction/index.html"
+                    "htmlFile": [
+                        "resources/week-11-introduction/index.html"
+                    ]
                 },
                 {
                     "title": "Week 12 Introduction",
@@ -1718,7 +2138,9 @@
                     "youtubeKey": "EhgF2OViDDs",
                     "contentLength": 10454449,
                     "captionsFile": "/courses/8-01sc-classical-mechanics-fall-2016/a588e189c8345f078a1483521ef7e5a3_EhgF2OViDDs.vtt",
-                    "htmlFile": "resources/week-12-introduction/index.html"
+                    "htmlFile": [
+                        "resources/week-12-introduction/index.html"
+                    ]
                 }
             ]
         }
