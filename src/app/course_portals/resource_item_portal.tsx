@@ -1,12 +1,11 @@
 import React from "react";
-import { ResourceItemData } from "../../types";
 import ResourceItemLayout from "../resource_item_layout";
 import { useAppSelector } from "../store/store";
 import { selectVideoStatus } from "../store/video_selectors";
 import { videoKeyFromPath } from "../utils/video_path_helper";
+import type { ResourceItemProps } from "../../common/custom_elements/resource_item";
 
-interface ResourceItemPortalProps {
-  item: ResourceItemData;
+interface ResourceItemPortalProps extends ResourceItemProps {
   courseId: string;
 }
 
