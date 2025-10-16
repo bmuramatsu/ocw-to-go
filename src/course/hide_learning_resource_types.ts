@@ -10,4 +10,12 @@ export default function hideLearningResourceTypes() {
   if (section) {
     section.remove();
   }
+
+  // resource types also appear in the course info sidebar
+  const titles = document.querySelectorAll(".course-detail-title");
+  titles.forEach((title) => {
+    if (title.textContent?.trim() === "Learning Resource Types") {
+      title.parentElement?.remove();
+    }
+  });
 }
