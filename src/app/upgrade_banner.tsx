@@ -5,18 +5,22 @@ function useAppUpgrade() {
   const [waiting, setWaiting] = React.useState(false);
 
   React.useEffect(() => {
-    navigator.serviceWorker.register("/worker.js").then((registration) => {
-      // We check for the waiting state in 2 ways. The event listener catches
-      // it immediately, and the static check will catch if after refreshes.
-      // Refreshes don't trigger the event again, so both are needed.
-      registration.addEventListener("updatefound", () => {
-        setWaiting(true);
+    navigator.serviceWorker
+      .getRegistration("/worker.js")
+      .then((registration) => {
+        // We check for the waiting state in 2 ways. The event listener catches
+        // it immediately, and the static check will catch if after refreshes.
+        // Refreshes don't trigger the event again, so both are needed.
+        if (registration) {
+          registration.addEventListener("updatefound", () => {
+            setWaiting(true);
+          });
+          if (registration.waiting) {
+            setWaiting(true);
+          }
+        }
       });
-      if (registration.waiting) {
-        setWaiting(true);
-      }
-    });
-  });
+  }, []);
 
   return { upgradeAvailable: waiting };
 }
