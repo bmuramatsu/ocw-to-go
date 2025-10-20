@@ -4,7 +4,6 @@ import { Menu, Cancel } from "./svgs";
 import { ALL_COURSES } from "./initial_course_list";
 import useAutoCloseMenu from "./use_auto_close_menu";
 import StorageUsage from "./storage_usage";
-import UpgradeBanner from "./upgrade_banner";
 
 export default function Header() {
   const courseCount = ALL_COURSES.length;
@@ -16,7 +15,6 @@ export default function Header() {
   return (
     <section className="bg--black">
       <div className="main__contain sm-padding">
-        <UpgradeBanner />
         <header>
           <Link href="/">
             <img

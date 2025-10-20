@@ -1,4 +1,5 @@
 import React from "react";
+import { Info } from "./svgs";
 
 function useAppUpgrade() {
   const [waiting, setWaiting] = React.useState(false);
@@ -48,8 +49,21 @@ export default function UpgradeBanner() {
   if (!upgradeAvailable) return null;
 
   return (
-    <div style={{ backgroundColor: "white" }}>
-      Restart to update the app <button onClick={upgradeApp}>Update App</button>
-    </div>
+    <section className="alert-banner">
+      <div className="main__contain sm-padding">
+        <div className="flex space-between align-center gap-12 alert-banner__content">
+          <span className="flex align-center gap-12">
+            <Info />
+            Restart to update the app
+          </span>
+          <button
+            onClick={upgradeApp}
+            className="btn btn--primary btn--compact"
+          >
+            Update App
+          </button>
+        </div>
+      </div>
+    </section>
   );
 }
