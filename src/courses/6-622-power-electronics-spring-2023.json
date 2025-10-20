@@ -31,7 +31,7 @@
                     "youtubeKey": "f7oXhDatwtY",
                     "contentLength": 88039320,
                     "captionsFile": "/courses/6-622-power-electronics-spring-2023/11e9izmK-ShJE2lV70FGHgiooH7On-jzP_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_622s23_lecture_01_mp4/index.html"
                     ]
                 },
@@ -41,7 +41,7 @@
                     "youtubeKey": "bJ1nqEC3i0A",
                     "contentLength": 112638276,
                     "captionsFile": "/courses/6-622-power-electronics-spring-2023/1_T2cNEjxRklOFdot5MgBWsWWWb4ulFn__transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_622s23_lecture_02_mp4/index.html"
                     ]
                 },
@@ -51,7 +51,7 @@
                     "youtubeKey": "Tpc39Bv3YJ8",
                     "contentLength": 109330369,
                     "captionsFile": "/courses/6-622-power-electronics-spring-2023/1w39rMEqqQmrV2Xj3K9bjoTt9vU1m4x1m_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_622s23_lecture_03_mp4/index.html"
                     ]
                 },
@@ -61,7 +61,7 @@
                     "youtubeKey": "-r0hWGcNLSI",
                     "contentLength": 121923668,
                     "captionsFile": "/courses/6-622-power-electronics-spring-2023/1vhAz5ZCgHm9AY3fmWjHN63ZCt2p3Nml__transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_622s23_lecture_04_mp4/index.html"
                     ]
                 },
@@ -71,7 +71,7 @@
                     "youtubeKey": "6Bzq25m68BE",
                     "contentLength": 113566817,
                     "captionsFile": "/courses/6-622-power-electronics-spring-2023/1WDD_5wUThWltxnOciGhfJm8ACWvwZ4OA_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_622s23_lecture_05_mp4/index.html"
                     ]
                 },
@@ -81,7 +81,7 @@
                     "youtubeKey": "UMTHJC22p7A",
                     "contentLength": 131994238,
                     "captionsFile": "/courses/6-622-power-electronics-spring-2023/1NMW-0j22Z5rJNXlJ45jCc2qvtIHJnPUk_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_622s23_lecture_06_mp4/index.html"
                     ]
                 },
@@ -91,7 +91,7 @@
                     "youtubeKey": "O91G3Likq3w",
                     "contentLength": 116953095,
                     "captionsFile": "/courses/6-622-power-electronics-spring-2023/1WvJ2gNYp4iolVfvQKUHjUPY3Djt28VV1_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_622s23_lecture_07_mp4/index.html"
                     ]
                 },
@@ -101,7 +101,7 @@
                     "youtubeKey": "sB547f1ogWc",
                     "contentLength": 128773067,
                     "captionsFile": "/courses/6-622-power-electronics-spring-2023/1A68WpTg5HKQb6ysT1n9RY8cLaFZF7NDE_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_622s23_lecture_08_mp4/index.html"
                     ]
                 },
@@ -111,7 +111,7 @@
                     "youtubeKey": "Z4iE3aaNeTM",
                     "contentLength": 108391135,
                     "captionsFile": "/courses/6-622-power-electronics-spring-2023/16218Ekq-I5jXPMqKPdUnD-fHBh8kymIy_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_622s23_lecture_09_mp4/index.html"
                     ]
                 },
@@ -121,7 +121,7 @@
                     "youtubeKey": "7F0ZThtJfo8",
                     "contentLength": 103086863,
                     "captionsFile": "/courses/6-622-power-electronics-spring-2023/1XXk-SybO21q5OzxmGlFnmID5TDqbtiHJ_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_622s23_lecture_10_mp4/index.html"
                     ]
                 },
@@ -131,7 +131,7 @@
                     "youtubeKey": "O0NRIVUG2d0",
                     "contentLength": 132883484,
                     "captionsFile": "/courses/6-622-power-electronics-spring-2023/1QtlwRDPRHKuT0ZTJueSW6OD1Gmbrz63x_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_622s23_lecture_11_mp4/index.html"
                     ]
                 },
@@ -141,7 +141,7 @@
                     "youtubeKey": "cf7JLEqw8Os",
                     "contentLength": 91494389,
                     "captionsFile": "/courses/6-622-power-electronics-spring-2023/1divxgFuaNvl71NYKoBoIJE1Qhgb50tWY_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_622s23_lecture_12_mp4/index.html"
                     ]
                 },
@@ -151,7 +151,7 @@
                     "youtubeKey": "I2PD_f5a9fA",
                     "contentLength": 112390193,
                     "captionsFile": "/courses/6-622-power-electronics-spring-2023/1hfxRBBkMFfBws7Ma8z3d3Yr_AfItbLnm_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_622s23_lecture_13_mp4/index.html"
                     ]
                 },
@@ -161,7 +161,7 @@
                     "youtubeKey": "K5tUbZzcOEc",
                     "contentLength": 121191114,
                     "captionsFile": "/courses/6-622-power-electronics-spring-2023/1NtglIjeJVTXMKpHk5-wVwyod6-rP1pt3_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_622s23_lecture_14_mp4/index.html"
                     ]
                 },
@@ -171,7 +171,7 @@
                     "youtubeKey": "nG47fQ-aiHw",
                     "contentLength": 93478702,
                     "captionsFile": "/courses/6-622-power-electronics-spring-2023/1mse3G750j0GsIftgTg1Yp3eg9vIurS6A_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_622s23_lecture_15_mp4/index.html"
                     ]
                 },
@@ -181,7 +181,7 @@
                     "youtubeKey": "w6R6V1Mpz7s",
                     "contentLength": 119084484,
                     "captionsFile": "/courses/6-622-power-electronics-spring-2023/1BYB3SGJU-Oi1Vk910805d4bCCzBI3NWZ_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_622s23_lecture_16_mp4/index.html"
                     ]
                 },
@@ -191,7 +191,7 @@
                     "youtubeKey": "So_UGo4dSJs",
                     "contentLength": 121902716,
                     "captionsFile": "/courses/6-622-power-electronics-spring-2023/1a_zvcYp8QCRz2CnkFFyvrhlyMdc43Usp_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_622s23_lecture_17_mp4/index.html"
                     ]
                 },
@@ -201,7 +201,7 @@
                     "youtubeKey": "H8U0a9bwxqc",
                     "contentLength": 112253889,
                     "captionsFile": "/courses/6-622-power-electronics-spring-2023/1WLAvEBvPWMhfwiDRRqqroqYOSfR0CaZu_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_622s23_lecture_18_mp4/index.html"
                     ]
                 },
@@ -211,7 +211,7 @@
                     "youtubeKey": "uL8C9wQrk3g",
                     "contentLength": 117830129,
                     "captionsFile": "/courses/6-622-power-electronics-spring-2023/100IMGJQWqBM2FN1fqD5Fzy2tczS3NEPR_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_622s23_lecture_19_mp4/index.html"
                     ]
                 },
@@ -221,7 +221,7 @@
                     "youtubeKey": "EFONLmsmVFw",
                     "contentLength": 114801740,
                     "captionsFile": "/courses/6-622-power-electronics-spring-2023/13opQsue7_eR5uFOdviAnrVuansrN_eAo_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_622s23_lecture_20_mp4/index.html"
                     ]
                 },
@@ -231,7 +231,7 @@
                     "youtubeKey": "Ih92AK1D-2M",
                     "contentLength": 98447326,
                     "captionsFile": "/courses/6-622-power-electronics-spring-2023/1Nj2YmtOLT_RHHvlc-Jfwe6GCOuVva4HN_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_622s23_lecture_21_mp4/index.html"
                     ]
                 },
@@ -241,7 +241,7 @@
                     "youtubeKey": "AGj73UQN-K0",
                     "contentLength": 115780651,
                     "captionsFile": "/courses/6-622-power-electronics-spring-2023/1xkhgaQkj9GF9YBkoBeZebQGd4eXMkdXZ_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_622s23_lecture_22_mp4/index.html"
                     ]
                 },
@@ -251,7 +251,7 @@
                     "youtubeKey": "nTq-OKy5kHs",
                     "contentLength": 123757469,
                     "captionsFile": "/courses/6-622-power-electronics-spring-2023/1Qs09Vu5_EFov0jztlXAvysAA0NeubQY4_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_622s23_lecture_23_mp4/index.html"
                     ]
                 },
@@ -261,7 +261,7 @@
                     "youtubeKey": "ikaTTZEY5VE",
                     "contentLength": 94162309,
                     "captionsFile": "/courses/6-622-power-electronics-spring-2023/14NE_jLkKG1ViyIEP58aXf8d79zuS5uLN_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_622s23_lecture_24_mp4/index.html"
                     ]
                 },
@@ -271,7 +271,7 @@
                     "youtubeKey": "lRtTS1PNFik",
                     "contentLength": 109414189,
                     "captionsFile": "/courses/6-622-power-electronics-spring-2023/1BSzo-ZcL495eDHdiCG5K04-_h2MfekQK_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_622s23_lecture_25_mp4/index.html"
                     ]
                 },
@@ -281,7 +281,7 @@
                     "youtubeKey": "V-mbUZhovOo",
                     "contentLength": 108121009,
                     "captionsFile": "/courses/6-622-power-electronics-spring-2023/1jnDIb0W9RPiPdDxdsPIKPrIote-gdS1U_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_622s23_lecture_26_mp4/index.html"
                     ]
                 },
@@ -291,7 +291,7 @@
                     "youtubeKey": "WJNPGXivqew",
                     "contentLength": 94577675,
                     "captionsFile": "/courses/6-622-power-electronics-spring-2023/123jNGP0lbJVrIsApzpsz3HQOcpQXsU4o_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_622s23_lecture_27_mp4/index.html"
                     ]
                 },
@@ -301,7 +301,7 @@
                     "youtubeKey": "HWnEifmgAdU",
                     "contentLength": 97000739,
                     "captionsFile": "/courses/6-622-power-electronics-spring-2023/1bdfOZG2NZV1IrLoTf2VneLJpQEn728Uv_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_622s23_lecture_28_mp4/index.html"
                     ]
                 },
@@ -311,7 +311,7 @@
                     "youtubeKey": "OVZPEUzXbqM",
                     "contentLength": 111763692,
                     "captionsFile": "/courses/6-622-power-electronics-spring-2023/1WM2-syMPuAItj988GRl-pBigGbzksqXI_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_622s23_lecture_29_mp4/index.html"
                     ]
                 },
@@ -321,7 +321,7 @@
                     "youtubeKey": "Zh4eqhcZjcg",
                     "contentLength": 110607157,
                     "captionsFile": "/courses/6-622-power-electronics-spring-2023/1hcw4UlUAkt-0-hmuPKO7I89WRQf323bd_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_622s23_lecture_30_mp4/index.html"
                     ]
                 },
@@ -331,7 +331,7 @@
                     "youtubeKey": "CKncVaiv_08",
                     "contentLength": 116457518,
                     "captionsFile": "/courses/6-622-power-electronics-spring-2023/12nyfTaoAL0CoRiAAC4YjZ-H9c2hZ-t7E_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_622s23_lecture_31_mp4/index.html"
                     ]
                 },
@@ -341,7 +341,7 @@
                     "youtubeKey": "jcE-Ue83P7U",
                     "contentLength": 105618741,
                     "captionsFile": "/courses/6-622-power-electronics-spring-2023/1JimzDcKHjTLgNN3Whan36afmCih5US9A_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_622s23_lecture_32_mp4/index.html"
                     ]
                 },
@@ -351,7 +351,7 @@
                     "youtubeKey": "4VztgBcVH5Q",
                     "contentLength": 102518829,
                     "captionsFile": "/courses/6-622-power-electronics-spring-2023/1B-EdPfWAdhfRVILtl-7GRVeJQGo3UgRP_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_622s23_lecture_33_mp4/index.html"
                     ]
                 },
@@ -361,7 +361,7 @@
                     "youtubeKey": "7FhXh4yXUao",
                     "contentLength": 98135509,
                     "captionsFile": "/courses/6-622-power-electronics-spring-2023/1RGQ46ECvt84wGz4Mg5J31J3K890YM50B_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_622s23_lecture_34_mp4/index.html"
                     ]
                 },
@@ -371,7 +371,7 @@
                     "youtubeKey": "BryipFEiIiE",
                     "contentLength": 106082399,
                     "captionsFile": "/courses/6-622-power-electronics-spring-2023/1YOdoY_n8k6MLa0Htv4sSgzNisLig_d_X_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_622s23_lecture_35_mp4/index.html"
                     ]
                 },
@@ -381,7 +381,7 @@
                     "youtubeKey": "teW8gmpKQcI",
                     "contentLength": 99848334,
                     "captionsFile": "/courses/6-622-power-electronics-spring-2023/1YtOhx0q4OF3UYOU7PZczixk6h-Sg-mDi_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_622s23_lecture_36_mp4/index.html"
                     ]
                 },
@@ -391,7 +391,7 @@
                     "youtubeKey": "TDZVCli3bEs",
                     "contentLength": 111652187,
                     "captionsFile": "/courses/6-622-power-electronics-spring-2023/1hMyfXxXC8MkS__taKirTa-ZT6h9eBWQv_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_622s23_lecture_37_mp4/index.html"
                     ]
                 },
@@ -401,7 +401,7 @@
                     "youtubeKey": "TtItFQTNMA4",
                     "contentLength": 101641534,
                     "captionsFile": "/courses/6-622-power-electronics-spring-2023/1jBfQFMSIBooBX_iqPSIqrZuAvrbZu6F9_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_622s23_lecture_38_mp4/index.html"
                     ]
                 }

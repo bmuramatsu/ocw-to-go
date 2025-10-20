@@ -35,7 +35,7 @@
                     "youtubeKey": "TnS8kI_KuJc",
                     "contentLength": 135308203,
                     "captionsFile": "/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/5ba2d1a3879858679180e324e18af6b8_TnS8kI_KuJc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-19-black-scholes-formula-risk-neutral-valuation/index.html"
                     ]
                 },
@@ -45,7 +45,7 @@
                     "youtubeKey": "wvXDB9dMdEo",
                     "contentLength": 140565779,
                     "captionsFile": "/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/259db961e75e533bb82fd35b8af5f8af_wvXDB9dMdEo.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-1-introduction-financial-terms-and-concepts/index.html"
                     ]
                 },
@@ -55,7 +55,7 @@
                     "youtubeKey": "9YtmGy-wfE4",
                     "contentLength": 167497861,
                     "captionsFile": "/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/88882ab842785fd8ae8ee139ab21f978_9YtmGy-wfE4.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-2-linear-algebra/index.html"
                     ]
                 },
@@ -65,7 +65,7 @@
                     "youtubeKey": "f9XFM8YLccg",
                     "contentLength": 180697805,
                     "captionsFile": "/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/1ae1e661f1ef5e848fb433b9e6f786a7_f9XFM8YLccg.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-3-probability-theory/index.html"
                     ]
                 },
@@ -75,7 +75,7 @@
                     "youtubeKey": "TuTmC8aOQJE",
                     "contentLength": 178823519,
                     "captionsFile": "/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/bfd51aee77035779b7db80bdb358f60e_TuTmC8aOQJE.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-5-stochastic-processes-i/index.html"
                     ]
                 },
@@ -85,7 +85,7 @@
                     "youtubeKey": "l1kLCrxL9Hk",
                     "contentLength": 189233660,
                     "captionsFile": "/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/52bed286919f594ab77f7881831a4837_l1kLCrxL9Hk.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-6-regression-analysis/index.html"
                     ]
                 },
@@ -95,7 +95,7 @@
                     "youtubeKey": "92WaNz9mPeY",
                     "contentLength": 187987992,
                     "captionsFile": "/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/9f5c877175f25ea2aa86d226ca41e35b_92WaNz9mPeY.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-7-value-at-risk-var-models/index.html"
                     ]
                 },
@@ -105,7 +105,7 @@
                     "youtubeKey": "uBeM1FUk4Ps",
                     "contentLength": 178028468,
                     "captionsFile": "/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/d3a8ec94d8ab5a47a2a714633fe756dd_uBeM1FUk4Ps.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-8-time-series-analysis-i/index.html"
                     ]
                 },
@@ -115,7 +115,7 @@
                     "youtubeKey": "cDlbEQz1PQk",
                     "contentLength": 189304540,
                     "captionsFile": "/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/d7645769a85a58e8ad6abad6f738a241_cDlbEQz1PQk.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-9-volatility-modeling/index.html"
                     ]
                 },
@@ -125,7 +125,7 @@
                     "youtubeKey": "aga-Tak3c3M",
                     "contentLength": 209163927,
                     "captionsFile": "/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/b75ff165a81355fc839a810d5dbbcc96_aga-Tak3c3M.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-10-regularized-pricing-and-risk-models/index.html"
                     ]
                 },
@@ -135,7 +135,7 @@
                     "youtubeKey": "_IFUfFuyQlU",
                     "contentLength": 194633346,
                     "captionsFile": "/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/38ae9f2c3e1058d28df09856f7951b8a_IFUfFuyQlU.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-11-time-series-analysis-ii/index.html"
                     ]
                 },
@@ -145,7 +145,7 @@
                     "youtubeKey": "9G1IDAqrWkg",
                     "contentLength": 180107062,
                     "captionsFile": "/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/a2034520f0a65da7bbaf6570795082cd_9G1IDAqrWkg.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-12-time-series-analysis-iii/index.html"
                     ]
                 },
@@ -155,7 +155,7 @@
                     "youtubeKey": "nmehlS-8b3Y",
                     "contentLength": 187487295,
                     "captionsFile": "/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/066a02dc8aa45cd9bd5dd7adc2e73101_nmehlS-8b3Y.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-13-commodity-models/index.html"
                     ]
                 },
@@ -165,7 +165,7 @@
                     "youtubeKey": "ywl3pq6yc54",
                     "contentLength": 196422965,
                     "captionsFile": "/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/eeef4a43eb0d588ebbb3508b0b09cd2b_ywl3pq6yc54.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-14-portfolio-theory/index.html"
                     ]
                 },
@@ -175,7 +175,7 @@
                     "youtubeKey": "ro07evEWbCE",
                     "contentLength": 199353588,
                     "captionsFile": "/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/3e04e552d1255dc0a1df8a4a7eb2abf9_ro07evEWbCE.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-15-factor-modeling/index.html"
                     ]
                 },
@@ -185,7 +185,7 @@
                     "youtubeKey": "8TJQhQ2GZ0Y",
                     "contentLength": 206519764,
                     "captionsFile": "/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/4c22cee9957455d393b76dbfe7132447_8TJQhQ2GZ0Y.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-16-portfolio-management/index.html"
                     ]
                 },
@@ -195,7 +195,7 @@
                     "youtubeKey": "PPl-7_RL0Ko",
                     "contentLength": 176495926,
                     "captionsFile": "/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/7739d1906e3f5f15acc8db8fdd91ab2d_PPl-7_RL0Ko.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-17-stochastic-processes-ii/index.html"
                     ]
                 },
@@ -205,7 +205,7 @@
                     "youtubeKey": "Z5yRMMVUC5w",
                     "contentLength": 180569103,
                     "captionsFile": "/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/204496c116545f10b7db06edda840c49_Z5yRMMVUC5w.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-18-ito-calculus/index.html"
                     ]
                 },
@@ -215,7 +215,7 @@
                     "youtubeKey": "eG_aRPy1KVE",
                     "contentLength": 187355231,
                     "captionsFile": "/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/4c5d95d779cb52b9895d0fa2234d621f_eG_aRPy1KVE.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-20-option-price-and-probability-duality/index.html"
                     ]
                 },
@@ -225,7 +225,7 @@
                     "youtubeKey": "qdbkvD4N-us",
                     "contentLength": 129899264,
                     "captionsFile": "/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/dd291dedf9cb551299fe9c6c00a98da7_qdbkvD4N-us.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-21-stochastic-differential-equations/index.html"
                     ]
                 },
@@ -235,7 +235,7 @@
                     "youtubeKey": "55OXxe_ix2o",
                     "contentLength": 226470718,
                     "captionsFile": "/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/049fc5b84aa45edab8d844f48f5a5fc6_55OXxe_ix2o.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-23-quanto-credit-hedging/index.html"
                     ]
                 },
@@ -245,7 +245,7 @@
                     "youtubeKey": "D2Jn1VrqjWI",
                     "contentLength": 294983169,
                     "captionsFile": "/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/8a8ca294e9c85dec9ed5e840ed0d565e_D2Jn1VrqjWI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-24-hjm-model-for-interest-rates-and-credit/index.html"
                     ]
                 },
@@ -255,7 +255,7 @@
                     "youtubeKey": "vc5dotshPZc",
                     "contentLength": 204836104,
                     "captionsFile": "/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/f345251cc1285021be0eb745eb3d7220_vc5dotshPZc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-25-ross-recovery-theorem/index.html"
                     ]
                 },
@@ -265,7 +265,7 @@
                     "youtubeKey": "bKmcRfE3I6E",
                     "contentLength": 185499855,
                     "captionsFile": "/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/9276600a81f757e0a23af5db058b0e70_bKmcRfE3I6E.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-26-introduction-to-counterparty-credit-risk/index.html"
                     ]
                 }

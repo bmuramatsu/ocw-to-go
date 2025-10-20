@@ -34,7 +34,7 @@
                     "youtubeKey": "kEoJ-teErzM",
                     "contentLength": 10434636,
                     "captionsFile": "/courses/introduction-to-r-and-gis-fall-2023/res1-002-gis-2a-key-concepts_captions.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/res1-002-gis-2a-key-concepts_mp4/index.html"
                     ]
                 },
@@ -44,7 +44,7 @@
                     "youtubeKey": "TVSuGdCPXQQ",
                     "contentLength": 63035531,
                     "captionsFile": "/courses/introduction-to-r-and-gis-fall-2023/1g0jKSOmN_-vBTKlB_S9CgNOcCkDbdoNO_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/res1-002-gis-2b-vectorial-maps_mp4/index.html"
                     ]
                 },
@@ -54,7 +54,7 @@
                     "youtubeKey": "qsjX1_DW81s",
                     "contentLength": 17832444,
                     "captionsFile": "/courses/introduction-to-r-and-gis-fall-2023/1hDpVB4SAP_-DKOGyjywDMGkxBskcnptx_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/res1-002-gis-2c-projection_mp4/index.html"
                     ]
                 },
@@ -64,7 +64,7 @@
                     "youtubeKey": "gHW8ncZJhQY",
                     "contentLength": 41137639,
                     "captionsFile": "/courses/introduction-to-r-and-gis-fall-2023/1basMexZPcWyyLCVw-xHHgIG_Vkd-UPc__transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/res1-002-gis-2d-stack-brick-crop-mask_mp4/index.html"
                     ]
                 },
@@ -74,7 +74,7 @@
                     "youtubeKey": "G_vxgoj1YNU",
                     "contentLength": 64847586,
                     "captionsFile": "/courses/introduction-to-r-and-gis-fall-2023/1ETd5GLsQCsGjh4ViB5EwCJzLOPCO6uVF_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/res1-002-gis-2e-extraction-info-from-maps_mp4/index.html"
                     ]
                 },
@@ -84,7 +84,7 @@
                     "youtubeKey": "lE217O9ZGws",
                     "contentLength": 40086699,
                     "captionsFile": "/courses/introduction-to-r-and-gis-fall-2023/1iQW1BISdcdRLT_ar-V1fT8tpG4upodT2_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/res1-002-gis-2f-plotting-maps-with-ggplot2_mp4/index.html"
                     ]
                 },
@@ -94,7 +94,7 @@
                     "youtubeKey": "7fYgr1qUdnU",
                     "contentLength": 116876490,
                     "captionsFile": "/courses/introduction-to-r-and-gis-fall-2023/140_64cA5VpzCzeo_uOioug5EAz2myv7R_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/res1-002-1a-intro-to-r_mp4/index.html"
                     ]
                 },
@@ -104,7 +104,7 @@
                     "youtubeKey": "4z0294hE9Uk",
                     "contentLength": 51462115,
                     "captionsFile": "/courses/introduction-to-r-and-gis-fall-2023/1nG4VopwI_v_YO57ihI2nZGylygJtrHF3_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/res1-002-1b-playing_with_data_mp4/index.html"
                     ]
                 },
@@ -114,7 +114,7 @@
                     "youtubeKey": "IvJvmufB1oA",
                     "contentLength": 40803307,
                     "captionsFile": "/courses/introduction-to-r-and-gis-fall-2023/157RDARK9eDL3Z0mmKPjVUnIVDAv3zvLk_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/res1002_1b-2_linearmixed_models_in_r_mp4/index.html"
                     ]
                 },
@@ -124,7 +124,7 @@
                     "youtubeKey": "31kRLTxDaAw",
                     "contentLength": 73696072,
                     "captionsFile": "/courses/introduction-to-r-and-gis-fall-2023/1CTyQGG_S3L5EOA30I-X2Ek8VS8shgXq-_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/res1-002-1c-loopsfunctions_mp4/index.html"
                     ]
                 }

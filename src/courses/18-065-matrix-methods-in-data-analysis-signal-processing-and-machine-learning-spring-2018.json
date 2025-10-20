@@ -35,7 +35,7 @@
                     "youtubeKey": "YiqIkSHSmyc",
                     "contentLength": 121584943,
                     "captionsFile": "/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/03ac9f7e2c51585aa8244940edc561fe_YiqIkSHSmyc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-1-the-column-space-of-a-contains-all-vectors-ax/index.html"
                     ]
                 },
@@ -45,7 +45,7 @@
                     "youtubeKey": "or6C4yBk_SY",
                     "contentLength": 112921060,
                     "captionsFile": "/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/e48e96cbcf0257b5bcc5fe7247fb245e_paxLhq30mBo.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-2-multiplying-and-factoring-matrices/index.html"
                     ]
                 },
@@ -55,7 +55,7 @@
                     "youtubeKey": "Xa2jPbURTjQ",
                     "contentLength": 115022201,
                     "captionsFile": "/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/3fe002ea6600581bb8152fbb5b3f7b06_Xa2jPbURTjQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-3-orthonormal-columns-in-q-give-q2019q-i/index.html"
                     ]
                 },
@@ -65,7 +65,7 @@
                     "youtubeKey": "k095NdrHxY4",
                     "contentLength": 114043925,
                     "captionsFile": "/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/9ea80b7ada3c56098596eae487e32e52_k095NdrHxY4.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-4-eigenvalues-and-eigenvectors/index.html"
                     ]
                 },
@@ -75,7 +75,7 @@
                     "youtubeKey": "xsP-S7yKaRA",
                     "contentLength": 105764173,
                     "captionsFile": "/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/649eb67753ea59e389a8910953bf0b59_xsP-S7yKaRA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-5-positive-definite-and-semidefinite-matrices/index.html"
                     ]
                 },
@@ -85,7 +85,7 @@
                     "youtubeKey": "rYz83XPxiZo",
                     "contentLength": 124948233,
                     "captionsFile": "/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/cbdda6e124ef5ddcb284b3eaa7329669_rYz83XPxiZo.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-6-singular-value-decomposition-svd/index.html"
                     ]
                 },
@@ -95,7 +95,7 @@
                     "youtubeKey": "Y4f7K9XF04k",
                     "contentLength": 110306854,
                     "captionsFile": "/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/ae3fcb7f64fd52e7abb899b9f665d5f4_Y4f7K9XF04k.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-7-eckart-young-the-closest-rank-k-matrix-to-a/index.html"
                     ]
                 },
@@ -105,7 +105,7 @@
                     "youtubeKey": "NcPUI7aPFhA",
                     "contentLength": 113980200,
                     "captionsFile": "/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/616222274741581db8e343fa71d465b9_NcPUI7aPFhA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-8-norms-of-vectors-and-matrices/index.html"
                     ]
                 },
@@ -115,7 +115,7 @@
                     "youtubeKey": "ZUU57Q3CFOU",
                     "contentLength": 116000146,
                     "captionsFile": "/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/c2eda44f0af850fabfe3caac68f26722_ZUU57Q3CFOU.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-9-four-ways-to-solve-least-squares-problems/index.html"
                     ]
                 },
@@ -125,7 +125,7 @@
                     "youtubeKey": "Z_5uLqcwDgM",
                     "contentLength": 115502434,
                     "captionsFile": "/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/11c2fb70b2995e9d96f9da4c2fb8c773_Z_5uLqcwDgM.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-10-survey-of-difficulties-with-ax-b/index.html"
                     ]
                 },
@@ -135,7 +135,7 @@
                     "youtubeKey": "MuEW9pG9oxE",
                     "contentLength": 117124932,
                     "captionsFile": "/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/166e9930bc7f53a89f94206db8661367_MuEW9pG9oxE.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-11-minimizing-2016x2016-subject-to-ax-b/index.html"
                     ]
                 },
@@ -145,7 +145,7 @@
                     "youtubeKey": "d32WV1rKoVk",
                     "contentLength": 115268954,
                     "captionsFile": "/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/879cbe9b11ea5cfcaecc11fda8addf7e_d32WV1rKoVk.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-12-computing-eigenvalues-and-singular-values/index.html"
                     ]
                 },
@@ -155,7 +155,7 @@
                     "youtubeKey": "z0ykhV15wLw",
                     "contentLength": 121601372,
                     "captionsFile": "/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/d34f9e4a43da5030833f679d909865f1_z0ykhV15wLw.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-13-randomized-matrix-multiplication/index.html"
                     ]
                 },
@@ -165,7 +165,7 @@
                     "youtubeKey": "XhSk_Lw2X_U",
                     "contentLength": 117389401,
                     "captionsFile": "/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/fe92fe605be650b9bdeb1ff0b1085ed7_XhSk_Lw2X_U.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-14-low-rank-changes-in-a-and-its-inverse/index.html"
                     ]
                 },
@@ -175,7 +175,7 @@
                     "youtubeKey": "z3SmljnD_nQ",
                     "contentLength": 118379090,
                     "captionsFile": "/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/3a1d6e9012be5679af1cb23a13c34bf3_z3SmljnD_nQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-15-matrices-a-t-depending-on-t-derivative-da-dt/index.html"
                     ]
                 },
@@ -185,7 +185,7 @@
                     "youtubeKey": "AdTvkFsqcDc",
                     "contentLength": 100225533,
                     "captionsFile": "/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/5e0f7b5ac9dd5260ad64c0e05c072b12_AdTvkFsqcDc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-16-derivatives-of-inverse-and-singular-values/index.html"
                     ]
                 },
@@ -195,7 +195,7 @@
                     "youtubeKey": "9BYsNpTCZGg",
                     "contentLength": 118178388,
                     "captionsFile": "/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/be4a3a6424585ed38c17023e863cf3dc_9BYsNpTCZGg.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-17-rapidly-decreasing-singular-values/index.html"
                     ]
                 },
@@ -205,7 +205,7 @@
                     "youtubeKey": "xaSL8yFgqig",
                     "contentLength": 114372495,
                     "captionsFile": "/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/6820501a14615c2299bedafa0a7093de_xaSL8yFgqig.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-18-counting-parameters-in-svd-lu-qr-saddle-points/index.html"
                     ]
                 },
@@ -215,7 +215,7 @@
                     "youtubeKey": "2K7CvGnebO0",
                     "contentLength": 120893367,
                     "captionsFile": "/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/0115219bc6a75aca92df48dfa5398d22_2K7CvGnebO0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-19-saddle-points-continued-maxmin-principle/index.html"
                     ]
                 },
@@ -225,7 +225,7 @@
                     "youtubeKey": "nrDkb2MAwSA",
                     "contentLength": 126139014,
                     "captionsFile": "/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/26848226b04056a681e84eafb354ade0_nrDkb2MAwSA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-20-definitions-and-inequalities/index.html"
                     ]
                 },
@@ -235,7 +235,7 @@
                     "youtubeKey": "nvXRJIBOREc",
                     "contentLength": 125110489,
                     "captionsFile": "/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/1691edd6d6b7545c9792cbc6525adceb_nvXRJIBOREc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-21-minimizing-a-function-step-by-step/index.html"
                     ]
                 },
@@ -245,7 +245,7 @@
                     "youtubeKey": "AeRwohPuUHQ",
                     "contentLength": 123116950,
                     "captionsFile": "/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/bbd9ccb8a7965b449b01e6d50e3c7605_AeRwohPuUHQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-22-gradient-descent-downhill-to-a-minimum/index.html"
                     ]
                 },
@@ -255,7 +255,7 @@
                     "youtubeKey": "wrEcHhoJxjM",
                     "contentLength": 114352500,
                     "captionsFile": "/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/558af63ca39950e1b045685768ce8de1_wrEcHhoJxjM.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-23-accelerating-gradient-descent-use-momentum/index.html"
                     ]
                 },
@@ -265,7 +265,7 @@
                     "youtubeKey": "feb9j65Iz4w",
                     "contentLength": 124021698,
                     "captionsFile": "/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/0f86f7f7f4515c89b47fef4ff6640f9a_feb9j65Iz4w.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-24-linear-programming-and-two-person-games/index.html"
                     ]
                 },
@@ -275,7 +275,7 @@
                     "youtubeKey": "k3AiUhwHQ28",
                     "contentLength": 123734241,
                     "captionsFile": "/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/013f96a4751a5245a91a5e46cced1b98_k3AiUhwHQ28.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-25-stochastic-gradient-descent/index.html"
                     ]
                 },
@@ -285,7 +285,7 @@
                     "youtubeKey": "sx00s7nYmRM",
                     "contentLength": 124170270,
                     "captionsFile": "/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/d776d03c1a5f55909ea338862b63bec8_sx00s7nYmRM.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-26-structure-of-neural-nets-for-deep-learning/index.html"
                     ]
                 },
@@ -295,7 +295,7 @@
                     "youtubeKey": "lZrIPRnoGQQ",
                     "contentLength": 122669011,
                     "captionsFile": "/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/7656fc94359b5298b8496f66bd7ad833_lZrIPRnoGQQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-27-backpropagation-find-partial-derivatives/index.html"
                     ]
                 },
@@ -305,7 +305,7 @@
                     "youtubeKey": "p-bXJIa7QVI",
                     "contentLength": 116658342,
                     "captionsFile": "/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/cd3d1abff4115a7cbff4d9c2fafb6a5a_p-bXJIa7QVI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-30-completing-a-rank-one-matrix-circulants/index.html"
                     ]
                 },
@@ -315,7 +315,7 @@
                     "youtubeKey": "1pFv7e9xtHo",
                     "contentLength": 123061300,
                     "captionsFile": "/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/9d170e8aefce5d8eaf218b5aa3e4e353_1pFv7e9xtHo.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-31-eigenvectors-of-circulant-matrices-fourier-matrix/index.html"
                     ]
                 },
@@ -325,7 +325,7 @@
                     "youtubeKey": "hwDRfkPSXng",
                     "contentLength": 110724743,
                     "captionsFile": "/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/bce815326359585daa637823cd6e6a46_hwDRfkPSXng.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-32-imagenet-is-a-cnn-the-convolution-rule/index.html"
                     ]
                 },
@@ -335,7 +335,7 @@
                     "youtubeKey": "L3-WFKCW-tY",
                     "contentLength": 131235961,
                     "captionsFile": "/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/c76eae43bbf15caaaa6390a1a93d0e32_L3-WFKCW-tY.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-33-neural-nets-and-the-learning-function/index.html"
                     ]
                 },
@@ -345,7 +345,7 @@
                     "youtubeKey": "0Qws8BuK3RQ",
                     "contentLength": 68517210,
                     "captionsFile": "/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/ceb465c34fde56faa60aa414799d705c_0Qws8BuK3RQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-34-distance-matrices-procrustes-problem-first-project/index.html"
                     ]
                 },
@@ -355,7 +355,7 @@
                     "youtubeKey": "cxTmmasBiC8",
                     "contentLength": 81430315,
                     "captionsFile": "/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/e9b3b1c6bdad584b9a972c72068c0e09_cxTmmasBiC8.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-35-finding-clusters-in-graphs-second-project-handwriting/index.html"
                     ]
                 },
@@ -365,7 +365,7 @@
                     "youtubeKey": "rZS2LGiurKY",
                     "contentLength": 89538083,
                     "captionsFile": "/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/7deb4ee1bfd852b788a1bafb6ec15cf2_rZS2LGiurKY.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-36-third-project-alan-edelman-and-julia-language/index.html"
                     ]
                 }
@@ -380,7 +380,7 @@
                     "youtubeKey": "AHS9nATdgdU",
                     "contentLength": 25613436,
                     "captionsFile": "/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/AHS9nATdgdU_captions.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/making-deep-learning-human-with-prof-gilbert-strang/index.html"
                     ]
                 }
@@ -395,7 +395,7 @@
                     "youtubeKey": "Cx5Z-OslNWE",
                     "contentLength": 16844288,
                     "captionsFile": "/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/16d6c5e846cf5fa6bf5b09c7628079de_Cx5Z-OslNWE.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/18/index.html"
                     ]
                 },
@@ -405,7 +405,7 @@
                     "youtubeKey": "t36jZG07MYc",
                     "contentLength": 19164246,
                     "captionsFile": "/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/a147a217c04d57609c102d3c7f3935ba_t36jZG07MYc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/an-interview-with-gilbert-strang-on-teaching-matrix-methods-in-data-analysis-signal-processing-and-machine-learning/index.html"
                     ]
                 }

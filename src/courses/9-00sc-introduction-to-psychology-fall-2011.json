@@ -30,7 +30,7 @@
                     "youtubeKey": "2fbrl6WoIyo",
                     "contentLength": 112343279,
                     "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/1be9930df2c5522d85391392cc75ded8_2fbrl6WoIyo.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/how-our-minds-make-our-worlds-vision-memory-attention/index.html",
                         "resources/the-power-and-peril-of-automaticity/index.html",
                         "resources/lecture-1-introduction/index.html",
@@ -45,7 +45,7 @@
                     "youtubeKey": "syXplPKQb_o",
                     "contentLength": 162728305,
                     "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/dc44a64bab4c5d8ea5dcf6e012da78b7_syXplPKQb_o.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/psychology-and-science/index.html",
                         "resources/concepts-of-stress/index.html",
                         "resources/psychology-experiments-and-the-real-world/index.html",
@@ -61,7 +61,7 @@
                     "youtubeKey": "SjjGiqf96rI",
                     "contentLength": 122657475,
                     "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/3bf29d9ebd6a565ba7964965281b2152_SjjGiqf96rI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-3-brain-i/index.html",
                         "resources/brain-overview-historical-viewpoints-neurons-gross-anatomy/index.html",
                         "resources/hemispheric-specialization/index.html",
@@ -75,7 +75,7 @@
                     "youtubeKey": "-cK1og4ElKE",
                     "contentLength": 160908686,
                     "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/09b691eb7d655c7291ae6f7265445ba0_-cK1og4ElKE.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/methods-of-studying-the-human-brain/index.html",
                         "resources/sample-studies-social-cognition-empathy-vegetative-states/index.html",
                         "resources/lesion-injury-and-stimulation-studies/index.html",
@@ -90,7 +90,7 @@
                     "youtubeKey": "v4ur5mna060",
                     "contentLength": 92568027,
                     "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/ab5229d732a7580d953324684a7e65f6_v4ur5mna060.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/introduction-to-vision-and-the-brain/index.html",
                         "resources/brightness-constancy-and-other-illusions/index.html",
                         "resources/what-and-where-systems/index.html",
@@ -107,7 +107,7 @@
                     "youtubeKey": "MYMYXhR2Ppw",
                     "contentLength": 127244789,
                     "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/799e5aca91555729a141d6571d8197cf_MYMYXhR2Ppw.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/introduction-to-recognition/index.html",
                         "resources/the-development-of-facial-recognition/index.html",
                         "resources/recognizing-fear/index.html",
@@ -125,7 +125,7 @@
                     "youtubeKey": "lBU64nfe8nM",
                     "contentLength": 95609670,
                     "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/b56ea18286995fe68118766712cac08b_lBU64nfe8nM.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/what-do-we-mean-by-attention/index.html",
                         "resources/lecture-7-attention/index.html",
                         "resources/demonstrations-of-the-limits-of-attention/index.html",
@@ -141,7 +141,7 @@
                     "youtubeKey": "QvK6YdFKMY8",
                     "contentLength": 113319140,
                     "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/8408fccbaca4572fb6812870949b9f1e_QvK6YdFKMY8.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/what-information-from-the-neglected-field-can-be-processed/index.html",
                         "resources/causes-and-description-of-blindsight/index.html",
                         "resources/attention-and-neglect-measures-of-neglect/index.html",
@@ -157,7 +157,7 @@
                     "youtubeKey": "SBrCPDC21f4",
                     "contentLength": 121793534,
                     "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/ef6381dc19b15f6099466c785d4ec6b7_SBrCPDC21f4.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/operant-conditioning-thorndikes-cat-and-little-albert/index.html",
                         "resources/is-language-learning-a-conditioned-skill/index.html",
                         "resources/pavlov-and-learning-through-conditioning/index.html",
@@ -173,7 +173,7 @@
                     "youtubeKey": "76O3rulk844",
                     "contentLength": 126127098,
                     "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/2c1a95ddf934503cb45fb9eb142ee977_76O3rulk844.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/proactive-and-retroactive-interference/index.html",
                         "resources/short-term-memory/index.html",
                         "resources/lecture-10-memory-i/index.html",
@@ -188,7 +188,7 @@
                     "youtubeKey": "kD3CswjYb2E",
                     "contentLength": 131277680,
                     "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/29f6432763d8518db560bf99cdb3d4ad_kD3CswjYb2E.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/types-of-memory-and-q-a-about-patient-h/index.html",
                         "resources/neural-memory-systems-and-the-effect-of-huntingtons-and-alzheimers-diseases-on-memory/index.html",
                         "resources/retrograde-amnesia/index.html",
@@ -203,7 +203,7 @@
                     "youtubeKey": "gRe7dy2HSTg",
                     "contentLength": 120343648,
                     "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/07bc45b958d35b99ad78aaa2b875df9e_gRe7dy2HSTg.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/language-basics-sounds-we-hear-and-distinguish/index.html",
                         "resources/problems-with-language-aphasia-and-the-neural-basis-of-speech/index.html",
                         "resources/thinking-traps-functional-fixedness-problem-solving-and-creativity/index.html",
@@ -218,7 +218,7 @@
                     "youtubeKey": "qZdm4mpQA_8",
                     "contentLength": 152245953,
                     "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/3a582b20723f58d899516e537c1ac901_qZdm4mpQA_8.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/thinking-traps-functional-fixedness-problem-solving-and-creativity-1/index.html",
                         "resources/lecture-13-thinking/index.html",
                         "resources/judgement-and-decision-making-heuristics/index.html",
@@ -235,7 +235,7 @@
                     "youtubeKey": "bihrpOS0qtY",
                     "contentLength": 163666941,
                     "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/65e8bfb100df52f2852153f0645d0f9c_bihrpOS0qtY.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/racism-acheivement-gaps-and-the-stereotype-threat/index.html",
                         "resources/models-of-intelligence-and-underlying-neural-mechanisms/index.html",
                         "resources/contributions-from-nature-and-nurture/index.html",
@@ -251,7 +251,7 @@
                     "youtubeKey": "t73rjeOj0eY",
                     "contentLength": 135837628,
                     "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/957755a620ca5489842d4b3c480e4d48_t73rjeOj0eY.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/peripheral-bodily-events-influencing-emotion/index.html",
                         "resources/universality-of-emotions/index.html",
                         "resources/brain-imaging-gender-differences-and-emotion/index.html",
@@ -266,7 +266,7 @@
                     "youtubeKey": "Vko17una2Zw",
                     "contentLength": 136461716,
                     "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/d6cb1de2105c53b9925ec068fb902139_Vko17una2Zw.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/personality-and-how-its-tested/index.html",
                         "resources/measures-of-personality/index.html",
                         "resources/origins-of-personality/index.html",
@@ -280,7 +280,7 @@
                     "youtubeKey": "yBYebcVw8Zk",
                     "contentLength": 75488651,
                     "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/97a83819705e5aa687e211694a75673f_yBYebcVw8Zk.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-17-child-development/index.html",
                         "resources/introduction-and-neotony/index.html",
                         "resources/piaget-and-the-sensorimotor-stage/index.html",
@@ -296,7 +296,7 @@
                     "youtubeKey": "Qw4SkvZ03cc",
                     "contentLength": 163439823,
                     "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/d54acbc38d325c14b859f7d150ef6861_Qw4SkvZ03cc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/attitudes-emotions-and-aging/index.html",
                         "resources/brain-development-cell-migration-synaptic-formation-and-myelination/index.html",
                         "resources/risk-assessment-and-loss-aversion/index.html",
@@ -316,7 +316,7 @@
                     "youtubeKey": "z9XQpjNgeBI",
                     "contentLength": 160735757,
                     "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/1542994260385130afc3ac70ddac0d66_z9XQpjNgeBI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/psychological-modifiers-of-the-stress-response/index.html",
                         "resources/physical-stress-mechanism-and-its-effects/index.html",
                         "resources/stereotypes-and-stress/index.html",
@@ -330,7 +330,7 @@
                     "youtubeKey": "SXzdOK_J-xE",
                     "contentLength": 116203006,
                     "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/44449cb190f65c4288686c02bbfbe1f1_SXzdOK_J-xE.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/treatment-of-schizophrenia/index.html",
                         "resources/lecture-20-psychopathology-i/index.html",
                         "resources/how-are-mental-disorders-diagnosed/index.html",
@@ -345,7 +345,7 @@
                     "youtubeKey": "SFPPw6sDHEI",
                     "contentLength": 135081100,
                     "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/49ff4bd660c9515eb8e1eaa01959bb03_SFPPw6sDHEI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/treatment-approaches-behavioral-and-medical/index.html",
                         "resources/adhd-diagnosis/index.html",
                         "resources/lecture-21-psychopathology-ii/index.html",
@@ -361,7 +361,7 @@
                     "youtubeKey": "lanmHS0JwYI",
                     "contentLength": 158238475,
                     "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/2b500152bb535651a75e667e32ec4f31_lanmHS0JwYI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/what-is-social-psychology/index.html",
                         "resources/milgram-obedience-study-and-stanford-prison-experiment/index.html",
                         "resources/lecture-22-social-psychology-i/index.html",
@@ -377,7 +377,7 @@
                     "youtubeKey": "zPPsdsAQBx4",
                     "contentLength": 153163386,
                     "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/2462a7ce347758ca8d3c13440a25ae56_zPPsdsAQBx4.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/first-impressions-how-powerful-how-accurate/index.html",
                         "resources/false-consensus-and-the-influence-of-social-norms-on-behavior/index.html",
                         "resources/cognitive-dissonance/index.html",
@@ -392,7 +392,7 @@
                     "youtubeKey": "vf1U3Nt3HQk",
                     "contentLength": 112586259,
                     "captionsFile": "/courses/9-00sc-introduction-to-psychology-fall-2011/5506aca97161535f88509b199856ca26_vf1U3Nt3HQk.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-24-conclusions/index.html",
                         "resources/evolutionary-psychology-views-on-sexuality-and-race/index.html",
                         "resources/predicting-happiness-affective-forecasting-the-paradox-of-choice/index.html",
@@ -405,7 +405,7 @@
                     "youtubeKey": "G6xsNP2TE3A",
                     "contentLength": 480568,
                     "captionsFile": null,
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/object-tracking-1/index.html"
                     ]
                 },
@@ -415,7 +415,7 @@
                     "youtubeKey": "tyRM_cSqbqQ",
                     "contentLength": 484994,
                     "captionsFile": null,
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/object-tracking-2/index.html"
                     ]
                 },
@@ -425,7 +425,7 @@
                     "youtubeKey": "o8puRrvCHAc",
                     "contentLength": 605395,
                     "captionsFile": null,
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/object-tracking-3/index.html"
                     ]
                 }

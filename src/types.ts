@@ -26,7 +26,7 @@ export type VideoData = {
   category: string;
   captionsFile: string | null;
   // must have at least one element
-  htmlFile: string[];
+  htmlFiles: string[];
 };
 
 export type CourseStatus = "none" | "downloading" | "preparing" | "ready";

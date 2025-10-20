@@ -30,7 +30,7 @@
                     "youtubeKey": "jiAi2e3oil4",
                     "contentLength": 60636217,
                     "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/jiAi2e3oil4_captions.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/honoring-your-native-language-with-prof-michel-degraff/index.html"
                     ]
                 },
@@ -40,7 +40,7 @@
                     "youtubeKey": "BN4lexqVoEM",
                     "contentLength": 27738887,
                     "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/BN4lexqVoEM_captions.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/unpacking-misconceptions-about-language-identities-with-prof-michel-degraff/index.html"
                     ]
                 }
@@ -55,7 +55,7 @@
                     "youtubeKey": "qU8Wi_KHH1E",
                     "contentLength": 125620539,
                     "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/15WVVTBTj4VleBSmb2KkDfLMpZ6TG4mlD_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/24908-s22-part-1-version-5/index.html"
                     ]
                 },
@@ -65,7 +65,7 @@
                     "youtubeKey": "A1vOpAxkuZ4",
                     "contentLength": 277252773,
                     "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/1ieTChz0Ar8f4tf3D7HL9092FpcWPiPOR_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/24908-s22-part-2-version-3/index.html"
                     ]
                 }
@@ -80,7 +80,7 @@
                     "youtubeKey": "mAhtll45Yz8",
                     "contentLength": 22889771,
                     "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/a69d77dfb2fc5876a1acd65d0c9b3198_mAhtll45Yz8.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/1-do-pidgins-exist/index.html"
                     ]
                 },
@@ -90,7 +90,7 @@
                     "youtubeKey": "3WrHSdaC9-A",
                     "contentLength": 9136974,
                     "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/c70608a4a70c56a89016765a5b50c9a7_3WrHSdaC9-A.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/2-variation-time-space/index.html"
                     ]
                 },
@@ -100,7 +100,7 @@
                     "youtubeKey": "T8IjB94ka2g",
                     "contentLength": 18388253,
                     "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/299a1fb98fe6520796c3af2b5738502f_T8IjB94ka2g.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/3-on-kreyolofoni/index.html"
                     ]
                 },
@@ -110,7 +110,7 @@
                     "youtubeKey": "Qm6ykShr0Pg",
                     "contentLength": 37589518,
                     "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/2041ff388a7956b8abece1f60ef03194_Qm6ykShr0Pg.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/4-post-colonial-discourses/index.html"
                     ]
                 },
@@ -120,7 +120,7 @@
                     "youtubeKey": "8fAGSwTwzxI",
                     "contentLength": 34530313,
                     "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/b4a7c02e973a59909c8d5c90c989ed32_8fAGSwTwzxI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/5-language-discourses-of-power/index.html"
                     ]
                 },
@@ -130,7 +130,7 @@
                     "youtubeKey": "JDRa0SwOf2k",
                     "contentLength": 34039733,
                     "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/28fe0d743cd855e6b1fe1b2928e329d6_JDRa0SwOf2k.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/6-language-culture-identity-authenticity/index.html"
                     ]
                 },
@@ -140,7 +140,7 @@
                     "youtubeKey": "g0KqIIEjXiM",
                     "contentLength": 8932398,
                     "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/6abce8acffd455009b875affe28e2034_g0KqIIEjXiM.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/7-feedback-to-students/index.html"
                     ]
                 },
@@ -150,7 +150,7 @@
                     "youtubeKey": "p8BXCDrYliY",
                     "contentLength": 38260455,
                     "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/cc2f8d938788578db7bd2d14c5a485ef_p8BXCDrYliY.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/8-against-creole-exceptionalism-part-1/index.html"
                     ]
                 },
@@ -160,7 +160,7 @@
                     "youtubeKey": "m6PnN-aEYbc",
                     "contentLength": 22665099,
                     "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/8b1addf2a5e35453b1108dfa4665e5c4_m6PnN-aEYbc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/9-against-creole-exceptionalism-part-2/index.html"
                     ]
                 },
@@ -170,7 +170,7 @@
                     "youtubeKey": "z_YXJLMpxoM",
                     "contentLength": 23010313,
                     "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/dfce3e283447547cb048ae7ebdd6445a_z_YXJLMpxoM.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/10-against-creole-exceptionalism-part-3/index.html"
                     ]
                 },
@@ -180,7 +180,7 @@
                     "youtubeKey": "OKAsxiE8ziY",
                     "contentLength": 23894918,
                     "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/bf2372da83d35b3c989b17220d2723f0_OKAsxiE8ziY.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/11-birth-certificates-of-languages/index.html"
                     ]
                 },
@@ -190,7 +190,7 @@
                     "youtubeKey": "MT3LjjdODHA",
                     "contentLength": 40175249,
                     "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/ab0555956927577c8a93b230af2fbecf_MT3LjjdODHA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/12-history-of-anti-creole-myths/index.html"
                     ]
                 },
@@ -200,7 +200,7 @@
                     "youtubeKey": "1Ukb9KNTNkA",
                     "contentLength": 4769045,
                     "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/319e12ef592d5a81bc43d5239e6db6a3_1Ukb9KNTNkA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/a-different-way-to-view-the-world/index.html"
                     ]
                 },
@@ -210,7 +210,7 @@
                     "youtubeKey": "w-zdunIsHUU",
                     "contentLength": 4181733,
                     "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/a5c2e756d1e2502cb8fed77637a6aa69_w-zdunIsHUU.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/advice-for-educators-help-students-read-the-word-and-the-world/index.html"
                     ]
                 },
@@ -220,7 +220,7 @@
                     "youtubeKey": "aRZax7Y2t7g",
                     "contentLength": 9079921,
                     "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/aaa13501b28759c9ba95359e1482d87f_aRZax7Y2t7g.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/facilitating-meaningful-classroom-discussions/index.html"
                     ]
                 },
@@ -230,7 +230,7 @@
                     "youtubeKey": "v3dEe0h7zy8",
                     "contentLength": 6469941,
                     "captionsFile": null,
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/classroom-discussions-creole/index.html"
                     ]
                 },
@@ -240,7 +240,7 @@
                     "youtubeKey": "ZAMQEaG1WLk",
                     "contentLength": 6469941,
                     "captionsFile": null,
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/facilitating-meaningful-classroom-discussions-creole/index.html"
                     ]
                 },
@@ -250,7 +250,7 @@
                     "youtubeKey": "TZ0tcovkOp8",
                     "contentLength": 2518496,
                     "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/8a7100dfbcdf5af5b51843920989d0be_TZ0tcovkOp8.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/inspiration-for-the-course/index.html"
                     ]
                 },
@@ -260,7 +260,7 @@
                     "youtubeKey": "R5o6Yr-9om8",
                     "contentLength": 2522340,
                     "captionsFile": null,
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/inspiration-for-the-course-creole/index.html"
                     ]
                 },
@@ -270,7 +270,7 @@
                     "youtubeKey": "KO6GiBAK7cY",
                     "contentLength": 3419115,
                     "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/279e8b4521de5498b6ec7ca6e0065887_KO6GiBAK7cY.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/key-learning-all-languages-are-equal/index.html"
                     ]
                 },
@@ -280,7 +280,7 @@
                     "youtubeKey": "z6kTOFSZZmQ",
                     "contentLength": 3223008,
                     "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/18346e4c4ee1568bbbde9740ad925be4_z6kTOFSZZmQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/meet-the-educator/index.html"
                     ]
                 },
@@ -290,7 +290,7 @@
                     "youtubeKey": "qGr5sdlobCQ",
                     "contentLength": 2968591,
                     "captionsFile": null,
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/meet-the-educator-creole/index.html"
                     ]
                 },
@@ -300,7 +300,7 @@
                     "youtubeKey": "vHflY7UBg70",
                     "contentLength": 5393303,
                     "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/6669b58a24c75f65b766ebd7075619da_vHflY7UBg70.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/oral-presentations-connecting-abstract-analyses-to-lived-experiences/index.html"
                     ]
                 },
@@ -310,7 +310,7 @@
                     "youtubeKey": "eduHyoNHi4s",
                     "contentLength": 4810974,
                     "captionsFile": null,
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/oral-presentations-connecting-abstract-analyses-to-lived-experiences-creole/index.html"
                     ]
                 },
@@ -320,7 +320,7 @@
                     "youtubeKey": "xCpg54xUzLE",
                     "contentLength": 6153929,
                     "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/2a9d0fdf35bb5925b88d45bcba6852ac_xCpg54xUzLE.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/real-world-learning-outcomes/index.html"
                     ]
                 },
@@ -330,7 +330,7 @@
                     "youtubeKey": "wuews7bQrAg",
                     "contentLength": 5158059,
                     "captionsFile": null,
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/real-world-learning-outcomes-creole/index.html"
                     ]
                 },
@@ -340,7 +340,7 @@
                     "youtubeKey": "Mbz648H3IEw",
                     "contentLength": 6587865,
                     "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/a3a74c3a97b45bf8806daa4edc5b579f_Mbz648H3IEw.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/rooted-in-the-personal/index.html"
                     ]
                 },
@@ -350,7 +350,7 @@
                     "youtubeKey": "v0c2_iigwwM",
                     "contentLength": 5743779,
                     "captionsFile": null,
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/rooted-in-the-personal-creole/index.html"
                     ]
                 },
@@ -360,7 +360,7 @@
                     "youtubeKey": "Q2uUFNDuRFk",
                     "contentLength": 6286014,
                     "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/26874fdaead150449bcab1b4242a4644_Q2uUFNDuRFk.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/sharing-with-teachers-to-promote-social-change/index.html"
                     ]
                 },
@@ -370,7 +370,7 @@
                     "youtubeKey": "WikAwM9Uyas",
                     "contentLength": 5376607,
                     "captionsFile": null,
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/sharing-with-teachers-to-promote-social-change-creole/index.html"
                     ]
                 },
@@ -380,7 +380,7 @@
                     "youtubeKey": "SRp9W3T_sHQ",
                     "contentLength": 8828700,
                     "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/98421790da185011b1b243511f66bb7e_SRp9W3T_sHQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/unpacking-misconceptions-about-creole-languages-and-identities/index.html"
                     ]
                 },
@@ -390,7 +390,7 @@
                     "youtubeKey": "NawhRQ7tZU4",
                     "contentLength": 7060993,
                     "captionsFile": null,
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/unpacking-misconceptions-about-creole-languages-and-identities-creole/index.html"
                     ]
                 },
@@ -400,7 +400,7 @@
                     "youtubeKey": "fh1bvrJN4Fc",
                     "contentLength": 4261506,
                     "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/17e04627acfc54c49da8207c25b5d05f_fh1bvrJN4Fc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/using-student-surveys-to-customize-teaching/index.html"
                     ]
                 },
@@ -410,7 +410,7 @@
                     "youtubeKey": "w4h7ZZd-cI0",
                     "contentLength": 4504868,
                     "captionsFile": null,
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/using-student-surveys-to-customize-teaching-creole/index.html"
                     ]
                 },
@@ -420,7 +420,7 @@
                     "youtubeKey": "_62YvNU_yOM",
                     "contentLength": 4699005,
                     "captionsFile": "/courses/24-908-creole-languages-and-caribbean-identities-spring-2017/c804bf8a93bc5d67b53617cf77e8197a_62YvNUyOM.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/valuing-educators-from-the-diaspora/index.html"
                     ]
                 }

@@ -31,7 +31,7 @@
                     "youtubeKey": "7LyvAVjQUR8",
                     "contentLength": 126066009,
                     "captionsFile": "/courses/22-01-introduction-to-nuclear-engineering-and-ionizing-radiation-fall-2016/e9ff2924f5725f4fb48e214335c01698_7LyvAVjQUR8.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/radiation-history-to-the-present2014understanding-the-discovery-of-the-neutron/index.html"
                     ]
                 },
@@ -41,7 +41,7 @@
                     "youtubeKey": "NXrGOd7gdMw",
                     "contentLength": 160819556,
                     "captionsFile": "/courses/22-01-introduction-to-nuclear-engineering-and-ionizing-radiation-fall-2016/07cc6f10be455a85b0d7a0dba4beb8c3_NXrGOd7gdMw.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/radiation-utilizing-technology/index.html"
                     ]
                 },
@@ -51,7 +51,7 @@
                     "youtubeKey": "Gd0QPYVYnQg",
                     "contentLength": 126660664,
                     "captionsFile": "/courses/22-01-introduction-to-nuclear-engineering-and-ionizing-radiation-fall-2016/1805f54fc43e58e483c71ff6b7e3b28e_Gd0QPYVYnQg.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/nuclear-mass-and-stability-nuclear-reactions-and-notation-introduction-to-cross-section/index.html"
                     ]
                 },
@@ -61,7 +61,7 @@
                     "youtubeKey": "SgM2wxELF4U",
                     "contentLength": 122804316,
                     "captionsFile": "/courses/22-01-introduction-to-nuclear-engineering-and-ionizing-radiation-fall-2016/6e3ac25c807d59ac8d6cef47bb094676_SgM2wxELF4U.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/binding-energy-the-semi-empirical-liquid-drop-nuclear-model-and-mass-parabolas/index.html"
                     ]
                 },
@@ -71,7 +71,7 @@
                     "youtubeKey": "mJ54DfN95Zo",
                     "contentLength": 130898420,
                     "captionsFile": "/courses/22-01-introduction-to-nuclear-engineering-and-ionizing-radiation-fall-2016/8729c6741ad25f0a993856a8ad35fb9a_mJ54DfN95Zo.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mass-parabolas-continued-stability-and-half-life/index.html"
                     ]
                 },
@@ -81,7 +81,7 @@
                     "youtubeKey": "kZAFntUFx8I",
                     "contentLength": 118326619,
                     "captionsFile": "/courses/22-01-introduction-to-nuclear-engineering-and-ionizing-radiation-fall-2016/85c0ae6ca6ef56089897fc1f548e7f20_kZAFntUFx8I.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-q-equation2014the-most-general-nuclear-reaction/index.html"
                     ]
                 },
@@ -91,7 +91,7 @@
                     "youtubeKey": "nAtTW8ZW33s",
                     "contentLength": 122611435,
                     "captionsFile": "/courses/22-01-introduction-to-nuclear-engineering-and-ionizing-radiation-fall-2016/b1a8127ab37e54f8988f4fb1fc8c3f9b_nAtTW8ZW33s.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/q-equation-continued-and-examples/index.html"
                     ]
                 },
@@ -101,7 +101,7 @@
                     "youtubeKey": "YLp8RziRbpg",
                     "contentLength": 117610254,
                     "captionsFile": "/courses/22-01-introduction-to-nuclear-engineering-and-ionizing-radiation-fall-2016/cad095cece895ae7aa2f7f3302586cc0_YLp8RziRbpg.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/radioactive-decay2014modes-energetics-and-trends/index.html"
                     ]
                 },
@@ -111,7 +111,7 @@
                     "youtubeKey": "es6f90JcJ2k",
                     "contentLength": 218065624,
                     "captionsFile": "/courses/22-01-introduction-to-nuclear-engineering-and-ionizing-radiation-fall-2016/2571802e6f2a5d709fd6b0abeda482ce_es6f90JcJ2k.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/radioactive-decay-continued/index.html"
                     ]
                 },
@@ -121,7 +121,7 @@
                     "youtubeKey": "z_xyx-z6arc",
                     "contentLength": 127447106,
                     "captionsFile": "/courses/22-01-introduction-to-nuclear-engineering-and-ionizing-radiation-fall-2016/7fe2bd0b16e5571baa2f697f21b452c7_z_xyx-z6arc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/radioactivity-and-series-radioactive-decays/index.html"
                     ]
                 },
@@ -131,7 +131,7 @@
                     "youtubeKey": "jJSwWRaU9rA",
                     "contentLength": 142546947,
                     "captionsFile": "/courses/22-01-introduction-to-nuclear-engineering-and-ionizing-radiation-fall-2016/9b1b5d4dfcf0596eaa3edb67e0b369a7_jJSwWRaU9rA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/numerical-examples-of-activity-half-life-and-series-decay/index.html"
                     ]
                 },
@@ -141,7 +141,7 @@
                     "youtubeKey": "ORbfdLUl0ik",
                     "contentLength": 219450868,
                     "captionsFile": "/courses/22-01-introduction-to-nuclear-engineering-and-ionizing-radiation-fall-2016/dd9f6ca7364452c3b4af371cc9636dd1_ORbfdLUl0ik.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/practical-radiation-counting-experiments2014solid-angle-count-rates-uncertainty-and-hands-on-gamma-counting-and-nuclear-activ/index.html"
                     ]
                 },
@@ -151,7 +151,7 @@
                     "youtubeKey": "kjX4HCtlJBY",
                     "contentLength": 124621704,
                     "captionsFile": "/courses/22-01-introduction-to-nuclear-engineering-and-ionizing-radiation-fall-2016/103aa262c9e65db9abdb2f2ff516ef38_kjX4HCtlJBY.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/photon-interactions-with-matter-i2014interaction-methods-and-gamma-spectral-identification/index.html"
                     ]
                 },
@@ -161,7 +161,7 @@
                     "youtubeKey": "qAVtgc3I6ig",
                     "contentLength": 117008301,
                     "captionsFile": "/courses/22-01-introduction-to-nuclear-engineering-and-ionizing-radiation-fall-2016/db5c80ae8e135b2fb5d92e8934d7746c_qAVtgc3I6ig.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/photon-interaction-with-matter-ii2014more-details-shielding-calculations/index.html"
                     ]
                 },
@@ -171,7 +171,7 @@
                     "youtubeKey": "qHPp458m1cs",
                     "contentLength": 109165240,
                     "captionsFile": "/courses/22-01-introduction-to-nuclear-engineering-and-ionizing-radiation-fall-2016/16cb4580a55d5d8790f2cc0128f7fd28_qHPp458m1cs.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/nuclear-reactor-construction-and-operation/index.html"
                     ]
                 },
@@ -181,7 +181,7 @@
                     "youtubeKey": "kJu5qVfSphw",
                     "contentLength": 110285024,
                     "captionsFile": "/courses/22-01-introduction-to-nuclear-engineering-and-ionizing-radiation-fall-2016/f6f3ca4d4108573489f58e5803c05654_kJu5qVfSphw.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ion-nuclear-interactions-i2014scattering-and-stopping-power-derivation-ion-range/index.html"
                     ]
                 },
@@ -191,7 +191,7 @@
                     "youtubeKey": "rsDEuRpOHqs",
                     "contentLength": 122404330,
                     "captionsFile": "/courses/22-01-introduction-to-nuclear-engineering-and-ionizing-radiation-fall-2016/10f1c7ee3b545d2e916a91b7f5644db4_rsDEuRpOHqs.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ion-nuclear-interactions-ii2014bremsstrahlung-x-ray-spectra-cross-sections/index.html"
                     ]
                 },
@@ -201,7 +201,7 @@
                     "youtubeKey": "b2VMwG1MTHg",
                     "contentLength": 110442945,
                     "captionsFile": "/courses/22-01-introduction-to-nuclear-engineering-and-ionizing-radiation-fall-2016/087fd9cb9c8e53b1abaed4a2fd6466a4_b2VMwG1MTHg.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/uses-of-photon-and-ion-nuclear-interactions2014characterization-techniques/index.html"
                     ]
                 },
@@ -211,7 +211,7 @@
                     "youtubeKey": "RW2DPHAoXiQ",
                     "contentLength": 119436010,
                     "captionsFile": "/courses/22-01-introduction-to-nuclear-engineering-and-ionizing-radiation-fall-2016/25e6ff7415ae50d5807cc1b952e16c52_RW2DPHAoXiQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/how-nuclear-energy-works/index.html"
                     ]
                 },
@@ -221,7 +221,7 @@
                     "youtubeKey": "3yqpirzxudw",
                     "contentLength": 127162511,
                     "captionsFile": "/courses/22-01-introduction-to-nuclear-engineering-and-ionizing-radiation-fall-2016/62f095269a5d518c9ea723c77d12d8f5_3yqpirzxudw.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/neutron-transport/index.html"
                     ]
                 },
@@ -231,7 +231,7 @@
                     "youtubeKey": "KhT9m9kFzv8",
                     "contentLength": 113222879,
                     "captionsFile": "/courses/22-01-introduction-to-nuclear-engineering-and-ionizing-radiation-fall-2016/21807d0c233457c6bef31ec31eda6fea_KhT9m9kFzv8.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/simplifying-neutron-transport-to-neutron-diffusion/index.html"
                     ]
                 },
@@ -241,7 +241,7 @@
                     "youtubeKey": "RCSCg40NgD4",
                     "contentLength": 114709629,
                     "captionsFile": "/courses/22-01-introduction-to-nuclear-engineering-and-ionizing-radiation-fall-2016/628c3b535ba554aea47ca5602e468062_RCSCg40NgD4.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/solving-the-neutron-diffusion-equation-and-criticality-relations/index.html"
                     ]
                 },
@@ -251,7 +251,7 @@
                     "youtubeKey": "i3CzkU4Ft9U",
                     "contentLength": 112719615,
                     "captionsFile": "/courses/22-01-introduction-to-nuclear-engineering-and-ionizing-radiation-fall-2016/5571403d22ed577990f6b7a88806b4e1_i3CzkU4Ft9U.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/transients-feedback-and-time-dependent-neutronics/index.html"
                     ]
                 },
@@ -261,7 +261,7 @@
                     "youtubeKey": "KWaGHCjsSAM",
                     "contentLength": 96022899,
                     "captionsFile": "/courses/22-01-introduction-to-nuclear-engineering-and-ionizing-radiation-fall-2016/c9a01a23f5e855fc870e40fc8116f3d1_KWaGHCjsSAM.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/review-of-all-nuclear-interactions-and-problem-set-7-help/index.html"
                     ]
                 },
@@ -271,7 +271,7 @@
                     "youtubeKey": "Ijst4g5KFN0",
                     "contentLength": 126842315,
                     "captionsFile": "/courses/22-01-introduction-to-nuclear-engineering-and-ionizing-radiation-fall-2016/3f51c32aaa1c5d64b36164563ef0c72f_Ijst4g5KFN0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/chernobyl2014how-it-happened/index.html"
                     ]
                 },
@@ -281,7 +281,7 @@
                     "youtubeKey": "CjZjVUWMEz0",
                     "contentLength": 129120227,
                     "captionsFile": "/courses/22-01-introduction-to-nuclear-engineering-and-ionizing-radiation-fall-2016/35653c580d1f58b68e84270829b2044f_CjZjVUWMEz0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/nuclear-materials2014radiation-damage-and-effects-in-matter/index.html"
                     ]
                 },
@@ -291,7 +291,7 @@
                     "youtubeKey": "9uqKU5ZDwfM",
                     "contentLength": 121913287,
                     "captionsFile": "/courses/22-01-introduction-to-nuclear-engineering-and-ionizing-radiation-fall-2016/082fe08b6fbc523690568795f523d45c_9uqKU5ZDwfM.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/chernobyl-trip-report-by-jake-hecla/index.html"
                     ]
                 },
@@ -301,7 +301,7 @@
                     "youtubeKey": "UDAuMq-0mEo",
                     "contentLength": 135267516,
                     "captionsFile": "/courses/22-01-introduction-to-nuclear-engineering-and-ionizing-radiation-fall-2016/d16281ddd70a578984b62972b0574f58_UDAuMq-0mEo.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/nuclear-materials-science-continued/index.html"
                     ]
                 },
@@ -311,7 +311,7 @@
                     "youtubeKey": "Hz7ouec7dKo",
                     "contentLength": 129629247,
                     "captionsFile": "/courses/22-01-introduction-to-nuclear-engineering-and-ionizing-radiation-fall-2016/1bc62eece2925f02b6d6517a8fc9ebed_Hz7ouec7dKo.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/radiation-dose-dosimetry-and-background-radiation/index.html"
                     ]
                 },
@@ -321,7 +321,7 @@
                     "youtubeKey": "kzOFhSJFihI",
                     "contentLength": 119891601,
                     "captionsFile": "/courses/22-01-introduction-to-nuclear-engineering-and-ionizing-radiation-fall-2016/77441c167d0453b1b6447fb798b95744_kzOFhSJFihI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/frontiers-in-nuclear-medicine-where-one-finds-ionizing-radiation/index.html"
                     ]
                 },
@@ -331,7 +331,7 @@
                     "youtubeKey": "HfRpkTG7Iow",
                     "contentLength": 138341198,
                     "captionsFile": "/courses/22-01-introduction-to-nuclear-engineering-and-ionizing-radiation-fall-2016/72be7764a565562c862442b5dedec875_HfRpkTG7Iow.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/chemical-and-biological-effects-of-radiation-smelling-nuclear-bullshit/index.html"
                     ]
                 },
@@ -341,7 +341,7 @@
                     "youtubeKey": "yYto-sIfHjo",
                     "contentLength": 118173792,
                     "captionsFile": "/courses/22-01-introduction-to-nuclear-engineering-and-ionizing-radiation-fall-2016/cfdb21a2be7b5a4089bb8dd7f6190188_yYto-sIfHjo.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/long-term-biological-effects-of-radiation-statistics-radiation-risk/index.html"
                     ]
                 },
@@ -351,7 +351,7 @@
                     "youtubeKey": "HSm76SpZl7o",
                     "contentLength": 181884933,
                     "captionsFile": "/courses/22-01-introduction-to-nuclear-engineering-and-ionizing-radiation-fall-2016/6e451a524f325587911add902d2feca2_HSm76SpZl7o.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/radiation-hormesis/index.html"
                     ]
                 },
@@ -361,7 +361,7 @@
                     "youtubeKey": "G8LHGY3i01Q",
                     "contentLength": 127587403,
                     "captionsFile": "/courses/22-01-introduction-to-nuclear-engineering-and-ionizing-radiation-fall-2016/f132fa68b0d95773a6673bcac303535b_G8LHGY3i01Q.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/food-irradiation-and-its-safety/index.html"
                     ]
                 }
@@ -376,7 +376,7 @@
                     "youtubeKey": "fLKNjWXk71s",
                     "contentLength": 57785173,
                     "captionsFile": "/courses/22-01-introduction-to-nuclear-engineering-and-ionizing-radiation-fall-2016/fLKNjWXk71s_captions.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/nuclear-gets-personal-with-prof-michael-short/index.html"
                     ]
                 }

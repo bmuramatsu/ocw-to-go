@@ -28,7 +28,7 @@
                     "youtubeKey": "OZxzHcW663g",
                     "contentLength": 18072063,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/79f4b1a0555258b1ad801c9bec12dab2_OZxzHcW663g.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/an-overview-of-key-ideas-1/index.html",
                         "resources/an-overview-of-key-ideas/index.html"
                     ]
@@ -39,7 +39,7 @@
                     "youtubeKey": "MMWqGD4Urso",
                     "contentLength": 19135907,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/d458540879f45dc6812513b79cc0ab25_MMWqGD4Urso.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/basis-and-dimension/index.html",
                         "resources/basis-and-dimension-1/index.html"
                     ]
@@ -50,7 +50,7 @@
                     "youtubeKey": "rMv2rDiOTsI",
                     "contentLength": 29050853,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/a2649a294ba259f998f8821ea1b84c4d_rMv2rDiOTsI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/problem-solving-change-of-basis-1/index.html",
                         "resources/problem-solving-change-of-basis/index.html"
                     ]
@@ -61,7 +61,7 @@
                     "youtubeKey": "VYS9EYZ3gCo",
                     "contentLength": 30472514,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/12bb08cabfcd59f9a6fdcd70a76fd4c8_VYS9EYZ3gCo.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/problem-solving-complex-matrices/index.html",
                         "resources/problem-solving-complex-matrices-1/index.html"
                     ]
@@ -72,7 +72,7 @@
                     "youtubeKey": "D8u1LV9CnCk",
                     "contentLength": 24941472,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/d3b548d2c86e5f599f6917b90bb95225_D8u1LV9CnCk.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/computing-the-four-fundamental-subspaces-1/index.html",
                         "resources/computing-the-four-fundamental-subspaces/index.html"
                     ]
@@ -83,7 +83,7 @@
                     "youtubeKey": "pSbafxDHdgE",
                     "contentLength": 27112402,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/0fa8ca9140d352d1b75c5ad2dfea5243_pSbafxDHdgE.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/problem-solving-determinants-and-volumecomputing-the-singular-value-decomposition/index.html",
                         "resources/problem-solving-determinants-and-volumecomputing-the-singular-value-decomposition-1/index.html"
                     ]
@@ -94,7 +94,7 @@
                     "youtubeKey": "B17h10EF59g",
                     "contentLength": 29952863,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/44e2bbebc3805c3ca89651b63a3d3159_B17h10EF59g.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/problem-solving-determinants-1/index.html",
                         "resources/problem-solving-determinants/index.html"
                     ]
@@ -105,7 +105,7 @@
                     "youtubeKey": "qEBi0K5wfOs",
                     "contentLength": 32246895,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/e6a77f3fa28c540ab8c2abbade251da9_qEBi0K5wfOs.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/problem-solving-determinants-and-volume-1/index.html",
                         "resources/problem-solving-determinants-and-volume/index.html"
                     ]
@@ -116,7 +116,7 @@
                     "youtubeKey": "FzncDO1eSNI",
                     "contentLength": 43571167,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/52f342146948517e8e7526e9d8382caa_FzncDO1eSNI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/problem-solving-determinants-and-volumedifferential-equations-and-exp-at/index.html",
                         "resources/problem-solving-determinants-and-volumedifferential-equations-and-exp-at-1/index.html"
                     ]
@@ -127,7 +127,7 @@
                     "youtubeKey": "mVeuZzJdd1w",
                     "contentLength": 21980196,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/ff6a5ab8d3d55571ae227c6ecfcbab26_mVeuZzJdd1w.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/problem-solving-eigenvalues-and-eigenvectors/index.html",
                         "resources/problem-solving-eigenvalues-and-eigenvectors-1/index.html"
                     ]
@@ -138,7 +138,7 @@
                     "youtubeKey": "GLFg2UBMAxc",
                     "contentLength": 24067815,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/b69afa4c0de45506b28ebe15a4099ee5_GLFg2UBMAxc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/recitation-elimination-with-matrices-1/index.html",
                         "resources/recitation-elimination-with-matrices/index.html"
                     ]
@@ -149,7 +149,7 @@
                     "youtubeKey": "AMLekTJR5_U",
                     "contentLength": 34570333,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/7d27ea066c115df5bbbf4029fa8aeb26_AMLekTJR5_U.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/exam-1-problem-solving/index.html",
                         "resources/exam-1-problem-solving-1/index.html"
                     ]
@@ -160,7 +160,7 @@
                     "youtubeKey": "pz3zyUO2gpM",
                     "contentLength": 41619842,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/67a71bb469055af18ddd510d052fd63d_pz3zyUO2gpM.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/exam-2-problem-solving-1/index.html",
                         "resources/exam-2-problem-solving/index.html"
                     ]
@@ -171,7 +171,7 @@
                     "youtubeKey": "OsHY7ycgbaE",
                     "contentLength": 30028370,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/bb0bb32a8bfa5e6a9d6d53331a846cad_OsHY7ycgbaE.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/exam-3-problem-solving/index.html",
                         "resources/exam-3-problem-solving-1/index.html"
                     ]
@@ -182,7 +182,7 @@
                     "youtubeKey": "4PnArrxCZLE",
                     "contentLength": 28613083,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/3e7b750dde8f5977b1cef68fa2890720_4PnArrxCZLE.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/final-exam-problem-solving-1/index.html",
                         "resources/final-exam-problem-solving/index.html"
                     ]
@@ -193,7 +193,7 @@
                     "youtubeKey": "My5w4MXWBew",
                     "contentLength": 38618265,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/bc9bd9faef505b8e830a29ac7034ef92_My5w4MXWBew.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/geometry-of-linear-algebra/index.html",
                         "resources/geometry-of-linear-algebra-1/index.html"
                     ]
@@ -204,7 +204,7 @@
                     "youtubeKey": "HEQuN0QELSQ",
                     "contentLength": 23329408,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/d34aa6965bfa5047afe50f81ea583982_HEQuN0QELSQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/problem-solving-gram-schmidt-orthogonalization-1/index.html",
                         "resources/problem-solving-gram-schmidt-orthogonalization/index.html"
                     ]
@@ -215,7 +215,7 @@
                     "youtubeKey": "h0m2tsmSPTI",
                     "contentLength": 29175810,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/d975809080255021a562fe1eb39b5c12_h0m2tsmSPTI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/graphs-and-networks/index.html",
                         "resources/graphs-and-networks-1/index.html"
                     ]
@@ -226,7 +226,7 @@
                     "youtubeKey": "zWxhmBCdvFs",
                     "contentLength": 19629239,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/002ff64fe1b75d1d8b6b7ccbfe3f3d83_zWxhmBCdvFs.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/inverse-matrices/index.html",
                         "resources/inverse-matrices-1/index.html"
                     ]
@@ -237,7 +237,7 @@
                     "youtubeKey": "AmQcoopBUTk",
                     "contentLength": 18861189,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/052381dbfb29511683f9cdd12ca0a913_AmQcoopBUTk.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/problem-solving-least-squares-approximation-1/index.html",
                         "resources/problem-solving-least-squares-approximation/index.html"
                     ]
@@ -248,7 +248,7 @@
                     "youtubeKey": "2uDvRUowBzg",
                     "contentLength": 25116905,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/e8ae27f71be554e3ab8050465f4f7ac9_2uDvRUowBzg.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/problem-solving-linear-transformations/index.html",
                         "resources/problem-solving-linear-transformations-1/index.html"
                     ]
@@ -259,7 +259,7 @@
                     "youtubeKey": "-eA2D_rIcNA",
                     "contentLength": 22347644,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/cd88bbfb516b50ad85f9364b11721938_-eA2D_rIcNA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lu-decomposition/index.html",
                         "resources/lu-decomposition-1/index.html"
                     ]
@@ -270,7 +270,7 @@
                     "youtubeKey": "wuyAeWE3iIM",
                     "contentLength": 27599171,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/28466b8218695441932b784ccc36a3b1_wuyAeWE3iIM.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/problem-solving-markov-matrices-1/index.html",
                         "resources/problem-solving-markov-matrices/index.html"
                     ]
@@ -281,7 +281,7 @@
                     "youtubeKey": "BaBoztM9Q1w",
                     "contentLength": 20843018,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/bd859a9f2d8f508a87dc2f7950e1784b_BaBoztM9Q1w.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/matrix-spaces/index.html",
                         "resources/matrix-spaces-1/index.html"
                     ]
@@ -292,7 +292,7 @@
                     "youtubeKey": "h9aDgvW59TU",
                     "contentLength": 24306785,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/187d8a0b11db58348436823d3f804f58_h9aDgvW59TU.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/problem-solving-orthogonal-vectors-and-subspaces-1/index.html",
                         "resources/problem-solving-orthogonal-vectors-and-subspaces/index.html"
                     ]
@@ -303,7 +303,7 @@
                     "youtubeKey": "cfn2ZUuWPd0",
                     "contentLength": 30000632,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/3248a6ec55dd545c9ea273832cb409dc_cfn2ZUuWPd0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/problem-solving-positive-definite-matrices-and-minima/index.html",
                         "resources/problem-solving-positive-definite-matrices-and-minima-1/index.html"
                     ]
@@ -314,7 +314,7 @@
                     "youtubeKey": "5IGTFgPqlkw",
                     "contentLength": 21269398,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/11099da0a6a4583ba9f7895c9e31ddd5_5IGTFgPqlkw.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/problem-solving-powers-of-a-matrix-1/index.html",
                         "resources/problem-solving-powers-of-a-matrix/index.html"
                     ]
@@ -325,7 +325,7 @@
                     "youtubeKey": "t-n4a18AW08",
                     "contentLength": 22871315,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/9dc7b19c30515c7a81f0ceea3938a738_t-n4a18AW08.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/problem-solving-projection-onto-subspaces/index.html"
                     ]
                 },
@@ -335,7 +335,7 @@
                     "youtubeKey": "55AoWKZZtww",
                     "contentLength": 23119356,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/8e991a3a8eea53158554cf07fc225d8a_55AoWKZZtww.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/problem-solving-properties-of-determinants-1/index.html",
                         "resources/problem-solving-properties-of-determinants/index.html"
                     ]
@@ -346,7 +346,7 @@
                     "youtubeKey": "hSRcHTafkjE",
                     "contentLength": 34233573,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/09dda98b4e04571ea7325d5e851513bf_hSRcHTafkjE.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/problem-solving-pseudoinverses/index.html",
                         "resources/problem-solving-pseudoinverses-1/index.html"
                     ]
@@ -357,7 +357,7 @@
                     "youtubeKey": "KUuxdk_V7To",
                     "contentLength": 19140643,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/629f5eaace2351e5befb3b65e46243c2_KUuxdk_V7To.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/problem-solving-similar-matrices/index.html",
                         "resources/problem-solving-similar-matrices-1/index.html"
                     ]
@@ -368,7 +368,7 @@
                     "youtubeKey": "3cMyj8EKFGo",
                     "contentLength": 23524491,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/96f9523f6c725d459f0d839963c9ff1f_3cMyj8EKFGo.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/solving-ax-0/index.html",
                         "resources/solving-ax-0-1/index.html"
                     ]
@@ -379,7 +379,7 @@
                     "youtubeKey": "fjsPjh0B2tU",
                     "contentLength": 21160270,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/0b61a45dff63528998e8bc5b0d4fed85_fjsPjh0B2tU.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/solving-ax-b-1/index.html",
                         "resources/solving-ax-b/index.html"
                     ]
@@ -390,7 +390,7 @@
                     "youtubeKey": "QQpvGlF_1Qo",
                     "contentLength": 34402609,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/eabc46e820c85402893bef35ca004ab0_QQpvGlF_1Qo.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/subspaces-of-three-dimensional-space/index.html",
                         "resources/subspaces-of-three-dimensional-space-1/index.html"
                     ]
@@ -401,7 +401,7 @@
                     "youtubeKey": "lpnY5QVjU5w",
                     "contentLength": 29578720,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/6ac0e17f69005b57bfc247b9c49f2685_lpnY5QVjU5w.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/problem-solving-symmetric-matrices-and-positive-definiteness/index.html",
                         "resources/problem-solving-symmetric-matrices-and-positive-definiteness-1/index.html"
                     ]
@@ -412,7 +412,7 @@
                     "youtubeKey": "S8DQZjE4V8U",
                     "contentLength": 20453875,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/4f621c92a3615d35834a7237a1a3fa98_S8DQZjE4V8U.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/vector-subspaces-1/index.html",
                         "resources/vector-subspaces/index.html"
                     ]
@@ -423,7 +423,7 @@
                     "youtubeKey": "VyPIQ_8QqEk",
                     "contentLength": 30493414,
                     "captionsFile": null,
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/4e097ef47a7a95f476845b507a7a95f4/index.html",
                         "resources/4e097ef47a7a95f476845b507a7a95f4-1/index.html"
                     ]
@@ -434,7 +434,7 @@
                     "youtubeKey": "fiSp3Ss-Yo8",
                     "contentLength": 34413874,
                     "captionsFile": null,
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/5fae520665b97a0b6307657077e99635-at-1/index.html",
                         "resources/5fae520665b97a0b6307657077e99635-at/index.html"
                     ]
@@ -445,7 +445,7 @@
                     "youtubeKey": "ThxvK9t7DNo",
                     "contentLength": 43128366,
                     "captionsFile": null,
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/7b2c4e8c6b2180038bd54f8b9898-1/index.html",
                         "resources/7b2c4e8c6b2180038bd54f8b9898/index.html"
                     ]
@@ -456,7 +456,7 @@
                     "youtubeKey": "mgbjhzDndOY",
                     "contentLength": 36058760,
                     "captionsFile": null,
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/7ebf60274ee36570768451e04f558868793a-1/index.html",
                         "resources/7ebf60274ee36570768451e04f558868793a/index.html"
                     ]
@@ -467,7 +467,7 @@
                     "youtubeKey": "ZyYGJc9jNno",
                     "contentLength": 28200957,
                     "captionsFile": null,
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/884c52175f0f-1/index.html",
                         "resources/884c52175f0f/index.html"
                     ]
@@ -478,7 +478,7 @@
                     "youtubeKey": "ZuWAwCEMeWE",
                     "contentLength": 26846119,
                     "captionsFile": null,
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/884c52175f0f548c4f5379ef/index.html",
                         "resources/884c52175f0f548c4f5379ef-1/index.html"
                     ]
@@ -494,7 +494,7 @@
                     "youtubeKey": "J7DzL2_Na80",
                     "contentLength": 92409278,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/97f5a4d9abaf503493b295487f5d1e99_J7DzL2_Na80.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-geometry-of-linear-equations/index.html",
                         "resources/the-geometry-of-linear-equations-1/index.html"
                     ]
@@ -505,7 +505,7 @@
                     "youtubeKey": "QVKj3LADCnA",
                     "contentLength": 108128339,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/ea557f2ff4605f13b857c2aff8866c54_QVKj3LADCnA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/elimination-with-matrices/index.html",
                         "resources/elimination-with-matrices-1/index.html"
                     ]
@@ -516,7 +516,7 @@
                     "youtubeKey": "FX4C-JpTFgY",
                     "contentLength": 111305176,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/107c72edddd4549fa156839a8c48e1ec_FX4C-JpTFgY.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/multiplication-and-inverse-matrices-1/index.html",
                         "resources/multiplication-and-inverse-matrices/index.html"
                     ]
@@ -527,7 +527,7 @@
                     "youtubeKey": "MsIvs_6vC38",
                     "contentLength": 112447812,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/a2a1c9d07be650d8b034d59d254a8ae3_MsIvs_6vC38.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/factorization-into-a-lu/index.html",
                         "resources/factorization-into-a-lu-1/index.html"
                     ]
@@ -538,7 +538,7 @@
                     "youtubeKey": "JibVXBElKL0",
                     "contentLength": 108271626,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/1d346aa7f488587eb25b2b8e0b1e41cd_JibVXBElKL0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/transposes-permutations-vector-spaces/index.html",
                         "resources/transposes-permutations-vector-spaces-1/index.html"
                     ]
@@ -549,7 +549,7 @@
                     "youtubeKey": "8o5Cmfpeo6g",
                     "contentLength": 109278726,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/e0b3bc76b4a756e6bfbda226c878ca71_8o5Cmfpeo6g.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/column-space-and-nullspace/index.html",
                         "resources/column-space-and-nullspace-1/index.html"
                     ]
@@ -560,7 +560,7 @@
                     "youtubeKey": "VqP2tREMvt0",
                     "contentLength": 99033441,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/b8ec077a90335789bab9fc1b655c2a21_VqP2tREMvt0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/solving-ax-0-pivot-variables-special-solutions-1/index.html",
                         "resources/solving-ax-0-pivot-variables-special-solutions/index.html"
                     ]
@@ -571,7 +571,7 @@
                     "youtubeKey": "9Q1q7s1jTzU",
                     "contentLength": 107645832,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/4f4e1b5d29ad5ee29376979e5161c2e4_9Q1q7s1jTzU.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/solving-ax-b-row-reduced-form-r-1/index.html",
                         "resources/solving-ax-b-row-reduced-form-r/index.html"
                     ]
@@ -582,7 +582,7 @@
                     "youtubeKey": "yjBerM5jWsc",
                     "contentLength": 114739484,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/b555b03e3f2e54869067cce778afaf7d_yjBerM5jWsc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/independence-basis-and-dimension/index.html",
                         "resources/independence-basis-and-dimension-1/index.html"
                     ]
@@ -593,7 +593,7 @@
                     "youtubeKey": "nHlE7EgJFds",
                     "contentLength": 112762733,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/8c2761c8fcb15bfaa495487f7b8a4bba_nHlE7EgJFds.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-four-fundamental-subspaces/index.html",
                         "resources/the-four-fundamental-subspaces-1/index.html"
                     ]
@@ -604,7 +604,7 @@
                     "youtubeKey": "2IdtqGM6KWU",
                     "contentLength": 109023514,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/e47db3c0da4e50b391b4f8e469a45169_2IdtqGM6KWU.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/matrix-spaces-rank-1-small-world-graphs-1/index.html",
                         "resources/matrix-spaces-rank-1-small-world-graphs/index.html"
                     ]
@@ -615,7 +615,7 @@
                     "youtubeKey": "6-wh6yvk6uc",
                     "contentLength": 108671533,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/ab6c364265de583897ed42a2ffa74491_6-wh6yvk6uc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/graphs-networks-incidence-matrices/index.html",
                         "resources/graphs-networks-incidence-matrices-1/index.html"
                     ]
@@ -626,7 +626,7 @@
                     "youtubeKey": "l88D4r74gtM",
                     "contentLength": 107672964,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/0fda28a2b4545e7799a41888d6b6123e_l88D4r74gtM.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/exam-1-review-1/index.html",
                         "resources/exam-1-review/index.html"
                     ]
@@ -637,7 +637,7 @@
                     "youtubeKey": "YzZUIYRCE38",
                     "contentLength": 112211308,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/04e75083c99e54d09c18ad2809c67a3d_YzZUIYRCE38.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/orthogonal-vectors-and-subspaces-1/index.html",
                         "resources/orthogonal-vectors-and-subspaces/index.html"
                     ]
@@ -648,7 +648,7 @@
                     "youtubeKey": "Y_Ac6KiQ1t0",
                     "contentLength": 109646680,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/182ecbaa32e05473a3a38f9b2baaf3d4_Y_Ac6KiQ1t0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-15-projections-onto-subspaces-1/index.html",
                         "resources/lecture-15-projections-onto-subspaces/index.html"
                     ]
@@ -659,7 +659,7 @@
                     "youtubeKey": "osh80YCg_GM",
                     "contentLength": 109456489,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/e4114d4887ab527ab79f3d4f0f88e921_osh80YCg_GM.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-16-projection-matrices-and-least-squares/index.html",
                         "resources/lecture-16-projection-matrices-and-least-squares-1/index.html"
                     ]
@@ -670,7 +670,7 @@
                     "youtubeKey": "0MtwqhIwdrI",
                     "contentLength": 115024152,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/aa3976f167535981a7476f96c5828c40_0MtwqhIwdrI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-17-orthogonal-matrices-and-gram-schmidt/index.html",
                         "resources/lecture-17-orthogonal-matrices-and-gram-schmidt-1/index.html"
                     ]
@@ -681,7 +681,7 @@
                     "youtubeKey": "srxexLishgY",
                     "contentLength": 110698833,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/be2b1576e95e561aa993d17aafd2df4c_srxexLishgY.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-18-properties-of-determinants-1/index.html",
                         "resources/lecture-18-properties-of-determinants/index.html"
                     ]
@@ -692,7 +692,7 @@
                     "youtubeKey": "23LLB9mNJvc",
                     "contentLength": 120709015,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/c2274531c7865da19fadf7b4562aed7f_23LLB9mNJvc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-19-determinant-formulas-and-cofactors-1/index.html",
                         "resources/lecture-19-determinant-formulas-and-cofactors/index.html"
                     ]
@@ -703,7 +703,7 @@
                     "youtubeKey": "QNpj-gOXW9M",
                     "contentLength": 117083205,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/6ca21e0d5d5853159f0a062deea4f9ec_QNpj-gOXW9M.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-20-cramers-rule-inverse-matrix-and-volume/index.html",
                         "resources/lecture-20-cramers-rule-inverse-matrix-and-volume-1/index.html"
                     ]
@@ -714,7 +714,7 @@
                     "youtubeKey": "cdZnhQjJu4I",
                     "contentLength": 119896123,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/88c9d0198d5a5b3b81e6d41fbfa26552_cdZnhQjJu4I.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-21-eigenvalues-and-eigenvectors/index.html",
                         "resources/lecture-21-eigenvalues-and-eigenvectors-1/index.html"
                     ]
@@ -725,7 +725,7 @@
                     "youtubeKey": "13r9QY6cmjc",
                     "contentLength": 117149002,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/31328fec5be45ee78b88aaa35d3fb995_13r9QY6cmjc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-22-diagonalization-and-powers-of-a/index.html",
                         "resources/lecture-22-diagonalization-and-powers-of-a-1/index.html"
                     ]
@@ -736,7 +736,7 @@
                     "youtubeKey": "IZqwi0wJovM",
                     "contentLength": 121129627,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/b31eeed850085d9c865da4c8dc6858c8_IZqwi0wJovM.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-23-differential-equations-and-exp-at/index.html",
                         "resources/lecture-23-differential-equations-and-exp-at-1/index.html"
                     ]
@@ -747,7 +747,7 @@
                     "youtubeKey": "lGGDIGizcQ0",
                     "contentLength": 119460500,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/dd72d7f78da15401b904eb697b4cf274_lGGDIGizcQ0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-24-markov-matrices-fourier-series-1/index.html",
                         "resources/lecture-24-markov-matrices-fourier-series/index.html"
                     ]
@@ -758,7 +758,7 @@
                     "youtubeKey": "QuZL5IKpO_U",
                     "contentLength": 112916220,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/9e725ec6656b5f948ea17835e660b4fb_QuZL5IKpO_U.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/exam-2-review-1/index.html",
                         "resources/exam-2-review/index.html"
                     ]
@@ -769,7 +769,7 @@
                     "youtubeKey": "UCc9q_cAhho",
                     "contentLength": 102375409,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/f5bb225dfb8151efb3349a55414aa62b_UCc9q_cAhho.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-25-symmetric-matrices-and-positive-definiteness-1/index.html",
                         "resources/lecture-25-symmetric-matrices-and-positive-definiteness/index.html"
                     ]
@@ -780,7 +780,7 @@
                     "youtubeKey": "M0Sa8fLOajA",
                     "contentLength": 108639956,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/cb4684aaf8a55beeb066aefd226b796c_M0Sa8fLOajA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-26-complex-matrices-fast-fourier-transform-fft-1/index.html",
                         "resources/lecture-26-complex-matrices-fast-fourier-transform-fft/index.html"
                     ]
@@ -791,7 +791,7 @@
                     "youtubeKey": "vF7eyJ2g3kU",
                     "contentLength": 115156838,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/c672fa052ba155cab26721352d3ca2ba_vF7eyJ2g3kU.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-27-positive-definite-matrices-and-minima/index.html",
                         "resources/lecture-27-positive-definite-matrices-and-minima-1/index.html"
                     ]
@@ -802,7 +802,7 @@
                     "youtubeKey": "TSdXJw83kyA",
                     "contentLength": 106837103,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/e81db3a127065d5ea2ce9419ac77fce9_TSdXJw83kyA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-28-similar-matrices-and-jordan-form-1/index.html",
                         "resources/lecture-28-similar-matrices-and-jordan-form/index.html"
                     ]
@@ -813,7 +813,7 @@
                     "youtubeKey": "TX_vooSnhm8",
                     "contentLength": 93818080,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/e3443d18a999556ebbbc53551145b883_TX_vooSnhm8.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-29-singular-value-decomposition/index.html",
                         "resources/lecture-29-singular-value-decomposition-1/index.html"
                     ]
@@ -824,7 +824,7 @@
                     "youtubeKey": "Ts3o2I8_Mxc",
                     "contentLength": 112366254,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/bfe409a124175b8592151c3c4651ea70_Ts3o2I8_Mxc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-30-linear-transformations-and-their-matrices-1/index.html",
                         "resources/lecture-30-linear-transformations-and-their-matrices/index.html"
                     ]
@@ -835,7 +835,7 @@
                     "youtubeKey": "0h43aV4aH7I",
                     "contentLength": 117291876,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/86814e7c3b4e533ba325bbfb20b86cc0_0h43aV4aH7I.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-31-change-of-basis-image-compression-1/index.html",
                         "resources/lecture-31-change-of-basis-image-compression/index.html"
                     ]
@@ -846,7 +846,7 @@
                     "youtubeKey": "Go2aLo7ZOlU",
                     "contentLength": 95770123,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/560e50df01915456b93cd6bc809601aa_Go2aLo7ZOlU.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-33-left-and-right-inverses-pseudoinverse-1/index.html",
                         "resources/lecture-33-left-and-right-inverses-pseudoinverse/index.html"
                     ]
@@ -857,7 +857,7 @@
                     "youtubeKey": "0oBJN8F616U",
                     "contentLength": 112781231,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/cc052ad4151e5cc3a2e0653c4adb5a07_0oBJN8F616U.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/an-overview-of-linear-algebra-1/index.html",
                         "resources/an-overview-of-linear-algebra/index.html"
                     ]
@@ -873,7 +873,7 @@
                     "youtubeKey": "HgC1l_6ySkc",
                     "contentLength": 107029665,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/2e363da9e1345b569f0dac0141917bec_HgC1l_6ySkc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/exam-3-review-1/index.html",
                         "resources/exam-3-review/index.html"
                     ]
@@ -884,7 +884,7 @@
                     "youtubeKey": "RWvi4Vx4CDc",
                     "contentLength": 98777983,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/5fa20eaa1aed563bad8c7b5c46b8dc73_RWvi4Vx4CDc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/final-course-review/index.html",
                         "resources/final-course-review-1/index.html"
                     ]
@@ -900,7 +900,7 @@
                     "youtubeKey": "7UJ4CFRGd-U",
                     "contentLength": 17608303,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/649d8a9bf6655cd99552d08602ee8f9b_7UJ4CFRGd-U.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/an-interview-with-gilbert-strang-on-teaching-linear-algebra/index.html"
                     ]
                 },
@@ -910,7 +910,7 @@
                     "youtubeKey": "lUUte2o2Sn8",
                     "contentLength": 383796477,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/lUUte2o2Sn8_captions.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/gil-strang-final-lecture/index.html"
                     ]
                 },
@@ -920,7 +920,7 @@
                     "youtubeKey": "YeyrH-Oc2p4",
                     "contentLength": 17073913,
                     "captionsFile": "/courses/18-06sc-linear-algebra-fall-2011/190783ec11085ed498d9abdd30b2b2c0_YeyrH-Oc2p4.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/linear-algebra-course-introduction/index.html"
                     ]
                 }

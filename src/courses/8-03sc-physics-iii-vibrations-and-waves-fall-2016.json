@@ -35,7 +35,7 @@
                     "youtubeKey": "4ysFC9vd3GE",
                     "contentLength": 134446500,
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/8085d63bf3f5547d9b04fa06bc67a179_4ysFC9vd3GE.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-1-video/index.html",
                         "resources/lecture-1-video-pop1/index.html",
                         "resources/lecture-1-video-pop2/index.html",
@@ -49,7 +49,7 @@
                     "youtubeKey": "T2n6fVybLcU",
                     "contentLength": 179950167,
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/06cbe36eb7f05f8e842f6b2ad116724a_T2n6fVybLcU.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/copy9_of_lecture-2-video/index.html",
                         "resources/copy6_of_lecture-2-video/index.html",
                         "resources/copy4_of_lecture-2-video/index.html",
@@ -70,7 +70,7 @@
                     "youtubeKey": "FCFpaKcpuXQ",
                     "contentLength": 178516019,
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/7390e1408fba5124963bf4725036d01a_FCFpaKcpuXQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-3-video-1/index.html",
                         "resources/copy4_of_lecture-3-video/index.html",
                         "resources/copy_of_lecture-3-video/index.html",
@@ -85,7 +85,7 @@
                     "youtubeKey": "BX4QPdP7fT8",
                     "contentLength": 182848361,
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/65e59491ef93581dbfc18ac103cd1313_BX4QPdP7fT8.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/copy3_of_lecture-4-video/index.html",
                         "resources/copy_of_lecture-4-video/index.html",
                         "resources/lecture-4-video/index.html",
@@ -102,7 +102,7 @@
                     "youtubeKey": "I0YACDaY-ww",
                     "contentLength": 187533659,
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/59e531cf7f7b54d4893d9c70edb76e84_I0YACDaY-ww.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/copy2_of_lecture-5-video/index.html",
                         "resources/copy3_of_lecture-5-video/index.html",
                         "resources/copy4_of_lecture-5-video/index.html",
@@ -117,7 +117,7 @@
                     "youtubeKey": "Ahv7Akj2xs4",
                     "contentLength": 193264736,
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/02cb5fbed665548395183d815214f8a4_Ahv7Akj2xs4.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-6-video/index.html",
                         "resources/lecture-6-video-1/index.html",
                         "resources/copy_of_lecture-6-video/index.html",
@@ -130,7 +130,7 @@
                     "youtubeKey": "b1eKhyC9TTo",
                     "contentLength": 175908841,
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/290f5acd3bd357eb8b53506108d821eb_b1eKhyC9TTo.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/copy2_of_lecture-7-video/index.html",
                         "resources/lecture-7-video/index.html",
                         "resources/copy_of_lecture-7-video/index.html",
@@ -143,7 +143,7 @@
                     "youtubeKey": "J1uHGy1tRmM",
                     "contentLength": 162205264,
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/dd8b93bad4015a4fa01e8f34f0c4ec48_J1uHGy1tRmM.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-8-video/index.html",
                         "resources/lecture-8-video-1/index.html",
                         "resources/copy_of_lecture-8-video/index.html"
@@ -155,7 +155,7 @@
                     "youtubeKey": "1JeBWHzrRD4",
                     "contentLength": 177919263,
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/81ab267f179750aca3380a7706636362_1JeBWHzrRD4.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/copy3_of_lecture-9-video/index.html",
                         "resources/copy2_of_lecture-9-video/index.html",
                         "resources/lecture-9-video-1/index.html",
@@ -169,7 +169,7 @@
                     "youtubeKey": "SnNmbVH5DAM",
                     "contentLength": 173306502,
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/dcf025c57dab57bba3fd636db011dd57_SnNmbVH5DAM.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/copy2_of_lecture-10-video/index.html",
                         "resources/copy_of_lecture-10-video/index.html",
                         "resources/copy3_of_lecture-10-video/index.html",
@@ -183,7 +183,7 @@
                     "youtubeKey": "RhIh1zw0-BM",
                     "contentLength": 172734547,
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/21e0241153d458c4a77ea9e842d7f08e_RhIh1zw0-BM.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-11-video/index.html",
                         "resources/copy2_of_lecture-11-video/index.html",
                         "resources/copy_of_lecture-11-video/index.html",
@@ -196,7 +196,7 @@
                     "youtubeKey": "8kcvyoHsXrw",
                     "contentLength": 178128449,
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/599c1bbea83c511398f606ba040398ff_8kcvyoHsXrw.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-12-video-1/index.html",
                         "resources/lecture-12-video/index.html"
                     ]
@@ -207,7 +207,7 @@
                     "youtubeKey": "QxemLb8-5AA",
                     "contentLength": 173010516,
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/917f9c799fa6515c992b22795ccbe813_QxemLb8-5AA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-13-video-1/index.html",
                         "resources/lecture-13-video/index.html",
                         "resources/copy_of_lecture-13-video/index.html"
@@ -219,7 +219,7 @@
                     "youtubeKey": "VGAlyJ7e0IQ",
                     "contentLength": 182113939,
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/864c4ec724975868b47312f3a44d7941_VGAlyJ7e0IQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-14-video-1/index.html",
                         "resources/lecture-14-video/index.html"
                     ]
@@ -230,7 +230,7 @@
                     "youtubeKey": "In0E5_JrPpo",
                     "contentLength": 174303259,
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/d708bf3163bd515284e2333d09cb20ba_In0E5_JrPpo.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-15-video/index.html",
                         "resources/copy_of_lecture-15-video/index.html",
                         "resources/lecture-15-video-1/index.html"
@@ -242,7 +242,7 @@
                     "youtubeKey": "_kKIQ1h9UuA",
                     "contentLength": 192982788,
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/2442e1653f2151ed8c8fde06395846a1_kKIQ1h9UuA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/copy_of_lecture-16-video/index.html",
                         "resources/lecture-16-video-1/index.html",
                         "resources/copy2_of_lecture-16-video/index.html",
@@ -256,7 +256,7 @@
                     "youtubeKey": "TjxR7lAwWhI",
                     "contentLength": 172589377,
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/5e09cb6509e55cacb6fdb09dc2dc394b_TjxR7lAwWhI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-17-video-1/index.html",
                         "resources/copy3_of_lecture-17-video/index.html",
                         "resources/lecture-17-video/index.html",
@@ -270,7 +270,7 @@
                     "youtubeKey": "Dlhma3z57SA",
                     "contentLength": 198246904,
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/713a50edf0ea5c58b0702883f1807827_Dlhma3z57SA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/copy_of_lecture-18-video/index.html",
                         "resources/copy5_of_lecture-18-video/index.html",
                         "resources/copy3_of_lecture-18-video/index.html",
@@ -286,7 +286,7 @@
                     "youtubeKey": "sBKHUPDUI1o",
                     "contentLength": 193862423,
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/377630a8b2845b4fa940e158f1e8765e_sBKHUPDUI1o.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/copy2_of_lecture-19-video/index.html",
                         "resources/lecture-19-video/index.html",
                         "resources/copy_of_lecture-19-video/index.html",
@@ -299,7 +299,7 @@
                     "youtubeKey": "VkbtIDSHfSc",
                     "contentLength": 193643116,
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/a6d82548358553d1bfa588bb5560ee8b_VkbtIDSHfSc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-20-video-1/index.html",
                         "resources/copy3_of_lecture-20-video/index.html",
                         "resources/copy_of_lecture-20-video/index.html",
@@ -313,7 +313,7 @@
                     "youtubeKey": "mqhO9GT8hD4",
                     "contentLength": 185526927,
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/5662f2c096015f92ac324c2c36c8f5ba_mqhO9GT8hD4.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/copy4_of_lecture-21-video/index.html",
                         "resources/lecture-21-video-1/index.html",
                         "resources/copy3_of_lecture-21-video/index.html",
@@ -328,7 +328,7 @@
                     "youtubeKey": "FY6iXM9X5Fo",
                     "contentLength": 174027398,
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/a20c45c5f890583d8b68c4aedf50ff1f_FY6iXM9X5Fo.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-22-video/index.html",
                         "resources/copy_of_lecture-22-video/index.html",
                         "resources/lecture-22-video-1/index.html"
@@ -340,7 +340,7 @@
                     "youtubeKey": "Roj7FVjl-gw",
                     "contentLength": 178379437,
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/d5e959123eea585cb9dfc45e68c21f38_Roj7FVjl-gw.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-23-video-1/index.html",
                         "resources/lecture-23-video/index.html"
                     ]
@@ -351,7 +351,7 @@
                     "youtubeKey": "jwh7LqjT4w0",
                     "contentLength": 163484879,
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/66ed6bb669765b0993a60c82a674c4cc_jwh7LqjT4w0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-24-video-1/index.html",
                         "resources/lecture-24-video/index.html"
                     ]
@@ -367,7 +367,7 @@
                     "youtubeKey": "cektQp7QQhk",
                     "contentLength": 6372488,
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/8313cf7c161c5d2192c48b4e0c3bea61_cektQp7QQhk.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/behind-the-scenes-demo-prep/index.html"
                     ]
                 },
@@ -377,7 +377,7 @@
                     "youtubeKey": "gDzWxDqb8Xg",
                     "contentLength": 6508538,
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/6af28f7841ee57d58487befdf2d89e82_gDzWxDqb8Xg.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/combining-chalk-talks-and-slides-in-a-complementary-way/index.html"
                     ]
                 },
@@ -387,7 +387,7 @@
                     "youtubeKey": "fTACO13q2oU",
                     "contentLength": 6932768,
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/8f9211b556545dab958ed4fe6d0b257e_fTACO13q2oU.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/course-iteration/index.html"
                     ]
                 },
@@ -397,7 +397,7 @@
                     "youtubeKey": "cZAM2Co3tzo",
                     "contentLength": 4257833,
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/347ba0c943f75eb681fa6eb3268c9830_cZAM2Co3tzo.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/making-time-for-individual-questions-in-a-large-lecture/index.html"
                     ]
                 },
@@ -407,7 +407,7 @@
                     "youtubeKey": "GUgIh6ff86Y",
                     "contentLength": 4705485,
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/088d095b75af5e589976aa6126821f1c_GUgIh6ff86Y.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/students2019-common-misconceptions/index.html"
                     ]
                 },
@@ -417,7 +417,7 @@
                     "youtubeKey": "0oUSmdQ-WaA",
                     "contentLength": 7129269,
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/00b04f83df135cf992c93064640c6a77_0oUSmdQ-WaA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/taking-a-vote-to-engage-learners/index.html"
                     ]
                 },
@@ -427,7 +427,7 @@
                     "youtubeKey": "wwQu2_u8jeo",
                     "contentLength": 5299813,
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/bfbf7398e2a2540383c1e25bd25d555e_wwQu2_u8jeo.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-role-of-recitations/index.html"
                     ]
                 },
@@ -437,7 +437,7 @@
                     "youtubeKey": "8P2AvGGtm_A",
                     "contentLength": 6318065,
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/b3d7de3914f75b0ca9d97b37609cce1a_8P2AvGGtm_A.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/tips-for-physics-educators/index.html"
                     ]
                 },
@@ -447,7 +447,7 @@
                     "youtubeKey": "9Dwl2FbEc5E",
                     "contentLength": 7549373,
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/7298980a9d49505787492e8a9e50c710_9Dwl2FbEc5E.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/using-demonstrations-in-class/index.html"
                     ]
                 },
@@ -457,7 +457,7 @@
                     "youtubeKey": "lAuAC4hz5rc",
                     "contentLength": 6497563,
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/22887287910e5ab69c7d6b2d01cd5540_lAuAC4hz5rc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/using-humor-to-enhance-learning/index.html"
                     ]
                 },
@@ -467,7 +467,7 @@
                     "youtubeKey": "7Knpp3AIteQ",
                     "contentLength": 7442730,
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/98134762160e52228b24db10a86e4e12_7Knpp3AIteQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/using-questionnaires-to-customize-course-content/index.html"
                     ]
                 }

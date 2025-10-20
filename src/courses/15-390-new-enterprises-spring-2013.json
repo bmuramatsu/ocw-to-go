@@ -34,7 +34,7 @@
                     "youtubeKey": "Xcsp0486olY",
                     "contentLength": 11314713,
                     "captionsFile": "/courses/15-390-new-enterprises-spring-2013/0ea78790d8305047809ac5c3a54f83a4_Xcsp0486olY.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-1/index.html"
                     ]
                 },
@@ -44,7 +44,7 @@
                     "youtubeKey": "oD7X3KvJAVk",
                     "contentLength": 10466070,
                     "captionsFile": "/courses/15-390-new-enterprises-spring-2013/c3be11c283905f2bb471b553e4418ac1_oD7X3KvJAVk.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-2/index.html"
                     ]
                 },
@@ -54,7 +54,7 @@
                     "youtubeKey": "1mw_Uo5ba58",
                     "contentLength": 10914573,
                     "captionsFile": "/courses/15-390-new-enterprises-spring-2013/818702ed1ae45172a6fb1b90f4687c3b_1mw_Uo5ba58.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-3/index.html"
                     ]
                 },
@@ -64,7 +64,7 @@
                     "youtubeKey": "NExvTgq5IM4",
                     "contentLength": 6717814,
                     "captionsFile": "/courses/15-390-new-enterprises-spring-2013/713bd0d21e9b549f8901c808fd70f855_NExvTgq5IM4.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-4/index.html"
                     ]
                 },
@@ -74,7 +74,7 @@
                     "youtubeKey": "_zWgGX71Iws",
                     "contentLength": 19038334,
                     "captionsFile": "/courses/15-390-new-enterprises-spring-2013/c6c80db9fe0357be8647cbb7effb7a8d_zWgGX71Iws.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-5/index.html"
                     ]
                 },
@@ -84,7 +84,7 @@
                     "youtubeKey": "JyYoXu0cJwA",
                     "contentLength": 7506039,
                     "captionsFile": "/courses/15-390-new-enterprises-spring-2013/3502e87c8e2b5d7cbd574e9d1b66e1be_JyYoXu0cJwA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-6/index.html"
                     ]
                 },
@@ -94,7 +94,7 @@
                     "youtubeKey": "2KpOZ9N2QOQ",
                     "contentLength": 5631530,
                     "captionsFile": "/courses/15-390-new-enterprises-spring-2013/01ea5559713651a8ad8f548f08a4771d_2KpOZ9N2QOQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-7/index.html"
                     ]
                 },
@@ -104,7 +104,7 @@
                     "youtubeKey": "Ma3ANiGPVNU",
                     "contentLength": 4744825,
                     "captionsFile": "/courses/15-390-new-enterprises-spring-2013/4c92cceb143b5e0b9d864611a4da8a67_Ma3ANiGPVNU.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-8/index.html"
                     ]
                 },
@@ -114,7 +114,7 @@
                     "youtubeKey": "IPDZFNh73Kw",
                     "contentLength": 9728054,
                     "captionsFile": "/courses/15-390-new-enterprises-spring-2013/63e9aeffd68e59c2bf7c55065661d5ca_IPDZFNh73Kw.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-9/index.html"
                     ]
                 },
@@ -124,7 +124,7 @@
                     "youtubeKey": "cHgbCAHQgbU",
                     "contentLength": 5885203,
                     "captionsFile": "/courses/15-390-new-enterprises-spring-2013/76722b1230205ea2843f79532e89e9ef_cHgbCAHQgbU.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-10/index.html"
                     ]
                 },
@@ -134,7 +134,7 @@
                     "youtubeKey": "NS0pxSF0Kmo",
                     "contentLength": 10885347,
                     "captionsFile": "/courses/15-390-new-enterprises-spring-2013/39fba2486f6a55b0b083067c18bb17f2_NS0pxSF0Kmo.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-11/index.html"
                     ]
                 },
@@ -144,7 +144,7 @@
                     "youtubeKey": "cKJ0Bx3N2tQ",
                     "contentLength": 6517572,
                     "captionsFile": "/courses/15-390-new-enterprises-spring-2013/3c94bb3fea9a5090b501cbabd4c4f3f1_cKJ0Bx3N2tQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-12/index.html"
                     ]
                 }

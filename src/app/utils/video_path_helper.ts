@@ -8,7 +8,7 @@ export const VIDEOS_BY_PATH: Map<string, string> = new Map();
 
 ALL_COURSES.forEach((course) => {
   course.videos.forEach((video) => {
-    video.htmlFile.forEach((path) => {
+    video.htmlFiles.forEach((path) => {
       VIDEOS_BY_PATH.set(mapKey(course.id, path), video.youtubeKey);
     });
   });

@@ -28,7 +28,7 @@
                     "youtubeKey": "Mvy5hjAWeZw",
                     "contentLength": 106564805,
                     "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/1hGsHloB3djAu_434Mjepx3CTbvAhA6wa_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ocw_24900_lecture02_2022feb03-fixed/index.html"
                     ]
                 },
@@ -38,7 +38,7 @@
                     "youtubeKey": "NfD6QNY6Zzg",
                     "contentLength": 104646677,
                     "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/12ChuriW0Xo9h4IDLLgPipRkMt-0F4IsW_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ocw_24900_lecture03_2022feb08/index.html"
                     ]
                 },
@@ -48,7 +48,7 @@
                     "youtubeKey": "vxOO8cIn398",
                     "contentLength": 86172485,
                     "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/13G-QTpFrZvH88mUgPCG15natCJkXXxn6_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ocw_24900_lecture04_2022feb10/index.html"
                     ]
                 },
@@ -58,7 +58,7 @@
                     "youtubeKey": "xZ8mnJPu95Q",
                     "contentLength": 114550889,
                     "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/1rniZ0KvzFxjTzFGIkyO5la1Kz3E6WgHY_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ocw_24900_lecture05_2022feb15/index.html"
                     ]
                 },
@@ -68,7 +68,7 @@
                     "youtubeKey": "NVQWWXhbUvs",
                     "contentLength": 77879108,
                     "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/1F5sIWDCAb3mso5C7oRJ_mV4IEQkBcneg_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ocw_24900_lecture06_2022feb17/index.html"
                     ]
                 },
@@ -78,7 +78,7 @@
                     "youtubeKey": "SyM5j0SeDRQ",
                     "contentLength": 105661640,
                     "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/1U93NYfuKEeiqPCY7rCuKUoBdby0rUT0v_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ocw_24900_lecture08_2022mar01/index.html"
                     ]
                 },
@@ -88,7 +88,7 @@
                     "youtubeKey": "-Pg11JHzUTo",
                     "contentLength": 114209521,
                     "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/1qZpCWDnGS-YUqutMXAzxO3hMJL3cfJp9_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ocw_24900_lecture09_2022mar03/index.html"
                     ]
                 },
@@ -98,7 +98,7 @@
                     "youtubeKey": "qb1U3_Q-7o8",
                     "contentLength": 94518574,
                     "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/1qrLzq7wII0saS3YIZTqp0YusgM1HH7vQ_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ocw_24900_lecture10_2022mar08/index.html"
                     ]
                 },
@@ -108,7 +108,7 @@
                     "youtubeKey": "q7pPG7V2ack",
                     "contentLength": 110805131,
                     "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/15OsasEW2g-fPtnYqQyvkcaaoJYNTw_ou_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ocw_24900_lecture11_2022mar10/index.html"
                     ]
                 },
@@ -118,7 +118,7 @@
                     "youtubeKey": "-OeyjP2zri4",
                     "contentLength": 107853096,
                     "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/1q19CKqBXkYc1Zd9ak_IanfaZYPlTjOJ7_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ocw_24900_lecture12_2022mar15/index.html"
                     ]
                 },
@@ -128,7 +128,7 @@
                     "youtubeKey": "4ndEWbwbIrA",
                     "contentLength": 121917310,
                     "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/1ssaQs2EKBQUUoFDiTY0Ypv7Kw9zGs08U_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ocw_24900_lecture13_2022mar17/index.html"
                     ]
                 },
@@ -138,7 +138,7 @@
                     "youtubeKey": "TgwDg_svSnM",
                     "contentLength": 115671062,
                     "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/17gbJAo0dgUAs8efamM_yrq2027N-Tlav_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ocw_24900_lecture14_2022mar29/index.html"
                     ]
                 },
@@ -148,7 +148,7 @@
                     "youtubeKey": "wrcQ5wUVxd0",
                     "contentLength": 110890002,
                     "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/1674PlF6St7rQdmyY6CeL9me_tAK1FYFB_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ocw_24900_lecture15_2022mar31/index.html"
                     ]
                 },
@@ -158,7 +158,7 @@
                     "youtubeKey": "ruzcPdSyn8o",
                     "contentLength": 111601760,
                     "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/1UKWJD0NdThMRMdv-5YkhH7Tm-7vY1wb8_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ocw_24900_lecture16_2022apr05/index.html"
                     ]
                 },
@@ -168,7 +168,7 @@
                     "youtubeKey": "Di8e2opeGA0",
                     "contentLength": 109139623,
                     "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/1MptwG2vU-HESQLFjTdgVvgS2K4ys2QJY_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ocw_24900_lecture17_2022apr07/index.html"
                     ]
                 },
@@ -178,7 +178,7 @@
                     "youtubeKey": "UXG4JImev-s",
                     "contentLength": 94844752,
                     "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/1-16ySkB8tERkYHAHHiaNRvPteK8bqYXw_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ocw_24900_lecture18_2022apr12/index.html"
                     ]
                 },
@@ -188,7 +188,7 @@
                     "youtubeKey": "vWC6Q3Dv1ws",
                     "contentLength": 81597740,
                     "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/11REkJkMCHID034oDPHdI1L1vG7aDmanA_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ocw_24900_lecture19_2022apr14/index.html"
                     ]
                 },
@@ -198,7 +198,7 @@
                     "youtubeKey": "VymHeBjublw",
                     "contentLength": 101336469,
                     "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/1iscT5XvcBr6Q7tRKpqW1B91yKtpMRuDi_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ocw_24900_lecture20_2022apr19/index.html"
                     ]
                 },
@@ -208,7 +208,7 @@
                     "youtubeKey": "msSCIvkjbHI",
                     "contentLength": 109438593,
                     "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/1EszDHIhvb-PvBwxjgNAwoWCi90TygE3T_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ocw_24900_lecture21_2022apr21/index.html"
                     ]
                 },
@@ -218,7 +218,7 @@
                     "youtubeKey": "6QRlpk8ZmPI",
                     "contentLength": 90116460,
                     "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/1UWqieveMr4b2mJWuWIM1Nxx4qoNL9r6p_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ocw_24900_lecture22_2022spr26/index.html"
                     ]
                 },
@@ -228,7 +228,7 @@
                     "youtubeKey": "5itfLAwQol8",
                     "contentLength": 103600261,
                     "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/1INQT8RnPt_b1LJm_g5kQ_ByluD5u_NWO_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ocw_24900_lecture23_2022apr28/index.html"
                     ]
                 },
@@ -238,7 +238,7 @@
                     "youtubeKey": "LOsNklq-dH8",
                     "contentLength": 86988791,
                     "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/1DbBdWkispOb6VReTZ7KCoYhQ3gTO1_6C_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ocw_24900_lecture24_2022may03/index.html"
                     ]
                 },
@@ -248,7 +248,7 @@
                     "youtubeKey": "caLQIEeYpEk",
                     "contentLength": 84158655,
                     "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/1FRgFrTY2rk4Xuiy0lIRJRJ7J3Zswb-Lj_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ocw_24900_lecture25_2022may05/index.html"
                     ]
                 },
@@ -258,7 +258,7 @@
                     "youtubeKey": "12UWP2ZhUl0",
                     "contentLength": 66274016,
                     "captionsFile": "/courses/24-900-introduction-to-linguistics-spring-2022/1b7TZWEkidhukCE_FYZbnFFTFahpMjnuk_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ocw_24900_lecture26_2022may10/index.html"
                     ]
                 }

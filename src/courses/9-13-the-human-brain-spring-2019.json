@@ -33,7 +33,7 @@
                     "youtubeKey": "ba-HMvDn_vU",
                     "contentLength": 186917088,
                     "captionsFile": "/courses/9-13-the-human-brain-spring-2019/4ff3ee71c5a7544b97bd0a64c0ea69be_ba-HMvDn_vU.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-1-introduction/index.html"
                     ]
                 },
@@ -43,7 +43,7 @@
                     "youtubeKey": "bAkuNXtgrLA",
                     "contentLength": 118727764,
                     "captionsFile": "/courses/9-13-the-human-brain-spring-2019/ac55e8e17c025fbe9f0ecfab51ec3645_bAkuNXtgrLA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-2-neuroanatomy/index.html"
                     ]
                 },
@@ -53,7 +53,7 @@
                     "youtubeKey": "vFZY--lgmHs",
                     "contentLength": 142660747,
                     "captionsFile": "/courses/9-13-the-human-brain-spring-2019/a862c600e38356faae65aa7d2ad787a1_vFZY--lgmHs.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-4-cognitive-neuroscience-methods-i/index.html"
                     ]
                 },
@@ -63,7 +63,7 @@
                     "youtubeKey": "YD7QG4G7WVg",
                     "contentLength": 168436129,
                     "captionsFile": "/courses/9-13-the-human-brain-spring-2019/43197ff4a4025c0791c558eb11673014_YD7QG4G7WVg.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-5-cognitive-neuroscience-methods-ii/index.html"
                     ]
                 },
@@ -73,7 +73,7 @@
                     "youtubeKey": "Nk0H3o-hRMA",
                     "contentLength": 133716051,
                     "captionsFile": "/courses/9-13-the-human-brain-spring-2019/42e5318160c55f9b87f70ec7e3e7073e_Nk0H3o-hRMA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-6-experimental-design/index.html"
                     ]
                 },
@@ -83,7 +83,7 @@
                     "youtubeKey": "otriwYhNtm0",
                     "contentLength": 162429248,
                     "captionsFile": "/courses/9-13-the-human-brain-spring-2019/1c77e0b4df19592ca3916a5c9af75e07_otriwYhNtm0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-7-category-selectivity-controversies-and-mvpa/index.html"
                     ]
                 },
@@ -93,7 +93,7 @@
                     "youtubeKey": "MuRVOQY8KoY",
                     "contentLength": 195753743,
                     "captionsFile": "/courses/9-13-the-human-brain-spring-2019/3f8e95d611fb50fe940aa3127cf785bf_MuRVOQY8KoY.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-8-navigation-i/index.html"
                     ]
                 },
@@ -103,7 +103,7 @@
                     "youtubeKey": "ppxK4R8XWfU",
                     "contentLength": 169252397,
                     "captionsFile": "/courses/9-13-the-human-brain-spring-2019/f236858c01a85a809087d6c6050c8016_ppxK4R8XWfU.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-9-navigation-ii/index.html"
                     ]
                 },
@@ -113,7 +113,7 @@
                     "youtubeKey": "kAX_PRnliMo",
                     "contentLength": 190485686,
                     "captionsFile": "/courses/9-13-the-human-brain-spring-2019/03072d1fb8eb59608dd7ef23db369646_kAX_PRnliMo.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-10-development-nature-nurture-i/index.html"
                     ]
                 },
@@ -123,7 +123,7 @@
                     "youtubeKey": "xA00vkxG3lE",
                     "contentLength": 180207829,
                     "captionsFile": "/courses/9-13-the-human-brain-spring-2019/9e0e389b3f4350938af898a5cdb414c9_xA00vkxG3lE.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-11-development-nature-nurture-ii-2018/index.html"
                     ]
                 },
@@ -133,7 +133,7 @@
                     "youtubeKey": "W2PY6z1Wddg",
                     "contentLength": 165577173,
                     "captionsFile": "/courses/9-13-the-human-brain-spring-2019/56e063fe9f9b51f592992337159980d8_W2PY6z1Wddg.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-13-number/index.html"
                     ]
                 },
@@ -143,7 +143,7 @@
                     "youtubeKey": "9Bz-5-RC690",
                     "contentLength": 184837608,
                     "captionsFile": "/courses/9-13-the-human-brain-spring-2019/1c95fa7b00395f7fa4f4ac6d05bccc0e_9Bz-5-RC690.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-15-hearing-and-speech/index.html"
                     ]
                 },
@@ -153,7 +153,7 @@
                     "youtubeKey": "YVHM8dSkimo",
                     "contentLength": 170559536,
                     "captionsFile": "/courses/9-13-the-human-brain-spring-2019/af30c5902a8455188bfc6abe249a17e6_YVHM8dSkimo.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-16-music/index.html"
                     ]
                 },
@@ -163,7 +163,7 @@
                     "youtubeKey": "XRdJ5mXBo8A",
                     "contentLength": 161117639,
                     "captionsFile": "/courses/9-13-the-human-brain-spring-2019/ae5e2f7a998b58d8a1cbf3c0c3626723_XRdJ5mXBo8A.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-18-language-i/index.html"
                     ]
                 },
@@ -173,7 +173,7 @@
                     "youtubeKey": "pfZY5aDJazA",
                     "contentLength": 177361324,
                     "captionsFile": "/courses/9-13-the-human-brain-spring-2019/a9cc6bb6aadf58ca94d401064973c755_pfZY5aDJazA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-20-mentalizing-theory-of-mind/index.html"
                     ]
                 },
@@ -183,7 +183,7 @@
                     "youtubeKey": "SchmVoc5NzY",
                     "contentLength": 194701951,
                     "captionsFile": "/courses/9-13-the-human-brain-spring-2019/8a9a404d91d358a6a5c7adf54e74b6de_SchmVoc5NzY.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-21-brain-networks/index.html"
                     ]
                 },
@@ -193,7 +193,7 @@
                     "youtubeKey": "B4a0WdGp52g",
                     "contentLength": 133001523,
                     "captionsFile": "/courses/9-13-the-human-brain-spring-2019/910a42344cf15fb488b2d172a136529b_B4a0WdGp52g.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-24-attention-and-awareness/index.html"
                     ]
                 }
@@ -208,7 +208,7 @@
                     "youtubeKey": "fEFMn64t76c",
                     "contentLength": 43650935,
                     "captionsFile": "/courses/9-13-the-human-brain-spring-2019/fEFMn64t76c_captions.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/sketching-a-picture-of-the-mind-with-prof-nancy-kanwisher/index.html"
                     ]
                 }

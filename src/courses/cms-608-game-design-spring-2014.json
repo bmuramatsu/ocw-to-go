@@ -31,7 +31,7 @@
                     "youtubeKey": "xHNIknabsRY",
                     "contentLength": 44714887,
                     "captionsFile": "/courses/cms-608-game-design-spring-2014/xHNIknabsRY_captions.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ses01_1/index.html"
                     ]
                 },
@@ -41,7 +41,7 @@
                     "youtubeKey": "dK55mOcHdAc",
                     "contentLength": 16501676,
                     "captionsFile": "/courses/cms-608-game-design-spring-2014/dK55mOcHdAc_captions.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ses01_2/index.html"
                     ]
                 },
@@ -51,7 +51,7 @@
                     "youtubeKey": "S_fiR00UBGo",
                     "contentLength": 44669817,
                     "captionsFile": "/courses/cms-608-game-design-spring-2014/S_fiR00UBGo_captions.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ses02_1/index.html"
                     ]
                 },
@@ -61,7 +61,7 @@
                     "youtubeKey": "OSlcaoq80Xs",
                     "contentLength": 35708755,
                     "captionsFile": "/courses/cms-608-game-design-spring-2014/OSlcaoq80Xs_captions.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ses02_2/index.html"
                     ]
                 },
@@ -71,7 +71,7 @@
                     "youtubeKey": "Ym5M_EQuNmU",
                     "contentLength": 33115021,
                     "captionsFile": "/courses/cms-608-game-design-spring-2014/Ym5M_EQuNmU_captions.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ses03_1/index.html"
                     ]
                 },
@@ -81,7 +81,7 @@
                     "youtubeKey": "FC_eWZp7a4E",
                     "contentLength": 12255041,
                     "captionsFile": "/courses/cms-608-game-design-spring-2014/FC_eWZp7a4E_captions.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ses03_2/index.html"
                     ]
                 },
@@ -91,7 +91,7 @@
                     "youtubeKey": "H0MFJwQH2fo",
                     "contentLength": 37556958,
                     "captionsFile": "/courses/cms-608-game-design-spring-2014/H0MFJwQH2fo_captions.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ses04/index.html"
                     ]
                 },
@@ -101,7 +101,7 @@
                     "youtubeKey": "RWSypiENYfc",
                     "contentLength": 28915276,
                     "captionsFile": "/courses/cms-608-game-design-spring-2014/RWSypiENYfc_captions.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ses05/index.html"
                     ]
                 },
@@ -111,7 +111,7 @@
                     "youtubeKey": "w56ICZB3IfI",
                     "contentLength": 35725138,
                     "captionsFile": "/courses/cms-608-game-design-spring-2014/w56ICZB3IfI_captions.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ses01_6/index.html"
                     ]
                 },
@@ -121,7 +121,7 @@
                     "youtubeKey": "_bjy6AMn5aY",
                     "contentLength": 22478778,
                     "captionsFile": "/courses/cms-608-game-design-spring-2014/_bjy6AMn5aY_captions.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ses07/index.html"
                     ]
                 },
@@ -131,7 +131,7 @@
                     "youtubeKey": "hM5erRmEzCk",
                     "contentLength": 40323623,
                     "captionsFile": "/courses/cms-608-game-design-spring-2014/hM5erRmEzCk_captions.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ses09/index.html"
                     ]
                 },
@@ -141,7 +141,7 @@
                     "youtubeKey": "Uq0zx1Hy9Jw",
                     "contentLength": 27590182,
                     "captionsFile": "/courses/cms-608-game-design-spring-2014/Uq0zx1Hy9Jw_captions.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ses10/index.html"
                     ]
                 },
@@ -151,7 +151,7 @@
                     "youtubeKey": "1_t7ixz5XRY",
                     "contentLength": 25640755,
                     "captionsFile": "/courses/cms-608-game-design-spring-2014/1_t7ixz5XRY_captions.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ses11/index.html"
                     ]
                 },
@@ -161,7 +161,7 @@
                     "youtubeKey": "wmoKns-IQ-E",
                     "contentLength": 38238979,
                     "captionsFile": "/courses/cms-608-game-design-spring-2014/wmoKns-IQ-E_captions.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ses13/index.html"
                     ]
                 },
@@ -171,7 +171,7 @@
                     "youtubeKey": "DF9fniCnL10",
                     "contentLength": 34083738,
                     "captionsFile": "/courses/cms-608-game-design-spring-2014/DF9fniCnL10_captions.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ses14/index.html"
                     ]
                 },
@@ -181,7 +181,7 @@
                     "youtubeKey": "cZkKaqj9K1U",
                     "contentLength": 23155217,
                     "captionsFile": "/courses/cms-608-game-design-spring-2014/cZkKaqj9K1U_captions.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ses15/index.html"
                     ]
                 },
@@ -191,7 +191,7 @@
                     "youtubeKey": "JK29_2fW-w4",
                     "contentLength": 38897655,
                     "captionsFile": "/courses/cms-608-game-design-spring-2014/JK29_2fW-w4_captions.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ses16/index.html"
                     ]
                 },
@@ -201,7 +201,7 @@
                     "youtubeKey": "-Fd6JJ1Xkt4",
                     "contentLength": 51369390,
                     "captionsFile": "/courses/cms-608-game-design-spring-2014/-Fd6JJ1Xkt4_captions.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ses17/index.html"
                     ]
                 },
@@ -211,7 +211,7 @@
                     "youtubeKey": "bgeWfB0SNEg",
                     "contentLength": 68618609,
                     "captionsFile": "/courses/cms-608-game-design-spring-2014/bgeWfB0SNEg_captions.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ses19/index.html"
                     ]
                 },
@@ -221,7 +221,7 @@
                     "youtubeKey": "SUcIAQTu-Ts",
                     "contentLength": 34068255,
                     "captionsFile": "/courses/cms-608-game-design-spring-2014/SUcIAQTu-Ts_captions.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ses20/index.html"
                     ]
                 },
@@ -231,7 +231,7 @@
                     "youtubeKey": "_yMU8qMSKzw",
                     "contentLength": 53206779,
                     "captionsFile": "/courses/cms-608-game-design-spring-2014/_yMU8qMSKzw_captions.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ses21/index.html"
                     ]
                 },
@@ -241,7 +241,7 @@
                     "youtubeKey": "VXQAhzat098",
                     "contentLength": 21337815,
                     "captionsFile": "/courses/cms-608-game-design-spring-2014/VXQAhzat098_captions.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ses22/index.html"
                     ]
                 },
@@ -251,7 +251,7 @@
                     "youtubeKey": "K3QfVXBqbYM",
                     "contentLength": 35863570,
                     "captionsFile": "/courses/cms-608-game-design-spring-2014/K3QfVXBqbYM_captions.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ses23/index.html"
                     ]
                 },
@@ -261,7 +261,7 @@
                     "youtubeKey": "fN1uPAtLatY",
                     "contentLength": 24267560,
                     "captionsFile": "/courses/cms-608-game-design-spring-2014/fN1uPAtLatY_captions.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/ses24/index.html"
                     ]
                 }

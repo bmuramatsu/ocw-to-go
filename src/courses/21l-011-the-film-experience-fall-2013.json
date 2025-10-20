@@ -30,7 +30,7 @@
                     "youtubeKey": "LFOsw1Vccac",
                     "contentLength": 120593755,
                     "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/14992aee130858e6b0dc8d3841391936_LFOsw1Vccac.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-1-introduction-2007/index.html"
                     ]
                 },
@@ -40,7 +40,7 @@
                     "youtubeKey": "vpJba2qIXjs",
                     "contentLength": 134995666,
                     "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/c17c37e53d565dc1a6b6200e3fd084b6_vpJba2qIXjs.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-2-keaton-2007/index.html"
                     ]
                 },
@@ -50,7 +50,7 @@
                     "youtubeKey": "m4ZuXay_qOo",
                     "contentLength": 122537860,
                     "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/80ed4550872e5d87b465f747e7f60aea_m4ZuXay_qOo.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-3-chaplin-part-i-2007/index.html"
                     ]
                 },
@@ -60,7 +60,7 @@
                     "youtubeKey": "0jWfHFBLnv0",
                     "contentLength": 146310348,
                     "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/652ba0248afc57b199c4fa5b16bf8937_0jWfHFBLnv0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-4-chaplin-part-ii-2007/index.html"
                     ]
                 },
@@ -70,7 +70,7 @@
                     "youtubeKey": "r67dVaGtBGA",
                     "contentLength": 113029405,
                     "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/1ed8cef89cb05a4ea9270faaa81df120_r67dVaGtBGA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-5-film-as-global-cultural-form-montage-mise-en-scene/index.html"
                     ]
                 },
@@ -80,7 +80,7 @@
                     "youtubeKey": "BgozyEIGsuc",
                     "contentLength": 114060028,
                     "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/2bbd898edc4c5f328dbc0b2ee1e304fe_BgozyEIGsuc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-6-german-film-murnau/index.html"
                     ]
                 },
@@ -90,7 +90,7 @@
                     "youtubeKey": "NOT1VZrNkMo",
                     "contentLength": 130725984,
                     "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/3046c52cc5be5353a963eba5132fc5e3_NOT1VZrNkMo.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-7-the-studio-era/index.html"
                     ]
                 },
@@ -100,7 +100,7 @@
                     "youtubeKey": "ilM34q8F6rY",
                     "contentLength": 132312679,
                     "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/ec5d5dd6df7d525681980afe1883922e_ilM34q8F6rY.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-8-the-work-of-movies-capra-hawks/index.html"
                     ]
                 },
@@ -110,7 +110,7 @@
                     "youtubeKey": "vtViG3o2mgg",
                     "contentLength": 115859354,
                     "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/3d8f6fc95899588fbe0d2b1a786c1708_vtViG3o2mgg.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-9-alfred-hitchcock/index.html"
                     ]
                 },
@@ -120,7 +120,7 @@
                     "youtubeKey": "xt_0iNlUQ2U",
                     "contentLength": 128550684,
                     "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/c87a04da5b285e83b8ee361e96477aec_xt_0iNlUQ2U.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-10-shadow-of-a-doubt-rear-window/index.html"
                     ]
                 },
@@ -130,7 +130,7 @@
                     "youtubeKey": "mPCTR32vxWo",
                     "contentLength": 107278301,
                     "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/b2024739e58156308e59227051f53b80_mPCTR32vxWo.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-11-the-musical/index.html"
                     ]
                 },
@@ -140,7 +140,7 @@
                     "youtubeKey": "tHttGDNmgKI",
                     "contentLength": 137977869,
                     "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/bb2d8415570b58028fdb7fa1de2c0256_tHttGDNmgKI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-12-the-musical-continued/index.html"
                     ]
                 },
@@ -150,7 +150,7 @@
                     "youtubeKey": "wAojFJTmsxE",
                     "contentLength": 103713058,
                     "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/633fbbcf6bf75705b78916e5a595cbd9_wAojFJTmsxE.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-13-the-western/index.html"
                     ]
                 },
@@ -160,7 +160,7 @@
                     "youtubeKey": "oocw6x_kCQs",
                     "contentLength": 140140901,
                     "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/b089c61a7c2a57bea1a72c9d2c672d9e_oocw6x_kCQs.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-14-the-western-continued/index.html"
                     ]
                 },
@@ -170,7 +170,7 @@
                     "youtubeKey": "BWLwSqLZd2o",
                     "contentLength": 123964736,
                     "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/5a7f08364ca05cd39c4be9690c43ab9f_BWLwSqLZd2o.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-15-american-film-in-the-1970s-part-i-2007/index.html"
                     ]
                 },
@@ -180,7 +180,7 @@
                     "youtubeKey": "j-F3Sy1nxPA",
                     "contentLength": 130436102,
                     "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/bb5720739e2258d3a0598f02305b8918_j-F3Sy1nxPA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-16-american-film-in-the-1970s-part-ii-2007/index.html"
                     ]
                 },
@@ -190,7 +190,7 @@
                     "youtubeKey": "WsEPhUu8kKU",
                     "contentLength": 111772809,
                     "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/93b1a611f2455ea5a034f963b62bdbb0_WsEPhUu8kKU.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-17-jean-renoir-and-poetic-realism/index.html"
                     ]
                 },
@@ -200,7 +200,7 @@
                     "youtubeKey": "eO3RNUAFtDE",
                     "contentLength": 126694703,
                     "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/5a3e9022ab175e5aa3cf5d553c163f24_eO3RNUAFtDE.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-18-renoirs-grand-illusion-1937/index.html"
                     ]
                 },
@@ -210,7 +210,7 @@
                     "youtubeKey": "Fq0mvAbzUrY",
                     "contentLength": 127021291,
                     "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/0f44ea665b025c13a337ab761a3c1ac4_Fq0mvAbzUrY.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-19-italian-neorealism-part-i-2007/index.html"
                     ]
                 },
@@ -220,7 +220,7 @@
                     "youtubeKey": "HypQZfQPtYk",
                     "contentLength": 119621283,
                     "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/53009640d2c8592fb8a7f2e5059ea1e1_HypQZfQPtYk.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-20-italian-neorealism-part-ii-2007/index.html"
                     ]
                 },
@@ -230,7 +230,7 @@
                     "youtubeKey": "flAwb1TmOkQ",
                     "contentLength": 132456394,
                     "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/c3b9f56bbfc55636a9eeda3f8308efaf_flAwb1TmOkQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-21-truffaut-the-nouvelle-vague-the-400-blows/index.html"
                     ]
                 },
@@ -240,7 +240,7 @@
                     "youtubeKey": "6B8FySbsUsM",
                     "contentLength": 138139207,
                     "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/7568f658b1ea590aa6e6582bcb5b699f_6B8FySbsUsM.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-22-kurosawa-and-rashomon/index.html"
                     ]
                 },
@@ -250,7 +250,7 @@
                     "youtubeKey": "lbtrbE_kK_Q",
                     "contentLength": 101079313,
                     "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/253b345975e05090a36e6860aa8354f6_lbtrbE_kK_Q.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-23-summary-perspectives-film-as-art-and-artifact/index.html"
                     ]
                 }
@@ -265,7 +265,7 @@
                     "youtubeKey": "hmJMaVYiqwM",
                     "contentLength": 39196979,
                     "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/hmJMaVYiqwM_captions.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/film-is-for-everyone-with-prof-david-thorburn/index.html"
                     ]
                 }
@@ -280,7 +280,7 @@
                     "youtubeKey": "gjnJf9jobb4",
                     "contentLength": 30773152,
                     "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/b186373a40725d4c969488af66ace574_gjnJf9jobb4.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/approach-to-lecturing/index.html"
                     ]
                 },
@@ -290,7 +290,7 @@
                     "youtubeKey": "tg_1R6CDIa0",
                     "contentLength": 11759633,
                     "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/cbc5249c0c525311ad020cbdc3ab502e_tg_1R6CDIa0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/beyond-film-television-literature/index.html"
                     ]
                 },
@@ -300,7 +300,7 @@
                     "youtubeKey": "r8quwPWwurA",
                     "contentLength": 22299517,
                     "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/5e838368064256ff80f2ac4a476f8719_r8quwPWwurA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/meet-the-educator/index.html"
                     ]
                 },
@@ -310,7 +310,7 @@
                     "youtubeKey": "kvbLY2mQW1k",
                     "contentLength": 23971417,
                     "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/6cc372e8641d5679a11c6f4c76254c79_kvbLY2mQW1k.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-film-experience-a-course-in-transition/index.html"
                     ]
                 },
@@ -320,7 +320,7 @@
                     "youtubeKey": "lhKse0vIbqo",
                     "contentLength": 14787253,
                     "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/117aafd96b3557439d5416fbc9f80f42_lhKse0vIbqo.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-video-lecture-conundrum/index.html"
                     ]
                 },
@@ -330,7 +330,7 @@
                     "youtubeKey": "nIMlZ8ErLfs",
                     "contentLength": 28139263,
                     "captionsFile": "/courses/21l-011-the-film-experience-fall-2013/a39e5de0d2cc54808ddf2d1dfdb4355a_nIMlZ8ErLfs.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/thematic-spines-of-the-course/index.html"
                     ]
                 }

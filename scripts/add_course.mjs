@@ -176,7 +176,7 @@ for (const youtubeKey in videosByKey) {
     captionsFile: first["captions_file"],
     // This needs to be a list
     // also I've lost dataPath at this point
-    htmlFile: videos.map((v) => v.dataPath.replace("data.json", "index.html")),
+    htmlFiles: videos.map((v) => v.dataPath.replace("data.json", "index.html")),
   };
 
   if (videoGroups.has(category)) {

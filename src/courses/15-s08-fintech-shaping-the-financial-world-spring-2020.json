@@ -37,7 +37,7 @@
                     "youtubeKey": "yIpzVIt1Iuo",
                     "contentLength": 37788434,
                     "captionsFile": "/courses/15-s08-fintech-shaping-the-financial-world-spring-2020/yIpzVIt1Iuo_captions.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/paying-it-forward-with-fintech-prof-gary-gensler/index.html"
                     ]
                 }
@@ -52,7 +52,7 @@
                     "youtubeKey": "90JWoR9MfYU",
                     "contentLength": 162498926,
                     "captionsFile": "/courses/15-s08-fintech-shaping-the-financial-world-spring-2020/08fc51ae61cd5e39a332f878e2b5f92d_90JWoR9MfYU.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/class-1-intro-key-technological-trends/index.html"
                     ]
                 },
@@ -62,7 +62,7 @@
                     "youtubeKey": "nq8la9qknx8",
                     "contentLength": 170724036,
                     "captionsFile": "/courses/15-s08-fintech-shaping-the-financial-world-spring-2020/7d1bea1b0bae5c21bd53e1e8e4451dea_nq8la9qknx8.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/class-2-artificial-intelligence-and-machine-learning/index.html"
                     ]
                 },
@@ -72,7 +72,7 @@
                     "youtubeKey": "OUAMdi281mQ",
                     "contentLength": 158495408,
                     "captionsFile": "/courses/15-s08-fintech-shaping-the-financial-world-spring-2020/01c00de5c52b586d9bd1241956b07834_OUAMdi281mQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/class-3-artificial-intelligence-in-finance/index.html"
                     ]
                 },
@@ -82,7 +82,7 @@
                     "youtubeKey": "LaP0Ut84GzI",
                     "contentLength": 172282919,
                     "captionsFile": "/courses/15-s08-fintech-shaping-the-financial-world-spring-2020/b81f92b379615523abfb5619ba2da349_LaP0Ut84GzI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/class-4-open-apis-marketing-channels/index.html"
                     ]
                 },
@@ -92,7 +92,7 @@
                     "youtubeKey": "59Dd5T6crKw",
                     "contentLength": 163736197,
                     "captionsFile": "/courses/15-s08-fintech-shaping-the-financial-world-spring-2020/fbc428f65f2f5fcb82c428605e2e4045_59Dd5T6crKw.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/class-5-blockchain-technology-cryptocurrencies/index.html"
                     ]
                 },
@@ -102,7 +102,7 @@
                     "youtubeKey": "4FGNLl9Btfw",
                     "contentLength": 170781904,
                     "captionsFile": "/courses/15-s08-fintech-shaping-the-financial-world-spring-2020/a9b2411ac74b567ea24c8ecd3d222089_4FGNLl9Btfw.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/class-6-payments/index.html"
                     ]
                 },
@@ -112,7 +112,7 @@
                     "youtubeKey": "JuKKBf-uSDI",
                     "contentLength": 180934289,
                     "captionsFile": "/courses/15-s08-fintech-shaping-the-financial-world-spring-2020/17fbc0eeb5ac51ff85561edbfd88e751_JuKKBf-uSDI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/class-7-credit-lending/index.html"
                     ]
                 },
@@ -122,7 +122,7 @@
                     "youtubeKey": "oYR6xdcFNwc",
                     "contentLength": 148319165,
                     "captionsFile": "/courses/15-s08-fintech-shaping-the-financial-world-spring-2020/02869cf534cf52cd98aabb8739ff5c35_oYR6xdcFNwc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/class-8-challenger-banks/index.html"
                     ]
                 },
@@ -132,7 +132,7 @@
                     "youtubeKey": "pA-AgV8wo0o",
                     "contentLength": 118738668,
                     "captionsFile": "/courses/15-s08-fintech-shaping-the-financial-world-spring-2020/7e5fbf21f25f5df49b55b04a13b044b7_pA-AgV8wo0o.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/class-10-insurance/index.html"
                     ]
                 },
@@ -142,7 +142,7 @@
                     "youtubeKey": "iahUTx27HUg",
                     "contentLength": 74041801,
                     "captionsFile": "/courses/15-s08-fintech-shaping-the-financial-world-spring-2020/ea41d822838350acb9041669302b3ab6_iahUTx27HUg.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/class-11-coronavirus-crisis-finance/index.html"
                     ]
                 },
@@ -152,7 +152,7 @@
                     "youtubeKey": "kZ1EqqnUw6M",
                     "contentLength": 185482120,
                     "captionsFile": "/courses/15-s08-fintech-shaping-the-financial-world-spring-2020/d3c4e5d0eec2538d8c35336a46384fcf_kZ1EqqnUw6M.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/class-12-conclusion/index.html"
                     ]
                 },
@@ -162,7 +162,7 @@
                     "youtubeKey": "uHUA6M1OEwk",
                     "contentLength": 177025520,
                     "captionsFile": "/courses/15-s08-fintech-shaping-the-financial-world-spring-2020/e2a8b13029575d128187a288895813eb_uHUA6M1OEwk.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-9-trading-and-capital-markets/index.html"
                     ]
                 }

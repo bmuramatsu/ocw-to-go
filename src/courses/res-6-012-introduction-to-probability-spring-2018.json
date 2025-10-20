@@ -31,7 +31,7 @@
                     "youtubeKey": "GwOklYjwHDI",
                     "contentLength": 2788385,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/9d7eb87120b951c1b83fc0b2d98193c7_GwOklYjwHDI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/review-of-known-properties-of-the-bernoulli-process/index.html"
                     ]
                 },
@@ -41,7 +41,7 @@
                     "youtubeKey": "2f9EfEga4Oo",
                     "contentLength": 15494904,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/0c86de2df0955a1b910092a334d69c8a_2f9EfEga4Oo.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/a-coin-tossing-example-1/index.html"
                     ]
                 },
@@ -51,7 +51,7 @@
                     "youtubeKey": "rZKUmNvCjis",
                     "contentLength": 14174605,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/bb6ba02f9e465827b1e416cdceb437e1_rZKUmNvCjis.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/a-coin-tossing-example/index.html"
                     ]
                 },
@@ -61,7 +61,7 @@
                     "youtubeKey": "NbYB0fiHoCs",
                     "contentLength": 5589317,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/795fcaf6627f5ad4a778237750cf13de_NbYB0fiHoCs.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/a-continuous-example/index.html"
                     ]
                 },
@@ -71,7 +71,7 @@
                     "youtubeKey": "YenDB3yOfDc",
                     "contentLength": 6396964,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/305660086f1c51a99516e2596252945e_YenDB3yOfDc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/a-die-roll-example/index.html"
                     ]
                 },
@@ -81,7 +81,7 @@
                     "youtubeKey": "AsSQdpZdP8U",
                     "contentLength": 6901126,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/b58bac62e714527da515943cde3f6eb8_AsSQdpZdP8U.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/a-discrete-example/index.html"
                     ]
                 },
@@ -91,7 +91,7 @@
                     "youtubeKey": "11iF2ovjKOg",
                     "contentLength": 14105037,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/d39444b61e78503c8806b6e98152667a_11iF2ovjKOg.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/a-linear-function-of-a-continuous-random-variable/index.html"
                     ]
                 },
@@ -101,7 +101,7 @@
                     "youtubeKey": "eFDU7t6Jxzc",
                     "contentLength": 3774421,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/f3bf14358421547f9b5a71a2840d4799_eFDU7t6Jxzc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/a-linear-function-of-a-normal-random-variable/index.html"
                     ]
                 },
@@ -111,7 +111,7 @@
                     "youtubeKey": "uFx7fWujWsU",
                     "contentLength": 10821873,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/a8405136825d5fe69f55dfa7e999253c_uFx7fWujWsU.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/a-nonmonotonic-example/index.html"
                     ]
                 },
@@ -121,7 +121,7 @@
                     "youtubeKey": "l6YYHaV1aGc",
                     "contentLength": 14477429,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/1315df609c425eb0a2c3f9d32ec2a73f_l6YYHaV1aGc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/a-numerical-example-2014-part-i/index.html"
                     ]
                 },
@@ -131,7 +131,7 @@
                     "youtubeKey": "cQtCpJyl77o",
                     "contentLength": 7438537,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/5ab5e6363caa5cc897299e60bd2c4585_cQtCpJyl77o.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/a-numerical-example-2014-part-ii/index.html"
                     ]
                 },
@@ -141,7 +141,7 @@
                     "youtubeKey": "XsowwurOvH0",
                     "contentLength": 17533640,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/85979b6eb9935dfc8c9b104fcd0aa16c_XsowwurOvH0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/a-numerical-example-2014-part-iii/index.html"
                     ]
                 },
@@ -151,7 +151,7 @@
                     "youtubeKey": "uL31gpFdarc",
                     "contentLength": 13911794,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/575f5de013195ebba521ffb7a9c4d624_uL31gpFdarc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/a-radar-example-and-three-basic-tools/index.html"
                     ]
                 },
@@ -161,7 +161,7 @@
                     "youtubeKey": "-0pzpXHq_io",
                     "contentLength": 8547934,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/b2f21a95afd453489eb4080e5c7474f7_-0pzpXHq_io.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/a-simple-example/index.html"
                     ]
                 },
@@ -171,7 +171,7 @@
                     "youtubeKey": "LJuVb-sxzoo",
                     "contentLength": 5242613,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/ae49e1f0ce045fd5a26b59ba6e4b29db_LJuVb-sxzoo.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/a-simple-example-1/index.html"
                     ]
                 },
@@ -181,7 +181,7 @@
                     "youtubeKey": "9QJt03983Gg",
                     "contentLength": 12418024,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/113a08ff2fc05bb4935dcb04bbbf1fdc_9QJt03983Gg.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/about-the-order-of-summation-in-series-with-multiple-indices/index.html"
                     ]
                 },
@@ -191,7 +191,7 @@
                     "youtubeKey": "vEsUsaK1HBk",
                     "contentLength": 18025833,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/2d54565bf8065e5da57ba7b378c53bdc_vEsUsaK1HBk.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/absorption-probabilities/index.html"
                     ]
                 },
@@ -201,7 +201,7 @@
                     "youtubeKey": "MvGuBQZZuLM",
                     "contentLength": 21979778,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/d933aede4989524a998819d71bfd1e94_MvGuBQZZuLM.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/an-example/index.html"
                     ]
                 },
@@ -211,7 +211,7 @@
                     "youtubeKey": "PJExYLw0qtc",
                     "contentLength": 3726852,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/548516952c465379bf3abbd66ee039cd_PJExYLw0qtc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/applications-of-the-poisson-process/index.html"
                     ]
                 },
@@ -221,7 +221,7 @@
                     "youtubeKey": "WSrVCCBOeg4",
                     "contentLength": 4375105,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/683d7287710c5697b4c5cc2869d29898_WSrVCCBOeg4.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/bayes-rule-variations/index.html"
                     ]
                 },
@@ -231,7 +231,7 @@
                     "youtubeKey": "kz2tvO_ZAKI",
                     "contentLength": 5616523,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/f500783e8b415b5eb5b2bd040255bbb0_kz2tvO_ZAKI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/bayes-rule/index.html"
                     ]
                 },
@@ -241,7 +241,7 @@
                     "youtubeKey": "J8L9kRGSvSY",
                     "contentLength": 4988139,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/2b59425fa66658628dca61e37cb0e05a_J8L9kRGSvSY.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/bernoulli-indicator-random-variables/index.html"
                     ]
                 },
@@ -251,7 +251,7 @@
                     "youtubeKey": "8llkkbCPHb4",
                     "contentLength": 8648362,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/a5685031e21250a99ac721d6db70f8bf_8llkkbCPHb4.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/binomial-probabilities/index.html"
                     ]
                 },
@@ -261,7 +261,7 @@
                     "youtubeKey": "jOC4ATKBWlI",
                     "contentLength": 11554461,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/551001cd075054528403a298414e0dfe_jOC4ATKBWlI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/binomial-random-variables/index.html"
                     ]
                 },
@@ -271,7 +271,7 @@
                     "youtubeKey": "XKYpKYspe1w",
                     "contentLength": 15975352,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/a4b37014993958bcb75a84e2fd06aeae_XKYpKYspe1w.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/birth-death-processes-2014-part-i/index.html"
                     ]
                 },
@@ -281,7 +281,7 @@
                     "youtubeKey": "KdAsNQVdaNk",
                     "contentLength": 12853820,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/61ac903fb4e6508d815a85ea53bffb76_KdAsNQVdaNk.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/birth-death-processes-2014-part-ii/index.html"
                     ]
                 },
@@ -291,7 +291,7 @@
                     "youtubeKey": "0xuRh3dz_Nc",
                     "contentLength": 13038669,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/cd023bc4842f5151a129ec7f6af2b403_0xuRh3dz_Nc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/bonferronis-inequality/index.html"
                     ]
                 },
@@ -301,7 +301,7 @@
                     "youtubeKey": "Xa6-qJvZkUg",
                     "contentLength": 4234484,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/a1d34723c88b5e2096bea2640739f433_Xa6-qJvZkUg.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/brief-introduction/index.html"
                     ]
                 },
@@ -311,7 +311,7 @@
                     "youtubeKey": "N61FzRr2so0",
                     "contentLength": 4228775,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/121666853a07564f95c3ae4c7ddfea9e_N61FzRr2so0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/brief-introduction-1/index.html"
                     ]
                 },
@@ -321,7 +321,7 @@
                     "youtubeKey": "KSrPJe7y9oA",
                     "contentLength": 20098152,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/4c83c618ca0155b8a8a426b92fde921c_KSrPJe7y9oA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/buffons-needle-monte-carlo-simulation/index.html"
                     ]
                 },
@@ -331,7 +331,7 @@
                     "youtubeKey": "DrBIORgOzSA",
                     "contentLength": 20288914,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/3d60ed9dcba35244aa025eefc47b4511_DrBIORgOzSA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/calculation-of-normal-probabilities/index.html"
                     ]
                 },
@@ -341,7 +341,7 @@
                     "youtubeKey": "VCyJGp6Enxg",
                     "contentLength": 16264748,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/df460826546c5624ab602527c68e6fc4_VCyJGp6Enxg.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/checkout-counter-example/index.html"
                     ]
                 },
@@ -351,7 +351,7 @@
                     "youtubeKey": "pd7dvQBqQqY",
                     "contentLength": 22049121,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/2e64658c671f57a08c5aa127ca098159_pd7dvQBqQqY.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/clt-examples/index.html"
                     ]
                 },
@@ -361,7 +361,7 @@
                     "youtubeKey": "o_qO7RYBF10",
                     "contentLength": 12550265,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/2c7e7383bf0759429280d85ac2275fca_o_qO7RYBF10.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/combinations/index.html"
                     ]
                 },
@@ -371,7 +371,7 @@
                     "youtubeKey": "mKcWk_DmS7M",
                     "contentLength": 7504289,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/c7e47265ca1b5a37b3c0438d5e58b14c_mKcWk_DmS7M.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/comments-on-conditional-pdfs/index.html"
                     ]
                 },
@@ -381,7 +381,7 @@
                     "youtubeKey": "vJAG4EzSQZA",
                     "contentLength": 7011265,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/3395c67aeac0579885f10366ba32844e_vJAG4EzSQZA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/conditional-expectation-the-total-expectation-theorem/index.html"
                     ]
                 },
@@ -391,7 +391,7 @@
                     "youtubeKey": "strrrdJivco",
                     "contentLength": 5270462,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/adae64221c8c5b2f91880fab864a9a0b_strrrdJivco.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/conditional-expectation-as-a-random-variable/index.html"
                     ]
                 },
@@ -401,7 +401,7 @@
                     "youtubeKey": "2BttG14vI7c",
                     "contentLength": 9938845,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/e11825c0e7a3528e960bac37e5ae7c9f_2BttG14vI7c.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/conditional-expectation-properties/index.html"
                     ]
                 },
@@ -411,7 +411,7 @@
                     "youtubeKey": "7B3cDe39lwY",
                     "contentLength": 3948116,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/15b385f1ec1851d6a774a8d1ac15860a_7B3cDe39lwY.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/conditional-independence/index.html"
                     ]
                 },
@@ -421,7 +421,7 @@
                     "youtubeKey": "Kj6iEzXsFkI",
                     "contentLength": 8791937,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/1e6aa2b0f7a152aab7a5dc3dc30cfbaa_Kj6iEzXsFkI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/conditional-pdfs/index.html"
                     ]
                 },
@@ -431,7 +431,7 @@
                     "youtubeKey": "T_Q3M_HV94w",
                     "contentLength": 14972316,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/4e5762d4560b584a8c460ab3aa934cb1_T_Q3M_HV94w.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/conditional-pmfs/index.html"
                     ]
                 },
@@ -441,7 +441,7 @@
                     "youtubeKey": "2_KBeHiUDiY",
                     "contentLength": 9900713,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/735a35d475c7537bb98f6ac67794502b_2_KBeHiUDiY.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/conditional-pmfs-expectations-given-an-event/index.html"
                     ]
                 },
@@ -451,7 +451,7 @@
                     "youtubeKey": "MPRKc4UPoJk",
                     "contentLength": 10866465,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/7b7362025dc45ddd84337cc7744c1dac_MPRKc4UPoJk.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/conditional-probabilities/index.html"
                     ]
                 },
@@ -461,7 +461,7 @@
                     "youtubeKey": "L_pEeYLGaP0",
                     "contentLength": 10150497,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/c18e68aa0fc35f3e9036a9e8315f7d70_L_pEeYLGaP0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/conditional-probabilities-obey-the-same-axioms/index.html"
                     ]
                 },
@@ -471,7 +471,7 @@
                     "youtubeKey": "mHj4A1gh_ws",
                     "contentLength": 12385292,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/ba5e7af3464853ddb3f19e011e1eb59c_mHj4A1gh_ws.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/conditioning-a-continuous-random-variable-on-an-event/index.html"
                     ]
                 },
@@ -481,7 +481,7 @@
                     "youtubeKey": "5CHUuMZZzSY",
                     "contentLength": 3693757,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/b034712e516453d9ad76c9ef9f83961c_5CHUuMZZzSY.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/conditioning-example/index.html"
                     ]
                 },
@@ -491,7 +491,7 @@
                     "youtubeKey": "NInNhFm046w",
                     "contentLength": 5981051,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/b80faeeec7fa5e1dbab4059c93ac3b86_NInNhFm046w.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/confidence-intervals/index.html"
                     ]
                 },
@@ -501,7 +501,7 @@
                     "youtubeKey": "mImHCY0A3a0",
                     "contentLength": 5447247,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/76ac75da2d9b5efa92b9e3260fb47684_mImHCY0A3a0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/confidence-intervals-for-the-estimation-of-the-mean/index.html"
                     ]
                 },
@@ -511,7 +511,7 @@
                     "youtubeKey": "MzvRQFYUEFU",
                     "contentLength": 7482510,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/ad08edac24ae594d872cbbe3dbbfb7df_MzvRQFYUEFU.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/confidence-intervals-for-the-mean-when-the-variance-is-unknown/index.html"
                     ]
                 },
@@ -521,7 +521,7 @@
                     "youtubeKey": "WFMTus20mz4",
                     "contentLength": 2142648,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/bd20ad76c83551d28cce79bce1a15dbd_WFMTus20mz4.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/continuous-analogs-of-various-properties/index.html"
                     ]
                 },
@@ -531,7 +531,7 @@
                     "youtubeKey": "CN_TJBPv2Qs",
                     "contentLength": 4492532,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/ef6d8fe8de1f5131a3f017d805fcbd3d_CN_TJBPv2Qs.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/continuous-parameter-continuous-observation/index.html"
                     ]
                 },
@@ -541,7 +541,7 @@
                     "youtubeKey": "Ajar_6MAOLw",
                     "contentLength": 11622146,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/80ee1a5c363d5bd09fbb6d2cbc4bfc08_Ajar_6MAOLw.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/convergence-in-probability/index.html"
                     ]
                 },
@@ -551,7 +551,7 @@
                     "youtubeKey": "_l9y2Kv8VHw",
                     "contentLength": 8991516,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/eb7a47f34eaa58dbba67cd7702adafea_l9y2Kv8VHw.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/convergence-in-probability-examples/index.html"
                     ]
                 },
@@ -561,7 +561,7 @@
                     "youtubeKey": "AH5jnR3RxJU",
                     "contentLength": 14337244,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/8040add41b6b5da996a9472d441f36be_AH5jnR3RxJU.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/convergence-in-probability-of-the-sum-of-two-random-variables/index.html"
                     ]
                 },
@@ -571,7 +571,7 @@
                     "youtubeKey": "6-gN0dDHU-4",
                     "contentLength": 8193480,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/f2113481dfba5bdbb80208497ce48744_6-gN0dDHU-4.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/correlations-matter/index.html"
                     ]
                 },
@@ -581,7 +581,7 @@
                     "youtubeKey": "mUxg3j_h5GM",
                     "contentLength": 13589923,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/79102856d62f50f38b0bcbd2b7a4b0c6_mUxg3j_h5GM.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/countable-additivity/index.html"
                     ]
                 },
@@ -591,7 +591,7 @@
                     "youtubeKey": "MqocbJ-FPo0",
                     "contentLength": 8424288,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/fe6a388ba4225574b93d11c1d7fdc266_MqocbJ-FPo0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/countable-and-uncountable-sets/index.html"
                     ]
                 },
@@ -601,7 +601,7 @@
                     "youtubeKey": "K2Tlj27nkjs",
                     "contentLength": 7052870,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/6af0695e356e59bc8942f77ee1e84f2a_K2Tlj27nkjs.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/covariance/index.html"
                     ]
                 },
@@ -611,7 +611,7 @@
                     "youtubeKey": "RQKJBpaCCeo",
                     "contentLength": 8726460,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/6c640f156c505c30bc6ecaea5a091fea_RQKJBpaCCeo.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/covariance-properties/index.html"
                     ]
                 },
@@ -621,7 +621,7 @@
                     "youtubeKey": "4QeL1ma_XJ0",
                     "contentLength": 15861422,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/4a2c084ba5d457ceb99bbe11522f5941_4QeL1ma_XJ0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/cumulative-distribution-functions/index.html"
                     ]
                 },
@@ -631,7 +631,7 @@
                     "youtubeKey": "pdR9hV8mRWE",
                     "contentLength": 6950687,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/cc41ad8b780f5e05b484d0c24f76c0af_pdR9hV8mRWE.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/de-morgans-laws/index.html"
                     ]
                 },
@@ -641,7 +641,7 @@
                     "youtubeKey": "vfqPpai_9jI",
                     "contentLength": 12425283,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/7b37cb56fe5d5eed93e418007f9ca8f5_vfqPpai_9jI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/definition-of-random-variables/index.html"
                     ]
                 },
@@ -651,7 +651,7 @@
                     "youtubeKey": "D_EGYzqmapc",
                     "contentLength": 7663454,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/47e006b3eb815054aedd464d766e454d_D_EGYzqmapc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/definition-of-the-poisson-process/index.html"
                     ]
                 },
@@ -661,7 +661,7 @@
                     "youtubeKey": "mHonq7Gjjqg",
                     "contentLength": 6848557,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/9647617da9545c3794c8522ec5b4e4b5_mHonq7Gjjqg.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/derivation-of-the-law-of-total-variance/index.html"
                     ]
                 },
@@ -671,7 +671,7 @@
                     "youtubeKey": "85le_VkEK5A",
                     "contentLength": 27032089,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/e5f2b9271b8b5836957f7e5e32eee5a6_85le_VkEK5A.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/design-of-a-phone-system/index.html"
                     ]
                 },
@@ -681,7 +681,7 @@
                     "youtubeKey": "27d9Gew3llM",
                     "contentLength": 13539773,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/bab6df6853af50abbcd6b102325fac96_27d9Gew3llM.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/detection-of-a-binary-signal/index.html"
                     ]
                 },
@@ -691,7 +691,7 @@
                     "youtubeKey": "KrjZyCRi29o",
                     "contentLength": 5985323,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/c44029d7b35d54dababa37a859548a22_KrjZyCRi29o.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/die-roll-example/index.html"
                     ]
                 },
@@ -701,7 +701,7 @@
                     "youtubeKey": "GkD5tIgc-Bo",
                     "contentLength": 6069021,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/6f0cf583e01b5fc39a8d2a3523429832_GkD5tIgc-Bo.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/different-sampling-methods-can-give-different-results/index.html"
                     ]
                 },
@@ -711,7 +711,7 @@
                     "youtubeKey": "OlKmZj2TKnk",
                     "contentLength": 6523640,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/9710e60b5b795bf6b45966392712dd45_OlKmZj2TKnk.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/discrete-parameter-continuous-observation/index.html"
                     ]
                 },
@@ -721,7 +721,7 @@
                     "youtubeKey": "aYg2je06Cpg",
                     "contentLength": 10534522,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/5fe494d778725dd4accd034f35a136c7_aYg2je06Cpg.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/discrete-parameter-discrete-observation/index.html"
                     ]
                 },
@@ -731,7 +731,7 @@
                     "youtubeKey": "hsQnmrHbbms",
                     "contentLength": 10259655,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/9dab90c9c147563cbe0f84fd9b1ef5dc_hsQnmrHbbms.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/discrete-time-finite-state-marko-chains/index.html"
                     ]
                 },
@@ -741,7 +741,7 @@
                     "youtubeKey": "Cw2Lz5I3wk0",
                     "contentLength": 11838707,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/8840605b06975ef3ad525d8b428cc13e_Cw2Lz5I3wk0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/discussion-of-the-clt/index.html"
                     ]
                 },
@@ -751,7 +751,7 @@
                     "youtubeKey": "IC-pnm6PEGk",
                     "contentLength": 11714180,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/6b6ed28a067e54a8bb38e10f6410a3d5_IC-pnm6PEGk.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/each-person-gets-an-ace/index.html"
                     ]
                 },
@@ -761,7 +761,7 @@
                     "youtubeKey": "GARQ31BrKQA",
                     "contentLength": 5533146,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/0b5b3147d5895a698d37651983c28cea_GARQ31BrKQA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/elementary-properties-of-expectation/index.html"
                     ]
                 },
@@ -771,7 +771,7 @@
                     "youtubeKey": "qgICsL7ybWc",
                     "contentLength": 11468690,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/b6079fc40a9c595a89c7b9820e824b68_qgICsL7ybWc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/estimating-a-normal-random-variable-in-the-presence-of-additive-noise/index.html"
                     ]
                 },
@@ -781,7 +781,7 @@
                     "youtubeKey": "JsEvwRGa1JA",
                     "contentLength": 6118748,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/8db7cf1d3d415f29b42c659e06c553a5_JsEvwRGa1JA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/example/index.html"
                     ]
                 },
@@ -791,7 +791,7 @@
                     "youtubeKey": "tpaE_C8rqf8",
                     "contentLength": 7880108,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/3f65b1db55735939b5fcfdbdaa3f5f9d_tpaE_C8rqf8.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/example-continued-lms-performance-evaluation/index.html"
                     ]
                 },
@@ -801,7 +801,7 @@
                     "youtubeKey": "5kdv3r-YgK0",
                     "contentLength": 5188230,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/c7a882b4a48a5e739b81abd11f9893c2_5kdv3r-YgK0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/example-the-distribution-of-a-busy-period/index.html"
                     ]
                 },
@@ -811,7 +811,7 @@
                     "youtubeKey": "O-dyKz5dpeY",
                     "contentLength": 8005874,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/d97fe3ace7945dc5aa504c8c6d40555a_O-dyKz5dpeY.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/example-the-lms-estimate/index.html"
                     ]
                 },
@@ -821,7 +821,7 @@
                     "youtubeKey": "_yJsO5955ZE",
                     "contentLength": 14246387,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/b21fe4a5d11552d8a51d8458d903e31b_yJsO5955ZE.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/expectation/index.html"
                     ]
                 },
@@ -831,7 +831,7 @@
                     "youtubeKey": "iUF135CGTeI",
                     "contentLength": 17514056,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/d99f2eed6d6c52dfbad7ff8e05cda217_iUF135CGTeI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/expected-time-to-absorption/index.html"
                     ]
                 },
@@ -841,7 +841,7 @@
                     "youtubeKey": "FOFtMqCxZt0",
                     "contentLength": 11094745,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/65fd0c86debe5b32985253e227862a29_FOFtMqCxZt0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/exponential-random-variables/index.html"
                     ]
                 },
@@ -851,7 +851,7 @@
                     "youtubeKey": "-T34yGp4T7A",
                     "contentLength": 5759360,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/cadbdbd0624754f7ae0e9ed84fd8909c_-T34yGp4T7A.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/forecast-revisions/index.html"
                     ]
                 },
@@ -861,7 +861,7 @@
                     "youtubeKey": "h8DKVKfWU_Q",
                     "contentLength": 9856749,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/76fdd61a87585829bc4f57c2be343431_h8DKVKfWU_Q.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/from-the-joint-to-the-marginal/index.html"
                     ]
                 },
@@ -871,7 +871,7 @@
                     "youtubeKey": "Ne2lmAZI4-I",
                     "contentLength": 17427314,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/a8bafa9c69835d3b80130881e7da1a09_Ne2lmAZI4-I.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/gamblers-ruin/index.html"
                     ]
                 },
@@ -881,7 +881,7 @@
                     "youtubeKey": "h2w1tTTltrU",
                     "contentLength": 8185773,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/918b4c9567815414b454d14ef1c28713_h2w1tTTltrU.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/generic-convergenc-questions/index.html"
                     ]
                 },
@@ -891,7 +891,7 @@
                     "youtubeKey": "MuqLI4otMIQ",
                     "contentLength": 13279749,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/85a7db27a5b454d78df551536af71933_MuqLI4otMIQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/geometric-pmf-memorylessness-expectation/index.html"
                     ]
                 },
@@ -901,7 +901,7 @@
                     "youtubeKey": "whbKmwMmB4s",
                     "contentLength": 10726674,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/3e36c76ccc3653a38c28e25a70a2c7a3_whbKmwMmB4s.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/geometric-random-variables/index.html"
                     ]
                 },
@@ -911,7 +911,7 @@
                     "youtubeKey": "MWcO8ZTOQQQ",
                     "contentLength": 28080499,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/e14f7b09649752cdb4f16238abe48c85_MWcO8ZTOQQQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/hoeffdings-inequality/index.html"
                     ]
                 },
@@ -921,7 +921,7 @@
                     "youtubeKey": "Bj3sA7vGpYo",
                     "contentLength": 3554739,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/f93f6f16e4b250739fb747060a211d60_Bj3sA7vGpYo.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/illustration-of-the-clt/index.html"
                     ]
                 },
@@ -931,7 +931,7 @@
                     "youtubeKey": "JCQnsPggTp8",
                     "contentLength": 3853439,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/948cf99e66b65e6b92b77ee999ee3297_JCQnsPggTp8.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/independence/index.html"
                     ]
                 },
@@ -941,7 +941,7 @@
                     "youtubeKey": "R4nGGs0m7lo",
                     "contentLength": 6589662,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/ee93ea9c67ad54758bf5840f4a466b1c_R4nGGs0m7lo.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/independence-expectations/index.html"
                     ]
                 },
@@ -951,7 +951,7 @@
                     "youtubeKey": "UbQcqFH33G0",
                     "contentLength": 9076524,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/6a03b20d707a57d6aea30a368d6236b0_UbQcqFH33G0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/independence-of-a-collection-of-events/index.html"
                     ]
                 },
@@ -961,7 +961,7 @@
                     "youtubeKey": "JZkT3NU2mPM",
                     "contentLength": 4463856,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/2f8dcde5b08f58e8b55d76109b48301e_JZkT3NU2mPM.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/independence-of-event-complements/index.html"
                     ]
                 },
@@ -971,7 +971,7 @@
                     "youtubeKey": "F6H50Hbulbk",
                     "contentLength": 7071243,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/92574311ad6f51fabb09e29b54df368f_F6H50Hbulbk.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/independence-of-random-variables/index.html"
                     ]
                 },
@@ -981,7 +981,7 @@
                     "youtubeKey": "GOmLwHaa8Ik",
                     "contentLength": 9914399,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/5075eed97b985f11add98f7a0898ebba_GOmLwHaa8Ik.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/independence-of-random-variables-versus-independence-of-events/index.html"
                     ]
                 },
@@ -991,7 +991,7 @@
                     "youtubeKey": "w423ypsUHf0",
                     "contentLength": 7400464,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/fe2bbc14662150d8b05d5bfd3acd77dd_w423ypsUHf0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/independence-of-two-events/index.html"
                     ]
                 },
@@ -1001,7 +1001,7 @@
                     "youtubeKey": "TAyA-rjmesQ",
                     "contentLength": 7835420,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/38516d4dfdec50baa4c130c4d2f1e9f8_TAyA-rjmesQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/independence-versus-conditional-independence/index.html"
                     ]
                 },
@@ -1011,7 +1011,7 @@
                     "youtubeKey": "aJXfyfQs2Mc",
                     "contentLength": 13348010,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/df67a8af0854562596b2f3ae267e5f31_aJXfyfQs2Mc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/independence-versus-pairwise-independence/index.html"
                     ]
                 },
@@ -1021,7 +1021,7 @@
                     "youtubeKey": "YQ26hzI4OJk",
                     "contentLength": 9777473,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/dd8686bab82958d58a18e0341bc4e439_YQ26hzI4OJk.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/independence-variances-the-binomial-variance/index.html"
                     ]
                 },
@@ -1031,7 +1031,7 @@
                     "youtubeKey": "qOQxeYGOIag",
                     "contentLength": 7373754,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/ada0e40124a3535681cf7f8eda924d54_qOQxeYGOIag.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/independent-normals/index.html"
                     ]
                 },
@@ -1041,7 +1041,7 @@
                     "youtubeKey": "wnts35dE1Sg",
                     "contentLength": 8076509,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/b94a9e3c5dcd56e9932c136a5d5e25be_wnts35dE1Sg.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/inference-of-the-bias-of-a-coin/index.html"
                     ]
                 },
@@ -1051,7 +1051,7 @@
                     "youtubeKey": "46Ym07yKf4A",
                     "contentLength": 13558229,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/336b064fa57d5ea783d2d5aab4de4d6f_46Ym07yKf4A.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/inferring-the-unknown-bias-of-a-coin-and-the-beta-distribution/index.html"
                     ]
                 },
@@ -1061,7 +1061,7 @@
                     "youtubeKey": "gJSPef9zC0c",
                     "contentLength": 17388702,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/02fea3ab2e7e508fa43ff056fab55d2c_gJSPef9zC0c.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/inferring-the-unknown-bias-of-a-coin2014point-estimates/index.html"
                     ]
                 },
@@ -1071,7 +1071,7 @@
                     "youtubeKey": "nYe4OZVCnIs",
                     "contentLength": 3701256,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/8d3c143ddca55d0ea0e727ec024615cc_nYe4OZVCnIs.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/infinite-series/index.html"
                     ]
                 },
@@ -1081,7 +1081,7 @@
                     "youtubeKey": "uGGTX2ypzKI",
                     "contentLength": 4359372,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/e7b5225fe8615e109da3ffb0b4eee61b_uGGTX2ypzKI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/interpretations-uses-of-probabilities/index.html"
                     ]
                 },
@@ -1091,7 +1091,7 @@
                     "youtubeKey": "J3aMHIajtFc",
                     "contentLength": 12309367,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/9f3c71d954aa525393381bfd4976289e_J3aMHIajtFc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/interpreting-the-correlation-coefficient/index.html"
                     ]
                 },
@@ -1101,7 +1101,7 @@
                     "youtubeKey": "K-ck5dOsPgQ",
                     "contentLength": 2381832,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/7d440e11b71658e191acf393852fdbef_K-ck5dOsPgQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/introduction-to-markov-processes/index.html"
                     ]
                 },
@@ -1111,7 +1111,7 @@
                     "youtubeKey": "GDJFLfmyb20",
                     "contentLength": 17776790,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/e34fe2204760515ba4625c05759c0821_GDJFLfmyb20.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/jensens-inequality/index.html"
                     ]
                 },
@@ -1121,7 +1121,7 @@
                     "youtubeKey": "AVVbUKstn8A",
                     "contentLength": 6111150,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/ab24c316a1e753f59214bd46d6d0b63f_AVVbUKstn8A.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/joint-cdfs/index.html"
                     ]
                 },
@@ -1131,7 +1131,7 @@
                     "youtubeKey": "O4QYcoxuLHE",
                     "contentLength": 11599424,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/7c3b7d78ee805ece95c0b5135f536b2e_O4QYcoxuLHE.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/joint-pdfs/index.html"
                     ]
                 },
@@ -1141,7 +1141,7 @@
                     "youtubeKey": "7nu97OYx4X4",
                     "contentLength": 13143483,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/5fee937e77135686bd2565933124f694_7nu97OYx4X4.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/joint-pmfs-and-the-expected-value-rule/index.html"
                     ]
                 },
@@ -1151,7 +1151,7 @@
                     "youtubeKey": "d5mV88S2fNY",
                     "contentLength": 4694130,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/735ee0bccabc51ffaf7fadc905a6db6c_d5mV88S2fNY.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-overview-10/index.html"
                     ]
                 },
@@ -1161,7 +1161,7 @@
                     "youtubeKey": "poeHeiiiLKI",
                     "contentLength": 6115100,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/963e629913005389a62703efc76d144e_poeHeiiiLKI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-overview-3/index.html"
                     ]
                 },
@@ -1171,7 +1171,7 @@
                     "youtubeKey": "Hmm9IqosCv4",
                     "contentLength": 4594693,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/683d928037be5e20bddf5e0e15119dd6_Hmm9IqosCv4.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-overview-5-1/index.html"
                     ]
                 },
@@ -1181,7 +1181,7 @@
                     "youtubeKey": "1uW3qMFA9Ho",
                     "contentLength": 4700274,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/66227fe0ddde5e82abeb73b32aaf1e54_1uW3qMFA9Ho.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-overview/index.html"
                     ]
                 },
@@ -1191,7 +1191,7 @@
                     "youtubeKey": "G11r4Srh4u8",
                     "contentLength": 4043369,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/2c1e01eda23e5b1982a4b91444b17a77_G11r4Srh4u8.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-overview-8/index.html"
                     ]
                 },
@@ -1201,7 +1201,7 @@
                     "youtubeKey": "MlsVWPWIxHI",
                     "contentLength": 3195626,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/9d776bbd40eb582091d1faf2d1d55352_MlsVWPWIxHI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-overview-2-1/index.html"
                     ]
                 },
@@ -1211,7 +1211,7 @@
                     "youtubeKey": "B5y6fy5iUtg",
                     "contentLength": 5234381,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/16a3b23f1a3f503091d5836e77429203_B5y6fy5iUtg.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-overview-1/index.html"
                     ]
                 },
@@ -1221,7 +1221,7 @@
                     "youtubeKey": "P5rZKt3SgNM",
                     "contentLength": 6767361,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/4a597814f8ac5319a871287390ce1964_P5rZKt3SgNM.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-overview-6-1/index.html"
                     ]
                 },
@@ -1231,7 +1231,7 @@
                     "youtubeKey": "QXKgTPR_8wk",
                     "contentLength": 3693740,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/aa61d75b37d85f14b359a04cf73d0763_QXKgTPR_8wk.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-overview-2/index.html"
                     ]
                 },
@@ -1241,7 +1241,7 @@
                     "youtubeKey": "wBnlmQR5Vhk",
                     "contentLength": 3813213,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/f1801536c89f537cae345e7771b4cf3c_wBnlmQR5Vhk.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-overview-11/index.html"
                     ]
                 },
@@ -1251,7 +1251,7 @@
                     "youtubeKey": "uviHu6m_YnM",
                     "contentLength": 1687548,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/8b96bc497d4955f3b9b68536b97b5e36_uviHu6m_YnM.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-overview-5-2/index.html"
                     ]
                 },
@@ -1261,7 +1261,7 @@
                     "youtubeKey": "ArfHGPHL8kU",
                     "contentLength": 4231114,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/dbec09cda9a851a2a0360d1b0b4d2393_ArfHGPHL8kU.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-overview-4/index.html"
                     ]
                 },
@@ -1271,7 +1271,7 @@
                     "youtubeKey": "HDvYPl8D8Bs",
                     "contentLength": 5061520,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/c9c3151247b95411bf9bad06df3dcbb4_HDvYPl8D8Bs.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-overview-14/index.html"
                     ]
                 },
@@ -1281,7 +1281,7 @@
                     "youtubeKey": "FMrYw7sgyxQ",
                     "contentLength": 4996422,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/4581be577cf85da380c87c22cb9a55aa_FMrYw7sgyxQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-overview-1-1/index.html"
                     ]
                 },
@@ -1291,7 +1291,7 @@
                     "youtubeKey": "zc6PfijY8_s",
                     "contentLength": 4528101,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/3b74fa94cdef5f969c38b8c678fdb909_zc6PfijY8_s.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-overview-12/index.html"
                     ]
                 },
@@ -1301,7 +1301,7 @@
                     "youtubeKey": "17Z89x_ZWQ4",
                     "contentLength": 4609812,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/dcffad9c22b759e3afdee7adb973e173_17Z89x_ZWQ4.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-overview-6/index.html"
                     ]
                 },
@@ -1311,7 +1311,7 @@
                     "youtubeKey": "kwbDWPrPfQI",
                     "contentLength": 4276144,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/411db912ebf358d19bffa6a445d39049_kwbDWPrPfQI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-overview-3-1/index.html"
                     ]
                 },
@@ -1321,7 +1321,7 @@
                     "youtubeKey": "LBiYeL4qD2M",
                     "contentLength": 4950063,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/dd7f26a72f4b5ad4b8ab605861ef1885_LBiYeL4qD2M.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-overview-3-2/index.html"
                     ]
                 },
@@ -1331,7 +1331,7 @@
                     "youtubeKey": "7wqaa4uqwao",
                     "contentLength": 4193726,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/3084bb581675533ab85ea51373fe8d86_7wqaa4uqwao.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-overview-2-2/index.html"
                     ]
                 },
@@ -1341,7 +1341,7 @@
                     "youtubeKey": "sD0i6bWxmRY",
                     "contentLength": 4905997,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/060accbb07225493a1462dbb336410a1_sD0i6bWxmRY.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-overview-4-1/index.html"
                     ]
                 },
@@ -1351,7 +1351,7 @@
                     "youtubeKey": "eXf2Zak-s0o",
                     "contentLength": 3196730,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/ad6951421cdb53e392770475a1327433_eXf2Zak-s0o.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-overview-7/index.html"
                     ]
                 },
@@ -1361,7 +1361,7 @@
                     "youtubeKey": "aNLEnFtWwhg",
                     "contentLength": 5398621,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/fe047f6c20cb5f8f917ddad2965422f7_aNLEnFtWwhg.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-overview-13/index.html"
                     ]
                 },
@@ -1371,7 +1371,7 @@
                     "youtubeKey": "nQukfQgIIqw",
                     "contentLength": 4313260,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/3b5d5fc748fc5d528e8ddb8420b70e64_nQukfQgIIqw.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-overview-9/index.html"
                     ]
                 },
@@ -1381,7 +1381,7 @@
                     "youtubeKey": "UZOT_ddWpco",
                     "contentLength": 1089624,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/c94c0fc440ea53c0a034531fdf367a50_UZOT_ddWpco.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-overview-4-2/index.html"
                     ]
                 },
@@ -1391,7 +1391,7 @@
                     "youtubeKey": "n9FTM9f9A6I",
                     "contentLength": 5059199,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/a7168904bd4f553ab2311aa57af39ff9_n9FTM9f9A6I.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-overview-5/index.html"
                     ]
                 },
@@ -1401,7 +1401,7 @@
                     "youtubeKey": "RVc5hXzVFc4",
                     "contentLength": 3897347,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/e63631ce32e950c3a5f574f77b4e15cf_RVc5hXzVFc4.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-overview-1-2/index.html"
                     ]
                 },
@@ -1411,7 +1411,7 @@
                     "youtubeKey": "qinepPxDUcY",
                     "contentLength": 7460753,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/7cb93c8ae7675a05ad67d399a5f188d9_qinepPxDUcY.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/linear-normal-models/index.html"
                     ]
                 },
@@ -1421,7 +1421,7 @@
                     "youtubeKey": "0IJFBMIU6x4",
                     "contentLength": 6021566,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/86b98e44d6ab5e7e93ed8570eb100e37_0IJFBMIU6x4.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/linearity-of-expectations/index.html"
                     ]
                 },
@@ -1431,7 +1431,7 @@
                     "youtubeKey": "TbRh71BMJvw",
                     "contentLength": 10964137,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/0668db27fec659e3960117060456d742_TbRh71BMJvw.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/linearity-of-expectations-the-mean-of-the-binomial/index.html"
                     ]
                 },
@@ -1441,7 +1441,7 @@
                     "youtubeKey": "KPF8owESMdo",
                     "contentLength": 12179392,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/c42dab45b19b548da3147dea0e4df3c1_KPF8owESMdo.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/llms-example/index.html"
                     ]
                 },
@@ -1451,7 +1451,7 @@
                     "youtubeKey": "4CkWjk40TBY",
                     "contentLength": 19029519,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/82cb044008df5d499119f3d4f0ec6252_4CkWjk40TBY.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/llms-for-inferring-the-parameter-of-a-coin/index.html"
                     ]
                 },
@@ -1461,7 +1461,7 @@
                     "youtubeKey": "_HL7qwWvON4",
                     "contentLength": 6806724,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/470ac37a63ad5cbcba42c594ec7ce4cd_HL7qwWvON4.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/llms-formulation/index.html"
                     ]
                 },
@@ -1471,7 +1471,7 @@
                     "youtubeKey": "ipSdsosGJBs",
                     "contentLength": 9128400,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/95457f696ce75f6f8426816783280991_ipSdsosGJBs.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/llms-with-multiple-observations/index.html"
                     ]
                 },
@@ -1481,7 +1481,7 @@
                     "youtubeKey": "gH_OmTJ9vQs",
                     "contentLength": 8136764,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/a595f80ee8ce5563a25a5690727247a0_gH_OmTJ9vQs.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lms-estimation-in-the-absence-of-observations/index.html"
                     ]
                 },
@@ -1491,7 +1491,7 @@
                     "youtubeKey": "1R4IzkWSNgI",
                     "contentLength": 16953205,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/37437b2326e15f70a72fd8935d784e80_1R4IzkWSNgI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lms-estimation-of-one-random-variable-based-on-another/index.html"
                     ]
                 },
@@ -1501,7 +1501,7 @@
                     "youtubeKey": "jzhFxJflHXQ",
                     "contentLength": 7241036,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/9b6f4dcfe82058cca41a33bd36505256_jzhFxJflHXQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lms-estimation-with-multiple-observations-or-unknowns/index.html"
                     ]
                 },
@@ -1511,7 +1511,7 @@
                     "youtubeKey": "CdrVM6MGnGo",
                     "contentLength": 4789483,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/4e74413fbe945861ac59fad291c31867_CdrVM6MGnGo.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lms-performance-evaluation/index.html"
                     ]
                 },
@@ -1521,7 +1521,7 @@
                     "youtubeKey": "cph71QcwHeQ",
                     "contentLength": 12295973,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/2675848db2fd5b9bb9b7ab37fe75cf9a_cph71QcwHeQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/markov-chain-review/index.html"
                     ]
                 },
@@ -1531,7 +1531,7 @@
                     "youtubeKey": "-630YTQEuCI",
                     "contentLength": 1723364,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/94d383bb3295594e93e602166ac250ca_-630YTQEuCI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mathematical-background-overview/index.html"
                     ]
                 },
@@ -1541,7 +1541,7 @@
                     "youtubeKey": "ZgCBmERwZlI",
                     "contentLength": 6861755,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/5216a2a115915cc9a656186d1ed10389_ZgCBmERwZlI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/maximum-likelihood-estimation/index.html"
                     ]
                 },
@@ -1551,7 +1551,7 @@
                     "youtubeKey": "00krscK7iBA",
                     "contentLength": 11645091,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/93fd3f4a2d91582b977c3ded5a51359a_00krscK7iBA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/maximum-likelihood-estimation-examples/index.html"
                     ]
                 },
@@ -1561,7 +1561,7 @@
                     "youtubeKey": "bXmDp8R8n8U",
                     "contentLength": 5436627,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/4de782884e8c5b7ebc0f0c0000a2b53e_bXmDp8R8n8U.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mean-variance-of-the-uniform/index.html"
                     ]
                 },
@@ -1571,7 +1571,7 @@
                     "youtubeKey": "BW_EHmZf2pM",
                     "contentLength": 12142429,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/746a4247ccfa5fccb14693dfc6ff98a8_BW_EHmZf2pM.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mean-first-passage-time/index.html"
                     ]
                 },
@@ -1581,7 +1581,7 @@
                     "youtubeKey": "xdewLsXI_UQ",
                     "contentLength": 8483538,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/e0d2fcd0267551bfa759044e613c0ce7_xdewLsXI_UQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mean-of-the-sum-of-a-random-number-of-random-variables/index.html"
                     ]
                 },
@@ -1591,7 +1591,7 @@
                     "youtubeKey": "wOmfOJyxZ6M",
                     "contentLength": 9440537,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/d2de23ee433c566da36165ed3de74259_wOmfOJyxZ6M.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/means-variances/index.html"
                     ]
                 },
@@ -1601,7 +1601,7 @@
                     "youtubeKey": "3kxnPEDecIA",
                     "contentLength": 9849684,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/a3a6a57407815434bfbcf45501434d9a_3kxnPEDecIA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/memorylessness-of-the-exponential-pdf/index.html"
                     ]
                 },
@@ -1611,7 +1611,7 @@
                     "youtubeKey": "XWKXOUvqC-U",
                     "contentLength": 10407858,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/820d2c468eec5a03896e36a1515023bb_XWKXOUvqC-U.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/merging-independent-poisson-processes/index.html"
                     ]
                 },
@@ -1621,7 +1621,7 @@
                     "youtubeKey": "AyCLokHV774",
                     "contentLength": 11958019,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/87c881b56d7a5f95862b85731d543ef5_AyCLokHV774.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/merging-of-bernoulli-processes/index.html"
                     ]
                 },
@@ -1631,7 +1631,7 @@
                     "youtubeKey": "363JQxFwLXg",
                     "contentLength": 11474061,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/26b6bf0b48995c45949a4fab8187fa71_363JQxFwLXg.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mixed-bayes-rule/index.html"
                     ]
                 },
@@ -1641,7 +1641,7 @@
                     "youtubeKey": "VJhDWandNwc",
                     "contentLength": 6854790,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/cc8488058ab15795b9df3caa085a7a00_VJhDWandNwc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mixed-random-variables/index.html"
                     ]
                 },
@@ -1651,7 +1651,7 @@
                     "youtubeKey": "N3I2ZLbh6zQ",
                     "contentLength": 12548186,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/f99f8e0f8d74537d8793415b6cea03c5_N3I2ZLbh6zQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/more-properties-of-probabilities/index.html"
                     ]
                 },
@@ -1661,7 +1661,7 @@
                     "youtubeKey": "5A_H1eHbOCY",
                     "contentLength": 13114562,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/f7e1046eddb25eee9549e1dc6f9a2227_2371421.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/multinomial-probabilities/index.html"
                     ]
                 },
@@ -1671,7 +1671,7 @@
                     "youtubeKey": "rFUb1nvh3CQ",
                     "contentLength": 13216784,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/f3dde0dda37c59feb0e97c9be352c032_rFUb1nvh3CQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/multiple-parameters-trajectory-estimation/index.html"
                     ]
                 },
@@ -1681,7 +1681,7 @@
                     "youtubeKey": "UwwqPwp16_0",
                     "contentLength": 15254279,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/95240ac14c195ca5981633ec5baf5b5e_UwwqPwp16_0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/n2013step-transition-probabilities/index.html"
                     ]
                 },
@@ -1691,7 +1691,7 @@
                     "youtubeKey": "fBfMIVXc_OM",
                     "contentLength": 17459745,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/9c309d0f5f7c5d95a882f3e18ad15b75_fBfMIVXc_OM.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/normal-approximation-to-the-binomial/index.html"
                     ]
                 },
@@ -1701,7 +1701,7 @@
                     "youtubeKey": "6UMv4vb4y7c",
                     "contentLength": 10889519,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/114cb6b4d24b5534a6ee6833572b692b_6UMv4vb4y7c.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/normal-random-variables/index.html"
                     ]
                 },
@@ -1711,7 +1711,7 @@
                     "youtubeKey": "lET4uQLpmM0",
                     "contentLength": 8169039,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/8926f026ea845707b3edb35af647099c_lET4uQLpmM0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/on-the-mean-squared-error-of-an-estimator/index.html"
                     ]
                 },
@@ -1721,7 +1721,7 @@
                     "youtubeKey": "8Zq9TKaCV-A",
                     "contentLength": 4946159,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/0e9d2e6321e55fe5aafbb5688bb9773c_8Zq9TKaCV-A.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/other-natural-estimators/index.html"
                     ]
                 },
@@ -1731,7 +1731,7 @@
                     "youtubeKey": "z1lAn4GMaFs",
                     "contentLength": 10424094,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/7364fccdf9ad55e19054309e8877a598_z1lAn4GMaFs.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/overview-of-some-application-domains/index.html"
                     ]
                 },
@@ -1741,7 +1741,7 @@
                     "youtubeKey": "fMHJPEcoC08",
                     "contentLength": 12125335,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/3ea8bf82db785b5dbb17e282a50d7561_fMHJPEcoC08.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/overview-of-the-classical-statistical-framework/index.html"
                     ]
                 },
@@ -1751,7 +1751,7 @@
                     "youtubeKey": "hJjiCrdsNV8",
                     "contentLength": 7577927,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/1d06eb58a7fd5a5eb1f2b089b1ded14f_hJjiCrdsNV8.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/partitions/index.html"
                     ]
                 },
@@ -1761,7 +1761,7 @@
                     "youtubeKey": "TWedESDFcLQ",
                     "contentLength": 10944711,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/44a51f812c3e5020af00f821d8ed04bc_TWedESDFcLQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/periodic-states/index.html"
                     ]
                 },
@@ -1771,7 +1771,7 @@
                     "youtubeKey": "3vMZtGUdTVw",
                     "contentLength": 13802595,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/4e94cf7aee6753b080c7b942a5b2f06e_3vMZtGUdTVw.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/poisson-arrivals-during-an-exponential-interval/index.html"
                     ]
                 },
@@ -1781,7 +1781,7 @@
                     "youtubeKey": "t_EcSVTWmwk",
                     "contentLength": 11782954,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/0cd515c81bb35c19b8e1a5de73ddd8a2_t_EcSVTWmwk.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/poisson-versus-normal-approximations-to-the-binomial/index.html"
                     ]
                 },
@@ -1791,7 +1791,7 @@
                     "youtubeKey": "uQTFiXQR4PQ",
                     "contentLength": 10451325,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/72c744150d9e59ab8f32591423bc93b0_uQTFiXQR4PQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/polling/index.html"
                     ]
                 },
@@ -1801,7 +1801,7 @@
                     "youtubeKey": "mxpC3MEiATQ",
                     "contentLength": 22093875,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/5eb11b35e8ea545f82993d64063642c7_mxpC3MEiATQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/polling-revisited/index.html"
                     ]
                 },
@@ -1811,7 +1811,7 @@
                     "youtubeKey": "pA83XtLeVig",
                     "contentLength": 10756394,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/bffdf52efb1e59ffb1574459a694b1c8_pA83XtLeVig.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/probability-axioms/index.html"
                     ]
                 },
@@ -1821,7 +1821,7 @@
                     "youtubeKey": "8QFpZ3FndBc",
                     "contentLength": 13743118,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/3b1404804a9257b787f9b13fe136dc54_8QFpZ3FndBc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/probability-density-functions/index.html"
                     ]
                 },
@@ -1831,7 +1831,7 @@
                     "youtubeKey": "zW1_iugJvF0",
                     "contentLength": 15637517,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/5edde925c50f56f898d3bd941b08cf9d_zW1_iugJvF0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/probability-mass-functions/index.html"
                     ]
                 },
@@ -1841,7 +1841,7 @@
                     "youtubeKey": "uxVRfj60z98",
                     "contentLength": 5207488,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/9a570c0b3ea25720af25144e41e1b539_uxVRfj60z98.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/proof-of-key-properties-of-the-correlation-coefficient/index.html"
                     ]
                 },
@@ -1851,7 +1851,7 @@
                     "youtubeKey": "YIZd23zGV3M",
                     "contentLength": 5526086,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/d0efd8ac14a75ef98a1d6a7390d12f5a_YIZd23zGV3M.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/proof-that-a-set-of-real-numbers-is-uncountable/index.html"
                     ]
                 },
@@ -1861,7 +1861,7 @@
                     "youtubeKey": "BlO3xyeaZME",
                     "contentLength": 9771256,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/bbf1dd17744854518ba2cbc565304a73_BlO3xyeaZME.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/properties-of-the-lms-estimation-error/index.html"
                     ]
                 },
@@ -1871,7 +1871,7 @@
                     "youtubeKey": "aS1o7uTaLF0",
                     "contentLength": 6845423,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/d53e6ebeb216513fa82c685017d0dd1b_aS1o7uTaLF0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/random-incidence-in-a-non2013poisson-process/index.html"
                     ]
                 },
@@ -1881,7 +1881,7 @@
                     "youtubeKey": "sG3_Bveu_cA",
                     "contentLength": 16421860,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/fe62ca9968fb5a18b5907b85e8fe848e_sG3_Bveu_cA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/random-incidence-in-the-poisson-process/index.html"
                     ]
                 },
@@ -1891,7 +1891,7 @@
                     "youtubeKey": "RgGFvOpcQXY",
                     "contentLength": 11250938,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/c7e465bb25125e3ca3649ef5cc97456a_RgGFvOpcQXY.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/recognizing-normal-pdfs/index.html"
                     ]
                 },
@@ -1901,7 +1901,7 @@
                     "youtubeKey": "wSQaYn2h-e8",
                     "contentLength": 7009390,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/2cb348d35f6057f5aa6c6ba50eaf88b5_wSQaYn2h-e8.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/recurrent-and-transient-states/index.html"
                     ]
                 },
@@ -1911,7 +1911,7 @@
                     "youtubeKey": "UcKhhEc_LyQ",
                     "contentLength": 6751863,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/d5e3f06ebd1357f0bb16b15b818379f2_UcKhhEc_LyQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/recurrent-and-transient-states-review/index.html"
                     ]
                 },
@@ -1921,7 +1921,7 @@
                     "youtubeKey": "iBqEF1cB7nE",
                     "contentLength": 9104748,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/241107cfde7856c8b04b3677369c0713_iBqEF1cB7nE.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/related-topics/index.html"
                     ]
                 },
@@ -1931,7 +1931,7 @@
                     "youtubeKey": "UDkq_cLVSmc",
                     "contentLength": 9451448,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/b787bcf19a6456d585c54247c34bf4ed_UDkq_cLVSmc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/reliability/index.html"
                     ]
                 },
@@ -1941,7 +1941,7 @@
                     "youtubeKey": "yqdcK6-9kv8",
                     "contentLength": 14316033,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/85abca6627125bd3bfc57a5460735b38_yqdcK6-9kv8.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/remarks-on-the-llms-solution-and-on-the-error-variance/index.html"
                     ]
                 },
@@ -1951,7 +1951,7 @@
                     "youtubeKey": "rRwWYRh8Ypg",
                     "contentLength": 18791402,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/87e150769ed3511bbeb9769e141db090_rRwWYRh8Ypg.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/review-of-steady-state-behavior/index.html"
                     ]
                 },
@@ -1961,7 +1961,7 @@
                     "youtubeKey": "iQ2edOqEQAs",
                     "contentLength": 9557050,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/2f588cb64df35033bf1365f72003e619_iQ2edOqEQAs.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/sample-space/index.html"
                     ]
                 },
@@ -1971,7 +1971,7 @@
                     "youtubeKey": "__T3eJtjoic",
                     "contentLength": 4831201,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/a3813e3b8b8053f48a40387efac31987_T3eJtjoic.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/sample-space-examples/index.html"
                     ]
                 },
@@ -1981,7 +1981,7 @@
                     "youtubeKey": "BjjkSM1Dasg",
                     "contentLength": 11077463,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/d163302cd750514983eb5e99c1d69576_BjjkSM1Dasg.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/section-means-and-variances/index.html"
                     ]
                 },
@@ -1991,7 +1991,7 @@
                     "youtubeKey": "kuhlfBPQPq0",
                     "contentLength": 8662758,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/1bf44891416959a8b5bde6d528d6fbd6_kuhlfBPQPq0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/sequences-and-their-limits/index.html"
                     ]
                 },
@@ -2001,7 +2001,7 @@
                     "youtubeKey": "47W1ApSRUqs",
                     "contentLength": 14516341,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/8c38476dc9ab5466ab1a1e7c9fb37bce_47W1ApSRUqs.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/sets/index.html"
                     ]
                 },
@@ -2011,7 +2011,7 @@
                     "youtubeKey": "WTyLg_I1oFY",
                     "contentLength": 16599758,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/243fe46acdef5dd7b6ba93990b8fa009_WTyLg_I1oFY.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/simple-properties-of-probabilities/index.html"
                     ]
                 },
@@ -2021,7 +2021,7 @@
                     "youtubeKey": "yvHu34mEXzk",
                     "contentLength": 17477255,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/e2a5b97b131251b2ae1bf671aedee1ee_yvHu34mEXzk.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/simulation/index.html"
                     ]
                 },
@@ -2031,7 +2031,7 @@
                     "youtubeKey": "k9f0N3ADvdM",
                     "contentLength": 8642259,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/b7650785e6f951df90e29ba110c3a61b_k9f0N3ADvdM.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/solution-to-the-llms-problem/index.html"
                     ]
                 },
@@ -2041,7 +2041,7 @@
                     "youtubeKey": "ozbtgvLKAqE",
                     "contentLength": 7496309,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/6cb41f9e38c35794bd75e28fbf9ba5f6_ozbtgvLKAqE.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/splitting-a-bernoulli-process/index.html"
                     ]
                 },
@@ -2051,7 +2051,7 @@
                     "youtubeKey": "eV0kTm1h7mQ",
                     "contentLength": 6382642,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/beedec198add52679db254b966212b57_eV0kTm1h7mQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/splitting-a-poisson-process/index.html"
                     ]
                 },
@@ -2061,7 +2061,7 @@
                     "youtubeKey": "99yuPxvdfP8",
                     "contentLength": 20020320,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/6703727c25ee5000b46fd48023b0b2f0_99yuPxvdfP8.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/steady-state-probabilities-and-convergence/index.html"
                     ]
                 },
@@ -2071,7 +2071,7 @@
                     "youtubeKey": "aXFbBcabaQA",
                     "contentLength": 16515469,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/f19bcddec099505a800166d9f6fc723c_aXFbBcabaQA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/stick-breaking-example/index.html"
                     ]
                 },
@@ -2081,7 +2081,7 @@
                     "youtubeKey": "LVfIS8pBI6Y",
                     "contentLength": 5099602,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/5b4947d0c0175aebb4777d8fc95410f6_LVfIS8pBI6Y.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/stick-breaking-revisited/index.html"
                     ]
                 },
@@ -2091,7 +2091,7 @@
                     "youtubeKey": "JYI5xKlH_MU",
                     "contentLength": 8421677,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/afbbcb82a3755373adb7c86e53516ded_JYI5xKlH_MU.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/stochastic-processes/index.html"
                     ]
                 },
@@ -2101,7 +2101,7 @@
                     "youtubeKey": "_hDfZF64wic",
                     "contentLength": 7512756,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/9c96ab9c363f5761986ce4dd4d208008_hDfZF64wic.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/summary/index.html"
                     ]
                 },
@@ -2111,7 +2111,7 @@
                     "youtubeKey": "jXf5Sz7V87I",
                     "contentLength": 3054685,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/304f29c18c1f556f80dd2620007efdae_jXf5Sz7V87I.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/summary-of-results/index.html"
                     ]
                 },
@@ -2121,7 +2121,7 @@
                     "youtubeKey": "Xwd4ABlO0Dc",
                     "contentLength": 10988116,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/118123ca0f78567995c3637da6061e5a_Xwd4ABlO0Dc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/supplement-functions/index.html"
                     ]
                 },
@@ -2131,7 +2131,7 @@
                     "youtubeKey": "0w_4QcvBYII",
                     "contentLength": 11018086,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/fd56197525dc5b82b3db2a5b1da9539a_0w_4QcvBYII.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-bayesian-inference-framework/index.html"
                     ]
                 },
@@ -2141,7 +2141,7 @@
                     "youtubeKey": "lmHjUxi2EH4",
                     "contentLength": 4955568,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/8a0cb0c7e1875861bb223791ba4a23d6_lmHjUxi2EH4.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-bernoulli-process/index.html"
                     ]
                 },
@@ -2151,7 +2151,7 @@
                     "youtubeKey": "8yaRt24qA1M",
                     "contentLength": 15996505,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/a9729a0a734b59fa9528df2dc584306b_8yaRt24qA1M.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-beta-formula/index.html"
                     ]
                 },
@@ -2161,7 +2161,7 @@
                     "youtubeKey": "FT0ptFu6dVA",
                     "contentLength": 21988890,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/d40beafa776752bcbd34dc304e2a5a3e_FT0ptFu6dVA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-case-of-multiple-observations/index.html"
                     ]
                 },
@@ -2171,7 +2171,7 @@
                     "youtubeKey": "IrKUM3nNXJE",
                     "contentLength": 10499312,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/fb33fd2531d25123905718853a906a52_IrKUM3nNXJE.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-central-limit-theorem/index.html"
                     ]
                 },
@@ -2181,7 +2181,7 @@
                     "youtubeKey": "d5pnfFvggYk",
                     "contentLength": 7278302,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/c58dd5b51d4b583bb6dd2db8f2b648f1_d5pnfFvggYk.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-chebyshev-inequality/index.html"
                     ]
                 },
@@ -2191,7 +2191,7 @@
                     "youtubeKey": "X04gTpC7wAs",
                     "contentLength": 5401889,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/43981d5afc025600b2ee6b1eb936a443_X04gTpC7wAs.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-conditional-variance/index.html"
                     ]
                 },
@@ -2201,7 +2201,7 @@
                     "youtubeKey": "HTs6Zhc2S1M",
                     "contentLength": 8682376,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/60b35e901dcc5fb49566fa0515051676_HTs6Zhc2S1M.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-correlation-coefficient/index.html"
                     ]
                 },
@@ -2211,7 +2211,7 @@
                     "youtubeKey": "-k8WU-KB0rk",
                     "contentLength": 13497897,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/f4b514daf4cd52419eb17e667516d1ba_-k8WU-KB0rk.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-counting-principle/index.html"
                     ]
                 },
@@ -2221,7 +2221,7 @@
                     "youtubeKey": "gB5TCCfF6e4",
                     "contentLength": 14705416,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/1a0edf2378cb5fa5ab6c3362d7d26728_gB5TCCfF6e4.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-expected-value-rule/index.html"
                     ]
                 },
@@ -2231,7 +2231,7 @@
                     "youtubeKey": "xi_iT9Rh434",
                     "contentLength": 18320443,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/a4ce8dc45376509ca47f5b916859784d_xi_iT9Rh434.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-fresh-start-property/index.html"
                     ]
                 },
@@ -2241,7 +2241,7 @@
                     "youtubeKey": "r_rzDNLODQw",
                     "contentLength": 13926084,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/abec90c130e45052831339fce5068129_r_rzDNLODQw.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-fresh-start-property-and-its-implications/index.html"
                     ]
                 },
@@ -2251,7 +2251,7 @@
                     "youtubeKey": "cCmWW7Hu43A",
                     "contentLength": 4882534,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/e07b529617d1565e8a93e14f47fdd1e5_cCmWW7Hu43A.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-geometric-series/index.html"
                     ]
                 },
@@ -2261,7 +2261,7 @@
                     "youtubeKey": "Kycmb2IwV-Y",
                     "contentLength": 22045883,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/56975ea4519d5c9697be5efa49f04acf_Kycmb2IwV-Y.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-hat-problem/index.html"
                     ]
                 },
@@ -2271,7 +2271,7 @@
                     "youtubeKey": "WXIU2tK4qtc",
                     "contentLength": 18480633,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/19ac435e7f995b37891b14e1985c0c0e_WXIU2tK4qtc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-inclusion-exclusion-formula/index.html"
                     ]
                 },
@@ -2281,7 +2281,7 @@
                     "youtubeKey": "zM39sZL9oGE",
                     "contentLength": 6669995,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/2c76b25675dd50409b0787c1d563a083_zM39sZL9oGE.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-intuition-for-the-monotonic-case/index.html"
                     ]
                 },
@@ -2291,7 +2291,7 @@
                     "youtubeKey": "iPWyElxtk-8",
                     "contentLength": 8374824,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/fe716e1ce2f15084b4390b68ccd4f76b_iPWyElxtk-8.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-kings-sibling/index.html"
                     ]
                 },
@@ -2301,7 +2301,7 @@
                     "youtubeKey": "yDkm9AYaczk",
                     "contentLength": 4721631,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/2843c5e9eeca5caebbc79601b151d837_yDkm9AYaczk.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-law-of-iterated-expectations/index.html"
                     ]
                 },
@@ -2311,7 +2311,7 @@
                     "youtubeKey": "vjYanZ1nsZg",
                     "contentLength": 12911492,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/32b6818d1e1c5b50a48e337b1a322007_vjYanZ1nsZg.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-markov-inequality/index.html"
                     ]
                 },
@@ -2321,7 +2321,7 @@
                     "youtubeKey": "2JoRO8Cydtc",
                     "contentLength": 5836850,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/38c8a5b651a2592a87305366d0eca6ab_2JoRO8Cydtc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-mean-and-variance-of-the-number-of-arrivals/index.html"
                     ]
                 },
@@ -2331,7 +2331,7 @@
                     "youtubeKey": "CipR1Jypkz0",
                     "contentLength": 21952418,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/786bc1173c80538fbfd531d4d5dd234c_CipR1Jypkz0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-mean-squared-error/index.html"
                     ]
                 },
@@ -2341,7 +2341,7 @@
                     "youtubeKey": "PaI-oaOBHKU",
                     "contentLength": 15016230,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/0088edfb55f352ebabd657f77db478b2_PaI-oaOBHKU.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-monotonic-case/index.html"
                     ]
                 },
@@ -2351,7 +2351,7 @@
                     "youtubeKey": "ugzs7dgQ-JE",
                     "contentLength": 8312762,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/d610297c1f415bbb9cda7d0c4fbd334c_ugzs7dgQ-JE.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-multiplication-rule/index.html"
                     ]
                 },
@@ -2361,7 +2361,7 @@
                     "youtubeKey": "X-krLprDrOI",
                     "contentLength": 10296038,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/b42f3617811e503380145ff034c1fefb_X-krLprDrOI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-pdf-of-a-function-of-multiple-random-variables/index.html"
                     ]
                 },
@@ -2371,7 +2371,7 @@
                     "youtubeKey": "X-AzW70e2M0",
                     "contentLength": 12556696,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/9cb6abc35676510a94f9e3e389c703b1_X-AzW70e2M0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-pdf-of-a-general-function/index.html"
                     ]
                 },
@@ -2381,7 +2381,7 @@
                     "youtubeKey": "NRnAuKxx6XA",
                     "contentLength": 7616643,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/03af2da5ec6355609b4e430cf331a763_NRnAuKxx6XA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-pmf-of-a-function-of-a-discrete-random-variable/index.html"
                     ]
                 },
@@ -2391,7 +2391,7 @@
                     "youtubeKey": "fZ0bbrbNq58",
                     "contentLength": 8065732,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/988f457f9d275243b65cb8cb7ee3eb78_fZ0bbrbNq58.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-poisson-approximation-to-the-binomial/index.html"
                     ]
                 },
@@ -2401,7 +2401,7 @@
                     "youtubeKey": "tzW5jlfEvwU",
                     "contentLength": 11818216,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/f53b95d258fd5b24a914c8d9852c3104_tzW5jlfEvwU.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-poisson-pmf-for-the-number-of-arrivals/index.html"
                     ]
                 },
@@ -2411,7 +2411,7 @@
                     "youtubeKey": "8QyQSZQ4uKQ",
                     "contentLength": 13572184,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/e53d209b174f57e1afc6016f3ef5cb6c_8QyQSZQ4uKQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-probability-of-a-path/index.html"
                     ]
                 },
@@ -2421,7 +2421,7 @@
                     "youtubeKey": "f_BHF-OYwr4",
                     "contentLength": 9361639,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/7d97ffafc9ad57e7bb1b345a3904d1e0_f_BHF-OYwr4.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-representation-of-the-data-matters-in-llms/index.html"
                     ]
                 },
@@ -2431,7 +2431,7 @@
                     "youtubeKey": "nuXDb9B3y0M",
                     "contentLength": 5951359,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/7036b91391b25ca28d1c456c58a3892f_nuXDb9B3y0M.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-sample-mean-and-some-terminology/index.html"
                     ]
                 },
@@ -2441,7 +2441,7 @@
                     "youtubeKey": "byGWKoOc6EM",
                     "contentLength": 6674681,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/98bc630a98995635accf2dc641644194_byGWKoOc6EM.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-simplest-llms-example-with-multiple-observations/index.html"
                     ]
                 },
@@ -2451,7 +2451,7 @@
                     "youtubeKey": "d2M4LNSeIn4",
                     "contentLength": 9224575,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/6a6b6a9323bd5201894a6602ce2922da_d2M4LNSeIn4.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-sum-of-independent-continuous-random-variables/index.html"
                     ]
                 },
@@ -2461,7 +2461,7 @@
                     "youtubeKey": "zbu8KQx9bqM",
                     "contentLength": 10460579,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/958973a17d0e59efa6e1a8390e449379_zbu8KQx9bqM.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-sum-of-independent-discrete-random-variables/index.html"
                     ]
                 },
@@ -2471,7 +2471,7 @@
                     "youtubeKey": "aGbP_7yAiEk",
                     "contentLength": 4612142,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/4726a16734ce5ec9a1582b3c7c44961c_aGbP_7yAiEk.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-sum-of-independent-normal-random-variables/index.html"
                     ]
                 },
@@ -2481,7 +2481,7 @@
                     "youtubeKey": "_IX_9ajyOxI",
                     "contentLength": 6786892,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/2d74edf12b5550f8bd58e7ade79a8e57_IX9ajyOxI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-sum-of-independent-poisson-random-variables/index.html"
                     ]
                 },
@@ -2491,7 +2491,7 @@
                     "youtubeKey": "m-enGdJ-j8s",
                     "contentLength": 9610788,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/df041f14b3035891ab7fe095861a6c41_m-enGdJ-j8s.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-time-of-the-k-th-arrival/index.html"
                     ]
                 },
@@ -2501,7 +2501,7 @@
                     "youtubeKey": "xDN5Onmu0mk",
                     "contentLength": 16916581,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/a750bbb2e9715546adc517787a716b94_xDN5Onmu0mk.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-time-until-the-first-or-last-lightbulb-burns-out/index.html"
                     ]
                 },
@@ -2511,7 +2511,7 @@
                     "youtubeKey": "7_livg-uaVs",
                     "contentLength": 10477802,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/251166e14a375236be0d02fca3033b3f_7_livg-uaVs.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-variance-of-the-bernoulli-the-uniform/index.html"
                     ]
                 },
@@ -2521,7 +2521,7 @@
                     "youtubeKey": "sSWHT2kbkvc",
                     "contentLength": 8426684,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/ece83e74293a588aaab2af64defa79a5_sSWHT2kbkvc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-variance-of-the-geometric/index.html"
                     ]
                 },
@@ -2531,7 +2531,7 @@
                     "youtubeKey": "GH7dwoXSD0s",
                     "contentLength": 9896200,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/a96bd1a650ff5214aedf16d973b42856_GH7dwoXSD0s.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-variance-of-the-sum-of-random-variables/index.html"
                     ]
                 },
@@ -2541,7 +2541,7 @@
                     "youtubeKey": "Yh5bR7X3ch8",
                     "contentLength": 10733519,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/2e19e638d48d52d1814dbbf71b60ca1f_Yh5bR7X3ch8.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/the-weak-law-of-large-numbers/index.html"
                     ]
                 },
@@ -2551,7 +2551,7 @@
                     "youtubeKey": "6stYmO_N7LI",
                     "contentLength": 14720209,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/3128d29dee345011bee6a3b702c6bbf2_6stYmO_N7LI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/time-of-the-k2013th-arrival/index.html"
                     ]
                 },
@@ -2561,7 +2561,7 @@
                     "youtubeKey": "GnEyIawrWBg",
                     "contentLength": 8487203,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/a519304f112a55f5862e796edfc05471_GnEyIawrWBg.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/total-expectation-theorem/index.html"
                     ]
                 },
@@ -2571,7 +2571,7 @@
                     "youtubeKey": "Mv8tuMBQk-g",
                     "contentLength": 9443052,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/6fbd6d0688385e11bf9fcddf84c319a4_Mv8tuMBQk-g.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/total-probability-expectation-theorems/index.html"
                     ]
                 },
@@ -2581,7 +2581,7 @@
                     "youtubeKey": "0cD-tcITuck",
                     "contentLength": 7731354,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/4e0250f48c3752a48ed65c1138a5cb2d_0cD-tcITuck.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/total-probability-total-expectation-theorems/index.html"
                     ]
                 },
@@ -2591,7 +2591,7 @@
                     "youtubeKey": "8odFouBR2wE",
                     "contentLength": 9097456,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/c2d7e847f11d5f8198bc9d9d0843afa2_8odFouBR2wE.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/total-probability-theorem/index.html"
                     ]
                 },
@@ -2601,7 +2601,7 @@
                     "youtubeKey": "wTKRruMNOHw",
                     "contentLength": 14241071,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/a919f4b0efea53d6b5238ad83fa4c957_wTKRruMNOHw.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/trajectory-estimation-illustration/index.html"
                     ]
                 },
@@ -2611,7 +2611,7 @@
                     "youtubeKey": "v5fOm80VAnc",
                     "contentLength": 5647801,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/ad85d756e7b956d695e8078f184ba401_v5fOm80VAnc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/types-of-inference-problems/index.html"
                     ]
                 },
@@ -2621,7 +2621,7 @@
                     "youtubeKey": "jPB9zI8F7rE",
                     "contentLength": 3257127,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/6367246d8fbd5c9aa7e4154a84dc7c94_jPB9zI8F7rE.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/uniform-piecewise-constant-pdfs/index.html"
                     ]
                 },
@@ -2631,7 +2631,7 @@
                     "youtubeKey": "JoQDJMZA7F8",
                     "contentLength": 5483372,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/9da267cf53cd52b888f770d2b2b8b0c1_JoQDJMZA7F8.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/uniform-random-variables/index.html"
                     ]
                 },
@@ -2641,7 +2641,7 @@
                     "youtubeKey": "ZWo1XgAQE5k",
                     "contentLength": 16703883,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/00f79d87215f5bcab5b27a5a64a6b0e6_ZWo1XgAQE5k.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/variance/index.html"
                     ]
                 },
@@ -2651,7 +2651,7 @@
                     "youtubeKey": "SgM16HNeC3o",
                     "contentLength": 6852237,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/335d7ccf51af5500b28d5c801bba9cca_SgM16HNeC3o.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/variance-of-the-sum-of-a-random-number-of-random-variables/index.html"
                     ]
                 },
@@ -2661,7 +2661,7 @@
                     "youtubeKey": "c-BLp-585aU",
                     "contentLength": 9536114,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/61c20ae5f9ca5304b3e5df52cdea2b88_c-BLp-585aU.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/visit-frequency-interpretation-of-steady-state-probabilities/index.html"
                     ]
                 },
@@ -2671,7 +2671,7 @@
                     "youtubeKey": "Lgacew5BjDI",
                     "contentLength": 3593815,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/cecbc66a7ae45c189d31eee85aa3651e_Lgacew5BjDI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/when-does-a-sequence-converge/index.html"
                     ]
                 },
@@ -2681,7 +2681,7 @@
                     "youtubeKey": "mgAhDIdbUK8",
                     "contentLength": 6088478,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/783bbce22ebb56c1b842cdab214f6e45_mgAhDIdbUK8.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/where-is-an-arrival-of-the-merged-process-coming-from/index.html"
                     ]
                 }

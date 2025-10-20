@@ -35,7 +35,7 @@
                     "youtubeKey": "TjZBTDzGeGg",
                     "contentLength": 177428009,
                     "captionsFile": "/courses/6-034-artificial-intelligence-fall-2010/c392f6e074945c7488e5835ed9a74b7d_TjZBTDzGeGg.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-1-introduction-and-scope/index.html"
                     ]
                 },
@@ -45,7 +45,7 @@
                     "youtubeKey": "PNKj529yY5c",
                     "contentLength": 171035471,
                     "captionsFile": "/courses/6-034-artificial-intelligence-fall-2010/220209716a875af2b4085168a251264b_PNKj529yY5c.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-2-reasoning-goal-trees-and-problem-solving/index.html"
                     ]
                 },
@@ -55,7 +55,7 @@
                     "youtubeKey": "leXa7EKUPFk",
                     "contentLength": 183016172,
                     "captionsFile": "/courses/6-034-artificial-intelligence-fall-2010/375df741d5705ed5a9c3da9345bbf855_leXa7EKUPFk.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-3-reasoning-goal-trees-and-rule-based-expert-systems/index.html"
                     ]
                 },
@@ -65,7 +65,7 @@
                     "youtubeKey": "j1H3jAAGlEA",
                     "contentLength": 181804880,
                     "captionsFile": "/courses/6-034-artificial-intelligence-fall-2010/e39058e630fe5f1f8c012d7c7abe474c_j1H3jAAGlEA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-4-search-depth-first-hill-climbing-beam/index.html"
                     ]
                 },
@@ -75,7 +75,7 @@
                     "youtubeKey": "gGQ-vAmdAOI",
                     "contentLength": 175570075,
                     "captionsFile": "/courses/6-034-artificial-intelligence-fall-2010/c7730e2ca4d75a189880041c6cc4a682_gGQ-vAmdAOI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-5-search-optimal-branch-and-bound-a/index.html"
                     ]
                 },
@@ -85,7 +85,7 @@
                     "youtubeKey": "STjW3eH0Cik",
                     "contentLength": 170812680,
                     "captionsFile": "/courses/6-034-artificial-intelligence-fall-2010/1b5991c5626d56c7ad58473068a82b20_STjW3eH0Cik.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-6-search-games-minimax-and-alpha-beta/index.html"
                     ]
                 },
@@ -95,7 +95,7 @@
                     "youtubeKey": "l-tzjenXrvI",
                     "contentLength": 172521835,
                     "captionsFile": "/courses/6-034-artificial-intelligence-fall-2010/20d33de559575624a52ed176048ee1a2_l-tzjenXrvI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-7-constraints-interpreting-line-drawings/index.html"
                     ]
                 },
@@ -105,7 +105,7 @@
                     "youtubeKey": "dARl_gGrS4o",
                     "contentLength": 104687476,
                     "captionsFile": "/courses/6-034-artificial-intelligence-fall-2010/85921260debe53e8873ed8c51d81189e_dARl_gGrS4o.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-8-constraints-search-domain-reduction/index.html"
                     ]
                 },
@@ -115,7 +115,7 @@
                     "youtubeKey": "gvmfbePC2pc",
                     "contentLength": 195468941,
                     "captionsFile": "/courses/6-034-artificial-intelligence-fall-2010/967b6b840fcb5cdc91ea4b6b81c7362d_gvmfbePC2pc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-9-constraints-visual-object-recognition/index.html"
                     ]
                 },
@@ -125,7 +125,7 @@
                     "youtubeKey": "09mb78oiPkA",
                     "contentLength": 177477272,
                     "captionsFile": "/courses/6-034-artificial-intelligence-fall-2010/960c38a9fa145a3f9f7a501bf6d0a486_09mb78oiPkA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-10-introduction-to-learning-nearest-neighbors/index.html"
                     ]
                 },
@@ -135,7 +135,7 @@
                     "youtubeKey": "SXBG3RGr_Rc",
                     "contentLength": 179776013,
                     "captionsFile": "/courses/6-034-artificial-intelligence-fall-2010/aabda0d636425778b53430faaec8c5a4_SXBG3RGr_Rc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-11-learning-identification-trees-disorder/index.html"
                     ]
                 },
@@ -145,7 +145,7 @@
                     "youtubeKey": "uXt8qF2Zzfo",
                     "contentLength": 118824673,
                     "captionsFile": "/courses/6-034-artificial-intelligence-fall-2010/4ba6f3e177fa506cb50bca51344e4df7_uXt8qF2Zzfo.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-12a-neural-nets/index.html"
                     ]
                 },
@@ -155,7 +155,7 @@
                     "youtubeKey": "VrMHA3yX_QI",
                     "contentLength": 115027091,
                     "captionsFile": "/courses/6-034-artificial-intelligence-fall-2010/ca53a5e9a4805c5dbf48b3ca1448f8c0_VrMHA3yX_QI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-12b-deep-neural-nets/index.html"
                     ]
                 },
@@ -165,7 +165,7 @@
                     "youtubeKey": "kHyNqSnzP8Y",
                     "contentLength": 163204075,
                     "captionsFile": "/courses/6-034-artificial-intelligence-fall-2010/87eb6a4ffdcc5881a0a90621155b39d9_kHyNqSnzP8Y.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-13-learning-genetic-algorithms/index.html"
                     ]
                 },
@@ -175,7 +175,7 @@
                     "youtubeKey": "L73hY1pBcQI",
                     "contentLength": 172229288,
                     "captionsFile": "/courses/6-034-artificial-intelligence-fall-2010/f1d15f33d2db535985756126f1675c65_L73hY1pBcQI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-14-learning-sparse-spaces-phonology/index.html"
                     ]
                 },
@@ -185,7 +185,7 @@
                     "youtubeKey": "sh3EPjhhd40",
                     "contentLength": 173751862,
                     "captionsFile": "/courses/6-034-artificial-intelligence-fall-2010/de8ac6ec8a5f5a808c1d0c2017b9df1f_sh3EPjhhd40.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-15-learning-near-misses-felicity-conditions/index.html"
                     ]
                 },
@@ -195,7 +195,7 @@
                     "youtubeKey": "_PwhiWxHK8o",
                     "contentLength": 184854998,
                     "captionsFile": "/courses/6-034-artificial-intelligence-fall-2010/dcf2875ff10f54a8804bdf695166f2e3_PwhiWxHK8o.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-16-learning-support-vector-machines/index.html"
                     ]
                 },
@@ -205,7 +205,7 @@
                     "youtubeKey": "UHBmv7qCey4",
                     "contentLength": 179704244,
                     "captionsFile": "/courses/6-034-artificial-intelligence-fall-2010/23557cfb6520546cb42b6b6e1d85fab1_UHBmv7qCey4.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-17-learning-boosting/index.html"
                     ]
                 },
@@ -215,7 +215,7 @@
                     "youtubeKey": "bQI0OmJPby4",
                     "contentLength": 183961592,
                     "captionsFile": "/courses/6-034-artificial-intelligence-fall-2010/d766fa7a789f5ec780f9df6258d336d5_bQI0OmJPby4.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-18-representations-classes-trajectories-transitions/index.html"
                     ]
                 },
@@ -225,7 +225,7 @@
                     "youtubeKey": "PimSbFGrwXM",
                     "contentLength": 176898373,
                     "captionsFile": "/courses/6-034-artificial-intelligence-fall-2010/d8ce003d5df45f9587e6978a42043bb4_PimSbFGrwXM.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-19-architectures-gps-soar-subsumption-society-of-mind/index.html"
                     ]
                 },
@@ -235,7 +235,7 @@
                     "youtubeKey": "A6Ud6oUCRak",
                     "contentLength": 170953508,
                     "captionsFile": "/courses/6-034-artificial-intelligence-fall-2010/873e6972906c5be98d0452072b5253eb_A6Ud6oUCRak.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-21-probabilistic-inference-i/index.html"
                     ]
                 },
@@ -245,7 +245,7 @@
                     "youtubeKey": "EC6bf8JCpDQ",
                     "contentLength": 175213893,
                     "captionsFile": "/courses/6-034-artificial-intelligence-fall-2010/aff12e3ace5352ecb32ade810a3c5a72_EC6bf8JCpDQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-22-probabilistic-inference-ii/index.html"
                     ]
                 },
@@ -255,7 +255,7 @@
                     "youtubeKey": "XPEJg_6Cg6o",
                     "contentLength": 184587983,
                     "captionsFile": "/courses/6-034-artificial-intelligence-fall-2010/722e3ba4681a5bd9877f0759ea076051_XPEJg_6Cg6o.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-23-model-merging-cross-modal-coupling-course-summary/index.html"
                     ]
                 }
@@ -270,7 +270,7 @@
                     "youtubeKey": "iusTmgQyZ44",
                     "contentLength": 158795007,
                     "captionsFile": "/courses/6-034-artificial-intelligence-fall-2010/c8b41aaee69359b480a5f09be64e5d94_iusTmgQyZ44.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mega-recitation-1-rule-based-systems/index.html"
                     ]
                 },
@@ -280,7 +280,7 @@
                     "youtubeKey": "Tl_p5pgBsyM",
                     "contentLength": 195272191,
                     "captionsFile": "/courses/6-034-artificial-intelligence-fall-2010/d46dc418043758de9ab93fc704f53915_Tl_p5pgBsyM.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mega-recitation-2-basic-search-optimal-search/index.html"
                     ]
                 },
@@ -290,7 +290,7 @@
                     "youtubeKey": "hM2EAvMkhtk",
                     "contentLength": 191859265,
                     "captionsFile": "/courses/6-034-artificial-intelligence-fall-2010/23b280f5a18b5baa9c9f3e1e6e13eaab_hM2EAvMkhtk.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mega-recitation-3-games-minimax-alpha-beta/index.html"
                     ]
                 },
@@ -300,7 +300,7 @@
                     "youtubeKey": "JMrFgnqSS0w",
                     "contentLength": 196125497,
                     "captionsFile": "/courses/6-034-artificial-intelligence-fall-2010/46be4ffdec3f58e5943a07dcbf69e259_JMrFgnqSS0w.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mega-recitation-4-neural-nets/index.html"
                     ]
                 },
@@ -310,7 +310,7 @@
                     "youtubeKey": "6nDqY8MPLDM",
                     "contentLength": 167324995,
                     "captionsFile": "/courses/6-034-artificial-intelligence-fall-2010/f855122a841c5fe694983d995f953e2e_6nDqY8MPLDM.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mega-recitation-5-support-vector-machines/index.html"
                     ]
                 },
@@ -320,7 +320,7 @@
                     "youtubeKey": "ZZmzMJB-tow",
                     "contentLength": 185901720,
                     "captionsFile": "/courses/6-034-artificial-intelligence-fall-2010/8cc7b7e96dbb55a0bed3a45922b90a49_ZZmzMJB-tow.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mega-recitation-6-boosting/index.html"
                     ]
                 },
@@ -330,7 +330,7 @@
                     "youtubeKey": "J-ocRQCjcwE",
                     "contentLength": 124476826,
                     "captionsFile": "/courses/6-034-artificial-intelligence-fall-2010/5ad9a9efc10c57009f3dcbf1d84f8f6c_J-ocRQCjcwE.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mega-recitation-7-near-misses-arch-learning/index.html"
                     ]
                 }

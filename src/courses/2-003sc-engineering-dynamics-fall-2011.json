@@ -33,7 +33,7 @@
                     "youtubeKey": "GUvoVvXwoOQ",
                     "contentLength": 184871703,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/07932cf48cd954e3aa7d641da029a889_GUvoVvXwoOQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-1-history-of-dynamics-motion-in-moving-reference-frames-1/index.html",
                         "resources/an-example-deriving-equations-of-motion-using-newtons-laws/index.html",
                         "resources/modeling-in-dynamics/index.html",
@@ -49,7 +49,7 @@
                     "youtubeKey": "ZNVvYg1FOPk",
                     "contentLength": 244146615,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/69482235c7e250dcbf32358ff438d4bb_ZNVvYg1FOPk.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/newtons-3rd-law-action-and-reaction-forces/index.html",
                         "resources/kinematics-describing-the-motion-of-particles-and-rigid-bodies/index.html",
                         "resources/a-review-of-newtons-three-laws-of-motion/index.html",
@@ -67,7 +67,7 @@
                     "youtubeKey": "d00XI_UTKQo",
                     "contentLength": 252678082,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/be076b1881fa5b47898915601e93ae82_d00XI_UTKQo.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-3-motion-of-center-of-mass-acceleration-in-rotating-ref-1/index.html",
                         "resources/newtons-3rd-law-recap-and-application-to-rigid-bodies/index.html",
                         "resources/problem-solving-with-an-example-of-a-block-on-a-slope/index.html",
@@ -82,7 +82,7 @@
                     "youtubeKey": "iMz0LiqjFmE",
                     "contentLength": 192050620,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/536febcd03b4534d926155c3638df757_iMz0LiqjFmE.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/two-examples-using-polar-coordinates/index.html",
                         "resources/definition-of-normal-and-tangential-coordinates/index.html",
                         "resources/angular-momentum-of-a-particle-torque-as-the-time-rate-of-change-of-angular-momentum-and-the-appearance-of-the-coriolis-force/index.html",
@@ -98,7 +98,7 @@
                     "youtubeKey": "NHedXxUO-Bg",
                     "contentLength": 258992943,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/9b57697c5385544dba96c4d30254037f_NHedXxUO-Bg.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-5-impulse-torque-and-angular-momentum-for-a-system-of-particles/index.html",
                         "resources/example-of-the-torque-angular-momentum-relationship-to-a-carnival-ride/index.html",
                         "resources/the-definition-of-the-angular-momentum-of-a-particle-with-respect-to-a-moving-reference-point/index.html",
@@ -113,7 +113,7 @@
                     "youtubeKey": "jROTMB142T0",
                     "contentLength": 254778279,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/dee55ab352ba5410b0d9ef0e0cd861bb_jROTMB142T0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/intro-to-the-time-rate-of-change-of-linear-and-angular-momentum-for-a-particlecoordinates/index.html",
                         "resources/example-3b-computing-external-and-internal-structural-torques-using-dh-dt-angular-momentum-vector-not-aligned-with-the-axis-o/index.html",
                         "resources/example-2a-pulling-the-string-from-a-rotating-mass-through-a-hole-at-the-axis-of-rotation/index.html",
@@ -130,7 +130,7 @@
                     "youtubeKey": "63sIgMvBuEQ",
                     "contentLength": 238473818,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/b5eedfa36be25e5c8ca60ad6f29e3456_63sIgMvBuEQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/muddy-card-discussion/index.html",
                         "resources/fictitious-centrifugal-force/index.html",
                         "resources/example-2-hockey-puck/index.html",
@@ -148,7 +148,7 @@
                     "youtubeKey": "zNCBDrnT05E",
                     "contentLength": 245416430,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/9fbb4df42df558bcb0768222c971ad3a_zNCBDrnT05E.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/rotating-mass-demo-related-to-homework-1/index.html",
                         "resources/concept-questions-intro-showing-problems/index.html",
                         "resources/fictitious-force-elevator-cable-breaks/index.html",
@@ -166,7 +166,7 @@
                     "youtubeKey": "QHTJK0v404U",
                     "contentLength": 272395978,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/4161dfc077815fd38525c13a64957ccf_QHTJK0v404U.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-9-rotating-imbalance-1/index.html",
                         "resources/lecture-9-rotating-imbalance/index.html",
                         "resources/body-on-rollers-with-an-internal-rotating-mass/index.html",
@@ -180,7 +180,7 @@
                     "youtubeKey": "Fo-Y6kEMURk",
                     "contentLength": 231145516,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/af85ae358a7a5421878f1e9a7d736463_Fo-Y6kEMURk.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/example-4-rotating-mass-shaker-and-effect-of-gravity-on-torque/index.html",
                         "resources/example-3-muddy-card-issue-about-dh-dt-and-torques/index.html",
                         "resources/equations-of-motion-eom-and-degrees-of-freedom-dof/index.html",
@@ -197,7 +197,7 @@
                     "youtubeKey": "YZ9y4zcfCPs",
                     "contentLength": 240049388,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/9c9b19a47e4653a6890f8cfb8596d813_YZ9y4zcfCPs.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-11-mass-moment-of-inertia-of-rigid-bodies-1/index.html",
                         "resources/parallel-axis-theorem/index.html",
                         "resources/lecture-11-mass-moment-of-inertia-of-rigid-bodies/index.html",
@@ -212,7 +212,7 @@
                     "youtubeKey": "mB_rrEN_Ltc",
                     "contentLength": 242118385,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/f9469b655ac15da496e789d57c18ee63_mB_rrEN_Ltc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/class-1-rotation-about-fixed-axis-through-center-of-mass/index.html",
                         "resources/lecture-12-problem-solving-methods-for-rotating-rigid-bodies-1/index.html",
                         "resources/class-4-rotation-about-moving-points-h-a-alternative-formulation-in-terms-of-h-g/index.html",
@@ -230,7 +230,7 @@
                     "youtubeKey": "wERH7LtoUuE",
                     "contentLength": 216321513,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/bd7f8ad2e1555faea9a0aa11a2d0ddd9_wERH7LtoUuE.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/example-class-4-problem-with-moving-points-of-constraint/index.html",
                         "resources/question-and-answer-period/index.html",
                         "resources/lecture-13-four-classes-of-problems-with-rotational-motion/index.html",
@@ -245,7 +245,7 @@
                     "youtubeKey": "qrbCpv3Sv34",
                     "contentLength": 249096323,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/1ac3d028296a522cb5ebdaf7112d1189_qrbCpv3Sv34.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/cart-and-pendulum-2-dof-equations-of-motion/index.html",
                         "resources/lecture-14-more-complex-rotational-problems-and-their-equations-of-motion/index.html",
                         "resources/lecture-14-more-complex-rotational-problems-and-their-equations-of-motion-1/index.html",
@@ -259,7 +259,7 @@
                     "youtubeKey": "zhk9xLjrmi4",
                     "contentLength": 273371687,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/97ebc51b16a65e3086747f241fce14af_zhk9xLjrmi4.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/example-problems/index.html",
                         "resources/complete-independent-and-holonomic/index.html",
                         "resources/lecture-15-introduction-to-lagrange-with-examples-1/index.html",
@@ -273,7 +273,7 @@
                     "youtubeKey": "lFedznDnPZc",
                     "contentLength": 250074134,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/aab99aba3c2054dea5bda50f5f48f230_lFedznDnPZc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/concept-question-discussion/index.html",
                         "resources/mass-sliding-on-rod-example/index.html",
                         "resources/lecture-16-kinematic-approach-to-finding-generalized-forces-1/index.html",
@@ -287,7 +287,7 @@
                     "youtubeKey": "cd8lDtAtJbE",
                     "contentLength": 262216901,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/c38230cdff4e5658a3d8133b21c8d70d_cd8lDtAtJbE.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/hockey-puck-by-lagrange/index.html",
                         "resources/condensing-many-forces-to-one-force-and-one-moment-at-center-of-mass/index.html",
                         "resources/new-formula-for-computing-torque-about-moving-points/index.html",
@@ -304,7 +304,7 @@
                     "youtubeKey": "9_d8CQrCYUw",
                     "contentLength": 252896066,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/fdd444eacea85df783a3c0867c0dceb7_9_d8CQrCYUw.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-19-introduction-to-mechanical-vibration/index.html",
                         "resources/lecture-19-introduction-to-mechanical-vibration-1/index.html",
                         "resources/engineers-approach-to-the-solution-of-the-2nd-order-differential-equation-with-initial-conditions/index.html",
@@ -321,7 +321,7 @@
                     "youtubeKey": "wzEqF_UQkks",
                     "contentLength": 259212595,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/4061daaffaea536ab23239d686420c4b_wzEqF_UQkks.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/steady-state-linear-system-response-to-harmonic-input/index.html",
                         "resources/concept-question-discussion-of-problem-set-9-keep/index.html",
                         "resources/damped-response-of-spring-mass-dashpot-system-to-initial-conditions/index.html",
@@ -339,7 +339,7 @@
                     "youtubeKey": "f1pxiNDTyHc",
                     "contentLength": 270911834,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/2952a05ddd2b5adb9e54f6fc42ad10f4_f1pxiNDTyHc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/predicting-natural-frequency-by-sqrt-g-delta/index.html",
                         "resources/lecture-21-vibration-isolation-1/index.html",
                         "resources/lecture-21-vibration-isolation/index.html",
@@ -356,7 +356,7 @@
                     "youtubeKey": "9CPA6WG6mRo",
                     "contentLength": 280719586,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/6241d5f0a90956d2af7260704ceffaf5_9CPA6WG6mRo.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/obtain-the-equations-of-motion-of-a-2-dof-system/index.html",
                         "resources/finding-the-natural-frequencies-by-the-characteristic-equation/index.html",
                         "resources/lecture-22-finding-natural-frequencies/index.html",
@@ -372,7 +372,7 @@
                     "youtubeKey": "tm51lwadMOc",
                     "contentLength": 264377349,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/bd5c6adfc38354caa87f8fe1d383684e_tm51lwadMOc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/linearization-of-a-2-dof-system/index.html",
                         "resources/mode-superposition-analysis-of-a-2-dof-system/index.html",
                         "resources/finding-natural-frequencies-and-mode-shapes-of-multi-dof-systems/index.html",
@@ -389,7 +389,7 @@
                     "youtubeKey": "OxcCPTc_bXw",
                     "contentLength": 276328554,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/a84609ee41e4590ea19524db8b3f0625_OxcCPTc_bXw.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/response-to-initial-conditions-using-modal-analysis/index.html",
                         "resources/dealing-with-damping-in-modal-analysis/index.html",
                         "resources/lecture-24-modal-analysis-orthogonality-mass-stiffness-damping-matrix/index.html",
@@ -408,7 +408,7 @@
                     "youtubeKey": "p9DHjoLS3GA",
                     "contentLength": 267181765,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/bd566912efe257718015ecfe690f3072_p9DHjoLS3GA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/steady-state-response-to-harmonic-excitation-by-the-method-of-modal-analysis/index.html",
                         "resources/direct-method-for-assembling-the-stiffness-of-an-n-dof-system/index.html",
                         "resources/lecture-25-modal-analysis-response-to-ics-and-to-harmonic-forces-1/index.html",
@@ -425,7 +425,7 @@
                     "youtubeKey": "fK9AGvLf3yw",
                     "contentLength": 276898678,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/dae06eb5295e5b3f8ddee71ab6985b1b_fK9AGvLf3yw.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-26-response-of-2-dof-systems-by-the-use-of-transfer-functions-1/index.html",
                         "resources/analysis-of-the-response-of-a-2-dof-system-to-harmonic-excitation-by-means-of-transfer-functions-and-the-introduction-of-the-/index.html",
                         "resources/lecture-26-response-of-2-dof-systems-by-the-use-of-transfer-functions/index.html",
@@ -441,7 +441,7 @@
                     "youtubeKey": "1xJJu5p3dD0",
                     "contentLength": 241325691,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/a7aaca5186af5df7b495a90e1a6510ed_1xJJu5p3dD0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-27-vibration-of-continuous-structures-strings-beams-rods-etc-1/index.html",
                         "resources/lecture-27-vibration-of-continuous-structures-strings-beams-rods-etc/index.html",
                         "resources/the-vibration-of-beams-natural-frequencies-as-a-function-of-boundary-conditions-dispersion-in-wave-propagation/index.html",
@@ -458,7 +458,7 @@
                     "youtubeKey": "zlbbbA5Uuu8",
                     "contentLength": 14460253,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/5cdf1f5ebc495c73a282b8acb5924324_zlbbbA5Uuu8.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/notation-systems/index.html",
                         "resources/notation-systems-2/index.html",
                         "resources/notation-systems-3/index.html",
@@ -476,7 +476,7 @@
                     "youtubeKey": "7kcWV6zlcRU",
                     "contentLength": 159329505,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/25e1a12df0495909b69a883adcd4f99a_7kcWV6zlcRU.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/recitation-2-velocity-and-acceleration-in-translating-and-rotating-frames-1/index.html",
                         "resources/recitation-2-velocity-and-acceleration-in-translating-and-rotating-frames/index.html"
                     ]
@@ -487,7 +487,7 @@
                     "youtubeKey": "QYP-oC1kP_s",
                     "contentLength": 137249761,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/064e89558f3b5ffa910bbffecda1f08b_QYP-oC1kP_s.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/recitation-3-motion-in-moving-reference-frames/index.html",
                         "resources/recitation-3-motion-in-moving-reference-frames-1/index.html"
                     ]
@@ -498,7 +498,7 @@
                     "youtubeKey": "cecD1w3-SD0",
                     "contentLength": 148382538,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/61dc9eaf70e35039a6209c5cc5b6f537_cecD1w3-SD0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/recitation-4-free-body-diagrams-1/index.html",
                         "resources/recitation-4-free-body-diagrams/index.html"
                     ]
@@ -509,7 +509,7 @@
                     "youtubeKey": "PZ1zxBO1kO8",
                     "contentLength": 146326517,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/dcada476639451098d3bac6af7a3c429_PZ1zxBO1kO8.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/recitation-5-equations-of-motion-1/index.html",
                         "resources/recitation-5-equations-of-motion/index.html"
                     ]
@@ -520,7 +520,7 @@
                     "youtubeKey": "6wPHoFjnYXI",
                     "contentLength": 112496741,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/49c8c1a4526551d9a6e3b86d43faf9a1_6wPHoFjnYXI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/recitation-6-angular-momentum-and-torque/index.html",
                         "resources/recitation-6-angular-momentum-and-torque-1/index.html"
                     ]
@@ -531,7 +531,7 @@
                     "youtubeKey": "Ze5nqLIYUMc",
                     "contentLength": 146792115,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/dad5ce55f64e5b518990a00b9f808263_Ze5nqLIYUMc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/recitation-7-cart-and-pendulum-direct-method/index.html",
                         "resources/recitation-7-cart-and-pendulum-direct-method-1/index.html"
                     ]
@@ -542,7 +542,7 @@
                     "youtubeKey": "-QVENB3aEvY",
                     "contentLength": 119138023,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/03e29972b4fc575792362d6ae73b7dcd_-QVENB3aEvY.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/recitation-8-cart-and-pendulum-lagrange-method-1/index.html",
                         "resources/recitation-8-cart-and-pendulum-lagrange-method/index.html"
                     ]
@@ -553,7 +553,7 @@
                     "youtubeKey": "QadsG49DY3M",
                     "contentLength": 150446982,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/439420099bb9527a8a5ee6ff131adcbc_QadsG49DY3M.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/recitation-9-generalized-forces-1/index.html",
                         "resources/recitation-9-generalized-forces/index.html"
                     ]
@@ -564,7 +564,7 @@
                     "youtubeKey": "pYZMNOuRwk0",
                     "contentLength": 101097599,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/d90d208891fd5bd19f7df5878de49146_pYZMNOuRwk0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/recitation-10-steady-state-dynamics/index.html",
                         "resources/recitation-10-steady-state-dynamics-1/index.html"
                     ]
@@ -575,7 +575,7 @@
                     "youtubeKey": "fZKrUgm9R1o",
                     "contentLength": 138148603,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/b553dbff0e045a758155f910bfb9a767_fZKrUgm9R1o.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/recitation-11-double-pendulum-system/index.html",
                         "resources/recitation-11-double-pendulum-system-1/index.html"
                     ]
@@ -586,7 +586,7 @@
                     "youtubeKey": "3F4wlYR_3h8",
                     "contentLength": 175800101,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/da2b8737d5e25017a605cd03fe250fdf_3F4wlYR_3h8.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/recitation-12-modal-analysis-of-a-double-pendulum-system-1/index.html",
                         "resources/recitation-12-modal-analysis-of-a-double-pendulum-system/index.html"
                     ]
@@ -602,7 +602,7 @@
                     "youtubeKey": "osyKjTQuwlk",
                     "contentLength": 124527283,
                     "captionsFile": "/courses/2-003sc-engineering-dynamics-fall-2011/2ad8c3f110c85a73a667a3d877ee2c7d_osyKjTQuwlk.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/problem-6-and-7-more-pendula/index.html",
                         "resources/lecture-18-quiz-review-from-optional-problem-set-8/index.html",
                         "resources/problems-4-and-5-pendulum-in-elevator/index.html",

@@ -36,7 +36,7 @@
                     "youtubeKey": "ZA-tUyM_y7s",
                     "contentLength": 107367665,
                     "captionsFile": "/courses/6-006-introduction-to-algorithms-spring-2020/dd0823c3851b5df3a7e0b447eaa76050_ZA-tUyM_y7s.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-1-algorithms-and-computation/index.html"
                     ]
                 },
@@ -46,7 +46,7 @@
                     "youtubeKey": "CHhwJjR0mZA",
                     "contentLength": 118007037,
                     "captionsFile": "/courses/6-006-introduction-to-algorithms-spring-2020/300863d48d855d35aba4867a911faf1e_CHhwJjR0mZA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-2-data-structures-and-dynamic-arrays/index.html"
                     ]
                 },
@@ -56,7 +56,7 @@
                     "youtubeKey": "oS9aPzUNG-s",
                     "contentLength": 124395826,
                     "captionsFile": "/courses/6-006-introduction-to-algorithms-spring-2020/29bcfe7d3a1d5fbf8ffae177906f0992_oS9aPzUNG-s.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-3-sets-and-sorting/index.html"
                     ]
                 },
@@ -66,7 +66,7 @@
                     "youtubeKey": "Nu8YGneFCWE",
                     "contentLength": 123403193,
                     "captionsFile": "/courses/6-006-introduction-to-algorithms-spring-2020/0524dcdbc4d7552385ad2721532fea49_Nu8YGneFCWE.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-4-hashing/index.html"
                     ]
                 },
@@ -76,7 +76,7 @@
                     "youtubeKey": "yndgIDO0zQQ",
                     "contentLength": 120408463,
                     "captionsFile": "/courses/6-006-introduction-to-algorithms-spring-2020/9f4d1039334c5bb4a3ab893f287be20f_yndgIDO0zQQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-5-linear-sorting/index.html"
                     ]
                 },
@@ -86,7 +86,7 @@
                     "youtubeKey": "76dhtgZt38A",
                     "contentLength": 119265752,
                     "captionsFile": "/courses/6-006-introduction-to-algorithms-spring-2020/9dab95776c4c57548dea5bb73a627a33_76dhtgZt38A.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-6-binary-trees-part-1/index.html"
                     ]
                 },
@@ -96,7 +96,7 @@
                     "youtubeKey": "U1JYwHcFfso",
                     "contentLength": 126620714,
                     "captionsFile": "/courses/6-006-introduction-to-algorithms-spring-2020/f46f688c7331563fb0c98275a7409522_U1JYwHcFfso.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-7-binary-trees-part-2-avl/index.html"
                     ]
                 },
@@ -106,7 +106,7 @@
                     "youtubeKey": "Xnpo1atN-Iw",
                     "contentLength": 117566753,
                     "captionsFile": "/courses/6-006-introduction-to-algorithms-spring-2020/f3fd9bea22415933b64e14488c50ce8b_Xnpo1atN-Iw.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-8-binary-heaps/index.html"
                     ]
                 },
@@ -116,7 +116,7 @@
                     "youtubeKey": "oFVYVzlvk9c",
                     "contentLength": 124161278,
                     "captionsFile": "/courses/6-006-introduction-to-algorithms-spring-2020/45f2aafeec5e5d80b2550bf31e3b8870_oFVYVzlvk9c.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-9-breadth-first-search/index.html"
                     ]
                 },
@@ -126,7 +126,7 @@
                     "youtubeKey": "IBfWDYSffUU",
                     "contentLength": 123278629,
                     "captionsFile": "/courses/6-006-introduction-to-algorithms-spring-2020/8c17de3f613658b2b19081ee7fa8621b_IBfWDYSffUU.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-10-depth-first-search/index.html"
                     ]
                 },
@@ -136,7 +136,7 @@
                     "youtubeKey": "5cF5Bgv59Sc",
                     "contentLength": 134853139,
                     "captionsFile": "/courses/6-006-introduction-to-algorithms-spring-2020/d78be480f5f053dd898ba61856990ff8_5cF5Bgv59Sc.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-11-weighted-shortest-paths/index.html"
                     ]
                 },
@@ -146,7 +146,7 @@
                     "youtubeKey": "f9cVS_URPc0",
                     "contentLength": 134384048,
                     "captionsFile": "/courses/6-006-introduction-to-algorithms-spring-2020/ca5fbd6ac50d5b5e82c00753fdf60990_f9cVS_URPc0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-12-bellman-ford/index.html"
                     ]
                 },
@@ -156,7 +156,7 @@
                     "youtubeKey": "NSHizBK9JD8",
                     "contentLength": 134403113,
                     "captionsFile": "/courses/6-006-introduction-to-algorithms-spring-2020/5b1e2b01df0c511d8fdfc80d48023b97_NSHizBK9JD8.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-13-dijkstra/index.html"
                     ]
                 },
@@ -166,7 +166,7 @@
                     "youtubeKey": "EmSmaW-ud6A",
                     "contentLength": 132199717,
                     "captionsFile": "/courses/6-006-introduction-to-algorithms-spring-2020/d041db8571cf55b19a1d88e5cf318daa_EmSmaW-ud6A.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-14-apsp-and-johnson/index.html"
                     ]
                 },
@@ -176,7 +176,7 @@
                     "youtubeKey": "r4-cftqTcdI",
                     "contentLength": 134548783,
                     "captionsFile": "/courses/6-006-introduction-to-algorithms-spring-2020/c38a1d6cdc8a5003b7579e0a17188bc4_r4-cftqTcdI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-15-dynamic-programming-part-1-srtbot-fib-dags-bowling/index.html"
                     ]
                 },
@@ -186,7 +186,7 @@
                     "youtubeKey": "KLBCUx1is2c",
                     "contentLength": 138247213,
                     "captionsFile": "/courses/6-006-introduction-to-algorithms-spring-2020/14b78f44e1a3588f9f7b1a5836e0fb9c_KLBCUx1is2c.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-16-dynamic-programming-part-2-lcs-lis-coins/index.html"
                     ]
                 },
@@ -196,7 +196,7 @@
                     "youtubeKey": "TDo3r5M1LNo",
                     "contentLength": 148024452,
                     "captionsFile": "/courses/6-006-introduction-to-algorithms-spring-2020/462b2a5f6e5250a99fff81c1d63f38c5_TDo3r5M1LNo.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-17-dynamic-programming-part-3-apsp-parens-piano/index.html"
                     ]
                 },
@@ -206,7 +206,7 @@
                     "youtubeKey": "i9OAOk0CUQE",
                     "contentLength": 148723670,
                     "captionsFile": "/courses/6-006-introduction-to-algorithms-spring-2020/8e32a6dd19895684b489224bc8820f1a_i9OAOk0CUQE.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-18-dynamic-programming-part-4-rods-subset-sum-pseudopolynomial/index.html"
                     ]
                 },
@@ -216,7 +216,7 @@
                     "youtubeKey": "JbafQJx1CIA",
                     "contentLength": 138266601,
                     "captionsFile": "/courses/6-006-introduction-to-algorithms-spring-2020/d0bd6e42f538530783880471ab94b53f_JbafQJx1CIA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-19-complexity/index.html"
                     ]
                 },
@@ -226,7 +226,7 @@
                     "youtubeKey": "2NMtS1ecb3o",
                     "contentLength": 130448661,
                     "captionsFile": "/courses/6-006-introduction-to-algorithms-spring-2020/97d3267caa20591081d2aa1690363500_2NMtS1ecb3o.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-20-course-review/index.html"
                     ]
                 },
@@ -236,7 +236,7 @@
                     "youtubeKey": "4nXw-f6NJ9s",
                     "contentLength": 138431845,
                     "captionsFile": "/courses/6-006-introduction-to-algorithms-spring-2020/72551ff938a456758e4997e6d06c21bc_4nXw-f6NJ9s.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-21-algorithms2014next-steps/index.html"
                     ]
                 },
@@ -246,7 +246,7 @@
                     "youtubeKey": "e98MPnMHLxE",
                     "contentLength": 200261311,
                     "captionsFile": "/courses/6-006-introduction-to-algorithms-spring-2020/fc6ad811f8d8561e96e20535204111b4_e98MPnMHLxE.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/quiz-1-review/index.html"
                     ]
                 },
@@ -256,7 +256,7 @@
                     "youtubeKey": "vCIa2h1C9UQ",
                     "contentLength": 190396225,
                     "captionsFile": "/courses/6-006-introduction-to-algorithms-spring-2020/9207762d9c69594c8aa43d06abc12f12_vCIa2h1C9UQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/quiz-2-review/index.html"
                     ]
                 },
@@ -266,7 +266,7 @@
                     "youtubeKey": "wEKFGdo4Sck",
                     "contentLength": 193161743,
                     "captionsFile": "/courses/6-006-introduction-to-algorithms-spring-2020/84c08b39ac4d5a25843b9bb69ec53b7b_wEKFGdo4Sck.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/quiz-3-review/index.html"
                     ]
                 }
@@ -281,7 +281,7 @@
                     "youtubeKey": "IPSaG9RRc-k",
                     "contentLength": 201511080,
                     "captionsFile": "/courses/6-006-introduction-to-algorithms-spring-2020/26345826aaea5a729dcb245a5e472f98_IPSaG9RRc-k.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/problem-session-1/index.html"
                     ]
                 },
@@ -291,7 +291,7 @@
                     "youtubeKey": "KlQiwkhLBg0",
                     "contentLength": 205235215,
                     "captionsFile": "/courses/6-006-introduction-to-algorithms-spring-2020/5fa8fe5d137053709fa55b2f27670e21_KlQiwkhLBg0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/problem-session-2/index.html"
                     ]
                 },
@@ -301,7 +301,7 @@
                     "youtubeKey": "g0bXSXuLVb0",
                     "contentLength": 201323184,
                     "captionsFile": "/courses/6-006-introduction-to-algorithms-spring-2020/bdedc121a8aa5712aea43f919e763a50_g0bXSXuLVb0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/problem-session-3/index.html"
                     ]
                 },
@@ -311,7 +311,7 @@
                     "youtubeKey": "MAyraVVYB64",
                     "contentLength": 208936328,
                     "captionsFile": "/courses/6-006-introduction-to-algorithms-spring-2020/7fff61629022502b827799ebc475e577_MAyraVVYB64.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/problem-session-4/index.html"
                     ]
                 },
@@ -321,7 +321,7 @@
                     "youtubeKey": "ZLdooNwP7Pw",
                     "contentLength": 206291664,
                     "captionsFile": "/courses/6-006-introduction-to-algorithms-spring-2020/3a3391943cf5569d9ac47694e9f78123_ZLdooNwP7Pw.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/problem-session-5/index.html"
                     ]
                 }
@@ -336,7 +336,7 @@
                     "youtubeKey": "Md9QOXomxFs",
                     "contentLength": 194232057,
                     "captionsFile": "/courses/6-006-introduction-to-algorithms-spring-2020/mit6_006s20_04_07_problem_session_7_captions.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_006s20_04_07_problem_session_7_mp4/index.html"
                     ]
                 },
@@ -346,7 +346,7 @@
                     "youtubeKey": "UuxR0NCkg0k",
                     "contentLength": 172798922,
                     "captionsFile": "/courses/6-006-introduction-to-algorithms-spring-2020/mit6_006s20_04_17_problem_session_8_captions.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_006s20_04_17_problem_session_8_mp4/index.html"
                     ]
                 },
@@ -356,7 +356,7 @@
                     "youtubeKey": "KPkOkiwAlbY",
                     "contentLength": 151609400,
                     "captionsFile": "/courses/6-006-introduction-to-algorithms-spring-2020/mit6_006s20_05_01_problem_session_9_captions.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit6_006s20_05_01_problem_session_9_mp4/index.html"
                     ]
                 }

@@ -30,7 +30,7 @@
                     "youtubeKey": "LY7YmuDbuW0",
                     "contentLength": 136563220,
                     "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1c3M0aPBTrAxgJPGQ0lbmWtFAHTXsd0P9_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/18100a-lecture-1-multicammp4/index.html"
                     ]
                 },
@@ -40,7 +40,7 @@
                     "youtubeKey": "9_xG0AGRa-w",
                     "contentLength": 147480947,
                     "captionsFile": "/courses/18-100a-real-analysis-fall-2020/10eRBzxaDhmhDya7nrt4G50lMys37g_7m_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/18100a-lecture-2-multicammp4/index.html"
                     ]
                 },
@@ -50,7 +50,7 @@
                     "youtubeKey": "nbENJ-Ce7Nc",
                     "contentLength": 135820200,
                     "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1Zk8AvPsay3MbLl4DzWNJu4uHALNX6Tl-_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/18100a-lecture-3-multicammp4182/index.html"
                     ]
                 },
@@ -60,7 +60,7 @@
                     "youtubeKey": "mlPLLXHZ8_U",
                     "contentLength": 149787462,
                     "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1ntPBhuGKrbwtkzdJ5p2-OIh8OSMkp5sp_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/18100a-lecture-4-multicam2/index.html"
                     ]
                 },
@@ -70,7 +70,7 @@
                     "youtubeKey": "M2d4HsBsu8Y",
                     "contentLength": 134817006,
                     "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1q_zk-bP9eY1S2dzcZmK-zIIXu6PGTK1r_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/18100a-lecture-5-multicam2/index.html"
                     ]
                 },
@@ -80,7 +80,7 @@
                     "youtubeKey": "PnDtMfyZSIE",
                     "contentLength": 142381343,
                     "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1xAzql4TtzN25bWOHC_VOH5yDE3jGfxsL_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/18100a-lecture-6-multicam2/index.html"
                     ]
                 },
@@ -90,7 +90,7 @@
                     "youtubeKey": "49Ro2zf9hAc",
                     "contentLength": 99456575,
                     "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1_NK2jm1gpP8PCLXiqusrPI3vYAuVTQfJ_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/18100a-lecture-7-multicam/index.html"
                     ]
                 },
@@ -100,7 +100,7 @@
                     "youtubeKey": "os_XGBNPllM",
                     "contentLength": 125891362,
                     "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1zfW4x2QAVv0IpBp80dOQ6Hh8j7opYMwU_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/18100a-lecture-8-multicam/index.html"
                     ]
                 },
@@ -110,7 +110,7 @@
                     "youtubeKey": "Xn8wL2ItzZw",
                     "contentLength": 121904012,
                     "captionsFile": "/courses/18-100a-real-analysis-fall-2020/10IcZbDFqzrgrKvNyTGQTmy-h_W7IO3Dr_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/18100a-lecture-9-multicam-version-2/index.html"
                     ]
                 },
@@ -120,7 +120,7 @@
                     "youtubeKey": "0_w-R_g5lRA",
                     "contentLength": 127922682,
                     "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1Qdkoc6qQFOHjUfOYS7ulcBgmI7sHo9HH_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/18100a-lecture-10-multicam_1/index.html"
                     ]
                 },
@@ -130,7 +130,7 @@
                     "youtubeKey": "RzSp9nIFnbo",
                     "contentLength": 101103813,
                     "captionsFile": "/courses/18-100a-real-analysis-fall-2020/15InmWX8dOuS-_9CKFnIqysdHrnyvHtD8_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/18100a-lecture-11-multicam/index.html"
                     ]
                 },
@@ -140,7 +140,7 @@
                     "youtubeKey": "ZjjpLMKs7Tc",
                     "contentLength": 103203879,
                     "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1d0IaJVYrozWUIUjCZUKR3XNjeEMAK71O_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/18100a-lecture-12-multicam/index.html"
                     ]
                 },
@@ -150,7 +150,7 @@
                     "youtubeKey": "cjeXg5rJ9D8",
                     "contentLength": 85612747,
                     "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1o2LKLGBtP9fZuAKyx2MlPfKW6NvpLYym_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/18100a-lecture-13-zoom-subtitled-version-4/index.html"
                     ]
                 },
@@ -160,7 +160,7 @@
                     "youtubeKey": "bBESL68iX6s",
                     "contentLength": 102546917,
                     "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1vRlhrS0O5BaJlwsJA04CW9NpCV_AMi83_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/18100a-lecture-14-multicam/index.html"
                     ]
                 },
@@ -170,7 +170,7 @@
                     "youtubeKey": "smIcuRZybsA",
                     "contentLength": 104717961,
                     "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1PUmaEW1L7O-KnCYAnFDpkRYosM7p-gtT_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/18100a-lecture-15-multicam/index.html"
                     ]
                 },
@@ -180,7 +180,7 @@
                     "youtubeKey": "dcUKdwHRSD8",
                     "contentLength": 111042704,
                     "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1t7R8OBcMHWx3rFE0emZpMvKtdYhEub-y_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/18100a-lecture-16-multicam2/index.html"
                     ]
                 },
@@ -190,7 +190,7 @@
                     "youtubeKey": "f_sNWn7zujU",
                     "contentLength": 120501598,
                     "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1W1-9ZyyWj2a3xcClmmlXzZWrp6TDOuBX_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/18100a-lecture-17-multicam/index.html"
                     ]
                 },
@@ -200,7 +200,7 @@
                     "youtubeKey": "PuRJ9IgUW-M",
                     "contentLength": 129604051,
                     "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1QZEO5PtMCq4uCozEmygto_ISF63mjfJo_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/18100a-lecture-18-multicam/index.html"
                     ]
                 },
@@ -210,7 +210,7 @@
                     "youtubeKey": "V3Wg_jrMSQY",
                     "contentLength": 125156663,
                     "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1amfhQA2YEpNhkZSG5NGFQKW3te6BKAef_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/18100a-lecture-19-multicam2/index.html"
                     ]
                 },
@@ -220,7 +220,7 @@
                     "youtubeKey": "ImHAGH_OEow",
                     "contentLength": 87650467,
                     "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1kk7ggLs5GSgVPl8hsOtXEAyw7A0RVf_G_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/18100a-lecture-20-multicam_1/index.html"
                     ]
                 },
@@ -230,7 +230,7 @@
                     "youtubeKey": "QeYUHA0UMVg",
                     "contentLength": 112948097,
                     "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1T64KBVHQWygm5QR94v-05Vp5_t4_T87u_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/18100a-lecture-21-multicam/index.html"
                     ]
                 },
@@ -240,7 +240,7 @@
                     "youtubeKey": "WWZ_CeiRnIo",
                     "contentLength": 120454383,
                     "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1LKqnNzODrg8PPyw-_iPcf93AM86Lj2GE_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/18100a-lecture-22-multicam/index.html"
                     ]
                 },
@@ -250,7 +250,7 @@
                     "youtubeKey": "_HRTdXJgZ0Q",
                     "contentLength": 115973972,
                     "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1RaKLWv7F-clQEuFEQ6Tc7V2d5qi4G82i_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/18100a-lecture-23-multicam/index.html"
                     ]
                 },
@@ -260,7 +260,7 @@
                     "youtubeKey": "gXPX29KfEc4",
                     "contentLength": 124332260,
                     "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1vu4GMg5v7TRTz-K943dU10R7KZuWqwZN_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/18100a-lecture-24-multicam/index.html"
                     ]
                 },
@@ -270,7 +270,7 @@
                     "youtubeKey": "u4qQ1oIQcW8",
                     "contentLength": 127951711,
                     "captionsFile": "/courses/18-100a-real-analysis-fall-2020/1IF6ZH-tTnbGSrhsh9INxEdk_UWslK6pV_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/18100a-lecture-25-multicam/index.html"
                     ]
                 }

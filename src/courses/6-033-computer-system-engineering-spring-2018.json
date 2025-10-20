@@ -38,7 +38,7 @@
                     "youtubeKey": "r2_-2KW76ec",
                     "contentLength": 123330908,
                     "captionsFile": "/courses/6-033-computer-system-engineering-spring-2018/2b22f0394b71569eb9d47f66efc2d366_r2_-2KW76ec.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/infusing-active-learning-into-6/index.html",
                         "resources/acting-things-out/index.html",
                         "resources/active-learning-activity-debates/index.html",

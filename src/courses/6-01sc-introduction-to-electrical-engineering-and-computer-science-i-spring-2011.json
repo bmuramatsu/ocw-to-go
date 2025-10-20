@@ -40,7 +40,7 @@
                     "youtubeKey": "3S4cNfl0YF0",
                     "contentLength": 183561497,
                     "captionsFile": "/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/bd32fe9282815440b556efa7b6dfbcf7_3S4cNfl0YF0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-1-object-oriented-programming-11/index.html",
                         "resources/lecture-1-object-oriented-programming/index.html"
                     ]
@@ -51,7 +51,7 @@
                     "youtubeKey": "cQntMUMQyRw",
                     "contentLength": 191053206,
                     "captionsFile": null,
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-1-object-oriented-programming-1/index.html",
                         "resources/copy_of_lecture-1-object-oriented-programming/index.html"
                     ]
@@ -62,7 +62,7 @@
                     "youtubeKey": "CG4ihzTaGdM",
                     "contentLength": 194431049,
                     "captionsFile": null,
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-1-object-oriented-programming-2/index.html",
                         "resources/copy2_of_lecture-1-object-oriented-programming/index.html"
                     ]
@@ -73,7 +73,7 @@
                     "youtubeKey": "qB5wq5L6EL4",
                     "contentLength": 198200736,
                     "captionsFile": null,
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-1-object-oriented-programming-3/index.html",
                         "resources/copy3_of_lecture-1-object-oriented-programming/index.html"
                     ]
@@ -84,7 +84,7 @@
                     "youtubeKey": "oTNwGuI7Wic",
                     "contentLength": 195735698,
                     "captionsFile": "/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/3ea26f0b5d385da190086a8918c96200_oTNwGuI7Wic.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/copy4_of_lecture-1-object-oriented-programming/index.html",
                         "resources/lecture-1-object-oriented-programming-4/index.html"
                     ]
@@ -95,7 +95,7 @@
                     "youtubeKey": "5sLFTc10kg8",
                     "contentLength": 187589661,
                     "captionsFile": "/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/f5c62e86dab45316bab4daaf822ad8a4_5sLFTc10kg8.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/copy5_of_lecture-1-object-oriented-programming/index.html",
                         "resources/lecture-1-object-oriented-programming-5/index.html"
                     ]
@@ -106,7 +106,7 @@
                     "youtubeKey": "e7Ptvu5Vu8k",
                     "contentLength": 197830228,
                     "captionsFile": "/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/0860b5a009d2596090735c9bdd0ef170_e7Ptvu5Vu8k.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/copy6_of_lecture-1-object-oriented-programming/index.html",
                         "resources/lecture-1-object-oriented-programming-6/index.html"
                     ]
@@ -117,7 +117,7 @@
                     "youtubeKey": "FANl3evX0FQ",
                     "contentLength": 173038817,
                     "captionsFile": "/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/306240edb825558b8f27f749ec7d7994_FANl3evX0FQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-1-object-oriented-programming-7/index.html",
                         "resources/copy7_of_lecture-1-object-oriented-programming/index.html"
                     ]
@@ -128,7 +128,7 @@
                     "youtubeKey": "u_x67-kaedM",
                     "contentLength": 201325726,
                     "captionsFile": null,
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/lecture-1-object-oriented-programming-8/index.html",
                         "resources/copy8_of_lecture-1-object-oriented-programming/index.html"
                     ]
@@ -139,7 +139,7 @@
                     "youtubeKey": "xMWcIb6XGVA",
                     "contentLength": 173259472,
                     "captionsFile": "/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/1f1df91dde0e56889788552daada5611_xMWcIb6XGVA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/copy9_of_lecture-1-object-oriented-programming/index.html",
                         "resources/lecture-1-object-oriented-programming-9/index.html"
                     ]
@@ -150,7 +150,7 @@
                     "youtubeKey": "vcDBNyKvLcs",
                     "contentLength": 166872729,
                     "captionsFile": "/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/5b20e641a851523384e21130234a36d3_vcDBNyKvLcs.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/copy10_of_lecture-1-object-oriented-programming/index.html",
                         "resources/lecture-1-object-oriented-programming-10/index.html"
                     ]
@@ -166,7 +166,7 @@
                     "youtubeKey": "hdjWA3YcDII",
                     "contentLength": 26282845,
                     "captionsFile": "/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/40e51c52d6ff5d78bb3d943db8ac5bd5_hdjWA3YcDII.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/recitation-1-object-oriented-programming-10/index.html",
                         "resources/recitation-1-object-oriented-programming/index.html"
                     ]
@@ -177,7 +177,7 @@
                     "youtubeKey": "abW4cppRABM",
                     "contentLength": 30996272,
                     "captionsFile": "/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/f01888189296587293e722501c8098de_abW4cppRABM.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/recitation-2-inheritance-6/index.html",
                         "resources/recitation-2-inheritance/index.html"
                     ]
@@ -188,7 +188,7 @@
                     "youtubeKey": "Y9r9dO7KQj4",
                     "contentLength": 37819162,
                     "captionsFile": "/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/d751db18262a5e6c930cfd4006d1d35a_Y9r9dO7KQj4.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/copy_of_recitation-2-inheritance/index.html",
                         "resources/recitation-2-inheritance-1/index.html"
                     ]
@@ -199,7 +199,7 @@
                     "youtubeKey": "8FWfmvj3HYw",
                     "contentLength": 31676573,
                     "captionsFile": "/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/83f535c5c7765d0eb8bae7390dc6eb12_8FWfmvj3HYw.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/copy_of_recitation-1-object-oriented-programming/index.html",
                         "resources/recitation-1-object-oriented-programming-1/index.html"
                     ]
@@ -210,7 +210,7 @@
                     "youtubeKey": "O6HHjiNKsco",
                     "contentLength": 29556572,
                     "captionsFile": "/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/88edadb9c34553c8ac5f3b9b1bcbf945_O6HHjiNKsco.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/copy2_of_recitation-1-object-oriented-programming/index.html",
                         "resources/recitation-1-object-oriented-programming-2/index.html"
                     ]
@@ -221,7 +221,7 @@
                     "youtubeKey": "l0tUtVRhmDs",
                     "contentLength": 34986564,
                     "captionsFile": null,
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/recitation-2-inheritance-2/index.html",
                         "resources/copy2_of_recitation-2-inheritance/index.html"
                     ]
@@ -232,7 +232,7 @@
                     "youtubeKey": "lF-7mmPHhG0",
                     "contentLength": 21044283,
                     "captionsFile": null,
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/recitation-1-object-oriented-programming-3/index.html",
                         "resources/copy3_of_recitation-1-object-oriented-programming/index.html"
                     ]
@@ -243,7 +243,7 @@
                     "youtubeKey": "QleELaAfTd4",
                     "contentLength": 35427949,
                     "captionsFile": null,
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/recitation-2-inheritance-3/index.html",
                         "resources/copy3_of_recitation-2-inheritance/index.html"
                     ]
@@ -254,7 +254,7 @@
                     "youtubeKey": "qGZy1CRoZdE",
                     "contentLength": 41595032,
                     "captionsFile": null,
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/recitation-1-object-oriented-programming-4/index.html",
                         "resources/copy4_of_recitation-1-object-oriented-programming/index.html"
                     ]
@@ -265,7 +265,7 @@
                     "youtubeKey": "dAZ-i9MsbRM",
                     "contentLength": 32234658,
                     "captionsFile": null,
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/recitation-2-inheritance-4/index.html",
                         "resources/copy4_of_recitation-2-inheritance/index.html"
                     ]
@@ -276,7 +276,7 @@
                     "youtubeKey": "sNLB6_ZIfX0",
                     "contentLength": 24360034,
                     "captionsFile": "/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/969d80ffc05f5231afb834b671550720_sNLB6_ZIfX0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/copy5_of_recitation-1-object-oriented-programming/index.html",
                         "resources/recitation-1-object-oriented-programming-5/index.html"
                     ]
@@ -287,7 +287,7 @@
                     "youtubeKey": "rOA1VC5aQ7Q",
                     "contentLength": 29259887,
                     "captionsFile": null,
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/recitation-1-object-oriented-programming-6/index.html",
                         "resources/copy6_of_recitation-1-object-oriented-programming/index.html"
                     ]
@@ -298,7 +298,7 @@
                     "youtubeKey": "UGdXwvB6K-w",
                     "contentLength": 35661294,
                     "captionsFile": "/courses/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/14161e412242597e9a8ff7213d60db66_UGdXwvB6K-w.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/copy7_of_recitation-1-object-oriented-programming/index.html",
                         "resources/recitation-1-object-oriented-programming-7/index.html"
                     ]
@@ -309,7 +309,7 @@
                     "youtubeKey": "SpS3ud58yTI",
                     "contentLength": 28444720,
                     "captionsFile": null,
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/recitation-1-object-oriented-programming-8/index.html",
                         "resources/copy8_of_recitation-1-object-oriented-programming/index.html"
                     ]
@@ -320,7 +320,7 @@
                     "youtubeKey": "yWQYXEjxAnk",
                     "contentLength": 35141313,
                     "captionsFile": null,
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/recitation-2-inheritance-5/index.html",
                         "resources/copy5_of_recitation-2-inheritance/index.html"
                     ]
@@ -331,7 +331,7 @@
                     "youtubeKey": "J09o6QRVsfw",
                     "contentLength": 33112288,
                     "captionsFile": null,
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/recitation-1-object-oriented-programming-9/index.html",
                         "resources/copy9_of_recitation-1-object-oriented-programming/index.html"
                     ]

@@ -31,7 +31,7 @@
                     "youtubeKey": "cny-1yDbQno",
                     "contentLength": 175313494,
                     "captionsFile": "/courses/15-401-finance-theory-i-fall-2008/643bff5eb6d55f84b409f0a17b3a4798_cny-1yDbQno.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/equities/index.html"
                     ]
                 },
@@ -41,7 +41,7 @@
                     "youtubeKey": "HdHlfiOAJyE",
                     "contentLength": 153291775,
                     "captionsFile": "/courses/15-401-finance-theory-i-fall-2008/8ea62884eb155c119c7058d0e3544e4a_HdHlfiOAJyE.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/introduction-and-course-overview/index.html"
                     ]
                 },
@@ -51,7 +51,7 @@
                     "youtubeKey": "i_pLF9J3QPE",
                     "contentLength": 182834371,
                     "captionsFile": "/courses/15-401-finance-theory-i-fall-2008/7eed0b686d09536c8da6841cb788a41f_i_pLF9J3QPE.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/part-i-of-forward-and-futures-contracts/index.html"
                     ]
                 },
@@ -61,7 +61,7 @@
                     "youtubeKey": "U03Md5enU-0",
                     "contentLength": 176268681,
                     "captionsFile": "/courses/15-401-finance-theory-i-fall-2008/1141c37737c7504cbc71227770ba60b9_U03Md5enU-0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/part-i-of-present-value-relations/index.html"
                     ]
                 },
@@ -71,7 +71,7 @@
                     "youtubeKey": "a5PF2PcElV0",
                     "contentLength": 185199376,
                     "captionsFile": "/courses/15-401-finance-theory-i-fall-2008/ac435f22101a520aa64c4cd840dfb590_a5PF2PcElV0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/part-ii-of-efficient-markets/index.html"
                     ]
                 },
@@ -81,7 +81,7 @@
                     "youtubeKey": "yrmqYNvvIzs",
                     "contentLength": 184096756,
                     "captionsFile": "/courses/15-401-finance-theory-i-fall-2008/aec243f34ffd5111818c0f48f0d46bcf_yrmqYNvvIzs.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/part-ii-of-fixed-income-securities/index.html"
                     ]
                 },
@@ -91,7 +91,7 @@
                     "youtubeKey": "rMsu4v-UlkA",
                     "contentLength": 135966048,
                     "captionsFile": "/courses/15-401-finance-theory-i-fall-2008/926d30e69da55011bc7d512fb6de65e9_rMsu4v-UlkA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/part-ii-of-options/index.html"
                     ]
                 },
@@ -101,7 +101,7 @@
                     "youtubeKey": "J7d3vcaS9-o",
                     "contentLength": 183930632,
                     "captionsFile": "/courses/15-401-finance-theory-i-fall-2008/5b8e9152ab8d55ca8bf46f6efba80f44_J7d3vcaS9-o.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/part-ii-of-portfolio-theory/index.html"
                     ]
                 },
@@ -111,7 +111,7 @@
                     "youtubeKey": "4F1J5Q3DiaI",
                     "contentLength": 186239494,
                     "captionsFile": "/courses/15-401-finance-theory-i-fall-2008/fb9c8cf848cf574ab1017b7461521e1f_4F1J5Q3DiaI.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/part-ii-of-present-value-relations/index.html"
                     ]
                 },
@@ -121,7 +121,7 @@
                     "youtubeKey": "N8gtnbJuMoo",
                     "contentLength": 174258729,
                     "captionsFile": "/courses/15-401-finance-theory-i-fall-2008/a3a64f7b153056ec8a72d61325a5c353_N8gtnbJuMoo.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/part-ii-of-the-capm-and-apt/index.html"
                     ]
                 },
@@ -131,7 +131,7 @@
                     "youtubeKey": "AtT59jxU9es",
                     "contentLength": 185409696,
                     "captionsFile": "/courses/15-401-finance-theory-i-fall-2008/61d92f4dd32d59dd99786632cee4d06c_AtT59jxU9es.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/part-iii-of-fixed-income-securities/index.html"
                     ]
                 },
@@ -141,7 +141,7 @@
                     "youtubeKey": "ZWKnK9LIETA",
                     "contentLength": 176206434,
                     "captionsFile": "/courses/15-401-finance-theory-i-fall-2008/3cddd35be8df51029ce460c518079b5b_ZWKnK9LIETA.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/part-iv-of-fixed-income-securities/index.html"
                     ]
                 },
@@ -151,7 +151,7 @@
                     "youtubeKey": "hyc8h5T76BE",
                     "contentLength": 166990711,
                     "captionsFile": "/courses/15-401-finance-theory-i-fall-2008/b06f1e2104db56128add5114ff0dfecb_hyc8h5T76BE.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/part-i-of-fixed-income-securities/index.html",
                         "resources/part-iii-of-present-value-relations/index.html"
                     ]
@@ -162,7 +162,7 @@
                     "youtubeKey": "IwA7nVEwqto",
                     "contentLength": 185334314,
                     "captionsFile": "/courses/15-401-finance-theory-i-fall-2008/1fdd7c8168a55f109dfff4bf3c0cd474_IwA7nVEwqto.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/part-ii-of-forward-and-futures-contracts-1/index.html",
                         "resources/part-ii-of-forward-and-futures-contracts/index.html"
                     ]
@@ -173,7 +173,7 @@
                     "youtubeKey": "Q2qjnLO3I_M",
                     "contentLength": 155050506,
                     "captionsFile": "/courses/15-401-finance-theory-i-fall-2008/650731d00f66513a80723329206f907c_Q2qjnLO3I_M.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/part-iii-of-options/index.html",
                         "resources/part-i-of-risk-and-return/index.html"
                     ]
@@ -184,7 +184,7 @@
                     "youtubeKey": "tL7Lcl90Sc0",
                     "contentLength": 182469570,
                     "captionsFile": "/courses/15-401-finance-theory-i-fall-2008/61f51306b0c65bc59bf31c12c55912e0_tL7Lcl90Sc0.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/part-ii-of-risk-and-return-1/index.html",
                         "resources/part-ii-of-risk-and-return/index.html"
                     ]
@@ -195,7 +195,7 @@
                     "youtubeKey": "z2oQe6B1Qa4",
                     "contentLength": 180052658,
                     "captionsFile": "/courses/15-401-finance-theory-i-fall-2008/19e37a00451e57359edc8b4e3ec8894c_z2oQe6B1Qa4.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/part-iii-of-portfolio-theory/index.html",
                         "resources/part-iii-of-portfolio-theory-1/index.html"
                     ]
@@ -206,7 +206,7 @@
                     "youtubeKey": "JE80wLNIhjE",
                     "contentLength": 182659336,
                     "captionsFile": "/courses/15-401-finance-theory-i-fall-2008/da9e8e44841a5620969a230fb7aadcf1_JE80wLNIhjE.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/part-iii-of-the-capm-and-apt/index.html",
                         "resources/part-iii-of-the-capm-and-apt-1/index.html"
                     ]
@@ -217,7 +217,7 @@
                     "youtubeKey": "sMKQywwkIjQ",
                     "contentLength": 185202508,
                     "captionsFile": "/courses/15-401-finance-theory-i-fall-2008/328d24a6f7db5b25981197b8ca27077a_sMKQywwkIjQ.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/part-ii-of-capital-budgeting/index.html",
                         "resources/part-i-of-efficient-markets/index.html"
                     ]
@@ -228,7 +228,7 @@
                     "youtubeKey": "P03PfYgNjmw",
                     "contentLength": 126017158,
                     "captionsFile": "/courses/15-401-finance-theory-i-fall-2008/f408c5aba7a155048a6ff1e26161d7c5_P03PfYgNjmw.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/part-iii-of-efficient-markets/index.html",
                         "resources/course-summary/index.html"
                     ]
@@ -244,7 +244,7 @@
                     "youtubeKey": "8kFFg5jAoQc",
                     "contentLength": 91036263,
                     "captionsFile": "/courses/15-401-finance-theory-i-fall-2008/8kFFg5jAoQc_captions.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/8kffg5jaoqc/index.html"
                     ]
                 }

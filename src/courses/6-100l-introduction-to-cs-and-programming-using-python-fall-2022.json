@@ -29,7 +29,7 @@
                     "youtubeKey": "p8918BiV01c",
                     "contentLength": 69657764,
                     "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/p8918BiV01c_captions.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/mit-programmer-on-genai-growth-mindset-and-rubber-ducks/index.html"
                     ]
                 }
@@ -44,7 +44,7 @@
                     "youtubeKey": "xAcTmDO6NTI",
                     "contentLength": 98848218,
                     "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1LrNFzx4f4UlMXOcxUUcqK2lCzQpaS-Bc_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/6100l-lecture-1-version-2_mp4/index.html"
                     ]
                 },
@@ -54,7 +54,7 @@
                     "youtubeKey": "UdEX0E9lIQM",
                     "contentLength": 143650441,
                     "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-2-multi-version-4_1_captions.vtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/6100l-lecture-2-multi-version-4_1_mp4/index.html"
                     ]
                 },
@@ -64,7 +64,7 @@
                     "youtubeKey": "lzYrMcI92kw",
                     "contentLength": 74221676,
                     "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1jn58uDUTgM2Zg1YYoxK9CkiG-rAH9Fmh_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/6100l-lecture-3-multi_mp4/index.html"
                     ]
                 },
@@ -74,7 +74,7 @@
                     "youtubeKey": "fWNZAw5Bmco",
                     "contentLength": 136866992,
                     "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1SVVezlb4h8tA4fKRJ41pWjsyaqdGdXvs_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/6100l-lecture-4-multi_mp4/index.html"
                     ]
                 },
@@ -84,7 +84,7 @@
                     "youtubeKey": "OF2sr5e7PrY",
                     "contentLength": 78738256,
                     "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1sdzlNzf_U9Dl1VICMcDzaSFH3WDS2W3x_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/6100l-lecture-5-multi_mp4/index.html"
                     ]
                 },
@@ -94,7 +94,7 @@
                     "youtubeKey": "PJ_5VNvJGtA",
                     "contentLength": 138327969,
                     "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1ZzX65dND58Lig0K6fcjTbpA5FiKIhAcx_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/6100l-lecture-6-multi-version-3_mp4/index.html"
                     ]
                 },
@@ -104,7 +104,7 @@
                     "youtubeKey": "Qf6OVR8MLnU",
                     "contentLength": 73171448,
                     "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1NWsD4yStlMPsvHXGgvg0oT1zF13vXErk_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/6100l-lecture-7-multi_mp4/index.html"
                     ]
                 },
@@ -114,7 +114,7 @@
                     "youtubeKey": "0fEJFRKJN4U",
                     "contentLength": 132528943,
                     "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1fkfiNALPDISPZW42aeW-nV_AJwXJ6fWN_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/6100l-lecture-8-version-2_mp4/index.html"
                     ]
                 },
@@ -124,7 +124,7 @@
                     "youtubeKey": "h5abkZ_Ch6c",
                     "contentLength": 75436756,
                     "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1lMet5GPIW1ZhnesX_FN2udiX7bcr0mJd_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/6100l-lecture-9-version-2_mp4/index.html"
                     ]
                 },
@@ -134,7 +134,7 @@
                     "youtubeKey": "Z4bm7xzYpKM",
                     "contentLength": 113788561,
                     "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1thJR8x0QK8HpwQ3OqOE-MVtYg_P0QZ_T_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/6100l-lecture-10-version-3_1_mp4/index.html"
                     ]
                 },
@@ -144,7 +144,7 @@
                     "youtubeKey": "hpsp-LQurco",
                     "contentLength": 71333365,
                     "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1We_TL7FBrn8k8Fh5XnBgrQuG6qDsI4is_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/6100l-lecture-11-version-2_mp4/index.html"
                     ]
                 },
@@ -154,7 +154,7 @@
                     "youtubeKey": "AZBxs3OvFrY",
                     "contentLength": 131704846,
                     "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1yicNRax_Y6uXUq1RhogtauUcSorMMd66_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/6100l-lecture-12-multi-version-4_mp4/index.html"
                     ]
                 },
@@ -164,7 +164,7 @@
                     "youtubeKey": "qT3_7FMuv-U",
                     "contentLength": 76853469,
                     "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1tniTNqJJXR2M7JRpXHVinHY3MoCnxgyp_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/6100l-lecture-13-version-2_mp4/index.html"
                     ]
                 },
@@ -174,7 +174,7 @@
                     "youtubeKey": "lTgLOuaQsvk",
                     "contentLength": 126365892,
                     "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1U0kBprsi-v9QhXIZdGgvCZd92936dmcz_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/6100l-lecture-14-multi_mp4/index.html"
                     ]
                 },
@@ -184,7 +184,7 @@
                     "youtubeKey": "Bbyp4VRbmyY",
                     "contentLength": 77457829,
                     "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1uFTx7VBCy0zz2tZxzgf-VjE9TAsYp_0k_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/6100l-lecture-15-version-2_mp4/index.html"
                     ]
                 },
@@ -194,7 +194,7 @@
                     "youtubeKey": "2XxGplWqXVQ",
                     "contentLength": 121795322,
                     "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1hkR9BnkJ6tULeV8uM23dCK3mIdAL-omX_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/6100l-lecture-16-multi-version-2_mp4/index.html"
                     ]
                 },
@@ -204,7 +204,7 @@
                     "youtubeKey": "tsMrUdynbQQ",
                     "contentLength": 70597602,
                     "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1jlgqPffb0jTD1GJmYxnukqh0qw6RY0Wv_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/6100l-lecture-17-version-2_mp4/index.html"
                     ]
                 },
@@ -214,7 +214,7 @@
                     "youtubeKey": "gLnCmUkgUQk",
                     "contentLength": 134105925,
                     "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1H2sYXjAUBaCmU_W-8a9MZk-H-jYu14Za_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/6100l-lecture-18-multi-version-2_mp4/index.html"
                     ]
                 },
@@ -224,7 +224,7 @@
                     "youtubeKey": "rgM7Z9BNm1s",
                     "contentLength": 125254604,
                     "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1jicSeVbkfCJ6PQAOsX0o52Z998OZwDoD_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/6100l-lecture-19-multi-version-2_mp4/index.html"
                     ]
                 },
@@ -234,7 +234,7 @@
                     "youtubeKey": "-wyc5FwzkcM",
                     "contentLength": 140992558,
                     "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1l8mjRn1hi9LyjpsOLlLbZwxdsseNS_va_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/6100l-lecture-20-version-2_mp4/index.html"
                     ]
                 },
@@ -244,7 +244,7 @@
                     "youtubeKey": "lvp4NfED6K4",
                     "contentLength": 59466379,
                     "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1xvoC1C2Y-utkqO-wB9gc4lhFPNpM5Zjj_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/6100l-lecture-21-version-2_mp4/index.html"
                     ]
                 },
@@ -254,7 +254,7 @@
                     "youtubeKey": "RJhoT5PEf_0",
                     "contentLength": 140908119,
                     "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1A8qBYXfGlxrh1AzmvG-kNRw4M5bppdQ-_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/6100l-lecture-22-version-2_mp4/index.html"
                     ]
                 },
@@ -264,7 +264,7 @@
                     "youtubeKey": "loX34ct0hxs",
                     "contentLength": 127219520,
                     "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1xR3e2ychp7hYL-4PwrUUucM6a_hYVwvo_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/6100l-lecture-23-version-2_mp4/index.html"
                     ]
                 },
@@ -274,7 +274,7 @@
                     "youtubeKey": "R8Rw9mIa7JQ",
                     "contentLength": 83164265,
                     "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1VUHQTtGcGveZjWvzAwGFp2hH-QuimE7-_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/6100l-lecture-24-version-2_mp4/index.html"
                     ]
                 },
@@ -284,7 +284,7 @@
                     "youtubeKey": "Jov7G7IpuLo",
                     "contentLength": 127104976,
                     "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1cvnthuuvW853odAxpelaAUZkddb8M-tf_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/6100l-lecture-25-multi_mp4/index.html"
                     ]
                 },
@@ -294,7 +294,7 @@
                     "youtubeKey": "4H0GXzQ41t0",
                     "contentLength": 105799465,
                     "captionsFile": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/1Jf1_GNVjvRScJqmNBDRrxyK6igxPavZg_transcript.webvtt",
-                    "htmlFile": [
+                    "htmlFiles": [
                         "resources/6100l-lecture-26-multi_mp4/index.html"
                     ]
                 }
