@@ -47,8 +47,6 @@ export default function VideoPlayer({ courseId, video, timeRange }: Props) {
   if (timeRange) {
     const [start, end] = timeRange;
     src += `#t=${start},${end}`;
-  } else {
-    src += "#t=0,1";
   }
 
   return (

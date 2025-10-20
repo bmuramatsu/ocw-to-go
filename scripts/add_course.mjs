@@ -150,7 +150,6 @@ for (const youtubeKey in videosByKey) {
     continue;
   }
   // these seem to be applied very inconsistently
-  // I should grab the first non-empty one
   const allTypes = videos.flatMap((v) => v.dataJSON["learning_resource_types"]);
   const category = allTypes[0] || "Other";
 
