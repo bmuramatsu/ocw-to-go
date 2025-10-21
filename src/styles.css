@@ -635,11 +635,20 @@ header img {
   list-style-type: none;
 }
 .mobile-nav__drawer ul a {
-  display: block;
-  padding: 1.3rem 2.4rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 1.1rem 2.4rem;
+  min-height: 4.4rem;
   color: black;
   font-size: 1.6rem;
   text-decoration: none;
+
+  svg {
+    width: 1.6rem;
+    height: 1.6rem;
+    fill: var(--black);
+  }
 }
 .mobile-nav__drawer ul a:hover {
   background-color: #f6f7f9;
@@ -663,8 +672,11 @@ header img {
   margin-inline-start: auto;
 
   a {
-    display: inline-block;
-    padding: 1.2rem 1.6rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 1.1rem 1.6rem;
+    min-height: 4rem;
     color: white;
     font-size: 1.4rem;
     font-weight: bold;
@@ -683,11 +695,17 @@ header img {
         background-color: var(--red-hover);
       }
     }
+
+    svg {
+      width: 1.6rem;
+      height: 1.6rem;
+      fill: var(--white);
+    }
   }
 }
 
 /* Hide mobile nav and show desktop nav */
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 950px) {
   .desktop-nav {
     display: flex;
   }
