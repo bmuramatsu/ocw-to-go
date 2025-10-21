@@ -72,3 +72,9 @@ resource-item {
 resource-item + resource-item {
   border-top: none;
 }
+#course-main-content a[href^="https://"]:after,
+#course-main-content a[href^="http://"]:after
+{
+  content: "\21D7";
+  font-size: 150%;
+}
