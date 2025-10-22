@@ -35,7 +35,9 @@
                     "youtubeKey": "YkYeYhXUeEE",
                     "contentLength": 50459415,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/53806302a09d5654b2be51beb4b8dbe4_YkYeYhXUeEE.vtt",
-                    "htmlFile": "resources/lecture-1-the-importance-of-chemical-principles/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-1-the-importance-of-chemical-principles/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 2: Atomic Structure",
@@ -43,7 +45,9 @@
                     "youtubeKey": "ustfXi-mpkI",
                     "contentLength": 91358192,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/96f4d4d8c8b25ae784451342fa709f41_ustfXi-mpkI.vtt",
-                    "htmlFile": "resources/lecture-2-atomic-structure/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-2-atomic-structure/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 3: Wave-Particle Duality of Light",
@@ -51,7 +55,9 @@
                     "youtubeKey": "_U6YamvF7BE",
                     "contentLength": 106902523,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/843d153ec22e56ef84cbc38f56cdcb02_U6YamvF7BE.vtt",
-                    "htmlFile": "resources/lecture-3-wave-particle-duality-of-light/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-3-wave-particle-duality-of-light/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 4: Wave-Particle Duality of Matter; Schrödinger Equation",
@@ -59,7 +65,9 @@
                     "youtubeKey": "Qg7pQ_CYaIQ",
                     "contentLength": 107782526,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/0c9468d223fd5fdfb5f5482468ce80b6_Qg7pQ_CYaIQ.vtt",
-                    "htmlFile": "resources/lecture-4-wave-particle-duality-of-matter-schroedinger-equation/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-4-wave-particle-duality-of-matter-schroedinger-equation/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 5: Hydrogen atom energy levels",
@@ -67,7 +75,9 @@
                     "youtubeKey": "kO0VmaLkgj8",
                     "contentLength": 97167724,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/b859fe55a8d45db59b0529a414f86c49_kO0VmaLkgj8.vtt",
-                    "htmlFile": "resources/lecture-5-hydrogen-atom-energy-levels/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-5-hydrogen-atom-energy-levels/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 6: Hydrogen atom wavefunctions (orbitals)",
@@ -75,7 +85,9 @@
                     "youtubeKey": "V-RPM3e8Ws0",
                     "contentLength": 141191515,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/47fde2dec1055b69a501aa05cab350a2_V-RPM3e8Ws0.vtt",
-                    "htmlFile": "resources/lecture-6-hydrogen-atom-wavefunctions-orbitals/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-6-hydrogen-atom-wavefunctions-orbitals/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 7: Multielectron atoms",
@@ -83,7 +95,9 @@
                     "youtubeKey": "-jJz5OMmuP0",
                     "contentLength": 83690401,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/05b3a9fed0ec58288b33d4a9ff68a8b4_-jJz5OMmuP0.vtt",
-                    "htmlFile": "resources/lecture-7-multielectron-atoms/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-7-multielectron-atoms/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 8: The Periodic Table and Periodic Trends",
@@ -91,7 +105,9 @@
                     "youtubeKey": "LWmVdG0uj2g",
                     "contentLength": 97255276,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/c0bba8e1cb275592bbbe373abb7ff55a_LWmVdG0uj2g.vtt",
-                    "htmlFile": "resources/lecture-8-the-periodic-table-and-periodic-trends/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-8-the-periodic-table-and-periodic-trends/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 9: Periodic Table; Ionic and Covalent Bonds",
@@ -99,7 +115,9 @@
                     "youtubeKey": "NIZFPnHtrBA",
                     "contentLength": 126097227,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/87f60a24779056e6842192ad24a33594_NIZFPnHtrBA.vtt",
-                    "htmlFile": "resources/lecture-9-periodic-table-ionic-and-covalent-bonds/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-9-periodic-table-ionic-and-covalent-bonds/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 10: Introduction to Lewis Structures",
@@ -107,7 +125,9 @@
                     "youtubeKey": "ed_XR1BzuQs",
                     "contentLength": 102157268,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/81cfae9a8e805d78a3c31cbc63055b5a_ed_XR1BzuQs.vtt",
-                    "htmlFile": "resources/lecture-10-lewis-structures/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-10-lewis-structures/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 11: Lewis Structures: Breakdown of the Octet Rule",
@@ -115,7 +135,9 @@
                     "youtubeKey": "Hc5ODj1Ml6c",
                     "contentLength": 67585686,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/0fd611b5e92d5811bc2b17a6cd313a86_Hc5ODj1Ml6c.vtt",
-                    "htmlFile": "resources/lecture-11-formal-charge-and-resonance/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-11-formal-charge-and-resonance/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 12: The Shapes of Molecules: VSEPR Theory",
@@ -123,7 +145,9 @@
                     "youtubeKey": "Ja9eEQQzTic",
                     "contentLength": 106029441,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/9ca5153a3de253e3a80eb57e7751bc53_Ja9eEQQzTic.vtt",
-                    "htmlFile": "resources/lecture-12-the-shapes-of-molecules-vsepr-theory/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-12-the-shapes-of-molecules-vsepr-theory/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 13: Molecular Orbital Theory",
@@ -131,7 +155,9 @@
                     "youtubeKey": "O192jrR80oo",
                     "contentLength": 153066775,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/6bf9c10af0af5bf78c9d60b8711e8101_O192jrR80oo.vtt",
-                    "htmlFile": "resources/lecture-13-molecular-orbital-theory/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-13-molecular-orbital-theory/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 14: Valence Bond Theory and Hybridization",
@@ -139,7 +165,9 @@
                     "youtubeKey": "BBbuj0XpaiQ",
                     "contentLength": 132443657,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/eec086f4fd7d52ff955087ce8dbe3de3_BBbuj0XpaiQ.vtt",
-                    "htmlFile": "resources/lecture-14-valence-bond-theory-and-hybridization/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-14-valence-bond-theory-and-hybridization/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 15: Thermodynamics: Bond and Reaction Enthalpies",
@@ -147,7 +175,9 @@
                     "youtubeKey": "wS1MX-C2V9w",
                     "contentLength": 90007302,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/cb734ec20d8b55e497db7e33353336b9_wS1MX-C2V9w.vtt",
-                    "htmlFile": "resources/lecture-15-thermodynamics-bond-and-reaction-enthalpies/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-15-thermodynamics-bond-and-reaction-enthalpies/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 16: Thermodynamics: Gibbs Free Energy and Entropy",
@@ -155,7 +185,9 @@
                     "youtubeKey": "OjhZYx1FbhI",
                     "contentLength": 75218817,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/4c36cf4abb6e51278f23fb3928fe158b_OjhZYx1FbhI.vtt",
-                    "htmlFile": "resources/lecture-16-thermodynamics-gibbs-free-energy-and-entropy/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-16-thermodynamics-gibbs-free-energy-and-entropy/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 17: Thermodynamics: Now What Happens When You Heat It Up?",
@@ -163,7 +195,9 @@
                     "youtubeKey": "awdQqF9CFt0",
                     "contentLength": 76200866,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/2f3b565ad3595486a8ed00f1505a5ddc_awdQqF9CFt0.vtt",
-                    "htmlFile": "resources/lecture-17-thermodynamics-now-what-happens-when-you-heat-it-up/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-17-thermodynamics-now-what-happens-when-you-heat-it-up/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 18: Introduction to Chemical Equilibrium",
@@ -171,7 +205,9 @@
                     "youtubeKey": "f0udxGcoztE",
                     "contentLength": 111729621,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/81cad1b317255cc2951841f16d344b24_f0udxGcoztE.vtt",
-                    "htmlFile": "resources/lecture-18-introduction-to-chemical-equilibrium/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-18-introduction-to-chemical-equilibrium/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 19: Chemical Equilibrium: Le Châtelier's Principle",
@@ -179,7 +215,9 @@
                     "youtubeKey": "AVL5AwJrrEU",
                     "contentLength": 110282617,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/f2d48eccbbf25772948e6681b50f3b34_AVL5AwJrrEU.vtt",
-                    "htmlFile": "resources/lecture-19-chemical-equilibrium-le-chatelier2019s-principle/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-19-chemical-equilibrium-le-chatelier2019s-principle/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 20: Solubility and Acid-Base Equilibrium",
@@ -187,7 +225,9 @@
                     "youtubeKey": "FJCVSswFXyE",
                     "contentLength": 99148906,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/897f42272d565e4ea83def6ac634fec9_FJCVSswFXyE.vtt",
-                    "htmlFile": "resources/lecture-20-solubility-and-acid-base-equilibrium/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-20-solubility-and-acid-base-equilibrium/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 21: Acid-Base Equilibrium: Is MIT Water Safe to Drink?",
@@ -195,7 +235,9 @@
                     "youtubeKey": "pJdUR2uak2s",
                     "contentLength": 140968982,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/660c5e5bb8fa54318e04b67671e50888_pJdUR2uak2s.vtt",
-                    "htmlFile": "resources/lecture-21-acid-base-equilibrium-is-mit-water-safe-to-drink/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-21-acid-base-equilibrium-is-mit-water-safe-to-drink/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 22: Acid-Base Equilibrium: Salt Solutions and Buffers",
@@ -203,7 +245,9 @@
                     "youtubeKey": "caonmXHGB60",
                     "contentLength": 118438661,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/bf9c25b1ab0a5b06b8d2d13cff780e47_caonmXHGB60.vtt",
-                    "htmlFile": "resources/lecture-22-acid-base-equilibrium-salt-solutions-and-buffers/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-22-acid-base-equilibrium-salt-solutions-and-buffers/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 23: Acid-Base Titrations Part I",
@@ -211,7 +255,9 @@
                     "youtubeKey": "pIwp65fPyYU",
                     "contentLength": 106604700,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/1ea6eff1c4ca55a1984c7f2d8bbd0b8e_pIwp65fPyYU.vtt",
-                    "htmlFile": "resources/lecture-23-acid-base-titrations-part-i/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-23-acid-base-titrations-part-i/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 24: Acid-Base Titrations Part II",
@@ -219,7 +265,9 @@
                     "youtubeKey": "Om_5b29d_9g",
                     "contentLength": 49422710,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/93c4579ca0ca5c76ba57dde4cb352891_Om_5b29d_9g.vtt",
-                    "htmlFile": "resources/lecture-24-acid-base-titrations-part-ii/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-24-acid-base-titrations-part-ii/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 25: Oxidation-Reduction and Electrochemical Cells",
@@ -227,7 +275,9 @@
                     "youtubeKey": "BZzkyqe6KD8",
                     "contentLength": 121995784,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/b41265fff05e5f5e8c24234bc9d7ea51_BZzkyqe6KD8.vtt",
-                    "htmlFile": "resources/lecture-25-oxidation-reduction-and-electrochemical-cells/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-25-oxidation-reduction-and-electrochemical-cells/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 26: Chemical and Biological Oxidations",
@@ -235,7 +285,9 @@
                     "youtubeKey": "f6Z99Gu6XEE",
                     "contentLength": 102754478,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/01649c609cb65fa6b789a834fa3e7819_f6Z99Gu6XEE.vtt",
-                    "htmlFile": "resources/lecture-26-chemical-and-biological-oxidations/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-26-chemical-and-biological-oxidations/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 27: Introduction to Transition Metals",
@@ -243,7 +295,9 @@
                     "youtubeKey": "JBgbUI3pxV0",
                     "contentLength": 102113804,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/006772af473656e093b66fe2759bd6fb_JBgbUI3pxV0.vtt",
-                    "htmlFile": "resources/lecture-27-introduction-to-transition-metals/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-27-introduction-to-transition-metals/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 28: Transition Metals: Crystal Field Theory Part I",
@@ -251,7 +305,9 @@
                     "youtubeKey": "lLdPSLNxDqA",
                     "contentLength": 124065020,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/f38a763c2393504fa3c1a27202a79ea8_lLdPSLNxDqA.vtt",
-                    "htmlFile": "resources/lecture-28-transition-metals-crystal-field-theory-part-i/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-28-transition-metals-crystal-field-theory-part-i/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 29: Transition Metals: Crystal Field Theory Part II",
@@ -259,7 +315,9 @@
                     "youtubeKey": "CFPnZ66nge4",
                     "contentLength": 79351620,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/05c5f1e19007507c9655f24ab67924bd_CFPnZ66nge4.vtt",
-                    "htmlFile": "resources/lecture-29-transition-metals-crystal-field-theory-part-ii/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-29-transition-metals-crystal-field-theory-part-ii/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 30: Kinetics: Rate Laws",
@@ -267,7 +325,9 @@
                     "youtubeKey": "B7iFcW8USjQ",
                     "contentLength": 106148806,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/f8818d748f0a5559bf1f6066dbdef7a5_B7iFcW8USjQ.vtt",
-                    "htmlFile": "resources/lecture-30-kinetics-rate-laws/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-30-kinetics-rate-laws/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 31: Nuclear Chemistry and Chemical Kinetics",
@@ -275,7 +335,9 @@
                     "youtubeKey": "XKeAd4xybjM",
                     "contentLength": 81668632,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/760bbe98c1ad51d18eeb734c175f0448_XKeAd4xybjM.vtt",
-                    "htmlFile": "resources/lecture-31-nuclear-chemistry-and-chemical-kinetics/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-31-nuclear-chemistry-and-chemical-kinetics/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 32: Kinetics: Reaction Mechanisms",
@@ -283,7 +345,9 @@
                     "youtubeKey": "4q0T9c7jotw",
                     "contentLength": 108032049,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/25f199be150557859fe349cd6c9d66ba_4q0T9c7jotw.vtt",
-                    "htmlFile": "resources/lecture-32-kinetics-reaction-mechanisms/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-32-kinetics-reaction-mechanisms/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 33: Kinetics and Temperature",
@@ -291,7 +355,9 @@
                     "youtubeKey": "KHkNrbSKFic",
                     "contentLength": 120764360,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/f37fb51be41c5cb9bbcc121da2254138_KHkNrbSKFic.vtt",
-                    "htmlFile": "resources/lecture-33-kinetics-and-temperature/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-33-kinetics-and-temperature/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 34: Kinetics: Catalysts",
@@ -299,7 +365,9 @@
                     "youtubeKey": "p8AAjZXr5dg",
                     "contentLength": 95806291,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/305095cdb9fa5288b446f85e0a27af78_p8AAjZXr5dg.vtt",
-                    "htmlFile": "resources/lecture-34-kinetics-catalysts/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-34-kinetics-catalysts/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 35: Applying Chemical Principles",
@@ -307,7 +375,9 @@
                     "youtubeKey": "pn1cxuBmhtI",
                     "contentLength": 77396968,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/0b90e7c27c285d6cbc5bd1bac5667a40_pn1cxuBmhtI.vtt",
-                    "htmlFile": "resources/lecture-35-applying-chemical-principles/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-35-applying-chemical-principles/index.html"
+                    ]
                 }
             ]
         },
@@ -320,7 +390,9 @@
                     "youtubeKey": "r7MO11iMsOQ",
                     "contentLength": 10820316,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/fa9931497b6d57808499099119084113_r7MO11iMsOQ.vtt",
-                    "htmlFile": "resources/5/index.html"
+                    "htmlFiles": [
+                        "resources/5/index.html"
+                    ]
                 },
                 {
                     "title": "Building a Team of Teaching Assistants",
@@ -328,7 +400,9 @@
                     "youtubeKey": "S5UKjrfJiL8",
                     "contentLength": 8117539,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/93a94043e40255f6afcc9b570ae4171e_S5UKjrfJiL8.vtt",
-                    "htmlFile": "resources/building-a-team-of-teaching-assistants/index.html"
+                    "htmlFiles": [
+                        "resources/building-a-team-of-teaching-assistants/index.html"
+                    ]
                 },
                 {
                     "title": "Clicker Competitions",
@@ -336,7 +410,9 @@
                     "youtubeKey": "VXeTfT8JL0Q",
                     "contentLength": 10172824,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/d915a72260aa54978ce667b3e4631a5d_VXeTfT8JL0Q.vtt",
-                    "htmlFile": "resources/clicker-competitions/index.html"
+                    "htmlFiles": [
+                        "resources/clicker-competitions/index.html"
+                    ]
                 },
                 {
                     "title": "Diversity Training: Addressing Stereotype Threat in the Classroom",
@@ -344,7 +420,9 @@
                     "youtubeKey": "pSIAK5hzJeI",
                     "contentLength": 216577727,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/7d25f72cebfe55ababb4d3891909a4ae_pSIAK5hzJeI.vtt",
-                    "htmlFile": "resources/diversity-training-addressing-stereotype-threat-in-the-classroom/index.html"
+                    "htmlFiles": [
+                        "resources/diversity-training-addressing-stereotype-threat-in-the-classroom/index.html"
+                    ]
                 },
                 {
                     "title": "Diversity Training: Introduction Video",
@@ -352,7 +430,9 @@
                     "youtubeKey": "IzTRzMf8kKE",
                     "contentLength": 10024984,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/406b55eaf7675474b4893c19cad7579a_IzTRzMf8kKE.vtt",
-                    "htmlFile": "resources/diversity-training-introduction-video/index.html"
+                    "htmlFiles": [
+                        "resources/diversity-training-introduction-video/index.html"
+                    ]
                 },
                 {
                     "title": "Meet the Educator",
@@ -360,7 +440,9 @@
                     "youtubeKey": "YEUyMX7kouw",
                     "contentLength": 8730236,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/cf95fad5e9da5a979ec8c0455399dc9f_YEUyMX7kouw.vtt",
-                    "htmlFile": "resources/meet-the-educator/index.html"
+                    "htmlFiles": [
+                        "resources/meet-the-educator/index.html"
+                    ]
                 },
                 {
                     "title": "Pizza Forums: Connecting with Students in a Large Lecture Class",
@@ -368,7 +450,9 @@
                     "youtubeKey": "xB8xRCSyQlY",
                     "contentLength": 6518824,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/2b533be405375285a44755e06d737927_xB8xRCSyQlY.vtt",
-                    "htmlFile": "resources/pizza-forums-connecting-with-students-in-a-large-lecture-class/index.html"
+                    "htmlFiles": [
+                        "resources/pizza-forums-connecting-with-students-in-a-large-lecture-class/index.html"
+                    ]
                 },
                 {
                     "title": "Preparing for Lectures",
@@ -376,7 +460,9 @@
                     "youtubeKey": "_ZZ6jwuBJxc",
                     "contentLength": 5374493,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/d7e60309cf5759c69ce2a45f22962e15_ZZ6jwuBJxc.vtt",
-                    "htmlFile": "resources/preparing-for-lectures/index.html"
+                    "htmlFiles": [
+                        "resources/preparing-for-lectures/index.html"
+                    ]
                 },
                 {
                     "title": "Promoting Active Participation During Lectures",
@@ -384,7 +470,9 @@
                     "youtubeKey": "htRqniQFm5g",
                     "contentLength": 9876367,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/967b1e574ecb54f3b6c522e7f921c607_htRqniQFm5g.vtt",
-                    "htmlFile": "resources/promoting-active-participation-during-lectures/index.html"
+                    "htmlFiles": [
+                        "resources/promoting-active-participation-during-lectures/index.html"
+                    ]
                 },
                 {
                     "title": "Spotlighting Contemporary Chemistry",
@@ -392,7 +480,9 @@
                     "youtubeKey": "-Y8pOF1AgUY",
                     "contentLength": 7487951,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/69f42cd27a5258b18a8f098d11741869_-Y8pOF1AgUY.vtt",
-                    "htmlFile": "resources/spotlighting-contemporary-chemistry/index.html"
+                    "htmlFiles": [
+                        "resources/spotlighting-contemporary-chemistry/index.html"
+                    ]
                 },
                 {
                     "title": "Using Humor to Engage Students",
@@ -400,7 +490,9 @@
                     "youtubeKey": "739SB34oEyo",
                     "contentLength": 10180400,
                     "captionsFile": "/courses/5-111sc-principles-of-chemical-science-fall-2014/f049459ac6bd593286f6caca1ef92602_739SB34oEyo.vtt",
-                    "htmlFile": "resources/using-humor-to-engage-students/index.html"
+                    "htmlFiles": [
+                        "resources/using-humor-to-engage-students/index.html"
+                    ]
                 }
             ]
         }

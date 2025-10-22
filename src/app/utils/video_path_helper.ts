@@ -3,11 +3,14 @@
 
 import { ALL_COURSES } from "../initial_course_list";
 
+// maps from path to youtube key
 export const VIDEOS_BY_PATH: Map<string, string> = new Map();
 
 ALL_COURSES.forEach((course) => {
   course.videos.forEach((video) => {
-    VIDEOS_BY_PATH.set(mapKey(course.id, video.htmlFile), video.youtubeKey);
+    video.htmlFiles.forEach((path) => {
+      VIDEOS_BY_PATH.set(mapKey(course.id, path), video.youtubeKey);
+    });
   });
 });
 

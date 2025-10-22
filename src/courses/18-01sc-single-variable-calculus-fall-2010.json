@@ -1,7 +1,7 @@
 {
     "id": "18-01sc-single-variable-calculus-fall-2010",
-    "category": "Mathematics",
     "name": "Single Variable Calculus",
+    "category": "Mathematics",
     "topics": [
         "Mathematics",
         "Calculus",
@@ -16,168 +16,11 @@
     "cardImg": "/images/course_cards/18-01sc-single-variable-calculus-fall-2010.jpg",
     "imgAltText": "A graph of three lines, red, yellow, and blue that represent secant approximation. ",
     "file": "https://files.ocwtogo.org/18.01sc-fall-2010.zip",
-    "downloadSize": 140918461,
-    "diskSize": 375582816,
+    "downloadSize": 141366459,
+    "diskSize": 377491757,
     "description": "This calculus course covers differentiation and integration of functions of one variable, and concludes with a brief discussion of infinite series. Calculus is fundamental to many scientific disciplines including physics, engineering, and economics.\n\nCourse Format\n\nThis course has been designed for independent study. It includes all of the materials you will need to understand the concepts covered in this subject. The materials in this course include:\n\n- **Lecture Videos** with supporting written notes\n- **Recitation Videos** of problem-solving tips\n- **Worked Examples** with detailed solutions to sample problems\n- **Problem sets** with solutions\n- **Exams** with solutions\n- **Interactive Java Applets** (\"Mathlets\") to reinforce key concepts\n\nContent Development\n\nDavid Jerison     \nArthur Mattuck     \nHaynes Miller     \nBenjamin Brubaker     \nJeremy Orloff\n\nHeidi Burgiel     \nChristine Breiner     \nDavid Jordan     \nJoel Lewis\n\nAbout OCW Scholar\n\nOCW Scholar courses are designed specifically for OCW's single largest audience: independent learners. These courses are substantially more complete than typical OCW courses, and include new custom-created content as well as materials repurposed from previously published courses.",
     "descriptionHtml": "<p>This calculus course covers differentiation and integration of functions of one variable, and concludes with a brief discussion of infinite series. Calculus is fundamental to many scientific disciplines including physics, engineering, and economics.</p>\n<p>Course Format</p>\n<p>This course has been designed for independent study. It includes all of the materials you will need to understand the concepts covered in this subject. The materials in this course include:</p>\n<ul>\n<li><strong>Lecture Videos</strong> with supporting written notes</li>\n<li><strong>Recitation Videos</strong> of problem-solving tips</li>\n<li><strong>Worked Examples</strong> with detailed solutions to sample problems</li>\n<li><strong>Problem sets</strong> with solutions</li>\n<li><strong>Exams</strong> with solutions</li>\n<li><strong>Interactive Java Applets</strong> (&ldquo;Mathlets&rdquo;) to reinforce key concepts</li>\n</ul>\n<p>Content Development</p>\n<p>David Jerison   <br>\nArthur Mattuck   <br>\nHaynes Miller   <br>\nBenjamin Brubaker   <br>\nJeremy Orloff</p>\n<p>Heidi Burgiel   <br>\nChristine Breiner   <br>\nDavid Jordan   <br>\nJoel Lewis</p>\n<p>About OCW Scholar</p>\n<p>OCW Scholar courses are designed specifically for OCW&rsquo;s single largest audience: independent learners. These courses are substantially more complete than typical OCW courses, and include new custom-created content as well as materials repurposed from previously published courses.</p>\n",
     "videoGroups": [
-        {
-            "category": "Lecture Videos",
-            "videos": [
-                {
-                    "title": "Clip 1: Differential Equations and Slope, Part 1",
-                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec16_300k.mp4",
-                    "youtubeKey": "60VGKnYBpbg",
-                    "contentLength": 104618894,
-                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/5b04a7f670255a29ba12f4bbd04845ce_60VGKnYBpbg.vtt",
-                    "htmlFile": "resources/clip-1-differential-equations-and-slope-part-1/index.html"
-                },
-                {
-                    "title": "Clip 1: Functions Without Elementary Anti-Derivatives",
-                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec36_300k.mp4",
-                    "youtubeKey": "KhwQKE_tld0",
-                    "contentLength": 114271817,
-                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/41ecea534afa59feafb7b0f0240c6f09_KhwQKE_tld0.vtt",
-                    "htmlFile": "resources/clip-1-functions-without-elementary-anti-derivatives/index.html"
-                },
-                {
-                    "title": "Clip 1: Integral of cos2(x)",
-                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec27_300k.mp4",
-                    "youtubeKey": "Bv9kVDcj7yo",
-                    "contentLength": 108102909,
-                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/f2e5f619a1765d0eadd20f22bbe35cac_Bv9kVDcj7yo.vtt",
-                    "htmlFile": "resources/clip-1-integral-of-cos2-x/index.html"
-                },
-                {
-                    "title": "Clip 1: Introduction to L'Hospital's Rule",
-                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec35_300k.mp4",
-                    "youtubeKey": "PNTnmH6jsRI",
-                    "contentLength": 112575560,
-                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/e0e7b98d2f1d57139669071cb3ccb18d_PNTnmH6jsRI.vtt",
-                    "htmlFile": "resources/clip-1-introduction-to-lhospitals-rule/index.html"
-                },
-                {
-                    "title": "Clip 1: Introduction to Power Series",
-                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec38_300k.mp4",
-                    "youtubeKey": "wOHrNt9ScYs",
-                    "contentLength": 109926678,
-                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/63401ebc8f705056bdea043c204778f7_wOHrNt9ScYs.vtt",
-                    "htmlFile": "resources/clip-1-introduction-to-power-series/index.html"
-                },
-                {
-                    "title": "Clip 1: Introduction to Rates of Change",
-                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec02_300k.mp4",
-                    "youtubeKey": "ryLdyDrBfvI",
-                    "contentLength": 121523348,
-                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/7b6b316de38c590c852a8a3bd0b29bf9_ryLdyDrBfvI.vtt",
-                    "htmlFile": "resources/clip-1-introduction-to-rates-of-change/index.html"
-                },
-                {
-                    "title": "Clip 1: Review for Test IV",
-                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec33_300k.mp4",
-                    "youtubeKey": "BGE3wb7H2PA",
-                    "contentLength": 113397775,
-                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/6591739d4f965386a00dfeeef2be363d_BGE3wb7H2PA.vtt",
-                    "htmlFile": "resources/clip-1-review-for-test-iv/index.html"
-                },
-                {
-                    "title": "Clip 1: The Bell Curve",
-                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec21_300k.mp4",
-                    "youtubeKey": "_JXPe2J069c",
-                    "contentLength": 116267274,
-                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/53581d4eae3f5808adbed23b061988ea_JXPe2J069c.vtt",
-                    "htmlFile": "resources/clip-1-the-bell-curve/index.html"
-                },
-                {
-                    "title": "Clip 1: The Mean Value Theorem and Linear Approximation",
-                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec14_300k.mp4",
-                    "youtubeKey": "4Q37iOyBq44",
-                    "contentLength": 114208107,
-                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/9d6a85de54285212ac93abcf13654110_4Q37iOyBq44.vtt",
-                    "htmlFile": "resources/clip-1-the-mean-value-theorem-and-linear-approximation/index.html"
-                },
-                {
-                    "title": "Clip 1: The Most Natural Logarithmic Function",
-                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec07_300k.mp4",
-                    "youtubeKey": "9v25gg2qJYE",
-                    "contentLength": 116761226,
-                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/bfc22f5205ab5a5db2ab8091489808f9_9v25gg2qJYE.vtt",
-                    "htmlFile": "resources/clip-1-the-most-natural-logarithmic-function/index.html"
-                },
-                {
-                    "title": "Clip 2: Antiderivative of xa",
-                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec15_300k.mp4",
-                    "youtubeKey": "-MI0b4h3rS0",
-                    "contentLength": 112648468,
-                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/5aad6d8dff32563db7d65a53725966b4_-MI0b4h3rS0.vtt",
-                    "htmlFile": "resources/clip-2-antiderivative-of-xa/index.html"
-                },
-                {
-                    "title": "Clip 2: Arclength of Parametric Curves",
-                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec32_300k.mp4",
-                    "youtubeKey": "XRkgBWbWvg4",
-                    "contentLength": 114119096,
-                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/a5835b318c2e598988bd2a9ae9f83906_XRkgBWbWvg4.vtt",
-                    "htmlFile": "resources/clip-2-arclength-of-parametric-curves/index.html"
-                },
-                {
-                    "title": "Clip 2: By Vertical Slices",
-                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec30_300k.mp4",
-                    "youtubeKey": "aeXp1zC6Hls",
-                    "contentLength": 118596752,
-                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/2e8fcf90380155b5baec80265ef85e91_aeXp1zC6Hls.vtt",
-                    "htmlFile": "resources/clip-2-by-vertical-slices/index.html"
-                },
-                {
-                    "title": "Clip 2: Comparison Tests",
-                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec37_300k.mp4",
-                    "youtubeKey": "MK_0QHbUnIA",
-                    "contentLength": 116052980,
-                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/2e7ac5c4f4ec5844ab194b638a1ce338_MK_0QHbUnIA.vtt",
-                    "htmlFile": "resources/clip-2-comparison-tests/index.html"
-                },
-                {
-                    "title": "Clip 2: Introduction to General Rules for Differentiation",
-                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec04_300k.mp4",
-                    "youtubeKey": "4sTKcvYMNxk",
-                    "contentLength": 106313239,
-                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/7707afc8d7ee50f48ef01e7536b13ec9_4sTKcvYMNxk.vtt",
-                    "htmlFile": "resources/clip-2-introduction-to-general-rules-for-differentiation/index.html"
-                },
-                {
-                    "title": "Clip 2: Maximum Area of Two Squares",
-                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec12_300k.mp4",
-                    "youtubeKey": "YN7k_bXXggY",
-                    "contentLength": 115043927,
-                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/dfadf55ac5ab5be6a57e9dcd55aaf8f2_YN7k_bXXggY.vtt",
-                    "htmlFile": "resources/clip-2-maximum-area-of-two-squares/index.html"
-                },
-                {
-                    "title": "Clip 3: Graphing a Rational Function",
-                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec11_300k.mp4",
-                    "youtubeKey": "twzGBqPeW0M",
-                    "contentLength": 113932834,
-                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/d25517adc33a55068927ab75a3461d0b_twzGBqPeW0M.vtt",
-                    "htmlFile": "resources/clip-3-graphing-a-rational-function/index.html"
-                },
-                {
-                    "title": "Clip 3: Trapezoidal Rule",
-                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec24_300k.mp4",
-                    "youtubeKey": "jBkXbAgMj6s",
-                    "contentLength": 116613929,
-                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/c473b3e9159f5e5fac07a75e40bf9222_jBkXbAgMj6s.vtt",
-                    "htmlFile": "resources/copy_of_clip-1-introduction-to-numerical-integration/index.html"
-                },
-                {
-                    "title": "Clip: Finale",
-                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec39_300k.mp4",
-                    "youtubeKey": "--lPz7VFnKI",
-                    "contentLength": 90904633,
-                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/3e924b9f6b1c5355bf60e68b1bddc78b_--lPz7VFnKI.vtt",
-                    "htmlFile": "resources/clip-finale/index.html"
-                }
-            ]
-        },
         {
             "category": "Recitation Videos",
             "videos": [
@@ -187,7 +30,9 @@
                     "youtubeKey": "bo8SFHppXZk",
                     "contentLength": 79623510,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/bf6b38b22d6856189abd26fe651a5a5c_bo8SFHppXZk.vtt",
-                    "htmlFile": "resources/a-solid-with-finite-volume-and-infinite-cross-section/index.html"
+                    "htmlFiles": [
+                        "resources/a-solid-with-finite-volume-and-infinite-cross-section/index.html"
+                    ]
                 },
                 {
                     "title": "Antidifferentiation by Substitution",
@@ -195,7 +40,9 @@
                     "youtubeKey": "W7sNkRpcydk",
                     "contentLength": 134205376,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/41db82fdf13a58f6a70743d85011a96e_W7sNkRpcydk.vtt",
-                    "htmlFile": "resources/antidifferentiation-by-substitution/index.html"
+                    "htmlFiles": [
+                        "resources/antidifferentiation-by-substitution/index.html"
+                    ]
                 },
                 {
                     "title": "Applying the Second Fundamental Theorem",
@@ -203,7 +50,9 @@
                     "youtubeKey": "TQTDkpZP02A",
                     "contentLength": 56561893,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/e9ca24e776145503867218bd02b7d25f_TQTDkpZP02A.vtt",
-                    "htmlFile": "resources/applying-the-second-fundamental-theorem/index.html"
+                    "htmlFiles": [
+                        "resources/applying-the-second-fundamental-theorem/index.html"
+                    ]
                 },
                 {
                     "title": "Arc Length of y=x3/2",
@@ -211,7 +60,9 @@
                     "youtubeKey": "VOlbVNxyNfM",
                     "contentLength": 93337863,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/44cf3efc74ef518e95ba609786579bd3_VOlbVNxyNfM.vtt",
-                    "htmlFile": "resources/arc-length-of-y-x3-2/index.html"
+                    "htmlFiles": [
+                        "resources/arc-length-of-y-x3-2/index.html"
+                    ]
                 },
                 {
                     "title": "Area Between the Graphs of Sine and Cosine",
@@ -219,7 +70,9 @@
                     "youtubeKey": "9J_VCHpvMbY",
                     "contentLength": 52870304,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/aaa6a40b55a253ca8726da4bdc25297d_9J_VCHpvMbY.vtt",
-                    "htmlFile": "resources/area-between-the-graphs-of-sine-and-cosine/index.html"
+                    "htmlFiles": [
+                        "resources/area-between-the-graphs-of-sine-and-cosine/index.html"
+                    ]
                 },
                 {
                     "title": "Area Between y=x3 and y=3x-2",
@@ -227,7 +80,9 @@
                     "youtubeKey": "U3ebQ5Z4Jt8",
                     "contentLength": 117634179,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/1aa7604bd134557687a90c929f97d762_U3ebQ5Z4Jt8.vtt",
-                    "htmlFile": "resources/area-between-y-x3-and-y-3x-2/index.html"
+                    "htmlFiles": [
+                        "resources/area-between-y-x3-and-y-3x-2/index.html"
+                    ]
                 },
                 {
                     "title": "Average Velocity",
@@ -235,7 +90,9 @@
                     "youtubeKey": "Psks_KK0YZ8",
                     "contentLength": 97113358,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/18f9720b89645f7899c228987e616780_Psks_KK0YZ8.vtt",
-                    "htmlFile": "resources/average-velocity/index.html"
+                    "htmlFiles": [
+                        "resources/average-velocity/index.html"
+                    ]
                 },
                 {
                     "title": "Average x-Coordinate in a Region",
@@ -243,7 +100,9 @@
                     "youtubeKey": "_UBh66KVAJI",
                     "contentLength": 141234672,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/f79b643ed6b35fa6b59dffa52f3dfe34_UBh66KVAJI.vtt",
-                    "htmlFile": "resources/average-x-coordinate-in-a-region/index.html"
+                    "htmlFiles": [
+                        "resources/average-x-coordinate-in-a-region/index.html"
+                    ]
                 },
                 {
                     "title": "Chain Rule",
@@ -251,7 +110,9 @@
                     "youtubeKey": "aeQA5d3gZTI",
                     "contentLength": 101782504,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/c9fcb1a26e7951bd83e9a7cdfa6eba1c_aeQA5d3gZTI.vtt",
-                    "htmlFile": "resources/chain-rule/index.html"
+                    "htmlFiles": [
+                        "resources/chain-rule/index.html"
+                    ]
                 },
                 {
                     "title": "Closest Point to the Origin",
@@ -259,7 +120,9 @@
                     "youtubeKey": "-CsEPYeSBsg",
                     "contentLength": 88164449,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/b049cbec259256f8acf5287c34cfe3a9_-CsEPYeSBsg.vtt",
-                    "htmlFile": "resources/closest-point-to-the-origin/index.html"
+                    "htmlFiles": [
+                        "resources/closest-point-to-the-origin/index.html"
+                    ]
                 },
                 {
                     "title": "Comparing Functions Using the MVT",
@@ -267,7 +130,9 @@
                     "youtubeKey": "G_HS1Dan_x4",
                     "contentLength": 80677583,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/c8b034f1cc5e59a9a8ffb41f0cfed481_G_HS1Dan_x4.vtt",
-                    "htmlFile": "resources/comparing-functions-using-the-mvt/index.html"
+                    "htmlFiles": [
+                        "resources/comparing-functions-using-the-mvt/index.html"
+                    ]
                 },
                 {
                     "title": "Comparison Tests",
@@ -275,7 +140,9 @@
                     "youtubeKey": "dGKvUUmMGoU",
                     "contentLength": 188877898,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/6d874dd509a853e3bbff2951c4581c54_1424365.vtt",
-                    "htmlFile": "resources/comparison-tests/index.html"
+                    "htmlFiles": [
+                        "resources/comparison-tests/index.html"
+                    ]
                 },
                 {
                     "title": "Computing Antiderivatives",
@@ -283,7 +150,9 @@
                     "youtubeKey": "v90JNWCTupk",
                     "contentLength": 117174555,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/6a563275f36850578b6f42631f6494d0_v90JNWCTupk.vtt",
-                    "htmlFile": "resources/computing-antiderivatives/index.html"
+                    "htmlFiles": [
+                        "resources/computing-antiderivatives/index.html"
+                    ]
                 },
                 {
                     "title": "Computing Differentials",
@@ -291,7 +160,9 @@
                     "youtubeKey": "aefQ2FYugAY",
                     "contentLength": 53894058,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/9df00486da8058eb9a0b4c37b9a34e8a_aefQ2FYugAY.vtt",
-                    "htmlFile": "resources/computing-differentials/index.html"
+                    "htmlFiles": [
+                        "resources/computing-differentials/index.html"
+                    ]
                 },
                 {
                     "title": "Computing the Volume of a Paraboloid",
@@ -299,7 +170,9 @@
                     "youtubeKey": "QLo5dRFEyl8",
                     "contentLength": 94895364,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/77cdbafeeaf153bcb16c3611c223ea0e_QLo5dRFEyl8.vtt",
-                    "htmlFile": "resources/computing-the-volume-of-a-paraboloid/index.html"
+                    "htmlFiles": [
+                        "resources/computing-the-volume-of-a-paraboloid/index.html"
+                    ]
                 },
                 {
                     "title": "Constant Multiple Rule",
@@ -307,7 +180,9 @@
                     "youtubeKey": "Eaei-Y5AO_E",
                     "contentLength": 94030565,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/722a716efd3e5a01b0bc79ea3110d828_Eaei-Y5AO_E.vtt",
-                    "htmlFile": "resources/constant-multiple-rule/index.html"
+                    "htmlFiles": [
+                        "resources/constant-multiple-rule/index.html"
+                    ]
                 },
                 {
                     "title": "Converting From Polar to Rectangular Coordinates",
@@ -315,7 +190,9 @@
                     "youtubeKey": "Bk5y6Elcy_Q",
                     "contentLength": 114944936,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/f4e79fbea54054cab9f0886cebeea55f_Bk5y6Elcy_Q.vtt",
-                    "htmlFile": "resources/converting-from-polar-to-rectangular-coordinates/index.html"
+                    "htmlFiles": [
+                        "resources/converting-from-polar-to-rectangular-coordinates/index.html"
+                    ]
                 },
                 {
                     "title": "Definite Integral by Substitution",
@@ -323,7 +200,9 @@
                     "youtubeKey": "C9luv3o6emw",
                     "contentLength": 127674820,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/97c5e5cd75a45616a5f582b09e96287b_C9luv3o6emw.vtt",
-                    "htmlFile": "resources/definite-integral-by-substitution/index.html"
+                    "htmlFiles": [
+                        "resources/definite-integral-by-substitution/index.html"
+                    ]
                 },
                 {
                     "title": "Definite Integrals of tan (x)",
@@ -331,7 +210,9 @@
                     "youtubeKey": "G5BP8mTzkyk",
                     "contentLength": 81283791,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/7b7e35b72b0f5a19befc7b930a90c093_G5BP8mTzkyk.vtt",
-                    "htmlFile": "resources/definite-integrals-of-tan-x/index.html"
+                    "htmlFiles": [
+                        "resources/definite-integrals-of-tan-x/index.html"
+                    ]
                 },
                 {
                     "title": "Definition of Derivative",
@@ -339,7 +220,9 @@
                     "youtubeKey": "_nbtaQtX6JA",
                     "contentLength": 165034562,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/d6813359b07f51f6a2c8f32df489e2c5_nbtaQtX6JA.vtt",
-                    "htmlFile": "resources/definition-of-derivative/index.html"
+                    "htmlFiles": [
+                        "resources/definition-of-derivative/index.html"
+                    ]
                 },
                 {
                     "title": "Derivative of the Arccos Function",
@@ -347,7 +230,9 @@
                     "youtubeKey": "cdRMY39EYbs",
                     "contentLength": 126360449,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/b3f98f716f02571ab68fc9e7f92428c3_cdRMY39EYbs.vtt",
-                    "htmlFile": "resources/derivative-of-the-arccos-function/index.html"
+                    "htmlFiles": [
+                        "resources/derivative-of-the-arccos-function/index.html"
+                    ]
                 },
                 {
                     "title": "Derivative With a Discontinuity",
@@ -355,7 +240,9 @@
                     "youtubeKey": "7EKztFcTiUU",
                     "contentLength": 117348090,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/1fd7c63a2ce157a5b704e9cc3d4890bf_7EKztFcTiUU.vtt",
-                    "htmlFile": "resources/derivative-with-a-discontinuity/index.html"
+                    "htmlFiles": [
+                        "resources/derivative-with-a-discontinuity/index.html"
+                    ]
                 },
                 {
                     "title": "Derivatives of Sine and Cosine",
@@ -363,7 +250,9 @@
                     "youtubeKey": "Bb-bgJdOqig",
                     "contentLength": 108391020,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/205ec169fe4158a3b038a2bfbd0dcbbf_Bb-bgJdOqig.vtt",
-                    "htmlFile": "resources/derivatives-of-sine-and-cosine/index.html"
+                    "htmlFiles": [
+                        "resources/derivatives-of-sine-and-cosine/index.html"
+                    ]
                 },
                 {
                     "title": "Diffusion of a Chemical",
@@ -371,7 +260,9 @@
                     "youtubeKey": "rqkvDrYmKcc",
                     "contentLength": 163766836,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/183b0af020bf5c8ab9aaf261a3f87024_rqkvDrYmKcc.vtt",
-                    "htmlFile": "resources/diffusion-of-a-chemical/index.html"
+                    "htmlFiles": [
+                        "resources/diffusion-of-a-chemical/index.html"
+                    ]
                 },
                 {
                     "title": "Explanation of Simpson's Rule",
@@ -379,7 +270,9 @@
                     "youtubeKey": "uc4xJsi99bk",
                     "contentLength": 196539886,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/275dc087ae325d6b947145f001616589_uc4xJsi99bk.vtt",
-                    "htmlFile": "resources/explanation-of-simpsons-rule/index.html"
+                    "htmlFiles": [
+                        "resources/explanation-of-simpsons-rule/index.html"
+                    ]
                 },
                 {
                     "title": "Finding Taylor's Series",
@@ -387,7 +280,9 @@
                     "youtubeKey": "BSqNgPkeWIM",
                     "contentLength": 135726570,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/faefcdd3169258e29860843422d9ebc4_BSqNgPkeWIM.vtt",
-                    "htmlFile": "resources/finding-taylors-series/index.html"
+                    "htmlFiles": [
+                        "resources/finding-taylors-series/index.html"
+                    ]
                 },
                 {
                     "title": "Finding u and v' When Integrating by Parts",
@@ -395,7 +290,9 @@
                     "youtubeKey": "pWXh5t-37Qg",
                     "contentLength": 154022485,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/f42c1b3347ff54d387dacc46294c3e79_pWXh5t-37Qg.vtt",
-                    "htmlFile": "resources/finding-u-and-v-when-integrating-by-parts/index.html"
+                    "htmlFiles": [
+                        "resources/finding-u-and-v-when-integrating-by-parts/index.html"
+                    ]
                 },
                 {
                     "title": "Graph of r = 1 + cos (&theta;/2)",
@@ -403,7 +300,9 @@
                     "youtubeKey": "E7oR_JBgUzA",
                     "contentLength": 260365081,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/78f26ce635375316b5cd61c5b43a27e6_E7oR_JBgUzA.vtt",
-                    "htmlFile": "resources/graph-of-r-1-cos-theta-2/index.html"
+                    "htmlFiles": [
+                        "resources/graph-of-r-1-cos-theta-2/index.html"
+                    ]
                 },
                 {
                     "title": "Graphing a Derivative Function",
@@ -411,7 +310,9 @@
                     "youtubeKey": "Gbtma_UQpro",
                     "contentLength": 158789348,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/2fa883fb10c1573ab1cb64355b7318da_Gbtma_UQpro.vtt",
-                    "htmlFile": "resources/graphing-a-derivative-function/index.html"
+                    "htmlFiles": [
+                        "resources/graphing-a-derivative-function/index.html"
+                    ]
                 },
                 {
                     "title": "Graphing the Arctan Function",
@@ -419,7 +320,9 @@
                     "youtubeKey": "aYMt2ZVGd7g",
                     "contentLength": 58313054,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/2a8855341de9537dbf10db8a3b17927f_21784.vtt",
-                    "htmlFile": "resources/graphing-the-arctan-function/index.html"
+                    "htmlFiles": [
+                        "resources/graphing-the-arctan-function/index.html"
+                    ]
                 },
                 {
                     "title": "Hyperbolic Trig Functions",
@@ -427,7 +330,9 @@
                     "youtubeKey": "er_tQOBgo-I",
                     "contentLength": 177576880,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/debc6ea554265bb69ba213ae1b92d4ef_er_tQOBgo-I.vtt",
-                    "htmlFile": "resources/hyperbolic-trig-functions/index.html"
+                    "htmlFiles": [
+                        "resources/hyperbolic-trig-functions/index.html"
+                    ]
                 },
                 {
                     "title": "Hyperbolic Trig Substitution",
@@ -435,7 +340,9 @@
                     "youtubeKey": "Nv3C7q88MqA",
                     "contentLength": 217945562,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/904315984ec054b5b1a7267b1ca377f6_Nv3C7q88MqA.vtt",
-                    "htmlFile": "resources/hyperbolic-trig-substitution/index.html"
+                    "htmlFiles": [
+                        "resources/hyperbolic-trig-substitution/index.html"
+                    ]
                 },
                 {
                     "title": "Implicit Differentiation",
@@ -443,7 +350,9 @@
                     "youtubeKey": "fK6cu99OSEU",
                     "contentLength": 109548827,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/dc1cf88acc115e10ac137f6e69966dae_fK6cu99OSEU.vtt",
-                    "htmlFile": "resources/implicit-differentiation/index.html"
+                    "htmlFiles": [
+                        "resources/implicit-differentiation/index.html"
+                    ]
                 },
                 {
                     "title": "Implicit Differentiation and Linear Approximation",
@@ -451,7 +360,9 @@
                     "youtubeKey": "8gGbViZjoRw",
                     "contentLength": 136032062,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/9f9a00bd4a1455b69e80d4bedd65c154_21789.vtt",
-                    "htmlFile": "resources/implicit-differentiation-and-linear-approximation/index.html"
+                    "htmlFiles": [
+                        "resources/implicit-differentiation-and-linear-approximation/index.html"
+                    ]
                 },
                 {
                     "title": "Improper Integrals",
@@ -459,7 +370,9 @@
                     "youtubeKey": "owkMzpN8WDc",
                     "contentLength": 260173948,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/0abd64ca973c5a568a4cf88b830a0ac6_owkMzpN8WDc.vtt",
-                    "htmlFile": "resources/improper-integrals/index.html"
+                    "htmlFiles": [
+                        "resources/improper-integrals/index.html"
+                    ]
                 },
                 {
                     "title": "Increasing or Decreasing",
@@ -467,7 +380,9 @@
                     "youtubeKey": "z1FRDkxlmg8",
                     "contentLength": 44735696,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/e3d2f15495355ca2bab8a3c06e82a467_z1FRDkxlmg8.vtt",
-                    "htmlFile": "resources/increasing-or-decreasing/index.html"
+                    "htmlFiles": [
+                        "resources/increasing-or-decreasing/index.html"
+                    ]
                 },
                 {
                     "title": "Indeterminate Forms",
@@ -475,7 +390,9 @@
                     "youtubeKey": "bnhIRhnBa1A",
                     "contentLength": 154856228,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/e3dd7899ca4053c092a7fec8faebc98f_bnhIRhnBa1A.vtt",
-                    "htmlFile": "resources/indeterminate-forms/index.html"
+                    "htmlFiles": [
+                        "resources/indeterminate-forms/index.html"
+                    ]
                 },
                 {
                     "title": "Inflating a Balloon",
@@ -483,7 +400,9 @@
                     "youtubeKey": "RiRQDZjYkzo",
                     "contentLength": 104103741,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/5bb4b441761e5e7f9ec2fc3d73e548ba_RiRQDZjYkzo.vtt",
-                    "htmlFile": "resources/inflating-a-balloon/index.html"
+                    "htmlFiles": [
+                        "resources/inflating-a-balloon/index.html"
+                    ]
                 },
                 {
                     "title": "Integral of tan^4(theta)",
@@ -491,7 +410,9 @@
                     "youtubeKey": "98X2TyxXQdU",
                     "contentLength": 105530573,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/226c3f298b945cf5b21222fee5dd0507_98X2TyxXQdU.vtt",
-                    "htmlFile": "resources/integral-of-tan4theta/index.html"
+                    "htmlFiles": [
+                        "resources/integral-of-tan4theta/index.html"
+                    ]
                 },
                 {
                     "title": "Integral of xn e(-x)",
@@ -499,7 +420,9 @@
                     "youtubeKey": "apzEJCsycVM",
                     "contentLength": 141994792,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/433ec3ebacb255c99ff5db9fad0ce394_apzEJCsycVM.vtt",
-                    "htmlFile": "resources/integral-of-xn-e-x/index.html"
+                    "htmlFiles": [
+                        "resources/integral-of-xn-e-x/index.html"
+                    ]
                 },
                 {
                     "title": "Integral Test for Convergence",
@@ -507,7 +430,9 @@
                     "youtubeKey": "e4cURLXGjrM",
                     "contentLength": 103203415,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/696fb7e5d4335eb1aabe307a4bf0acc6_e4cURLXGjrM.vtt",
-                    "htmlFile": "resources/integral-test-for-convergence/index.html"
+                    "htmlFiles": [
+                        "resources/integral-test-for-convergence/index.html"
+                    ]
                 },
                 {
                     "title": "Integrating sinn(x) Using Reduction",
@@ -515,7 +440,9 @@
                     "youtubeKey": "hV5af_07ToE",
                     "contentLength": 225518631,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/e5216414b4515847b2d5d21713462925_hV5af_07ToE.vtt",
-                    "htmlFile": "resources/integrating-sinn-x-using-reduction/index.html"
+                    "htmlFiles": [
+                        "resources/integrating-sinn-x-using-reduction/index.html"
+                    ]
                 },
                 {
                     "title": "Integration by Completing the Square",
@@ -523,7 +450,9 @@
                     "youtubeKey": "CMbvq16z0gA",
                     "contentLength": 186240340,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/86cff04c22f05560880b0c04001d33f2_CMbvq16z0gA.vtt",
-                    "htmlFile": "resources/integration-by-completing-the-square/index.html"
+                    "htmlFiles": [
+                        "resources/integration-by-completing-the-square/index.html"
+                    ]
                 },
                 {
                     "title": "Integration of Taylor's Series",
@@ -531,7 +460,9 @@
                     "youtubeKey": "2_7htv5eviM",
                     "contentLength": 103711740,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/16ed865921515472a9c6192242d918e7_2_7htv5eviM.vtt",
-                    "htmlFile": "resources/integration-of-taylors-series/index.html"
+                    "htmlFiles": [
+                        "resources/integration-of-taylors-series/index.html"
+                    ]
                 },
                 {
                     "title": "Integration Practice I",
@@ -539,7 +470,9 @@
                     "youtubeKey": "13UPhn32Mjs",
                     "contentLength": 186406274,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/fd10d2b356bd582783bc45f7b620026f_13UPhn32Mjs.vtt",
-                    "htmlFile": "resources/integration-practice-i/index.html"
+                    "htmlFiles": [
+                        "resources/integration-practice-i/index.html"
+                    ]
                 },
                 {
                     "title": "Integration Practice II",
@@ -547,7 +480,9 @@
                     "youtubeKey": "1cejTnuMo1Y",
                     "contentLength": 195494013,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/1d7a42c332e95c99b2c2ac23b093ed68_1cejTnuMo1Y.vtt",
-                    "htmlFile": "resources/integration-practice-ii/index.html"
+                    "htmlFiles": [
+                        "resources/integration-practice-ii/index.html"
+                    ]
                 },
                 {
                     "title": "Integration Practice III",
@@ -555,7 +490,9 @@
                     "youtubeKey": "LUdI4-YCIh8",
                     "contentLength": 164541469,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/796ff44d7900582c82f90e6792ff20f8_LUdI4-YCIh8.vtt",
-                    "htmlFile": "resources/integration-practice-iii/index.html"
+                    "htmlFiles": [
+                        "resources/integration-practice-iii/index.html"
+                    ]
                 },
                 {
                     "title": "Integration Practice IV",
@@ -563,7 +500,9 @@
                     "youtubeKey": "zsKdRjP91Fs",
                     "contentLength": 240190072,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/e80765daead5596ebb743975df5f637e_zsKdRjP91Fs.vtt",
-                    "htmlFile": "resources/integration-practice-iv/index.html"
+                    "htmlFiles": [
+                        "resources/integration-practice-iv/index.html"
+                    ]
                 },
                 {
                     "title": "L'Hospital Practice",
@@ -571,7 +510,9 @@
                     "youtubeKey": "ycO0Vn_w9Q0",
                     "contentLength": 142786993,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/5d8139f5013a5e29ac8e08de7073e57b_ycO0Vn_w9Q0.vtt",
-                    "htmlFile": "resources/lhospital-practice/index.html"
+                    "htmlFiles": [
+                        "resources/lhospital-practice/index.html"
+                    ]
                 },
                 {
                     "title": "Limit of a Series",
@@ -579,7 +520,9 @@
                     "youtubeKey": "LpW6zanbSf8",
                     "contentLength": 65270571,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/9974b68eda315e7b82537d9662a708aa_LpW6zanbSf8.vtt",
-                    "htmlFile": "resources/limit-of-a-series/index.html"
+                    "htmlFiles": [
+                        "resources/limit-of-a-series/index.html"
+                    ]
                 },
                 {
                     "title": "Linear Approximation with Differentials",
@@ -587,7 +530,9 @@
                     "youtubeKey": "ed-rB3k_56U",
                     "contentLength": 73873300,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/f6ee3908b4275b3ebf3f98d87db66a16_ed-rB3k_56U.vtt",
-                    "htmlFile": "resources/linear-approximation-with-differentials/index.html"
+                    "htmlFiles": [
+                        "resources/linear-approximation-with-differentials/index.html"
+                    ]
                 },
                 {
                     "title": "Log and Exponent Derivatives",
@@ -595,7 +540,9 @@
                     "youtubeKey": "wezQdmwolMU",
                     "contentLength": 92591696,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/97d31165e7f954269d1bd1a9c2ff4590_wezQdmwolMU.vtt",
-                    "htmlFile": "resources/log-and-exponent-derivatives/index.html"
+                    "htmlFiles": [
+                        "resources/log-and-exponent-derivatives/index.html"
+                    ]
                 },
                 {
                     "title": "Maximum Surface Area",
@@ -603,7 +550,9 @@
                     "youtubeKey": "Q9iJWDFUspU",
                     "contentLength": 115340239,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/f40a84f2621a5fbab3f400795c675d2a_Q9iJWDFUspU.vtt",
-                    "htmlFile": "resources/maximum-surface-area/index.html"
+                    "htmlFiles": [
+                        "resources/maximum-surface-area/index.html"
+                    ]
                 },
                 {
                     "title": "Minimum Triangle Area",
@@ -611,7 +560,9 @@
                     "youtubeKey": "2keGgDBJKGU",
                     "contentLength": 130642241,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/7a7c5f78e7d25206ada84639aa42835a_2keGgDBJKGU.vtt",
-                    "htmlFile": "resources/minimum-triangle-area/index.html"
+                    "htmlFiles": [
+                        "resources/minimum-triangle-area/index.html"
+                    ]
                 },
                 {
                     "title": "Parametric Arc Length",
@@ -619,7 +570,9 @@
                     "youtubeKey": "v1AQ8Yi3yB8",
                     "contentLength": 117122254,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/1e693abeac655ab8b513ad44119873dc_v1AQ8Yi3yB8.vtt",
-                    "htmlFile": "resources/parametric-arc-length-1/index.html"
+                    "htmlFiles": [
+                        "resources/parametric-arc-length-1/index.html"
+                    ]
                 },
                 {
                     "title": "Partial Fractions Decomposition",
@@ -627,7 +580,9 @@
                     "youtubeKey": "UsGBIfjUK7U",
                     "contentLength": 252250728,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/b21ef3341e3d55e4b603d4848463c378_UsGBIfjUK7U.vtt",
-                    "htmlFile": "resources/partial-fractions-decomposition/index.html"
+                    "htmlFiles": [
+                        "resources/partial-fractions-decomposition/index.html"
+                    ]
                 },
                 {
                     "title": "Power Series Practice",
@@ -635,7 +590,9 @@
                     "youtubeKey": "al2lzKq4o5E",
                     "contentLength": 133110757,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/571469d7fc9951cbb44bffd4a842c073_al2lzKq4o5E.vtt",
-                    "htmlFile": "resources/power-series-practice/index.html"
+                    "htmlFiles": [
+                        "resources/power-series-practice/index.html"
+                    ]
                 },
                 {
                     "title": "Product Rule",
@@ -643,7 +600,9 @@
                     "youtubeKey": "55ncRlBZstA",
                     "contentLength": 94450140,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/494287a92c365739a38755de07a5b11f_55ncRlBZstA.vtt",
-                    "htmlFile": "resources/product-rule/index.html"
+                    "htmlFiles": [
+                        "resources/product-rule/index.html"
+                    ]
                 },
                 {
                     "title": "Quadratic Approximation of a Product",
@@ -651,7 +610,9 @@
                     "youtubeKey": "0YGiDaUOse4",
                     "contentLength": 185804650,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/3f6ac228ae2a5e2db9717f0268d2074d_0YGiDaUOse4.vtt",
-                    "htmlFile": "resources/quadratic-approximation-of-a-product/index.html"
+                    "htmlFiles": [
+                        "resources/quadratic-approximation-of-a-product/index.html"
+                    ]
                 },
                 {
                     "title": "Quadratic Approximation of an Exponential Function",
@@ -659,7 +620,9 @@
                     "youtubeKey": "aar099Xh5W4",
                     "contentLength": 95292940,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/95cbc3e96bcc5999825a4ea64726db4c_aar099Xh5W4.vtt",
-                    "htmlFile": "resources/quadratic-approximation-of-an-exponential-function/index.html"
+                    "htmlFiles": [
+                        "resources/quadratic-approximation-of-an-exponential-function/index.html"
+                    ]
                 },
                 {
                     "title": "Quotient Rule",
@@ -667,7 +630,9 @@
                     "youtubeKey": "D7nf7pKddwM",
                     "contentLength": 57786946,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/a1c5220d75ba5243a0bfc4d18dcd336e_D7nf7pKddwM.vtt",
-                    "htmlFile": "resources/quotient-rule/index.html"
+                    "htmlFiles": [
+                        "resources/quotient-rule/index.html"
+                    ]
                 },
                 {
                     "title": "Radius of Convergence",
@@ -675,7 +640,9 @@
                     "youtubeKey": "oTTo3qP0Z-I",
                     "contentLength": 238586038,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/99c37d34cb6c5b4180def23c1d30e7c2_oTTo3qP0Z-I.vtt",
-                    "htmlFile": "resources/radius-of-convergence/index.html"
+                    "htmlFiles": [
+                        "resources/radius-of-convergence/index.html"
+                    ]
                 },
                 {
                     "title": "Ratio Test for Convergence",
@@ -683,7 +650,9 @@
                     "youtubeKey": "rUis1mSzwyA",
                     "contentLength": 179794583,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/e99491a564935bee932ef8667392003c_rUis1mSzwyA.vtt",
-                    "htmlFile": "resources/ratio-test-for-convergence/index.html"
+                    "htmlFiles": [
+                        "resources/ratio-test-for-convergence/index.html"
+                    ]
                 },
                 {
                     "title": "Recitation Introduction",
@@ -691,7 +660,9 @@
                     "youtubeKey": "2y4tCiWbVRI",
                     "contentLength": 21169310,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/fa8d54c10f725a3fa072f99cc27c1653_2y4tCiWbVRI.vtt",
-                    "htmlFile": "resources/recitation-introduction/index.html"
+                    "htmlFiles": [
+                        "resources/recitation-introduction/index.html"
+                    ]
                 },
                 {
                     "title": "Riemann Sum",
@@ -699,7 +670,9 @@
                     "youtubeKey": "ELWqePHYjCk",
                     "contentLength": 94895364,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/8f60e0cf9b5d5bc1962fabc081a84c68_ELWqePHYjCk.vtt",
-                    "htmlFile": "resources/riemann-sum/index.html"
+                    "htmlFiles": [
+                        "resources/riemann-sum/index.html"
+                    ]
                 },
                 {
                     "title": "Rules of Logs",
@@ -707,7 +680,9 @@
                     "youtubeKey": "9YgOmJdom6o",
                     "contentLength": 121139331,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/00a3b1d1160752118469f97604f6e48f_9YgOmJdom6o.vtt",
-                    "htmlFile": "resources/rules-of-logs/index.html"
+                    "htmlFiles": [
+                        "resources/rules-of-logs/index.html"
+                    ]
                 },
                 {
                     "title": "Second Fundamental Theorem and Chain Rule",
@@ -715,7 +690,9 @@
                     "youtubeKey": "lEOjMAmkI-U",
                     "contentLength": 67093921,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/9919f9ddefe35671b836423810f635f0_lEOjMAmkI-U.vtt",
-                    "htmlFile": "resources/second-fundamental-theorem-and-chain-rule/index.html"
+                    "htmlFiles": [
+                        "resources/second-fundamental-theorem-and-chain-rule/index.html"
+                    ]
                 },
                 {
                     "title": "Second Fundamental Theorem and Quadratic Approximation",
@@ -723,7 +700,9 @@
                     "youtubeKey": "_7vVBtiVXIw",
                     "contentLength": 105010114,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/becd3d4c4eeb54c6abb15127346e3af4_7vVBtiVXIw.vtt",
-                    "htmlFile": "resources/second-fundamental-theorem-and-quadratic-approximation/index.html"
+                    "htmlFiles": [
+                        "resources/second-fundamental-theorem-and-quadratic-approximation/index.html"
+                    ]
                 },
                 {
                     "title": "Series Calculation Using a Riemann Sum",
@@ -731,7 +710,9 @@
                     "youtubeKey": "zcuYFf5R0NU",
                     "contentLength": 177993725,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/55aae3007e9e5299a7b8d862d905013a_zcuYFf5R0NU.vtt",
-                    "htmlFile": "resources/series-calculation-using-a-riemann-sum/index.html"
+                    "htmlFiles": [
+                        "resources/series-calculation-using-a-riemann-sum/index.html"
+                    ]
                 },
                 {
                     "title": "Sketching a Curve",
@@ -739,7 +720,9 @@
                     "youtubeKey": "aWV4khIBvCM",
                     "contentLength": 163334727,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/af810f5be9b356eeadbff4a0d7a351e1_aWV4khIBvCM.vtt",
-                    "htmlFile": "resources/sketching-a-curve/index.html"
+                    "htmlFiles": [
+                        "resources/sketching-a-curve/index.html"
+                    ]
                 },
                 {
                     "title": "Sliding Ladder",
@@ -747,7 +730,9 @@
                     "youtubeKey": "d484GRz9zjY",
                     "contentLength": 232491891,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/bfacaecb8f8159aa91fd64976d3b9fff_d484GRz9zjY.vtt",
-                    "htmlFile": "resources/sliding-ladder/index.html"
+                    "htmlFiles": [
+                        "resources/sliding-ladder/index.html"
+                    ]
                 },
                 {
                     "title": "Smoothing a Piecewise Function",
@@ -755,7 +740,9 @@
                     "youtubeKey": "Fj7pbLwbSmU",
                     "contentLength": 122479297,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/9024caf0fbe355399019836caa204adb_Fj7pbLwbSmU.vtt",
-                    "htmlFile": "resources/smoothing-a-piecewise-function/index.html"
+                    "htmlFiles": [
+                        "resources/smoothing-a-piecewise-function/index.html"
+                    ]
                 },
                 {
                     "title": "Summation Notation Practice",
@@ -763,7 +750,9 @@
                     "youtubeKey": "iHErQuZ8M-I",
                     "contentLength": 189666485,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/db364436dfdc50dd843c86cc61edf687_iHErQuZ8M-I.vtt",
-                    "htmlFile": "resources/summation-notation-practice/index.html"
+                    "htmlFiles": [
+                        "resources/summation-notation-practice/index.html"
+                    ]
                 },
                 {
                     "title": "Surface Area of a Torus",
@@ -771,7 +760,9 @@
                     "youtubeKey": "tMVwXglUp60",
                     "contentLength": 277026117,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/0fc3506e52495352b154eb5bed4ed5b0_tMVwXglUp60.vtt",
-                    "htmlFile": "resources/surface-area-of-a-torus/index.html"
+                    "htmlFiles": [
+                        "resources/surface-area-of-a-torus/index.html"
+                    ]
                 },
                 {
                     "title": "Tangent to Graph of Polynomial",
@@ -779,7 +770,9 @@
                     "youtubeKey": "rfx1x-2dwSI",
                     "contentLength": 65101487,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/680def4db8555da3a47a7eff8252ab7e_rfx1x-2dwSI.vtt",
-                    "htmlFile": "resources/tangent-to-graph-of-polynomial/index.html"
+                    "htmlFiles": [
+                        "resources/tangent-to-graph-of-polynomial/index.html"
+                    ]
                 },
                 {
                     "title": "Taylor's Series for sec(x)",
@@ -787,7 +780,9 @@
                     "youtubeKey": "FK1n3TVQIhc",
                     "contentLength": 154425821,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/0c1e1b946c5259ecb01c7b9c7c4d0c92_FK1n3TVQIhc.vtt",
-                    "htmlFile": "resources/taylors-series-for-sec-x/index.html"
+                    "htmlFiles": [
+                        "resources/taylors-series-for-sec-x/index.html"
+                    ]
                 },
                 {
                     "title": "Taylor's Series of a Polynomial",
@@ -795,7 +790,9 @@
                     "youtubeKey": "19x213y_uk4",
                     "contentLength": 94509543,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/e4c8a20c2a0d5aebafda3683538df6fd_19x213y_uk4.vtt",
-                    "htmlFile": "resources/taylors-series-of-a-polynomial/index.html"
+                    "htmlFiles": [
+                        "resources/taylors-series-of-a-polynomial/index.html"
+                    ]
                 },
                 {
                     "title": "Trig Integral Practice",
@@ -803,7 +800,9 @@
                     "youtubeKey": "y_CA5btuoQk",
                     "contentLength": 150583836,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/c0fe4578ec3350db8a7c094319d2b49f_y_CA5btuoQk.vtt",
-                    "htmlFile": "resources/trig-integral-practice/index.html"
+                    "htmlFiles": [
+                        "resources/trig-integral-practice/index.html"
+                    ]
                 },
                 {
                     "title": "Trig Integrals and a Volume of Revolution",
@@ -811,7 +810,9 @@
                     "youtubeKey": "Wj0oH3ehk18",
                     "contentLength": 124362400,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/1c18af335adc542e9177de8908eaff1b_Wj0oH3ehk18.vtt",
-                    "htmlFile": "resources/trig-integrals-and-a-volume-of-revolution/index.html"
+                    "htmlFiles": [
+                        "resources/trig-integrals-and-a-volume-of-revolution/index.html"
+                    ]
                 },
                 {
                     "title": "Using Newton's Method",
@@ -819,7 +820,9 @@
                     "youtubeKey": "ER5B_YBFMJo",
                     "contentLength": 102865848,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/7f5adfb0844d5d6cb005c388f6d66d88_ER5B_YBFMJo.vtt",
-                    "htmlFile": "resources/using-newtons-method/index.html"
+                    "htmlFiles": [
+                        "resources/using-newtons-method/index.html"
+                    ]
                 },
                 {
                     "title": "Using the Integral Test for Estimation",
@@ -827,7 +830,9 @@
                     "youtubeKey": "QEBkT-Pgqos",
                     "contentLength": 201844094,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/44c1b241b475554cb3fc1fceaf052baa_QEBkT-Pgqos.vtt",
-                    "htmlFile": "resources/using-the-integral-test-for-estimation/index.html"
+                    "htmlFiles": [
+                        "resources/using-the-integral-test-for-estimation/index.html"
+                    ]
                 },
                 {
                     "title": "Using the Trapezoid and Simpson's Rules",
@@ -835,7 +840,9 @@
                     "youtubeKey": "l2SjUREZk0c",
                     "contentLength": 116613929,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/2e980383c0655caaaae44bc737540aa9_l2SjUREZk0c.vtt",
-                    "htmlFile": "resources/using-the-trapezoid-and-simpsons-rules/index.html"
+                    "htmlFiles": [
+                        "resources/using-the-trapezoid-and-simpsons-rules/index.html"
+                    ]
                 },
                 {
                     "title": "Volume of a Paraboloid via Disks",
@@ -843,7 +850,9 @@
                     "youtubeKey": "ksAdC6Z99dE",
                     "contentLength": 78216955,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/952fccdd52575f45820599dfeb5d48ce_ksAdC6Z99dE.vtt",
-                    "htmlFile": "resources/volume-of-a-paraboloid-via-disks/index.html"
+                    "htmlFiles": [
+                        "resources/volume-of-a-paraboloid-via-disks/index.html"
+                    ]
                 },
                 {
                     "title": "Volume of Revolution via Shells",
@@ -851,7 +860,9 @@
                     "youtubeKey": "MYXMC7koJyY",
                     "contentLength": 113144695,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/dcaced489d9554ed80292eb2669a4b01_MYXMC7koJyY.vtt",
-                    "htmlFile": "resources/volume-of-revolution-via-shells/index.html"
+                    "htmlFiles": [
+                        "resources/volume-of-revolution-via-shells/index.html"
+                    ]
                 },
                 {
                     "title": "xy'=(x2+x)(y2+1)",
@@ -859,7 +870,9 @@
                     "youtubeKey": "HaOHUfymsuk",
                     "contentLength": 45100742,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/5f46b19d38fa51a2818c5738576cab55_HaOHUfymsuk.vtt",
-                    "htmlFile": "resources/xy-x2-x-y2-1/index.html"
+                    "htmlFiles": [
+                        "resources/xy-x2-x-y2-1/index.html"
+                    ]
                 },
                 {
                     "title": "y\"=6x",
@@ -867,7 +880,606 @@
                     "youtubeKey": "WHWyW5DIVSU",
                     "contentLength": 108984371,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/ea023aaae43a5715a50bf08a28beb885_WHWyW5DIVSU.vtt",
-                    "htmlFile": "resources/y-6x-1/index.html"
+                    "htmlFiles": [
+                        "resources/y-6x-1/index.html"
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "Lecture Videos",
+            "videos": [
+                {
+                    "title": "Lec 1 | MIT 18.01 Single Variable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec01_300k.mp4",
+                    "youtubeKey": "7K1sB05pE0A",
+                    "contentLength": 118720294,
+                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/02e91d110a8e55a99fafd20afb2690f6_7K1sB05pE0A.vtt",
+                    "htmlFiles": [
+                        "resources/clip-3-limit-of-secants/index.html",
+                        "resources/clip-4-example-2-y-xn/index.html",
+                        "resources/clip-3-notation-for-derivatives/index.html",
+                        "resources/clip-1-example-1-y-1-x/index.html",
+                        "resources/clip-1-introduction-to-18/index.html",
+                        "resources/clip-4-slope-as-ratio-1/index.html",
+                        "resources/clip-5-main-formula/index.html",
+                        "resources/clip-2-geometric-interpretation-of-differentiation-1/index.html",
+                        "resources/clip-2-harder-problem-triangles-under-the-graph-of-y-1-x/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 2 | MIT 18.01 Single Variable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec02_300k.mp4",
+                    "youtubeKey": "ryLdyDrBfvI",
+                    "contentLength": 121523348,
+                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/d32a6b15550558b09a20cb00bd483949_ryLdyDrBfvI.vtt",
+                    "htmlFiles": [
+                        "resources/clip-1-jump-discontinuities/index.html",
+                        "resources/clip-2-rates-of-change/index.html",
+                        "resources/clip-1-introduction-to-rates-of-change/index.html",
+                        "resources/clip-4-physical-interpretation-of-derivatives-continued/index.html",
+                        "resources/clip-3-infinite-discontinuities/index.html",
+                        "resources/clip-2-removable-discontinuities/index.html",
+                        "resources/clip-1-limits/index.html",
+                        "resources/clip-2-continuity/index.html",
+                        "resources/clip-4-other-ugly-discontinuities/index.html",
+                        "resources/clip-3-physical-interpretation-of-derivatives/index.html",
+                        "resources/clip-5-differentiable-implies-continuous/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 3 | MIT 18.01 Single Variable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec03_300k.mp4",
+                    "youtubeKey": "kCPVBl953eY",
+                    "contentLength": 115324849,
+                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/9382396b369957a69e33bea8dd700f7e_kCPVBl953eY.vtt",
+                    "htmlFiles": [
+                        "resources/clip-1-introduction-to-differentiation/index.html",
+                        "resources/clip-3-questions-and-answers/index.html",
+                        "resources/clip-1-limit-of-sin-x-x/index.html",
+                        "resources/clip-2-limit-of-1-cos-x-x/index.html",
+                        "resources/clip-1-derivative-of-sin-x-algebraic-proof/index.html",
+                        "resources/clip-1-introduction-of-product-and-quotient-rules/index.html",
+                        "resources/clip-4-derivative-of-sin-x-geometric-proof/index.html",
+                        "resources/copy3_of_clip-2-derivative-of-the-sum-of-two-functions/index.html",
+                        "resources/clip-2-derivative-of-cos-x/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 4 | MIT 18.01 Single Variable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec04_300k.mp4",
+                    "youtubeKey": "4sTKcvYMNxk",
+                    "contentLength": 106313239,
+                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/7707afc8d7ee50f48ef01e7536b13ec9_4sTKcvYMNxk.vtt",
+                    "htmlFiles": [
+                        "resources/clip-2-introduction-to-general-rules-for-differentiation/index.html",
+                        "resources/clip-3-product-rule/index.html",
+                        "resources/clip-1-higher-derivatives/index.html",
+                        "resources/clip-1-example-sin-10t/index.html",
+                        "resources/clip-2-example-dnxn/index.html",
+                        "resources/clip-1-chain-rule/index.html",
+                        "resources/clip-2-example-reciprocals/index.html",
+                        "resources/clip-1-quotient-rule/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 5 | MIT 18.01 Single Variable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec05_300k.mp4",
+                    "youtubeKey": "5q_3FDOkVRQ",
+                    "contentLength": 113110220,
+                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/82f68b95db6e5c3aa3d5bb341b6be27e_5q_3FDOkVRQ.vtt",
+                    "htmlFiles": [
+                        "resources/clip-2-implicit-differentiation-rational-exponent-rule/index.html",
+                        "resources/clip-1-slope-of-tangent-to-circle-direct/index.html",
+                        "resources/clip-3-example-y4-xy2-2-0/index.html",
+                        "resources/clip-1-derivative-of-the-inverse-of-a-function/index.html",
+                        "resources/clip-1-introduction-to-implicit-differentiation/index.html",
+                        "resources/clip-1-derivative-of-the-arcsin-function/index.html",
+                        "resources/clip-2-derivative-of-the-arctan-function/index.html",
+                        "resources/clip-2-slope-of-tangent-to-circle-implicit/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 6 | MIT 18.01 Single Variable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec06_300k.mp4",
+                    "youtubeKey": "9v25gg2qJYE",
+                    "contentLength": 110722958,
+                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/215adab9eef157babd8f55fa39c1556f_9v25gg2qJYE.vtt",
+                    "htmlFiles": [
+                        "resources/clip-2-derivative-of-ax-logarithmic/index.html",
+                        "resources/clip-1-differentiating-logs-and-exponentials/index.html",
+                        "resources/clip-1-definition-of-ex/index.html",
+                        "resources/clip-2-exponent-review/index.html",
+                        "resources/clip-2-slope-of-ax-at-0/index.html",
+                        "resources/clip-2-natural-log/index.html",
+                        "resources/clip-1-other-bases/index.html",
+                        "resources/clip-1-value-of-e/index.html",
+                        "resources/clip-3-derivative-of-xx/index.html",
+                        "resources/clip-1-derivative-of-ax/index.html",
+                        "resources/clip-1-the-most-natural-logarithmic-function/index.html",
+                        "resources/clip-1-difference-quotient-of-ax/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 7: Exam 1 review | MIT 18.01 Single Variable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec07_300k.mp4",
+                    "youtubeKey": "eHJuAByQf5A",
+                    "contentLength": 116761226,
+                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/024743494c385750af15844eb516967c_eHJuAByQf5A.vtt",
+                    "htmlFiles": [
+                        "resources/clip-6-the-derivative-of-everything/index.html",
+                        "resources/clip-4-d-dx-ln-sec-x/index.html",
+                        "resources/clip-5-d-dx-x10-8x-6/index.html",
+                        "resources/clip-2-value-of-e-revisited/index.html",
+                        "resources/clip-3-d-dx-sec-x/index.html",
+                        "resources/clip-1-differentiation-formulas/index.html",
+                        "resources/clip-1-the-power-rule/index.html",
+                        "resources/clip-2-chain-rule-revisited/index.html",
+                        "resources/clip-7-key-concepts-in-differentiation/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 9 | MIT 18.01 Single Variable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec09_300k.mp4",
+                    "youtubeKey": "BSAA0akmPEU",
+                    "contentLength": 108020462,
+                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/337744518db856c08f248e5a826f467e_BSAA0akmPEU.vtt",
+                    "htmlFiles": [
+                        "resources/clip-1-introduction-to-linear-approximation/index.html",
+                        "resources/clip-3-question-can-we-use-the-original-formula/index.html",
+                        "resources/clip-1-curves-are-hard-lines-are-easy/index.html",
+                        "resources/clip-1-approximations-at-0-for-ln-1-x-and-1-x-r/index.html",
+                        "resources/clip-1-the-formula-for-quadratic-approximation/index.html",
+                        "resources/clip-3-quadratic-approximation-at-0-for-several-examples/index.html",
+                        "resources/clip-1-gps-time-dilation-example/index.html",
+                        "resources/clip-3-linear-approximation-and-the-definition-of-the-derivative/index.html",
+                        "resources/clip-2-linear-approximation-to-ln-x-at-x-1/index.html",
+                        "resources/clip-2-linear-approximation-of-a-complicated-exponential/index.html",
+                        "resources/clip-4-approximations-at-0-for-sine-cosine-and-exponential-functions/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 10 | MIT 18.01 Single Variable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec10_300k.mp4",
+                    "youtubeKey": "eRCN3daFCmU",
+                    "contentLength": 119486698,
+                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/e4c9a905421c5445b7f7ed275be37053_eRCN3daFCmU.vtt",
+                    "htmlFiles": [
+                        "resources/clip-2-explaining-the-formula-by-example/index.html",
+                        "resources/clip-2-relative-error/index.html",
+                        "resources/clip-2-example-ln-1-1-k-k/index.html",
+                        "resources/clip-1-list-of-approximations/index.html",
+                        "resources/clip-1-approximating-ln-1-x-and-1-x-r/index.html",
+                        "resources/clip-3-example-approximation-of-a-complicated-function/index.html",
+                        "resources/clip-2-example-3x-x3/index.html",
+                        "resources/clip-1-introduction-to-curve-sketching/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 11 | MIT 18.01 Single Variable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec11_300k.mp4",
+                    "youtubeKey": "twzGBqPeW0M",
+                    "contentLength": 113932834,
+                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/d25517adc33a55068927ab75a3461d0b_twzGBqPeW0M.vtt",
+                    "htmlFiles": [
+                        "resources/clip-3-graphing-a-rational-function/index.html",
+                        "resources/clip-2-example-x-ln-x/index.html",
+                        "resources/clip-1-general-strategy-for-graph-sketching/index.html",
+                        "resources/clip-1-maxima-and-minima-using-graphs/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 12 | MIT 18.01 Single Variable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec12_300k.mp4",
+                    "youtubeKey": "YN7k_bXXggY",
+                    "contentLength": 115043927,
+                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/b302134790365a7eb995e645adfc33eb_YN7k_bXXggY.vtt",
+                    "htmlFiles": [
+                        "resources/clip-1-minimal-surface-area-of-a-box-direct-solution/index.html",
+                        "resources/clip-1-introduction-to-related-rates/index.html",
+                        "resources/clip-2-minimal-surface-area-of-a-box-implicit-differentiation/index.html",
+                        "resources/clip-2-maximum-area-of-two-squares/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 13 | MIT 18.01 Single Variable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec13_300k.mp4",
+                    "youtubeKey": "sRIDVAcoG5A",
+                    "contentLength": 123446554,
+                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/49e6b567ab4c53c8b5fbb7ac400ca7af_sRIDVAcoG5A.vtt",
+                    "htmlFiles": [
+                        "resources/clip-2-related-rates/index.html",
+                        "resources/clip-1-ring-on-a-string/index.html",
+                        "resources/clip-1-introduction-to-newtons-method/index.html",
+                        "resources/clip-3-rates-a-conical-tank/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 14 | MIT 18.01 Single Variable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec14_300k.mp4",
+                    "youtubeKey": "4Q37iOyBq44",
+                    "contentLength": 114208107,
+                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/623212de6c2c547dac52b5fd4a0e6924_4Q37iOyBq44.vtt",
+                    "htmlFiles": [
+                        "resources/clip-2-consequences-of-the-mean-value-theorem/index.html",
+                        "resources/clip-1-description-of-the-mean-value-theorem/index.html",
+                        "resources/clip-2-newtons-method-continued/index.html",
+                        "resources/clip-1-the-mean-value-theorem-and-linear-approximation/index.html",
+                        "resources/clip-3-newtons-method-what-could-go-wrong/index.html",
+                        "resources/clip-2-the-mean-value-theorem-and-inequalities/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 15 | MIT 18.01 Single Variable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec15_300k.mp4",
+                    "youtubeKey": "-MI0b4h3rS0",
+                    "contentLength": 112648468,
+                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/f9c3d4b993b857449c1b4de86dddf970_-MI0b4h3rS0.vtt",
+                    "htmlFiles": [
+                        "resources/clip-2-integration-by-advanced-guessing-1/index.html",
+                        "resources/clip-2-antiderivative-of-xa/index.html",
+                        "resources/clip-1-more-antiderivatives/index.html",
+                        "resources/clip-3-more-examples-of-integration/index.html",
+                        "resources/clip-1-introduction-to-differentials/index.html",
+                        "resources/clip-1-unique-up-to-a-constant/index.html",
+                        "resources/clip-1-differentials-and-linear-approximation/index.html",
+                        "resources/clip-1-substitution/index.html",
+                        "resources/clip-1-introduction-to-antiderivatives/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 16 | MIT 18.01 Single Variable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec16_300k.mp4",
+                    "youtubeKey": "60VGKnYBpbg",
+                    "contentLength": 104618894,
+                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/5b04a7f670255a29ba12f4bbd04845ce_60VGKnYBpbg.vtt",
+                    "htmlFiles": [
+                        "resources/clip-1-differential-equations-and-slope-part-1/index.html",
+                        "resources/clip-2-separation-of-variables/index.html",
+                        "resources/clip-2-differential-equations-and-slope-part-2/index.html",
+                        "resources/clip-1-review-for-exam-ii/index.html",
+                        "resources/clip-1-introduction-to-ordinary-differential/index.html",
+                        "resources/clip-1-dy-dx-f-x/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 18 | MIT 18.01 Single Variable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec18_300k.mp4",
+                    "youtubeKey": "hjZhPczMkL4",
+                    "contentLength": 109252388,
+                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/78f102249ed15120951fb1c4cbb5301d_hjZhPczMkL4.vtt",
+                    "htmlFiles": [
+                        "resources/clip-1-simple-definite-integrals/index.html",
+                        "resources/clip-1-introduction-to-riemann-sums/index.html",
+                        "resources/clip-2-summary-of-examples/index.html",
+                        "resources/clip-1-example-cumulative-debts/index.html",
+                        "resources/clip-2-summation-notation/index.html",
+                        "resources/clip-2-definition-of-definite-integrals/index.html",
+                        "resources/clip-1-example-f-x-x2/index.html",
+                        "resources/clip-1-introduction-to-definite-integrals/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 19 | MIT 18.01 Single Variable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec19_300k.mp4",
+                    "youtubeKey": "1RLctDS2hUQ",
+                    "contentLength": 111358337,
+                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/ec7c695525f45439a9495f92a9888c95_1RLctDS2hUQ.vtt",
+                    "htmlFiles": [
+                        "resources/clip-2-the-fundamental-theorem-and-negative-integrands/index.html",
+                        "resources/clip-1-the-first-fundamental-theorem-of-calculus/index.html",
+                        "resources/clip-1-example-of-estimation/index.html",
+                        "resources/clip-2-using-the-first-fundamental-theorem/index.html",
+                        "resources/clip-1-interpretation-of-the-fundamental-theorem/index.html",
+                        "resources/clip-3-properties-of-integrals/index.html",
+                        "resources/clip-1-substitution-when-u-changes-sign/index.html",
+                        "resources/clip-2-example-change-of-variables/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 20 | MIT 18.01 Single Variable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec20_300k.mp4",
+                    "youtubeKey": "Pd2xP5zDsRw",
+                    "contentLength": 114414833,
+                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/ad5bdbaf105d550da60d0aca2e2add86_Pd2xP5zDsRw.vtt",
+                    "htmlFiles": [
+                        "resources/clip-2-area-under-the-bell-curve/index.html",
+                        "resources/clip-1-second-fundamental-theorem-of-calculus/index.html",
+                        "resources/clip-1-proof-of-the-second-fundamental-theorem-of-calculus/index.html",
+                        "resources/clip-1-review-of-the-fundamental-theorem/index.html",
+                        "resources/clip-2-the-fundamental-theorem-and-the-mean-value-theorem/index.html",
+                        "resources/clip-3-the-mean-value-theorem-and-estimation/index.html",
+                        "resources/clip-1-antiderivative-of-1-x/index.html",
+                        "resources/clip-2-using-the-second-fundamental-theorem-of-calculus/index.html",
+                        "resources/clip-2-proof-of-the-first-fundamental-theorem-of-calculus/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 21 | MIT 18.01 Single Variable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec21_300k.mp4",
+                    "youtubeKey": "_JXPe2J069c",
+                    "contentLength": 116267274,
+                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/53581d4eae3f5808adbed23b061988ea_JXPe2J069c.vtt",
+                    "htmlFiles": [
+                        "resources/clip-1-the-bell-curve/index.html",
+                        "resources/clip-1-areas-between-curves/index.html",
+                        "resources/clip-2-log-of-a-product/index.html",
+                        "resources/clip-2-more-new-functions-from-old/index.html",
+                        "resources/clip-2-example-area-between-x-y2-and-y-x-2212-2/index.html",
+                        "resources/clip-1-alternate-definition-of-natural-log/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 22 | MIT 18.01 Single Variable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec22_300k.mp4",
+                    "youtubeKey": "ShGBRUx2ub8",
+                    "contentLength": 115271383,
+                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/76fa54d7f0305518a6af9fadfd6205fd_ShGBRUx2ub8.vtt",
+                    "htmlFiles": [
+                        "resources/clip-2-boiling-cauldron-introduction/index.html",
+                        "resources/clip-2-solids-of-revolution/index.html",
+                        "resources/clip-1-volumes-by-slicing/index.html",
+                        "resources/clip-1-volume-of-a-cauldron/index.html",
+                        "resources/clip-1-volume-of-a-sphere/index.html",
+                        "resources/clip-2-warning-about-units/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 23 | MIT 18.01 Single Variable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec23_300k.mp4",
+                    "youtubeKey": "R9a_NHXrBcg",
+                    "contentLength": 112326610,
+                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/0aebd1062c39505b9697e742be9d4489_R9a_NHXrBcg.vtt",
+                    "htmlFiles": [
+                        "resources/clip-3-average-height-with-respect-to-arc-length/index.html",
+                        "resources/clip-2-average-height-3-min/index.html",
+                        "resources/clip-1-probability-example/index.html",
+                        "resources/clip-1-probability-summary/index.html",
+                        "resources/clip-1-average-value/index.html",
+                        "resources/clip-3-boiling-cauldron-continued/index.html",
+                        "resources/clip-1-weighted-averages/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 24 | MIT 18.01 Single Variable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec24_300k.mp4",
+                    "youtubeKey": "jBkXbAgMj6s",
+                    "contentLength": 116613929,
+                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/c473b3e9159f5e5fac07a75e40bf9222_jBkXbAgMj6s.vtt",
+                    "htmlFiles": [
+                        "resources/copy_of_clip-1-introduction-to-numerical-integration/index.html",
+                        "resources/clip-1-introduction-to-numerical-integration/index.html",
+                        "resources/clip-3-example-boy-near-a-dart-board/index.html",
+                        "resources/clip-4-simpsons-rule/index.html",
+                        "resources/clip-2-errata-heat-is-energy/index.html",
+                        "resources/clip-2-riemann-sums/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 25 | MIT 18.01 Single Variable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec25_300k.mp4",
+                    "youtubeKey": "zUEuKrxgHws",
+                    "contentLength": 113750431,
+                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/1253393688915abc8b526609d2f7fcd7_zUEuKrxgHws.vtt",
+                    "htmlFiles": [
+                        "resources/clip-1-integral-of-1-x-trapezoids/index.html",
+                        "resources/clip-2-integral-of-1-x-simpsons-rule/index.html",
+                        "resources/clip-4-choosing-a-technique/index.html",
+                        "resources/clip-1-area-under-the-bell-curve/index.html",
+                        "resources/copy2_of_clip-1-integral-of-1-x-trapezoids/index.html",
+                        "resources/clip-2-types-of-riemann-sums/index.html",
+                        "resources/clip-1-questions-on-exam-iii/index.html",
+                        "resources/clip-3-asymptotes-of-antiderivatives/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 27 | MIT 18.01 Single Variable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec27_300k.mp4",
+                    "youtubeKey": "Bv9kVDcj7yo",
+                    "contentLength": 108102909,
+                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/90654e07d1f55826b3a379833ba431f7_Bv9kVDcj7yo.vtt",
+                    "htmlFiles": [
+                        "resources/lip-1-area-of-part-of-a-circle/index.html",
+                        "resources/clip-2-integral-of-sin2-x-cos2-x/index.html",
+                        "resources/clip-1-integral-of-cos2-x/index.html",
+                        "resources/clip-4-integral-of-sin3-x/index.html",
+                        "resources/clip-3-integral-of-sin3-x-cos2-x/index.html",
+                        "resources/clip-1-review-of-trigonometric-identities-1/index.html",
+                        "resources/clip-2-integral-of-sinn-x-cos-x/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 28 | MIT 18.01 Single Variable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec28_300k.mp4",
+                    "youtubeKey": "CXKoCMVqM9s",
+                    "contentLength": 111937064,
+                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/8f7a780cd6b45c45af8797d83de95c28_CXKoCMVqM9s.vtt",
+                    "htmlFiles": [
+                        "resources/clip-1-example-of-trig-substitution/index.html",
+                        "resources/clip-1-review-of-trigonometric-identities/index.html",
+                        "resources/clip-2-undoing-trig-substitution/index.html",
+                        "resources/clip-2-integral-of-tangent/index.html",
+                        "resources/clip-3-integral-of-secant/index.html",
+                        "resources/clip-3-summary-of-trig-substitution/index.html",
+                        "resources/clip-1-completing-the-square/index.html",
+                        "resources/clip-4-summary-of-trig-integration/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 29 | MIT 18.01 Single Variable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec29_300k.mp4",
+                    "youtubeKey": "HgEqXhsIq_g",
+                    "contentLength": 112353069,
+                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/4e7e2793197552a884e1e8b000017405_HgEqXhsIq_g.vtt",
+                    "htmlFiles": [
+                        "resources/clip-1-partial-fractions-i/index.html",
+                        "resources/clip-2-quadratic-factors/index.html",
+                        "resources/clip-1-repeated-factors/index.html",
+                        "resources/clip-3-the-cover-up-method/index.html",
+                        "resources/clip-1-long-division/index.html",
+                        "resources/clip-2-introduction-to-the-cover-up-method/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 30 | MIT 18.01 Single Variable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec30_300k.mp4",
+                    "youtubeKey": "aeXp1zC6Hls",
+                    "contentLength": 118596752,
+                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/bb5b83ffd7d65187b26a77a354bf68dc_aeXp1zC6Hls.vtt",
+                    "htmlFiles": [
+                        "resources/clip-1-partial-fractions-2013-big-example/index.html",
+                        "resources/clip-2-by-vertical-slices/index.html",
+                        "resources/clip-1-by-horizontal-slices/index.html",
+                        "resources/clip-4-another-reduction-formula/index.html",
+                        "resources/clip-1-introduction-to-integration-by-parts/index.html",
+                        "resources/clip-1-integral-of-natural-log/index.html",
+                        "resources/clip-2-integral-of-ln-x-2/index.html",
+                        "resources/clip-3-a-reduction-formula/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 31 | MIT 18.01 Single Variable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec31_300k.mp4",
+                    "youtubeKey": "TpWQlKHPyJ4",
+                    "contentLength": 104916004,
+                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/39d5c06c624b5cc99069fca7159df9df_TpWQlKHPyJ4.vtt",
+                    "htmlFiles": [
+                        "resources/clip-4-example-length-of-a-parabola/index.html",
+                        "resources/clip-3-example-circular-arc/index.html",
+                        "resources/clip-1-parametric-curve/index.html",
+                        "resources/clip-2-surface-area-of-a-sphere/index.html",
+                        "resources/clip-1-introduction-to-arc-length/index.html",
+                        "resources/clip-2-example-y-mx/index.html",
+                        "resources/clip-1-introduction-to-surface-area/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 32 | MIT 18.01 Single Variable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec32_300k.mp4",
+                    "youtubeKey": "XRkgBWbWvg4",
+                    "contentLength": 114119096,
+                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/f8fb673244d95281ae8e30737f568e32_XRkgBWbWvg4.vtt",
+                    "htmlFiles": [
+                        "resources/clip-1-introduction-to-polar-coordinates/index.html",
+                        "resources/clip-1-non-constant-speed-parametrization/index.html",
+                        "resources/copy3_of_clip-1-introduction-to-polar-coordinates/index.html",
+                        "resources/clip-2-surface-area-of-an-ellipsoid/index.html",
+                        "resources/copy2_of_clip-1-introduction-to-polar-coordinates/index.html",
+                        "resources/clip-1-remarks-on-notation/index.html",
+                        "resources/clip-2-arclength-of-parametric-curves/index.html",
+                        "resources/copy_of_clip-1-introduction-to-polar-coordinates/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 33 | MIT 18.01 Single Variable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec33_300k.mp4",
+                    "youtubeKey": "BGE3wb7H2PA",
+                    "contentLength": 113397775,
+                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/25a7a963b60e5ddea595836181aa31f2_BGE3wb7H2PA.vtt",
+                    "htmlFiles": [
+                        "resources/clip-1-polar-coordinates-and-area/index.html",
+                        "resources/copy_of_clip-1-polar-coordinates-and-area/index.html",
+                        "resources/copy2_of_clip-1-graph-of-r-2a-cos-3b8/index.html",
+                        "resources/clip-1-graph-of-r-2a-cos-theta-1/index.html",
+                        "resources/clip-2-graph-of-r-sin-2theta/index.html",
+                        "resources/clip-3-integral-of-x-arctan-x/index.html",
+                        "resources/clip-2-student-questions-on-test-iv/index.html",
+                        "resources/clip-1-review-for-test-iv/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 35 | MIT 18.01 Single Variable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec35_300k.mp4",
+                    "youtubeKey": "PNTnmH6jsRI",
+                    "contentLength": 112575560,
+                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/41bc976a8f8d538583c9a466d055e98d_PNTnmH6jsRI.vtt",
+                    "htmlFiles": [
+                        "resources/clip-3-comparing-growth-of-ln-x-and-x1-3/index.html",
+                        "resources/clip-2-repeating-lhospitals-rule/index.html",
+                        "resources/clip-2-elementary-example-of-lhospitals-rule/index.html",
+                        "resources/clip-4-extensions-of-lhospitals-rule/index.html",
+                        "resources/clip-1-rate-of-growth-of-x-ln-x/index.html",
+                        "resources/clip-2-rate-of-growth-of-epx/index.html",
+                        "resources/clip-1-the-indeterminate-form-00/index.html",
+                        "resources/clip-1-limit-of-sin-5x-sin-2x/index.html",
+                        "resources/clip-2-limit-of-sin-x-x2/index.html",
+                        "resources/clip-1-introduction-to-lhospitals-rule/index.html",
+                        "resources/clip-2-lhospitals-rule-version-1/index.html",
+                        "resources/clip-1-why-lhospitals-rule-works/index.html",
+                        "resources/clip-3-comparison-with-approximation/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 36 | MIT 18.01 Single Variable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec36_300k.mp4",
+                    "youtubeKey": "KhwQKE_tld0",
+                    "contentLength": 114271817,
+                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/5d51b617d77356b1b2a78e691c8c95b2_KhwQKE_tld0.vtt",
+                    "htmlFiles": [
+                        "resources/clip-1-introduction-to-improper-integrals/index.html",
+                        "resources/clip-3-integral-of-e2212x2/index.html",
+                        "resources/clip-1-functions-without-elementary-anti-derivatives/index.html",
+                        "resources/clip-1-integral-of-1-xp/index.html",
+                        "resources/clip-2-comparison-example/index.html",
+                        "resources/clip-1-lhospitals-rule-continued/index.html",
+                        "resources/clip-2-integral-of-e2212kx/index.html",
+                        "resources/clip-4-integral-of-1-x/index.html",
+                        "resources/clip-1-introduction-to-comparison/index.html",
+                        "resources/clip-1-indefinite-integrals-over-singularities/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 37 | MIT 18.01 Single Variable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec37_300k.mp4",
+                    "youtubeKey": "MK_0QHbUnIA",
+                    "contentLength": 116052980,
+                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/dd503fb7d75a5ca2891956463cec586b_MK_0QHbUnIA.vtt",
+                    "htmlFiles": [
+                        "resources/clip-3-notation-for-series/index.html",
+                        "resources/clip-2-divergent-series/index.html",
+                        "resources/clip-1-introduction-to-infinite-series/index.html",
+                        "resources/clip-2-comparison-tests/index.html",
+                        "resources/clip-4-examples-of-series/index.html",
+                        "resources/clip-3-examples-of-comparison/index.html",
+                        "resources/clip-2-improper-integrals-of-the-second-kind-continued/index.html",
+                        "resources/clip-1-preview-of-stacking-blocks/index.html",
+                        "resources/clip-4-an-improper-integral-of-the-second-kind/index.html",
+                        "resources/clip-1-comparison-of-the-harmonic-series/index.html",
+                        "resources/clip-3-overview-of-improper-integrals/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 38 | MIT 18.01 Single Variable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec38_300k.mp4",
+                    "youtubeKey": "wOHrNt9ScYs",
+                    "contentLength": 109926678,
+                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/573788ee14cd5dd2aa2209e500163332_wOHrNt9ScYs.vtt",
+                    "htmlFiles": [
+                        "resources/clip-1-introduction-to-taylors-series/index.html",
+                        "resources/clip-2-general-power-series/index.html",
+                        "resources/clip-2-taylors-formula/index.html",
+                        "resources/clip-1-introduction-to-power-series/index.html",
+                        "resources/clip-2-stacking-blocks/index.html",
+                        "resources/clip-3-taylors-formula-examples/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 39 | MIT 18.01 Single Variable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec39_300k.mp4",
+                    "youtubeKey": "--lPz7VFnKI",
+                    "contentLength": 90904633,
+                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/0e054a78a2615dfaa827994012d2f623_--lPz7VFnKI.vtt",
+                    "htmlFiles": [
+                        "resources/clip-1-review-of-taylors-series/index.html",
+                        "resources/clip-3-integral-of-a-power-series/index.html",
+                        "resources/clip-1-power-series-expansion-of-the-error-function/index.html",
+                        "resources/clip-2-taylors-series-of-1-1-x/index.html",
+                        "resources/clip-3-taylors-series-of-sin-x/index.html",
+                        "resources/clip-finale/index.html",
+                        "resources/clip-2-derivative-of-a-power-series/index.html",
+                        "resources/clip-4-substitution-of-power-series/index.html",
+                        "resources/clip-1-power-series-multiplication/index.html"
+                    ]
                 }
             ]
         },
@@ -875,140 +1487,14 @@
             "category": "Other",
             "videos": [
                 {
-                    "title": "Clip 1: Repeated Factors",
-                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec29_300k.mp4",
-                    "youtubeKey": "HgEqXhsIq_g",
-                    "contentLength": 112353069,
-                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/95436be2f1c05ea4b94add203ee97447_HgEqXhsIq_g.vtt",
-                    "htmlFile": "resources/clip-1-repeated-factors/index.html"
-                },
-                {
-                    "title": "Clip 1: Ring on a String",
-                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec13_300k.mp4",
-                    "youtubeKey": "sRIDVAcoG5A",
-                    "contentLength": 123446554,
-                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/6e42f7e31b875a5193463dcde1c6dfca_sRIDVAcoG5A.vtt",
-                    "htmlFile": "resources/clip-1-ring-on-a-string/index.html"
-                },
-                {
-                    "title": "Clip 1: Second Fundamental Theorem of Calculus",
-                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec20_300k.mp4",
-                    "youtubeKey": "Pd2xP5zDsRw",
-                    "contentLength": 114414833,
-                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/a08e095b74cd5b2da9e287ddbb4b56de_Pd2xP5zDsRw.vtt",
-                    "htmlFile": "resources/clip-1-second-fundamental-theorem-of-calculus/index.html"
-                },
-                {
-                    "title": "Clip 2: Average Height (3 min)",
-                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec23_300k.mp4",
-                    "youtubeKey": "R9a_NHXrBcg",
-                    "contentLength": 112326610,
-                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/498674d804df54e09dd6d3f672674c24_R9a_NHXrBcg.vtt",
-                    "htmlFile": "resources/clip-2-average-height-3-min/index.html"
-                },
-                {
-                    "title": "Clip 2: Definition of Definite Integrals",
-                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec18_300k.mp4",
-                    "youtubeKey": "hjZhPczMkL4",
-                    "contentLength": 109252388,
-                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/9bc2cda370f45b1c88d46d2c0afc27d6_hjZhPczMkL4.vtt",
-                    "htmlFile": "resources/clip-2-definition-of-definite-integrals/index.html"
-                },
-                {
-                    "title": "Clip 2: Derivative of the Arctan Function",
-                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec05_300k.mp4",
-                    "youtubeKey": "5q_3FDOkVRQ",
-                    "contentLength": 113110220,
-                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/a06be190aaf65881be54439950923fba_5q_3FDOkVRQ.vtt",
-                    "htmlFile": "resources/clip-2-derivative-of-the-arctan-function/index.html"
-                },
-                {
-                    "title": "Clip 2: Derivative of the Sum of Two Functions",
-                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec03_300k.mp4",
-                    "youtubeKey": "kCPVBl953eY",
-                    "contentLength": 115324849,
-                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/da82504e34395132811e4e0357e5cd90_kCPVBl953eY.vtt",
-                    "htmlFile": "resources/copy3_of_clip-2-derivative-of-the-sum-of-two-functions/index.html"
-                },
-                {
-                    "title": "Clip 2: Example: 3x-x3",
-                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec10_300k.mp4",
-                    "youtubeKey": "eRCN3daFCmU",
-                    "contentLength": 119486698,
-                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/75b62a42f39355588977b86085d673a0_eRCN3daFCmU.vtt",
-                    "htmlFile": "resources/clip-2-example-3x-x3/index.html"
-                },
-                {
-                    "title": "Clip 2: The Fundamental Theorem and Negative Integrands",
-                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec19_300k.mp4",
-                    "youtubeKey": "1RLctDS2hUQ",
-                    "contentLength": 111358337,
-                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/ec7c695525f45439a9495f92a9888c95_1RLctDS2hUQ.vtt",
-                    "htmlFile": "resources/clip-2-the-fundamental-theorem-and-negative-integrands/index.html"
-                },
-                {
-                    "title": "Clip 2: Warning about Units",
-                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec22_300k.mp4",
-                    "youtubeKey": "ShGBRUx2ub8",
-                    "contentLength": 115271383,
-                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/9b1fd5bb60675376b6a1e911d1f75cff_ShGBRUx2ub8.vtt",
-                    "htmlFile": "resources/clip-2-warning-about-units/index.html"
-                },
-                {
-                    "title": "Clip 3: d/dx (sec x)",
-                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec07_300k.mp4",
-                    "youtubeKey": "eHJuAByQf5A",
-                    "contentLength": 116761226,
-                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/1fd6408f45ec5a4db9ee7e8c8abcb957_eHJuAByQf5A.vtt",
-                    "htmlFile": "resources/clip-3-d-dx-sec-x/index.html"
-                },
-                {
-                    "title": "Clip 3: Integral of Secant",
-                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec28_300k.mp4",
-                    "youtubeKey": "CXKoCMVqM9s",
-                    "contentLength": 111937064,
-                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/7c971833aeea5d7192b190cbf485d888_CXKoCMVqM9s.vtt",
-                    "htmlFile": "resources/clip-3-integral-of-secant/index.html"
-                },
-                {
-                    "title": "Clip 4: Approximations at 0 for Sine, Cosine and Exponential Functions",
-                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec09_300k.mp4",
-                    "youtubeKey": "BSAA0akmPEU",
-                    "contentLength": 108020462,
-                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/9a795d2946b15bef9807f6ad4441b5b1_BSAA0akmPEU.vtt",
-                    "htmlFile": "resources/clip-4-approximations-at-0-for-sine-cosine-and-exponential-functions/index.html"
-                },
-                {
-                    "title": "Clip 4: Choosing a Technique",
-                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec25_300k.mp4",
-                    "youtubeKey": "zUEuKrxgHws",
-                    "contentLength": 113750431,
-                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/93f18b880dfe5aae8834f1320f6db221_zUEuKrxgHws.vtt",
-                    "htmlFile": "resources/clip-4-choosing-a-technique/index.html"
-                },
-                {
-                    "title": "Clip 4: Example: Length of a Parabola",
-                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec31_300k.mp4",
-                    "youtubeKey": "TpWQlKHPyJ4",
-                    "contentLength": 104916004,
-                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/39d5c06c624b5cc99069fca7159df9df_TpWQlKHPyJ4.vtt",
-                    "htmlFile": "resources/clip-4-example-length-of-a-parabola/index.html"
-                },
-                {
-                    "title": "Clip 5: Main Formula",
-                    "videoUrl": "https://archive.org/download/MIT18.01JF07/ocw-18.01-f07-lec01_300k.mp4",
-                    "youtubeKey": "7K1sB05pE0A",
-                    "contentLength": 118720294,
-                    "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/03e3668da1735d5ea1caa237ced42268_7K1sB05pE0A.vtt",
-                    "htmlFile": "resources/clip-5-main-formula/index.html"
-                },
-                {
                     "title": "Failure of L'Hospital's Rule",
                     "videoUrl": "http://www.archive.org/download/MIT18_01SCF10/MIT18_01SCF10Rec_68_300k.mp4",
                     "youtubeKey": "QKXAd2PhZGY",
                     "contentLength": 78664505,
                     "captionsFile": "/courses/18-01sc-single-variable-calculus-fall-2010/c8959b54d17b574fbb0df248cd8f2813_QKXAd2PhZGY.vtt",
-                    "htmlFile": "resources/failure-of-lhospitals-rule/index.html"
+                    "htmlFiles": [
+                        "resources/failure-of-lhospitals-rule/index.html"
+                    ]
                 }
             ]
         }

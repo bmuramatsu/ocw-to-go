@@ -1,7 +1,7 @@
 import { ResourceItemData } from "../../types";
 import PortalTarget from "./portal_target";
 
-interface ResourceItemProps {
+export interface ResourceItemProps {
   item: ResourceItemData;
 }
 

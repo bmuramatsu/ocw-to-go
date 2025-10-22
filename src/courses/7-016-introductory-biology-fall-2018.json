@@ -50,7 +50,9 @@
                     "youtubeKey": "KlVHqq38KJU",
                     "contentLength": 92020108,
                     "captionsFile": "/courses/7-016-introductory-biology-fall-2018/a11717cb95f25d2d89e4c666e38a711b_KlVHqq38KJU.vtt",
-                    "htmlFile": "resources/lecture-1-welcome-introduction-and-course-organization/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-1-welcome-introduction-and-course-organization/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 2: Chemical Bonding and Molecular Interactions; Lipids and Membranes",
@@ -58,7 +60,9 @@
                     "youtubeKey": "aKTOS0Nrlug",
                     "contentLength": 116398371,
                     "captionsFile": "/courses/7-016-introductory-biology-fall-2018/7e633f241664597aa18df0629f826bc7_aKTOS0Nrlug.vtt",
-                    "htmlFile": "resources/lecture-2-chemical-bonding-and-molecular-interactions-lipids-and-membranes/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-2-chemical-bonding-and-molecular-interactions-lipids-and-membranes/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 3: Structures of Amino Acids, Peptides and Proteins",
@@ -66,7 +70,9 @@
                     "youtubeKey": "oOya3cFmAMc",
                     "contentLength": 122363449,
                     "captionsFile": "/courses/7-016-introductory-biology-fall-2018/9a6f8392cb215d7682ef773105423902_oOya3cFmAMc.vtt",
-                    "htmlFile": "resources/lecture-3-structures-of-amino-acids-peptides-and-proteins/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-3-structures-of-amino-acids-peptides-and-proteins/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 4: Enzymes and Metabolism",
@@ -74,7 +80,9 @@
                     "youtubeKey": "QTdJiG7mV40",
                     "contentLength": 116592395,
                     "captionsFile": "/courses/7-016-introductory-biology-fall-2018/70dfedfd1f135064b64885560b9fb3fb_QTdJiG7mV40.vtt",
-                    "htmlFile": "resources/lecture-4-enzymes-and-metabolism/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-4-enzymes-and-metabolism/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 5: Carbohydrates and Glycoproteins",
@@ -82,7 +90,9 @@
                     "youtubeKey": "CALYA11terw",
                     "contentLength": 116977179,
                     "captionsFile": "/courses/7-016-introductory-biology-fall-2018/a632afeb8fcd5bfc886d5622f1ec4bb6_CALYA11terw.vtt",
-                    "htmlFile": "resources/lecture-5-carbohydrates-and-glycoproteins/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-5-carbohydrates-and-glycoproteins/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 6: Nucleic Acids",
@@ -90,7 +100,9 @@
                     "youtubeKey": "s1MoBTEcVYY",
                     "contentLength": 115916162,
                     "captionsFile": "/courses/7-016-introductory-biology-fall-2018/29c7a61660f35e0bb70c8f2272aceff1_s1MoBTEcVYY.vtt",
-                    "htmlFile": "resources/lecture-6-nucleic-acids/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-6-nucleic-acids/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 7: Replication",
@@ -98,7 +110,9 @@
                     "youtubeKey": "8jLy33vbtYM",
                     "contentLength": 122540901,
                     "captionsFile": "/courses/7-016-introductory-biology-fall-2018/7600f863b4c758d1ab7261ed8be6b14e_8jLy33vbtYM.vtt",
-                    "htmlFile": "resources/lecture-7-replication/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-7-replication/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 8: Transcription",
@@ -106,7 +120,9 @@
                     "youtubeKey": "apP5SWitnyw",
                     "contentLength": 115433407,
                     "captionsFile": "/courses/7-016-introductory-biology-fall-2018/f3f70e0fc66854038ae31f9851b36419_apP5SWitnyw.vtt",
-                    "htmlFile": "resources/lecture-8-transcription/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-8-transcription/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 9: Chromatin Remodeling and Splicing",
@@ -114,7 +130,9 @@
                     "youtubeKey": "Chv8dlBVXpw",
                     "contentLength": 105845879,
                     "captionsFile": "/courses/7-016-introductory-biology-fall-2018/44573f3f4ce65326b79128215db61cfc_Chv8dlBVXpw.vtt",
-                    "htmlFile": "resources/lecture-9-chromatin-remodeling-and-splicing/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-9-chromatin-remodeling-and-splicing/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 10: Translation",
@@ -122,7 +140,9 @@
                     "youtubeKey": "7xJPSuSVmSk",
                     "contentLength": 109879080,
                     "captionsFile": "/courses/7-016-introductory-biology-fall-2018/e259e9d8c31c520cb32b838ab96c902f_7xJPSuSVmSk.vtt",
-                    "htmlFile": "resources/lecture-10-translation/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-10-translation/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 11:Cells, The Simplest Functional Units",
@@ -130,7 +150,9 @@
                     "youtubeKey": "SA8dRTq3qUA",
                     "contentLength": 94944186,
                     "captionsFile": "/courses/7-016-introductory-biology-fall-2018/dbe108853b3f5d9e8a806b7de1d13e52_SA8dRTq3qUA.vtt",
-                    "htmlFile": "resources/lecture-11-cells-the-simplest-functional-units/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-11-cells-the-simplest-functional-units/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 12: Genetics 1—Cell Division and Segregating Genetic Material",
@@ -138,7 +160,9 @@
                     "youtubeKey": "rZjwF5z-Xfw",
                     "contentLength": 108544938,
                     "captionsFile": "/courses/7-016-introductory-biology-fall-2018/6f23b0ba46d85cfdb4e93722433e07f0_rZjwF5z-Xfw.vtt",
-                    "htmlFile": "resources/lecture-12-genetics-12014cell-division-and-segregating-genetic-material/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-12-genetics-12014cell-division-and-segregating-genetic-material/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 13: Genetics 2—Rules of Inheritance",
@@ -146,7 +170,9 @@
                     "youtubeKey": "qtGHKiAROig",
                     "contentLength": 115723345,
                     "captionsFile": "/courses/7-016-introductory-biology-fall-2018/2c05e0e8427855c58fecc09991adc589_qtGHKiAROig.vtt",
-                    "htmlFile": "resources/lecture-13-genetics-22014rules-of-inheritance/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-13-genetics-22014rules-of-inheritance/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 14: Genetics 3—Linkage, Crossing Over",
@@ -154,7 +180,9 @@
                     "youtubeKey": "jeNPvqRXI9I",
                     "contentLength": 115897799,
                     "captionsFile": "/courses/7-016-introductory-biology-fall-2018/b88dd1889d9250e785fe12d417c6f953_jeNPvqRXI9I.vtt",
-                    "htmlFile": "resources/lecture-14-genetics-32014linkage-crossing-over/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-14-genetics-32014linkage-crossing-over/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 15: Genetics 4—The Power of Model Organisms in Biological Discovery",
@@ -162,7 +190,9 @@
                     "youtubeKey": "68KXOYTc1mk",
                     "contentLength": 112943382,
                     "captionsFile": "/courses/7-016-introductory-biology-fall-2018/daa1cb3052545cfebc9b52ac9644b459_68KXOYTc1mk.vtt",
-                    "htmlFile": "resources/lecture-15-genetics-42014the-power-of-model-organisms-in-biological-discovery/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-15-genetics-42014the-power-of-model-organisms-in-biological-discovery/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 16: Recombinant DNA, Cloning, & Editing",
@@ -170,7 +200,9 @@
                     "youtubeKey": "kVu37T6sB_E",
                     "contentLength": 122911128,
                     "captionsFile": "/courses/7-016-introductory-biology-fall-2018/670a2fb36bd75db3a054673dfa80ae91_kVu37T6sB_E.vtt",
-                    "htmlFile": "resources/lecture-16-recombinant-dna-and-cloning/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-16-recombinant-dna-and-cloning/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 17: Genomes and DNA Sequencing",
@@ -178,7 +210,9 @@
                     "youtubeKey": "JuwErrBz3b4",
                     "contentLength": 113758559,
                     "captionsFile": "/courses/7-016-introductory-biology-fall-2018/a1ccdedb8f9a585b830e68ac74904ef7_JuwErrBz3b4.vtt",
-                    "htmlFile": "resources/lecture-17-genomes-and-dna-sequencing/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-17-genomes-and-dna-sequencing/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 18: SNPs and Human Genetics",
@@ -186,7 +220,9 @@
                     "youtubeKey": "83-yKXuRDGc",
                     "contentLength": 114860918,
                     "captionsFile": "/courses/7-016-introductory-biology-fall-2018/1bfe149992cb59d0bec65ff08c289c43_83-yKXuRDGc.vtt",
-                    "htmlFile": "resources/lecture-18-snps-and-human-genetics/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-18-snps-and-human-genetics/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 19: Cell Trafficking and Protein Localization",
@@ -194,7 +230,9 @@
                     "youtubeKey": "Qfw0C0Ac-Tk",
                     "contentLength": 108658347,
                     "captionsFile": "/courses/7-016-introductory-biology-fall-2018/8b057d50990a5b0ea6007af1a160df51_Qfw0C0Ac-Tk.vtt",
-                    "htmlFile": "resources/lecture-19-cell-trafficking-and-protein-localization/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-19-cell-trafficking-and-protein-localization/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 20: Cell Signaling 1—Overview",
@@ -202,7 +240,9 @@
                     "youtubeKey": "5ejPI6QqKBU",
                     "contentLength": 115210090,
                     "captionsFile": "/courses/7-016-introductory-biology-fall-2018/77b94ac3d94756ef9eb74e292d8650c0_5ejPI6QqKBU.vtt",
-                    "htmlFile": "resources/lecture-20-cell-signaling-12014overview/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-20-cell-signaling-12014overview/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 21: Cell Signaling 2—Examples",
@@ -210,7 +250,9 @@
                     "youtubeKey": "mvjXFh4P08I",
                     "contentLength": 120922041,
                     "captionsFile": "/courses/7-016-introductory-biology-fall-2018/b25adec421375cf8baf479208be147e7_mvjXFh4P08I.vtt",
-                    "htmlFile": "resources/lecture-21-cell-signaling-22014examples/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-21-cell-signaling-22014examples/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 22: Neurons, Action Potential, and Optogenetics",
@@ -218,7 +260,9 @@
                     "youtubeKey": "7afYLl70cO0",
                     "contentLength": 123926566,
                     "captionsFile": "/courses/7-016-introductory-biology-fall-2018/67feff102ba35fde84cb4faed6e15ea8_7afYLl70cO0.vtt",
-                    "htmlFile": "resources/lecture-22-neurons-action-potential-and-optogenetics/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-22-neurons-action-potential-and-optogenetics/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 23: Cell Cycle and Checkpoints",
@@ -226,7 +270,9 @@
                     "youtubeKey": "iz7rWK5cqjE",
                     "contentLength": 113920213,
                     "captionsFile": "/courses/7-016-introductory-biology-fall-2018/1ddf5bb8d34551cca8ce946e9a3443ea_iz7rWK5cqjE.vtt",
-                    "htmlFile": "resources/lecture-23-cell-cycle-and-checkpoints/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-23-cell-cycle-and-checkpoints/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 24: Stem Cells, Apoptosis, and Tissue Homeostasis",
@@ -234,7 +280,9 @@
                     "youtubeKey": "EJ6Sjn1c04Y",
                     "contentLength": 109038821,
                     "captionsFile": "/courses/7-016-introductory-biology-fall-2018/4c84b06244595c229f06bc6794310f3e_EJ6Sjn1c04Y.vtt",
-                    "htmlFile": "resources/lecture-24-stem-cells-apoptosis-and-tissue-homeostasis/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-24-stem-cells-apoptosis-and-tissue-homeostasis/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 25: Cancer 1",
@@ -242,7 +290,9 @@
                     "youtubeKey": "L4tEwAsVW0I",
                     "contentLength": 120594654,
                     "captionsFile": "/courses/7-016-introductory-biology-fall-2018/0e877db7e5c258a4935296d692699311_L4tEwAsVW0I.vtt",
-                    "htmlFile": "resources/lecture-25-cancer-1/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-25-cancer-1/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 26: Cancer 2",
@@ -250,7 +300,9 @@
                     "youtubeKey": "6rOvXGoXoJc",
                     "contentLength": 115068719,
                     "captionsFile": "/courses/7-016-introductory-biology-fall-2018/cbf6e1eb35a45d4b903655aeef6cf98d_6rOvXGoXoJc.vtt",
-                    "htmlFile": "resources/lecture-26-cancer-2/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-26-cancer-2/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 27: Visualizing Life—Dyes and Stains",
@@ -258,7 +310,9 @@
                     "youtubeKey": "nvxvcbaoayM",
                     "contentLength": 112677541,
                     "captionsFile": "/courses/7-016-introductory-biology-fall-2018/3c7c94fdda5a5bb8bacf18047124af7b_nvxvcbaoayM.vtt",
-                    "htmlFile": "resources/lecture-27-visualizing-life2014dyes-and-stains/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-27-visualizing-life2014dyes-and-stains/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 28: Visualizing Life—Fluorescent Proteins",
@@ -266,7 +320,9 @@
                     "youtubeKey": "hDppkpYcBdg",
                     "contentLength": 98315706,
                     "captionsFile": "/courses/7-016-introductory-biology-fall-2018/c9202dc28bb750c5978353b1dbc9d14e_hDppkpYcBdg.vtt",
-                    "htmlFile": "resources/lecture-28-visualizing-life2014fluorescent-proteins/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-28-visualizing-life2014fluorescent-proteins/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 29: Cell Imaging Techniques",
@@ -274,7 +330,9 @@
                     "youtubeKey": "LhbtCTwtdDU",
                     "contentLength": 105349474,
                     "captionsFile": "/courses/7-016-introductory-biology-fall-2018/ff368dbf630e59d194d18c4874e8ad79_LhbtCTwtdDU.vtt",
-                    "htmlFile": "resources/lecture-29-cell-imaging-techniques/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-29-cell-imaging-techniques/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 30: Immunology 1—Diversity, Specificity, and B Cells",
@@ -282,7 +340,9 @@
                     "youtubeKey": "FpXIGTFD8Qs",
                     "contentLength": 121928479,
                     "captionsFile": "/courses/7-016-introductory-biology-fall-2018/ae302c79696654d3bd81a3667b7bb6d0_FpXIGTFD8Qs.vtt",
-                    "htmlFile": "resources/lecture-30-immunology-12014diversity-specificity-and-b-cells/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-30-immunology-12014diversity-specificity-and-b-cells/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 31: Immunology 2—Memory, T Cells, and Autoimmunity",
@@ -290,7 +350,9 @@
                     "youtubeKey": "SqGmQ6CFYHw",
                     "contentLength": 121407066,
                     "captionsFile": "/courses/7-016-introductory-biology-fall-2018/193785f74dcc5d33a0ba25b871fe5a3f_SqGmQ6CFYHw.vtt",
-                    "htmlFile": "resources/lecture-31-immunology-22014memory-t-cells-and-autoimmunity/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-31-immunology-22014memory-t-cells-and-autoimmunity/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 32: Infectious Disease, Viruses, and Bacteria",
@@ -298,7 +360,9 @@
                     "youtubeKey": "7gLcuMtM_HY",
                     "contentLength": 114287964,
                     "captionsFile": "/courses/7-016-introductory-biology-fall-2018/a42bb882e470577da9a4131d0d013b4b_7gLcuMtM_HY.vtt",
-                    "htmlFile": "resources/lecture-32-infectious-disease-viruses/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-32-infectious-disease-viruses/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 33: Bacteria and Antibiotic Resistance",
@@ -306,7 +370,9 @@
                     "youtubeKey": "E8BihX2hGss",
                     "contentLength": 121587835,
                     "captionsFile": "/courses/7-016-introductory-biology-fall-2018/578a37061e4951d88f8f8fc961ad6dde_E8BihX2hGss.vtt",
-                    "htmlFile": "resources/lecture-33-anti-virals/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-33-anti-virals/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 34: Viruses and Anti-viral Resistance",
@@ -314,7 +380,9 @@
                     "youtubeKey": "Ao-r2nsib_Y",
                     "contentLength": 120899341,
                     "captionsFile": "/courses/7-016-introductory-biology-fall-2018/3991a04e48b7586b9c0a1a9e71820a8d_Ao-r2nsib_Y.vtt",
-                    "htmlFile": "resources/lecture-34-bacteria-and-antibiotic-resistance/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-34-bacteria-and-antibiotic-resistance/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 35: Reproductive Cloning and Embryonic Stem Cells",
@@ -322,7 +390,9 @@
                     "youtubeKey": "_fWt9yHslDo",
                     "contentLength": 81722533,
                     "captionsFile": "/courses/7-016-introductory-biology-fall-2018/13afdb8d89035e2b9847433ce8e012fe_fWt9yHslDo.vtt",
-                    "htmlFile": "resources/lecture-35-human-cloning-and-embryonic-stem-cells/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-35-human-cloning-and-embryonic-stem-cells/index.html"
+                    ]
                 }
             ]
         }

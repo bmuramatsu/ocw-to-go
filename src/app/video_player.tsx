@@ -9,8 +9,9 @@ import { useBroadcastChannel } from "./use_broadcast";
 interface Props {
   courseId: string;
   video: VideoData;
+  timeRange: [number, number] | null;
 }
-export default function VideoPlayer({ courseId, video }: Props) {
+export default function VideoPlayer({ courseId, video, timeRange }: Props) {
   const videoStatus = useAppSelector((s) =>
     selectVideoStatus(s, courseId, video.youtubeKey),
   );
@@ -42,12 +43,15 @@ export default function VideoPlayer({ courseId, video }: Props) {
   // bad. So we only show the captions after the user has played the video.
   const showCaptions = video.captionsFile && hasPlayed;
 
+  let src = `/course-videos/${courseId}/${video.youtubeKey}.mp4`;
+  if (timeRange) {
+    const [start, end] = timeRange;
+    src += `#t=${start},${end}`;
+  }
+
   return (
     <video controls onPlay={() => setHasPlayed(true)}>
-      <source
-        type="video/mp4"
-        src={`/course-videos/${courseId}/${video.youtubeKey}.mp4`}
-      />
+      <source type="video/mp4" src={src} />
       {showCaptions && (
         <track kind="captions" src={captionsPath(video.captionsFile!)} />
       )}

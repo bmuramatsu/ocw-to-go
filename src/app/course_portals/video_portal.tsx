@@ -1,15 +1,14 @@
 import React from "react";
 import CourseVideo, { CourseVideoProps } from "../course_video";
-import { VideoData } from "../../types";
 import { Info } from "../svgs";
 import VideoPlayer from "../video_player";
 import { useAppSelector } from "../store/store";
 import { selectVideoStatus } from "../store/video_selectors";
 import { useOnlineStatus } from "../use_online_status";
+import { VideoPlayerProps } from "../../common/custom_elements/video_player";
 
-interface VideoDownloadPortalProps {
+interface VideoDownloadPortalProps extends VideoPlayerProps {
   courseId: string;
-  video: VideoData;
 }
 
 // This renders the controls to download/delete videos from within the course iframe.
@@ -19,13 +18,14 @@ interface VideoDownloadPortalProps {
 export default function VideoDownloadPortal({
   courseId,
   video,
+  timeRange,
 }: VideoDownloadPortalProps) {
   const stylesPath = APP_ASSET_MANIFEST["/video-downloader-styles.css"];
   return (
     <>
       <link rel="stylesheet" href={stylesPath} />
       <VideoBanner video={video} courseId={courseId} />
-      <VideoPlayer video={video} courseId={courseId} />
+      <VideoPlayer video={video} courseId={courseId} timeRange={timeRange} />
     </>
   );
 }
