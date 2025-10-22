@@ -141,7 +141,7 @@ function DownloadButton({
 }
 
 function videoPath(courseId: string, video: VideoData): string {
-  let path = `/courses/${courseId}/${video.htmlFile}`;
+  let path = `/courses/${courseId}/${video.htmlFiles[0]}`;
 
   // The path in the JSON includes index.html, we prefer not to include index.html,
   // and course_view component expects it not to be there

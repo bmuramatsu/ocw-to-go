@@ -35,7 +35,9 @@
                     "youtubeKey": "L3LMbpZIKhQ",
                     "contentLength": 101709177,
                     "captionsFile": "/courses/6-042j-mathematics-for-computer-science-fall-2010/85c8033144aa50c8ae567f744dc1356b_L3LMbpZIKhQ.vtt",
-                    "htmlFile": "resources/lecture-1-introduction-and-proofs/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-1-introduction-and-proofs/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 2: Induction",
@@ -43,7 +45,9 @@
                     "youtubeKey": "z8HKWUWS-lA",
                     "contentLength": 182950697,
                     "captionsFile": "/courses/6-042j-mathematics-for-computer-science-fall-2010/bf62753df9ea5b6cbdf73887ca43ffd1_z8HKWUWS-lA.vtt",
-                    "htmlFile": "resources/lecture-2-induction/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-2-induction/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 3: Strong Induction",
@@ -51,7 +55,9 @@
                     "youtubeKey": "NuGDkmwEObM",
                     "contentLength": 189178478,
                     "captionsFile": "/courses/6-042j-mathematics-for-computer-science-fall-2010/9e1fdc4fadf45c179910013b3448249e_NuGDkmwEObM.vtt",
-                    "htmlFile": "resources/lecture-3-strong-induction/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-3-strong-induction/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 4: Number Theory I",
@@ -59,7 +65,9 @@
                     "youtubeKey": "NuY7szYSXSw",
                     "contentLength": 185171468,
                     "captionsFile": "/courses/6-042j-mathematics-for-computer-science-fall-2010/20c5d8395f425cb8910e3f678419be40_NuY7szYSXSw.vtt",
-                    "htmlFile": "resources/lecture-4-number-theory-i/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-4-number-theory-i/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 5: Number Theory II",
@@ -67,7 +75,9 @@
                     "youtubeKey": "XX7ePR21Ook",
                     "contentLength": 181835938,
                     "captionsFile": "/courses/6-042j-mathematics-for-computer-science-fall-2010/d6e814a190ae55b18b806c920060ae77_XX7ePR21Ook.vtt",
-                    "htmlFile": "resources/lecture-5-number-theory-ii/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-5-number-theory-ii/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 6: Graph Theory and Coloring",
@@ -75,7 +85,9 @@
                     "youtubeKey": "h9wxtqoa1jY",
                     "contentLength": 190819288,
                     "captionsFile": "/courses/6-042j-mathematics-for-computer-science-fall-2010/ebd05945c1b35a019089c5a683a66005_h9wxtqoa1jY.vtt",
-                    "htmlFile": "resources/lecture-6-graph-theory-and-coloring/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-6-graph-theory-and-coloring/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 7: Matching Problems",
@@ -83,7 +95,9 @@
                     "youtubeKey": "5RSMLgy06Ew",
                     "contentLength": 190401016,
                     "captionsFile": "/courses/6-042j-mathematics-for-computer-science-fall-2010/67ed23c645985789b5389c97458c1b7f_5RSMLgy06Ew.vtt",
-                    "htmlFile": "resources/lecture-7-matching-problems/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-7-matching-problems/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 8: Graph Theory II: Minimum Spanning Trees",
@@ -91,7 +105,9 @@
                     "youtubeKey": "GJpt_3ie4WU",
                     "contentLength": 192137629,
                     "captionsFile": "/courses/6-042j-mathematics-for-computer-science-fall-2010/b7045f84ebb8543fbc983b397c2195ec_GJpt_3ie4WU.vtt",
-                    "htmlFile": "resources/lecture-8-graph-theory-ii-minimum-spanning-trees/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-8-graph-theory-ii-minimum-spanning-trees/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 9: Communication Networks",
@@ -99,7 +115,9 @@
                     "youtubeKey": "bTyxpoi2dmM",
                     "contentLength": 192119666,
                     "captionsFile": "/courses/6-042j-mathematics-for-computer-science-fall-2010/946ac3e212aa5eacb6660066bce14bfb_bTyxpoi2dmM.vtt",
-                    "htmlFile": "resources/lecture-9-communication-networks/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-9-communication-networks/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 10: Graph Theory III",
@@ -107,7 +125,9 @@
                     "youtubeKey": "DOIp5D7VMS4",
                     "contentLength": 190781423,
                     "captionsFile": "/courses/6-042j-mathematics-for-computer-science-fall-2010/880197a96ac550e58aa4f0b4bf1c7d36_DOIp5D7VMS4.vtt",
-                    "htmlFile": "resources/lecture-10-graph-theory-iii/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-10-graph-theory-iii/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 11: Relations, Partial Orders, and Scheduling",
@@ -115,7 +135,9 @@
                     "youtubeKey": "1nScXLQAQ9A",
                     "contentLength": 147351067,
                     "captionsFile": "/courses/6-042j-mathematics-for-computer-science-fall-2010/8f4ed13c35e35a77a87194f06342e031_1nScXLQAQ9A.vtt",
-                    "htmlFile": "resources/lecture-11-relations-partial-orders-and-scheduling/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-11-relations-partial-orders-and-scheduling/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 12: Sums",
@@ -123,7 +145,9 @@
                     "youtubeKey": "fAeShezAGLE",
                     "contentLength": 180482198,
                     "captionsFile": "/courses/6-042j-mathematics-for-computer-science-fall-2010/c0ebc685934558d9839900cf64f16c97_fAeShezAGLE.vtt",
-                    "htmlFile": "resources/lecture-12-sums/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-12-sums/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 13: Sums and Asymptotics",
@@ -131,7 +155,9 @@
                     "youtubeKey": "X9eErxRjQEI",
                     "contentLength": 192676864,
                     "captionsFile": "/courses/6-042j-mathematics-for-computer-science-fall-2010/e2983d81cfef5c9c9f3726d1b597e9a3_X9eErxRjQEI.vtt",
-                    "htmlFile": "resources/lecture-13-sums-and-asymptotics/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-13-sums-and-asymptotics/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 14: Divide and Conquer Recurrences",
@@ -139,7 +165,9 @@
                     "youtubeKey": "Kqf0uO0oV6s",
                     "contentLength": 190622778,
                     "captionsFile": "/courses/6-042j-mathematics-for-computer-science-fall-2010/94dd474e985150f9b8fcb4f7b5545dd8_Kqf0uO0oV6s.vtt",
-                    "htmlFile": "resources/lecture-14-divide-and-conquer-recurrences/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-14-divide-and-conquer-recurrences/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 15: Linear Recurrences",
@@ -147,7 +175,9 @@
                     "youtubeKey": "TWBB-JlmYUc",
                     "contentLength": 180411234,
                     "captionsFile": "/courses/6-042j-mathematics-for-computer-science-fall-2010/d8296a895afb5ff49740b12fe2aadd68_TWBB-JlmYUc.vtt",
-                    "htmlFile": "resources/lecture-15-linear-recurrences/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-15-linear-recurrences/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 16: Counting Rules I",
@@ -155,7 +185,9 @@
                     "youtubeKey": "pNt5Ll6hGqo",
                     "contentLength": 184352307,
                     "captionsFile": "/courses/6-042j-mathematics-for-computer-science-fall-2010/ee5991c92d325a148f79c4f626aec33a_pNt5Ll6hGqo.vtt",
-                    "htmlFile": "resources/lecture-16-counting-rules-i/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-16-counting-rules-i/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 17: Counting Rules II",
@@ -163,7 +195,9 @@
                     "youtubeKey": "09yIb3VHhMI",
                     "contentLength": 196727647,
                     "captionsFile": "/courses/6-042j-mathematics-for-computer-science-fall-2010/a88d59facb1857729431bc6366c0b047_09yIb3VHhMI.vtt",
-                    "htmlFile": "resources/lecture-17-counting-rules-ii/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-17-counting-rules-ii/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 18: Probability Introduction",
@@ -171,7 +205,9 @@
                     "youtubeKey": "SmFwFdESMHI",
                     "contentLength": 193507087,
                     "captionsFile": "/courses/6-042j-mathematics-for-computer-science-fall-2010/968fa06d72c65669b8997379cb3dc539_SmFwFdESMHI.vtt",
-                    "htmlFile": "resources/lecture-18-probability-introduction/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-18-probability-introduction/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 19: Conditional Probability",
@@ -179,7 +215,9 @@
                     "youtubeKey": "E6FbvM-FGZ8",
                     "contentLength": 188344073,
                     "captionsFile": "/courses/6-042j-mathematics-for-computer-science-fall-2010/260f5c2f0c955cd0a1c48929a058d7cf_E6FbvM-FGZ8.vtt",
-                    "htmlFile": "resources/lecture-19-conditional-probability/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-19-conditional-probability/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 20: Independence",
@@ -187,7 +225,9 @@
                     "youtubeKey": "l1BCv3qqW4A",
                     "contentLength": 188923003,
                     "captionsFile": "/courses/6-042j-mathematics-for-computer-science-fall-2010/be0ffd23101d59c78fca79c7a58b2f76_l1BCv3qqW4A.vtt",
-                    "htmlFile": "resources/lecture-20-independence/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-20-independence/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 21: Random Variables",
@@ -195,7 +235,9 @@
                     "youtubeKey": "MOfhhFaQdjw",
                     "contentLength": 191130454,
                     "captionsFile": "/courses/6-042j-mathematics-for-computer-science-fall-2010/f883f89603b757c0b60579d7d18606e1_MOfhhFaQdjw.vtt",
-                    "htmlFile": "resources/lecture-21-random-variables/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-21-random-variables/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 22: Expectation I",
@@ -203,7 +245,9 @@
                     "youtubeKey": "gGlMSe7uEkA",
                     "contentLength": 193214100,
                     "captionsFile": "/courses/6-042j-mathematics-for-computer-science-fall-2010/54dd026a90fe5b06976423b3b5b255bf_gGlMSe7uEkA.vtt",
-                    "htmlFile": "resources/lecture-22-expectation-i/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-22-expectation-i/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 23: Expectation II",
@@ -211,7 +255,9 @@
                     "youtubeKey": "oI9fMUqgfxY",
                     "contentLength": 192821031,
                     "captionsFile": "/courses/6-042j-mathematics-for-computer-science-fall-2010/aaa44706c6a952dba5c2de829dbf0515_oI9fMUqgfxY.vtt",
-                    "htmlFile": "resources/lecture-23-expectation-ii/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-23-expectation-ii/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 24: Large Deviations",
@@ -219,7 +265,9 @@
                     "youtubeKey": "q4mwO2qS2z4",
                     "contentLength": 192098043,
                     "captionsFile": "/courses/6-042j-mathematics-for-computer-science-fall-2010/cbfffe96b49557ef9bacab127b342d74_q4mwO2qS2z4.vtt",
-                    "htmlFile": "resources/lecture-24-large-deviations/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-24-large-deviations/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 25: Random Walks",
@@ -227,7 +275,9 @@
                     "youtubeKey": "56iFMY8QW2k",
                     "contentLength": 179365614,
                     "captionsFile": "/courses/6-042j-mathematics-for-computer-science-fall-2010/653218bb9ce55213b7cd3f91cfdf6b1c_56iFMY8QW2k.vtt",
-                    "htmlFile": "resources/lecture-25-random-walks/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-25-random-walks/index.html"
+                    ]
                 }
             ]
         }

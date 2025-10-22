@@ -100,6 +100,7 @@ export default class VideoDownloader {
       );
       this.finishDownload(true, item);
     } catch (e) {
+      console.log("Error downloading video", e);
       // If the download was aborted, allow the middleware to clean up the queue
       // and bump the downloader.
       const wasAborted = e instanceof DOMException && e.name === "AbortError";

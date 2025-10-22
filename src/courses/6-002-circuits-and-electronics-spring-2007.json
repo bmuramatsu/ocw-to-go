@@ -31,7 +31,9 @@
                     "youtubeKey": "AfQxyVuLeCs",
                     "contentLength": 82407971,
                     "captionsFile": "/courses/6-002-circuits-and-electronics-spring-2007/516dc2f563e55ec3a35f9a3642853573_AfQxyVuLeCs.vtt",
-                    "htmlFile": "resources/lecture-1/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-1/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 2: Basic Circuit Analysis Method",
@@ -39,7 +41,9 @@
                     "youtubeKey": "2vHGYdepKLw",
                     "contentLength": 113508442,
                     "captionsFile": "/courses/6-002-circuits-and-electronics-spring-2007/9a6283bea83a55bbb315c2f9df30c88a_2vHGYdepKLw.vtt",
-                    "htmlFile": "resources/lecture-2/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-2/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 3: Superposition, Thévenin and Norton",
@@ -47,7 +51,9 @@
                     "youtubeKey": "RsJ1eg7XNVs",
                     "contentLength": 118171174,
                     "captionsFile": "/courses/6-002-circuits-and-electronics-spring-2007/b8623b6bf138526c984990ae11e58e24_RsJ1eg7XNVs.vtt",
-                    "htmlFile": "resources/lecture-3/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-3/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 4: The Digital Abstraction",
@@ -55,7 +61,9 @@
                     "youtubeKey": "4TCnYYpZxEc",
                     "contentLength": 98313953,
                     "captionsFile": "/courses/6-002-circuits-and-electronics-spring-2007/0cd7700e899151ab93b2aa797ca4d28e_4TCnYYpZxEc.vtt",
-                    "htmlFile": "resources/lecture-4/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-4/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 5: Inside the Digital Gate",
@@ -63,7 +71,9 @@
                     "youtubeKey": "v6vqWasIHaw",
                     "contentLength": 102280124,
                     "captionsFile": "/courses/6-002-circuits-and-electronics-spring-2007/e7fecb8001745694bbeaeff402b8634c_v6vqWasIHaw.vtt",
-                    "htmlFile": "resources/lecture-5/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-5/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 6: Nonlinear Analysis",
@@ -71,7 +81,9 @@
                     "youtubeKey": "OGtElTMJidE",
                     "contentLength": 89784697,
                     "captionsFile": "/courses/6-002-circuits-and-electronics-spring-2007/efcf54598db25698800a18f9866a3edd_OGtElTMJidE.vtt",
-                    "htmlFile": "resources/lecture-6/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-6/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 7: Incremental Analysis",
@@ -79,7 +91,9 @@
                     "youtubeKey": "JqvKtMNz3RQ",
                     "contentLength": 100436831,
                     "captionsFile": "/courses/6-002-circuits-and-electronics-spring-2007/fe470e30691f5cd98b40ef1efa3da348_JqvKtMNz3RQ.vtt",
-                    "htmlFile": "resources/lecture-7/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-7/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 8: Dependent Sources and Amplifiers",
@@ -87,7 +101,9 @@
                     "youtubeKey": "bEJ0-8pANA4",
                     "contentLength": 104881924,
                     "captionsFile": "/courses/6-002-circuits-and-electronics-spring-2007/fbd3eac57c7e54f19156f8721b803522_bEJ0-8pANA4.vtt",
-                    "htmlFile": "resources/lecture-8/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-8/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 9: Mosfet Amplifier Large Signal Analysis (part 1)",
@@ -95,7 +111,9 @@
                     "youtubeKey": "Nijya-QJ45Y",
                     "contentLength": 101226053,
                     "captionsFile": "/courses/6-002-circuits-and-electronics-spring-2007/1de5408f98945e04a78bed087f39cabe_Nijya-QJ45Y.vtt",
-                    "htmlFile": "resources/lecture-9-part-1/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-9-part-1/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 9: Mosfet Amplifier Large Signal Analysis (part 2)",
@@ -103,7 +121,9 @@
                     "youtubeKey": "jURSAKBlIZA",
                     "contentLength": 312694774,
                     "captionsFile": "/courses/6-002-circuits-and-electronics-spring-2007/a848dd2127815a8ebeb831ef6e1b9ffd_jURSAKBlIZA.vtt",
-                    "htmlFile": "resources/lecture-9-part-2/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-9-part-2/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 10: Amplifiers - Small Signal Model",
@@ -111,7 +131,9 @@
                     "youtubeKey": "9RqFFlZgf60",
                     "contentLength": 312573503,
                     "captionsFile": "/courses/6-002-circuits-and-electronics-spring-2007/f63b04c4232e58669c928a7aad2ce579_9RqFFlZgf60.vtt",
-                    "htmlFile": "resources/lecture-10/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-10/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 11: Small Signal Circuits",
@@ -119,7 +141,9 @@
                     "youtubeKey": "R4KxlqsuZ0A",
                     "contentLength": 309455247,
                     "captionsFile": "/courses/6-002-circuits-and-electronics-spring-2007/853631ee24e257caa1210c24c3541894_R4KxlqsuZ0A.vtt",
-                    "htmlFile": "resources/lecture-11/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-11/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 12: Capacitors and First-Order Systems",
@@ -127,7 +151,9 @@
                     "youtubeKey": "COdQmA9g9S8",
                     "contentLength": 304238142,
                     "captionsFile": "/courses/6-002-circuits-and-electronics-spring-2007/ff0e6bea21755b159ff04576ddff676c_COdQmA9g9S8.vtt",
-                    "htmlFile": "resources/lecture-12/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-12/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 13: Digital Circuit Speed",
@@ -135,7 +161,9 @@
                     "youtubeKey": "TXJIhDHtHSI",
                     "contentLength": 326791641,
                     "captionsFile": "/courses/6-002-circuits-and-electronics-spring-2007/a6ffa0d14f6454cab6f388f257476419_TXJIhDHtHSI.vtt",
-                    "htmlFile": "resources/lecture-13/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-13/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 14: State and Memory",
@@ -143,7 +171,9 @@
                     "youtubeKey": "bX8i2yECWaU",
                     "contentLength": 296744488,
                     "captionsFile": "/courses/6-002-circuits-and-electronics-spring-2007/0768b78e26d75c628ebaa31e1205a4ab_bX8i2yECWaU.vtt",
-                    "htmlFile": "resources/lecture-14/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-14/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 15: Second-Order Systems (part 1)",
@@ -151,7 +181,9 @@
                     "youtubeKey": "ypX20WnHNQw",
                     "contentLength": 310735817,
                     "captionsFile": "/courses/6-002-circuits-and-electronics-spring-2007/ffa3f5b1a4835fbfaed2b1fcf6174fe7_ypX20WnHNQw.vtt",
-                    "htmlFile": "resources/lecture-15-part-1/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-15-part-1/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 15: Second-Order Systems (part 2)",
@@ -159,7 +191,9 @@
                     "youtubeKey": "-gRXU-O1FY4",
                     "contentLength": 310763305,
                     "captionsFile": "/courses/6-002-circuits-and-electronics-spring-2007/6ed5c14baf165862b190ba3fc25ea9c8_-gRXU-O1FY4.vtt",
-                    "htmlFile": "resources/lecture-15-part-2/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-15-part-2/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 16: Sinusoidal Steady State",
@@ -167,7 +201,9 @@
                     "youtubeKey": "3GdMaDzIUeQ",
                     "contentLength": 322549125,
                     "captionsFile": "/courses/6-002-circuits-and-electronics-spring-2007/68483786508058c2b382225ba96a7ce9_3GdMaDzIUeQ.vtt",
-                    "htmlFile": "resources/lecture-16/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-16/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 17: The Impedance Model",
@@ -175,7 +211,9 @@
                     "youtubeKey": "Km9YIdkc2Oo",
                     "contentLength": 306133326,
                     "captionsFile": "/courses/6-002-circuits-and-electronics-spring-2007/1a944e5a42415fb6b00562687223bbaa_Km9YIdkc2Oo.vtt",
-                    "htmlFile": "resources/lecture-17/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-17/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 18: Filters",
@@ -183,7 +221,9 @@
                     "youtubeKey": "WT-qzgaKeGI",
                     "contentLength": 297163958,
                     "captionsFile": "/courses/6-002-circuits-and-electronics-spring-2007/eb3b0684dec559b48d6ec2afb92fe1b8_WT-qzgaKeGI.vtt",
-                    "htmlFile": "resources/lecture-18/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-18/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 19: The Operational Amplifier Abstraction",
@@ -191,7 +231,9 @@
                     "youtubeKey": "V0z_f7qxLcY",
                     "contentLength": 324976887,
                     "captionsFile": "/courses/6-002-circuits-and-electronics-spring-2007/563075f216b3512e87f162a0e3c68360_V0z_f7qxLcY.vtt",
-                    "htmlFile": "resources/lecture-19/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-19/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 20: Operational Amplifier Circuits",
@@ -199,7 +241,9 @@
                     "youtubeKey": "2SwT6JnfCq8",
                     "contentLength": 308420677,
                     "captionsFile": "/courses/6-002-circuits-and-electronics-spring-2007/fc05b4e68048547faf57b9480e6eb79b_2SwT6JnfCq8.vtt",
-                    "htmlFile": "resources/lecture-20/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-20/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 21: Op Amps Positive Feedback",
@@ -207,7 +251,9 @@
                     "youtubeKey": "ke3SL_R92ys",
                     "contentLength": 316973174,
                     "captionsFile": "/courses/6-002-circuits-and-electronics-spring-2007/d0f992e0a99d535db27eb4408c004fbd_ke3SL_R92ys.vtt",
-                    "htmlFile": "resources/lecture-21/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-21/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 22: Energy and Power",
@@ -215,7 +261,9 @@
                     "youtubeKey": "wNuBD4PYWvs",
                     "contentLength": 320030713,
                     "captionsFile": "/courses/6-002-circuits-and-electronics-spring-2007/ca37324c5f0d59fea0d77f7d9059333f_wNuBD4PYWvs.vtt",
-                    "htmlFile": "resources/lecture-22/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-22/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 23: Energy, CMOS",
@@ -223,7 +271,9 @@
                     "youtubeKey": "JB2HgohNHYQ",
                     "contentLength": 248950112,
                     "captionsFile": "/courses/6-002-circuits-and-electronics-spring-2007/a61694beb4f051348d5591857b2a1f72_JB2HgohNHYQ.vtt",
-                    "htmlFile": "resources/lecture-23/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-23/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 25: Violating the Abstraction Barrier",
@@ -231,7 +281,9 @@
                     "youtubeKey": "dyxcCoUgETU",
                     "contentLength": 288738400,
                     "captionsFile": "/courses/6-002-circuits-and-electronics-spring-2007/aae1fdb408e357d4bfe3e63dff69171a_dyxcCoUgETU.vtt",
-                    "htmlFile": "resources/lecture-25/index.html"
+                    "htmlFiles": [
+                        "resources/lecture-25/index.html"
+                    ]
                 }
             ]
         }
