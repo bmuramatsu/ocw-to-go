@@ -77,3 +77,15 @@ resource-item {
 resource-item + resource-item {
   border-top: none;
 }
+
+a .external-link-icon {
+  margin-left: 0.2em;
+  display: inline-block;
+  text-decoration: none;
+
+  svg {
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+  }
+}
