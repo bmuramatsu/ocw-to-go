@@ -4,6 +4,7 @@
 import injectCourseMenuButton from "./course/inject_course_menu_button";
 import changeCourseMenuText from "./course/change_course_menu_text";
 import addManageVideosButton from "./course/add_manage_videos_button";
+import hideLearningResourceTypes from "./course/hide_learning_resource_types";
 import overrideNavButtons from "./course/override_nav_buttons";
 import fixFileDownloads from "./course/fix_file_downloads";
 import autoExpandResourceList from "./course/auto_expand_resource_list";
@@ -20,6 +21,7 @@ function init() {
   injectCourseMenuButton();
   changeCourseMenuText();
   addManageVideosButton();
+  hideLearningResourceTypes();
   overrideNavButtons();
   autoExpandResourceList();
   fixFileDownloads();

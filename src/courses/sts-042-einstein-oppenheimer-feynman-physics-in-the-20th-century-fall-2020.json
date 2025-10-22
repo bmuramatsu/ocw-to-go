@@ -35,7 +35,9 @@
                     "youtubeKey": "PbITFIGLciI",
                     "contentLength": 54280045,
                     "captionsFile": "/courses/sts-042-einstein-oppenheimer-feynman-physics-in-the-20th-century-fall-2020/1mnY4s5dVHGyoNlpqUv-fvC7dxYRlY3ib_transcript.webvtt",
-                    "htmlFile": "resources/ocw_8225_sts042_lecture01_2020sep02_mp4/index.html"
+                    "htmlFiles": [
+                        "resources/ocw_8225_sts042_lecture01_2020sep02_mp4/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 2: Faraday, Thomson, and Maxwell: Lines of Force in the Ether",
@@ -43,7 +45,9 @@
                     "youtubeKey": "OBHUrAFLQW8",
                     "contentLength": 148640222,
                     "captionsFile": "/courses/sts-042-einstein-oppenheimer-feynman-physics-in-the-20th-century-fall-2020/1eruxcxUdUKPfgMJ3BOWtS1FIvFcCeNLQ_transcript.webvtt",
-                    "htmlFile": "resources/ocw_8225_sts042_lecture02_2020sep09_mp4/index.html"
+                    "htmlFiles": [
+                        "resources/ocw_8225_sts042_lecture02_2020sep09_mp4/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 3: Worldviews, Wranglers, and the Making of Theoretical Physicists",
@@ -51,7 +55,9 @@
                     "youtubeKey": "tPTbBAk60ng",
                     "contentLength": 134522763,
                     "captionsFile": "/courses/sts-042-einstein-oppenheimer-feynman-physics-in-the-20th-century-fall-2020/1O6MQ_0-RJ6VvDYYt7P_qm9feKF1y-FF6_transcript.webvtt",
-                    "htmlFile": "resources/ocw_8225_sts042_lecture03_2020sep14_mp4/index.html"
+                    "htmlFiles": [
+                        "resources/ocw_8225_sts042_lecture03_2020sep14_mp4/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 4: Waves in the Ether",
@@ -59,7 +65,9 @@
                     "youtubeKey": "1Tpu7QqyJKg",
                     "contentLength": 132151755,
                     "captionsFile": "/courses/sts-042-einstein-oppenheimer-feynman-physics-in-the-20th-century-fall-2020/1EN_uhaBbXoyg_QKR8wxjHj-nqoKga0KO_transcript.webvtt",
-                    "htmlFile": "resources/ocw_8225_sts042_lecture04_2020sep16_mp4/index.html"
+                    "htmlFiles": [
+                        "resources/ocw_8225_sts042_lecture04_2020sep16_mp4/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 5: Einstein and Experiment",
@@ -67,7 +75,9 @@
                     "youtubeKey": "YBWv9EOX3pU",
                     "contentLength": 138696875,
                     "captionsFile": "/courses/sts-042-einstein-oppenheimer-feynman-physics-in-the-20th-century-fall-2020/1JxBFY0zLNJhmaU5qYAUY9jVXNFCtVajC_transcript.webvtt",
-                    "htmlFile": "resources/ocw_8225_sts042_lecture05_2020sep21_mp4/index.html"
+                    "htmlFiles": [
+                        "resources/ocw_8225_sts042_lecture05_2020sep21_mp4/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 6: Reception of Special Relativity",
@@ -75,7 +85,9 @@
                     "youtubeKey": "ZQQiquqm7Ro",
                     "contentLength": 124284599,
                     "captionsFile": "/courses/sts-042-einstein-oppenheimer-feynman-physics-in-the-20th-century-fall-2020/1_cenLChdLfDKFmIHyl9SXv-vjUYviVOk_transcript.webvtt",
-                    "htmlFile": "resources/ocw_8225_sts042_lecture06_2020sep23_mp4/index.html"
+                    "htmlFiles": [
+                        "resources/ocw_8225_sts042_lecture06_2020sep23_mp4/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 7: A Political History of Gravity",
@@ -83,7 +95,9 @@
                     "youtubeKey": "4VH8SW9Tq2A",
                     "contentLength": 161285567,
                     "captionsFile": "/courses/sts-042-einstein-oppenheimer-feynman-physics-in-the-20th-century-fall-2020/1K7r2aXyxrBbfMtUCSA-AiEnbNSmEsPhG_transcript.webvtt",
-                    "htmlFile": "resources/ocw_8225_sts042_lecture07_2020sep28_mp4/index.html"
+                    "htmlFiles": [
+                        "resources/ocw_8225_sts042_lecture07_2020sep28_mp4/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 8: Rethinking Light",
@@ -91,7 +105,9 @@
                     "youtubeKey": "Fce9xf_kjyc",
                     "contentLength": 148405439,
                     "captionsFile": "/courses/sts-042-einstein-oppenheimer-feynman-physics-in-the-20th-century-fall-2020/1J1pL_8rhDnkZtc0zAMtCn-9L8JF2Ztsf_transcript.webvtt",
-                    "htmlFile": "resources/ocw_8225_sts042_lecture08_2020sep30_mp4/index.html"
+                    "htmlFiles": [
+                        "resources/ocw_8225_sts042_lecture08_2020sep30_mp4/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 9: Rethinking Matter",
@@ -99,7 +115,9 @@
                     "youtubeKey": "a2pU4XBIaWI",
                     "contentLength": 140477047,
                     "captionsFile": "/courses/sts-042-einstein-oppenheimer-feynman-physics-in-the-20th-century-fall-2020/1iBhtXdOS4bzkdXz4ekjnyUVOcN-9AAac_transcript.webvtt",
-                    "htmlFile": "resources/ocw_8225_sts042_lecture09_2020oct05_mp4/index.html"
+                    "htmlFiles": [
+                        "resources/ocw_8225_sts042_lecture09_2020oct05_mp4/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 10: Matrices and Uncertainty",
@@ -107,7 +125,9 @@
                     "youtubeKey": "pv3_BmuKa24",
                     "contentLength": 149047803,
                     "captionsFile": "/courses/sts-042-einstein-oppenheimer-feynman-physics-in-the-20th-century-fall-2020/1n2XBMzyKI_bnOyOKkqH3j7OWL45VK0eA_transcript.webvtt",
-                    "htmlFile": "resources/ocw_8225_sts042_lecture10_2020oct07_mp4/index.html"
+                    "htmlFiles": [
+                        "resources/ocw_8225_sts042_lecture10_2020oct07_mp4/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 11: Waves and Probabilities",
@@ -115,7 +135,9 @@
                     "youtubeKey": "gWdAc-rPHW8",
                     "contentLength": 144327759,
                     "captionsFile": "/courses/sts-042-einstein-oppenheimer-feynman-physics-in-the-20th-century-fall-2020/1j9EsjYrUnz-sszYrwckaSNPKCIEJQcC9_transcript.webvtt",
-                    "htmlFile": "resources/ocw_8225_sts042_lecture11_2020oct13_mp4/index.html"
+                    "htmlFiles": [
+                        "resources/ocw_8225_sts042_lecture11_2020oct13_mp4/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 12: Quantum Weirdness: Schrödinger’s Cat, EPR, and Bell’s Theorem",
@@ -123,7 +145,9 @@
                     "youtubeKey": "KMyRX9q7jss",
                     "contentLength": 133058627,
                     "captionsFile": "/courses/sts-042-einstein-oppenheimer-feynman-physics-in-the-20th-century-fall-2020/185D0FAkpqTeRBLygiNkSawXeu0Cq35qa_transcript.webvtt",
-                    "htmlFile": "resources/ocw_8225_sts042_lecture12_2020oct14_mp4/index.html"
+                    "htmlFiles": [
+                        "resources/ocw_8225_sts042_lecture12_2020oct14_mp4/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 13: Physics under Hitler",
@@ -131,7 +155,9 @@
                     "youtubeKey": "tpW8g8nbanM",
                     "contentLength": 153675021,
                     "captionsFile": "/courses/sts-042-einstein-oppenheimer-feynman-physics-in-the-20th-century-fall-2020/1J9SZB7CBh9OJLFSjRUojmQXcWrAKNKlc_transcript.webvtt",
-                    "htmlFile": "resources/ocw_8225_sts042_lecture13_2020oct19_mp4/index.html"
+                    "htmlFiles": [
+                        "resources/ocw_8225_sts042_lecture13_2020oct19_mp4/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 14: Radar and the Manhattan Project",
@@ -139,7 +165,9 @@
                     "youtubeKey": "5DdKoTFO6Bs",
                     "contentLength": 141229173,
                     "captionsFile": "/courses/sts-042-einstein-oppenheimer-feynman-physics-in-the-20th-century-fall-2020/1vTuVE4W6RE7xLOz5tlcGQQwR__I7ss9w_transcript.webvtt",
-                    "htmlFile": "resources/ocw_8225_sts042_lecture14_2020oct21_mp4/index.html"
+                    "htmlFiles": [
+                        "resources/ocw_8225_sts042_lecture14_2020oct21_mp4/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 16: Secrecy and Security in the Nuclear Age",
@@ -147,7 +175,9 @@
                     "youtubeKey": "MQYzG-UGlsk",
                     "contentLength": 157790349,
                     "captionsFile": "/courses/sts-042-einstein-oppenheimer-feynman-physics-in-the-20th-century-fall-2020/14VqJZOcxiYFTEtY7muWjlOHj3GvqdWn__transcript.webvtt",
-                    "htmlFile": "resources/ocw_8225_sts042_lecture16_2020oct28_mp4/index.html"
+                    "htmlFiles": [
+                        "resources/ocw_8225_sts042_lecture16_2020oct28_mp4/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 18: Coldwar Classroom: Teaching Quantum Theory in Postwar American Physics",
@@ -155,7 +185,9 @@
                     "youtubeKey": "4dg_TW4gQL8",
                     "contentLength": 143946112,
                     "captionsFile": "/courses/sts-042-einstein-oppenheimer-feynman-physics-in-the-20th-century-fall-2020/1bXaHp4tniZf3gt2kpGzv6SvFS2NMT_gf_transcript.webvtt",
-                    "htmlFile": "resources/ocw_8225_sts042_lecture18_2020nov04_mp4/index.html"
+                    "htmlFiles": [
+                        "resources/ocw_8225_sts042_lecture18_2020nov04_mp4/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 19: Counterculture and Physics",
@@ -163,7 +195,9 @@
                     "youtubeKey": "DQg2qBch7Ck",
                     "contentLength": 134728132,
                     "captionsFile": "/courses/sts-042-einstein-oppenheimer-feynman-physics-in-the-20th-century-fall-2020/1mQCB71NcTgZc4Tw54LDmuDZOsDgNsUXB_transcript.webvtt",
-                    "htmlFile": "resources/ocw_8225_sts042_lecture19_2020nov09_mp4/index.html"
+                    "htmlFiles": [
+                        "resources/ocw_8225_sts042_lecture19_2020nov09_mp4/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 20: A Conservative Revolution: QED and Renormalization",
@@ -171,7 +205,9 @@
                     "youtubeKey": "BHGhai8fzps",
                     "contentLength": 138594031,
                     "captionsFile": "/courses/sts-042-einstein-oppenheimer-feynman-physics-in-the-20th-century-fall-2020/1xYUYDii-yRq4BdgnczopGd7fXfqYzrdQ_transcript.webvtt",
-                    "htmlFile": "resources/ocw_8225_sts042_lecture20_2020nov16_mp4/index.html"
+                    "htmlFiles": [
+                        "resources/ocw_8225_sts042_lecture20_2020nov16_mp4/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 21: Teaching Feynman's Tools: The Dispersion of Feynman Diagrams in Postwar Physics",
@@ -179,7 +215,9 @@
                     "youtubeKey": "ysQ9jcF04Nw",
                     "contentLength": 145717127,
                     "captionsFile": "/courses/sts-042-einstein-oppenheimer-feynman-physics-in-the-20th-century-fall-2020/1CPVpyELPJCXEeTFAV6EhE0j-ryd_dBDp_transcript.webvtt",
-                    "htmlFile": "resources/ocw_8225_sts042_lecture21_2020nov18_mp4/index.html"
+                    "htmlFiles": [
+                        "resources/ocw_8225_sts042_lecture21_2020nov18_mp4/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 22: Quarks, QCD, and the Rise of the Standard Model",
@@ -187,7 +225,9 @@
                     "youtubeKey": "t8wEwqQYsZQ",
                     "contentLength": 121931393,
                     "captionsFile": "/courses/sts-042-einstein-oppenheimer-feynman-physics-in-the-20th-century-fall-2020/1cnSgZUnzTlIuPP_-pnBYFIE8ycU-LbXl_transcript.webvtt",
-                    "htmlFile": "resources/ocw_8225_sts042_lecture22_2020nov30_mp4/index.html"
+                    "htmlFiles": [
+                        "resources/ocw_8225_sts042_lecture22_2020nov30_mp4/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 23: The Birth of Particle Cosmology",
@@ -195,7 +235,9 @@
                     "youtubeKey": "-PlloFeJ-ww",
                     "contentLength": 115071687,
                     "captionsFile": "/courses/sts-042-einstein-oppenheimer-feynman-physics-in-the-20th-century-fall-2020/1TDPy8nhQYV4l5hR2bGxTeEAj3LqjMZ2K_transcript.webvtt",
-                    "htmlFile": "resources/ocw_8225_sts042_lecture23_2020dec02_mp4/index.html"
+                    "htmlFiles": [
+                        "resources/ocw_8225_sts042_lecture23_2020dec02_mp4/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 24: The Big Bang, Cosmic Inflation, and the Latest Observations",
@@ -203,7 +245,9 @@
                     "youtubeKey": "I3PTLd7aO24",
                     "contentLength": 128233219,
                     "captionsFile": "/courses/sts-042-einstein-oppenheimer-feynman-physics-in-the-20th-century-fall-2020/1-Ys8JDYcPnt7QrvF1bInb3MF2rtiPc5p_transcript.webvtt",
-                    "htmlFile": "resources/ocw_8225_sts042_lecture24_2020dec07_mp4/index.html"
+                    "htmlFiles": [
+                        "resources/ocw_8225_sts042_lecture24_2020dec07_mp4/index.html"
+                    ]
                 },
                 {
                     "title": "Lecture 25: String Theory and the Multiverse",
@@ -211,7 +255,9 @@
                     "youtubeKey": "F5uLcfs7pCI",
                     "contentLength": 148957936,
                     "captionsFile": "/courses/sts-042-einstein-oppenheimer-feynman-physics-in-the-20th-century-fall-2020/10JmmLl7NJRPojlRsRdnH5eO2IdsQ8CE2_transcript.webvtt",
-                    "htmlFile": "resources/ocw_8225_sts042_lecture25_2020dec09_mp4/index.html"
+                    "htmlFiles": [
+                        "resources/ocw_8225_sts042_lecture25_2020dec09_mp4/index.html"
+                    ]
                 },
                 {
                     "title": "Optional Discussion: Containment",
@@ -219,7 +265,9 @@
                     "youtubeKey": "cJiOSI6df4o",
                     "contentLength": 89421046,
                     "captionsFile": "/courses/sts-042-einstein-oppenheimer-feynman-physics-in-the-20th-century-fall-2020/1oMAigtIIxAYcscfe3DzfL_r5_PQ6ADzI_transcript.webvtt",
-                    "htmlFile": "resources/ocw_8225_sts042_optionaldiscussion2_2020nov02_mp4/index.html"
+                    "htmlFiles": [
+                        "resources/ocw_8225_sts042_optionaldiscussion2_2020nov02_mp4/index.html"
+                    ]
                 },
                 {
                     "title": "Optional Discussion: The Day After Trinity",
@@ -227,7 +275,9 @@
                     "youtubeKey": "QfYSZlfBV9A",
                     "contentLength": 127139134,
                     "captionsFile": "/courses/sts-042-einstein-oppenheimer-feynman-physics-in-the-20th-century-fall-2020/1vmfHgX-hSLXHx-rmI49wa2cd5mXsgf1p_transcript.webvtt",
-                    "htmlFile": "resources/ocw_8225_sts04_optionaldiscussion_2020oct26_v2vtt_mp4/index.html"
+                    "htmlFiles": [
+                        "resources/ocw_8225_sts04_optionaldiscussion_2020oct26_v2vtt_mp4/index.html"
+                    ]
                 }
             ]
         },
@@ -240,7 +290,9 @@
                     "youtubeKey": "asINud1eAx4",
                     "contentLength": 124962804,
                     "captionsFile": "/courses/sts-042-einstein-oppenheimer-feynman-physics-in-the-20th-century-fall-2020/asINud1eAx4_captions.webvtt",
-                    "htmlFile": "resources/the-lumpy-universe-with-prof-david-kaiser/index.html"
+                    "htmlFiles": [
+                        "resources/the-lumpy-universe-with-prof-david-kaiser/index.html"
+                    ]
                 }
             ]
         }

@@ -48,7 +48,7 @@ export default function ManageCourseVideos({ courseId }: Props) {
       <section className="bg--gray u-pb-72">
         <div className="main__contain no-padding">
           <div className="flat-card">
-            <div className="flex align-center gap-12">
+            <div className="flex flex-1 align-center gap-12 u-pi-12 u-pb-8 bg--red u-br-4">
               <Info />
               <p className="text">
                 Download course videos to access them offline

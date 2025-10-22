@@ -33,12 +33,26 @@
             "category": "Other",
             "videos": [
                 {
-                    "title": "Infusing Active Learning into 6.033 Recitations",
+                    "title": "How We Teach: Infusing Active Learning into 6.033 Recitations",
                     "videoUrl": "https://archive.org/download/MIT6.033S18/MIT6_033S18_DUET_Lecture_300k.mp4",
                     "youtubeKey": "r2_-2KW76ec",
                     "contentLength": 123330908,
                     "captionsFile": "/courses/6-033-computer-system-engineering-spring-2018/2b22f0394b71569eb9d47f66efc2d366_r2_-2KW76ec.vtt",
-                    "htmlFile": "resources/infusing-active-learning-into-6/index.html"
+                    "htmlFiles": [
+                        "resources/infusing-active-learning-into-6/index.html",
+                        "resources/acting-things-out/index.html",
+                        "resources/active-learning-activity-debates/index.html",
+                        "resources/importance-of-extensive-planning/index.html",
+                        "resources/getting-everyone-on-board/index.html",
+                        "resources/unique-aspects-of-the-course/index.html",
+                        "resources/why_infusing-active-learning-into-6/index.html",
+                        "resources/group-work-to-class-wide-discussion/index.html",
+                        "resources/supporting-staff-as-individuals/index.html",
+                        "resources/what-is-active-learning/index.html",
+                        "resources/supporting-staff-as-a-group/index.html",
+                        "resources/did-active-learning-work/index.html",
+                        "resources/drawing-pictures/index.html"
+                    ]
                 }
             ]
         }

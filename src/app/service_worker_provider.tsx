@@ -16,12 +16,13 @@ export function ServiceWorkerProvider({
   children,
 }: ServiceWorkerProviderProps) {
   const [ready, setReady] = React.useState(false);
+
   React.useEffect(() => {
-    navigator.serviceWorker.register("/worker.js");
     navigator.serviceWorker.ready.then(() => {
       setReady(true);
     });
   }, []);
+
   return (
     <ServiceWorkerContext.Provider value={{ ready }}>
       {children}

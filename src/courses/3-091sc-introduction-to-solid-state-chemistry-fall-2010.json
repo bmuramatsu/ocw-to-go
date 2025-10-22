@@ -27,297 +27,405 @@
             "category": "Lecture Videos",
             "videos": [
                 {
-                    "title": "Lecture 4: Matter/Energy Interactions: Atomic Spectra",
-                    "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec04_300k.mp4",
-                    "youtubeKey": "5l_S8WwBVnM",
-                    "contentLength": 119262070,
-                    "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/468aa4836f475cc3b92c4a98d8f3fcfc_5l_S8WwBVnM.vtt",
-                    "htmlFile": "resources/introduction-to-solid-state-chemistry-5/index.html"
-                },
-                {
-                    "title": "Lecture 5: Electron Shell Model & Quantum Numbers",
-                    "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec05_300k.mp4",
-                    "youtubeKey": "K30HeE8fEq8",
-                    "contentLength": 120286785,
-                    "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/e124640c8fef5483adfae936fc7c5b86_K30HeE8fEq8.vtt",
-                    "htmlFile": "resources/introduction-to-solid-state-chemistry-6/index.html"
-                },
-                {
-                    "title": "Lecture 7: The Aufbau Principle; Photoelectron Spectroscopy",
-                    "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec07_300k.mp4",
-                    "youtubeKey": "c_4dDw7iLn8",
-                    "contentLength": 111312479,
-                    "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/9ca79d5f5f815544a80889600ddf6842_c_4dDw7iLn8.vtt",
-                    "htmlFile": "resources/introduction-to-solid-state-chemistry-8/index.html"
-                },
-                {
-                    "title": "Lecture 8: Ionic Crystals; Born-Haber Cycle",
-                    "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec08_300k.mp4",
-                    "youtubeKey": "kZJgJCxcHZE",
-                    "contentLength": 115916103,
-                    "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/5f68a71c3b37549f9ba92805ba74e766_kZJgJCxcHZE.vtt",
-                    "htmlFile": "resources/introduction-to-solid-state-chemistry-9/index.html"
-                },
-                {
-                    "title": "Lecture 9: Drawing Lewis Structures",
-                    "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec09_300k.mp4",
-                    "youtubeKey": "up3zP2z81SE",
-                    "contentLength": 120399062,
-                    "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/078cb6d76a4952499d07f4a2efb41760_up3zP2z81SE.vtt",
-                    "htmlFile": "resources/introduction-to-solid-state-chemistry-10/index.html"
-                },
-                {
-                    "title": "Lecture 10: Hybridized & Molecular Orbitals, Paramagnetism",
-                    "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec10_300k.mp4",
-                    "youtubeKey": "wyoFOdR64U8",
-                    "contentLength": 116595800,
-                    "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/be1a99790bda590daca1c5ce42f0b370_wyoFOdR64U8.vtt",
-                    "htmlFile": "resources/introduction-to-solid-state-chemistry-11/index.html"
-                },
-                {
-                    "title": "Lecture 11: The Shapes of Molecules",
-                    "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec11_300k.mp4",
-                    "youtubeKey": "FfBc3M5EaeU",
-                    "contentLength": 108118277,
-                    "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/af1e9feee38e5cc9a3d3c1afe39969fa_FfBc3M5EaeU.vtt",
-                    "htmlFile": "resources/introduction-to-solid-state-chemistry-12/index.html"
-                },
-                {
-                    "title": "Lecture 13: Band Theory of Solids",
-                    "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec13_300k.mp4",
-                    "youtubeKey": "540Sggsblbg",
-                    "contentLength": 113459734,
-                    "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/0cdd85261b3550bd95995bdb6e30c4f5_540Sggsblbg.vtt",
-                    "htmlFile": "resources/introduction-to-solid-state-chemistry-14/index.html"
-                },
-                {
-                    "title": "Lecture 14: Semiconductors",
-                    "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec14_300k.mp4",
-                    "youtubeKey": "56d9qcsHGwE",
-                    "contentLength": 109296783,
-                    "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/4015cbdcb4b85becaeea13d6eb6e84ec_56d9qcsHGwE.vtt",
-                    "htmlFile": "resources/introduction-to-solid-state-chemistry-15/index.html"
-                },
-                {
-                    "title": "Lecture 15: Introduction to Crystallography",
-                    "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec15_300k.mp4",
-                    "youtubeKey": "3dU0v-EvUmA",
-                    "contentLength": 121679470,
-                    "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/69a8380664945243810788fc0a0a7f47_3dU0v-EvUmA.vtt",
-                    "htmlFile": "resources/introduction-to-solid-state-chemistry-16/index.html"
-                },
-                {
-                    "title": "Lecture 17: X-Ray Emission & Absorption",
-                    "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec17_300k.mp4",
-                    "youtubeKey": "uCK1z-h7Jbc",
-                    "contentLength": 119186409,
-                    "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/8c0cfffd1e0b5b359842786654640c0c_uCK1z-h7Jbc.vtt",
-                    "htmlFile": "resources/introduction-to-solid-state-chemistry-18/index.html"
-                },
-                {
-                    "title": "Lecture 20: Line, Interface & Bulk Defects",
-                    "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec20_300k.mp4",
-                    "youtubeKey": "malCa9kI7Ag",
-                    "contentLength": 110247383,
-                    "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/ce6a1b58804058ffadb188be358c6031_malCa9kI7Ag.vtt",
-                    "htmlFile": "resources/introduction-to-solid-state-chemistry-21/index.html"
-                },
-                {
-                    "title": "Lecture 29: Polymers: Synthesis, Properties & Applications",
-                    "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec29_300k.mp4",
-                    "youtubeKey": "KlI1duF4K9o",
-                    "contentLength": 110639341,
-                    "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/2f0f700c8916543aadaf7041b984503e_KlI1duF4K9o.vtt",
-                    "htmlFile": "resources/introduction-to-solid-state-chemistry-30/index.html"
-                },
-                {
-                    "title": "Lecture 30: Biochemistry: Amino Acids",
-                    "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec30_300k.mp4",
-                    "youtubeKey": "RikovZJdUmg",
-                    "contentLength": 119515412,
-                    "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/dac9e5123b135b478b54374a96ae8439_RikovZJdUmg.vtt",
-                    "htmlFile": "resources/introduction-to-solid-state-chemistry-31/index.html"
-                },
-                {
-                    "title": "Lecture 31: Biochemistry: Protein Structure",
-                    "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec31_300k.mp4",
-                    "youtubeKey": "FRgckt9lDQ8",
-                    "contentLength": 118161258,
-                    "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/dec64a9ff79b5361986a7bf620bf9d22_FRgckt9lDQ8.vtt",
-                    "htmlFile": "resources/introduction-to-solid-state-chemistry-32/index.html"
-                },
-                {
-                    "title": "Lecture 32: Biochemistry: Lipids, Nucleic Acids & DNA",
-                    "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec32_300k.mp4",
-                    "youtubeKey": "j7EBObU5Tjk",
-                    "contentLength": 120095064,
-                    "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/c92c45dde3d6557db55a7e1c369f758b_j7EBObU5Tjk.vtt",
-                    "htmlFile": "resources/introduction-to-solid-state-chemistry-33/index.html"
-                },
-                {
-                    "title": "Lecture 35: Binary Phase Diagrams: Limited Solubility",
-                    "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec35_300k.mp4",
-                    "youtubeKey": "zOOQALT2uu8",
-                    "contentLength": 110814041,
-                    "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/073e6e47032d55f6abde3c7752a47d96_zOOQALT2uu8.vtt",
-                    "htmlFile": "resources/introduction-to-solid-state-chemistry-36/index.html"
-                }
-            ]
-        },
-        {
-            "category": "Other",
-            "videos": [
-                {
-                    "title": "Course Introduction",
-                    "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10_intro_300k.mp4",
-                    "youtubeKey": "kI7D2lkcF8E",
-                    "contentLength": 19083514,
-                    "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/d004b7c92d9a58888a5ce1ff8ebb3482_kI7D2lkcF8E.vtt",
-                    "htmlFile": "resources/introduction-to-solid-state-chemistry-37/index.html"
-                },
-                {
-                    "title": "Lecture 1: Introduction to Solid State Chemistry",
+                    "title": "Lec 1 | MIT 3.091SC Introduction to Solid State Chemistry, Fall 2010",
                     "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec01_300k.mp4",
                     "youtubeKey": "vPQ9a_xIqRg",
                     "contentLength": 111323597,
                     "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/a2402e206f3e5433b100850541191b7c_vPQ9a_xIqRg.vtt",
-                    "htmlFile": "resources/copy_of_introduction-to-solid-state-chemistry/index.html"
+                    "htmlFiles": [
+                        "resources/copy_of_introduction-to-solid-state-chemistry/index.html",
+                        "resources/introduction-to-solid-state-chemistry-2/index.html"
+                    ]
                 },
                 {
-                    "title": "Lecture 2: The Periodic Table",
+                    "title": "Lec 2 | MIT 3.091SC Introduction to Solid State Chemistry, Fall 2010",
                     "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec02_300k.mp4",
                     "youtubeKey": "h57hFAsLAGo",
                     "contentLength": 113935756,
                     "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/0fa036c1571b5e9f85144c34aacdc8c4_h57hFAsLAGo.vtt",
-                    "htmlFile": "resources/copy2_of_introduction-to-solid-state-chemistry/index.html"
+                    "htmlFiles": [
+                        "resources/copy2_of_introduction-to-solid-state-chemistry/index.html",
+                        "resources/introduction-to-solid-state-chemistry-3/index.html"
+                    ]
                 },
                 {
-                    "title": "Lecture 3: Atomic Models: Rutherford & Bohr",
+                    "title": "Lec 3 | MIT 3.091SC Introduction to Solid State Chemistry, Fall 2010",
                     "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec03_300k.mp4",
                     "youtubeKey": "Io_4ZckeQ1k",
                     "contentLength": 116100508,
                     "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/cc7b942bae8858fc8848f577a7529e13_Io_4ZckeQ1k.vtt",
-                    "htmlFile": "resources/copy3_of_introduction-to-solid-state-chemistry/index.html"
+                    "htmlFiles": [
+                        "resources/copy3_of_introduction-to-solid-state-chemistry/index.html",
+                        "resources/introduction-to-solid-state-chemistry-4/index.html"
+                    ]
                 },
                 {
-                    "title": "Lecture 6: Particle-Wave Duality",
+                    "title": "Lec 4 | MIT 3.091SC Introduction to Solid State Chemistry, Fall 2010",
+                    "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec04_300k.mp4",
+                    "youtubeKey": "5l_S8WwBVnM",
+                    "contentLength": 119262070,
+                    "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/468aa4836f475cc3b92c4a98d8f3fcfc_5l_S8WwBVnM.vtt",
+                    "htmlFiles": [
+                        "resources/introduction-to-solid-state-chemistry-5/index.html",
+                        "resources/copy4_of_introduction-to-solid-state-chemistry/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 5 | MIT 3.091SC Introduction to Solid State Chemistry, Fall 2010",
+                    "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec05_300k.mp4",
+                    "youtubeKey": "K30HeE8fEq8",
+                    "contentLength": 120286785,
+                    "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/e124640c8fef5483adfae936fc7c5b86_K30HeE8fEq8.vtt",
+                    "htmlFiles": [
+                        "resources/introduction-to-solid-state-chemistry-6/index.html",
+                        "resources/copy5_of_introduction-to-solid-state-chemistry/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 6 | MIT 3.091SC Introduction to Solid State Chemistry, Fall 2010",
                     "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec06_300k.mp4",
                     "youtubeKey": "giPLtjL0Mnc",
                     "contentLength": 116501042,
                     "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/988bee61dd7c5446af7b94dceba91135_giPLtjL0Mnc.vtt",
-                    "htmlFile": "resources/copy7_of_introduction-to-solid-state-chemistry/index.html"
+                    "htmlFiles": [
+                        "resources/copy7_of_introduction-to-solid-state-chemistry/index.html",
+                        "resources/introduction-to-solid-state-chemistry-7/index.html"
+                    ]
                 },
                 {
-                    "title": "Lecture 12: Intermolecular Forces",
+                    "title": "Lec 7 | MIT 3.091SC Introduction to Solid State Chemistry, Fall 2010",
+                    "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec07_300k.mp4",
+                    "youtubeKey": "c_4dDw7iLn8",
+                    "contentLength": 111312479,
+                    "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/9ca79d5f5f815544a80889600ddf6842_c_4dDw7iLn8.vtt",
+                    "htmlFiles": [
+                        "resources/introduction-to-solid-state-chemistry-8/index.html",
+                        "resources/lecture-7-the-aufbau-principle-photoelectron-spectroscopy/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 8 | MIT 3.091SC Introduction to Solid State Chemistry, Fall 2010",
+                    "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec08_300k.mp4",
+                    "youtubeKey": "kZJgJCxcHZE",
+                    "contentLength": 115916103,
+                    "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/5f68a71c3b37549f9ba92805ba74e766_kZJgJCxcHZE.vtt",
+                    "htmlFiles": [
+                        "resources/introduction-to-solid-state-chemistry-9/index.html",
+                        "resources/lecture-8-ionic-crystals-born-haber-cycle/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 9 | MIT 3.091SC Introduction to Solid State Chemistry, Fall 2010",
+                    "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec09_300k.mp4",
+                    "youtubeKey": "up3zP2z81SE",
+                    "contentLength": 120399062,
+                    "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/078cb6d76a4952499d07f4a2efb41760_up3zP2z81SE.vtt",
+                    "htmlFiles": [
+                        "resources/introduction-to-solid-state-chemistry-10/index.html",
+                        "resources/copy6_of_introduction-to-solid-state-chemistry/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 10 | MIT 3.091SC Introduction to Solid State Chemistry, Fall 2010",
+                    "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec10_300k.mp4",
+                    "youtubeKey": "wyoFOdR64U8",
+                    "contentLength": 116595800,
+                    "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/be1a99790bda590daca1c5ce42f0b370_wyoFOdR64U8.vtt",
+                    "htmlFiles": [
+                        "resources/introduction-to-solid-state-chemistry-11/index.html",
+                        "resources/copy8_of_introduction-to-solid-state-chemistry/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 11 | MIT 3.091SC Introduction to Solid State Chemistry, Fall 2010",
+                    "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec11_300k.mp4",
+                    "youtubeKey": "FfBc3M5EaeU",
+                    "contentLength": 108118277,
+                    "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/af1e9feee38e5cc9a3d3c1afe39969fa_FfBc3M5EaeU.vtt",
+                    "htmlFiles": [
+                        "resources/introduction-to-solid-state-chemistry-12/index.html",
+                        "resources/copy9_of_introduction-to-solid-state-chemistry/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 12 | MIT 3.091SC Introduction to Solid State Chemistry, Fall 2010",
                     "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec12_300k.mp4",
                     "youtubeKey": "2Q_fna3TTbs",
                     "contentLength": 79724392,
                     "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/27d34f7d86755bd9a9c1c7a9344be956_2Q_fna3TTbs.vtt",
-                    "htmlFile": "resources/copy10_of_introduction-to-solid-state-chemistry/index.html"
+                    "htmlFiles": [
+                        "resources/copy10_of_introduction-to-solid-state-chemistry/index.html",
+                        "resources/introduction-to-solid-state-chemistry-13/index.html"
+                    ]
                 },
                 {
-                    "title": "Lecture 16: Crystallographic Notation & X-Rays",
+                    "title": "Lec 13 | MIT 3.091SC Introduction to Solid State Chemistry, Fall 2010",
+                    "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec13_300k.mp4",
+                    "youtubeKey": "540Sggsblbg",
+                    "contentLength": 113459734,
+                    "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/0cdd85261b3550bd95995bdb6e30c4f5_540Sggsblbg.vtt",
+                    "htmlFiles": [
+                        "resources/introduction-to-solid-state-chemistry-14/index.html",
+                        "resources/copy11_of_introduction-to-solid-state-chemistry/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 14 | MIT 3.091SC Introduction to Solid State Chemistry, Fall 2010",
+                    "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec14_300k.mp4",
+                    "youtubeKey": "56d9qcsHGwE",
+                    "contentLength": 109296783,
+                    "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/4015cbdcb4b85becaeea13d6eb6e84ec_56d9qcsHGwE.vtt",
+                    "htmlFiles": [
+                        "resources/introduction-to-solid-state-chemistry-15/index.html",
+                        "resources/copy13_of_introduction-to-solid-state-chemistry/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 15 | MIT 3.091SC Introduction to Solid State Chemistry, Fall 2010",
+                    "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec15_300k.mp4",
+                    "youtubeKey": "3dU0v-EvUmA",
+                    "contentLength": 121679470,
+                    "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/69a8380664945243810788fc0a0a7f47_3dU0v-EvUmA.vtt",
+                    "htmlFiles": [
+                        "resources/introduction-to-solid-state-chemistry-16/index.html",
+                        "resources/copy12_of_introduction-to-solid-state-chemistry/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 16 | MIT 3.091SC Introduction to Solid State Chemistry, Fall 2010",
                     "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec16_300k.mp4",
                     "youtubeKey": "FVzaznYPCes",
                     "contentLength": 104870735,
                     "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/1a54514d482359a1be353ea28de192f4_FVzaznYPCes.vtt",
-                    "htmlFile": "resources/copy29_of_introduction-to-solid-state-chemistry/index.html"
+                    "htmlFiles": [
+                        "resources/copy29_of_introduction-to-solid-state-chemistry/index.html",
+                        "resources/introduction-to-solid-state-chemistry-17/index.html"
+                    ]
                 },
                 {
-                    "title": "Lecture 18: X-Ray Diffraction Techniques",
+                    "title": "Lec 17 | MIT 3.091SC Introduction to Solid State Chemistry, Fall 2010",
+                    "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec17_300k.mp4",
+                    "youtubeKey": "uCK1z-h7Jbc",
+                    "contentLength": 119186409,
+                    "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/8c0cfffd1e0b5b359842786654640c0c_uCK1z-h7Jbc.vtt",
+                    "htmlFiles": [
+                        "resources/introduction-to-solid-state-chemistry-18/index.html",
+                        "resources/copy30_of_introduction-to-solid-state-chemistry/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 18 | MIT 3.091SC Introduction to Solid State Chemistry, Fall 2010",
                     "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec18_300k.mp4",
                     "youtubeKey": "fFg4uXMpnV0",
                     "contentLength": 103992452,
                     "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/c1e70e45943e5c00a2d746b2fa98a13e_fFg4uXMpnV0.vtt",
-                    "htmlFile": "resources/copy31_of_introduction-to-solid-state-chemistry/index.html"
+                    "htmlFiles": [
+                        "resources/copy31_of_introduction-to-solid-state-chemistry/index.html",
+                        "resources/introduction-to-solid-state-chemistry-19/index.html"
+                    ]
                 },
                 {
-                    "title": "Lecture 19: Point & Line Defects",
+                    "title": "Lec 19 | MIT 3.091SC Introduction to Solid State Chemistry, Fall 2010",
                     "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec19_300k.mp4",
                     "youtubeKey": "Fg78tInX5Vg",
                     "contentLength": 111907230,
                     "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/349ad73296195ee1bf4f22be5651d519_Fg78tInX5Vg.vtt",
-                    "htmlFile": "resources/copy32_of_introduction-to-solid-state-chemistry/index.html"
+                    "htmlFiles": [
+                        "resources/copy32_of_introduction-to-solid-state-chemistry/index.html",
+                        "resources/introduction-to-solid-state-chemistry-20/index.html"
+                    ]
                 },
                 {
-                    "title": "Lecture 21: Introduction to Glasses",
+                    "title": "Lec 20 | MIT 3.091SC Introduction to Solid State Chemistry, Fall 2010",
+                    "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec20_300k.mp4",
+                    "youtubeKey": "malCa9kI7Ag",
+                    "contentLength": 110247383,
+                    "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/ce6a1b58804058ffadb188be358c6031_malCa9kI7Ag.vtt",
+                    "htmlFiles": [
+                        "resources/introduction-to-solid-state-chemistry-21/index.html",
+                        "resources/copy33_of_introduction-to-solid-state-chemistry/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 21 | MIT 3.091SC Introduction to Solid State Chemistry, Fall 2010",
                     "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec21_300k.mp4",
                     "youtubeKey": "kB2Ue4Fip2c",
                     "contentLength": 109896264,
                     "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/815576787150532bb0794e46a8061f0c_kB2Ue4Fip2c.vtt",
-                    "htmlFile": "resources/copy14_of_introduction-to-solid-state-chemistry/index.html"
+                    "htmlFiles": [
+                        "resources/copy14_of_introduction-to-solid-state-chemistry/index.html",
+                        "resources/introduction-to-solid-state-chemistry-22/index.html"
+                    ]
                 },
                 {
-                    "title": "Lecture 22: Engineering Glass Properties, Introduction to Kinetics",
+                    "title": "Lec 22 | MIT 3.091SC Introduction to Solid State Chemistry, Fall 2010",
                     "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec22_300k.mp4",
                     "youtubeKey": "czAWbZLxFNM",
                     "contentLength": 120858215,
                     "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/64ba16f88eee5f5db6998e92e2aa46f3_czAWbZLxFNM.vtt",
-                    "htmlFile": "resources/copy15_of_introduction-to-solid-state-chemistry/index.html"
+                    "htmlFiles": [
+                        "resources/copy15_of_introduction-to-solid-state-chemistry/index.html",
+                        "resources/introduction-to-solid-state-chemistry-23/index.html"
+                    ]
                 },
                 {
-                    "title": "Lecture 23: Reaction Rates",
+                    "title": "Lec 23 | MIT 3.091SC Introduction to Solid State Chemistry, Fall 2010",
                     "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec23_300k.mp4",
                     "youtubeKey": "h1dWUja7_5A",
                     "contentLength": 121149481,
                     "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/544f59026cee55b1a71e77cd4f283ca2_h1dWUja7_5A.vtt",
-                    "htmlFile": "resources/copy16_of_introduction-to-solid-state-chemistry/index.html"
+                    "htmlFiles": [
+                        "resources/copy16_of_introduction-to-solid-state-chemistry/index.html",
+                        "resources/introduction-to-solid-state-chemistry-24/index.html"
+                    ]
                 },
                 {
-                    "title": "Lecture 24: Diffusion",
+                    "title": "Lec 24 | MIT 3.091SC Introduction to Solid State Chemistry, Fall 2010",
                     "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec24_300k.mp4",
                     "youtubeKey": "oDOs8Yxydo0",
                     "contentLength": 116917588,
                     "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/b1589e41c3785e989bcbc1d4e1c6d463_oDOs8Yxydo0.vtt",
-                    "htmlFile": "resources/copy17_of_introduction-to-solid-state-chemistry/index.html"
+                    "htmlFiles": [
+                        "resources/copy17_of_introduction-to-solid-state-chemistry/index.html",
+                        "resources/introduction-to-solid-state-chemistry-25/index.html"
+                    ]
                 },
                 {
-                    "title": "Lecture 25: Introduction to Aqueous Solutions",
+                    "title": "Lec 25 | MIT 3.091SC Introduction to Solid State Chemistry, Fall 2010",
                     "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec25_300k.mp4",
                     "youtubeKey": "l-8-c7g-LY4",
                     "contentLength": 116830905,
                     "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/45b9830deaa25ef089c45a84d49705ff_l-8-c7g-LY4.vtt",
-                    "htmlFile": "resources/copy18_of_introduction-to-solid-state-chemistry/index.html"
+                    "htmlFiles": [
+                        "resources/copy18_of_introduction-to-solid-state-chemistry/index.html",
+                        "resources/introduction-to-solid-state-chemistry-26/index.html"
+                    ]
                 },
                 {
-                    "title": "Lecture 26: Acids & Bases",
+                    "title": "Lec 26 | MIT 3.091SC Introduction to Solid State Chemistry, Fall 2010",
                     "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec26_300k.mp4",
                     "youtubeKey": "_xu-p6Ffh-A",
                     "contentLength": 120851937,
                     "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/b6553d6f32255b87be8ebaadfde13ec0_xu-p6Ffh-A.vtt",
-                    "htmlFile": "resources/copy19_of_introduction-to-solid-state-chemistry/index.html"
+                    "htmlFiles": [
+                        "resources/copy19_of_introduction-to-solid-state-chemistry/index.html",
+                        "resources/introduction-to-solid-state-chemistry-27/index.html"
+                    ]
                 },
                 {
-                    "title": "Lecture 27: Introduction to Organic Chemistry",
+                    "title": "Lec 27 | MIT 3.091SC Introduction to Solid State Chemistry, Fall 2010",
                     "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec27_300k.mp4",
                     "youtubeKey": "AFS4JbQGB0c",
                     "contentLength": 118640971,
                     "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/2d7c440a102a506fb83bb1694c7c8b5e_AFS4JbQGB0c.vtt",
-                    "htmlFile": "resources/copy20_of_introduction-to-solid-state-chemistry/index.html"
+                    "htmlFiles": [
+                        "resources/copy20_of_introduction-to-solid-state-chemistry/index.html",
+                        "resources/introduction-to-solid-state-chemistry-28/index.html"
+                    ]
                 },
                 {
-                    "title": "Lecture 28: Polymers: Structure & Composition",
+                    "title": "Lec 28 | MIT 3.091SC Introduction to Solid State Chemistry, Fall 2010",
                     "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec28_300k.mp4",
                     "youtubeKey": "VL0pw-yVgjM",
                     "contentLength": 111290670,
                     "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/63a4a21027b35cb6ad54b888f66eb034_VL0pw-yVgjM.vtt",
-                    "htmlFile": "resources/copy21_of_introduction-to-solid-state-chemistry/index.html"
+                    "htmlFiles": [
+                        "resources/copy21_of_introduction-to-solid-state-chemistry/index.html",
+                        "resources/introduction-to-solid-state-chemistry-29/index.html"
+                    ]
                 },
                 {
-                    "title": "Lecture 33: Unary Phase Diagrams",
+                    "title": "Lec 29 | MIT 3.091SC Introduction to Solid State Chemistry, Fall 2010",
+                    "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec29_300k.mp4",
+                    "youtubeKey": "KlI1duF4K9o",
+                    "contentLength": 110639341,
+                    "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/2f0f700c8916543aadaf7041b984503e_KlI1duF4K9o.vtt",
+                    "htmlFiles": [
+                        "resources/introduction-to-solid-state-chemistry-30/index.html",
+                        "resources/copy23_of_introduction-to-solid-state-chemistry/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 30 | MIT 3.091SC Introduction to Solid State Chemistry, Fall 2010",
+                    "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec30_300k.mp4",
+                    "youtubeKey": "RikovZJdUmg",
+                    "contentLength": 119515412,
+                    "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/dac9e5123b135b478b54374a96ae8439_RikovZJdUmg.vtt",
+                    "htmlFiles": [
+                        "resources/introduction-to-solid-state-chemistry-31/index.html",
+                        "resources/copy22_of_introduction-to-solid-state-chemistry/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 31 | MIT 3.091SC Introduction to Solid State Chemistry, Fall 2010",
+                    "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec31_300k.mp4",
+                    "youtubeKey": "FRgckt9lDQ8",
+                    "contentLength": 118161258,
+                    "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/dec64a9ff79b5361986a7bf620bf9d22_FRgckt9lDQ8.vtt",
+                    "htmlFiles": [
+                        "resources/introduction-to-solid-state-chemistry-32/index.html",
+                        "resources/copy24_of_introduction-to-solid-state-chemistry/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 32 | MIT 3.091SC Introduction to Solid State Chemistry, Fall 2010",
+                    "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec32_300k.mp4",
+                    "youtubeKey": "j7EBObU5Tjk",
+                    "contentLength": 120095064,
+                    "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/c92c45dde3d6557db55a7e1c369f758b_j7EBObU5Tjk.vtt",
+                    "htmlFiles": [
+                        "resources/introduction-to-solid-state-chemistry-33/index.html",
+                        "resources/copy25_of_introduction-to-solid-state-chemistry/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 33 | MIT 3.091SC Introduction to Solid State Chemistry, Fall 2010",
                     "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec33_300k.mp4",
                     "youtubeKey": "xEnYH0KNkfA",
                     "contentLength": 118483404,
                     "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/de2239d549ae5dfbafbe2dec6c2c880c_xEnYH0KNkfA.vtt",
-                    "htmlFile": "resources/copy26_of_introduction-to-solid-state-chemistry/index.html"
+                    "htmlFiles": [
+                        "resources/copy26_of_introduction-to-solid-state-chemistry/index.html",
+                        "resources/introduction-to-solid-state-chemistry-34/index.html"
+                    ]
                 },
                 {
-                    "title": "Lecture 34: Binary Phase Diagrams: Complete Solubility",
+                    "title": "Lec 34 | MIT 3.091SC Introduction to Solid State Chemistry, Fall 2010",
                     "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec34_300k.mp4",
                     "youtubeKey": "rR8ZtI8m0Mo",
                     "contentLength": 115110655,
                     "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/cc067175a4a2561b982fb775de4b98c6_rR8ZtI8m0Mo.vtt",
-                    "htmlFile": "resources/copy27_of_introduction-to-solid-state-chemistry/index.html"
+                    "htmlFiles": [
+                        "resources/copy27_of_introduction-to-solid-state-chemistry/index.html",
+                        "resources/introduction-to-solid-state-chemistry-35/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 35 | MIT 3.091SC Introduction to Solid State Chemistry, Fall 2010",
+                    "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10lec35_300k.mp4",
+                    "youtubeKey": "zOOQALT2uu8",
+                    "contentLength": 110814041,
+                    "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/073e6e47032d55f6abde3c7752a47d96_zOOQALT2uu8.vtt",
+                    "htmlFiles": [
+                        "resources/introduction-to-solid-state-chemistry-36/index.html",
+                        "resources/copy28_of_introduction-to-solid-state-chemistry/index.html"
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "Other Video",
+            "videos": [
+                {
+                    "title": "Course Introduction | MIT 3.091SC Introduction to Solid State Chemistry, Fall 2010",
+                    "videoUrl": "http://www.archive.org/download/MIT3_091SCF10/MIT3_091SCF10_intro_300k.mp4",
+                    "youtubeKey": "kI7D2lkcF8E",
+                    "contentLength": 19083514,
+                    "captionsFile": "/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/d004b7c92d9a58888a5ce1ff8ebb3482_kI7D2lkcF8E.vtt",
+                    "htmlFiles": [
+                        "resources/introduction-to-solid-state-chemistry-37/index.html",
+                        "resources/introduction-to-solid-state-chemistry/index.html"
+                    ]
                 }
             ]
         }
