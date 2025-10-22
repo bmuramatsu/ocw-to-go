@@ -1,6 +1,6 @@
 import React from "react";
 import { COURSES_BY_ID } from "../initial_course_list";
-import CourseVideo from "./course_video";
+import CourseVideo from "../course_video";
 import DownloadAllVideos from "./download_all_videos";
 import { VideoData } from "../../types";
 import { ChevronRight, Info } from "../svgs";
@@ -48,7 +48,7 @@ export default function ManageCourseVideos({ courseId }: Props) {
       <section className="bg--gray u-pb-72">
         <div className="main__contain no-padding">
           <div className="flat-card">
-            <div className="flex align-center gap-12">
+            <div className="flex flex-1 align-center gap-12 u-pi-12 u-pb-8 bg--red u-br-4">
               <Info />
               <p className="text">
                 Download course videos to access them offline

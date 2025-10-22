@@ -1,4 +1,4 @@
-import { ResourceItem } from "./replace_resource_items";
+import ResourceItem from "../common/custom_elements/resource_item";
 
 // very basic type stubs for pdfjs
 type PdfJs = {
@@ -47,15 +47,15 @@ export default async function renderPdfs() {
 
   // This is the custom element that we inject
   const resourceItem = document.querySelector<ResourceItem>(
-    "resource-item[data-download-path*='.pdf']",
-  );
+    "resource-item",
+  ) as ResourceItem;
   if (!resourceItem) return;
 
   wrapper.classList.add("pdfjs-wrapper");
 
   wrapper.innerHTML = "";
 
-  const path = resourceItem.dataset.downloadPath;
+  const path = resourceItem.props.item.downloadPath;
   if (!path) return;
 
   const doc = await pdfjs()!.getDocument(path).promise;

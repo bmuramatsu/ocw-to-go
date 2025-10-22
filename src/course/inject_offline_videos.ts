@@ -3,105 +3,92 @@
 import broadcastChannel from "./course_channel";
 import type { VideoData } from "../types";
 import env from "./env";
+import nextId from "./portal_id_generator";
+import VideoPlayer from "../common/custom_elements/video_player";
 
 export default function injectOfflineVideos() {
-  const videoPlayer = document.querySelector<HTMLElement>(
-    ".video-player-wrapper .video-container [data-setup*='youtube.com']",
-  );
-  if (!videoPlayer) {
-    return;
-  }
+  const ids: string[] = [];
 
-  const match = videoPlayer.dataset.setup!.match(
-    /youtube.com\/embed\/([a-zA-Z0-9_-]+)/,
-  );
+  document
+    .querySelectorAll<HTMLElement>(
+      ".video-player-wrapper .video-container div[data-setup*='youtube.com']",
+    )
+    .forEach((videoPlayer) => {
+      if (!videoPlayer) return;
 
-  if (!match || !match[1]) {
-    return;
-  }
+      const match = videoPlayer.dataset.setup!.match(
+        /youtube.com\/embed\/([a-zA-Z0-9_-]+)/,
+      );
 
-  const videoData = getVideoData(match[1]);
-  if (!videoData) {
-    return;
-  }
+      if (!match || !match[1]) return;
 
-  // The actual youtube player element gets replaced by other scripts, so we
-  // use the closest stable parent to attach to instead.
-  // We know this parent exists because it's part of the selector at the
-  // beginning of the function
-  const playerWrapper = videoPlayer.closest<HTMLElement>(".video-container")!;
+      const videoData = getVideoData(match[1]);
+      if (!videoData) return;
 
-  new VideoInjector(playerWrapper, videoData);
-}
+      // The actual youtube player element gets replaced by other scripts, so we
+      // use the closest stable parent to attach to instead.
+      // We know this parent exists because it's part of the selector at the
+      // beginning of the function
+      const playerWrapper =
+        videoPlayer.closest<HTMLElement>(".video-container")!;
 
-export class VideoInjector {
-  wrapper: HTMLElement;
-  videoData: VideoData;
+      const id = nextId();
+      const player = new VideoPlayer(id, { video: videoData });
+      playerWrapper.before(player);
 
-  constructor(playerEl: HTMLElement, videoData: VideoData) {
-    this.videoData = videoData;
-    this.wrapper = playerEl;
-    this.addPortal();
-    this.removeExistingDownloadLink();
-    this.changeTranscriptButtonText();
+      removeExistingDownloadLink();
+      changeTranscriptButtonText();
+      subscribeToPlayerState(videoData.youtubeKey, playerWrapper);
 
-    broadcastChannel.subscribe((message) => {
-      if (message.type === "video-player-state-change") {
-        if (message.ready) {
-          this.hideYoutubePlayer();
-        } else {
-          this.showYoutubePlayer();
-        }
-      }
+      ids.push(id);
     });
-  }
 
-  get videoId() {
-    return this.videoData.youtubeKey;
-  }
-
-  get videoPath() {
-    return `/course-videos/${env.course.id}/${this.videoId}.mp4`;
-  }
-
-  hideYoutubePlayer() {
-    this.wrapper.style.display = "none";
-  }
-
-  showYoutubePlayer() {
-    this.wrapper.style.display = "block";
-  }
-
-  addPortal() {
-    const portalTarget = document.createElement("div");
-    portalTarget.id = `download-video-portal-${this.videoId}`;
-    // react will render into the shadow root in order to isolate styles
-    portalTarget.attachShadow({ mode: "open" });
-    this.wrapper.before(portalTarget);
-    broadcastChannel.postMessage({
-      type: "portal-opened",
-      videoData: this.videoData,
-    });
-  }
-
-  // This removes the existing video download button to avoid confusion
-  removeExistingDownloadLink() {
-    const link = document.querySelector<HTMLElement>(
-      ".video-tab-download-popup li a[aria-label='Download video']",
-    );
-    link?.closest("li")?.remove();
-  }
-
-  changeTranscriptButtonText() {
-    const link = document.querySelector<HTMLElement>(
-      ".video-tab-download-popup li a[aria-label='Download transcript']",
-    );
-    if (link) {
-      link.textContent = "Save transcript";
-    }
-  }
+  broadcastChannel.postMessage({
+    type: "portals-opened",
+    ids: ids,
+  });
 }
 
 function getVideoData(videoId: string): VideoData | undefined {
   return env.course.videos.find((v) => v.youtubeKey === videoId);
+}
+
+// This removes the existing video download button to avoid confusion
+function removeExistingDownloadLink() {
+  const link = document.querySelector<HTMLElement>(
+    ".video-tab-download-popup li a[aria-label='Download video']",
+  );
+  link?.closest("li")?.remove();
+}
+
+function changeTranscriptButtonText() {
+  const link = document.querySelector<HTMLElement>(
+    ".video-tab-download-popup li a[aria-label='Download transcript']",
+  );
+  if (link) {
+    link.textContent = "Save transcript";
+  }
+}
+
+function subscribeToPlayerState(videoKey: string, wrapper: HTMLElement) {
+  broadcastChannel.subscribe((message) => {
+    if (
+      message.type === "video-player-state-change" &&
+      message.videoKey === videoKey
+    ) {
+      if (message.ready) {
+        hideYoutubePlayer(wrapper);
+      } else {
+        showYoutubePlayer(wrapper);
+      }
+    }
+  });
+}
+
+function hideYoutubePlayer(wrapper: HTMLElement) {
+  wrapper.style.display = "none";
+}
+
+function showYoutubePlayer(wrapper: HTMLElement) {
+  wrapper.style.display = "block";
 }

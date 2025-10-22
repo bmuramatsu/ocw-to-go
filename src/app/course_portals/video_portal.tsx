@@ -1,19 +1,15 @@
 import React from "react";
-import { createPortal } from "react-dom";
-import CourseVideo, {
-  CourseVideoProps,
-} from "./manage_course_videos/course_video";
-import { VideoData } from "../types";
-import { Info } from "./svgs";
-import VideoPlayer from "./video_player";
-import { useAppSelector } from "./store/store";
-import { selectVideoStatus } from "./store/video_selectors";
-import { useOnlineStatus } from "./use_online_status";
+import CourseVideo, { CourseVideoProps } from "../course_video";
+import { VideoData } from "../../types";
+import { Info } from "../svgs";
+import VideoPlayer from "../video_player";
+import { useAppSelector } from "../store/store";
+import { selectVideoStatus } from "../store/video_selectors";
+import { useOnlineStatus } from "../use_online_status";
 
-interface Props {
+interface VideoDownloadPortalProps {
   courseId: string;
-  currentVideo: VideoData;
-  iframe: HTMLIFrameElement;
+  video: VideoData;
 }
 
 // This renders the controls to download/delete videos from within the course iframe.
@@ -22,24 +18,15 @@ interface Props {
 // This is easier that managing the state updates in the DOM manually
 export default function VideoDownloadPortal({
   courseId,
-  currentVideo,
-  iframe,
-}: Props) {
-  const target = iframe.contentWindow?.document.getElementById(
-    `download-video-portal-${currentVideo.youtubeKey}`,
-  )?.shadowRoot;
-
-  if (!target) {
-    return null;
-  }
-
-  return createPortal(
+  video,
+}: VideoDownloadPortalProps) {
+  const stylesPath = APP_ASSET_MANIFEST["/video-downloader-styles.css"];
+  return (
     <>
-      <link rel="stylesheet" href="/video-downloader-styles.css" />
-      <VideoBanner video={currentVideo} courseId={courseId} />
-      <VideoPlayer video={currentVideo} courseId={courseId} />
-    </>,
-    target,
+      <link rel="stylesheet" href={stylesPath} />
+      <VideoBanner video={video} courseId={courseId} />
+      <VideoPlayer video={video} courseId={courseId} />
+    </>
   );
 }
 
