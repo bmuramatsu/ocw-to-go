@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "wouter";
-import { Menu, Cancel } from "./svgs";
+import { Menu, Cancel, ExternalLink } from "./svgs";
 import { ALL_COURSES } from "./initial_course_list";
 import useAutoCloseMenu from "./use_auto_close_menu";
 import StorageUsage from "./storage_usage";
@@ -33,6 +33,7 @@ export default function Header() {
               rel="noopener noreferrer"
             >
               About OCW
+              <ExternalLink />
             </a>
             <a
               href="https://mitocw.zendesk.com/hc/en-us"
@@ -40,6 +41,7 @@ export default function Header() {
               rel="noreferrer"
             >
               Help
+              <ExternalLink />
             </a>
             <a
               href="https://giving.mit.edu/give/to/ocw/?utm_source=ocw&utm_medium=homepage_banner&utm_campaign=nextgen_home"
@@ -48,6 +50,7 @@ export default function Header() {
               className="is-primary"
             >
               Give Now
+              <ExternalLink />
             </a>
             <a
               href="https://ocw.mit.edu/contact"
@@ -55,6 +58,7 @@ export default function Header() {
               rel="noreferrer"
             >
               Contact Us
+              <ExternalLink />
             </a>
           </nav>
           <nav className="mobile-nav">
@@ -94,6 +98,7 @@ export default function Header() {
                     rel="noopener noreferrer"
                   >
                     About OCW
+                    <ExternalLink />
                   </a>
                 </li>
                 <li>
@@ -103,6 +108,7 @@ export default function Header() {
                     rel="noreferrer"
                   >
                     Help
+                    <ExternalLink />
                   </a>
                 </li>
                 <li>
@@ -112,6 +118,7 @@ export default function Header() {
                     rel="noreferrer"
                   >
                     Give Now
+                    <ExternalLink />
                   </a>
                 </li>
                 <li>
@@ -121,6 +128,7 @@ export default function Header() {
                     rel="noreferrer"
                   >
                     Contact us
+                    <ExternalLink />
                   </a>
                 </li>
               </ul>

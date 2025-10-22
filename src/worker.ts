@@ -9,77 +9,117 @@ import { COURSES_BY_ID } from "./app/initial_course_list";
 
 export type {};
 declare const self: ServiceWorkerGlobalScope;
+const ASSETS_CACHE = `pwa-assets-${VERSION}`;
 
 // Version is primarily imported to force a worker update
 // even if there are no code changes in the worker
 // scripts. Otherwise users will not get the latest assets.
-console.log("WORKER VERSION:" + VERSION);
+console.log("WORKER VERSION: " + VERSION);
+
+async function cacheNewFiles() {
+  const cache = await caches.open(ASSETS_CACHE);
+  await cache.addAll(ASSETS_TO_CACHE);
+}
 
 self.addEventListener("install", (event) => {
   console.log("The Worker Installed", event);
 
-  event.waitUntil(
-    (async () => {
-      const cache = await caches.open("pwa-assets");
-      await cache.addAll(ASSETS_TO_CACHE);
-    })(),
-  );
-  // Activate worker immediately
-  self.skipWaiting();
+  event.waitUntil(cacheNewFiles());
 });
+
+async function deleteOldCaches() {
+  const cacheNames = await caches.keys();
+  for (const cacheName of cacheNames) {
+    if (cacheName.startsWith("pwa-assets") && cacheName !== ASSETS_CACHE) {
+      await caches.delete(cacheName);
+    }
+  }
+}
 
 self.addEventListener("activate", (event) => {
   console.log("The Worker Activated", event);
+
+  event.waitUntil(deleteOldCaches());
 
   // Become available to all pages
   event.waitUntil(self.clients.claim());
 });
 
-self.addEventListener("fetch", (event: FetchEvent) => {
-  // console.log("The Worker Fetched", event.request.url);
-  event.respondWith(cacheFirst(event.request));
+self.addEventListener("message", (event) => {
+  if (event.data && event.data.type === "SKIP_WAITING") {
+    self.skipWaiting();
+  }
 });
 
-async function cacheFirst(request: Request) {
-  return (await fileFromCache(request)) || (await fetch(request));
+self.addEventListener("fetch", (event: FetchEvent) => {
+  event.respondWith(handleFetch(event.request));
+});
+
+// We have multiple caches, one for the specific app version, and two for each
+// downloaded course, one for the zip contents, and another for videos. This
+// figured out where to serve from.
+async function handleFetch(request: Request): Promise<Response> {
+  const url = new URL(request.url);
+
+  // Different origin, do not attempt to serve from cache
+  if (url.origin !== self.location.origin) {
+    return fetch(request);
+  }
+
+  // course asset
+  const courseMatch = url.pathname.match(/^\/courses\/([^/]+)/);
+  if (courseMatch) {
+    return serveCourseFile(`course-${courseMatch[1]}`, request);
+  }
+
+  // course video
+  const videoMatch = url.pathname.match(/^\/course-videos\/([^/]+)/);
+  if (videoMatch) {
+    return serveCourseFile(`course-videos-${videoMatch[1]}`, request);
+  }
+
+  // application asset, serve assets from this specific app version associated
+  // with this worker
+  return await serveAppAsset(request);
 }
 
-async function fileFromCache(request: Request): Promise<Response | undefined> {
+async function serveCourseFile(
+  courseId: string,
+  request: Request,
+): Promise<Response> {
+  const cache = await caches.open(courseId);
+  if (!cache) {
+    return missingResponse();
+  }
+
   // handle special file downloads
   const url = new URL(request.url);
   if (url && url.search.includes("forcedownload=true")) {
     url.search = "";
-    const response = await caches.match(url);
+    const response = await cache.match(url);
     if (response) {
       const fileName = url.pathname.split("/").pop();
       response.headers.set(
         "Content-Disposition",
         `attachment; filename="${fileName}"`,
       );
+      return Promise.resolve(response);
     }
-    return Promise.resolve(response);
   }
 
   // handle streaming video. Without this the video loads but you can't seek or fast forward
   if (request.headers.has("range")) {
-    const fullResp = await caches.match(request.url);
+    const fullResp = await cache.match(request.url);
     // a 0 status indicates an opaque response. Range requests will not work with opaque responses.
     if (fullResp && fullResp.status !== 0) {
       return Promise.resolve(createPartialResponse(request, fullResp));
     }
   }
 
-  // handle logo replacement. Alternatively this could be done with the JS
-  // injected into the page, but that causes it to pop in awkwardly.
-  if (request.url.match(/ocw_logo_white\.[a-z0-9]*\.svg?/)) {
-    const response = await caches.match("/images/to-go-logo.svg");
-    return Promise.resolve(response);
-  }
-
   // If this is an app html file, inject some JS and CSS
-  const response = await caches.match(request);
+  const response = (await cache.match(request)) || missingResponse();
 
-  if (response) {
+  if (response.status === 200) {
     const match = request.url.match(
       /\/courses\/([^/]+)\/(?:.*\/)?index\.html$/,
     );
@@ -90,6 +130,12 @@ async function fileFromCache(request: Request): Promise<Response | undefined> {
   }
 
   return Promise.resolve(response);
+}
+
+async function serveAppAsset(request: Request): Promise<Response> {
+  const cache = await caches.open(ASSETS_CACHE);
+  const resp = (await cache.match(request)) || missingResponse();
+  return Promise.resolve(resp);
 }
 
 async function injectOverrides(
@@ -127,4 +173,8 @@ async function injectOverrides(
     statusText: response.statusText,
     headers,
   });
+}
+
+function missingResponse() {
+  return new Response("Not found", { status: 404 });
 }

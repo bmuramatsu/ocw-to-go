@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./header";
 import Footer from "./footer";
+import UpgradeBanner from "./upgrade_banner";
 
 interface Props {
   children: React.ReactNode;
@@ -17,6 +18,7 @@ export default function Layout({
     <div className={`page-grid ${className}`}>
       <div className="header-container">
         <Header />
+        <UpgradeBanner />
       </div>
       {children}
       {footer && <Footer />}
