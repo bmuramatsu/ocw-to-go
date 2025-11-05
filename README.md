@@ -173,5 +173,17 @@ These are the major components in the app:
 
 OCW To Go uses the course downloads directly from the MIT OpenCourseWare website. As we await bug fixes in the Course Downloads, we have applied the following rewrites in OCW To Go:
 
-- ocw-to-go/src/course/fix_file_downloads.ts to adjust the relative path problem to Download PDFs
+- ocw-to-go/src/course/fix_file_downloads.ts to fix any level of bad ./static_resources links
 - ocw-to-go/src/course/fix_trailing_slashes.ts to adjust the path of the See All links from the Browse Resources (download/index.html) page.
+- ocw-to-go/src/course/hide_learning_resource_types.ts to suppress the display of the learning resource type "buttons" as their styling confuses the learner.
+- ocw-to-go/src/course/fix_bad_links.ts fix some known bad links
+- ocw-to-go/src/course/fix_trailing_slashes.ts fix links from ZIP files to append 'index.html'. for those links that end with [path]/ rather than [path]/index.html 
+- ocw-to-go/src/course/auto_expand_resource_list.ts to expand all resource lists and not the somewhat random function across courses
+
+If the browser doesn't support native PDF display, OCW To Go converts PDFs to PNG images for display:
+- ocw-to-go/src/course/render_pdfs.ts
+
+OCW To Go makes sitewide UX adjustments to improve mobile usability:
+- ocw-to-go/src/course/inject_course_menu_button.ts change styles and text of table of contents button to improve visibility
+- ocw-to-go/src/course/make_outside_links_open_in_new_tab.ts target only links without img or similar children to open in a new tab, add icon to orient the user as new tabs on mobile are less obvious than on dektop
+- ocw-to-go/src/course/change_course_menu_text.ts replace course menu text to better direct learner action
