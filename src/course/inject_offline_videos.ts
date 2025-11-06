@@ -11,7 +11,7 @@ export default function injectOfflineVideos() {
 
   document
     .querySelectorAll<HTMLElement>(
-      ".video-player-wrapper .video-container div[data-setup*='youtube.com']",
+      ".video-player-wrapper .video-container [data-setup*='youtube.com']",
     )
     .forEach((videoPlayer) => {
       if (!videoPlayer) return;
