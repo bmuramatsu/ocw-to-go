@@ -1,12 +1,9 @@
-import { VideoData } from "../types";
-
 const NAME = "ocw-broadcast-channel";
 
 export type OcwMessage =
   | { type: "navigate"; href: string }
   | { type: "portals-opened"; ids: string[] }
-  | { type: "video-player-state-change"; ready: boolean; videoKey: string }
-  | { type: "download-video"; videoData: VideoData };
+  | { type: "video-player-state-change"; ready: boolean; videoKey: string };
 
 type OnMessageCallback = (message: OcwMessage) => void;
 type UnsubscribeCallback = () => void;
