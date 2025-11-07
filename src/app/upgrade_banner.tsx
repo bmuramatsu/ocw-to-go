@@ -13,8 +13,15 @@ function useAppUpgrade() {
         // Refreshes don't trigger the event again, so both are needed.
         if (registration) {
           registration.addEventListener("updatefound", () => {
-            setWaiting(true);
+            // We only want to show the banner if there's one worker running
+            // and another waiting to take over.
+            // Otherwise it can show during the initial install or after manually
+            // resetting the app.
+            if (registration.installing && registration.active) {
+              setWaiting(true);
+            }
           });
+
           if (registration.waiting) {
             setWaiting(true);
           }

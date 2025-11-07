@@ -84,10 +84,10 @@ async function handleFetch(request: Request): Promise<Response> {
 }
 
 async function serveCourseFile(
-  courseId: string,
+  cacheName: string,
   request: Request,
 ): Promise<Response> {
-  const cache = await caches.open(courseId);
+  const cache = await caches.open(cacheName);
   if (!cache) {
     return missingResponse();
   }
