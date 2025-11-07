@@ -5,28 +5,37 @@ function useAppUpgrade() {
   const [waiting, setWaiting] = React.useState(false);
 
   React.useEffect(() => {
-    navigator.serviceWorker
-      .getRegistration("/worker.js")
-      .then((registration) => {
-        // We check for the waiting state in 2 ways. The event listener catches
-        // it immediately, and the static check will catch if after refreshes.
-        // Refreshes don't trigger the event again, so both are needed.
-        if (registration) {
-          registration.addEventListener("updatefound", () => {
-            // We only want to show the banner if there's one worker running
-            // and another waiting to take over.
-            // Otherwise it can show during the initial install or after manually
-            // resetting the app.
-            if (registration.installing && registration.active) {
-              setWaiting(true);
-            }
-          });
+    let registration: ServiceWorkerRegistration;
+    let listener: () => void;
 
-          if (registration.waiting) {
+    navigator.serviceWorker.getRegistration("/worker.js").then((reg) => {
+      // We check for the waiting state in 2 ways. The event listener catches
+      // it immediately, and the static check will catch if after refreshes.
+      // Refreshes don't trigger the event again, so both are needed.
+      if (reg) {
+        registration = reg;
+        listener = () => {
+          // We only want to show the banner if there's one worker running
+          // and another waiting to take over.
+          // Otherwise it can show during the initial install or after manually
+          // resetting the app.
+          if (registration.installing && registration.active) {
             setWaiting(true);
           }
+        };
+        registration.addEventListener("updatefound", listener);
+
+        if (registration.waiting) {
+          setWaiting(true);
         }
-      });
+      }
+    });
+
+    return () => {
+      if (registration && listener) {
+        registration.removeEventListener("updatefound", listener);
+      }
+    };
   }, []);
 
   return { upgradeAvailable: waiting };
