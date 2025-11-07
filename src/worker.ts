@@ -135,6 +135,19 @@ async function serveCourseFile(
 async function serveAppAsset(request: Request): Promise<Response> {
   const cache = await caches.open(ASSETS_CACHE);
   const resp = (await cache.match(request)) || missingResponse();
+
+  // Don't allow the root app to be iframed or weird things happen
+  const path = new URL(request.url).pathname;
+  if (path === "/" || path === "/index.html") {
+    const headers = new Headers(resp.headers);
+    headers.set("X-Frame-Options", "DENY");
+    return new Response(resp.body, {
+      status: resp.status,
+      statusText: resp.statusText,
+      headers,
+    });
+  }
+
   return Promise.resolve(resp);
 }
 
