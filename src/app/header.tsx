@@ -18,7 +18,7 @@ export default function Header() {
         <header>
           <Link href="/">
             <img
-              src="/images/ocwtogo-logo.svg"
+              src="/images/to-go-logo.svg"
               alt="MIT OpenCourseWare To Go"
               height="38"
               width="217"
