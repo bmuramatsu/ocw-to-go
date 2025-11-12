@@ -18,7 +18,7 @@ const ASSETS_TO_CACHE = [
   "/images/instagram-icon.png",
   "/images/x-icon.png",
   "/images/youtube-icon.png",
-  "/images/to-go-logo.svg",
+  "/images/ocwtogo-logo.svg",
   "/images/oeglobal.png",
   "/images/linkedin-icon.png",
   "/images/mit-logo.svg",

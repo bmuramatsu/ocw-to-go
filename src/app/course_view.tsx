@@ -10,7 +10,6 @@ import { useAppDispatch } from "./store/store";
 import { useBroadcastChannel } from "./use_broadcast";
 import { useLocation } from "wouter";
 import ErrorBoundary from "./error_boundary";
-import { downloadVideo } from "./store/custom_actions";
 import CoursePortal from "./course_portals/course_portal";
 import { IsInPortalProvider } from "./course_portals/use_is_in_portal";
 
@@ -47,14 +46,6 @@ export default function CourseView({ courseId, path }: Props) {
 
         case "portals-opened": {
           setPortals((prev) => [...prev, ...message.ids]);
-          break;
-        }
-
-        // I think this is unused...
-        case "download-video": {
-          dispatch(
-            downloadVideo({ videoId: message.videoData.youtubeKey, courseId }),
-          );
           break;
         }
       }
