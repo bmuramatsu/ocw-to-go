@@ -10,7 +10,7 @@ export default function ServiceWorkerWaiter({
 }: ServiceWorkerWaiterProps) {
   const { ready } = useServiceWorker();
   if (!ready) {
-    return <div>Loading...</div>;
+    return <div>Waiting for the service worker to initialize...</div>;
   }
   return <>{children}</>;
 }

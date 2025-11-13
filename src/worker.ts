@@ -5,7 +5,7 @@
 import { createPartialResponse } from "workbox-range-requests";
 import ASSETS_TO_CACHE from "./worker/assets";
 import { VERSION } from "./version";
-import { COURSES_BY_ID } from "./app/initial_course_list";
+import { ALL_COURSES, COURSES_BY_ID } from "./app/initial_course_list";
 
 export type {};
 declare const self: ServiceWorkerGlobalScope;
@@ -21,10 +21,19 @@ async function cacheNewFiles() {
   await cache.addAll(ASSETS_TO_CACHE);
 }
 
+// Load these separately. We don't want to block the worker installation. It's a
+// large part of the install, and not strictly needed. Ideally we would also
+// load these lazily as needed, but I'm keeping it simple for now.
+async function cacheCourseCardImages() {
+  const cache = await caches.open(ASSETS_CACHE);
+  await cache.addAll(ALL_COURSES.map((course) => course.cardImg));
+}
+
 self.addEventListener("install", (event) => {
   console.log("The Worker Installed", event);
 
   event.waitUntil(cacheNewFiles());
+  cacheCourseCardImages();
 });
 
 async function deleteOldCaches() {
