@@ -10,10 +10,14 @@ export default function injectOfflineVideos() {
   const ids: string[] = [];
 
   document
-    .querySelectorAll<HTMLElement>(
-      ".video-player-wrapper .video-container [data-setup*='youtube.com']",
-    )
-    .forEach((videoPlayer) => {
+    .querySelectorAll<HTMLElement>(".video-player-wrapper .video-container")
+    .forEach((playerWrapper) => {
+      // sometimes a div and video tag appear together with the same data attrs.
+      // we don't care which one we get, we just want to know if one exists.
+      const videoPlayer = playerWrapper.querySelector<HTMLElement>(
+        "[data-setup*='youtube.com']",
+      );
+
       if (!videoPlayer) return;
 
       const youtubeSetupData = videoPlayer.dataset.setup!;
@@ -28,15 +32,12 @@ export default function injectOfflineVideos() {
 
       const timeRange = getTimeRange(youtubeSetupData);
 
+      const id = nextId();
+      const player = new VideoPlayer(id, { video: videoData, timeRange });
       // The actual youtube player element gets replaced by other scripts, so we
       // use the closest stable parent to attach to instead.
       // We know this parent exists because it's part of the selector at the
       // beginning of the function
-      const playerWrapper =
-        videoPlayer.closest<HTMLElement>(".video-container")!;
-
-      const id = nextId();
-      const player = new VideoPlayer(id, { video: videoData, timeRange });
       playerWrapper.before(player);
 
       removeExistingDownloadLink();
@@ -46,10 +47,12 @@ export default function injectOfflineVideos() {
       ids.push(id);
     });
 
-  broadcastChannel.postMessage({
-    type: "portals-opened",
-    ids: ids,
-  });
+  if (ids.length > 0) {
+    broadcastChannel.postMessage({
+      type: "portals-opened",
+      ids: ids,
+    });
+  }
 }
 
 function getVideoData(videoId: string): VideoData | undefined {
