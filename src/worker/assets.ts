@@ -1,6 +1,5 @@
 // This lists application assets that need to be cached
 // in order to make the app work offline.
-import { ALL_COURSES } from "../app/initial_course_list";
 
 const ASSETS_TO_CACHE = [
   "/",
@@ -25,7 +24,6 @@ const ASSETS_TO_CACHE = [
   "/images/mit-logo-sm.svg",
   "https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.min.js",
   "https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.worker.min.js",
-  ...ALL_COURSES.map((course) => course.cardImg),
 ];
 
 export default ASSETS_TO_CACHE;
