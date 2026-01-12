@@ -1,6 +1,6 @@
 {
     "id": "6-857-network-and-computer-security-spring-2014",
-    "name": "Network and Computer Security",
+    "name": "Network and Computer Security v2",
     "category": "Computer Science",
     "topics": [
         "Engineering",
@@ -20,7 +20,7 @@
     "courseLevel": "Graduate",
     "cardImg": "/images/course_cards/6-857-network-and-computer-security-spring-2014.jpg",
     "imgAltText": "Bitcoin keychain over circuit board.",
-    "file": "https://files.ocwtogo.org/6.857-spring-2014.zip",
+    "file": "https://files.ocwtogo.org/6.857-spring-2014-v2.zip",
     "downloadSize": 91687530,
     "diskSize": 119107552,
     "description": "_6.857_ _Network and Computer Security_ is an upper-level undergraduate, first-year graduate course on network and computer security. It fits within the Computer Systems and Architecture Engineering concentration.\n",
