@@ -7,7 +7,11 @@ export default function makeOutsideLinksOpenInNewTab() {
     link.setAttribute("target", "_blank");
     link.setAttribute("rel", "noopener noreferrer");
 
+    // We also add an icon to indicate that the link is external
     if (link.querySelector("img, svg, video")) return;
+    // There are some invisible links without hrefs (used as link targets), we
+    // don't want to give those an icon.
+    if (!link.hasAttribute("href")) return;
 
     const span = document.createElement("span");
     span.classList.add("external-link-icon");
