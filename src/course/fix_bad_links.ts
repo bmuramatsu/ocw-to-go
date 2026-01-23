@@ -1,21 +1,12 @@
-// corrects some known bad links in the course content
-const links = [
-  {
-    from: "https://ocw-studio.odl.mit.edu/terms/#cc",
-    to: "https://ocwtogo.mit.edu/#/terms_and_conditions",
-  },
-  {
-    from: "https://ocw-studio.odl.mit.edu/courses/ocw-scholar/",
-    to: "https://ocw.mit.edu/courses/ocw-scholar/",
-  },
-];
-
+// replaces links to ocw staging environment
 export default function fixBadLinks() {
-  links.forEach(({ from, to }) => {
-    document
-      .querySelectorAll<HTMLAnchorElement>(`a[href="${from}"]`)
-      .forEach((a) => {
-        a.href = to;
-      });
-  });
+  const badOrigin = "https://ocw-studio.odl.mit.edu";
+  const goodOrigin = "https://ocw.mit.edu";
+
+  document
+    .querySelectorAll<HTMLAnchorElement>(`a[href^="${badOrigin}"]`)
+    .forEach((a) => {
+      console.log(`Fixing bad link: `, a);
+      a.href = a.href.replace(badOrigin, goodOrigin);
+    });
 }
