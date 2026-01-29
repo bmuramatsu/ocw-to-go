@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "add_course": "node scripts/add_course.mjs",
+    "add_course": "tsx scripts/add_course.ts",
     "build": "node build.mjs",
     "dev": "npm run watch & npm run serve",
     "formatcheck": "prettier -c src",
     "formatfix": "prettier -c src --write",
     "lint": "eslint src",
-    "make_course_list": "node scripts/make_course_list.mjs",
+    "make_course_list": "tsx scripts/make_course_list.ts",
     "serve": "npx serve -l 8088 dist",
     "test": "vitest",
     "typecheck": "tsc -noemit",
@@ -31,6 +31,7 @@
     "globals": "^15.11.0",
     "jsdom": "^26.1.0",
     "prettier": "3.3.3",
+    "tsx": "^4.21.0",
     "typescript-eslint": "^8.12.2",
     "vitest": "^3.1.1"
   },

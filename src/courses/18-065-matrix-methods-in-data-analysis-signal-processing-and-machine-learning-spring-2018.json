@@ -20,9 +20,9 @@
     "courseLevel": "Undergraduate",
     "cardImg": "/images/course_cards/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018.jpg",
     "imgAltText": "Four boxes with text and four arrows to illustrate the math relationship among linear algebra, probability and statistics, optimization, and deep learning.",
-    "file": "https://files.ocwtogo.org/18.065-spring-2018.zip",
-    "downloadSize": 17130615,
-    "diskSize": 53030121,
+    "file": "https://files.ocwtogo.org/18.065-spring-2018-v4.zip",
+    "downloadSize": 17130473,
+    "diskSize": 53030110,
     "description": "Linear algebra concepts are key for understanding and creating machine learning algorithms, especially as applied to deep learning and neural networks. This course reviews linear algebra with applications to probability and statistics and optimization–and above all a full explanation of deep learning.\n",
     "descriptionHtml": "Linear algebra concepts are key for understanding and creating machine learning algorithms, especially as applied to deep learning and neural networks. This course reviews linear algebra with applications to probability and statistics and optimization–and above all a full explanation of deep learning.",
     "videoGroups": [

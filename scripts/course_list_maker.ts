@@ -1,6 +1,6 @@
 import fs from "fs";
 
-export default function makeCourseList() {
+export default function makeCourseList(): void {
   const inputFile = "src/courses/index.txt";
   const outputFile = "src/courses/index.ts";
 
@@ -27,7 +27,7 @@ ${arrayItems(courses)}
   console.log(`Generated ${outputFile}`);
 }
 
-function imports(courses) {
+function imports(courses: string[]): string {
   return courses
     .map((filename, i) => {
       const varName = `course${i}`;
@@ -36,6 +36,6 @@ function imports(courses) {
     .join("\n");
 }
 
-function arrayItems(courses) {
+function arrayItems(courses: string[]): string {
   return courses.map((_, i) => `  course${i},`).join("\n");
 }

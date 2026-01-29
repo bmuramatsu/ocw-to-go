@@ -16,9 +16,9 @@
     "courseLevel": "Undergraduate",
     "cardImg": "/images/course_cards/res-6-012-introduction-to-probability-spring-2018.jpg",
     "imgAltText": "Graphic showing the connections between probability theory, inference and statistics, and the real world.",
-    "file": "https://files.ocwtogo.org/res.6-012-spring-2018.zip",
-    "downloadSize": 87162959,
-    "diskSize": 170197606,
+    "file": "https://files.ocwtogo.org/res.6-012-spring-2018-v4.zip",
+    "downloadSize": 88158868,
+    "diskSize": 174872128,
     "description": "The tools of probability theory, and of the related field of statistical inference, are the keys for being able to analyze and make sense of data. These tools underlie important advances in many fields, from the basic sciences to engineering and management.\n\nThis resource is a companion site to [6.041SC Probabilistic Systems Analysis and Applied Probability](/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/). It covers the same content, using videos developed for an [edX](https://www.edx.org/) version of the course.\n",
     "descriptionHtml": "<p>The tools of probability theory, and of the related field of statistical inference, are the keys for being able to analyze and make sense of data. These tools underlie important advances in many fields, from the basic sciences to engineering and management.</p>\n<p>This resource is a companion site to <a href=\"https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/\" target=\"_blank\" rel=\"noopener\">6.041SC Probabilistic Systems Analysis and Applied Probability</a>. It covers the same content, using videos developed for an <a href=\"https://www.edx.org/\" target=\"_blank\" rel=\"noopener\">edX</a> version of the course.</p>\n",
     "videoGroups": [
@@ -1147,132 +1147,12 @@
                 },
                 {
                     "title": "Lecture Overview",
-                    "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L11-01_300k.mp4",
-                    "youtubeKey": "d5mV88S2fNY",
-                    "contentLength": 4694130,
-                    "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/735ee0bccabc51ffaf7fadc905a6db6c_d5mV88S2fNY.vtt",
-                    "htmlFiles": [
-                        "resources/lecture-overview-10/index.html"
-                    ]
-                },
-                {
-                    "title": "Lecture Overview",
-                    "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L04-01_300k.mp4",
-                    "youtubeKey": "poeHeiiiLKI",
-                    "contentLength": 6115100,
-                    "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/963e629913005389a62703efc76d144e_poeHeiiiLKI.vtt",
-                    "htmlFiles": [
-                        "resources/lecture-overview-3/index.html"
-                    ]
-                },
-                {
-                    "title": "Lecture Overview",
-                    "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L19-01_300k.mp4",
-                    "youtubeKey": "Hmm9IqosCv4",
-                    "contentLength": 4594693,
-                    "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/683d928037be5e20bddf5e0e15119dd6_Hmm9IqosCv4.vtt",
-                    "htmlFiles": [
-                        "resources/lecture-overview-5-1/index.html"
-                    ]
-                },
-                {
-                    "title": "Lecture Overview",
-                    "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L01-01_300k.mp4",
-                    "youtubeKey": "1uW3qMFA9Ho",
-                    "contentLength": 4700274,
-                    "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/66227fe0ddde5e82abeb73b32aaf1e54_1uW3qMFA9Ho.vtt",
-                    "htmlFiles": [
-                        "resources/lecture-overview/index.html"
-                    ]
-                },
-                {
-                    "title": "Lecture Overview",
-                    "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L09-01_300k.mp4",
-                    "youtubeKey": "G11r4Srh4u8",
-                    "contentLength": 4043369,
-                    "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/2c1e01eda23e5b1982a4b91444b17a77_G11r4Srh4u8.vtt",
-                    "htmlFiles": [
-                        "resources/lecture-overview-8/index.html"
-                    ]
-                },
-                {
-                    "title": "Lecture Overview",
-                    "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L16-01_300k.mp4",
-                    "youtubeKey": "MlsVWPWIxHI",
-                    "contentLength": 3195626,
-                    "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/9d776bbd40eb582091d1faf2d1d55352_MlsVWPWIxHI.vtt",
-                    "htmlFiles": [
-                        "resources/lecture-overview-2-1/index.html"
-                    ]
-                },
-                {
-                    "title": "Lecture Overview",
-                    "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L02-01_300k.mp4",
-                    "youtubeKey": "B5y6fy5iUtg",
-                    "contentLength": 5234381,
-                    "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/16a3b23f1a3f503091d5836e77429203_B5y6fy5iUtg.vtt",
-                    "htmlFiles": [
-                        "resources/lecture-overview-1/index.html"
-                    ]
-                },
-                {
-                    "title": "Lecture Overview",
                     "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L20-01_300k.mp4",
                     "youtubeKey": "P5rZKt3SgNM",
                     "contentLength": 6767361,
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/4a597814f8ac5319a871287390ce1964_P5rZKt3SgNM.vtt",
                     "htmlFiles": [
                         "resources/lecture-overview-6-1/index.html"
-                    ]
-                },
-                {
-                    "title": "Lecture Overview",
-                    "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L03-01_300k.mp4",
-                    "youtubeKey": "QXKgTPR_8wk",
-                    "contentLength": 3693740,
-                    "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/aa61d75b37d85f14b359a04cf73d0763_QXKgTPR_8wk.vtt",
-                    "htmlFiles": [
-                        "resources/lecture-overview-2/index.html"
-                    ]
-                },
-                {
-                    "title": "Lecture Overview",
-                    "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L12-01_300k.mp4",
-                    "youtubeKey": "wBnlmQR5Vhk",
-                    "contentLength": 3813213,
-                    "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/f1801536c89f537cae345e7771b4cf3c_wBnlmQR5Vhk.vtt",
-                    "htmlFiles": [
-                        "resources/lecture-overview-11/index.html"
-                    ]
-                },
-                {
-                    "title": "Lecture Overview",
-                    "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L25-02_300k.mp4",
-                    "youtubeKey": "uviHu6m_YnM",
-                    "contentLength": 1687548,
-                    "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/8b96bc497d4955f3b9b68536b97b5e36_uviHu6m_YnM.vtt",
-                    "htmlFiles": [
-                        "resources/lecture-overview-5-2/index.html"
-                    ]
-                },
-                {
-                    "title": "Lecture Overview",
-                    "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L05-01_300k.mp4",
-                    "youtubeKey": "ArfHGPHL8kU",
-                    "contentLength": 4231114,
-                    "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/dbec09cda9a851a2a0360d1b0b4d2393_ArfHGPHL8kU.vtt",
-                    "htmlFiles": [
-                        "resources/lecture-overview-4/index.html"
-                    ]
-                },
-                {
-                    "title": "Lecture Overview",
-                    "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L21-01_300k.mp4",
-                    "youtubeKey": "HDvYPl8D8Bs",
-                    "contentLength": 5061520,
-                    "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/c9c3151247b95411bf9bad06df3dcbb4_HDvYPl8D8Bs.vtt",
-                    "htmlFiles": [
-                        "resources/lecture-overview-14/index.html"
                     ]
                 },
                 {
@@ -1287,42 +1167,12 @@
                 },
                 {
                     "title": "Lecture Overview",
-                    "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L13-01_300k.mp4",
-                    "youtubeKey": "zc6PfijY8_s",
-                    "contentLength": 4528101,
-                    "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/3b74fa94cdef5f969c38b8c678fdb909_zc6PfijY8_s.vtt",
+                    "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L01-01_300k.mp4",
+                    "youtubeKey": "1uW3qMFA9Ho",
+                    "contentLength": 4700274,
+                    "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/66227fe0ddde5e82abeb73b32aaf1e54_1uW3qMFA9Ho.vtt",
                     "htmlFiles": [
-                        "resources/lecture-overview-12/index.html"
-                    ]
-                },
-                {
-                    "title": "Lecture Overview",
-                    "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L07-01_300k.mp4",
-                    "youtubeKey": "17Z89x_ZWQ4",
-                    "contentLength": 4609812,
-                    "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/dcffad9c22b759e3afdee7adb973e173_17Z89x_ZWQ4.vtt",
-                    "htmlFiles": [
-                        "resources/lecture-overview-6/index.html"
-                    ]
-                },
-                {
-                    "title": "Lecture Overview",
-                    "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L17-01_300k.mp4",
-                    "youtubeKey": "kwbDWPrPfQI",
-                    "contentLength": 4276144,
-                    "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/411db912ebf358d19bffa6a445d39049_kwbDWPrPfQI.vtt",
-                    "htmlFiles": [
-                        "resources/lecture-overview-3-1/index.html"
-                    ]
-                },
-                {
-                    "title": "Lecture Overview",
-                    "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L24-01_300k.mp4",
-                    "youtubeKey": "LBiYeL4qD2M",
-                    "contentLength": 4950063,
-                    "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/dd7f26a72f4b5ad4b8ab605861ef1885_LBiYeL4qD2M.vtt",
-                    "htmlFiles": [
-                        "resources/lecture-overview-3-2/index.html"
+                        "resources/lecture-overview/index.html"
                     ]
                 },
                 {
@@ -1337,12 +1187,12 @@
                 },
                 {
                     "title": "Lecture Overview",
-                    "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L18-01_300k.mp4",
-                    "youtubeKey": "sD0i6bWxmRY",
-                    "contentLength": 4905997,
-                    "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/060accbb07225493a1462dbb336410a1_sD0i6bWxmRY.vtt",
+                    "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L19-01_300k.mp4",
+                    "youtubeKey": "Hmm9IqosCv4",
+                    "contentLength": 4594693,
+                    "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/683d928037be5e20bddf5e0e15119dd6_Hmm9IqosCv4.vtt",
                     "htmlFiles": [
-                        "resources/lecture-overview-4-1/index.html"
+                        "resources/lecture-overview-5-1/index.html"
                     ]
                 },
                 {
@@ -1353,16 +1203,6 @@
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/ad6951421cdb53e392770475a1327433_eXf2Zak-s0o.vtt",
                     "htmlFiles": [
                         "resources/lecture-overview-7/index.html"
-                    ]
-                },
-                {
-                    "title": "Lecture Overview",
-                    "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L14-01_300k.mp4",
-                    "youtubeKey": "aNLEnFtWwhg",
-                    "contentLength": 5398621,
-                    "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/fe047f6c20cb5f8f917ddad2965422f7_aNLEnFtWwhg.vtt",
-                    "htmlFiles": [
-                        "resources/lecture-overview-13/index.html"
                     ]
                 },
                 {
@@ -1387,12 +1227,42 @@
                 },
                 {
                     "title": "Lecture Overview",
-                    "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L06-01_300k.mp4",
-                    "youtubeKey": "n9FTM9f9A6I",
-                    "contentLength": 5059199,
-                    "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/a7168904bd4f553ab2311aa57af39ff9_n9FTM9f9A6I.vtt",
+                    "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L07-01_300k.mp4",
+                    "youtubeKey": "17Z89x_ZWQ4",
+                    "contentLength": 4609812,
+                    "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/dcffad9c22b759e3afdee7adb973e173_17Z89x_ZWQ4.vtt",
                     "htmlFiles": [
-                        "resources/lecture-overview-5/index.html"
+                        "resources/lecture-overview-6/index.html"
+                    ]
+                },
+                {
+                    "title": "Lecture Overview",
+                    "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L16-01_300k.mp4",
+                    "youtubeKey": "MlsVWPWIxHI",
+                    "contentLength": 3195626,
+                    "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/9d776bbd40eb582091d1faf2d1d55352_MlsVWPWIxHI.vtt",
+                    "htmlFiles": [
+                        "resources/lecture-overview-2-1/index.html"
+                    ]
+                },
+                {
+                    "title": "Lecture Overview",
+                    "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L13-01_300k.mp4",
+                    "youtubeKey": "zc6PfijY8_s",
+                    "contentLength": 4528101,
+                    "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/3b74fa94cdef5f969c38b8c678fdb909_zc6PfijY8_s.vtt",
+                    "htmlFiles": [
+                        "resources/lecture-overview-12/index.html"
+                    ]
+                },
+                {
+                    "title": "Lecture Overview",
+                    "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L14-01_300k.mp4",
+                    "youtubeKey": "aNLEnFtWwhg",
+                    "contentLength": 5398621,
+                    "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/fe047f6c20cb5f8f917ddad2965422f7_aNLEnFtWwhg.vtt",
+                    "htmlFiles": [
+                        "resources/lecture-overview-13/index.html"
                     ]
                 },
                 {
@@ -1403,6 +1273,136 @@
                     "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/e63631ce32e950c3a5f574f77b4e15cf_RVc5hXzVFc4.vtt",
                     "htmlFiles": [
                         "resources/lecture-overview-1-2/index.html"
+                    ]
+                },
+                {
+                    "title": "Lecture Overview",
+                    "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L03-01_300k.mp4",
+                    "youtubeKey": "QXKgTPR_8wk",
+                    "contentLength": 3693740,
+                    "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/aa61d75b37d85f14b359a04cf73d0763_QXKgTPR_8wk.vtt",
+                    "htmlFiles": [
+                        "resources/lecture-overview-2/index.html"
+                    ]
+                },
+                {
+                    "title": "Lecture Overview",
+                    "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L21-01_300k.mp4",
+                    "youtubeKey": "HDvYPl8D8Bs",
+                    "contentLength": 5061520,
+                    "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/c9c3151247b95411bf9bad06df3dcbb4_HDvYPl8D8Bs.vtt",
+                    "htmlFiles": [
+                        "resources/lecture-overview-14/index.html"
+                    ]
+                },
+                {
+                    "title": "Lecture Overview",
+                    "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L05-01_300k.mp4",
+                    "youtubeKey": "ArfHGPHL8kU",
+                    "contentLength": 4231114,
+                    "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/dbec09cda9a851a2a0360d1b0b4d2393_ArfHGPHL8kU.vtt",
+                    "htmlFiles": [
+                        "resources/lecture-overview-4/index.html"
+                    ]
+                },
+                {
+                    "title": "Lecture Overview",
+                    "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L11-01_300k.mp4",
+                    "youtubeKey": "d5mV88S2fNY",
+                    "contentLength": 4694130,
+                    "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/735ee0bccabc51ffaf7fadc905a6db6c_d5mV88S2fNY.vtt",
+                    "htmlFiles": [
+                        "resources/lecture-overview-10/index.html"
+                    ]
+                },
+                {
+                    "title": "Lecture Overview",
+                    "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L12-01_300k.mp4",
+                    "youtubeKey": "wBnlmQR5Vhk",
+                    "contentLength": 3813213,
+                    "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/f1801536c89f537cae345e7771b4cf3c_wBnlmQR5Vhk.vtt",
+                    "htmlFiles": [
+                        "resources/lecture-overview-11/index.html"
+                    ]
+                },
+                {
+                    "title": "Lecture Overview",
+                    "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L18-01_300k.mp4",
+                    "youtubeKey": "sD0i6bWxmRY",
+                    "contentLength": 4905997,
+                    "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/060accbb07225493a1462dbb336410a1_sD0i6bWxmRY.vtt",
+                    "htmlFiles": [
+                        "resources/lecture-overview-4-1/index.html"
+                    ]
+                },
+                {
+                    "title": "Lecture Overview",
+                    "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L24-01_300k.mp4",
+                    "youtubeKey": "LBiYeL4qD2M",
+                    "contentLength": 4950063,
+                    "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/dd7f26a72f4b5ad4b8ab605861ef1885_LBiYeL4qD2M.vtt",
+                    "htmlFiles": [
+                        "resources/lecture-overview-3-2/index.html"
+                    ]
+                },
+                {
+                    "title": "Lecture Overview",
+                    "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L09-01_300k.mp4",
+                    "youtubeKey": "G11r4Srh4u8",
+                    "contentLength": 4043369,
+                    "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/2c1e01eda23e5b1982a4b91444b17a77_G11r4Srh4u8.vtt",
+                    "htmlFiles": [
+                        "resources/lecture-overview-8/index.html"
+                    ]
+                },
+                {
+                    "title": "Lecture Overview",
+                    "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L25-02_300k.mp4",
+                    "youtubeKey": "uviHu6m_YnM",
+                    "contentLength": 1687548,
+                    "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/8b96bc497d4955f3b9b68536b97b5e36_uviHu6m_YnM.vtt",
+                    "htmlFiles": [
+                        "resources/lecture-overview-5-2/index.html"
+                    ]
+                },
+                {
+                    "title": "Lecture Overview",
+                    "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L17-01_300k.mp4",
+                    "youtubeKey": "kwbDWPrPfQI",
+                    "contentLength": 4276144,
+                    "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/411db912ebf358d19bffa6a445d39049_kwbDWPrPfQI.vtt",
+                    "htmlFiles": [
+                        "resources/lecture-overview-3-1/index.html"
+                    ]
+                },
+                {
+                    "title": "Lecture Overview",
+                    "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L04-01_300k.mp4",
+                    "youtubeKey": "poeHeiiiLKI",
+                    "contentLength": 6115100,
+                    "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/963e629913005389a62703efc76d144e_poeHeiiiLKI.vtt",
+                    "htmlFiles": [
+                        "resources/lecture-overview-3/index.html"
+                    ]
+                },
+                {
+                    "title": "Lecture Overview",
+                    "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L06-01_300k.mp4",
+                    "youtubeKey": "n9FTM9f9A6I",
+                    "contentLength": 5059199,
+                    "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/a7168904bd4f553ab2311aa57af39ff9_n9FTM9f9A6I.vtt",
+                    "htmlFiles": [
+                        "resources/lecture-overview-5/index.html"
+                    ]
+                },
+                {
+                    "title": "Lecture Overview",
+                    "videoUrl": "https://archive.org/download/MITRES.6-012S18/MITRES6_012S18_L02-01_300k.mp4",
+                    "youtubeKey": "B5y6fy5iUtg",
+                    "contentLength": 5234381,
+                    "captionsFile": "/courses/res-6-012-introduction-to-probability-spring-2018/16a3b23f1a3f503091d5836e77429203_B5y6fy5iUtg.vtt",
+                    "htmlFiles": [
+                        "resources/lecture-overview-1/index.html"
                     ]
                 },
                 {

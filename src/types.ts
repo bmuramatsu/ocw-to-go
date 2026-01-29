@@ -64,9 +64,9 @@ export type VideoQueue = VideoQueueItem[];
 
 // Types used when courses are imported from JSON, they are converted into the
 // non-raw types defined above
-type RawVideo = Omit<VideoData, "category">;
+export type RawVideo = Omit<VideoData, "category">;
 
-type VideoGroup = {
+export type VideoGroup = {
   category: string;
   videos: RawVideo[];
 };
