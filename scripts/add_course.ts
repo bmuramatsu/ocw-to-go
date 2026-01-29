@@ -8,6 +8,7 @@ import JSZip from "jszip";
 import readline from "readline";
 import makeCourseList from "./course_list_maker.ts";
 import type { RawCourse, RawVideo, VideoGroup } from "../src/types";
+import { RAW_COURSES } from "../src/courses/index.ts";
 
 const VIDEO_HOST = "https://ocw.mit.edu";
 
@@ -315,6 +316,35 @@ async function getUserInput(prompt: string): Promise<string> {
   });
 }
 
+function getExistingCategories(): string[] {
+  const categories = new Set(RAW_COURSES.map((c) => c.category));
+  return [...categories].sort();
+}
+
+async function getCategoryFromUser(): Promise<string> {
+  const existingCategories = getExistingCategories();
+
+  if (existingCategories.length > 0) {
+    console.log("\nExisting categories:");
+    existingCategories.forEach((cat, i) => {
+      console.log(`  ${i + 1}. ${cat}`);
+    });
+    console.log();
+
+    const input = await getUserInput(
+      "Enter a number to select, or type a new category: ",
+    );
+
+    const num = parseInt(input);
+    if (!isNaN(num) && num >= 1 && num <= existingCategories.length) {
+      return existingCategories[num - 1];
+    }
+    return input;
+  }
+
+  return await getUserInput("Enter the category for this course: ");
+}
+
 async function main() {
   const arg = process.argv[2];
 
@@ -341,6 +371,24 @@ async function main() {
 
   const content = await analyzeCourseContent(zip);
 
+  // Check if course already exists (only for new courses from URL)
+  if (!existingCourseJson) {
+    const coursePath = `src/courses/${content.courseId}.json`;
+    if (fs.existsSync(coursePath)) {
+      console.log(`\nCourse already exists: ${coursePath}`);
+      const answer = await getUserInput(
+        "Do you want to reprocess this course? (y/n): ",
+      );
+      if (answer.toLowerCase() !== "y") {
+        console.log("Cancelled.");
+        process.exit(0);
+      }
+      // Load existing course to preserve category
+      const file = fs.readFileSync(coursePath, "utf-8");
+      existingCourseJson = JSON.parse(file) as RawCourse;
+    }
+  }
+
   await extractCourseImage(zip, content.dataJSON, content.courseId);
 
   const videoGroups = await extractCourseVideos(zip, content.dataPaths);
@@ -348,10 +396,15 @@ async function main() {
   // Get category (from existing course or user input)
   let category: string;
   if (existingCourseJson) {
-    category = existingCourseJson.category;
-    console.log(`Using existing category: ${category}`);
+    console.log(`\nCurrent category: ${existingCourseJson.category}`);
+    const answer = await getUserInput("Keep this category? (y/n): ");
+    if (answer.toLowerCase() === "y") {
+      category = existingCourseJson.category;
+    } else {
+      category = await getCategoryFromUser();
+    }
   } else {
-    category = await getUserInput("Enter the category for this course: ");
+    category = await getCategoryFromUser();
   }
 
   const course = buildCourseData(
