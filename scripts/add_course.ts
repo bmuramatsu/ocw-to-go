@@ -209,7 +209,7 @@ async function processVideoGroup(
 
   // Fetch content length
   console.log(`Getting length for ${first.title} at ${videoUrl}`);
-  const videoResp = await fetch(videoUrl, { method: "HEAD" });
+  const videoResp = await fetch(videoUrl, { method: "HEAD", redirect: "follow" });
   const contentLength = parseInt(
     videoResp.headers.get("content-length") || "0",
   );
