@@ -17,12 +17,453 @@
     "courseLevel": "Undergraduate",
     "cardImg": "/images/course_cards/18-02sc-multivariable-calculus-fall-2010.jpg",
     "imgAltText": "Graph of an eighth of a sphere.",
-    "file": "https://files.ocwtogo.org/18.02sc-fall-2010.zip",
-    "downloadSize": 111390504,
-    "diskSize": 320620949,
+    "file": "https://files.ocwtogo.org/18.02sc-fall-2010-v4.zip",
+    "downloadSize": 111390191,
+    "diskSize": 320624431,
     "description": "This course covers differential, integral and vector calculus for functions of more than one variable. These mathematical tools and methods are used extensively in the physical sciences, engineering, economics and computer graphics.\n\nThe materials have been organized to support independent study. The website includes all of the materials you will need to understand the concepts covered in this subject. The materials in this course include:\n\n- **Lecture Videos** recorded on the MIT campus\n- **Recitation Videos** with problem-solving tips\n- **Examples** of solutions to sample problems\n- **Problems** for you to solve, with solutions\n- **Exams** with solutions\n- **Interactive Java Applets** (\"Mathlets\") to reinforce key concepts\n\nContent Development\n\nDenis Auroux   \nArthur Mattuck   \nJeremy Orloff   \nJohn Lewis\n\nHeidi Burgiel   \nChristine Breiner   \nDavid Jordan   \nJoel Lewis",
     "descriptionHtml": "<p>This course covers differential, integral and vector calculus for functions of more than one variable. These mathematical tools and methods are used extensively in the physical sciences, engineering, economics and computer graphics.</p>\n<p>The materials have been organized to support independent study. The website includes all of the materials you will need to understand the concepts covered in this subject. The materials in this course include:</p>\n<ul>\n<li><strong>Lecture Videos</strong> recorded on the MIT campus</li>\n<li><strong>Recitation Videos</strong> with problem-solving tips</li>\n<li><strong>Examples</strong> of solutions to sample problems</li>\n<li><strong>Problems</strong> for you to solve, with solutions</li>\n<li><strong>Exams</strong> with solutions</li>\n<li><strong>Interactive Java Applets</strong> (&ldquo;Mathlets&rdquo;) to reinforce key concepts</li>\n</ul>\n<p>Content Development</p>\n<p>Denis Auroux <br>\nArthur Mattuck <br>\nJeremy Orloff <br>\nJohn Lewis</p>\n<p>Heidi Burgiel <br>\nChristine Breiner <br>\nDavid Jordan <br>\nJoel Lewis</p>\n",
     "videoGroups": [
+        {
+            "category": "Lecture Videos",
+            "videos": [
+                {
+                    "title": "Lec 1: Dot product | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec01_300k.mp4",
+                    "youtubeKey": "PxCxlsl_YwY",
+                    "contentLength": 89598573,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/PxCxlsl_YwY_captions.vtt",
+                    "htmlFiles": [
+                        "resources/clip-dot-products-1/index.html",
+                        "resources/copy2_of_clip-lengths-and-angles/index.html",
+                        "resources/clip-vectors/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 2: Determinants; cross product | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec02_300k.mp4",
+                    "youtubeKey": "9FLItlbBUPY",
+                    "contentLength": 121780244,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/9FLItlbBUPY_captions.vtt",
+                    "htmlFiles": [
+                        "resources/copy2_of_clip-vector-components/index.html",
+                        "resources/clip-volumes-and-determinants-in-space/index.html",
+                        "resources/clip-area-and-determinants-in-2d/index.html",
+                        "resources/clip-1-cross-products/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 3: Matrices; inverse matrices | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec03_300k.mp4",
+                    "youtubeKey": "bHdzkFrgRcA",
+                    "contentLength": 119360888,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/bHdzkFrgRcA_captions.vtt",
+                    "htmlFiles": [
+                        "resources/clip-2-more-on-cross-products/index.html",
+                        "resources/clip-matrix-inverses/index.html",
+                        "resources/clip-equations-of-planes/index.html",
+                        "resources/clip-meaning-of-matrix-multiplication/index.html",
+                        "resources/copy2_of_clip-matrix-multiplication/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 4: Square systems; equations of planes | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec04_300k.mp4",
+                    "youtubeKey": "YBajUR3EFSM",
+                    "contentLength": 113437021,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/YBajUR3EFSM_captions.vtt",
+                    "htmlFiles": [
+                        "resources/clip-linear-systems-and-planes/index.html",
+                        "resources/clip-equations-of-planes-1/index.html",
+                        "resources/clip-solutions-to-square-systems/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 5: Parametric equations for lines and curves | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec05_300k.mp4",
+                    "youtubeKey": "57jzPlxf4fk",
+                    "contentLength": 117974355,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/57jzPlxf4fk_captions.vtt",
+                    "htmlFiles": [
+                        "resources/clip-equations-of-lines/index.html",
+                        "resources/clip-general-parametric-equations-and-the-cycloid/index.html",
+                        "resources/clip-point-cusp-of-a-cycloid/index.html",
+                        "resources/clip-intersection-of-a-line-and-a-plane/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 6: Velocity, acceleration; Kepler's second law | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec06_300k.mp4",
+                    "youtubeKey": "0D4BbCa4gHo",
+                    "contentLength": 110886862,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/0D4BbCa4gHo_captions.vtt",
+                    "htmlFiles": [
+                        "resources/clip-velocity-and-acceleration/index.html",
+                        "resources/clip-velocity-and-arc-length/index.html",
+                        "resources/clip-keplers-second-law/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 7: Review | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec07_300k.mp4",
+                    "youtubeKey": "U1EcnfTKXJ0",
+                    "contentLength": 115134061,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/U1EcnfTKXJ0_captions.vtt",
+                    "htmlFiles": [
+                        "resources/clip-review-of-problems/index.html",
+                        "resources/clip-review-of-topics/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 8: Level curves; partial derivatives; tangent plane | MIT 18.02 Multivariable Calculus, Fall 07",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec08_300k.mp4",
+                    "youtubeKey": "dK3NEf13nPc",
+                    "contentLength": 107559117,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/dK3NEf13nPc_captions.vtt",
+                    "htmlFiles": [
+                        "resources/clip-level-curves-and-contour-plots/index.html",
+                        "resources/clip-partial-derivatives/index.html",
+                        "resources/clip-functions-of-two-variables-graphs/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 9: Max-min problems; least squares | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec09_300k.mp4",
+                    "youtubeKey": "UYe98CcxPbs",
+                    "contentLength": 116340669,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/UYe98CcxPbs_captions.vtt",
+                    "htmlFiles": [
+                        "resources/clip-approximation-formula/index.html",
+                        "resources/clip-optimization-problem/index.html",
+                        "resources/clip-least-squares/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 10: Second derivative test; boundaries & infinity | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec10_300k.mp4",
+                    "youtubeKey": "3_goGnJm5sA",
+                    "contentLength": 120868555,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/3_goGnJm5sA_captions.vtt",
+                    "htmlFiles": [
+                        "resources/clip-example/index.html",
+                        "resources/clip-1-quadratic-example/index.html",
+                        "resources/clip-2-second-derivative-test/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 11: Differentials; chain rule | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec11_300k.mp4",
+                    "youtubeKey": "7eZVshlT33Q",
+                    "contentLength": 116143906,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/7eZVshlT33Q_captions.vtt",
+                    "htmlFiles": [
+                        "resources/clip-chain-rule-with-more-variables/index.html",
+                        "resources/clip-total-differentials-and-chain-rule/index.html",
+                        "resources/clip-examples/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 12: Gradient; directional derivative; tangent plane | MIT 18.02 Multivariable Calculus, Fall 07",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec12_300k.mp4",
+                    "youtubeKey": "2XraaWefBd8",
+                    "contentLength": 115788325,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/2XraaWefBd8_captions.vtt",
+                    "htmlFiles": [
+                        "resources/clip-definition-perpendicular-to-level-curves/index.html",
+                        "resources/clip-proof/index.html",
+                        "resources/clip-directional-derivatives/index.html",
+                        "resources/clip-example-1/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 13: Lagrange multipliers | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec13_300k.mp4",
+                    "youtubeKey": "15HVevXRsBA",
+                    "contentLength": 116157879,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/15HVevXRsBA_captions.vtt",
+                    "htmlFiles": [
+                        "resources/clip-advanced-example/index.html",
+                        "resources/clip-lagrange-multipliers-by-example/index.html",
+                        "resources/clip-proof-of-lagrange-multipliers/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 14: Non-independent variables | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec14_300k.mp4",
+                    "youtubeKey": "23xbkrpQuAo",
+                    "contentLength": 113771361,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/23xbkrpQuAo_captions.vtt",
+                    "htmlFiles": [
+                        "resources/clip-constrained-differentials/index.html",
+                        "resources/clip-example-2/index.html",
+                        "resources/clip-clearer-notation/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 15: Partial differential equations; review | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec15_300k.mp4",
+                    "youtubeKey": "ChiM2-MV-qM",
+                    "contentLength": 105075233,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/ChiM2-MV-qM_captions.vtt",
+                    "htmlFiles": [
+                        "resources/clip-review-of-topics-1/index.html",
+                        "resources/clip-review-of-problems-1/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 16: Double integrals | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec16_300k.mp4",
+                    "youtubeKey": "YP_B0AapU0c",
+                    "contentLength": 110873435,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/YP_B0AapU0c_captions.vtt",
+                    "htmlFiles": [
+                        "resources/clip-definition-of-double-integration/index.html",
+                        "resources/clip-examples-of-double-integration/index.html",
+                        "resources/clip-exchanging-the-order-of-integration/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 17: Double integrals in polar coords; applications | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec17_300k.mp4",
+                    "youtubeKey": "60e4hdCi1D4",
+                    "contentLength": 119231191,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/60e4hdCi1D4_captions.vtt",
+                    "htmlFiles": [
+                        "resources/clip-double-integrals-in-polar-coordinates/index.html",
+                        "resources/clip-applications-mass-and-average-value/index.html",
+                        "resources/clip-applications-moment-of-inertia/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 18: Change of variables | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec18_300k.mp4",
+                    "youtubeKey": "UZb9hZIAvL4",
+                    "contentLength": 115369848,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/UZb9hZIAvL4_captions.vtt",
+                    "htmlFiles": [
+                        "resources/clip-example-3/index.html",
+                        "resources/clip-change-of-variables/index.html",
+                        "resources/clip-polar-coordinates/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 19: Vector fields and line integrals in the plane | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec19_300k.mp4",
+                    "youtubeKey": "xrypSZU8cBE",
+                    "contentLength": 117862980,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/xrypSZU8cBE_captions.vtt",
+                    "htmlFiles": [
+                        "resources/clip-vector-fields/index.html",
+                        "resources/clip-geometric-approach/index.html",
+                        "resources/clip-work-and-line-integrals/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 20: Path independence and conservative fields | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec20_300k.mp4",
+                    "youtubeKey": "o7UCBjGsRTE",
+                    "contentLength": 116497684,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/o7UCBjGsRTE_captions.vtt",
+                    "htmlFiles": [
+                        "resources/clip-fundamental-theorem/index.html",
+                        "resources/clip-an-important-non-conservative-field/index.html",
+                        "resources/clip-line-integrals/index.html",
+                        "resources/clip-conservative-fields-path-independence-exact/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 21: Gradient fields and potential functions | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec21_300k.mp4",
+                    "youtubeKey": "z5TPjZrsp2k",
+                    "contentLength": 115641853,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/z5TPjZrsp2k_captions.vtt",
+                    "htmlFiles": [
+                        "resources/clip-curl/index.html",
+                        "resources/clip-potential-functions/index.html",
+                        "resources/clip-gradient-fields/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 22: Green's theorem | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec22_300k.mp4",
+                    "youtubeKey": "tYdoS0tkAHA",
+                    "contentLength": 108054540,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/tYdoS0tkAHA_captions.vtt",
+                    "htmlFiles": [
+                        "resources/clip-proof-of-greens-theorem/index.html",
+                        "resources/clip-planimeter-greens-theorem-and-area/index.html",
+                        "resources/clip-curl-f-0-implies-conservative/index.html",
+                        "resources/clip-greens-theorem/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 23: Flux; normal form of Green's theorem | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec23_300k.mp4",
+                    "youtubeKey": "_CdoRiNSrqI",
+                    "contentLength": 116253904,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/CdoRiNSrqI_captions.vtt",
+                    "htmlFiles": [
+                        "resources/clip-flux-across-a-curve/index.html",
+                        "resources/clip-calculating-flux/index.html",
+                        "resources/clip-introduction-and-definition-of-divergence/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 24: Simply connected regions; review | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec24_300k.mp4",
+                    "youtubeKey": "PnPIqh7Frlw",
+                    "contentLength": 113259007,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/PnPIqh7Frlw_captions.vtt",
+                    "htmlFiles": [
+                        "resources/clip-exam-review/index.html",
+                        "resources/clip-simply-connected-regions-and-conservative-fields/index.html",
+                        "resources/clip-extended-greens-theorem/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 25: Triple integrals in rectangular & cylindrical | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec25_300k.mp4",
+                    "youtubeKey": "44R5HgbrUmc",
+                    "contentLength": 112305510,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/44R5HgbrUmc_captions.vtt",
+                    "htmlFiles": [
+                        "resources/clip-triple-integrals/index.html",
+                        "resources/clip-cylindrical-coordinates/index.html",
+                        "resources/clip-applications-and-examples/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 26: Spherical coordinates; surface area | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec26_300k.mp4",
+                    "youtubeKey": "RMBGQtwkoyU",
+                    "contentLength": 117903809,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/RMBGQtwkoyU_captions.vtt",
+                    "htmlFiles": [
+                        "resources/clip-spherical-coordinates/index.html",
+                        "resources/clip-gravitational-attraction/index.html",
+                        "resources/clip-triple-integrals-in-spherical-coordinates/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 27: Vector fields in 3D; surface integrals & flux | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec27_300k.mp4",
+                    "youtubeKey": "phk05iSMezA",
+                    "contentLength": 116758199,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/phk05iSMezA_captions.vtt",
+                    "htmlFiles": [
+                        "resources/clip-flux-through-a-surface/index.html",
+                        "resources/clip-vector-fields-in-space/index.html",
+                        "resources/clip-calculating-flux-finding-nds/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 28: Divergence theorem | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec28_300k.mp4",
+                    "youtubeKey": "WfEQabCGAqI",
+                    "contentLength": 113571236,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/WfEQabCGAqI_captions.vtt",
+                    "htmlFiles": [
+                        "resources/clip-nds-for-a-surface-z-f-x-y/index.html",
+                        "resources/clip-other-ways-to-find-nds/index.html",
+                        "resources/clip-divergence-theorem/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 29: Divergence theorem (cont.): applications & proof | MIT 18.02 Multivariable Calculus, Fall 07",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec29_300k.mp4",
+                    "youtubeKey": "wu8kXZSAp20",
+                    "contentLength": 115878383,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/wu8kXZSAp20_captions.vtt",
+                    "htmlFiles": [
+                        "resources/clip-proof-of-the-divergence-theorem/index.html",
+                        "resources/clip-physical-meaning-of-flux-del-notation/index.html",
+                        "resources/clip-diffusion-equation/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 30: Line integrals in space, curl, exactness... | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec30_300k.mp4",
+                    "youtubeKey": "seO7-TwXH_I",
+                    "contentLength": 115038254,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/seO7-TwXH_I_captions.vtt",
+                    "htmlFiles": [
+                        "resources/clip-line-integrals-in-space/index.html",
+                        "resources/clip-curl-in-3d/index.html",
+                        "resources/clip-gradient-fields-and-potential-functions/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 31: Stokes' theorem | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec31_300k.mp4",
+                    "youtubeKey": "tzoYhe3H5dM",
+                    "contentLength": 111769497,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/tzoYhe3H5dM_captions.vtt",
+                    "htmlFiles": [
+                        "resources/clip-example-4/index.html",
+                        "resources/clip-proof-of-stokes-theorem/index.html",
+                        "resources/clip-stokes-theorem/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 32: Stokes' theorem (cont.); review | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec32_300k.mp4",
+                    "youtubeKey": "sr7kCpzAuYw",
+                    "contentLength": 115685744,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/sr7kCpzAuYw_captions.vtt",
+                    "htmlFiles": [
+                        "resources/clip-summary-of-multiple-integration/index.html",
+                        "resources/clip-stokes-theorem-and-surface-independence/index.html",
+                        "resources/clip-simply-connected-regions-topology/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 33: Topological considerations; Maxwell's equations | MIT 18.02 Multivariable Calculus, Fall 07",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec33_300k.mp4",
+                    "youtubeKey": "BChhAS1sFvA",
+                    "contentLength": 66379844,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/BChhAS1sFvA_captions.vtt",
+                    "htmlFiles": [
+                        "resources/clip-introduction/index.html",
+                        "resources/clip-curl-and-physics/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 34: Final review | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec34_300k.mp4",
+                    "youtubeKey": "ZwpwmGP5ITM",
+                    "contentLength": 101629216,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/ZwpwmGP5ITM_captions.vtt",
+                    "htmlFiles": [
+                        "resources/clip-2-matrices-determinants-linear-systems/index.html",
+                        "resources/clip-1-vectors-equations-of-lines-curves-planes/index.html",
+                        "resources/clip-2-max-min-problems-lagrange-multipliers/index.html",
+                        "resources/clip-1-functions-of-2-variables-partial-derivatives/index.html"
+                    ]
+                },
+                {
+                    "title": "Lec 35: Final review (cont.) | MIT 18.02 Multivariable Calculus, Fall 2007",
+                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec35_300k.mp4",
+                    "youtubeKey": "24v9onS9Kcg",
+                    "contentLength": 113517596,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/24v9onS9Kcg_captions.vtt",
+                    "htmlFiles": [
+                        "resources/clip-1-work-line-integrals-curl/index.html",
+                        "resources/clip-1-double-integrals-jacobian-triple-integrals/index.html",
+                        "resources/clip-2-stokes-greens-divergence-theorems/index.html",
+                        "resources/clip-2-applications/index.html"
+                    ]
+                },
+                {
+                    "title": "Session 62: Non-Conservative Vector Fields",
+                    "videoUrl": "http://www.archive.org/download/MIT18_02SCF10/MIT18_02SCF10Rec_43_300k.mp4",
+                    "youtubeKey": "n9gSOBwauRw",
+                    "contentLength": 23171735,
+                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/b3804f5502d0552ab775fa3ce3dac5f8_n9gSOBwauRw.vtt",
+                    "htmlFiles": [
+                        "resources/non-conservative-vector-fields/index.html"
+                    ]
+                }
+            ]
+        },
         {
             "category": "Problem-solving Videos",
             "videos": [
@@ -724,447 +1165,6 @@
                     "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/63a4ca3265335ce1b636fb9cd8084ee6_2B7e19xi4Sw.vtt",
                     "htmlFiles": [
                         "resources/consequences-of-stokes-theorem/index.html"
-                    ]
-                }
-            ]
-        },
-        {
-            "category": "Lecture Videos",
-            "videos": [
-                {
-                    "title": "Lec 1: Dot product | MIT 18.02 Multivariable Calculus, Fall 2007",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec01_300k.mp4",
-                    "youtubeKey": "PxCxlsl_YwY",
-                    "contentLength": 89598573,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/PxCxlsl_YwY_captions.vtt",
-                    "htmlFiles": [
-                        "resources/clip-vectors/index.html",
-                        "resources/copy2_of_clip-lengths-and-angles/index.html",
-                        "resources/clip-dot-products-1/index.html"
-                    ]
-                },
-                {
-                    "title": "Lec 2: Determinants; cross product | MIT 18.02 Multivariable Calculus, Fall 2007",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec02_300k.mp4",
-                    "youtubeKey": "9FLItlbBUPY",
-                    "contentLength": 121780244,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/9FLItlbBUPY_captions.vtt",
-                    "htmlFiles": [
-                        "resources/clip-1-cross-products/index.html",
-                        "resources/copy2_of_clip-vector-components/index.html",
-                        "resources/clip-area-and-determinants-in-2d/index.html",
-                        "resources/clip-volumes-and-determinants-in-space/index.html"
-                    ]
-                },
-                {
-                    "title": "Lec 3: Matrices; inverse matrices | MIT 18.02 Multivariable Calculus, Fall 2007",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec03_300k.mp4",
-                    "youtubeKey": "bHdzkFrgRcA",
-                    "contentLength": 119360888,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/bHdzkFrgRcA_captions.vtt",
-                    "htmlFiles": [
-                        "resources/clip-matrix-inverses/index.html",
-                        "resources/clip-equations-of-planes/index.html",
-                        "resources/clip-meaning-of-matrix-multiplication/index.html",
-                        "resources/copy2_of_clip-matrix-multiplication/index.html",
-                        "resources/clip-2-more-on-cross-products/index.html"
-                    ]
-                },
-                {
-                    "title": "Lec 4: Square systems; equations of planes | MIT 18.02 Multivariable Calculus, Fall 2007",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec04_300k.mp4",
-                    "youtubeKey": "YBajUR3EFSM",
-                    "contentLength": 113437021,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/YBajUR3EFSM_captions.vtt",
-                    "htmlFiles": [
-                        "resources/clip-equations-of-planes-1/index.html",
-                        "resources/clip-linear-systems-and-planes/index.html",
-                        "resources/clip-solutions-to-square-systems/index.html"
-                    ]
-                },
-                {
-                    "title": "Lec 5: Parametric equations for lines and curves | MIT 18.02 Multivariable Calculus, Fall 2007",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec05_300k.mp4",
-                    "youtubeKey": "57jzPlxf4fk",
-                    "contentLength": 117974355,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/57jzPlxf4fk_captions.vtt",
-                    "htmlFiles": [
-                        "resources/clip-intersection-of-a-line-and-a-plane/index.html",
-                        "resources/clip-equations-of-lines/index.html",
-                        "resources/clip-general-parametric-equations-and-the-cycloid/index.html",
-                        "resources/clip-point-cusp-of-a-cycloid/index.html"
-                    ]
-                },
-                {
-                    "title": "Lec 6: Velocity, acceleration; Kepler's second law | MIT 18.02 Multivariable Calculus, Fall 2007",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec06_300k.mp4",
-                    "youtubeKey": "0D4BbCa4gHo",
-                    "contentLength": 110886862,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/0D4BbCa4gHo_captions.vtt",
-                    "htmlFiles": [
-                        "resources/clip-velocity-and-acceleration/index.html",
-                        "resources/clip-velocity-and-arc-length/index.html",
-                        "resources/clip-keplers-second-law/index.html"
-                    ]
-                },
-                {
-                    "title": "Lec 7: Review | MIT 18.02 Multivariable Calculus, Fall 2007",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec07_300k.mp4",
-                    "youtubeKey": "U1EcnfTKXJ0",
-                    "contentLength": 115134061,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/U1EcnfTKXJ0_captions.vtt",
-                    "htmlFiles": [
-                        "resources/clip-review-of-problems/index.html",
-                        "resources/clip-review-of-topics/index.html"
-                    ]
-                },
-                {
-                    "title": "Lec 8: Level curves; partial derivatives; tangent plane | MIT 18.02 Multivariable Calculus, Fall 07",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec08_300k.mp4",
-                    "youtubeKey": "dK3NEf13nPc",
-                    "contentLength": 107559117,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/dK3NEf13nPc_captions.vtt",
-                    "htmlFiles": [
-                        "resources/clip-partial-derivatives/index.html",
-                        "resources/clip-functions-of-two-variables-graphs/index.html",
-                        "resources/clip-level-curves-and-contour-plots/index.html"
-                    ]
-                },
-                {
-                    "title": "Lec 9: Max-min problems; least squares | MIT 18.02 Multivariable Calculus, Fall 2007",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec09_300k.mp4",
-                    "youtubeKey": "UYe98CcxPbs",
-                    "contentLength": 116340669,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/UYe98CcxPbs_captions.vtt",
-                    "htmlFiles": [
-                        "resources/clip-approximation-formula/index.html",
-                        "resources/clip-optimization-problem/index.html",
-                        "resources/clip-least-squares/index.html"
-                    ]
-                },
-                {
-                    "title": "Lec 10: Second derivative test; boundaries & infinity | MIT 18.02 Multivariable Calculus, Fall 2007",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec10_300k.mp4",
-                    "youtubeKey": "3_goGnJm5sA",
-                    "contentLength": 120868555,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/3_goGnJm5sA_captions.vtt",
-                    "htmlFiles": [
-                        "resources/clip-example/index.html",
-                        "resources/clip-1-quadratic-example/index.html",
-                        "resources/clip-2-second-derivative-test/index.html"
-                    ]
-                },
-                {
-                    "title": "Lec 11: Differentials; chain rule | MIT 18.02 Multivariable Calculus, Fall 2007",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec11_300k.mp4",
-                    "youtubeKey": "7eZVshlT33Q",
-                    "contentLength": 116143906,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/7eZVshlT33Q_captions.vtt",
-                    "htmlFiles": [
-                        "resources/clip-examples/index.html",
-                        "resources/clip-chain-rule-with-more-variables/index.html",
-                        "resources/clip-total-differentials-and-chain-rule/index.html"
-                    ]
-                },
-                {
-                    "title": "Lec 12: Gradient; directional derivative; tangent plane | MIT 18.02 Multivariable Calculus, Fall 07",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec12_300k.mp4",
-                    "youtubeKey": "2XraaWefBd8",
-                    "contentLength": 115788325,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/2XraaWefBd8_captions.vtt",
-                    "htmlFiles": [
-                        "resources/clip-directional-derivatives/index.html",
-                        "resources/clip-proof/index.html",
-                        "resources/clip-example-1/index.html",
-                        "resources/clip-definition-perpendicular-to-level-curves/index.html"
-                    ]
-                },
-                {
-                    "title": "Lec 13: Lagrange multipliers | MIT 18.02 Multivariable Calculus, Fall 2007",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec13_300k.mp4",
-                    "youtubeKey": "15HVevXRsBA",
-                    "contentLength": 116157879,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/15HVevXRsBA_captions.vtt",
-                    "htmlFiles": [
-                        "resources/clip-advanced-example/index.html",
-                        "resources/clip-lagrange-multipliers-by-example/index.html",
-                        "resources/clip-proof-of-lagrange-multipliers/index.html"
-                    ]
-                },
-                {
-                    "title": "Lec 14: Non-independent variables | MIT 18.02 Multivariable Calculus, Fall 2007",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec14_300k.mp4",
-                    "youtubeKey": "23xbkrpQuAo",
-                    "contentLength": 113771361,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/23xbkrpQuAo_captions.vtt",
-                    "htmlFiles": [
-                        "resources/clip-constrained-differentials/index.html",
-                        "resources/clip-clearer-notation/index.html",
-                        "resources/clip-example-2/index.html"
-                    ]
-                },
-                {
-                    "title": "Lec 15: Partial differential equations; review | MIT 18.02 Multivariable Calculus, Fall 2007",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec15_300k.mp4",
-                    "youtubeKey": "ChiM2-MV-qM",
-                    "contentLength": 105075233,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/ChiM2-MV-qM_captions.vtt",
-                    "htmlFiles": [
-                        "resources/clip-review-of-problems-1/index.html",
-                        "resources/clip-review-of-topics-1/index.html"
-                    ]
-                },
-                {
-                    "title": "Lec 16: Double integrals | MIT 18.02 Multivariable Calculus, Fall 2007",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec16_300k.mp4",
-                    "youtubeKey": "YP_B0AapU0c",
-                    "contentLength": 110873435,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/YP_B0AapU0c_captions.vtt",
-                    "htmlFiles": [
-                        "resources/clip-definition-of-double-integration/index.html",
-                        "resources/clip-examples-of-double-integration/index.html",
-                        "resources/clip-exchanging-the-order-of-integration/index.html"
-                    ]
-                },
-                {
-                    "title": "Lec 17: Double integrals in polar coords; applications | MIT 18.02 Multivariable Calculus, Fall 2007",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec17_300k.mp4",
-                    "youtubeKey": "60e4hdCi1D4",
-                    "contentLength": 119231191,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/60e4hdCi1D4_captions.vtt",
-                    "htmlFiles": [
-                        "resources/clip-applications-mass-and-average-value/index.html",
-                        "resources/clip-double-integrals-in-polar-coordinates/index.html",
-                        "resources/clip-applications-moment-of-inertia/index.html"
-                    ]
-                },
-                {
-                    "title": "Lec 18: Change of variables | MIT 18.02 Multivariable Calculus, Fall 2007",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec18_300k.mp4",
-                    "youtubeKey": "UZb9hZIAvL4",
-                    "contentLength": 115369848,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/UZb9hZIAvL4_captions.vtt",
-                    "htmlFiles": [
-                        "resources/clip-example-3/index.html",
-                        "resources/clip-change-of-variables/index.html",
-                        "resources/clip-polar-coordinates/index.html"
-                    ]
-                },
-                {
-                    "title": "Lec 19: Vector fields and line integrals in the plane | MIT 18.02 Multivariable Calculus, Fall 2007",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec19_300k.mp4",
-                    "youtubeKey": "xrypSZU8cBE",
-                    "contentLength": 117862980,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/xrypSZU8cBE_captions.vtt",
-                    "htmlFiles": [
-                        "resources/clip-geometric-approach/index.html",
-                        "resources/clip-vector-fields/index.html",
-                        "resources/clip-work-and-line-integrals/index.html"
-                    ]
-                },
-                {
-                    "title": "Lec 20: Path independence and conservative fields | MIT 18.02 Multivariable Calculus, Fall 2007",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec20_300k.mp4",
-                    "youtubeKey": "o7UCBjGsRTE",
-                    "contentLength": 116497684,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/o7UCBjGsRTE_captions.vtt",
-                    "htmlFiles": [
-                        "resources/clip-conservative-fields-path-independence-exact/index.html",
-                        "resources/clip-an-important-non-conservative-field/index.html",
-                        "resources/clip-line-integrals/index.html",
-                        "resources/clip-fundamental-theorem/index.html"
-                    ]
-                },
-                {
-                    "title": "Lec 21: Gradient fields and potential functions | MIT 18.02 Multivariable Calculus, Fall 2007",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec21_300k.mp4",
-                    "youtubeKey": "z5TPjZrsp2k",
-                    "contentLength": 115641853,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/z5TPjZrsp2k_captions.vtt",
-                    "htmlFiles": [
-                        "resources/clip-gradient-fields/index.html",
-                        "resources/clip-curl/index.html",
-                        "resources/clip-potential-functions/index.html"
-                    ]
-                },
-                {
-                    "title": "Lec 22: Green's theorem | MIT 18.02 Multivariable Calculus, Fall 2007",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec22_300k.mp4",
-                    "youtubeKey": "tYdoS0tkAHA",
-                    "contentLength": 108054540,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/tYdoS0tkAHA_captions.vtt",
-                    "htmlFiles": [
-                        "resources/clip-proof-of-greens-theorem/index.html",
-                        "resources/clip-planimeter-greens-theorem-and-area/index.html",
-                        "resources/clip-curl-f-0-implies-conservative/index.html",
-                        "resources/clip-greens-theorem/index.html"
-                    ]
-                },
-                {
-                    "title": "Lec 23: Flux; normal form of Green's theorem | MIT 18.02 Multivariable Calculus, Fall 2007",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec23_300k.mp4",
-                    "youtubeKey": "_CdoRiNSrqI",
-                    "contentLength": 116253904,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/CdoRiNSrqI_captions.vtt",
-                    "htmlFiles": [
-                        "resources/clip-introduction-and-definition-of-divergence/index.html",
-                        "resources/clip-calculating-flux/index.html",
-                        "resources/clip-flux-across-a-curve/index.html"
-                    ]
-                },
-                {
-                    "title": "Lec 24: Simply connected regions; review | MIT 18.02 Multivariable Calculus, Fall 2007",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec24_300k.mp4",
-                    "youtubeKey": "PnPIqh7Frlw",
-                    "contentLength": 113259007,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/PnPIqh7Frlw_captions.vtt",
-                    "htmlFiles": [
-                        "resources/clip-simply-connected-regions-and-conservative-fields/index.html",
-                        "resources/clip-exam-review/index.html",
-                        "resources/clip-extended-greens-theorem/index.html"
-                    ]
-                },
-                {
-                    "title": "Lec 25: Triple integrals in rectangular & cylindrical | MIT 18.02 Multivariable Calculus, Fall 2007",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec25_300k.mp4",
-                    "youtubeKey": "44R5HgbrUmc",
-                    "contentLength": 112305510,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/44R5HgbrUmc_captions.vtt",
-                    "htmlFiles": [
-                        "resources/clip-cylindrical-coordinates/index.html",
-                        "resources/clip-triple-integrals/index.html",
-                        "resources/clip-applications-and-examples/index.html"
-                    ]
-                },
-                {
-                    "title": "Lec 26: Spherical coordinates; surface area | MIT 18.02 Multivariable Calculus, Fall 2007",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec26_300k.mp4",
-                    "youtubeKey": "RMBGQtwkoyU",
-                    "contentLength": 117903809,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/RMBGQtwkoyU_captions.vtt",
-                    "htmlFiles": [
-                        "resources/clip-spherical-coordinates/index.html",
-                        "resources/clip-triple-integrals-in-spherical-coordinates/index.html",
-                        "resources/clip-gravitational-attraction/index.html"
-                    ]
-                },
-                {
-                    "title": "Lec 27: Vector fields in 3D; surface integrals & flux | MIT 18.02 Multivariable Calculus, Fall 2007",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec27_300k.mp4",
-                    "youtubeKey": "phk05iSMezA",
-                    "contentLength": 116758199,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/phk05iSMezA_captions.vtt",
-                    "htmlFiles": [
-                        "resources/clip-calculating-flux-finding-nds/index.html",
-                        "resources/clip-vector-fields-in-space/index.html",
-                        "resources/clip-flux-through-a-surface/index.html"
-                    ]
-                },
-                {
-                    "title": "Lec 28: Divergence theorem | MIT 18.02 Multivariable Calculus, Fall 2007",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec28_300k.mp4",
-                    "youtubeKey": "WfEQabCGAqI",
-                    "contentLength": 113571236,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/WfEQabCGAqI_captions.vtt",
-                    "htmlFiles": [
-                        "resources/clip-other-ways-to-find-nds/index.html",
-                        "resources/clip-divergence-theorem/index.html",
-                        "resources/clip-nds-for-a-surface-z-f-x-y/index.html"
-                    ]
-                },
-                {
-                    "title": "Lec 29: Divergence theorem (cont.): applications & proof | MIT 18.02 Multivariable Calculus, Fall 07",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec29_300k.mp4",
-                    "youtubeKey": "wu8kXZSAp20",
-                    "contentLength": 115878383,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/wu8kXZSAp20_captions.vtt",
-                    "htmlFiles": [
-                        "resources/clip-proof-of-the-divergence-theorem/index.html",
-                        "resources/clip-physical-meaning-of-flux-del-notation/index.html",
-                        "resources/clip-diffusion-equation/index.html"
-                    ]
-                },
-                {
-                    "title": "Lec 30: Line integrals in space, curl, exactness... | MIT 18.02 Multivariable Calculus, Fall 2007",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec30_300k.mp4",
-                    "youtubeKey": "seO7-TwXH_I",
-                    "contentLength": 115038254,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/seO7-TwXH_I_captions.vtt",
-                    "htmlFiles": [
-                        "resources/clip-curl-in-3d/index.html",
-                        "resources/clip-gradient-fields-and-potential-functions/index.html",
-                        "resources/clip-line-integrals-in-space/index.html"
-                    ]
-                },
-                {
-                    "title": "Lec 31: Stokes' theorem | MIT 18.02 Multivariable Calculus, Fall 2007",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec31_300k.mp4",
-                    "youtubeKey": "tzoYhe3H5dM",
-                    "contentLength": 111769497,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/tzoYhe3H5dM_captions.vtt",
-                    "htmlFiles": [
-                        "resources/clip-stokes-theorem/index.html",
-                        "resources/clip-example-4/index.html",
-                        "resources/clip-proof-of-stokes-theorem/index.html"
-                    ]
-                },
-                {
-                    "title": "Lec 32: Stokes' theorem (cont.); review | MIT 18.02 Multivariable Calculus, Fall 2007",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec32_300k.mp4",
-                    "youtubeKey": "sr7kCpzAuYw",
-                    "contentLength": 115685744,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/sr7kCpzAuYw_captions.vtt",
-                    "htmlFiles": [
-                        "resources/clip-stokes-theorem-and-surface-independence/index.html",
-                        "resources/clip-simply-connected-regions-topology/index.html",
-                        "resources/clip-summary-of-multiple-integration/index.html"
-                    ]
-                },
-                {
-                    "title": "Lec 33: Topological considerations; Maxwell's equations | MIT 18.02 Multivariable Calculus, Fall 07",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec33_300k.mp4",
-                    "youtubeKey": "BChhAS1sFvA",
-                    "contentLength": 66379844,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/BChhAS1sFvA_captions.vtt",
-                    "htmlFiles": [
-                        "resources/clip-curl-and-physics/index.html",
-                        "resources/clip-introduction/index.html"
-                    ]
-                },
-                {
-                    "title": "Lec 34: Final review | MIT 18.02 Multivariable Calculus, Fall 2007",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec34_300k.mp4",
-                    "youtubeKey": "ZwpwmGP5ITM",
-                    "contentLength": 101629216,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/ZwpwmGP5ITM_captions.vtt",
-                    "htmlFiles": [
-                        "resources/clip-2-max-min-problems-lagrange-multipliers/index.html",
-                        "resources/clip-1-functions-of-2-variables-partial-derivatives/index.html",
-                        "resources/clip-2-matrices-determinants-linear-systems/index.html",
-                        "resources/clip-1-vectors-equations-of-lines-curves-planes/index.html"
-                    ]
-                },
-                {
-                    "title": "Lec 35: Final review (cont.) | MIT 18.02 Multivariable Calculus, Fall 2007",
-                    "videoUrl": "https://archive.org/download/MIT18.02F07/ocw-18_02-f07-lec35_300k.mp4",
-                    "youtubeKey": "24v9onS9Kcg",
-                    "contentLength": 113517596,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/24v9onS9Kcg_captions.vtt",
-                    "htmlFiles": [
-                        "resources/clip-2-stokes-greens-divergence-theorems/index.html",
-                        "resources/clip-1-work-line-integrals-curl/index.html",
-                        "resources/clip-1-double-integrals-jacobian-triple-integrals/index.html",
-                        "resources/clip-2-applications/index.html"
-                    ]
-                },
-                {
-                    "title": "Session 62: Non-Conservative Vector Fields",
-                    "videoUrl": "http://www.archive.org/download/MIT18_02SCF10/MIT18_02SCF10Rec_43_300k.mp4",
-                    "youtubeKey": "n9gSOBwauRw",
-                    "contentLength": 23171735,
-                    "captionsFile": "/courses/18-02sc-multivariable-calculus-fall-2010/b3804f5502d0552ab775fa3ce3dac5f8_n9gSOBwauRw.vtt",
-                    "htmlFiles": [
-                        "resources/non-conservative-vector-fields/index.html"
                     ]
                 }
             ]

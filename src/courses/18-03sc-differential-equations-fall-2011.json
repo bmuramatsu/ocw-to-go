@@ -18,9 +18,9 @@
     "courseLevel": "Undergraduate",
     "cardImg": "/images/course_cards/18-03sc-differential-equations-fall-2011.jpg",
     "imgAltText": "Image of a graph axis with many arrows overlaid.",
-    "file": "https://files.ocwtogo.org/18.03sc-fall-2011.zip",
-    "downloadSize": 104837216,
-    "diskSize": 268444582,
+    "file": "https://files.ocwtogo.org/18.03sc-fall-2011-v4.zip",
+    "downloadSize": 104836990,
+    "diskSize": 268444726,
     "description": "The laws of nature are expressed as differential equations. Scientists and engineers must know how to model the world in terms of differential equations, and how to solve those equations and interpret the solutions. This course focuses on the equations and techniques most useful in science and engineering.\n\nCourse Format\n\nThis course has been designed for independent study. It provides everything you will need to understand the concepts covered in the course. The materials include:\n\n- **Lecture Videos** by Professor Arthur Mattuck.\n- **Course Notes** on every topic.\n- **Practice Problems** with **Solutions**.\n- **Problem Solving Videos** taught by experienced MIT Recitation Instructors.\n- **Problem Sets** to do on your own with **Solutions** to check your answers against when you're done.\n- A selection of **Interactive Java® Demonstrations** called _Mathlets_ to illustrate key concepts.\n- A full set of **Exams with Solutions**, including practice exams to help you prepare.\n\nContent Development\n\nHaynes Miller   \nJeremy Orloff   \nDr. John Lewis   \nArthur Mattuck",
     "descriptionHtml": "<p>The laws of nature are expressed as differential equations. Scientists and engineers must know how to model the world in terms of differential equations, and how to solve those equations and interpret the solutions. This course focuses on the equations and techniques most useful in science and engineering.</p>\n<p>Course Format</p>\n<p>This course has been designed for independent study. It provides everything you will need to understand the concepts covered in the course. The materials include:</p>\n<ul>\n<li><strong>Lecture Videos</strong> by Professor Arthur Mattuck.</li>\n<li><strong>Course Notes</strong> on every topic.</li>\n<li><strong>Practice Problems</strong> with <strong>Solutions</strong>.</li>\n<li><strong>Problem Solving Videos</strong> taught by experienced MIT Recitation Instructors.</li>\n<li><strong>Problem Sets</strong> to do on your own with <strong>Solutions</strong> to check your answers against when you&rsquo;re done.</li>\n<li>A selection of <strong>Interactive Java® Demonstrations</strong> called <em>Mathlets</em> to illustrate key concepts.</li>\n<li>A full set of <strong>Exams with Solutions</strong>, including practice exams to help you prepare.</li>\n</ul>\n<p>Content Development</p>\n<p>Haynes Miller <br>\nJeremy Orloff <br>\nDr. John Lewis <br>\nArthur Mattuck</p>\n",
     "videoGroups": [
@@ -52,10 +52,10 @@
                     "videoUrl": "http://www.archive.org/download/MIT18.03S06/mit-ocw-18.03-lec1-05feb2003-220k_512kb.mp4",
                     "youtubeKey": "XDhJ8lVGbl8",
                     "contentLength": 97806774,
-                    "captionsFile": "/courses/18-03sc-differential-equations-fall-2011/ffc75c85d67657e69b245757476b5030_XDhJ8lVGbl8.vtt",
+                    "captionsFile": "/courses/18-03sc-differential-equations-fall-2011/651572f029d7503a821bad382787efec_XDhJ8lVGbl8.vtt",
                     "htmlFiles": [
-                        "resources/example-where-existence-and-uniqueness-fails/index.html",
                         "resources/geometric-view-of-des-direction-fields-integral-curves/index.html",
+                        "resources/example-where-existence-and-uniqueness-fails/index.html",
                         "resources/example-existence-and-uniqueness/index.html"
                     ]
                 },
@@ -64,12 +64,12 @@
                     "videoUrl": "http://www.archive.org/download/MIT18.03S06/mit-ocw-18.03-lec2-07feb2003-220k_512kb.mp4",
                     "youtubeKey": "LbKKzMag5Rc",
                     "contentLength": 101356015,
-                    "captionsFile": "/courses/18-03sc-differential-equations-fall-2011/2a2609fe03f35b5da0985d2eb842dec3_LbKKzMag5Rc.vtt",
+                    "captionsFile": "/courses/18-03sc-differential-equations-fall-2011/4400cba1b94a5c39b896d7ffb710603d_LbKKzMag5Rc.vtt",
                     "htmlFiles": [
-                        "resources/better-methods/index.html",
-                        "resources/pitfalls/index.html",
+                        "resources/example-of-eulers-method/index.html",
                         "resources/eulers-method/index.html",
-                        "resources/example-of-eulers-method/index.html"
+                        "resources/pitfalls/index.html",
+                        "resources/better-methods/index.html"
                     ]
                 },
                 {
@@ -77,12 +77,12 @@
                     "videoUrl": "http://www.archive.org/download/MIT18.03S06/mit-ocw-18.03-lec3-10feb2003-220k_512kb.mp4",
                     "youtubeKey": "tVzaX9u6YAE",
                     "contentLength": 100595839,
-                    "captionsFile": "/courses/18-03sc-differential-equations-fall-2011/69e1945b89fe5474a86911226bc52465_tVzaX9u6YAE.vtt",
+                    "captionsFile": "/courses/18-03sc-differential-equations-fall-2011/00d8c3c5406d52c4bc4d33666fbb1c84_tVzaX9u6YAE.vtt",
                     "htmlFiles": [
-                        "resources/examples-of-constant-coefficient-linear-first-order-odes/index.html",
-                        "resources/solutions-to-linear-first-order-odes/index.html",
                         "resources/linear-first-order-odes-examples/index.html",
-                        "resources/linear-first-order-odes-definition/index.html"
+                        "resources/examples-of-constant-coefficient-linear-first-order-odes/index.html",
+                        "resources/linear-first-order-odes-definition/index.html",
+                        "resources/solutions-to-linear-first-order-odes/index.html"
                     ]
                 },
                 {
@@ -90,11 +90,11 @@
                     "videoUrl": "http://www.archive.org/download/MIT18.03S06/mit-ocw-18.03-lec5-14feb2003-220k_512kb.mp4",
                     "youtubeKey": "te6Mplq3DCU",
                     "contentLength": 91501244,
-                    "captionsFile": "/courses/18-03sc-differential-equations-fall-2011/32330f7e56fe51639ebef2bc88f2e5ba_te6Mplq3DCU.vtt",
+                    "captionsFile": "/courses/18-03sc-differential-equations-fall-2011/92f28190010f5cd19e90a55c7df008fe_te6Mplq3DCU.vtt",
                     "htmlFiles": [
-                        "resources/first-order-autonomous-equations/index.html",
                         "resources/example-logistic-model/index.html",
                         "resources/example-logistic-model-with-harvesting/index.html",
+                        "resources/first-order-autonomous-equations/index.html",
                         "resources/bank-account/index.html"
                     ]
                 },
@@ -103,13 +103,13 @@
                     "videoUrl": "http://www.archive.org/download/MIT18.03S06/mit-ocw-18.03-lec6-19feb2003-220k_512kb.mp4",
                     "youtubeKey": "EQJBp6Ym-6A",
                     "contentLength": 90901159,
-                    "captionsFile": "/courses/18-03sc-differential-equations-fall-2011/6b65eb015f1d53259ae5552df320d4b8_EQJBp6Ym-6A.vtt",
+                    "captionsFile": "/courses/18-03sc-differential-equations-fall-2011/c1bd5f1d3ee0588f9fd8ce0476c32fc0_EQJBp6Ym-6A.vtt",
                     "htmlFiles": [
-                        "resources/nth-roots/index.html",
-                        "resources/complex-arithmetic-eulers-formula/index.html",
-                        "resources/justification-of-eulers-formula/index.html",
                         "resources/example-complex-replacement/index.html",
-                        "resources/polar-form/index.html"
+                        "resources/polar-form/index.html",
+                        "resources/complex-arithmetic-eulers-formula/index.html",
+                        "resources/nth-roots/index.html",
+                        "resources/justification-of-eulers-formula/index.html"
                     ]
                 },
                 {
@@ -117,10 +117,10 @@
                     "videoUrl": "http://www.archive.org/download/MIT18.03S06/mit-ocw-18.03-lec8-24feb2003-220k_512kb.mp4",
                     "youtubeKey": "MdzfsfBNJIw",
                     "contentLength": 101163371,
-                    "captionsFile": "/courses/18-03sc-differential-equations-fall-2011/990e5f309afd59fd92b8b45b82a71852_MdzfsfBNJIw.vtt",
+                    "captionsFile": "/courses/18-03sc-differential-equations-fall-2011/6aaaf084c44b5994b1bba96e725c4064_MdzfsfBNJIw.vtt",
                     "htmlFiles": [
-                        "resources/three-proofs-of-the-basic-trigonometric-identity/index.html",
-                        "resources/more-examples-of-constant-coefficient-equations/index.html"
+                        "resources/more-examples-of-constant-coefficient-equations/index.html",
+                        "resources/three-proofs-of-the-basic-trigonometric-identity/index.html"
                     ]
                 },
                 {
@@ -128,12 +128,12 @@
                     "videoUrl": "http://www.archive.org/download/MIT18.03S06/mit-ocw-18.03-lec9-28feb2003-220k_512kb.mp4",
                     "youtubeKey": "vP-oRQqmeg4",
                     "contentLength": 99961171,
-                    "captionsFile": "/courses/18-03sc-differential-equations-fall-2011/cb4143de009351bebbdd933636091b01_vP-oRQqmeg4.vtt",
+                    "captionsFile": "/courses/18-03sc-differential-equations-fall-2011/7ac8dd4e5dc35aa58dfc1d4272fb3a62_vP-oRQqmeg4.vtt",
                     "htmlFiles": [
+                        "resources/repeated-roots-critical-damping/index.html",
                         "resources/real-roots-overdamping/index.html",
-                        "resources/constant-coefficient-second-order-homogeneous-des/index.html",
                         "resources/complex-roots-underdamping/index.html",
-                        "resources/repeated-roots-critical-damping/index.html"
+                        "resources/constant-coefficient-second-order-homogeneous-des/index.html"
                     ]
                 },
                 {
@@ -155,9 +155,9 @@
                     "captionsFile": "/courses/18-03sc-differential-equations-fall-2011/1e0a2b8b8fde5ecc87a7b00a1fa1cd1e_eyNm7XGJr4s.vtt",
                     "htmlFiles": [
                         "resources/inhomogeneous-second-order-des-definitions-and-models/index.html",
+                        "resources/particular-and-general-solutions/index.html",
                         "resources/stability-of-constant-coefficient-second-order-des/index.html",
-                        "resources/definition-of-stability/index.html",
-                        "resources/particular-and-general-solutions/index.html"
+                        "resources/definition-of-stability/index.html"
                     ]
                 },
                 {
@@ -187,10 +187,10 @@
                     "videoUrl": "http://www.archive.org/download/MIT18.03S06/mit-ocw-18.03-lec15-14mar2003-220k_512kb.mp4",
                     "youtubeKey": "EWWw0jryj1A",
                     "contentLength": 99040626,
-                    "captionsFile": "/courses/18-03sc-differential-equations-fall-2011/a257aaf13f8757e6a97f1e23139c7210_EWWw0jryj1A.vtt",
+                    "captionsFile": "/courses/18-03sc-differential-equations-fall-2011/cc7bae7c6d1352a8a0211ee687abc4c8_EWWw0jryj1A.vtt",
                     "htmlFiles": [
-                        "resources/introduction-to-fourier-transform/index.html",
-                        "resources/orthogonality-relations/index.html"
+                        "resources/orthogonality-relations/index.html",
+                        "resources/introduction-to-fourier-transform/index.html"
                     ]
                 },
                 {
@@ -198,11 +198,11 @@
                     "videoUrl": "http://www.archive.org/download/MIT18.03S06/mit-ocw-18.03-lec16-17mar2003-220k_512kb.mp4",
                     "youtubeKey": "xWa5_OXI6VM",
                     "contentLength": 98929876,
-                    "captionsFile": "/courses/18-03sc-differential-equations-fall-2011/aea5e80bc4b85ce8b97cfbaba0abfd0b_xWa5_OXI6VM.vtt",
+                    "captionsFile": "/courses/18-03sc-differential-equations-fall-2011/8af2af8dcaed592a8191bd5d3d00bcc5_xWa5_OXI6VM.vtt",
                     "htmlFiles": [
-                        "resources/fourier-series-for-functions-with-period-2l/index.html",
+                        "resources/even-and-odd-functions/index.html",
                         "resources/convergence-of-fourier-series/index.html",
-                        "resources/even-and-odd-functions/index.html"
+                        "resources/fourier-series-for-functions-with-period-2l/index.html"
                     ]
                 },
                 {
@@ -210,11 +210,11 @@
                     "videoUrl": "http://www.archive.org/download/MIT18.03S06/mit-ocw-18.03-lec17-19mar2003-220k_512kb.mp4",
                     "youtubeKey": "yD0_EQLxHcw",
                     "contentLength": 91498426,
-                    "captionsFile": "/courses/18-03sc-differential-equations-fall-2011/2fc1bd4e7e36553bb45ed192cf89a956_yD0_EQLxHcw.vtt",
+                    "captionsFile": "/courses/18-03sc-differential-equations-fall-2011/48fbe9f3ff31578aaeae584c66ca5ef3_yD0_EQLxHcw.vtt",
                     "htmlFiles": [
-                        "resources/hearing-ii/index.html",
                         "resources/hearing-i/index.html",
-                        "resources/solving-odes-resonant-frequencies/index.html"
+                        "resources/solving-odes-resonant-frequencies/index.html",
+                        "resources/hearing-ii/index.html"
                     ]
                 },
                 {
@@ -222,13 +222,13 @@
                     "videoUrl": "http://www.archive.org/download/MIT18.03S06/mit-ocw-18.03-lec19-31mar2003-220k_512kb.mp4",
                     "youtubeKey": "sZ2qulI6GEk",
                     "contentLength": 95287506,
-                    "captionsFile": "/courses/18-03sc-differential-equations-fall-2011/312a1c32a4975fd5a2086cedb9520f2b_sZ2qulI6GEk.vtt",
+                    "captionsFile": "/courses/18-03sc-differential-equations-fall-2011/9810084ae5ef5b21bebbcb6aaa349326_sZ2qulI6GEk.vtt",
                     "htmlFiles": [
-                        "resources/laplace-transform-of-powers/index.html",
-                        "resources/start-of-laplace-table/index.html",
                         "resources/notation-and-linearity/index.html",
+                        "resources/laplace-transform/index.html",
                         "resources/heaviside-coverup-method/index.html",
-                        "resources/laplace-transform/index.html"
+                        "resources/laplace-transform-of-powers/index.html",
+                        "resources/start-of-laplace-table/index.html"
                     ]
                 },
                 {
@@ -239,8 +239,8 @@
                     "captionsFile": "/courses/18-03sc-differential-equations-fall-2011/4178047ca1485a9c8a46b51f039f939a_3ejfkMHr_DE.vtt",
                     "htmlFiles": [
                         "resources/example-radioactive-dumping/index.html",
-                        "resources/laplace-transform-of-convolution/index.html",
-                        "resources/example-f-t-1/index.html"
+                        "resources/example-f-t-1/index.html",
+                        "resources/laplace-transform-of-convolution/index.html"
                     ]
                 },
                 {
@@ -270,10 +270,10 @@
                     "videoUrl": "http://www.archive.org/download/MIT18.03S06/mit-ocw-18.03-lec26-18apr2003-220k_512kb.mp4",
                     "youtubeKey": "hEtWqTPPXuc",
                     "contentLength": 93206053,
-                    "captionsFile": "/courses/18-03sc-differential-equations-fall-2011/debcc35d31df5353922d0d3e8c742c9d_hEtWqTPPXuc.vtt",
+                    "captionsFile": "/courses/18-03sc-differential-equations-fall-2011/19fe92e4e6fa5b5cb5446015c88ce978_hEtWqTPPXuc.vtt",
                     "htmlFiles": [
-                        "resources/complex-eigenvalues-example/index.html",
-                        "resources/three-chamber-mixing-example-repeated-roots/index.html"
+                        "resources/three-chamber-mixing-example-repeated-roots/index.html",
+                        "resources/complex-eigenvalues-example/index.html"
                     ]
                 },
                 {
@@ -281,10 +281,10 @@
                     "videoUrl": "http://www.archive.org/download/MIT18.03S06/mit-ocw-18.03-lec27-23apr2003-220k_512kb.mp4",
                     "youtubeKey": "e3FfmXtkppM",
                     "contentLength": 100832432,
-                    "captionsFile": "/courses/18-03sc-differential-equations-fall-2011/b4cb47927c115892b1edbad1ce7c8f7e_e3FfmXtkppM.vtt",
+                    "captionsFile": "/courses/18-03sc-differential-equations-fall-2011/8dc8ceca3a675894920cc54f54e8e0b9_e3FfmXtkppM.vtt",
                     "htmlFiles": [
-                        "resources/sketching-solutions/index.html",
-                        "resources/more-sketching-solutions/index.html"
+                        "resources/more-sketching-solutions/index.html",
+                        "resources/sketching-solutions/index.html"
                     ]
                 },
                 {
@@ -292,11 +292,11 @@
                     "videoUrl": "http://www.archive.org/download/MIT18.03S06/mit-ocw-18.03-lec28-25apr2003-220k_512kb.mp4",
                     "youtubeKey": "2SuTN8rpe4I",
                     "contentLength": 93770900,
-                    "captionsFile": "/courses/18-03sc-differential-equations-fall-2011/e4d363a26a3b5618bd0f4cae35f4c2a1_2SuTN8rpe4I.vtt",
+                    "captionsFile": "/courses/18-03sc-differential-equations-fall-2011/6885d4b85cb95fea856f020ffd8cc5d5_2SuTN8rpe4I.vtt",
                     "htmlFiles": [
+                        "resources/fundamental-matrices/index.html",
                         "resources/theory-of-systems/index.html",
-                        "resources/variation-of-parameters/index.html",
-                        "resources/fundamental-matrices/index.html"
+                        "resources/variation-of-parameters/index.html"
                     ]
                 },
                 {
@@ -304,12 +304,12 @@
                     "videoUrl": "http://www.archive.org/download/MIT18.03S06/mit-ocw-18.03-lec29-28apr2003-220k_512kb.mp4",
                     "youtubeKey": "zreI4HllD80",
                     "contentLength": 97731826,
-                    "captionsFile": "/courses/18-03sc-differential-equations-fall-2011/3e01f8cbf30950b09aa89ccb1c9c886c_zreI4HllD80.vtt",
+                    "captionsFile": "/courses/18-03sc-differential-equations-fall-2011/e8f606ecb80f5f5993c67a83d61944fe_zreI4HllD80.vtt",
                     "htmlFiles": [
+                        "resources/the-matrix-exponential-ii/index.html",
                         "resources/example-solving-a-system-with-the-matrix-exponential/index.html",
-                        "resources/the-matrix-exponential-i/index.html",
                         "resources/calculating-the-exponential-matrix/index.html",
-                        "resources/the-matrix-exponential-ii/index.html"
+                        "resources/the-matrix-exponential-i/index.html"
                     ]
                 },
                 {
@@ -317,12 +317,12 @@
                     "videoUrl": "http://www.archive.org/download/MIT18.03S06/mit-ocw-18.03-lec32-07may2003-220k_512kb.mp4",
                     "youtubeKey": "z-meBrqcy_I",
                     "contentLength": 91736379,
-                    "captionsFile": "/courses/18-03sc-differential-equations-fall-2011/951461b7e08e5196ac0c0cadd8a81194_z-meBrqcy_I.vtt",
+                    "captionsFile": "/courses/18-03sc-differential-equations-fall-2011/10a121fa55fc5395ab9c6b7c65ecbf0e_z-meBrqcy_I.vtt",
                     "htmlFiles": [
-                        "resources/non-existence-of-limit-cycles/index.html",
+                        "resources/a-story-about-limit-cycles/index.html",
                         "resources/limit-cycles/index.html",
                         "resources/existence-of-limit-cycles/index.html",
-                        "resources/a-story-about-limit-cycles/index.html"
+                        "resources/non-existence-of-limit-cycles/index.html"
                     ]
                 },
                 {
