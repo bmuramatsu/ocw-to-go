@@ -85,6 +85,15 @@ The following scripts are available. They can be run with `npm run <script>`.
     but disregards type errors.
 - `watch`: Watch the project for changes and rebuild automatically.
 
+### Bash scripts
+
+Some scripts are implemented with bash instead. They can be run `./scripts/<script>`.
+
+- `create_course_zip.sh`: Takes a directory as an argument, it creates a zip
+file of the contents of the directory. The name of the zip file will match the
+name of the directory. example: `./scripts/create_course_zip.sh ../course-1`
+will produce `./generate_zips/course-1.zip`
+
 ## Deployment
 
 The site is deployed to Cloudflare Pages. This is done automatically when
