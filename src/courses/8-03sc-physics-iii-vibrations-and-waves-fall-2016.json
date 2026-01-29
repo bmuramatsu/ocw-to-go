@@ -20,9 +20,9 @@
     "courseLevel": "Undergraduate",
     "cardImg": "/images/course_cards/8-03sc-physics-iii-vibrations-and-waves-fall-2016.jpg",
     "imgAltText": "A water drop on top and water column with waves below it.",
-    "file": "https://files.ocwtogo.org/8.03sc-fall-2016.zip",
-    "downloadSize": 135513634,
-    "diskSize": 259292232,
+    "file": "https://files.ocwtogo.org/8.03sc-fall-2016-v4.zip",
+    "downloadSize": 135513431,
+    "diskSize": 259292300,
     "description": "Vibrations and waves are everywhere. If you take any system and disturb it from a stable equilibrium, the resultant motion will be waves and vibrations. Think of a guitar string—pluck the string, and it vibrates. The sound waves generated make their way to our ears, and we hear the string’s sound. Our eyes see what’s happening because they receive the electromagnetic waves of the light reflected from the guitar string, so that we can recognize the beautiful sinusoidal waves on the string. In fact, without vibrations and waves, we could not recognize the universe around us at all!\n\n[![Click to get started.](/images/button_start.png)](pages/syllabus)\n\nThe amazing thing is that we can describe many fascinating phenomena arising from very different physical systems with mathematics. This course will provide you with the concepts and mathematical tools necessary to understand and explain a broad range of vibrations and waves. You will learn that waves come from many interconnected (coupled) objects when they are vibrating together. We will discuss many of these phenomena, along with related topics, including mechanical vibrations and waves, sound waves, electromagnetic waves, optics, and gravitational waves.\n",
     "descriptionHtml": "<p>Vibrations and waves are everywhere. If you take any system and disturb it from a stable equilibrium, the resultant motion will be waves and vibrations. Think of a guitar string—pluck the string, and it vibrates. The sound waves generated make their way to our ears, and we hear the string’s sound. Our eyes see what’s happening because they receive the electromagnetic waves of the light reflected from the guitar string, so that we can recognize the beautiful sinusoidal waves on the string. In fact, without vibrations and waves, we could not recognize the universe around us at all!</p>\n<p><a href=\"pages/syllabus/index.html\"><img src=\"/images/button_start.png\" alt=\"Click to get started.\"></a></p>\n<p>The amazing thing is that we can describe many fascinating phenomena arising from very different physical systems with mathematics. This course will provide you with the concepts and mathematical tools necessary to understand and explain a broad range of vibrations and waves. You will learn that waves come from many interconnected (coupled) objects when they are vibrating together. We will discuss many of these phenomena, along with related topics, including mechanical vibrations and waves, sound waves, electromagnetic waves, optics, and gravitational waves.</p>\n",
     "videoGroups": [
@@ -34,13 +34,13 @@
                     "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec01_300k.mp4",
                     "youtubeKey": "4ysFC9vd3GE",
                     "contentLength": 134446500,
-                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/8085d63bf3f5547d9b04fa06bc67a179_4ysFC9vd3GE.vtt",
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/922daba2d7ea58cf930cf3fed404f72e_4ysFC9vd3GE.vtt",
                     "htmlFiles": [
-                        "resources/lecture-1-video/index.html",
-                        "resources/lecture-1-video-pop1/index.html",
-                        "resources/lecture-1-video-pop2/index.html",
                         "resources/lecture-1-video-pop3/index.html",
-                        "resources/lecture-1-video-1/index.html"
+                        "resources/lecture-1-video-1/index.html",
+                        "resources/lecture-1-video-pop2/index.html",
+                        "resources/lecture-1-video/index.html",
+                        "resources/lecture-1-video-pop1/index.html"
                     ]
                 },
                 {
@@ -48,20 +48,20 @@
                     "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec02_300k.mp4",
                     "youtubeKey": "T2n6fVybLcU",
                     "contentLength": 179950167,
-                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/06cbe36eb7f05f8e842f6b2ad116724a_T2n6fVybLcU.vtt",
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/702050c87d98581b84c9271fafa0e590_T2n6fVybLcU.vtt",
                     "htmlFiles": [
-                        "resources/copy9_of_lecture-2-video/index.html",
-                        "resources/copy6_of_lecture-2-video/index.html",
-                        "resources/copy4_of_lecture-2-video/index.html",
-                        "resources/copy10_of_lecture-2-video/index.html",
-                        "resources/lecture-2-video/index.html",
-                        "resources/copy5_of_lecture-2-video/index.html",
                         "resources/lecture-2-video-1/index.html",
-                        "resources/copy2_of_lecture-2-video/index.html",
-                        "resources/copy3_of_lecture-2-video/index.html",
-                        "resources/copy_of_lecture-2-video/index.html",
+                        "resources/copy9_of_lecture-2-video/index.html",
+                        "resources/lecture-2-video/index.html",
+                        "resources/copy4_of_lecture-2-video/index.html",
                         "resources/copy7_of_lecture-2-video/index.html",
-                        "resources/copy8_of_lecture-2-video/index.html"
+                        "resources/copy2_of_lecture-2-video/index.html",
+                        "resources/copy6_of_lecture-2-video/index.html",
+                        "resources/copy3_of_lecture-2-video/index.html",
+                        "resources/copy8_of_lecture-2-video/index.html",
+                        "resources/copy5_of_lecture-2-video/index.html",
+                        "resources/copy_of_lecture-2-video/index.html",
+                        "resources/copy10_of_lecture-2-video/index.html"
                     ]
                 },
                 {
@@ -72,11 +72,11 @@
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/7390e1408fba5124963bf4725036d01a_FCFpaKcpuXQ.vtt",
                     "htmlFiles": [
                         "resources/lecture-3-video-1/index.html",
-                        "resources/copy4_of_lecture-3-video/index.html",
-                        "resources/copy_of_lecture-3-video/index.html",
-                        "resources/lecture-3-video/index.html",
                         "resources/copy2_of_lecture-3-video/index.html",
-                        "resources/copy3_of_lecture-3-video/index.html"
+                        "resources/lecture-3-video/index.html",
+                        "resources/copy4_of_lecture-3-video/index.html",
+                        "resources/copy3_of_lecture-3-video/index.html",
+                        "resources/copy_of_lecture-3-video/index.html"
                     ]
                 },
                 {
@@ -84,16 +84,16 @@
                     "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec04_300k.mp4",
                     "youtubeKey": "BX4QPdP7fT8",
                     "contentLength": 182848361,
-                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/65e59491ef93581dbfc18ac103cd1313_BX4QPdP7fT8.vtt",
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/b1280e47fa135464803bd7353e986605_BX4QPdP7fT8.vtt",
                     "htmlFiles": [
-                        "resources/copy3_of_lecture-4-video/index.html",
+                        "resources/copy2_of_lecture-4-video/index.html",
                         "resources/copy_of_lecture-4-video/index.html",
                         "resources/lecture-4-video/index.html",
-                        "resources/copy2_of_lecture-4-video/index.html",
-                        "resources/copy6_of_lecture-4-video/index.html",
+                        "resources/copy3_of_lecture-4-video/index.html",
                         "resources/lecture-4-video-1/index.html",
-                        "resources/copy4_of_lecture-4-video/index.html",
-                        "resources/copy5_of_lecture-4-video/index.html"
+                        "resources/copy6_of_lecture-4-video/index.html",
+                        "resources/copy5_of_lecture-4-video/index.html",
+                        "resources/copy4_of_lecture-4-video/index.html"
                     ]
                 },
                 {
@@ -101,14 +101,14 @@
                     "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec05_300k.mp4",
                     "youtubeKey": "I0YACDaY-ww",
                     "contentLength": 187533659,
-                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/59e531cf7f7b54d4893d9c70edb76e84_I0YACDaY-ww.vtt",
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/74e9abdac26d5630bae2a4c1532d2228_I0YACDaY-ww.vtt",
                     "htmlFiles": [
+                        "resources/lecture-5-video-1/index.html",
                         "resources/copy2_of_lecture-5-video/index.html",
                         "resources/copy3_of_lecture-5-video/index.html",
-                        "resources/copy4_of_lecture-5-video/index.html",
-                        "resources/lecture-5-video-1/index.html",
                         "resources/lecture-5-video/index.html",
-                        "resources/copy_of_lecture-5-video/index.html"
+                        "resources/copy_of_lecture-5-video/index.html",
+                        "resources/copy4_of_lecture-5-video/index.html"
                     ]
                 },
                 {
@@ -120,8 +120,8 @@
                     "htmlFiles": [
                         "resources/lecture-6-video/index.html",
                         "resources/lecture-6-video-1/index.html",
-                        "resources/copy_of_lecture-6-video/index.html",
-                        "resources/copy2_of_lecture-6-video/index.html"
+                        "resources/copy2_of_lecture-6-video/index.html",
+                        "resources/copy_of_lecture-6-video/index.html"
                     ]
                 },
                 {
@@ -129,12 +129,12 @@
                     "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec07_300k.mp4",
                     "youtubeKey": "b1eKhyC9TTo",
                     "contentLength": 175908841,
-                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/290f5acd3bd357eb8b53506108d821eb_b1eKhyC9TTo.vtt",
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/4bcc044c60255c36a49619ed7ba776ea_b1eKhyC9TTo.vtt",
                     "htmlFiles": [
-                        "resources/copy2_of_lecture-7-video/index.html",
-                        "resources/lecture-7-video/index.html",
                         "resources/copy_of_lecture-7-video/index.html",
-                        "resources/lecture-7-video-1/index.html"
+                        "resources/lecture-7-video-1/index.html",
+                        "resources/copy2_of_lecture-7-video/index.html",
+                        "resources/lecture-7-video/index.html"
                     ]
                 },
                 {
@@ -142,11 +142,11 @@
                     "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec08_300k.mp4",
                     "youtubeKey": "J1uHGy1tRmM",
                     "contentLength": 162205264,
-                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/dd8b93bad4015a4fa01e8f34f0c4ec48_J1uHGy1tRmM.vtt",
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/682c38e90a6a57ac93e3f94a34694952_J1uHGy1tRmM.vtt",
                     "htmlFiles": [
-                        "resources/lecture-8-video/index.html",
                         "resources/lecture-8-video-1/index.html",
-                        "resources/copy_of_lecture-8-video/index.html"
+                        "resources/copy_of_lecture-8-video/index.html",
+                        "resources/lecture-8-video/index.html"
                     ]
                 },
                 {
@@ -154,13 +154,13 @@
                     "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec09_300k.mp4",
                     "youtubeKey": "1JeBWHzrRD4",
                     "contentLength": 177919263,
-                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/81ab267f179750aca3380a7706636362_1JeBWHzrRD4.vtt",
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/22a38ff8b73a581a8a91267e7ab3c094_1JeBWHzrRD4.vtt",
                     "htmlFiles": [
-                        "resources/copy3_of_lecture-9-video/index.html",
-                        "resources/copy2_of_lecture-9-video/index.html",
-                        "resources/lecture-9-video-1/index.html",
                         "resources/copy_of_lecture-9-video/index.html",
-                        "resources/lecture-9-video/index.html"
+                        "resources/copy3_of_lecture-9-video/index.html",
+                        "resources/lecture-9-video/index.html",
+                        "resources/copy2_of_lecture-9-video/index.html",
+                        "resources/lecture-9-video-1/index.html"
                     ]
                 },
                 {
@@ -168,13 +168,13 @@
                     "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec10_300k.mp4",
                     "youtubeKey": "SnNmbVH5DAM",
                     "contentLength": 173306502,
-                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/dcf025c57dab57bba3fd636db011dd57_SnNmbVH5DAM.vtt",
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/2bf109aa63da578981965e7d492edc7b_SnNmbVH5DAM.vtt",
                     "htmlFiles": [
+                        "resources/lecture-10-video-1/index.html",
                         "resources/copy2_of_lecture-10-video/index.html",
-                        "resources/copy_of_lecture-10-video/index.html",
-                        "resources/copy3_of_lecture-10-video/index.html",
                         "resources/lecture-10-video/index.html",
-                        "resources/lecture-10-video-1/index.html"
+                        "resources/copy_of_lecture-10-video/index.html",
+                        "resources/copy3_of_lecture-10-video/index.html"
                     ]
                 },
                 {
@@ -182,12 +182,12 @@
                     "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec11_300k.mp4",
                     "youtubeKey": "RhIh1zw0-BM",
                     "contentLength": 172734547,
-                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/21e0241153d458c4a77ea9e842d7f08e_RhIh1zw0-BM.vtt",
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/43646b1fcbb0575498557e3faec4312b_RhIh1zw0-BM.vtt",
                     "htmlFiles": [
-                        "resources/lecture-11-video/index.html",
-                        "resources/copy2_of_lecture-11-video/index.html",
                         "resources/copy_of_lecture-11-video/index.html",
-                        "resources/lecture-11-video-1/index.html"
+                        "resources/lecture-11-video/index.html",
+                        "resources/lecture-11-video-1/index.html",
+                        "resources/copy2_of_lecture-11-video/index.html"
                     ]
                 },
                 {
@@ -195,10 +195,10 @@
                     "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec12_300k.mp4",
                     "youtubeKey": "8kcvyoHsXrw",
                     "contentLength": 178128449,
-                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/599c1bbea83c511398f606ba040398ff_8kcvyoHsXrw.vtt",
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/fd6aeccef8075f69932c9b2f9c49d8e3_8kcvyoHsXrw.vtt",
                     "htmlFiles": [
-                        "resources/lecture-12-video-1/index.html",
-                        "resources/lecture-12-video/index.html"
+                        "resources/lecture-12-video/index.html",
+                        "resources/lecture-12-video-1/index.html"
                     ]
                 },
                 {
@@ -206,11 +206,11 @@
                     "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec13_300k.mp4",
                     "youtubeKey": "QxemLb8-5AA",
                     "contentLength": 173010516,
-                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/917f9c799fa6515c992b22795ccbe813_QxemLb8-5AA.vtt",
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/67e9408790d55e17be778fbf3e413e6d_QxemLb8-5AA.vtt",
                     "htmlFiles": [
-                        "resources/lecture-13-video-1/index.html",
+                        "resources/copy_of_lecture-13-video/index.html",
                         "resources/lecture-13-video/index.html",
-                        "resources/copy_of_lecture-13-video/index.html"
+                        "resources/lecture-13-video-1/index.html"
                     ]
                 },
                 {
@@ -229,10 +229,10 @@
                     "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec15_300k.mp4",
                     "youtubeKey": "In0E5_JrPpo",
                     "contentLength": 174303259,
-                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/d708bf3163bd515284e2333d09cb20ba_In0E5_JrPpo.vtt",
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/3c32e179349f559aa86b42fe2a179b6e_In0E5_JrPpo.vtt",
                     "htmlFiles": [
-                        "resources/lecture-15-video/index.html",
                         "resources/copy_of_lecture-15-video/index.html",
+                        "resources/lecture-15-video/index.html",
                         "resources/lecture-15-video-1/index.html"
                     ]
                 },
@@ -244,10 +244,10 @@
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/2442e1653f2151ed8c8fde06395846a1_kKIQ1h9UuA.vtt",
                     "htmlFiles": [
                         "resources/copy_of_lecture-16-video/index.html",
-                        "resources/lecture-16-video-1/index.html",
                         "resources/copy2_of_lecture-16-video/index.html",
                         "resources/lecture-16-video/index.html",
-                        "resources/copy3_of_lecture-16-video/index.html"
+                        "resources/copy3_of_lecture-16-video/index.html",
+                        "resources/lecture-16-video-1/index.html"
                     ]
                 },
                 {
@@ -260,8 +260,8 @@
                         "resources/lecture-17-video-1/index.html",
                         "resources/copy3_of_lecture-17-video/index.html",
                         "resources/lecture-17-video/index.html",
-                        "resources/copy2_of_lecture-17-video/index.html",
-                        "resources/copy_of_lecture-17-video/index.html"
+                        "resources/copy_of_lecture-17-video/index.html",
+                        "resources/copy2_of_lecture-17-video/index.html"
                     ]
                 },
                 {
@@ -269,15 +269,15 @@
                     "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec18_300k.mp4",
                     "youtubeKey": "Dlhma3z57SA",
                     "contentLength": 198246904,
-                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/713a50edf0ea5c58b0702883f1807827_Dlhma3z57SA.vtt",
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/a54e2399c1ba5f6396c9ad28dc2559d8_Dlhma3z57SA.vtt",
                     "htmlFiles": [
-                        "resources/copy_of_lecture-18-video/index.html",
-                        "resources/copy5_of_lecture-18-video/index.html",
-                        "resources/copy3_of_lecture-18-video/index.html",
                         "resources/copy2_of_lecture-18-video/index.html",
-                        "resources/copy4_of_lecture-18-video/index.html",
+                        "resources/lecture-18-video-1/index.html",
                         "resources/lecture-18-video/index.html",
-                        "resources/lecture-18-video-1/index.html"
+                        "resources/copy4_of_lecture-18-video/index.html",
+                        "resources/copy_of_lecture-18-video/index.html",
+                        "resources/copy3_of_lecture-18-video/index.html",
+                        "resources/copy5_of_lecture-18-video/index.html"
                     ]
                 },
                 {
@@ -288,9 +288,9 @@
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/377630a8b2845b4fa940e158f1e8765e_sBKHUPDUI1o.vtt",
                     "htmlFiles": [
                         "resources/copy2_of_lecture-19-video/index.html",
-                        "resources/lecture-19-video/index.html",
+                        "resources/lecture-19-video-1/index.html",
                         "resources/copy_of_lecture-19-video/index.html",
-                        "resources/lecture-19-video-1/index.html"
+                        "resources/lecture-19-video/index.html"
                     ]
                 },
                 {
@@ -298,13 +298,13 @@
                     "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec20_300k.mp4",
                     "youtubeKey": "VkbtIDSHfSc",
                     "contentLength": 193643116,
-                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/a6d82548358553d1bfa588bb5560ee8b_VkbtIDSHfSc.vtt",
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/8c5c14a231475515b281685e43fc2a45_VkbtIDSHfSc.vtt",
                     "htmlFiles": [
-                        "resources/lecture-20-video-1/index.html",
                         "resources/copy3_of_lecture-20-video/index.html",
+                        "resources/lecture-20-video/index.html",
                         "resources/copy_of_lecture-20-video/index.html",
-                        "resources/copy2_of_lecture-20-video/index.html",
-                        "resources/lecture-20-video/index.html"
+                        "resources/lecture-20-video-1/index.html",
+                        "resources/copy2_of_lecture-20-video/index.html"
                     ]
                 },
                 {
@@ -312,14 +312,14 @@
                     "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec21_300k.mp4",
                     "youtubeKey": "mqhO9GT8hD4",
                     "contentLength": 185526927,
-                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/5662f2c096015f92ac324c2c36c8f5ba_mqhO9GT8hD4.vtt",
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/9352bc02a6fb5ccb93cb5a50a57bc82c_mqhO9GT8hD4.vtt",
                     "htmlFiles": [
-                        "resources/copy4_of_lecture-21-video/index.html",
                         "resources/lecture-21-video-1/index.html",
-                        "resources/copy3_of_lecture-21-video/index.html",
+                        "resources/copy2_of_lecture-21-video/index.html",
                         "resources/copy_of_lecture-21-video/index.html",
+                        "resources/copy3_of_lecture-21-video/index.html",
                         "resources/lecture-21-video/index.html",
-                        "resources/copy2_of_lecture-21-video/index.html"
+                        "resources/copy4_of_lecture-21-video/index.html"
                     ]
                 },
                 {
@@ -330,8 +330,8 @@
                     "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/a20c45c5f890583d8b68c4aedf50ff1f_FY6iXM9X5Fo.vtt",
                     "htmlFiles": [
                         "resources/lecture-22-video/index.html",
-                        "resources/copy_of_lecture-22-video/index.html",
-                        "resources/lecture-22-video-1/index.html"
+                        "resources/lecture-22-video-1/index.html",
+                        "resources/copy_of_lecture-22-video/index.html"
                     ]
                 },
                 {
@@ -339,10 +339,10 @@
                     "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec23_300k.mp4",
                     "youtubeKey": "Roj7FVjl-gw",
                     "contentLength": 178379437,
-                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/d5e959123eea585cb9dfc45e68c21f38_Roj7FVjl-gw.vtt",
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/5e9d732821ef51da8623b407b92c130b_Roj7FVjl-gw.vtt",
                     "htmlFiles": [
-                        "resources/lecture-23-video-1/index.html",
-                        "resources/lecture-23-video/index.html"
+                        "resources/lecture-23-video/index.html",
+                        "resources/lecture-23-video-1/index.html"
                     ]
                 },
                 {
@@ -350,10 +350,10 @@
                     "videoUrl": "http://archive.org/download/MIT8.03SCF16/MIT8_03SCF16_lec24_300k.mp4",
                     "youtubeKey": "jwh7LqjT4w0",
                     "contentLength": 163484879,
-                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/66ed6bb669765b0993a60c82a674c4cc_jwh7LqjT4w0.vtt",
+                    "captionsFile": "/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/046a59034bb05885bf5dc3c852e7d4f2_jwh7LqjT4w0.vtt",
                     "htmlFiles": [
-                        "resources/lecture-24-video-1/index.html",
-                        "resources/lecture-24-video/index.html"
+                        "resources/lecture-24-video/index.html",
+                        "resources/lecture-24-video-1/index.html"
                     ]
                 }
             ]
