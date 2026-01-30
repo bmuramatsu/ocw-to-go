@@ -7,7 +7,6 @@
 // without false positives, and we haven't encountered that case yet.
 export function fixTrailingSlashes() {
   const links = document.querySelectorAll("a[href^='.'][href$='/']");
-  console.log(links, "links");
 
   links.forEach((link) => {
     const href = link.getAttribute("href")! + "index.html";
@@ -15,14 +14,14 @@ export function fixTrailingSlashes() {
   });
 
   // These links end with a training slash, then a hash. like ./path/#section (or possibly ./path/#section.index.html, but that case is handled by fixMalformedInPageLinks)
-  const hashLinks = document.querySelectorAll("a[href^='.'][href*='/#']")
-  console.log(hashLinks, "hashlinks");
+  const hashLinks = document.querySelectorAll("a[href^='.'][href*='/#']");
 
   hashLinks.forEach((link) => {
-    debugger
+    debugger;
     const href = link.getAttribute("href")!;
-    const position = href.indexOf("/#")+1;
-    const newHref = href.slice(0, position) + "index.html" + href.slice(position);
+    const position = href.indexOf("/#") + 1;
+    const newHref =
+      href.slice(0, position) + "index.html" + href.slice(position);
     link.setAttribute("href", newHref);
   });
 }
@@ -34,7 +33,6 @@ export function fixMalformedInPageLinks() {
   document
     .querySelectorAll<HTMLAnchorElement>("a[href*='#'][href$='/index.html']")
     .forEach((a) => {
-      console.log(a, "malformed link");
       const href = a.getAttribute("href")!.replace(/\/index\.html$/, "");
       a.setAttribute("href", href);
     });
