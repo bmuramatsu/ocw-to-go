@@ -9,14 +9,16 @@ import overrideNavButtons from "./course/override_nav_buttons";
 import fixFileDownloads from "./course/fix_file_downloads";
 import autoExpandResourceList from "./course/auto_expand_resource_list";
 import replaceResourceItems from "./course/replace_resource_items";
-import fixTrailingSlashes from "./course/fix_trailing_slashes";
+import {
+  fixTrailingSlashes,
+  fixMalformedInPageLinks,
+} from "./course/fix_links";
 import renderPdfs from "./course/render_pdfs";
 import injectOfflineVideos from "./course/inject_offline_videos";
 import addUnloadListener from "./course/unload_listener";
 import makeOutsideLinksOpenInNewTab from "./course/make_outside_links_open_in_new_tab";
 import fixBadLinks from "./course/fix_bad_links";
 import removeBrokenImages from "./course/remove_broken_images";
-import fixMalformedInPageLinks from "./course/fix_malformed_in_page_links";
 
 function init() {
   addUnloadListener();
