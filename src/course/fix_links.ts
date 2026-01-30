@@ -17,7 +17,6 @@ export function fixTrailingSlashes() {
   const hashLinks = document.querySelectorAll("a[href^='.'][href*='/#']");
 
   hashLinks.forEach((link) => {
-    debugger;
     const href = link.getAttribute("href")!;
     const position = href.indexOf("/#") + 1;
     const newHref =
